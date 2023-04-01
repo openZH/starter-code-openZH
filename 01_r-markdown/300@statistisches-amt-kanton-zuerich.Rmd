@@ -1,0 +1,80 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2023-02-11"
+output: html_document
+---
+
+## Dataset: Steuerkraft (arith. Mittel 3 Jahre) [Mio.Fr.]
+
+Steuerkraft absolut (Nettosteuerertrag zu 100%): arithm. Mittel der letzten 3 Jahre.
+
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/300@statistisches-amt-kanton-zuerich)
+
+Auto generated R starter code for data set 300@statistisches-amt-kanton-zuerich.
+
+## Metadata
+
+- **Issued** `2016-01-20T20:16:00`
+- **Modified** `2022-10-10T09:13:50`
+- **Startdate** `1990-12-31`
+- **Enddate** `2021-12-31`
+- **Theme** `['Volkswirtschaft']`
+- **Keyword** `['bezirke', 'gemeindefinanzen', 'gemeinden', 'kanton_zuerich', 'steuerkraft', 'steuern', 'ogd']`
+- **Publisher** `['Statistisches Amt des Kantons Zürich']`
+- **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 230
+# Title                    : Steuerkraft (arith. Mittel 3 Jahre) [Mio.Fr.]
+# Description              : None
+# Issued                   : 2016-01-21T16:30:35
+# Modified                 : 2022-10-10T09:13:50
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_375.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Statistisches Amt des Kantons Zürich | Data Shop | datashop@statistik.zh.ch

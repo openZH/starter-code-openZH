@@ -1,0 +1,90 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2023-02-11"
+output: html_document
+---
+
+## Dataset: Bevölkerungsprognose für den Kanton Zürich
+
+Bevölkerung nach Bezirk, Region, Geschlecht und Alter (5-Jahres-Altersklassen), nach zivilrechtlichem Wohnsitz, Daten per Ende Jahr. Dieser Datensatz enthält die aktuellen Prognosedaten. Daten von früheren Prognoseläufen finden Sie in separaten Datensätzen im Datenkatalog. Quellen: Kantonale Bevölkerungserhebung KBE (effektive Bevölkerung), Szenario «Trend ZH 2022» (prognostizierte Bevölkerung), Statistisches Amt des Kantons Zürich.
+
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/705@statistisches-amt-kanton-zuerich)
+
+Auto generated R starter code for data set 705@statistisches-amt-kanton-zuerich.
+
+## Metadata
+
+- **Issued** `2020-10-14T22:35:00`
+- **Modified** `2022-12-02T11:52:08`
+- **Startdate** `2010-12-31`
+- **Enddate** `2050-12-31`
+- **Theme** `['Bevölkerung']`
+- **Keyword** `['altersklassen', 'bevoelkerung', 'bevoelkerungsprognosen', 'bevoelkerungswachstum', 'einwohnerzahl', 'geschlecht', 'prognosen', 'raumplanungsregionen', 'bevoelkerungsszenarien', 'bevoelkerungsstatistik', 'einwohner', 'ogd']`
+- **Publisher** `['Statistisches Amt des Kantons Zürich']`
+- **Landingpage** `https://www.zh.ch/de/soziales/bevoelkerungszahlen/zukuenftige_entwicklung.html`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 2 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 1740
+# Title                    : Bevölkerungsprognose Trend ZH 2022, nach Region, Geschlecht und 20 Altersklassen
+# Description              : Bevölkerung 2010–2050 nach Region, Geschlecht und Alter, nach zivilrechtlichem Wohnsitz, Daten per Ende Jahr. Maschinenlesbares Format.
+# Issued                   : 2020-10-14T23:17:49
+# Modified                 : 2022-12-02T10:22:53
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000705_00001740.csv')
+
+# Distribution 1
+# Ktzhdistid               : 1741
+# Title                    : Bevölkerungsprognose Trend ZH 2022, nach Bezirk, Geschlecht und 20 Altersklassen
+# Description              : Bevölkerung 2010–2050 nach Bezirk, Geschlecht und Alter, nach zivilrechtlichem Wohnsitz, Daten per Ende Jahr. Maschinenlesbares Format.
+# Issued                   : 2020-10-14T23:39:00
+# Modified                 : 2022-12-02T10:22:12
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000705_00001741.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Statistisches Amt des Kantons Zürich | Analysen & Studien | sebastian.weingartner@statistik.ji.zh.ch

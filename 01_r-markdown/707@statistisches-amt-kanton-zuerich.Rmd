@@ -1,0 +1,80 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2023-02-11"
+output: html_document
+---
+
+## Dataset: COVID_19 Massnahmen im Kanton Zürich
+
+Geltende Massnahmen auf dem Gebiet des Kantons Zürich sowie Schulferienzeiten im Bezirk Zürich. Spaltenüberschriften: 'Datum' = Beginn der Massnahme; 'Raum' = Gebiet auf das sich die Massnahme resp. Schulferienzeit bezieht; 'Kategorisierung' = Art der Massnahme (bzw. Schulferien)
+
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/707@statistisches-amt-kanton-zuerich)
+
+Auto generated R starter code for data set 707@statistisches-amt-kanton-zuerich.
+
+## Metadata
+
+- **Issued** `2020-11-06T00:00:00`
+- **Modified** `2022-02-24T11:29:57`
+- **Startdate** `2020-02-28`
+- **Enddate** `2022-02-03`
+- **Theme** `['Kriminalität, Strafrecht', 'Gesundheit', 'Mobilität und Verkehr']`
+- **Keyword** `['bezirke', 'gastgewerbe', 'gewerbe', 'kanton_zuerich', 'oeffentlicher_verkehr', 'schulen', 'corona', 'sars-cov-2', 'mobilitaet', 'covid19', 'ogd']`
+- **Publisher** `['Statistisches Amt des Kantons Zürich']`
+- **Landingpage** `https://www.zh.ch/de/gesundheit/coronavirus/zahlen-fakten-covid-19.html?keyword=covid19`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 1745
+# Title                    : COVID_19 Massnahmen im Kanton Zürich
+# Description              : None
+# Issued                   : 2020-11-06T17:05:03
+# Modified                 : 2022-02-24T11:29:57
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
+
+df <- read_delim('https://raw.githubusercontent.com/statistikZH/covid19zeitmarker/master/covid19zeitmarker.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Statistisches Amt des Kantons Zürich | Data Shop | datashop@statistik.zh.ch
