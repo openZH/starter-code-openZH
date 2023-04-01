@@ -1,0 +1,80 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2023-04-01"
+output: html_document
+---
+
+## Dataset: Anzahl Einbrüche nach Gemeinden des Kantons Zürich
+
+Anzahl der Einbrüche wie sie in der Kriminalstatistik der Kantonspolizei Zürich erfasst werden. Aufgegliedert nach Gemeinden (im Fall der Stadt Zürich nach Stadtkreisen) und ergänzt mit Angaben zur Bevölkerungszahl. Die polizeiliche Kriminalstatistik (PKS) des Kantons Zürich wird jährlich publiziert. Die polizeiliche Kriminalstatistik verzeichnet nur die polizeilich bekannt gewordene Kriminalität - das sogenannte Hellfeld. Sie ist eine Ausgangsstatistik. D.h. die Straftaten erscheinen nicht zum Tatzeitpunkt in der Statistik. Ausschlaggebend für die Zählung in der PKS ist der Zeitpunkt, an dem die Polizei einen ersten Rapport zur Straftat abgeschlossen hat.
+
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/2042@kantonspolizei-kanton-zuerich)
+
+Auto generated R starter code for data set 2042@kantonspolizei-kanton-zuerich.
+
+## Metadata
+
+- **Issued** `2023-03-22T10:32:20`
+- **Modified** `2023-03-22T10:32:20`
+- **Startdate** `2023-01-01`
+- **Enddate** `2023-12-31`
+- **Theme** `['Kriminalität, Strafrecht']`
+- **Keyword** `['gemeinden', 'kriminalitaet', 'strafbare_handlungen', 'strafdelikte', 'straftaten', 'einbrueche', 'ogd']`
+- **Publisher** `['Kantonspolizei des Kantons Zürich']`
+- **Landingpage** `None`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 4083
+# Title                    : Anzahl Einbrüche nach Gemeinden und in den Stadtkreisen der Stadt Zürich
+# Description              : Das Total Einbrüche beinhaltet alle polizeilich bekannten, vollendeten und versuchten Einbruchs- und Einschleichdiebstähle. Die Bevölkerungszahlen sind der Einwohnerstatistik des Bundes am Ende des Vorjahres entnommen (bis 2010 ESPOP, ab 2011 STATPOP). Damit wird die Häufigkeitszahl berechnet (Anzahl registrierten Straftaten pro 1000 Einwohner). 
+# Issued                   : 2023-03-22T10:32:20
+# Modified                 : 2023-03-27T08:35:02
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002042_00004083.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Kantonspolizei des Kantons Zürich | Abteilung Kriminalpolizeiliches Datenmanagement | kdm-kla@kapo.zh.ch

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-02-11"
+date: "2023-04-01"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 167@statistisches-amt-kanton-zuerich.
 - **Modified** `2022-11-03T12:45:06`
 - **Startdate** `1990-12-31`
 - **Enddate** `2021-12-31`
-- **Theme** `['Volkswirtschaft']`
+- **Theme** `['Öffentliche Verwaltung und Finanzen']`
 - **Keyword** `['bezirke', 'gemeindefinanzen', 'gemeinden', 'kanton_zuerich', 'nettoaufwendungen', 'oeffentliche_finanzen', 'volkswirtschaft', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`

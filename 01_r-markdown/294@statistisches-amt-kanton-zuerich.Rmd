@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-02-11"
+date: "2023-04-01"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 294@statistisches-amt-kanton-zuerich.
 - **Modified** `2022-05-06T11:26:44`
 - **Startdate** `2003-12-31`
 - **Enddate** `2019-12-31`
-- **Theme** `['Volkswirtschaft']`
+- **Theme** `['Öffentliche Verwaltung und Finanzen']`
 - **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'natuerliche_personen', 'steuerbares_vermoegen', 'vermoegen', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
