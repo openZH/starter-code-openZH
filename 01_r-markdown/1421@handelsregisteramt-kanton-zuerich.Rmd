@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-04-05"
+date: "2023-04-06"
 output: html_document
 ---
 
@@ -41,26 +41,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 2780
-# Title                    : Konkurse pro Quartal und Branchen ab 2018
-# Description              : NA
-# Issued                   : 2022-10-11T14:15:13
-# Modified                 : 2023-01-16T09:32:07
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_HRA_Konkurse.csv')
-
-# Distribution 1
-# Ktzhdistid               : 2781
-# Title                    : Sitzverlegungen pro Quartal und Branche ab 2018
-# Description              : NA
-# Issued                   : 2022-10-11T14:15:13
-# Modified                 : 2023-01-16T09:32:07
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_HRA_Sitzverlegungen.csv')
-
-# Distribution 2
 # Ktzhdistid               : 2778
 # Title                    : Neueintragungen pro Quartal und Branchen ab 2018
 # Description              : NA
@@ -70,7 +50,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_HRA_Si
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_HRA_Neueintragungen.csv')
 
-# Distribution 3
+# Distribution 1
 # Ktzhdistid               : 2779
 # Title                    : Löschungen pro Quartal und Branchen ab 2018
 # Description              : NA
@@ -79,6 +59,26 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_HRA_Ne
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_HRA_Loeschungen.csv')
+
+# Distribution 2
+# Ktzhdistid               : 2780
+# Title                    : Konkurse pro Quartal und Branchen ab 2018
+# Description              : NA
+# Issued                   : 2022-10-11T14:15:13
+# Modified                 : 2023-01-16T09:32:07
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_HRA_Konkurse.csv')
+
+# Distribution 3
+# Ktzhdistid               : 2781
+# Title                    : Sitzverlegungen pro Quartal und Branche ab 2018
+# Description              : NA
+# Issued                   : 2022-10-11T14:15:13
+# Modified                 : 2023-01-16T09:32:07
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_HRA_Sitzverlegungen.csv')
 
 
 

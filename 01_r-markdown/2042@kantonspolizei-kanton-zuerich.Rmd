@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-04-05"
+date: "2023-04-06"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Anzahl Einbrüche nach Gemeinden und in den Stadtkreisen der Stadt Zürich
 # Description              : Das Total Einbrüche beinhaltet alle polizeilich bekannten, vollendeten und versuchten Einbruchs- und Einschleichdiebstähle. Die Bevölkerungszahlen sind der Einwohnerstatistik des Bundes am Ende des Vorjahres entnommen (bis 2010 ESPOP, ab 2011 STATPOP). Damit wird die Häufigkeitszahl berechnet (Anzahl registrierten Straftaten pro 1000 Einwohner). 
 # Issued                   : 2023-03-22T10:32:20
-# Modified                 : 2023-03-27T08:35:02
+# Modified                 : 2023-04-05T19:05:39
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002042_00004083.csv')
