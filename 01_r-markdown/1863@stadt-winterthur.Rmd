@@ -1,13 +1,13 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-04-11"
+date: "2023-04-12"
 output: html_document
 ---
 
 ## Dataset: Bruttolastgang elektrische Energie der Stadt Winterthur
 
-Der Bruttolastgang entspricht der im Netzgebiet von Stadtwerk Winterthur an Endverbraucher abgegebenen elektrischen Energie in einer Auflösung von 15 Minuten. Die Berechnung erfolgt täglich gemäss dem Metering Code Schweiz mit den verfügbaren Daten und wird zwischen dem 5. und 10. Arbeitstag für den Vormonat plausibilisiert. Aufgrund der grossen Anzahl an Datensätzen, die der Berechnung der Bruttolastgangsumme zugrunde liegen, können die Werte im Verlauf der Zeit, bis max. 6 Monate zurück, noch nachträglich angepasst werden. Dargestellt sind die Stromverbrauchsdaten seit 2013.
-
+Der Bruttolastgang entspricht der im Netzgebiet von Stadtwerk Winterthur an Endverbraucher abgegebenen elektrischen Energie in einer Auflösung von 15 Minuten. Die Berechnung erfolgt täglich gemäss dem Metering Code Schweiz mit den verfügbaren Daten und wird zwischen dem 5. und 10. Arbeitstag für den Vormonat plausibilisiert. Aufgrund der grossen Anzahl an Datensätzen, die der Berechnung der Bruttolastgangsumme zugrunde liegen, können die Werte im Verlauf der Zeit, bis max. 6 Monate zurück, noch nachträglich angepasst werden. Dargestellt sind die Stromverbrauchsdaten seit 2013. 
+Die Daten werden über das ganze Jahr der Winterzeit in der Zeitzone (CET) als Datum und Uhrzeit ausgewiesen. Daher ist "T+01:00" am Ende der Datum- und Uhrzeit Angabe während dem ganzen Jahr konstant und zeigt die Zeitverschiebung zu UTC in der Winterzeit an. Für die Daten in der Sommerzeit muss man berücksichtigen, dass man der Zeit noch 1 Stunde dazu addieren muss. Damit entstehen bei der Zeitumstellung keine doppelten oder fehlenden Einträge.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/1863@stadt-winterthur)
 
@@ -16,9 +16,9 @@ Auto generated R starter code for data set 1863@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2022-11-25T09:02:55`
-- **Modified** `2023-04-10T08:10:25`
+- **Modified** `2023-04-11T13:07:54`
 - **Startdate** `2013-01-01`
-- **Enddate** `2023-04-10`
+- **Enddate** `2023-04-11`
 - **Theme** `['Energie']`
 - **Keyword** `['gemeinden', 'strom', 'stromverbrauch', 'ogd']`
 - **Publisher** `['Stadt Winterthur']`
@@ -56,7 +56,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Energieverbrauch als Bruttolastgang ab 2022
 # Description              : NA
 # Issued                   : 2022-11-25T09:02:55
-# Modified                 : 2023-04-10T10:10:27
+# Modified                 : 2023-04-11T10:10:28
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001863_00003562.csv')
