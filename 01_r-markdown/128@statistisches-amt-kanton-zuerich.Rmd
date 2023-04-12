@@ -85,6 +85,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Statistisches Amt des Kantons Zürich | Analysen & Studien | basil.schlaepfer@statistik.ji.zh.ch

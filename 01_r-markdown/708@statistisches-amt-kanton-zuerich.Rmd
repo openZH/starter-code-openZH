@@ -115,6 +115,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Statistisches Amt des Kantons Zürich | Data Shop | datashop@statistik.zh.ch

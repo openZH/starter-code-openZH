@@ -265,6 +265,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Statistisches Amt des Kantons Zürich | Wahlen & Abstimmungen | wahlen@statistik.ji.zh.ch

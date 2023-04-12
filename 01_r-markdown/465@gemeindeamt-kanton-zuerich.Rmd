@@ -75,6 +75,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Gemeindeamt des Kantons Zürich | kontakt.gaz@ji.zh.ch

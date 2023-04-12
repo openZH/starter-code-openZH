@@ -75,6 +75,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Gesundheitsdirektion des Kantons Zürich | Kantonales Labor | info@kl.zh.ch

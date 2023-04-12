@@ -75,6 +75,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Volksschulamt des Kantons Zürich | info@vsa.zh.ch

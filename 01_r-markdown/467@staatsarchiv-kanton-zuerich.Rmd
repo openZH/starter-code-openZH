@@ -145,6 +145,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Staatsarchiv des Kantons Zürich | staatsarchivzh@ji.zh.ch

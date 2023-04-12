@@ -75,6 +75,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Statistisches Amt des Kantons Zürich | Analysen & Studien | sebastian.weingartner@statistik.ji.zh.ch

@@ -105,6 +105,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Handelsregisteramt des Kantons Zürich | kanzlei.hra@ji.zh.ch

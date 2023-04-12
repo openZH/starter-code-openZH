@@ -75,6 +75,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Stadt Winterthur | Stadtentwicklung der Stadt Winterthur | hermann.hegner@win.ch

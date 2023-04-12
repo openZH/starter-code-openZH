@@ -75,6 +75,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Kantonspolizei des Kantons Zürich | Verkehrstechnische Abteilung | verkehrstechnik@kapo.zh.ch

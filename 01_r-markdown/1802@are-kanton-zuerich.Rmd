@@ -95,6 +95,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Amt für Raumentwicklung des Kantons Zürich | Raumplanung | raumbeobachtung@bd.zh.ch

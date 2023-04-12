@@ -175,6 +175,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Personalamt des Kantons Zürich | hr-controlling@pa.zh.ch

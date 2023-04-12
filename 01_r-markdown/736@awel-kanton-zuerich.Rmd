@@ -75,6 +75,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich | Abteilung Abfallwirtschaft und Betriebe - Sektion Abfallwirtschaft | info.aw@bd.zh.ch

@@ -75,6 +75,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Geschäftsfeld Gesellschaft der Stadt Uster | Quartier- und Gemeinwesenarbeit | quartier@uster.ch

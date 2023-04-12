@@ -85,6 +85,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Statistisches Amt des Kantons Zürich | Befragungen und Sozialhilfestatistik | umfragen@statistik.ji.zh.ch

@@ -75,6 +75,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Direktion der Justiz und des Innern | Fachstelle Kultur | fachstellekultur@ji.zh.ch

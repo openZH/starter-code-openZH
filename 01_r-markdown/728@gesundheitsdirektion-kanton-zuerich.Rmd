@@ -86,6 +86,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Gesundheitsdirektion des Kantons Zürich | Coronavirus-Hotline | gdstab@gd.zh.ch

@@ -85,6 +85,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Gesundheitsdirektion des Kantons Zürich | Kantonales Labor | davi@kl.zh.ch

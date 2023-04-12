@@ -79,6 +79,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Bildungsstatistik des Kantons Zürich | bista@bi.zh.ch

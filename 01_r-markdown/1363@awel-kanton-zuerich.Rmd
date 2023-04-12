@@ -75,6 +75,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich | Abteilung Luft, Klima und Strahlung | gian-marco.alt@bd.zh.ch

@@ -75,6 +75,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Geschäftsfeld Gesellschaft der Stadt Uster | Kulturförderung | Kultursekretariat@Uster.ch
