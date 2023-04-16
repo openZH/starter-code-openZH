@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-04-01"
+date: "2023-04-16"
 output: html_document
 ---
 
@@ -75,6 +75,6 @@ tail(df)
 
 ------------------------------------------------------------------------
 
-# Contact
+# Questions about the data?
 
 Stadt Winterthur | Stadtentwicklung der Stadt Winterthur | hermann.hegner@win.ch
