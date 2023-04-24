@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-04-23"
+date: "2023-04-24"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 1742@statistisches-amt-kanton-zuerich
 ## Metadata
 
 - **Issued** `2022-09-06T14:13:35`
-- **Modified** `2023-04-18T08:42:05`
+- **Modified** `2023-04-24T03:16:58`
 - **Startdate** `2017-01-01`
-- **Enddate** `2023-04-17`
+- **Enddate** `2023-04-23`
 - **Theme** `['Öffentliche Verwaltung und Finanzen', 'Arbeit, Erwerb']`
 - **Keyword** `['branchen', 'einzelfirmen', 'firmen', 'genossenschaften', 'gmbh', 'handelsregister', 'konkurse', 'stiftungen', 'unternehmen', 'wirtschaft', 'vereine', 'unternehmensdaten', 'shab', 'ehra', 'zefix', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Konkurseröffnungen nach Branchen im Kanton Zürich und der Schweiz insgesamt, wöchentlich aktualisiert
 # Description              : NA
 # Issued                   : 2022-09-06T14:13:35
-# Modified                 : 2023-04-18T10:42:03
+# Modified                 : 2023-04-24T05:16:57
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_ZEFIX_Konkurse.csv')
@@ -55,7 +55,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_ZEFIX_
 # Title                    : Neugründungen nach Branchen im Kanton Zürich und der Schweiz insgesamt, wöchentlich aktualisiert
 # Description              : NA
 # Issued                   : 2023-01-20T15:22:41
-# Modified                 : 2023-04-18T10:42:06
+# Modified                 : 2023-04-24T05:17:00
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_ZEFIX_Neugruendungen.csv')
