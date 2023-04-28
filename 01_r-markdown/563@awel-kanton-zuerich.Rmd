@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-04-27"
+date: "2023-04-28"
 output: html_document
 ---
 
@@ -16,9 +16,9 @@ Auto generated R starter code for data set 563@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2019-12-09T00:00:00`
-- **Modified** `2023-04-27T00:01:06`
+- **Modified** `2023-04-28T00:01:06`
 - **Startdate** `None`
-- **Enddate** `2023-04-26`
+- **Enddate** `2023-04-27`
 - **Theme** `['Raum, Umwelt']`
 - **Keyword** `['luft', 'lufttemperaturen', 'ogd']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
@@ -44,9 +44,9 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 3660
 # Title                    : LoRa-Sensor-Messwerte 2022/12
-# Description              : NA
+# Description              : None
 # Issued                   : 2022-12-02T00:00:59
-# Modified                 : 2023-02-17T10:08:18
+# Modified                 : 2023-04-27T15:28:20
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202212.csv')
@@ -54,9 +54,9 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Distribution 1
 # Ktzhdistid               : 3965
 # Title                    : LoRa-Sensor-Messwerte 2023/02
-# Description              : NA
+# Description              : None
 # Issued                   : 2023-02-16T14:58:06
-# Modified                 : 2023-03-02T01:01:09
+# Modified                 : 2023-04-27T15:27:59
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202302.csv')
@@ -64,9 +64,9 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Distribution 2
 # Ktzhdistid               : 3966
 # Title                    : LoRa-Sensor-Messwerte 2023/01
-# Description              : NA
+# Description              : None
 # Issued                   : 2023-02-16T16:06:05
-# Modified                 : 2023-02-20T10:23:15
+# Modified                 : 2023-04-27T15:27:38
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202301.csv')
@@ -74,9 +74,9 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Distribution 3
 # Ktzhdistid               : 4043
 # Title                    : LoRa-Sensor-Messwerte 2023/03
-# Description              : NA
+# Description              : None
 # Issued                   : 2023-03-02T00:01:10
-# Modified                 : 2023-04-02T02:01:05
+# Modified                 : 2023-04-27T15:27:17
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202303.csv')
@@ -86,7 +86,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Title                    : LoRa-Sensor-Messwerte 2023/04
 # Description              : NA
 # Issued                   : 2023-04-02T00:01:07
-# Modified                 : 2023-04-27T02:01:05
+# Modified                 : 2023-04-28T02:01:06
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202304.csv')

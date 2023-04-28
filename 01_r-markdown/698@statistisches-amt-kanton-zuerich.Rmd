@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-04-27"
+date: "2023-04-28"
 output: html_document
 ---
 
@@ -43,9 +43,9 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 3668
 # Title                    : Anfragestatistik des Data Shop im Statistischen Amt des Kantons Zürich ab 2015
-# Description              : NA
+# Description              : Spaltenüberschriften: 'id' = Nummer der Anfrage; 'erfassung' = Datum- und Zeitstempel der Anfragenerfassung; 'nutzertyp' = Nutzertyp der Anfrage; 'anfragetyp' = Anfragetyp; 'thema' = Thema der Anfrage; 'kanal' = Eingangskanal der Anfrage; 'zeitaufwand' = Geschätzter Aufwand in Minuten, um die Anfrage zu beantworten (erhoben ab 29.11.2017)
 # Issued                   : 2022-12-02T12:18:50
-# Modified                 : 2023-04-01T05:28:35
+# Modified                 : 2023-04-27T09:34:57
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000698_00003668.csv')
@@ -53,9 +53,9 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Distribution 1
 # Ktzhdistid               : 3669
 # Title                    : Anfragestatistik des Data Shop im Statistischen Amt des Kantons Zürich - kontrollierte Vokabulare
-# Description              : NA
+# Description              : None
 # Issued                   : 2022-12-19T13:20:10
-# Modified                 : 2023-04-01T05:28:35
+# Modified                 : 2023-04-27T15:19:44
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000698_00003669.csv')
