@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-04-28"
+date: "2023-04-29"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 1723@statistisches-amt-kanton-zuerich
 ## Metadata
 
 - **Issued** `2022-09-19T16:46:33`
-- **Modified** `2022-09-19T16:46:33`
+- **Modified** `2023-04-14T08:55:52`
 - **Startdate** `2016-12-31`
-- **Enddate** `2020-12-31`
+- **Enddate** `2021-12-31`
 - **Theme** `['Bau- und Wohnungswesen']`
 - **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'mietwohnungen', 'wohnungen', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Gemeinnützige Wohnungen [Anz.]
 # Description              : None
 # Issued                   : 2022-09-19T16:46:33
-# Modified                 : 2022-09-19T16:46:33
+# Modified                 : 2023-04-14T08:55:52
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_840.csv')

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-04-28"
+date: "2023-04-29"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 98@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2022-02-09T10:15:55`
+- **Modified** `2023-03-07T07:53:16`
 - **Startdate** `1998-12-31`
-- **Enddate** `2021-12-31`
+- **Enddate** `2022-12-31`
 - **Theme** `['Bevölkerung']`
 - **Keyword** `['alter', 'altersstruktur', 'bevoelkerung', 'bezirke', 'gemeinden', 'kanton_zuerich', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Bevölkerung: Anteil 0-14-Jährige [%]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2022-02-09T10:15:55
+# Modified                 : 2023-03-07T07:53:16
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_81.csv')
