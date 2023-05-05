@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-05-04"
+date: "2023-05-05"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 1421@handelsregisteramt-kanton-zueric
 ## Metadata
 
 - **Issued** `2022-10-11T14:15:13`
-- **Modified** `2023-04-11T11:25:49`
+- **Modified** `2023-05-04T11:25:06`
 - **Startdate** `2018-01-01`
 - **Enddate** `2023-03-31`
 - **Theme** `['Öffentliche Verwaltung und Finanzen', 'Arbeit, Erwerb']`
@@ -43,9 +43,9 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 2778
 # Title                    : Neueintragungen pro Quartal und Branchen ab 2018
-# Description              : NA
+# Description              : Keine
 # Issued                   : 2022-10-11T14:15:13
-# Modified                 : 2023-04-11T13:25:49
+# Modified                 : 2023-05-04T13:25:07
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_HRA_Neueintragungen.csv')
@@ -55,7 +55,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_HRA_Ne
 # Title                    : Löschungen pro Quartal und Branchen ab 2018
 # Description              : NA
 # Issued                   : 2022-10-11T14:15:13
-# Modified                 : 2023-04-11T13:25:50
+# Modified                 : 2023-05-04T13:14:49
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_HRA_Loeschungen.csv')
@@ -65,7 +65,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_HRA_Lo
 # Title                    : Konkurse pro Quartal und Branchen ab 2018
 # Description              : NA
 # Issued                   : 2022-10-11T14:15:13
-# Modified                 : 2023-04-11T13:25:50
+# Modified                 : 2023-05-04T13:14:49
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_HRA_Konkurse.csv')
@@ -75,7 +75,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_HRA_Ko
 # Title                    : Sitzverlegungen pro Quartal und Branche ab 2018
 # Description              : NA
 # Issued                   : 2022-10-11T14:15:13
-# Modified                 : 2023-04-11T13:25:50
+# Modified                 : 2023-05-04T13:14:49
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_HRA_Sitzverlegungen.csv')
