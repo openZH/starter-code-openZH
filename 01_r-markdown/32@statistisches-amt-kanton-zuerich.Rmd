@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-05-05"
+date: "2023-05-06"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 32@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2022-05-17T15:56:32`
+- **Modified** `2023-05-05T10:33:48`
 - **Startdate** `2007-12-31`
-- **Enddate** `2021-12-31`
+- **Enddate** `2022-12-31`
 - **Theme** `['Bau- und Wohnungswesen']`
 - **Keyword** `['bezirke', 'gemeinden', 'handaenderungen', 'immobilien', 'kanton_zuerich', 'stockwerkeigentum', 'wohnungen', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Verkäufe Stockwerkeigentum [Anz.]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2022-05-17T15:56:32
+# Modified                 : 2023-05-05T10:33:48
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_193.csv')
