@@ -8,7 +8,7 @@ output: html_document
 
 Höhe des Hauptsiedlungsgebietes, erhoben bei den Gemeinden 1995 (i.d.R. die Höhe des Dorfzentrums, der reformierten Kirche oder des Gemeindehauses)
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/183@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/183@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 183@statistisches-amt-kanton-zuerich.
 

@@ -8,7 +8,7 @@ output: html_document
 
 Mittlerer Tagesverbrauch: Die Pro-Kopf-Werte müssen unter Vorbehalt betrachtet werden, da sie auch den Verbrauch von Industrie und Gewerbe mit einschliessen und deshalb nicht als haushaltstypisch angesehen werden können.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/181@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/181@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 181@statistisches-amt-kanton-zuerich.
 

@@ -8,7 +8,7 @@ output: html_document
 
 Anteil Arbeitslose an der zivilrechtlichen Wohnbevölkerung zwischen 15 und 64 Jahren. Aus Datenschutzgründen dürfen Quoten von Gemeinden mit weniger als 5 Arbeitslosen (Jahresmittel) nicht ausgewiesen werden.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/318@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/318@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 318@statistisches-amt-kanton-zuerich.
 

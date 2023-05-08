@@ -8,7 +8,7 @@ output: html_document
 
 Approximatives Gebäudevolumen in den Bereichen Unterricht, Gesundheit, Kultur/Sport, Verkehr und Ver-/Entsorgung
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/96@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/96@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 96@statistisches-amt-kanton-zuerich.
 

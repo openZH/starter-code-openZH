@@ -8,7 +8,7 @@ output: html_document
 
 Durchschnittliche Bauinvestitionen der letzten 5 Jahre im Bereich Landwirtschaft (Bauinv. für landwirtschaftliche Ökonomiebauten inkl. Gartenbau), in Franken pro Einwohner.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/152@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/152@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 152@statistisches-amt-kanton-zuerich.
 

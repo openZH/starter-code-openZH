@@ -8,7 +8,7 @@ output: html_document
 
 Begehen Jugendliche zwischen dem 10. und 18. Lebensjahr ein Delikt, gilt für sie das Jugendstrafrecht. Die Jugendanwaltschaften des Kantons Zürich untersuchen und beurteilen sämtliche Straftaten von Jugendlichen, die im Kanton Zürich wohnhaft sind. Ausserdem sind sie für den Vollzug jugendstrafrechtlicher Schutzmassnahmen und Strafen verantwortlich.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/544@oberjugendanwaltschaft-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/544@oberjugendanwaltschaft-kanton-zuerich)
 
 Auto generated R starter code for data set 544@oberjugendanwaltschaft-kanton-zuerich.
 

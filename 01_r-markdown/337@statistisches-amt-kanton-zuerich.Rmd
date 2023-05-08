@@ -8,7 +8,7 @@ output: html_document
 
 Anzahl Kleine Betriebe mit einer Beschäftigung von 10 - 49 Vollzeitäquivalenten. Aktuellstes Jahr provisorisch.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/337@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/337@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 337@statistisches-amt-kanton-zuerich.
 

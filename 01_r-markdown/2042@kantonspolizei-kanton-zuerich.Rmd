@@ -8,7 +8,7 @@ output: html_document
 
 Anzahl der Einbrüche wie sie in der Kriminalstatistik der Kantonspolizei Zürich erfasst werden. Aufgegliedert nach Gemeinden (im Fall der Stadt Zürich nach Stadtkreisen) und ergänzt mit Angaben zur Bevölkerungszahl. Die polizeiliche Kriminalstatistik (PKS) des Kantons Zürich wird jährlich publiziert. Die polizeiliche Kriminalstatistik verzeichnet nur die polizeilich bekannt gewordene Kriminalität - das sogenannte Hellfeld. Sie ist eine Ausgangsstatistik. D.h. die Straftaten erscheinen nicht zum Tatzeitpunkt in der Statistik. Ausschlaggebend für die Zählung in der PKS ist der Zeitpunkt, an dem die Polizei einen ersten Rapport zur Straftat abgeschlossen hat.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/2042@kantonspolizei-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/2042@kantonspolizei-kanton-zuerich)
 
 Auto generated R starter code for data set 2042@kantonspolizei-kanton-zuerich.
 

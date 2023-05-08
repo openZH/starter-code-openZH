@@ -8,7 +8,7 @@ output: html_document
 
 Anzahl Arbeitsstätten des Sekundärsektors (Bergbau, Verarbeitendes Gewerbe/Herstellung von Waren, Energie- und Wasserversorung, Baugewerbe/Bau). Aktuellstes Jahr provisorisch.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/355@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/355@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 355@statistisches-amt-kanton-zuerich.
 

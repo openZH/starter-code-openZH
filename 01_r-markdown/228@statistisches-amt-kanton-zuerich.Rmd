@@ -8,7 +8,7 @@ output: html_document
 
 Wohnungsbestand gemäss GWS. Wohnungsbestand bis 2009 aus Fortschreibung des Wohnungsbestandes der GWZ aufgrund der WBT. Hinweis zu GWS: Die Jahresdifferenz 2009/2010 und 2010/2011 des Wohnungsbestandes entspricht nicht dem Wohnungszugang aufgrund Registerbereinigungen (s. http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/gws/02.html)
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/228@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/228@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 228@statistisches-amt-kanton-zuerich.
 

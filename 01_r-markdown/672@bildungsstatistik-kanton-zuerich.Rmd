@@ -8,7 +8,7 @@ output: html_document
 
 Durchschnittliche Maturitätsquoten aller politischen Gemeinden im Kanton Zürich in den letzten vier verfügbaren Jahren. Die Quoten werden pro politische Gemeinde wie folgt berechnet: Summe der Maturitätsabschlüsse der Gemeinde in den vier letzten Jahren geteilt durch die Summe der Anzahl 19-jähriger Einwohnerinnen und Einwohner dieser Gemeinde in den letzten vier Jahren.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/672@bildungsstatistik-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/672@bildungsstatistik-kanton-zuerich)
 
 Auto generated R starter code for data set 672@bildungsstatistik-kanton-zuerich.
 

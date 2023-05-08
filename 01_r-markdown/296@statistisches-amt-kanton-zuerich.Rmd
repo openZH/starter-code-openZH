@@ -8,7 +8,7 @@ output: html_document
 
 Gewichteter Medianpreis aller Freihandverkäufe von unbebautem Land der Wohn- und Mischzone inkl. Abbruchliegenschaften. Die letzten drei Jahre sind provisorisch. Keine Angaben bei weniger als 4 Transaktionen. Weitere Infos: www.statistik.zh.ch/bodenpreise
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/296@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/296@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 296@statistisches-amt-kanton-zuerich.
 

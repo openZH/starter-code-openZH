@@ -8,7 +8,7 @@ output: html_document
 
 Bauinvestitionen von Bautätigkeiten mit Investitionscharakter, die einer behördlichen Bewilligung bedürfen, in Franken pro Einwohner
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/158@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/158@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 158@statistisches-amt-kanton-zuerich.
 

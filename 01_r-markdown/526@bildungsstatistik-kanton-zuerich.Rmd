@@ -12,7 +12,7 @@ Die Mittelschulen schliessen mit der gymnasialen Maturität, der Berufsmaturitä
 
 Die Daten werden jährlich für den Stichtag 15.9. erhoben.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/526@bildungsstatistik-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/526@bildungsstatistik-kanton-zuerich)
 
 Auto generated R starter code for data set 526@bildungsstatistik-kanton-zuerich.
 

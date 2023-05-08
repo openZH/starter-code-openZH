@@ -8,7 +8,7 @@ output: html_document
 
 Monatliche Nutzungsstatistiken (Anzahl Besuche) der Open Government Data (OGD) Metadatensätze von Verwaltungseinheiten und Organen des Kantons Zürich, die auf dem zentralen Katalog für offene Behördendaten opendata.swiss findbar sind. Hinweise: Ab Januar 2019 sind die Web Analytics um weitere Metadateninformationen erweitert bzw. wurden Metadatenanpassungen vorgenommen. Ab März 2021 sind die monatlichen Aktualisierungen aufgrund technischer Herausforderungen pausiert. Variabelndefinitionen: Column 'name' = dataset slug; 'issued' = first publication of dataset; 'organization_name' = publisher slug; 'organization_url' = publisher URL; 'E' up to 'AB' = thematic categories according to DCAT AP Switzerland.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/715@fachstelle-ogd-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/715@fachstelle-ogd-kanton-zuerich)
 
 Auto generated R starter code for data set 715@fachstelle-ogd-kanton-zuerich.
 

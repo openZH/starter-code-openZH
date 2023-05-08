@@ -8,7 +8,7 @@ output: html_document
 
 Beschäftigung des Primärsektors (Land- und Forstwirtschaft) in Vollzeitäquivalenten. Aktuellstes Jahr provisorisch.  Ab 2015 Berechnung mit neuem Modell, was in Bezug auf die VZÄ zu einem Bruch in der Zeitreihe zwischen 2014 und 2015 führt. Werte < 4 werden nicht ausgewiesen.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/343@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/343@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 343@statistisches-amt-kanton-zuerich.
 

@@ -8,7 +8,7 @@ output: html_document
 
 Frauenanteil in Prozent der Gesamtbevölkerung (zivilrechtlicher Wohnsitz; ab 2010 inkl. vorläufig Aufgenommene,die seit mehr als einem Jahr in der Gemeinde leben, aber ohne Wochenaufenthalter und Asylbewerber). 
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/87@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/87@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 87@statistisches-amt-kanton-zuerich.
 

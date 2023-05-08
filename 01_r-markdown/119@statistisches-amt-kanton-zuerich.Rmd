@@ -8,7 +8,7 @@ output: html_document
 
 Der Quartalsbericht umfasst die aktuellsten Zahlen zu Preisentwicklung und Handelsvolumen auf dem Zürcher Immobilienmarkt.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/119@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/119@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 119@statistisches-amt-kanton-zuerich.
 

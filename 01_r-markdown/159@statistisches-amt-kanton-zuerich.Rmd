@@ -8,7 +8,7 @@ output: html_document
 
 Bruttoinvestitionen pro Einwohner. Aussage: Massgrösse für den Infrastrukturausbau ohne Berücksichtigung der Finanzierungsträger. Grundlage ist die Konsolidierte Gemeinde. Der Haushalt der Schulgemeinde wird dabei anteilsmässig in den Haushalt der poltischen Gemeinden umgelegt.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/159@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/159@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 159@statistisches-amt-kanton-zuerich.
 

@@ -8,7 +8,7 @@ output: html_document
 
 Enthält in standardisierter Kurzform alle Eheeinträge, die in den überlieferten Kirchenbüchern der Kirchgemeinden des heutigen Kantons Zürich von der Reformation bis zum Jahr 1800 verzeichnet sind. Die Daten stehen sowohl im Format CSV wie auch als 'Linked Open Data' über den Linked Data Service (LINDAS) im Format RDF bereit. Unter "Weitere Informationen" sind sechs SPARQL-Beispielabfragen der RDF-Daten auf LINDAS verlinkt.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/468@staatsarchiv-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/468@staatsarchiv-kanton-zuerich)
 
 Auto generated R starter code for data set 468@staatsarchiv-kanton-zuerich.
 

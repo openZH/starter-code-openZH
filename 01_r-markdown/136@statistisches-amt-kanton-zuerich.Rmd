@@ -8,7 +8,7 @@ output: html_document
 
 Definition: Zahnärzte, welche eine Bewilligung zur selbständigen Berufsübung haben, jeweils am Ende eines Kalenderjahres. Für 1993 und 2003 keine Zahlen vorhanden. Aktuellstes Jahr provisorisch.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/136@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/136@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 136@statistisches-amt-kanton-zuerich.
 

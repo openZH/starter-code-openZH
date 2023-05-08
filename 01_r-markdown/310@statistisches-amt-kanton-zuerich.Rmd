@@ -8,7 +8,7 @@ output: html_document
 
 Anzahl Scheidungen pro 1000 Einwohner (Rohe Scheidungsziffer). Hinweise: Am 1.Januar 2000 trat das neue Scheidungsrecht in Kraft. Ab 2011 Wechsel der Datenquelle: Es werden nicht mehr alle Scheidungen von zwei ausländischen Personen ausgewiesen.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/310@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/310@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 310@statistisches-amt-kanton-zuerich.
 

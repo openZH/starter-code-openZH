@@ -8,7 +8,7 @@ output: html_document
 
 Anzahl Personen, die pro Kalenderwoche aus einem Gebiet mit erhöhtem Infektionsrisiko ('Risikoland') einreisen und - abhängig von den geltenden Bestimmungen - in Quarantäne müssen. Familien und Gruppen müssen für jede Person eine Meldung erstellen. Die Daten werden jeweils montags aktualisiert.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/699@gesundheitsdirektion-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/699@gesundheitsdirektion-kanton-zuerich)
 
 Auto generated R starter code for data set 699@gesundheitsdirektion-kanton-zuerich.
 

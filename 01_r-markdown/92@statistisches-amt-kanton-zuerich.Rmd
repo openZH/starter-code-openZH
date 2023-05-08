@@ -8,7 +8,7 @@ output: html_document
 
 Approximatives Gebäudevolumen von Büro-, Verkaufs- und Gastgewerbegebäuden (inkl. Anteil gemischte Wohnbauten)
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/92@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/92@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 92@statistisches-amt-kanton-zuerich.
 

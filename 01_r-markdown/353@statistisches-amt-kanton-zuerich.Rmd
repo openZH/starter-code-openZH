@@ -8,7 +8,7 @@ output: html_document
 
 Anteil Wohneigentumsobjekte gemessen am Wohnungsbestand des Erhebungsjahres. Der Anteil Eigentums-Objekte bezieht sich auf Wohnungen in Gebäuden, die als Eigentumsobjekte (Einfamilienhäuser und Eigentumswohnungen) vorgesehen sind. Der Wert ist nicht vergleichbar mit der Wohneigentumsquote aus früheren Volkszählungen, denn weitervermietete EFH und weitervermietetes Stockwerkeigentum können in den Registerdaten nicht ausgewiesen werden. Der Anteil Eigentums-Objekte ist somit etwas grösser als die eigentliche Wohneigentumsquote.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/353@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/353@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 353@statistisches-amt-kanton-zuerich.
 

@@ -9,7 +9,7 @@ output: html_document
 Geburten minus Sterbefälle, pro 1000 Einw. im Fünfjahresmittel. Beispiel: Die Zahl von 2003 entspricht dem Mittelwert der Geburten minus der Sterbefälle von 1999-2003 in Bezug auf die Einwohnerzahl von 1998.
 
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/213@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/213@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 213@statistisches-amt-kanton-zuerich.
 

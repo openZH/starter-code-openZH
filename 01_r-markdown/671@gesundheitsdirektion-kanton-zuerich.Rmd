@@ -9,7 +9,7 @@ output: html_document
 Die Fallzahlen umfassen die im Kanton Zürich getesteten Personen. Die Daten werden einmal wöchentlich (jeweils am Mittwoch) aktualisiert. Ab 9. März 2020 galt ein neues Testregime: Nur noch Personen, die schwere Symptome zeigten, ein erhöhtes Komplikationsrisiko besassen oder in direktem Kontakt mit PatientInnen oder BewohnerInnen von Alters- und Pflegeheimen standen, wurden getestet. Seit dem 27. April 2020 empfiehlt das Bundesamt für Gesundheit BAG zusätzlich Personen zu testen, die Symptome einer akuten Atemwegserkrankung zeigen, Muskelschmerzen oder Geruchs- oder Geschmacksverlust aufweisen. 
 Die Testkosten werden seit dem 01. Januar 2023 nicht mehr vom Bund übernommen. Somit wird eine Reduktion der Anzahl durchgeführter Tests und einer Erhöhung der Dunkelziffer der Fallzahlen erwartet. Aus diesem Grund wird die Aktualisierung der Test- und Fallzahlen per 03.01.2023 eingestellt. 
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/671@gesundheitsdirektion-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/671@gesundheitsdirektion-kanton-zuerich)
 
 Auto generated R starter code for data set 671@gesundheitsdirektion-kanton-zuerich.
 

@@ -8,7 +8,7 @@ output: html_document
 
 Anzahl OberstufenschülerInnen (exklusiv LangzeitgymnasiastInnen) gemessen an der zivilrechtlichen Bevölkerung Ende Vorjahr
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/217@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/217@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 217@statistisches-amt-kanton-zuerich.
 

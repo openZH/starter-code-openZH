@@ -8,7 +8,7 @@ output: html_document
 
 Zeitreihe des Wohnungsbestandes in der Stadt Winterthur nach Wohnungsgrösse (Zimmerzahl) und Quartier.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/1602@stadt-winterthur)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/1602@stadt-winterthur)
 
 Auto generated R starter code for data set 1602@stadt-winterthur.
 

@@ -8,7 +8,7 @@ output: html_document
 
 Abstimmungsempfehlungen des Zürcher Regierungs- und Kantonsrats zu kantonalen Abstimmungen und des Bundes-, des National- und des Ständerates zu eidgenössischen Abstimmungen. Es besteht kein Anspruch auf Vollständigkeit. Bitte senden Sie Ergänzungen zum Datensatz an die unter Kontakt angegebene E-Mail-Adresse.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/443@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/443@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 443@statistisches-amt-kanton-zuerich.
 

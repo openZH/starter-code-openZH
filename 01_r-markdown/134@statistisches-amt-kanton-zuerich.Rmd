@@ -8,7 +8,7 @@ output: html_document
 
 Steuerkraft pro Einwohner (Nettosteuerertrag zu 100% pro Einwohner; = relative Steuerkraft).
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/134@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/134@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 134@statistisches-amt-kanton-zuerich.
 

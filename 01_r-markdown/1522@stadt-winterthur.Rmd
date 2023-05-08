@@ -8,7 +8,7 @@ output: html_document
 
 Betriebe, Beschäftigte und Vollzeitäquivalente nach Branchen in der Stadt Winterthur. Die Branchen sind mit NOGA08 codiert (Allgemeine Systematik der Wirtschaftszweige, Nomenclature Générale des Activités économiques, 6 Stellen). Datenquelle: Bundesamt für Statistik, Statistik der Unternehmensstruktur (STATENT).
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/1522@stadt-winterthur)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/1522@stadt-winterthur)
 
 Auto generated R starter code for data set 1522@stadt-winterthur.
 

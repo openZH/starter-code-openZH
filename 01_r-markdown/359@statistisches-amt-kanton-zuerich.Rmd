@@ -8,7 +8,7 @@ output: html_document
 
 Anzahl Hotelbetten pro 1000 Einwohner (Bevölkerungsbestand Ende des Vorjahr); Hotelbetten Stand im Juni des Erhebungsjahres. Daten des aktuellsten Jahres sind provisorisch! Daten des Jahres 2004 aus der Erhebung der Statistischen Ämter von Stadt und Kanton Zürich, da das BFS 2004 keine Erhebung duchgeführt hat.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/359@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/359@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 359@statistisches-amt-kanton-zuerich.
 

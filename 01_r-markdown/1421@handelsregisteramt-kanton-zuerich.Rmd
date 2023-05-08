@@ -8,7 +8,7 @@ output: html_document
 
 Quartalsweise aktualisierte Informationen zu den Neueintragungen, Konkursen, Löschungen und Sitzverlegungen der im Handelsregister eingetragenen Unternehmen und weiteren Rechtseinheiten mit Sitz im Kanton Zürich.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/1421@handelsregisteramt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/1421@handelsregisteramt-kanton-zuerich)
 
 Auto generated R starter code for data set 1421@handelsregisteramt-kanton-zuerich.
 

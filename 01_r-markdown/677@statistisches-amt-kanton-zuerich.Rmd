@@ -8,7 +8,7 @@ output: html_document
 
 Zwischen dem 1. Oktober des Vorjahres und dem 30. September erstmals in Verkehr gesetzte Personenwagen (PW), geteilt durch die Bevölkerung in Tausend. Hinweis: Der Wert für den ganzen Kanton umfasst alle Autos mit einem Zürcher Kennzeichen; diese können auch Personen oder Unternehmen gehören, die ihr Domizil nicht im Kanton Zürich haben.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/677@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/677@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 677@statistisches-amt-kanton-zuerich.
 

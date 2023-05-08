@@ -8,7 +8,7 @@ output: html_document
 
 Berechnung: Die Sozialhilfequote berechnet sich aus dem Anteil der Sozialhilfeempfänger/innen zur gesamten Bevölkerung. Bei Gemeinden, die weniger als 5 Fälle haben, wird keine Quote ausgewiesen. (Referenzpopulation im Gemeindeporträt: kantonale Bevölkerungserhebung. Das BFS verwendet für die Berechnung seiner Quoten als Referenzpopulation STATPOP des Vorjahres.)
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/295@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/295@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 295@statistisches-amt-kanton-zuerich.
 

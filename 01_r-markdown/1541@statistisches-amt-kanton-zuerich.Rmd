@@ -8,7 +8,7 @@ output: html_document
 
 Die Daten werden monatlich aktualisiert (jeweils ungefähr am 15. Tag des Folgemonats). Die Quelldaten stammen aus dem Zentralen Migrationsinformationssystem ZEMIS des Staatssekretariats für Migration SEM.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/1541@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/1541@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 1541@statistisches-amt-kanton-zuerich.
 

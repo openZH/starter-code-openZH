@@ -8,7 +8,7 @@ output: html_document
 
 Anzahl der Bevölkerung nach zivilrechtlichem Wohnsitz nach 1-Jahres Altersklassen. Ab 2010 inkl. vorläufig Aufgenommene, die seit mehr als einem Jahr in der Gemeinde leben, ohne WochenaufenthalterInnen und Asylsuchende. Definition "Bevölkerung nach zivilrechtlichem Wohnsitz" gemäss Finanzausgleichsverordnung (FAV), §1, Abs. 3, 4 (siehe "Gesetzliche Grundlage"). 
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/254@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/254@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 254@statistisches-amt-kanton-zuerich.
 

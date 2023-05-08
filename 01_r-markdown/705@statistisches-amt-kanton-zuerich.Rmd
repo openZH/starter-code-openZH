@@ -8,7 +8,7 @@ output: html_document
 
 Bevölkerung nach Bezirk, Region, Geschlecht und Alter (5-Jahres-Altersklassen), nach zivilrechtlichem Wohnsitz, Daten per Ende Jahr. Dieser Datensatz enthält die aktuellen Prognosedaten. Daten von früheren Prognoseläufen finden Sie in separaten Datensätzen im Datenkatalog. Quellen: Kantonale Bevölkerungserhebung KBE (effektive Bevölkerung), Szenario «Trend ZH 2022» (prognostizierte Bevölkerung), Statistisches Amt des Kantons Zürich.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/705@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/705@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 705@statistisches-amt-kanton-zuerich.
 

@@ -8,7 +8,7 @@ output: html_document
 
 Übersicht über den Stand der Geschossflächen im Kanton Zürich. Die Geschossflächendefinition lehnt sich an die Definition der Geschossfläche GF gemäss SIA und der anrechenbare Geschossfläche gemäss Planungs- und Baugesetz (PBG) an. Die Erhebung der Geschossflächen leitet sich indirekt aus gesetzlichen Vorgaben von Bund und Kanton ab. Der Zweck der Erhebung der Geschossflächenreserven ist aufzuzeigen, welches Verdichtungspotential rechnerisch in Form von Geschossflächen in der Bauzone theoretisch vorhanden ist. Demgegenüber soll mit dem Geschossflächenbestand quantifiziert werden, wie viel Geschossfläche innerhalb der Bauzone bereits realisiert worden ist. Ab 2021 wird ein neues Berechnungsmodell verwendet, dadurch sind die Werte nur schwer mit jenen der Vorjahre vergleichbar. Aus technischen Gründen fand für 2020 keine Datenerhebung statt
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/1802@are-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/1802@are-kanton-zuerich)
 
 Auto generated R starter code for data set 1802@are-kanton-zuerich.
 

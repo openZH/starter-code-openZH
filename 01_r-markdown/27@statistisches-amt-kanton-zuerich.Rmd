@@ -8,7 +8,7 @@ output: html_document
 
 Der Beitrag errechnet sich aus dem auf die Gemeinden entfallenden Defizit und wird anteilsmässig nach Angebot (Anzahl Abfahrten, Ant. 80%) und der absoluten, berichtigten Steuerkraft (Ant. 20%) verteilt.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/27@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/27@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 27@statistisches-amt-kanton-zuerich.
 

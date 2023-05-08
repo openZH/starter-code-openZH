@@ -8,7 +8,7 @@ output: html_document
 
 Informationen zur Befindlichkeit der Bevölkerung bezüglich der eigenen Wohngemeinde. Die Befragten konnten sich dazu äussern, ob sie sich in ihren Wohngemeinden wohl fühlen, wie zufrieden sie mit den Leistungen der Gemeinden sind und wie sie deren finanzielle Situation einschätzen.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/1341@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/1341@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 1341@statistisches-amt-kanton-zuerich.
 

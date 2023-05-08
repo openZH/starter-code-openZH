@@ -8,7 +8,7 @@ output: html_document
 
 Anzahl Heiraten pro 1000 Einwohner (Rohe Heiratsziffer). Ein oder beide Partner ist/sind in einer Gemeinde des Kantons Zürich wohnhaft.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/308@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/308@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 308@statistisches-amt-kanton-zuerich.
 

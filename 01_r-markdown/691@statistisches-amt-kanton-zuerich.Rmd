@@ -8,7 +8,7 @@ output: html_document
 
 Anteil der Privathaushalte in Gemeinden des Kantons Zürich mit Covid-19-Risikopersonen im Pensionsalter oder mit mindestens einem Kind im Alter von 0 bis 12 Jahren und potenziellem Kinderbetreuungsproblem.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/691@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/691@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 691@statistisches-amt-kanton-zuerich.
 

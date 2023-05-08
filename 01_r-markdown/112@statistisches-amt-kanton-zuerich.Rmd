@@ -8,7 +8,7 @@ output: html_document
 
 Bruttoschulden in Prozent vom laufenden Ertrag. Der Bruttoverschuldungsanteil ist eine Grösse zur Beurteilung der Verschuldungssituation der Gemeinde. Er zeigt den Anteil des laufenden Ertrags, der zum Abtragen der Bruttoschulden notwendig ist. So lässt sich beurteilen, ob die Verschuldung in einem angemessenen Verhältnis zu den erwirtschafteten Erträgen steht. Grundlage ist die Konsolidierte Gemeinde. Der Haushalt der Schulgemeinde wird dabei anteilsmässig in den Haushalt der poltischen Gemeinden umgelegt. Umstellung des Rechnungsmodells von HRM1 auf HRM2 ab Rechnungsjahr 2019.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/112@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/112@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 112@statistisches-amt-kanton-zuerich.
 

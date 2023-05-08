@@ -8,7 +8,7 @@ output: html_document
 
 Aerzte mit Hauptberufstätigkeit im Ambulanten Sektor. Bis 2008: Ärzte mit eigener Praxis und Spitalärzte, die Privatpatienten behandeln, jeweils am Anfang eines Kalenderjahres. Für 1993 und 2003 keine Zahlen vorhanden. Aktuellstes Jahr provisorisch.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/133@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/133@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 133@statistisches-amt-kanton-zuerich.
 

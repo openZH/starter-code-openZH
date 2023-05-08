@@ -8,7 +8,7 @@ output: html_document
 
 Konzentrationsbereiche zur Trinkwasserqualität für verschiedene Analyten aus den im Auftrag der Wasserversorgungen durchgeführten ergänzenden Selbstkontrolluntersuchungen in den Gemeinden des Kantons Zürich - im regulären Trinkwassernetz (ohne Notversorgung, Laufbrunnen und Ressourcen). Die Konzentrationsbereiche zur Trinkwasserqualität aus den Kontrolluntersuchungen durchgeführt durch das Kantonale Labor Kanton Zürich sind im Datensatz "Qualität des Trinkwassers im Kanton Zürich ab 2020" der Gesundheitsdirektion enthalten (siehe Verwandte Datensätze).
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/2063@fachstelle-ogd-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/2063@fachstelle-ogd-kanton-zuerich)
 
 Auto generated R starter code for data set 2063@fachstelle-ogd-kanton-zuerich.
 

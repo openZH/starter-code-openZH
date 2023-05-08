@@ -8,7 +8,7 @@ output: html_document
 
 Die Verkehrsunfallstatistik des Kantons Zürich (VUSTA) enthält die Strassenverkehrsunfälle mit Personen- und Sachschäden, die durch die Kantonspolizei Zürich, die Dienstabteilung Verkehr der Stadt Zürich sowie die Stadtpolizei Winterthur registriert wurden. Sie wird einmal jährlich aktualisiert, jeweils gegen Ende des ersten Quartals des Folgejahres
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/718@kantonspolizei-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/718@kantonspolizei-kanton-zuerich)
 
 Auto generated R starter code for data set 718@kantonspolizei-kanton-zuerich.
 

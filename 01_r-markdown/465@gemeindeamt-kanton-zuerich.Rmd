@@ -8,7 +8,7 @@ output: html_document
 
 Bilanzwert der langfristigen Schulden pro Kopf pro konsolidierte Gemeinde.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/465@gemeindeamt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/465@gemeindeamt-kanton-zuerich)
 
 Auto generated R starter code for data set 465@gemeindeamt-kanton-zuerich.
 

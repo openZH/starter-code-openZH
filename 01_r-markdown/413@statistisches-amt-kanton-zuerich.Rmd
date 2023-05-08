@@ -8,7 +8,7 @@ output: html_document
 
 Steuerfuss inkl. Schulgemeinde. Bei mehreren Primarschul- oder Oberstufenschulgemeinden auf dem Gemeindegebiet, wurde der erste Steuerfuss verwendet. Details zu angewendeten Steuerfüssen sind direkt bei den jeweiligen Gemeinden einzuholen. Zeitreihe ab 2012 (neues Finanzausgleichsgesetz).
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/413@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/413@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 413@statistisches-amt-kanton-zuerich.
 

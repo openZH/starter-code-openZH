@@ -8,7 +8,7 @@ output: html_document
 
 Selbstfinanzierung pro Einwohner. Die Selbstfinanzierung entspricht der Summe der selbst erwirtschafteten Mittel (z.B. Ertragsüberschuss, Aufwandüberschuss, Abschreibungen). Sie zeigt die Finanzierung auf, die die Gemeinde durch ihre betriebliche Tätigkeit erzielt und die sie zur Finanzierung ihrer Investitionen benützen kann. Grundlage ist die Konsolidierte Gemeinde. Der Haushalt der Schulgemeinde wird dabei anteilsmässig in den Haushalt der poltischen Gemeinden umgelegt. Umstellung des Rechnungsmodells von HRM1 auf HRM2 ab Rechnungsjahr 2019.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/163@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/163@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 163@statistisches-amt-kanton-zuerich.
 

@@ -8,7 +8,7 @@ output: html_document
 
 Jährlich erhobener kantonaler Kiesabbau und Aushub-Einbau mit Restkubatur Kiesabbau, Bahntransportanteil und offenen Flächen.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/736@awel-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/736@awel-kanton-zuerich)
 
 Auto generated R starter code for data set 736@awel-kanton-zuerich.
 

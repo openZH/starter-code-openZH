@@ -8,7 +8,7 @@ output: html_document
 
 Bodenpreismodell: Median der Modellpreise von unbebautem Land der Wohn- und Mischzone inkl. Abbruchliegenschaften. Die Modellpreise werden jährlich für den gesamten ausgewiesenen Zeitraum neu berechnet und aktualisiert.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/332@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/332@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 332@statistisches-amt-kanton-zuerich.
 

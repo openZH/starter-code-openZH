@@ -8,7 +8,7 @@ output: html_document
 
 Kehrichtmengen aus kommunaler Sammlung von Haushalten, ab 2004 mit Betriebsabfällen (Anteil Siedlungsabfall, ohne Produktionsabfälle). Nicht enthalten sind Direktanlieferungen von Hauhshalten und Betrieben an die KVA und private Entsorgungslösungen, die nicht über den kommunalen Weg laufen.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/362@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/362@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 362@statistisches-amt-kanton-zuerich.
 

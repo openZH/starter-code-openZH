@@ -8,7 +8,7 @@ output: html_document
 
 Nutzungsstatistiken der Metadatensätze von Verwaltungseinheiten und Organen des Kantons Zürich, die im Daten- und Publikationskatalogs des Kantons Zürich findbar sind. Verfügbar sind: von Nutzenden verwendete Suchbegriffe. Hinweise: Die Ressourcen zum Jahr 2020 beginnen ab dem Zeitpunkt der Einführung des neuen kantonalen Webauftritts per Anfang Juli 2020. Die Ressourcen zum Jahr 2021 umfassen alle vier Quartale. Die Ressourcen zum Jahr 2022 umfassen nur das erste Quartal. Ab April 2022 ist die Aktualisierung aufgrund der Einführung einer neuen Version des Katalogs pausiert.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/1501@fachstelle-ogd-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/1501@fachstelle-ogd-kanton-zuerich)
 
 Auto generated R starter code for data set 1501@fachstelle-ogd-kanton-zuerich.
 

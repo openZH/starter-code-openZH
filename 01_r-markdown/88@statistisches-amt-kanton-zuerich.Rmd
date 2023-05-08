@@ -8,7 +8,7 @@ output: html_document
 
 Bezogener Gesamtsteuerfuss ohne Kirchen in Prozent der einfachen Staatssteuer, gewichtet mit der Steuerkraft des jeweiligen Jahres. Zeitreihe ab 2012 (neues Finanzausgleichsgesetz). Details zu angewendeten Steuerfüssen sind direkt bei den jeweiligen Gemeinden einzuholen. Die Daten des aktuellsten Jahr sind provisorisch.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/88@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/88@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 88@statistisches-amt-kanton-zuerich.
 

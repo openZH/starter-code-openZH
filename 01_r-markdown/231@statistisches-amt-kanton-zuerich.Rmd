@@ -8,7 +8,7 @@ output: html_document
 
 Anzahl Einfamilienhäuser gemäss GWS. EFH-Bestand bis 2009 aus Fortschreibung des Wohnungsbestandes der GWZ aufgrund der WBT.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/231@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/231@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 231@statistisches-amt-kanton-zuerich.
 

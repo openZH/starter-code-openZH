@@ -8,7 +8,7 @@ output: html_document
 
 Geltende Massnahmen auf dem Gebiet des Kantons Zürich sowie Schulferienzeiten im Bezirk Zürich. Spaltenüberschriften: 'Datum' = Beginn der Massnahme; 'Raum' = Gebiet auf das sich die Massnahme resp. Schulferienzeit bezieht; 'Kategorisierung' = Art der Massnahme (bzw. Schulferien)
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/707@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/707@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 707@statistisches-amt-kanton-zuerich.
 

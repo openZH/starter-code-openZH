@@ -9,7 +9,7 @@ output: html_document
 Seit Frühjahr 2019 betreibt das AWEL des Kantons Zürich ein Messnetz aus rund 40 Lufttemperatur und -feuchte Sensoren (LoRa). Die Sensor-Standorte befinden sich hauptsächlich im städtischen Raum, verdichtet in der Stadt Zürich, aber auch in weiteren Gemeinden im Kanton Zürich. Ziel des Messnetzes ist es, Messdaten für Stadtklima-Analysen bereitzustellen, damit Aspekte des Lokalklimas und Klimawandels stärker sichtbar werden und in der Raumplanung und Stadtentwicklung berücksichtigt werden können. Mit Hilfe dieser Daten lassen sich u.a. die Auswirkungen von Hitzewellen im städtischen Raum beschreiben. Das Messnetz wird durch das AWEL betrieben, unter Beteiligung der Stadt Zürich; die weiteren Standort-Gemeinden sind über die Messaktivität informiert. 
 Der hier verfügbare Datensatz wird täglich aktualisiert und umfasst alle, für die Standorte gültigen Messwerte im 10 Minuten Mittel, inklusive entsprechender Standortinformationen. Weitere Angaben zu Datensatz-Struktur und verwendeten Sensoren sind im Datensatz-Beschrieb zu finden.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/563@awel-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/563@awel-kanton-zuerich)
 
 Auto generated R starter code for data set 563@awel-kanton-zuerich.
 

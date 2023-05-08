@@ -8,7 +8,7 @@ output: html_document
 
 Die Stromdaten stammen von der Eidgenössischen Elektrizitätskommission (ElCom), die Treibstoffdaten aus der schweizerischen Gesamtenergiestatistik des Bundesamts für Energie (BFE) und die Wärmedaten aus der kantonalen Statistik des Amts für Abfall, Wasser, Energie und Luft (AWEL). Die Erhebung der Daten dient dem AWEL dazu, den Energieverbrauch nach unterschiedlichen Energiesektoren für den Kanton Zürich aufzuzeichnen und beobachten zu können. 
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/1661@awel-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/1661@awel-kanton-zuerich)
 
 Auto generated R starter code for data set 1661@awel-kanton-zuerich.
 

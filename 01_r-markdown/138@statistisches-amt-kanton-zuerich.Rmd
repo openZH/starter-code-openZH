@@ -8,7 +8,7 @@ output: html_document
 
 Durchschnittliches steuerbares Einkommen ordentlich besteuerter natürlichen Personen (exkl. Quellensteuerpflichtige und ausserhalb des Kt. wohnhafte). Hinweis: Sehr hohe Beträge einiger weniger Steuerpflichtigen wirken sich entsprechend stark auf den Mittelwert aus. Bis 1998: Reineinkommen.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/138@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/138@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 138@statistisches-amt-kanton-zuerich.
 

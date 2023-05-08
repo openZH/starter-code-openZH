@@ -8,7 +8,7 @@ output: html_document
 
 Landwirtschaftliche Nutzfläche gemäss landwirtschaftlicher Betriebszählung
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/178@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/178@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 178@statistisches-amt-kanton-zuerich.
 

@@ -8,7 +8,7 @@ output: html_document
 
 Konzentrationsbereiche zur Trinkwasserqualität für verschiedene Analyten aus den im Auftrag der Wasserversorgungen durchgeführten Selbstkontrolluntersuchungen sowie amtlichen Untersuchungen in den Gemeinden des Kantons Zürich – im regulären Trinkwassernetz (ohne Notversorgung, Laufbrunnen und Ressourcen). Die Daten-Ressource 'Netzproben' enthält u. a. das Datum der Probenahme, die spezifische Bezeichnung des Analyten (z. B. Chlorothalonil "R471811"), die Bezeichnung der Verteilzone(n) der Gemeinde sowie den Konzentrationsbereich (dem der Messwert zugeordnet wurde). Die Daten-Ressource 'Bewertungskategorien' enthält die Kategorien der Konzentrationsbereiche pro Analyt sowie den Zeitraum, zu dem sie für die Qualitätsbewertung Gültigkeit haben. Die Messwerte aus den ergänzenden Selbstkontrolluntersuchungen durchgeführt durch externe Dienstleistungslaboratorien im Auftrag der Wasserversorgungen sind im Datensatz 'Qualität des Trinkwassers im Kanton Zürich ab 2020 (Selbstkontrolle der Wasserversorgungen)' enthalten (siehe Verwandte Datensätze).
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/1362@gesundheitsdirektion-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/1362@gesundheitsdirektion-kanton-zuerich)
 
 Auto generated R starter code for data set 1362@gesundheitsdirektion-kanton-zuerich.
 

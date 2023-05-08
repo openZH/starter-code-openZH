@@ -8,7 +8,7 @@ output: html_document
 
 Anzahl Schafe. Hinweis: In der Stadt Zürich wurde ein grosser Schafbetrieb mit knapp 2000 Tieren per 2008 aufgelöst und die Flächen an andere Landwirte verpachtet.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/118@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/118@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 118@statistisches-amt-kanton-zuerich.
 

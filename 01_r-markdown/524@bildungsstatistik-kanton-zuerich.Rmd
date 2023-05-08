@@ -10,7 +10,7 @@ Die Übersicht zeigt alle Lernenden im Kanton Zürich, nach Schulstufen und nach
 
 Die Daten werden jährlich für den Stichtag 15.9. erhoben.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/524@bildungsstatistik-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/524@bildungsstatistik-kanton-zuerich)
 
 Auto generated R starter code for data set 524@bildungsstatistik-kanton-zuerich.
 

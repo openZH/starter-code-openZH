@@ -8,7 +8,7 @@ output: html_document
 
 Anteil der politischen / Schulgemeinde an den allg. Gemeindesteuern (Nettoertrag Rechnungsjahr).
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/22@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/22@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 22@statistisches-amt-kanton-zuerich.
 

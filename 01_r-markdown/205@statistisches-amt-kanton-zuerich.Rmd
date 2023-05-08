@@ -8,7 +8,7 @@ output: html_document
 
 Veränderung der Einwohnerzahl (zivilrechtlicher Wohnsitz) innerhalb von 5 Jahren. Wert für 1970 aus der Volkszählung (wirtschaftl. Wohnsitz), da keine kant. Erhebung stattgefunden hat.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/205@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/205@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 205@statistisches-amt-kanton-zuerich.
 

@@ -8,7 +8,7 @@ output: html_document
 
 Anzahl und Erledigungsart der schriftlich eingereichten Informationszugangsgesuche in der kantonalen Verwaltung. Nicht enthalten sind die – praxisgemäss viel zahlreicheren – sogenannten formlosen Gesuche. Darunter fallen insbesondere die telefonischen oder per Mail eingereichten Anfragen. Keine Angaben für das Jahr 2021.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/523@fachstelle-ogd-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/523@fachstelle-ogd-kanton-zuerich)
 
 Auto generated R starter code for data set 523@fachstelle-ogd-kanton-zuerich.
 

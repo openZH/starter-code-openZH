@@ -8,7 +8,7 @@ output: html_document
 
 Landwirtschaftlich Beschäftigte (Voll- und Teilzeit); ungleich Beschäftigte des 1. Sektors aus den eidg. Betriebszählungen!
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/208@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/208@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 208@statistisches-amt-kanton-zuerich.
 

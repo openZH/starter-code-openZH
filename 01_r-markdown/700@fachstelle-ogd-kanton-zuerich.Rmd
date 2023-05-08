@@ -8,7 +8,7 @@ output: html_document
 
 Im Rahmen des Impulsprojekts 3.1 "Strategie Datenmanagement und Data-Governance" wurde ein - nicht abschliessendes - Verzeichnis der Personenstammdaten erarbeitet, die von Einheiten der zentralen Verwaltung des Kantons Zürich zu ihrer fachspezifischen Aufgabenerfüllung verwaltet und/oder genutzt werden. Das Verzeichnis ist eine Grundlage für die Einführung eines koordinierten Stammdatenmanagements. Es wird in maschinenlesbarer Form zur Verfügung gestellt, um zweckmässige Anwendungen zu ermöglichen, mit denen es verwaltet und/oder genutzt werden kann. Das Verzeichnis wird unregelmässig aktualisiert. Die Verwaltungseinheiten sind für ihre Angaben verantwortlich. Bei Fragen, Korrekturen und Ergänzungen wenden Sie sich bitte an die Kontaktstelle.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/700@fachstelle-ogd-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/700@fachstelle-ogd-kanton-zuerich)
 
 Auto generated R starter code for data set 700@fachstelle-ogd-kanton-zuerich.
 

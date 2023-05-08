@@ -8,7 +8,7 @@ output: html_document
 
 Anzahl Heiraten. Ein oder beide Partner ist/sind in einer Gemeinde des Kantons Zürich wohnhaft.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/307@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/307@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 307@statistisches-amt-kanton-zuerich.
 

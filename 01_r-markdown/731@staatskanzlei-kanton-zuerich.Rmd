@@ -8,7 +8,7 @@ output: html_document
 
 Grundlage der Daten sind die Matomo-Web-Analytics (Anzahl Besuche) aller Seiten des kantonalen Webauftritts, für die das Statistische Amt zuständig ist. Siehe "Hinweise zur Datengrundlage, Indikatoren und Themen" unter "Weitere Informationen". Die Daten werden jeden Morgen um 08:30 Uhr um die Daten des Vortages ergänzt.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/731@staatskanzlei-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/731@staatskanzlei-kanton-zuerich)
 
 Auto generated R starter code for data set 731@staatskanzlei-kanton-zuerich.
 

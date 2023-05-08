@@ -8,7 +8,7 @@ output: html_document
 
 Jahresergebnis Erfolgsrechnung. Ertragsüberschuss (positives Vorzeichen) oder Aufwandüberschuss (negatives Vorzeichen). Grundlage ist die Konsolidierte Gemeinde. Der Haushalt der Schulgemeinde wird dabei anteilsmässig in den Haushalt der poltischen Gemeinden umgelegt. Grundlage ist die Konsolidierte Gemeinde. Der Haushalt der Schulgemeinde wird dabei anteilsmässig in den Haushalt der poltischen Gemeinden umgelegt. Umstellung des Rechnungsmodells von HRM1 auf HRM2 ab Rechnungsjahr 2019.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/datasets/400@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/400@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 400@statistisches-amt-kanton-zuerich.
 
