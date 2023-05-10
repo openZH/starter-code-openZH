@@ -1,12 +1,13 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-05-09"
+date: "2023-05-10"
 output: html_document
 ---
 
-## Dataset: COVID_19 Belegung Intensivpflege Kanton Zürich ab 29.10.2020
+## Dataset: COVID_19 Belegung Intensivpflege Kanton Zürich ab 29.10.2020 bis 02.05.2023
 
 Anzahl zertifizierte Intensivpflege-Betten und deren aktuelle Belegung auf Spitalebene im Kanton Zürich (Stand jeweils am Mittwoch). Die Daten werden einmal wöchentlich (jeweils am Mittwoch) aktualisiert. Variabeln: 'Name des Spitals', 'Anzahl Covid-19-PatientInnen auf der Intensivpflegestation, an deren Behandlung sich das Spital derzeit beteiligen müsste (die Sollwerte werden von der Gesundheitsdirektion zusammen mit den Spitälern definiert)', 'Anzahl Covid-19-PatientInnen auf der Intensivpflegestation', 'Anzahl andere PatientInnen auf der Intensivpflegestation' und (seit 2021-12-10) 'Anzahl zertifizierte Intensivpflege-Betten, die aktuell mit dem verfügbaren Pflegepersonal betrieben werden können'.
+Der Datensatz wurde bis zum 02.05.2023 aktualisiert
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/706@gesundheitsdirektion-kanton-zuerich)
 
@@ -15,9 +16,9 @@ Auto generated R starter code for data set 706@gesundheitsdirektion-kanton-zueri
 ## Metadata
 
 - **Issued** `2020-11-06T00:00:00`
-- **Modified** `2022-03-15T13:38:36`
+- **Modified** `2023-05-09T11:47:49`
 - **Startdate** `2020-10-29`
-- **Enddate** `None`
+- **Enddate** `2023-05-02`
 - **Theme** `['Gesundheit']`
 - **Keyword** `['kanton_zuerich', 'spitaeler', 'spitalpatient', 'spitalpatientinnen', 'corona', 'covid-19', 'covid19', 'ogd']`
 - **Publisher** `['Gesundheitsdirektion des Kantons Zürich']`
@@ -42,10 +43,10 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1744
-# Title                    : COVID_19 Belegung Intensivpflege Kanton Zürich ab 29.10.2020
+# Title                    : COVID_19 Belegung Intensivpflege Kanton Zürich ab 29.10.2020 bis 02.05.2023
 # Description              : Variabeln: 'hospital_name' = Name des Spitals; 'current_icu_service_certified' = Anzahl zertifizierte Intensivpflege-Betten; 'current_icu_target_covid' = Anzahl Covid-19-PatientInnen auf der Intensivpflegestation, an deren Behandlung sich das Spital derzeit beteiligen müsste (die Sollwerte werden von der Gesundheitsdirektion zusammen mit den Spitälern definiert); 'current_icu_covid' = Anzahl Covid-19-PatientInnen auf der Intensivpflegestation; 'current_icu_not_covid' = Anzahl andere PatientInnen auf der Intensivpflegestation; 'current_icu_service_certified_operated' (seit 2021-12-10) = Anzahl zertifizierte Intensivpflege-Betten, die aktuell mit dem verfügbaren Pflegepersonal betrieben werden können.
 # Issued                   : 2020-11-06T16:07:21
-# Modified                 : 2021-12-16T17:28:51
+# Modified                 : 2023-05-09T11:45:55
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_zh/COVID19_Belegung_Intensivpflege.csv')
