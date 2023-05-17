@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-05-16"
+date: "2023-05-17"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 407@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2019-07-01T20:19:00`
-- **Modified** `2022-05-13T09:49:19`
+- **Modified** `2023-05-16T14:02:27`
 - **Startdate** `1990-12-31`
-- **Enddate** `2021-12-31`
+- **Enddate** `2022-12-31`
 - **Theme** `['Öffentliche Verwaltung und Finanzen']`
 - **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'oeffentliche_finanzen', 'steuerpflichtige', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Total Quellensteuerpflichtige [Anz.]
 # Description              : None
 # Issued                   : 2019-07-01T20:19:00
-# Modified                 : 2022-05-13T09:49:19
+# Modified                 : 2023-05-16T14:02:27
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_833.csv')
