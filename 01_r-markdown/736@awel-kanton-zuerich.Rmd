@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-05-25"
+date: "2023-05-26"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 736@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2021-09-27T11:53:00`
-- **Modified** `2022-04-27T15:59:30`
+- **Modified** `2023-05-25T17:45:00`
 - **Startdate** `1990-01-01`
-- **Enddate** `2021-12-31`
+- **Enddate** `2022-12-31`
 - **Theme** `['Bau- und Wohnungswesen', 'Raum, Umwelt']`
 - **Keyword** `['abfallverwertung', 'bahn', 'umwelt', 'raumplanungsregionen', 'aushub', 'kies', 'bahntransport', 'rohstoffe', 'ogd']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Kiesstatistik des Kantons Zürich ab 1990
 # Description              : Variabeln: 'thema' = thematischer Aspekt, 'indikator' = erhobene Variable , 'einheit' = Masseinheit, 'region' = räumliche Einheit, 'jahr' = Jahr, 'wert' = Wert.
 # Issued                   : 2021-09-16T10:05:28
-# Modified                 : 2023-05-24T16:02:05
+# Modified                 : 2023-05-25T15:59:00
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000736_00001881.csv')

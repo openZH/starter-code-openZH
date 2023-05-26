@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-05-25"
+date: "2023-05-26"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Resultate 1. Wahlgang Gesamterneuerungswahl Regierungsrat 2023
 # Description              : None
 # Issued                   : 2023-02-21T10:11:45
-# Modified                 : 2023-02-21T10:11:45
+# Modified                 : 2023-05-25T17:04:11
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00003944.csv')
