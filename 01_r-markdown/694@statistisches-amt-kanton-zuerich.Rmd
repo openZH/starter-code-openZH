@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-05-26"
+date: "2023-05-27"
 output: html_document
 ---
 
@@ -55,7 +55,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Kandidierende 1. Wahlgang Gesamterneuerungswahl Regierungsrat 2023
 # Description              : None
 # Issued                   : 2023-02-21T10:06:02
-# Modified                 : 2023-02-21T10:06:02
+# Modified                 : 2023-05-26T08:36:43
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00003945.csv')

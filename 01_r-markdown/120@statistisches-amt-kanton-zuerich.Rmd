@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-05-26"
+date: "2023-05-27"
 output: html_document
 ---
 
 ## Dataset: Quartalsbericht Wohnbautätigkeit
 
-Der Quartalsbericht umfasst die aktuellsten Zahlen zur Wohnbautätigkeit im Kanton Zürich.
+Daten werden nicht mehr nachgeführt. 
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/120@statistisches-amt-kanton-zuerich)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 120@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2019-02-27T00:00:00`
-- **Modified** `2020-02-01T00:00:00`
+- **Modified** `2023-05-26T09:51:33`
 - **Startdate** `2000-12-31`
 - **Enddate** `2019-12-31`
 - **Theme** `['Bau- und Wohnungswesen']`
