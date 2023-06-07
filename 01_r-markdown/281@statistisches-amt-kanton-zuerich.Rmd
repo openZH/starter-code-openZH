@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-06-06"
+date: "2023-06-07"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 281@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2019-03-25T11:51:06`
-- **Startdate** `2003-12-31`
-- **Enddate** `2019-12-31`
+- **Modified** `2023-06-06T10:15:49`
+- **Startdate** `2023-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['Politik']`
 - **Keyword** `['bezirke', 'gemeinden', 'kantonsratswahlen', 'kanton_zuerich', 'politik', 'wahlbeteiligung', 'wahlen', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Wahlbeteiligung Kantonsrat [%]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2019-03-25T11:51:06
+# Modified                 : 2023-06-06T10:15:49
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_803.csv')

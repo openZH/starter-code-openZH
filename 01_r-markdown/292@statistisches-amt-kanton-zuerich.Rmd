@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-06-06"
+date: "2023-06-07"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 292@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2022-05-06T11:26:44`
-- **Startdate** `2003-12-31`
-- **Enddate** `2019-12-31`
+- **Modified** `2023-06-06T13:31:48`
+- **Startdate** `1999-12-31`
+- **Enddate** `2020-12-31`
 - **Theme** `['Öffentliche Verwaltung und Finanzen']`
 - **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'natuerliche_personen', 'steuerbares_vermoegen', 'vermoegen', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Steuerb. Vermögen natürl. Pers. Median [Fr.]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2022-05-06T11:26:44
+# Modified                 : 2023-06-06T13:31:48
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_320.csv')

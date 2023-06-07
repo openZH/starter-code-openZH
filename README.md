@@ -4,7 +4,7 @@
 
 This is an experiment to provide exactly this. 
 
-With this repo you get starter code for **all CSV data sets** (currently 400) that are available in the [data shop of the Statistical Office of Canton Zurich](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/). 
+With this repo you get starter code for **all CSV data sets** (currently 401) that are available in the [data shop of the Statistical Office of Canton Zurich](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/). 
 
 In the list below you find links to preconfigured code files so that you **immediately can start analyzing the data with R or Python.**
 
@@ -16,7 +16,7 @@ Feedback is always very welcome – simply open an issue.
 
 For all data licenses please refer to each data set's link or the metadata API endpoint provided [here](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/datasets/1461@fachstelle-ogd-kanton-zuerich).
 
-<sub>Latest update: **2023-06-06 03:39:55**<sub>
+<sub>Latest update: **2023-06-07 03:40:07**<sub>
 
 | ID | Title (abbreviated to 200 chars) | Python Colab | Python GitHub | R GitHub |
 | :-- | :-- | :-- | :-- | :-- |
@@ -420,3 +420,4 @@ For all data licenses please refer to each data set's link or the metadata API e
 | 2022 | [Gebäude und Wohnungen im Kanton Zürich](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/2022@fachstelle-ogd-kanton-zuerich) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/2022@fachstelle-ogd-kanton-zuerich.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2022@fachstelle-ogd-kanton-zuerich.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2022@fachstelle-ogd-kanton-zuerich.Rmd) |
 | 2042 | [Anzahl Einbrüche nach Gemeinden des Kantons Zürich](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/2042@kantonspolizei-kanton-zuerich) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/2042@kantonspolizei-kanton-zuerich.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2042@kantonspolizei-kanton-zuerich.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2042@kantonspolizei-kanton-zuerich.Rmd) |
 | 2063 | [Trinkwasserqualität im Kanton Zürich nach Gemeinden und Verteilzonen (Selbstkontrolle der Wasserversorgungen)](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/2063@fachstelle-ogd-kanton-zuerich) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/2063@fachstelle-ogd-kanton-zuerich.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2063@fachstelle-ogd-kanton-zuerich.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2063@fachstelle-ogd-kanton-zuerich.Rmd) |
+| 2182 | [KRW Wähleranteil Die Mitte  % ](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/2182@statistisches-amt-kanton-zuerich) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/2182@statistisches-amt-kanton-zuerich.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2182@statistisches-amt-kanton-zuerich.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2182@statistisches-amt-kanton-zuerich.Rmd) |

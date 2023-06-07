@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-06-06"
+date: "2023-06-07"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 8@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2019-03-25T10:45:00`
-- **Startdate** `1999-12-31`
-- **Enddate** `2019-12-31`
+- **Modified** `2023-06-06T10:14:57`
+- **Startdate** `2007-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['Politik']`
 - **Keyword** `['bezirke', 'gemeinden', 'kantonsratswahlen', 'kanton_zuerich', 'parteien', 'politik', 'wahlen', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : KRW Wähleranteil EDU [%]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2019-03-25T10:45:07
+# Modified                 : 2023-06-06T10:14:57
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_437.csv')
