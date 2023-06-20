@@ -1,0 +1,130 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2023-06-20"
+output: html_document
+---
+
+## Dataset: Resultate und Wahlbeteiligung Regierungsratswahl
+
+Echtzeitresultate und -wahlbeteiligungen der Erneuerungswahl der Mitglieder des Regierungsrates
+
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/2184@statistisches-amt-kanton-zuerich)
+
+Auto generated R starter code for data set 2184@statistisches-amt-kanton-zuerich.
+
+## Metadata
+
+- **Issued** `2023-06-19T16:15:46`
+- **Modified** `2023-06-19T16:15:46`
+- **Startdate** `2023-02-12`
+- **Enddate** `2023-02-12`
+- **Theme** `['Politik']`
+- **Keyword** `['regierungsratswahlen', 'wahlen', 'wahlergebnisse', 'wahlarchiv', 'demokratie', 'ogd']`
+- **Publisher** `['Statistisches Amt des Kantons Zürich']`
+- **Landingpage** `https://app.statistik.zh.ch/wahlen_abstimmungen/prod/Archive/ElectionMajorz/1/1/20230212/240123/Results`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 6 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 4303
+# Title                    : Regierungsratswahl 2023: Kandidierendenresultate Ebene Kanton
+# Description              : None
+# Issued                   : 2023-06-19T16:15:46
+# Modified                 : 2023-06-19T16:15:46
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002184_00004303.csv')
+
+# Distribution 1
+# Ktzhdistid               : 4304
+# Title                    : Regierungsratswahl 2023: Kandidierendenresultate Ebene Gemeinden
+# Description              : None
+# Issued                   : 2023-06-19T16:15:46
+# Modified                 : 2023-06-19T16:15:46
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002184_00004304.csv')
+
+# Distribution 2
+# Ktzhdistid               : 4323
+# Title                    : Regierungsratswahl 2023: Kandidierendenresultate Ebene Stadtkreis
+# Description              : None
+# Issued                   : 2023-06-19T16:15:46
+# Modified                 : 2023-06-19T16:15:46
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002184_00004323.csv')
+
+# Distribution 3
+# Ktzhdistid               : 4305
+# Title                    : Regierungsratswahl 2023: Wahlbeteiligung Ebene Kanton
+# Description              : None
+# Issued                   : 2023-06-19T16:15:46
+# Modified                 : 2023-06-19T16:15:46
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002184_00004305.csv')
+
+# Distribution 4
+# Ktzhdistid               : 4306
+# Title                    : Regierungsratswahl 2023: Wahlbeteiligung Ebene Gemeinden
+# Description              : None
+# Issued                   : 2023-06-19T16:15:46
+# Modified                 : 2023-06-19T16:15:46
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002184_00004306.csv')
+
+# Distribution 5
+# Ktzhdistid               : 4324
+# Title                    : Regierungsratswahl 2023: Wahlbeteiligung Ebene Stadtkreis
+# Description              : None
+# Issued                   : 2023-06-19T16:15:46
+# Modified                 : 2023-06-19T16:15:46
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002184_00004324.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Statistisches Amt des Kantons Zürich | Wahlen & Abstimmungen | wahlen@statistik.ji.zh.ch
