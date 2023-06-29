@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-06-28"
+date: "2023-06-29"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 723@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2021-05-07T00:00:00`
-- **Modified** `2023-02-14T14:48:29`
+- **Modified** `2023-06-28T16:54:08`
 - **Startdate** `2012-12-31`
-- **Enddate** `2019-12-31`
+- **Enddate** `2020-12-31`
 - **Theme** `['Öffentliche Verwaltung und Finanzen']`
 - **Keyword** `['steuerbares_einkommen', 'steuerertrag', 'einkommensverteilung', 'steuerdaten', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -43,9 +43,9 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 3380
 # Title                    : Steuererträge nach Einkommensklassen
-# Description              : Die Basis für die Berechnung der approximativen Steuererträge bildet das steuerbare Einkommen gemäss Bundessteuer. Das steuerbare Einkommen gemäss Bundesteuer kann aufgrund unterschiedlicher Abzüge von dem für die Staats- und Gemeindesteuer massgebenden Einkommen abweichen. Für die unterschiedlich hohen Kinderabzüge wurde eine Korrektur vorgenommen. Für andere Positionen werden keine Korrektur vorgenommen (z.B. Berufsauslagen).
+# Description              : Die Basis für die Berechnung der approximativen Steuererträge bildet das steuerbare Einkommen gemäss Bundessteuer. Das steuerbare Einkommen gemäss Bundesteuer kann aufgrund unterschiedlicher Abzüge von dem für die Staats- und Gemeindesteuer massgebenden Einkommen abweichen. Für die unterschiedlich hohen Kinderabzüge wurde eine Korrektur vorgenommen. Für andere Positionen werden keine Korrekturen vorgenommen (z.B. Berufsauslagen).
 # Issued                   : 2022-10-24T08:24:38
-# Modified                 : 2022-10-24T08:24:38
+# Modified                 : 2023-06-28T16:53:20
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000723_00003380.csv')
@@ -55,7 +55,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Steuererträge nach Vermögensklassen
 # Description              : None
 # Issued                   : 2022-10-24T08:24:46
-# Modified                 : 2022-10-24T08:24:46
+# Modified                 : 2023-06-28T16:53:42
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000723_00003381.csv')
