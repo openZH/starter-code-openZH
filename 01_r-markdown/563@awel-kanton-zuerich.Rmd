@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-07-01"
+date: "2023-07-02"
 output: html_document
 ---
 
@@ -16,9 +16,9 @@ Auto generated R starter code for data set 563@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2019-12-09T00:00:00`
-- **Modified** `2023-07-01T00:01:09`
+- **Modified** `2023-07-02T00:01:11`
 - **Startdate** `None`
-- **Enddate** `2023-06-30`
+- **Enddate** `2023-07-01`
 - **Theme** `['Raum, Umwelt']`
 - **Keyword** `['luft', 'lufttemperaturen', 'ogd']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
@@ -36,7 +36,7 @@ library(skimr)
 
 # Load data
 
--   The dataset has 51 distribution(s) in CSV format.
+-   The dataset has 52 distribution(s) in CSV format.
 -   All available CSV distributions are listed below and can be read into a tibble.
 
 ```{r}
@@ -106,12 +106,22 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Title                    : LoRa-Sensor-Messwerte 2023/06
 # Description              : None
 # Issued                   : 2023-06-02T00:01:12
-# Modified                 : 2023-07-01T02:01:08
+# Modified                 : 2023-07-02T02:01:09
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202306.csv')
 
 # Distribution 7
+# Ktzhdistid               : 4363
+# Title                    : LoRa-Sensor-Messwerte 2023/07
+# Description              : None
+# Issued                   : 2023-07-02T00:01:11
+# Modified                 : 2023-07-02T00:01:11
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202307.csv')
+
+# Distribution 8
 # Ktzhdistid               : 1628
 # Title                    : LoRa-Sensor-Messwerte 2020/04
 # Description              : None
@@ -121,7 +131,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202004.csv')
 
-# Distribution 8
+# Distribution 9
 # Ktzhdistid               : 1652
 # Title                    : LoRa-Sensor-Messwerte 2020/06
 # Description              : None
@@ -131,7 +141,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202006.csv')
 
-# Distribution 9
+# Distribution 10
 # Ktzhdistid               : 1658
 # Title                    : LoRa-Sensor-Messwerte 2020/07
 # Description              : None
@@ -141,7 +151,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202007.csv')
 
-# Distribution 10
+# Distribution 11
 # Ktzhdistid               : 1707
 # Title                    : LoRa-Sensor-Messwerte 2020/08
 # Description              : None
@@ -151,7 +161,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202008.csv')
 
-# Distribution 11
+# Distribution 12
 # Ktzhdistid               : 1721
 # Title                    : LoRa-Sensor-Messwerte 2020/09
 # Description              : None
@@ -161,7 +171,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202009.csv')
 
-# Distribution 12
+# Distribution 13
 # Ktzhdistid               : 1733
 # Title                    : LoRa-Sensor-Messwerte 2020/10
 # Description              : None
@@ -171,7 +181,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202010.csv')
 
-# Distribution 13
+# Distribution 14
 # Ktzhdistid               : 1861
 # Title                    : LoRa-Sensor-Messwerte 2021/08
 # Description              : None
@@ -181,7 +191,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202108.csv')
 
-# Distribution 14
+# Distribution 15
 # Ktzhdistid               : 1872
 # Title                    : LoRa-Sensor-Messwerte 2021/09
 # Description              : None
@@ -191,7 +201,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202109.csv')
 
-# Distribution 15
+# Distribution 16
 # Ktzhdistid               : 1784
 # Title                    : LoRa-Sensor-Messwerte 2021/02
 # Description              : None
@@ -201,7 +211,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202102.csv')
 
-# Distribution 16
+# Distribution 17
 # Ktzhdistid               : 1860
 # Title                    : LoRa-Sensor-Messwerte 2021/07
 # Description              : None
@@ -211,7 +221,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202107.csv')
 
-# Distribution 17
+# Distribution 18
 # Ktzhdistid               : 1885
 # Title                    : LoRa-Sensor-Messwerte 2021/10
 # Description              : None
@@ -221,7 +231,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202110.csv')
 
-# Distribution 18
+# Distribution 19
 # Ktzhdistid               : 1917
 # Title                    : LoRa-Sensor-Messwerte 2021/11
 # Description              : None
@@ -231,7 +241,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202111.csv')
 
-# Distribution 19
+# Distribution 20
 # Ktzhdistid               : 1619
 # Title                    : LoRa-Sensor-Messwerte 2019/09
 # Description              : None
@@ -241,7 +251,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201909.csv')
 
-# Distribution 20
+# Distribution 21
 # Ktzhdistid               : 1620
 # Title                    : LoRa-Sensor-Messwerte 2019/08
 # Description              : None
@@ -251,7 +261,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201908.csv')
 
-# Distribution 21
+# Distribution 22
 # Ktzhdistid               : 1621
 # Title                    : LoRa-Sensor-Messwerte 2019/07
 # Description              : None
@@ -261,7 +271,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201907.csv')
 
-# Distribution 22
+# Distribution 23
 # Ktzhdistid               : 1622
 # Title                    : LoRa-Sensor-Messwerte 2019/06
 # Description              : None
@@ -271,7 +281,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201906.csv')
 
-# Distribution 23
+# Distribution 24
 # Ktzhdistid               : 1623
 # Title                    : LoRa-Sensor-Messwerte 2019/05
 # Description              : None
@@ -281,7 +291,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201905.csv')
 
-# Distribution 24
+# Distribution 25
 # Ktzhdistid               : 2077
 # Title                    : LoRa-Sensor-Messwerte 2021/12
 # Description              : None
@@ -291,7 +301,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202112.csv')
 
-# Distribution 25
+# Distribution 26
 # Ktzhdistid               : 2078
 # Title                    : LoRa-Sensor-Messwerte 2022/01
 # Description              : None
@@ -301,7 +311,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202201.csv')
 
-# Distribution 26
+# Distribution 27
 # Ktzhdistid               : 1743
 # Title                    : LoRa-Sensor-Messwerte 2020/11
 # Description              : None
@@ -311,7 +321,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202011.csv')
 
-# Distribution 27
+# Distribution 28
 # Ktzhdistid               : 1614
 # Title                    : LoRa-Sensor-Messwerte 2020/02
 # Description              : None
@@ -321,7 +331,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202002.csv')
 
-# Distribution 28
+# Distribution 29
 # Ktzhdistid               : 1615
 # Title                    : LoRa-Sensor-Messwerte 2020/01
 # Description              : None
@@ -331,7 +341,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202001.csv')
 
-# Distribution 29
+# Distribution 30
 # Ktzhdistid               : 1616
 # Title                    : LoRa-Sensor-Messwerte 2019/12
 # Description              : None
@@ -341,7 +351,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201912.csv')
 
-# Distribution 30
+# Distribution 31
 # Ktzhdistid               : 1617
 # Title                    : LoRa-Sensor-Messwerte 2019/11
 # Description              : None
@@ -351,7 +361,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201911.csv')
 
-# Distribution 31
+# Distribution 32
 # Ktzhdistid               : 1618
 # Title                    : LoRa-Sensor-Messwerte 2019/10
 # Description              : None
@@ -361,7 +371,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201910.csv')
 
-# Distribution 32
+# Distribution 33
 # Ktzhdistid               : 1632
 # Title                    : LoRa-Sensor-Messwerte 2020/05
 # Description              : None
@@ -371,7 +381,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202005.csv')
 
-# Distribution 33
+# Distribution 34
 # Ktzhdistid               : 1802
 # Title                    : LoRa-Sensor-Messwerte 2021/04
 # Description              : None
@@ -381,7 +391,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202104.csv')
 
-# Distribution 34
+# Distribution 35
 # Ktzhdistid               : 1811
 # Title                    : LoRa-Sensor-Messwerte 2021/05
 # Description              : None
@@ -391,7 +401,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202105.csv')
 
-# Distribution 35
+# Distribution 36
 # Ktzhdistid               : 1779
 # Title                    : LoRa-Sensor-Messwerte 2020/12
 # Description              : None
@@ -401,7 +411,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202012.csv')
 
-# Distribution 36
+# Distribution 37
 # Ktzhdistid               : 1780
 # Title                    : LoRa-Sensor-Messwerte 2021/01
 # Description              : None
@@ -411,7 +421,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202101.csv')
 
-# Distribution 37
+# Distribution 38
 # Ktzhdistid               : 1791
 # Title                    : LoRa-Sensor-Messwerte 2021/03
 # Description              : None
@@ -421,7 +431,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202103.csv')
 
-# Distribution 38
+# Distribution 39
 # Ktzhdistid               : 1841
 # Title                    : LoRa-Sensor-Messwerte 2021/06
 # Description              : None
@@ -431,7 +441,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202106.csv')
 
-# Distribution 39
+# Distribution 40
 # Ktzhdistid               : 2838
 # Title                    : LoRa-Sensor-Messwerte 2022/06
 # Description              : None
@@ -441,7 +451,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202206.csv')
 
-# Distribution 40
+# Distribution 41
 # Ktzhdistid               : 3440
 # Title                    : LoRa-Sensor-Messwerte 2022/11
 # Description              : None
@@ -451,7 +461,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202211.csv')
 
-# Distribution 41
+# Distribution 42
 # Ktzhdistid               : 2198
 # Title                    : LoRa-Sensor-Messwerte 2022/02
 # Description              : None
@@ -461,7 +471,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202202.csv')
 
-# Distribution 42
+# Distribution 43
 # Ktzhdistid               : 2959
 # Title                    : LoRa-Sensor-Messwerte 2022/07
 # Description              : None
@@ -471,7 +481,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202207.csv')
 
-# Distribution 43
+# Distribution 44
 # Ktzhdistid               : 2362
 # Title                    : LoRa-Sensor-Messwerte 2022/03
 # Description              : None
@@ -481,7 +491,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202203.csv')
 
-# Distribution 44
+# Distribution 45
 # Ktzhdistid               : 3340
 # Title                    : LoRa-Sensor-Messwerte 2022/10
 # Description              : None
@@ -491,7 +501,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202210.csv')
 
-# Distribution 45
+# Distribution 46
 # Ktzhdistid               : 3240
 # Title                    : LoRa-Sensor-Messwerte 2022/09
 # Description              : None
@@ -501,7 +511,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202209.csv')
 
-# Distribution 46
+# Distribution 47
 # Ktzhdistid               : 1068
 # Title                    : LoRa-Sensor-Messwerte 2020/03
 # Description              : None
@@ -511,7 +521,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202003.csv')
 
-# Distribution 47
+# Distribution 48
 # Ktzhdistid               : 2518
 # Title                    : LoRa-Sensor-Messwerte 2022/04
 # Description              : None
@@ -521,7 +531,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202204.csv')
 
-# Distribution 48
+# Distribution 49
 # Ktzhdistid               : 3201
 # Title                    : LoRa-Sensor-Messwerte 2019/04
 # Description              : None
@@ -531,7 +541,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201904.csv')
 
-# Distribution 49
+# Distribution 50
 # Ktzhdistid               : 2638
 # Title                    : LoRa-Sensor-Messwerte 2022/05
 # Description              : None
@@ -541,7 +551,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202205.csv')
 
-# Distribution 50
+# Distribution 51
 # Ktzhdistid               : 3120
 # Title                    : LoRa-Sensor-Messwerte 2022/08
 # Description              : None
