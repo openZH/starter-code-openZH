@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-07-04"
+date: "2023-07-05"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Bestandesdaten der ausländischen Wohnbevölkerung im Kanton Zürich mit Aufenthaltsstatus 'Schutzbedürftige'
 # Description              : Aus Datenschutzgründen werden Zellenwerte, in deren Berechnung Merkmale mit weniger als drei Fällen eingehen, als '-' angegeben.
 # Issued                   : 2022-07-04T13:59:28
-# Modified                 : 2023-05-16T21:06:43
+# Modified                 : 2023-07-04T11:46:54
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001541_00002958.csv')
