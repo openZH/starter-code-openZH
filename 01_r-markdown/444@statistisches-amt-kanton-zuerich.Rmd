@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-07-11"
+date: "2023-07-12"
 output: html_document
 ---
 
 ## Dataset: Abstimmungsparolen von kantonalzürcher und nationalen Parteien
 
-Parteiparolen von kantonalzürcher Parteien mit Einsitz im Zürcher Kantonsrat zu eidgenössischen und kantonalen Abstimmungen. Abweichende Parolen der jeweiligen nationalen Parteien sind ausgewiesen. Es besteht kein Anspruch auf Vollständigkeit. Im Zeitraum von 2011 bis 2016 fehlen die Parolen im Datensatz wegen eines Medienbruchs vollständig. Bitte senden Sie Ergänzungen zum Datensatz an die unter Kontakt angegebene E-Mail-Adresse.
+Parteiparolen von kantonalzürcher Parteien mit Einsitz im Zürcher Kantonsrat zu eidgenössischen und kantonalen Abstimmungen. Abweichende Parolen der jeweiligen nationalen Parteien sind ausgewiesen. Es besteht kein Anspruch auf Vollständigkeit. Bitte senden Sie Ergänzungen zum Datensatz an die unter Kontakt angegebene E-Mail-Adresse.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/444@statistisches-amt-kanton-zuerich)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 444@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2019-07-02T00:00:00`
-- **Modified** `2023-01-04T13:31:38`
+- **Modified** `2023-07-11T08:28:14`
 - **Startdate** `1998-11-29`
 - **Enddate** `None`
 - **Theme** `['Politik']`
