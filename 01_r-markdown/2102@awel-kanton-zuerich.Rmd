@@ -1,0 +1,92 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2023-07-13"
+output: html_document
+---
+
+## Dataset: Fahrzeugflotte der kantonalen Verwaltung Zürich
+
+Die Daten enthalten den Fahrzeugbestand und dessen CO2-Emissionen einerseits und andererseits die neubeschafften Fahrzeuge und deren Antriebstechnologie.
+Gemäss «Weisung über die Emissionsminderung von Fahrzeugen bei der Beschaffung und dem Betrieb durch die kantonale Verwaltung und beauftragte Unternehmen» (RRB Nr. 949/2021) müssen Personenwagen und leichte Nutzfahrzeuge mit einem im Betrieb CO2-freien Antrieb beschafft werden, sofern die betrieblichen, technischen und strategischen Anforderungen erfüllt werden. Für schwere Nutzfahrzeuge sind CO2-freie Antriebe zu prüfen. Auf diese Weise soll die kantonale Fahrzeugflotte im Personenwagensegment ab 2030 und die Einsatzwagen der Kantonspolizei sowie die leichten und schweren Nutzfahrzeuge ab 2040 kein CO2 mehr ausstossen. Im Rahmen der Erfolgskontrolle ist ab dem Beschaffungsjahr 2022 ein jährlicher Monitoringbericht zuhanden der Direktionsvorstehenden der Bau- und Sicherheitsdirektion zu erstellen. Die vorliegenden Daten zum gesamten Bestand, den Fahrleistungen, den Emissionen sowie zu den neubeschafften Fahrzeugen und deren Antriebstechnologie, wurden für diesen Monitoringbericht erhoben.
+Die Daten werden jährlich fortgeschrieben, so dass eine historisierte Zeitreihe vorliegt.
+
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/2102@awel-kanton-zuerich)
+
+Auto generated R starter code for data set 2102@awel-kanton-zuerich.
+
+## Metadata
+
+- **Issued** `2023-07-12T11:06:29`
+- **Modified** `2023-07-12T11:06:29`
+- **Startdate** `2015-01-01`
+- **Enddate** `2021-12-31`
+- **Theme** `['Mobilität und Verkehr', 'Raum, Umwelt', None]`
+- **Keyword** `['fahrzeuge', 'klima', 'motorfahrzeugbestand', 'umwelt', 'emissionen', 'ogd']`
+- **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
+- **Landingpage** `None`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 2 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 4163
+# Title                    : Fahrzeugbestand und Emissionen
+# Description              : None
+# Issued                   : 2023-07-12T11:06:29
+# Modified                 : 2023-07-12T11:06:29
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002102_00004163.csv')
+
+# Distribution 1
+# Ktzhdistid               : 4164
+# Title                    : Neubeschaffungen und Antriebstechnologie
+# Description              : None
+# Issued                   : 2023-07-12T11:06:29
+# Modified                 : 2023-07-12T11:06:29
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002102_00004164.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich | Abteilung Luft, Klima und Strahlung | luft@bd.zh.ch
