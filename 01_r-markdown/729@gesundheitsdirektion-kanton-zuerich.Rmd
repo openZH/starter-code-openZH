@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-07-28"
+date: "2023-07-29"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Erhebung der Badewasserqualität in öffentlichen Badeanstalten an Flüssen und Seen im Kanton Zürich
 # Description              : Variabeln: 'date' = Tag der Entnahme der Probe; 'id' = Identifikator des Orts; 'location' = Ausgeschriebener Name des Orts; 'quality' = Bewertungsstufen der Badewasserqualität; 'remark' = Optionale Anmerkungen zur Probe; 'source' = Organisation, welche die Probe durchführt; 'lat' = Breitengrad des Orts; 'long' = Längengrad des Orts; 'image' = Bild des Orts (wird nicht regelmässig aktualisiert; URL).
 # Issued                   : 2022-10-17T16:13:37
-# Modified                 : 2023-07-27T11:42:56
+# Modified                 : 2023-07-28T16:41:33
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000729_00003341.csv')
