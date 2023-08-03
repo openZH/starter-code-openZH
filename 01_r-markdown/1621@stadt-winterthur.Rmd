@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-08-02"
+date: "2023-08-03"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 1621@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2022-09-20T17:10:34`
-- **Modified** `2022-09-21T10:06:20`
+- **Modified** `2023-08-02T09:45:23`
 - **Startdate** `1995-01-01`
 - **Enddate** `2019-12-31`
 - **Theme** `['Arbeit, Erwerb']`
@@ -77,4 +77,4 @@ tail(df)
 
 # Questions about the data?
 
-Stadt Winterthur | Stadtentwicklung der Stadt Winterthur | hermann.hegner@win.ch
+Stadt Winterthur | Stadtentwicklung der Stadt Winterthur | statistik@win.ch
