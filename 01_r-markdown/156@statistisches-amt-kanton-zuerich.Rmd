@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-08-14"
+date: "2023-08-15"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 156@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2022-08-26T14:01:18`
+- **Modified** `2023-08-08T09:24:25`
 - **Startdate** `1994-12-31`
-- **Enddate** `2020-12-31`
+- **Enddate** `2021-12-31`
 - **Theme** `['Bau- und Wohnungswesen']`
 - **Keyword** `['bauinvestitionen', 'bautaetigkeit', 'bezirke', 'gemeinden', 'kanton_zuerich', 'wohnbautaetigkeit', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Bauinv. Wohnen  [Fr./Einw.]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2022-08-26T14:01:18
+# Modified                 : 2023-08-08T09:24:25
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_178.csv')
