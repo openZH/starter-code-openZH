@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-08-17"
+date: "2023-08-18"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 128@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2019-08-20T00:00:00`
-- **Modified** `2023-02-14T14:46:35`
+- **Modified** `2023-08-17T09:53:21`
 - **Startdate** `1984-06-01`
-- **Enddate** `2021-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['Bau- und Wohnungswesen']`
 - **Keyword** `['leerwohnungen', 'leerwohnungsziffer', 'mietwohnungen', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Variablenliste zu Anzahl Leerwohnungen pro Gemeinde im Kanton Zürich seit 1994
 # Description              : Die Variablenliste bezieht sich auf eine alte Datenstruktur und ist nicht mehr aktuell. Die neue Datenstruktur sollte selbsterklärend sein.
 # Issued                   : 2021-11-23T11:01:23
-# Modified                 : 2021-12-21T14:13:23
+# Modified                 : 2023-08-17T10:00:54
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000128_00001977.csv')
@@ -55,7 +55,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Anzahl Leerwohnungen pro Gemeinde im Kanton Zürich seit 1994
 # Description              : Stichtag der Erhebung ist der 1. Juni, die Angaben beziehen sich auf den Gemeindestand (Variable bfs) zum Zeitpunkt der Erhebung
 # Issued                   : 2021-11-23T11:01:23
-# Modified                 : 2022-08-30T09:29:04
+# Modified                 : 2023-08-17T09:59:20
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000128_00001978.csv')
