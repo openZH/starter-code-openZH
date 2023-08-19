@@ -4,7 +4,7 @@
 
 This is an experiment to provide exactly this. 
 
-With this repo you get starter code for **all CSV data sets** (currently 404) that are available in the [data shop of the Statistical Office of Canton Zurich](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/). 
+With this repo you get starter code for **all CSV data sets** (currently 406) that are available in the [data shop of the Statistical Office of Canton Zurich](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/). 
 
 In the list below you find links to preconfigured code files so that you **immediately can start analyzing the data with R or Python.**
 
@@ -16,7 +16,7 @@ Feedback is always very welcome – simply open an issue.
 
 For all data licenses please refer to each data set's link or the metadata API endpoint provided [here](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/datasets/1461@fachstelle-ogd-kanton-zuerich).
 
-<sub>Latest update: **2023-08-18 03:40:24**<sub>
+<sub>Latest update: **2023-08-19 03:40:11**<sub>
 
 | ID | Title (abbreviated to 200 chars) | Python Colab | Python GitHub | R GitHub |
 | :-- | :-- | :-- | :-- | :-- |
@@ -424,3 +424,5 @@ For all data licenses please refer to each data set's link or the metadata API e
 | 2182 | [KRW Wähleranteil Die Mitte  % ](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/2182@statistisches-amt-kanton-zuerich) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/2182@statistisches-amt-kanton-zuerich.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2182@statistisches-amt-kanton-zuerich.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2182@statistisches-amt-kanton-zuerich.Rmd) |
 | 2183 | [Resultate und Wahlbeteiligung Kantonsratswahl](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/2183@statistisches-amt-kanton-zuerich) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/2183@statistisches-amt-kanton-zuerich.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2183@statistisches-amt-kanton-zuerich.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2183@statistisches-amt-kanton-zuerich.Rmd) |
 | 2184 | [Resultate und Wahlbeteiligung Regierungsratswahl](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/2184@statistisches-amt-kanton-zuerich) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/2184@statistisches-amt-kanton-zuerich.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2184@statistisches-amt-kanton-zuerich.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2184@statistisches-amt-kanton-zuerich.Rmd) |
+| 2202 | [Resultate und Wahlbeteiligung Nationalratswahl](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/2202@statistisches-amt-kanton-zuerich) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/2202@statistisches-amt-kanton-zuerich.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2202@statistisches-amt-kanton-zuerich.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2202@statistisches-amt-kanton-zuerich.Rmd) |
+| 2203 | [Resultate und Wahlbeteiligung Ständeratswahl](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/2203@statistisches-amt-kanton-zuerich) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/2203@statistisches-amt-kanton-zuerich.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2203@statistisches-amt-kanton-zuerich.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2203@statistisches-amt-kanton-zuerich.Rmd) |

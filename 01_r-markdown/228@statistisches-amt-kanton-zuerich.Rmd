@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-08-18"
+date: "2023-08-19"
 output: html_document
 ---
 
 ## Dataset: Wohnungsbestand [Whg.]
 
-Wohnungsbestand gemäss GWS. Wohnungsbestand bis 2009 aus Fortschreibung des Wohnungsbestandes der GWZ aufgrund der WBT. Hinweis zu GWS: Die Jahresdifferenz 2009/2010 und 2010/2011 des Wohnungsbestandes entspricht nicht dem Wohnungszugang aufgrund Registerbereinigungen (s. http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/gws/02.html)
+Wohnungsbestand gemäss GWS. Wohnungsbestand bis 2009 aus Fortschreibung des Wohnungsbestandes der GWZ aufgrund der WBT. Hinweis zu GWS: Die Jahresdifferenz 2009/2010 und 2010/2011 des Wohnungsbestandes entspricht nicht dem Wohnungszugang aufgrund Registerbereinigungen.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/228@statistisches-amt-kanton-zuerich)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 228@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2022-10-10T12:59:40`
+- **Modified** `2023-08-18T13:25:50`
 - **Startdate** `1990-12-31`
 - **Enddate** `2021-12-31`
 - **Theme** `['Bau- und Wohnungswesen']`
