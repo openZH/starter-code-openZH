@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-08-21"
+date: "2023-08-22"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Abfallmengen nach Abfallarten und Gemeinden
 # Description              : Der Datensatz zeigt die Gesamtmenge der Siedlungsabfälle aus Haushalten und Betrieben, die bei der kommunalen Sammlung gesammelt wurden. Direkte Anlieferungen an Kehrichtverbrennungsanlagen und private Entsorgungslösungen, die nicht den kommunalen Weg nutzen, sind nicht enthalten. Die Siedlungsabfälle werden unterteilt in die Abfallarten Kehricht (einschliesslich Sperrgut), zum Recycling bestimmte Abfälle wie Altglas, Papier und Karton, Kunststoffe, Metalle, Altöl, biogene Abfälle sowie Textilien. Zudem werden mineralische Abfälle (Grubengut) erfasst. Seit 2007 werden auch Strassenabfälle aus Strassenwischern und Strassensammlerschlämme erfasst. Werte unter 500 kg werden auf 0 Tonnen abgerundet. Einige Gemeinden stellen nicht für alle Abfallarten Daten zur Verfügung, insbesondere für Kunststoffe und Textilien. Einträge mit (‘NA’) bedeuten, dass diese Abfallart in der Gemeinde nicht gesammelt wird oder keine Mengenangabe erfolgte.
 # Issued                   : 2022-11-07T13:23:18
-# Modified                 : 2023-08-18T11:59:43
+# Modified                 : 2023-08-21T16:36:50
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001803_00003460.csv')
