@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-08-24"
+date: "2023-08-25"
 output: html_document
 ---
 
@@ -15,10 +15,10 @@ Auto generated R starter code for data set 4@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2022-08-26T14:34:56`
+- **Modified** `2023-08-24T14:59:24`
 - **Startdate** `1990-12-31`
 - **Enddate** `2021-12-31`
-- **Theme** `['Bildung, Wissenschaft', 'Bevölkerung']`
+- **Theme** `['Bevölkerung']`
 - **Keyword** `['bevoelkerung', 'bezirke', 'gemeinden', 'kanton_zuerich', 'wanderungen', 'zuzuege-wegzuege', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
