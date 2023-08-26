@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-08-25"
+date: "2023-08-26"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 336@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2022-11-11T07:27:58`
+- **Modified** `2023-08-25T08:14:10`
 - **Startdate** `2011-12-31`
-- **Enddate** `2020-12-31`
+- **Enddate** `2021-12-31`
 - **Theme** `['Arbeit, Erwerb']`
 - **Keyword** `['betriebe', 'bezirke', 'gemeinden', 'kanton_zuerich', 'unternehmensstruktur', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Mikrobetriebe (0-9 VZÄ) [Anz.]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2022-02-01T14:17:28
+# Modified                 : 2023-08-25T08:14:10
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_584.csv')
