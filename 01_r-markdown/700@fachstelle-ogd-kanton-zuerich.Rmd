@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-08-28"
+date: "2023-08-29"
 output: html_document
 ---
 
@@ -41,6 +41,16 @@ library(skimr)
 ```{r}
 
 # Distribution 0
+# Ktzhdistid               : 1724
+# Title                    : Verzeichnis der Personenstammdaten ZH - Merkmale zu Registern und Systemen
+# Description              : Abkürzungen und Definitionen sind in der Ressource "Verzeichnis der Personenstammdaten ZH - Abkürzungen und Definitionen" erklärt.
+# Issued                   : 2020-09-17T15:27:53
+# Modified                 : 2020-10-01T11:32:26
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000700_00001724.csv')
+
+# Distribution 1
 # Ktzhdistid               : 1723
 # Title                    : Verzeichnis der Personenstammdaten ZH - Abkürzungen und Definitionen
 # Description              : None
@@ -50,7 +60,7 @@ library(skimr)
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000700_00001723.csv')
 
-# Distribution 1
+# Distribution 2
 # Ktzhdistid               : 1725
 # Title                    : Verzeichnis der Personenstammdaten ZH - Merkmale zu Verwaltungseinheiten
 # Description              : Abkürzungen und Definitionen sind in der Ressource "Verzeichnis der Personenstammdaten ZH - Abkürzungen und Definitionen" erklärt.
@@ -59,16 +69,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000700_00001725.csv')
-
-# Distribution 2
-# Ktzhdistid               : 1724
-# Title                    : Verzeichnis der Personenstammdaten ZH - Merkmale zu Registern und Systemen
-# Description              : Abkürzungen und Definitionen sind in der Ressource "Verzeichnis der Personenstammdaten ZH - Abkürzungen und Definitionen" erklärt.
-# Issued                   : 2020-09-17T15:27:53
-# Modified                 : 2020-10-01T11:32:26
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000700_00001724.csv')
 
 
 
