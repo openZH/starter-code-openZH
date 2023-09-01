@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-08-31"
+date: "2023-09-01"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Geschossflächenreserven Kanton Zürich ab 2000 in 1'000m2
 # Description              : Geschossflächenreserven, unterteilt in Wohnzone, Mischzone, Arbeitszone und Zone für öffentliche Bauten sowie zusätzlich in überbaute und nicht überbaute Bauzone. Die Spalte "ARE_NR" ist eine kantonsinterne Nummerierung, um im Vergleich zur Spalte "BFS_NR" neben den Gemeinden und Städten zusätzlich auch die Regionen und den Kanton Zürich als Ganzes identifizieren zu können. Ab 2021 wird ein neues Berechnungsmodell verwendet. Aus technischen Gründen fand für 2020 keine Datenerhebung statt.
 # Issued                   : 2022-12-05T11:47:42
-# Modified                 : 2022-12-07T13:00:44
+# Modified                 : 2023-08-31T08:07:07
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003323.csv')
@@ -65,7 +65,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Geschossflächenbestand Kanton Zürich ab 2000 in 1'000m2
 # Description              : Geschossflächenbestand, unterteilt in Wohnzone, Mischzone, Arbeitszone und Zone für öffentliche Bauten. Die Spalte "ARE_NR" ist eine kantonsinterne Nummerierung, um im Vergleich zur Spalte "BFS_NR" neben den Gemeinden und Städten zusätzlich auch die Regionen und den Kanton Zürich als Ganzes identifizieren zu können. Ab 2021 wird ein neues Berechnungsmodell verwendet. Aus technischen Gründen fand für 2020 keine Datenerhebung statt.
 # Issued                   : 2022-12-05T11:47:42
-# Modified                 : 2022-12-07T13:00:14
+# Modified                 : 2023-08-31T08:07:25
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003321.csv')
