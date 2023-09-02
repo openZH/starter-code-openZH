@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-09-01"
+date: "2023-09-02"
 output: html_document
 ---
 
@@ -17,9 +17,9 @@ Auto generated R starter code for data set 1582@bildungsstatistik-kanton-zuerich
 ## Metadata
 
 - **Issued** `2022-10-24T11:15:55`
-- **Modified** `2023-02-27T13:08:38`
+- **Modified** `2023-09-01T15:48:55`
 - **Startdate** `2000-09-15`
-- **Enddate** `2021-09-15`
+- **Enddate** `2022-09-15`
 - **Theme** `['Bildung, Wissenschaft']`
 - **Keyword** `['ausbildung', 'bildung', 'grossregionen', 'lernende', 'nationalitaet', 'schueler', 'schuelerinnen', 'staatsangehoerigkeit', 'volksschule', 'bildungsdaten', 'ogd']`
 - **Publisher** `['Bildungsstatistik des Kantons Zürich']`
@@ -45,9 +45,9 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 3020
 # Title                    : Lernende der Volksschule im Kanton Zürich nach Staatsangehörigkeit ab 2000
-# Description              : Die Daten sind differenziert nach Jahr und Staatsangehörigkeit. Bei Zellen kleiner 5 wird die Staatsangehörigkeit zuerst auf Ebene Grossregion und, wenn nötig, auf Ebene Kontinent aggregiert. Jahr: Das Jahr ist jeweils das Kalenderjahr der Erhebung, wobei der Stichtag der 15.9. ist. Die Daten für das Jahr 2021 sind somit im Schuljahr 2021/22 erhoben worden und zeigen den Datenstand am 15. September 2021. Staatsangehoerigkeit: Es wird pro Person nur eine Staatsangehörigkeit erhoben. Falls eine Person mehrere Staatsangehörigkeiten hat, und eine davon ist die Schweizerische, so wird diese prioritär erfasst. Bei anderen mehrfachen Staatsangehörigkeiten wir keine Vorgabe zur Priorisierung gemacht. Staatsangehoerigkeit_ISO2_Code: Bei der Aggregation auf Grossregion und Kontinent bleibt der ISO2 Code leer. Anzahl: Anzahl der Schülerinnen und Schüler mit der entsprechenden Merkmalskombination.
+# Description              : Die Daten sind differenziert nach Jahr und Staatsangehörigkeit. Bei Zellen kleiner 5 wird die Staatsangehörigkeit zuerst auf Ebene Grossregion und, wenn nötig, auf Ebene Kontinent aggregiert. Jahr: Das Jahr ist jeweils das Kalenderjahr der Erhebung, wobei der Stichtag der 15.9. ist. Die Daten für das Jahr 2022 sind somit im Schuljahr 2022/23 erhoben worden und zeigen den Datenstand am 15. September 2022. Staatsangehoerigkeit: Es wird pro Person nur eine Staatsangehörigkeit erhoben. Falls eine Person mehrere Staatsangehörigkeiten hat, und eine davon ist die Schweizerische, so wird diese prioritär erfasst. Bei anderen mehrfachen Staatsangehörigkeiten wir keine Vorgabe zur Priorisierung gemacht. Staatsangehoerigkeit_ISO2_Code: Bei der Aggregation auf Grossregion und Kontinent bleibt der ISO2 Code leer. Anzahl: Anzahl der Schülerinnen und Schüler mit der entsprechenden Merkmalskombination.
 # Issued                   : 2022-10-24T11:15:55
-# Modified                 : 2023-02-27T13:08:38
+# Modified                 : 2023-09-01T15:48:55
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/bista/ZH_Lernende_Volksschule_Staatsangehoerigkeit.csv')
