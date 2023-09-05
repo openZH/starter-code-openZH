@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-09-04"
+date: "2023-09-05"
 output: html_document
 ---
 
@@ -15,11 +15,11 @@ Auto generated R starter code for data set 1202@kantonspolizei-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2022-03-10T13:54:15`
-- **Modified** `2023-05-25T16:35:42`
+- **Modified** `2023-09-04T16:39:06`
 - **Startdate** `2009-01-01`
 - **Enddate** `2021-12-31`
 - **Theme** `['Kriminalität, Strafrecht']`
-- **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'kriminalitaet', 'strafbare_handlungen', 'strafdelikte', 'straftaten', 'jugendkriminalitaet', 'einbrueche', 'cyberkriminalitaet', 'ogd']`
+- **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'kriminalitaet', 'strafbare_handlungen', 'strafdelikte', 'straftaten', 'jugendkriminalitaet', 'gewalt', 'einbrueche', 'cyberkriminalitaet', 'ogd']`
 - **Publisher** `['Kantonspolizei des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/sicherheit-justiz/delikte-praevention/kriminalstatistik.html`
 
