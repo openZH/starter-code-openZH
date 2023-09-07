@@ -4,7 +4,7 @@
 
 This is an experiment to provide exactly this. 
 
-With this repo you get starter code for **all CSV data sets** (currently 407) that are available in the [data shop of the Statistical Office of Canton Zurich](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/). 
+With this repo you get starter code for **all CSV data sets** (currently 408) that are available in the [data shop of the Statistical Office of Canton Zurich](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/). 
 
 In the list below you find links to preconfigured code files so that you **immediately can start analyzing the data with R or Python.**
 
@@ -16,7 +16,7 @@ Feedback is always very welcome – simply open an issue.
 
 For all data licenses please refer to each data set's link or the metadata API endpoint provided [here](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/datasets/1461@fachstelle-ogd-kanton-zuerich).
 
-<sub>Latest update: **2023-09-06 03:40:14**<sub>
+<sub>Latest update: **2023-09-07 03:39:59**<sub>
 
 | ID | Title (abbreviated to 200 chars) | Python Colab | Python GitHub | R GitHub |
 | :-- | :-- | :-- | :-- | :-- |
@@ -427,3 +427,4 @@ For all data licenses please refer to each data set's link or the metadata API e
 | 2184 | [Resultate und Wahlbeteiligung Regierungsratswahl](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/2184@statistisches-amt-kanton-zuerich) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/2184@statistisches-amt-kanton-zuerich.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2184@statistisches-amt-kanton-zuerich.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2184@statistisches-amt-kanton-zuerich.Rmd) |
 | 2202 | [Resultate und Wahlbeteiligung Nationalratswahl](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/2202@statistisches-amt-kanton-zuerich) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/2202@statistisches-amt-kanton-zuerich.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2202@statistisches-amt-kanton-zuerich.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2202@statistisches-amt-kanton-zuerich.Rmd) |
 | 2203 | [Resultate und Wahlbeteiligung Ständeratswahl](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/2203@statistisches-amt-kanton-zuerich) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/2203@statistisches-amt-kanton-zuerich.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2203@statistisches-amt-kanton-zuerich.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2203@statistisches-amt-kanton-zuerich.Rmd) |
+| 2322 | [Betriebslandschaft im Kanton Zürich mit dem Bestand und den Umzügen nach Branchen, Gemeinden und anderen Kantonen](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/2322@statistisches-amt-kanton-zuerich) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/2322@statistisches-amt-kanton-zuerich.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2322@statistisches-amt-kanton-zuerich.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2322@statistisches-amt-kanton-zuerich.Rmd) |
