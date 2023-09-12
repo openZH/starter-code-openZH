@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-09-11"
+date: "2023-09-12"
 output: html_document
 ---
 
@@ -43,9 +43,9 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 3323
 # Title                    : Geschossflächenreserven Kanton Zürich ab 2000 in 1'000m2
-# Description              : Geschossflächenreserven, unterteilt in Wohnzone, Mischzone, Arbeitszone und Zone für öffentliche Bauten sowie zusätzlich in überbaute und nicht überbaute Bauzone. Die Spalte "ARE_NR" ist eine kantonsinterne Nummerierung, um im Vergleich zur Spalte "BFS_NR" neben den Gemeinden und Städten zusätzlich auch die Regionen und den Kanton Zürich als Ganzes identifizieren zu können. Ab 2021 wird ein neues Berechnungsmodell verwendet. Aus technischen Gründen fand für 2020 keine Datenerhebung statt.
+# Description              : Geschossflächenreserven, unterteilt in Wohnzone, Mischzone, Arbeitszone und Zone für öffentliche Bauten sowie zusätzlich in überbaute und nicht überbaute Bauzone. Die Spalte "ARE_NR" ist eine kantonsinterne Nummerierung, um im Vergleich zur Spalte "BFS_NR" neben den Gemeinden und Städten zusätzlich auch die Regionen und den Kanton Zürich als Ganzes identifizieren zu können. Ab 2021 wird ein neues Berechnungsmodell verwendet. Aus technischen Gründen fand für 2020 keine Datenerhebung statt. In der Berechnung für 2021 sind allfällige Ausnützungsboni aus den Bau- und Zonenordnungen für Wohn- und Gewerbezonen sowie Zentrumszonen eingerechnet, für 2022 und die darauffolgenden Jahre nicht mehr.
 # Issued                   : 2022-12-05T11:47:42
-# Modified                 : 2023-08-31T08:07:07
+# Modified                 : 2023-09-11T11:54:47
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003323.csv')
@@ -55,7 +55,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Ausbaugrad Kanton Zürich ab 2000 in %
 # Description              : Ausbaugrad (gebaute Geschossfläche in % der zulässigen Geschossfläche innerhalb der überbauten Bauzone), unterteilt in Wohnzone, Mischzone, Arbeitszone und Zone für öffentliche Bauten. Die Spalte "ARE_NR" ist eine kantonsinterne Nummerierung, um im Vergleich zur Spalte "BFS_NR" neben den Gemeinden und Städten zusätzlich auch die Regionen und den Kanton Zürich als Ganzes identifizieren zu können. Es können keine Totale aus den Werten gerechnet werden. Ab 2021 wird ein neues Berechnungsmodell verwendet. Aus technischen Gründen fand für 2020 keine Datenerhebung statt.
 # Issued                   : 2022-12-05T11:47:42
-# Modified                 : 2022-12-07T12:59:34
+# Modified                 : 2023-09-11T11:56:13
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003325.csv')
@@ -65,7 +65,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Geschossflächenbestand Kanton Zürich ab 2000 in 1'000m2
 # Description              : Geschossflächenbestand, unterteilt in Wohnzone, Mischzone, Arbeitszone und Zone für öffentliche Bauten. Die Spalte "ARE_NR" ist eine kantonsinterne Nummerierung, um im Vergleich zur Spalte "BFS_NR" neben den Gemeinden und Städten zusätzlich auch die Regionen und den Kanton Zürich als Ganzes identifizieren zu können. Ab 2021 wird ein neues Berechnungsmodell verwendet. Aus technischen Gründen fand für 2020 keine Datenerhebung statt.
 # Issued                   : 2022-12-05T11:47:42
-# Modified                 : 2023-08-31T08:07:25
+# Modified                 : 2023-09-11T11:57:01
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003321.csv')
