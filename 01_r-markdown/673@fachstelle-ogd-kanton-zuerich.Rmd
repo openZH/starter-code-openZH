@@ -8,7 +8,7 @@ output: html_document
 
 Data is generated and validated daily using manual and automated procedures. Note that we only publish data that are reported by the Swiss Cantons and the Principality of Liechtenstein. Thus, gaps result if Swiss Cantons or the Principality of Liechtenstein do not report data for a specific date. Updates of cantonal case numbers during weekends are infrequent.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/673@fachstelle-ogd-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/673@fachstelle-ogd-kanton-zuerich)
 
 Auto generated R starter code for data set 673@fachstelle-ogd-kanton-zuerich.
 

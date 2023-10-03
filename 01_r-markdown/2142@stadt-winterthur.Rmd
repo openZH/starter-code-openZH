@@ -9,7 +9,7 @@ output: html_document
 Temperatur und Luftfeuchtigkeit sowie die Strahlung als Hilfswerte gemessen durch Sensoren von rund 25 Meteohelix-Messstationen im Stadtgebiet von Winterthur. Dieses Messnetz wurde im Sommer 2022 durch die Fachstelle Umwelt der Stadt Winterthur aufgebaut und seither betrieben. 
 Der Datensatz wird täglich aktualisiert und umfasst alle für die Standorte gültigen Messwerte im 10-Minuten-Mittel; die Standortinformationen sind in der Ressource "Standorte-Stationen" abrufbar. Es handelt sich um Rohdaten, welche direkt von der meteoblue API (Produktbeschrieb unter "Zusätzliche Informationen" verlinkt) bezogen wurden, und nicht plausibilisiert oder korrigiert sind. In der Ressource "Datenbeschrieb" finden Sie die vollständige Beschreibung der Merkmale. Direkter Zugriff auf die meteoblue API ist möglich und kann direkt bei meteoblue angefragt werden.  
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/2142@stadt-winterthur)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2142@stadt-winterthur)
 
 Auto generated R starter code for data set 2142@stadt-winterthur.
 

@@ -8,7 +8,7 @@ output: html_document
 
 Durchschnittliche Haushaltsgrösse von Privathaushalten der ständigen Wohnbevölkerung.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/371@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/371@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 371@statistisches-amt-kanton-zuerich.
 

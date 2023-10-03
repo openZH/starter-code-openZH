@@ -8,7 +8,7 @@ output: html_document
 
 Anteil Siedlungsfläche (ohne Verkehrsfläche) an der Gesamtfläche. Die Arealstatistiken werden ca. alle 10 Jahre erhoben. Die Arealstatistiken werden ca. alle 10 Jahre erhoben. Die letzten vier fanden zwischen 1979-1985, 1992-1997, 2004-2009 und 2013-2018 statt.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/382@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/382@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 382@statistisches-amt-kanton-zuerich.
 

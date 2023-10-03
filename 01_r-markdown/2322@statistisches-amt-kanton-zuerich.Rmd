@@ -8,7 +8,7 @@ output: html_document
 
 Der Datensatz beschreibt die wirtschaftliche Betriebslandschaft im Kanton Zürich anhand des Bestands und der Umzüge der im Kanton ansässigen Betriebe mit der Anzahl Arbeitsstätten, Beschäftigten und Vollzeitstellen (sogenannte Vollzeitäquivalente VZÄ), aufgeschlüsselt nach Gemeinden, Branchen und mit anderen Kantonen. Die hier ausgewiesenen Daten basieren auf der Statistik der Unternehmensstruktur (STATENT) des BFS.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/2322@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2322@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 2322@statistisches-amt-kanton-zuerich.
 

@@ -8,7 +8,7 @@ output: html_document
 
 Das Staatsarchiv Kanton Zürich hat Angaben zu sämtlichen Mitgliedern des Kantonsrates seit 1917 zusammengetragen. Diese Informationen wurden vom Statistischen Amt in einer Datenbank aufbereitet und mit verschiedenen Abfragemöglichkeiten versehen: Abfrage der Zusammensetzung des Kantonsrates in der Vergangenheit (berechnet aus der Parteizugehörigkeit der einzelnen Mitglieder zu einem bestimmten Zeitpunkt), Abfrage der Entwicklung der Sitzanteile der heutigen Parteien, Abfrage der Altersverteilung im Kantonsrat, Abfrage der Geschlechterverteilung im Kantonsrat. Abfragen zu den Personen und ihrer Mitgliedschaft im Kantonsrat (Personalien, Ein- und Austritt(e), Parteizugehörigkeit, Interessenbindungen, Kantonsratspräsidien usw.). Da nur Daten zu gewählten Kantonsratsmitgliedern aufgenommen wurden, sind keine Auskünfte zu Wahlergebnissen, Wähleranteilen oder Stimmenzahlen möglich.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/467@staatsarchiv-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/467@staatsarchiv-kanton-zuerich)
 
 Auto generated R starter code for data set 467@staatsarchiv-kanton-zuerich.
 

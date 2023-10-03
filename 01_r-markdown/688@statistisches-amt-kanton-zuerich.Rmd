@@ -8,7 +8,7 @@ output: html_document
 
 Anteil der Personenwagen (PW) mit Elektromotor an allen Personenwagen, die zwischen dem 1. Oktober des Vorjahrs und dem 30. September erstmals in Verkehr gesetzt wurden. Hinweis: Der Wert für den ganzen Kanton umfasst alle Autos mit einem Zürcher Kennzeichen; diese können auch Personen oder Unternehmen gehören, die ihr Domizil nicht im Kanton Zürich haben.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/688@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/688@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 688@statistisches-amt-kanton-zuerich.
 

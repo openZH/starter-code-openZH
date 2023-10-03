@@ -8,7 +8,7 @@ output: html_document
 
 ZL-Bezügerquote der Personen ab 65 Jahren. Die ZL-Bezügerquote weist den Anteil der Personen im Rentenalter aus, der mit Zusatzleistungen zur Altersrente unterstützt wird. Bei Gemeinden, die weniger als 5 Fälle haben, wird keine Quote ausgewiesen. (Referenzpopulation im Gemeindeporträt: kantonale Bevölkerungserhebung. Das BFS verwendet für die Berechnung seiner Quoten als Referenzpopulation STATPOP des Vorjahres.)
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/334@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/334@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 334@statistisches-amt-kanton-zuerich.
 

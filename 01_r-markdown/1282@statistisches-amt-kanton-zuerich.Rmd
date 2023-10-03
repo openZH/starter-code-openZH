@@ -8,7 +8,7 @@ output: html_document
 
 Ergebnisse der Erneuerungswahlen der Zürcher Gemeindeparlamente
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/1282@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1282@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 1282@statistisches-amt-kanton-zuerich.
 

@@ -8,7 +8,7 @@ output: html_document
 
 Neu gegründete Unternehmen (2. und 3. Sektor). Die Statistik der Neugründungen erfasst nur tatsächlich - also «ex nihilo» - neu entstandene Unternehmen mit marktwirtschaftlicher Tätigkeit. Aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen hervorgegangene Unternehmen werden folglich nicht berücksichtigt. Werte < 4 werden nicht ausgewiesen.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/396@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/396@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 396@statistisches-amt-kanton-zuerich.
 

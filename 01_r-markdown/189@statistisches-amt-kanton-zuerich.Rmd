@@ -8,7 +8,7 @@ output: html_document
 
 Steuerbares Einkommen natürlicher Personen. Bis 1998: Reineinkommen.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/189@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/189@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 189@statistisches-amt-kanton-zuerich.
 

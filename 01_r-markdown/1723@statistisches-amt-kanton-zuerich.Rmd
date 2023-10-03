@@ -8,7 +8,7 @@ output: html_document
 
 Anzahl Wohnungen in Gebäuden, die dem gemeinnützigen Sektor zuzuordnen sind. Das Bundesamt für Wohnungswesen (BWO), das die Daten erhebt, schätzt, dass rund 90 Prozent aller sich im Besitz des gemeinnützigen Sektors befindlichen Wohnungen erfasst werden. Nicht erfasst werden Wohnungen in Gebäuden in direktem kommunalen Besitz (in der Stadt Zürich zum Beispiel die städtischen Wohnungen). Es ist nicht zulässig, die jährliche Veränderung des Indikators als reale Zu- bzw. Abnahme des gemeinnützigen Wohnungsbestandes zu interpretieren, weil die Datengrundlage nur alle fünf Jahre systematisch aktualisiert wird. Insbesondere grosse Veränderungen sind in der Regel der nachträglichen Erfassung von Gebäuden geschuldet.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/1723@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1723@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 1723@statistisches-amt-kanton-zuerich.
 

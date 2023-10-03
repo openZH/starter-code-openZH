@@ -8,7 +8,7 @@ output: html_document
 
 Durchschnittliche Bauinvestitionen der letzten 5 Jahre im Bereich ÖV und Kommunikation (Bauinv. für Bahn, Bus, Tram, Flugverkehr und Schifffahrt sowie für Kommunikation), in Franken pro Einwohner.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/378@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/378@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 378@statistisches-amt-kanton-zuerich.
 

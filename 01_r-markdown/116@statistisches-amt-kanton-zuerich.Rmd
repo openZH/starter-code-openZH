@@ -9,7 +9,7 @@ output: html_document
 Freihandverkäufe von unbebautem Land der Wohn- und Mischzone (Zentrums-, Kern- und Wohn/Gewerbezonen) inkl. Abbruchliegenschaften. Bis ins Jahr 2011 wurden Verkäufe ab Plan (in der Regel bei Stockwerkeigentum) als unbebaute Liegenschaft erfasst. Die Anzahl Verkäufe ist ab 2011 entsprechend tiefer als zuvor. Die letzten drei Jahre sind provisorisch.
 Weitere Infos: www.zh.ch/bodenpreise
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/116@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/116@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 116@statistisches-amt-kanton-zuerich.
 

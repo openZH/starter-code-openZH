@@ -8,7 +8,7 @@ output: html_document
 
 Das ÖV-Verkehrsaufkommen ist die Summe aller ÖV-Personenwege im Quell-, Ziel- und Binnenverkehr an einem durchschnittlichen Werktag (DWV). Mit Prognosezustand. Anzahl Wege pro Gemeinde, pro Planungsregion und ganzer Kanton.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/366@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/366@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 366@statistisches-amt-kanton-zuerich.
 

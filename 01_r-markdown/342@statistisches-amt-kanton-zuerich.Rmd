@@ -8,7 +8,7 @@ output: html_document
 
 Anzahl Beschäftigte des Tertiärsektors (Handel, Instandhaltung/Reparatur, Verkehr/Lagerei, Gastgewerbe/Gastronomie, Information/Kommunikation, Finanz-/Versicherungs-DL, Grundstücks-/Wohnungswesen, weitere DL, öffentliche Verwaltung, Erziehung/Unterrricht, Gesundheit, Kunst). Aktuellstes Jahr provisorisch.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/342@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/342@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 342@statistisches-amt-kanton-zuerich.
 

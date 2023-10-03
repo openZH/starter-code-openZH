@@ -8,7 +8,7 @@ output: html_document
 
 Parteiparolen von kantonalzürcher Parteien mit Einsitz im Zürcher Kantonsrat zu eidgenössischen und kantonalen Abstimmungen. Abweichende Parolen der jeweiligen nationalen Parteien sind ausgewiesen. Es besteht kein Anspruch auf Vollständigkeit. Bitte senden Sie Ergänzungen zum Datensatz an die unter Kontakt angegebene E-Mail-Adresse.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/444@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/444@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 444@statistisches-amt-kanton-zuerich.
 

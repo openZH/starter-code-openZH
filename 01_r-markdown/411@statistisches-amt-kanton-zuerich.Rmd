@@ -9,7 +9,7 @@ output: html_document
 Christkatholische Kirchensteuerpflichtige.
 Bis 2019 nur Daten für die Stadt Zürich verfügbar. Ab 2020 für alle Gemeinden. Werte < 4 werden nicht ausgewiesen.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/411@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/411@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 411@statistisches-amt-kanton-zuerich.
 

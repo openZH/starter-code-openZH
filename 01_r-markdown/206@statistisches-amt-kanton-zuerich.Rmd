@@ -8,7 +8,7 @@ output: html_document
 
 Quantitatives Verhältnis zwischen den über 64-Jährigen und den 20- bis 64-Jährigen.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/206@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/206@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 206@statistisches-amt-kanton-zuerich.
 

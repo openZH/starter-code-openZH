@@ -10,7 +10,7 @@ Durchschnittliche Maturitätsquoten aller politischen Gemeinden im Kanton Züric
 
 Publiziert sind die Maturitätsquoten ab dem Gemeindestand von 2014 (Abschlüsse und Bevölkerungsstände von 2011 bis 2014).
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/672@bildungsstatistik-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/672@bildungsstatistik-kanton-zuerich)
 
 Auto generated R starter code for data set 672@bildungsstatistik-kanton-zuerich.
 

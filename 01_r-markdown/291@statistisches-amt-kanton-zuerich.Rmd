@@ -8,7 +8,7 @@ output: html_document
 
 Steuerbares Vermögen natürlicher Personen des Kantonalen Steueramts. Das 25%-Quantil ist ein Schwellenwert: Ein Viertel der Steuerpflichtigen liegt unter, die anderen drei Viertel über diesem Wert.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/291@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/291@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 291@statistisches-amt-kanton-zuerich.
 

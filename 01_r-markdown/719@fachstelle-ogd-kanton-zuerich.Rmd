@@ -8,7 +8,7 @@ output: html_document
 
 Um die wirtschaftlichen Auswirkungen der Massnahmen zur Pandemiebekämpfung abzufedern und die kulturelle Vielfalt zu erhalten, können Kulturschaffende, nicht-gewinnorientierte sowie gewinnorientierte Kulturunternehmen finanzielle Unterstützung anfordern. Bei den Ausfallentschädigungen handelt es sich um nicht-rückzahlbare Beiträge für im Rahmen der COVID-19-Pandemie abgesagte Veranstaltungen oder Projekte und Betriebsschliessungen. Die Daten werden von der Direktion der Justiz und des Innern des Kantons Zürich, Fachstelle Kultur, ab dem 04.03.2021 in unregelmässiger Frequenz aktualisiert, sofern weitere Ausfallentschädigungsgesuche bewilligt werden können. Nachgefragte wie beschlossene Beträge sind gerundet auf 100 CHF; antragstellende natürliche oder juristische Personen sind anonymisiert.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/719@fachstelle-ogd-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/719@fachstelle-ogd-kanton-zuerich)
 
 Auto generated R starter code for data set 719@fachstelle-ogd-kanton-zuerich.
 

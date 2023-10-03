@@ -10,7 +10,7 @@ Die Daten enthalten den Fahrzeugbestand und dessen CO2-Emissionen einerseits und
 Gemäss «Weisung über die Emissionsminderung von Fahrzeugen bei der Beschaffung und dem Betrieb durch die kantonale Verwaltung und beauftragte Unternehmen» (RRB Nr. 949/2021) müssen Personenwagen und leichte Nutzfahrzeuge mit einem im Betrieb CO2-freien Antrieb beschafft werden, sofern die betrieblichen, technischen und strategischen Anforderungen erfüllt werden. Für schwere Nutzfahrzeuge sind CO2-freie Antriebe zu prüfen. Auf diese Weise soll die kantonale Fahrzeugflotte im Personenwagensegment ab 2030 und die Einsatzwagen der Kantonspolizei sowie die leichten und schweren Nutzfahrzeuge ab 2040 kein CO2 mehr ausstossen. Im Rahmen der Erfolgskontrolle ist ab dem Beschaffungsjahr 2022 ein jährlicher Monitoringbericht zuhanden der Direktionsvorstehenden der Bau- und Sicherheitsdirektion zu erstellen. Die vorliegenden Daten zum gesamten Bestand, den Fahrleistungen, den Emissionen sowie zu den neubeschafften Fahrzeugen und deren Antriebstechnologie, wurden für diesen Monitoringbericht erhoben.
 Die Daten werden jährlich fortgeschrieben, so dass eine historisierte Zeitreihe vorliegt.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/2102@awel-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2102@awel-kanton-zuerich)
 
 Auto generated R starter code for data set 2102@awel-kanton-zuerich.
 

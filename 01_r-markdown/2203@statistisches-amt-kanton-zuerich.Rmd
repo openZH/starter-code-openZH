@@ -8,7 +8,7 @@ output: html_document
 
 Echtzeitresultate und -wahlbeteiligungen der Erneuerungswahl der zürcherischen Mitglieder des Ständerates
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/2203@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2203@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 2203@statistisches-amt-kanton-zuerich.
 

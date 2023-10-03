@@ -8,7 +8,7 @@ output: html_document
 
 Bruttoaufwand - Bruttoertrag (der Laufenden Rechnung). Aussage: Durch Steuern zu finanzierender Anteil des betreffenden Hauptaufgabenbereichs. Grundlage ist die Konsolidierte Gemeinde. Der Haushalt der Schulgemeinde wird dabei anteilsmässig in den Haushalt der poltischen Gemeinden umgelegt. Umstellung des Rechnungsmodells von HRM1 auf HRM2 ab Rechnungsjahr 2019.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/141@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/141@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 141@statistisches-amt-kanton-zuerich.
 

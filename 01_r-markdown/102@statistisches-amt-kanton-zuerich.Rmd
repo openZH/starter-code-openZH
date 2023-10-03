@@ -8,7 +8,7 @@ output: html_document
 
 Anteil 20-39-Jähriger an der Gesamtbevölkerung nach zivilrechtlichem Wohnsitz(ab 2010 inkl. vorläufig Aufgenommene, die seit mehr als einem Jahr in der Gemeinde leben, aber ohne Wochenaufenthalter und Asylbewerber). 
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/102@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/102@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 102@statistisches-amt-kanton-zuerich.
 

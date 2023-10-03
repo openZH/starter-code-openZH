@@ -8,7 +8,7 @@ output: html_document
 
 Kapitaldienst in Prozent vom laufenden Ertrag. Der Kapitaldienstanteil gibt Auskunft, in welchem Ausmass der laufende Ertrag durch den Zinsendienst und die Abschreibungen belastet ist. Ein hoher Kapitaldienstanteil weist auf einen enger werdenden finanziellen Spielraum hin. Grundlage ist die Konsolidierte Gemeinde. Der Haushalt der Schulgemeinde wird dabei anteilsmässig in den Haushalt der poltischen Gemeinden umgelegt. Umstellung des Rechnungsmodells von HRM1 auf HRM2 ab Rechnungsjahr 2019.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/1@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 1@statistisches-amt-kanton-zuerich.
 

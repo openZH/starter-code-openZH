@@ -8,7 +8,7 @@ output: html_document
 
 Steuerertrag allgemeine Gemeindesteuern (Nettosteuerertrag im Rechnungsjahr; Grundlage für die Berechnung der Steuerkraft gemass §5 FAV).
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/384@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/384@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 384@statistisches-amt-kanton-zuerich.
 

@@ -8,7 +8,7 @@ output: html_document
 
 Anteil der im Bereich Beherbergung/Gastgewerbe Beschäftigten (ohne Gastronomie) an den Beschäftigten des 2. und 3. Sektors. Beherbergung/Gastgewerbe: ab 2008: I55 (NOGA2008); bis 2005: HA55 (NOGA2002). Bruch in der Reihe zwischen 2008 und 2011 aufgrund des Übergangs von der alten BZ-Methodik auf STATENT. Daten des aktuellsten Jahres provisorisch.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/19@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/19@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 19@statistisches-amt-kanton-zuerich.
 

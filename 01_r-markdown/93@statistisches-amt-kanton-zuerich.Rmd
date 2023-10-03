@@ -8,7 +8,7 @@ output: html_document
 
 Veränderung des Gebäudevolumens gegenüber Vorjahr (1995: jährliche Veränderung im Zeitraum 1990-2000)
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/93@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/93@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 93@statistisches-amt-kanton-zuerich.
 

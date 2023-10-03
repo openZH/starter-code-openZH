@@ -8,7 +8,7 @@ output: html_document
 
 Steuerbares Vermögen natürlicher Personen des Kantonalen Steueramts. Der Median ist ein Schwellenwert: Die Hälfte der Steuerpflichtigen liegt unter, die andere Hälfte über diesem Wert.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/292@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/292@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 292@statistisches-amt-kanton-zuerich.
 

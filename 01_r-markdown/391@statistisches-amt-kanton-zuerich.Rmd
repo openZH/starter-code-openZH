@@ -8,7 +8,7 @@ output: html_document
 
 Anteil Einwohner pro ÖV-Güteklasse F: Die ÖV-Güteklassen geben lagesscharf Aufschluss über die Erschliessungsqualität einer Gemeinde mit dem ÖV. In einem ersten Schritt werden Haltestellenkategorien definiert, in Abhängigkeit von einem an der Haltestelle verfügbaren ÖV-Verkehrsmittel und dem Kursintervall.  Danach wird in Abhängigkeit von Haltestellenkategorie und Luftliniendistanz die ÖV-Güteklasse ermittelt. Für jede Gemeinde werden die Einwohner pro Güteklasse in Prozent berechnet. (http://www.afv.zh.ch/internet/volkswirtschaftsdirektion/afv/de/verkehrsgrundlagen/verkehrsangebot/erreichbarkeit_und_erschliessung/_jcr_content/contentPar/downloadlist/downloaditems/infoblatt_v_g_teklas.spooler.download.1436273189233.pdf/KTZH_AFV_Broschuere_OeV-Gueteklassen.pdf)
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/391@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/391@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 391@statistisches-amt-kanton-zuerich.
 

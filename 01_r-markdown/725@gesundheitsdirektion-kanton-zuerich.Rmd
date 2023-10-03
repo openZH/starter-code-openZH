@@ -8,7 +8,7 @@ output: html_document
 
 Erfolgte Impfungen im Kanton Zürich. Die Daten der ersten Wochen der Impfkampagne im Jahr 2021 wurden mittels Massenimports integriert und daraufhin bereinigt. Seit dem 12. Oktober 2022 werden diese Daten-Ressourcen nicht mehr aktualisiert. Nützliche, weiterhin aktualisierte Daten stellt das Bundesamt für Gesundheit zur Verfügung (siehe Links unter "Weitere Informationen").
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/725@gesundheitsdirektion-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/725@gesundheitsdirektion-kanton-zuerich)
 
 Auto generated R starter code for data set 725@gesundheitsdirektion-kanton-zuerich.
 

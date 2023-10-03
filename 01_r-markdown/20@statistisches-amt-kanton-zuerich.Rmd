@@ -8,7 +8,7 @@ output: html_document
 
 Anteil Grundsteuern am Steuerertrag (Nettoertrag Rechnungsjahr): Der Kanton Zürich kennt seit der Steuerperiode 2005 nur noch die Grundstückgewinnsteuer. Die Handänderungssteuer wurde mit einer Volksabstimmung per 1. Januar 2005 abgeschafft.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/20@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/20@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 20@statistisches-amt-kanton-zuerich.
 

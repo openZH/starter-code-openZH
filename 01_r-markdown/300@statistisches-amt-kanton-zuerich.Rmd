@@ -8,7 +8,7 @@ output: html_document
 
 Steuerkraft absolut (Nettosteuerertrag zu 100%): arithm. Mittel der letzten 3 Jahre.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/300@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/300@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 300@statistisches-amt-kanton-zuerich.
 

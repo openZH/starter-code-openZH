@@ -8,7 +8,7 @@ output: html_document
 
 Anzahl KindergartenschülerInnen inkl. Grundstufe gemessen an der zivilrechtlichen Bevölkerung Ende Vorjahr
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/215@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/215@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 215@statistisches-amt-kanton-zuerich.
 

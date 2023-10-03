@@ -8,7 +8,7 @@ output: html_document
 
 Geburtenzahl in Bezug auf die Einwohnerzahl (gemäss Kantonaler Erhebung) Ende des vorhergehenden Jahres pro 1000 Einw. Beispiel: Die Geburten 2003 beziehen sich auf die Einwohnerzahl von Ende 2002.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/222@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/222@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 222@statistisches-amt-kanton-zuerich.
 

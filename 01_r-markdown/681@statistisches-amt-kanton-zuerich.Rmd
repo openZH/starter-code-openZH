@@ -8,7 +8,7 @@ output: html_document
 
 Anteil der Personenwagen (PW) mit Dieselmotor an allen am 30. September eingelösten Personenwagen. Hinweis: Der Wert für den ganzen Kanton umfasst alle Autos mit einem Zürcher Kennzeichen; diese können auch Personen oder Unternehmen gehören, die ihr Domizil nicht im Kanton Zürich haben.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/681@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/681@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 681@statistisches-amt-kanton-zuerich.
 

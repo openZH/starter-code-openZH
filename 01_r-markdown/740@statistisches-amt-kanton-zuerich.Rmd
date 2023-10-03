@@ -8,7 +8,7 @@ output: html_document
 
 Datenreihen zu verschiedenen Indikatoren – die meisten auf Tagesbasis – können dabei helfen, besser zu verstehen, wie die Bevölkerung auf die COVID-19-Pandemie und die behördlichen Massnahmen zu ihrer Bewältigung reagiert hat. Verzeichnis aller Indikatoren und Spezifikation der Datenstruktur im Readme unter "Weiterführende Informationen".
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/740@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/740@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 740@statistisches-amt-kanton-zuerich.
 

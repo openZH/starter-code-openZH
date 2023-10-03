@@ -8,7 +8,7 @@ output: html_document
 
 Steuerbares Vermögen natürlicher Personen. Hinweis: Der Vermögensanstieg 1993 ist auf eine Weisung des Regierungsrates zur Liegenschaftenbewertung und zur Berechnung der Eigenmietwerte zurückzuführen. Bis 1998: Reinvermögen.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/190@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/190@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 190@statistisches-amt-kanton-zuerich.
 

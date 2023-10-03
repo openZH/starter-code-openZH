@@ -8,7 +8,7 @@ output: html_document
 
 Bezügerquote der bedarfsabhängigen Sozialleistungen. Die Bezügerquote der bedarfsabhängigen Sozialleistungen bezieht sich auf alle Personen, die während mindestens einem Monat des Jahres X eine der folgenden bedarfsabhängigen Sozialleistungen bezogen haben: Wirtschaftliche Sozialhilfe, Kleinkindbetreuungsbeiträge (bis und mit 2016), Alimentenbevorschussung, Zusatzleistungen zur Alters-, Invaliden- oder Hinterlassenenrente. Personen, die mehr als eine dieser Leistungen bezogen haben, werden nur einmal gezählt. Bei Gemeinden, die weniger als 5 Fälle haben, wird keine Quote ausgewiesen. (Referenzpopulation im Gemeindeporträt: kantonale Bevölkerungserhebung. Das BFS verwendet für die Berechnung seiner Quoten als Referenzpopulation STATPOP des Vorjahres.)
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/352@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/352@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 352@statistisches-amt-kanton-zuerich.
 

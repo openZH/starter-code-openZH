@@ -8,7 +8,7 @@ output: html_document
 
 Die Gesundheitsdirektion Kanton Zürich veröffentlicht im Rahmen des kantonalen Contact Tracings erhobene Daten zum Ansteckungskontext SARS-CoV-2-positiv getesteter Personen im Kanton Zürich. Aufgrund der hohen Fallzahlen während der zweiten Pandemie-Welle konnten die Daten vom 22.10.2020 bis 31.12.2020 nicht in einem Ausmass erhoben werden, das zufriedenstellende Interpretationen zulassen würde. Im Dezember 2020 wurde ein neues Instrument zur Datenerhebung eingeführt, und die Zahlen werden seither wieder erhoben. Im Jahr 2020 wurden nur «eindeutig» Ansteckungswege nach dem Ansteckungskontext differenziert (Eigener Haushalt, Arbeitsplatz usw.) und jeweils rollend über die letzten 14 Tage aktualisiert. Ab 04.01.2021 wird differenziert zwischen «eindeutig», «vermutet» und «nicht befragt» und die Daten werden einmal wöchentlich (jeweils am Montag) für die vergangene Kalenderwoche aktualisiert. Die Daten der Jahre 2020 und 2021 sind deshalb nur bedingt miteinander vergleichbar.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/696@gesundheitsdirektion-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/696@gesundheitsdirektion-kanton-zuerich)
 
 Auto generated R starter code for data set 696@gesundheitsdirektion-kanton-zuerich.
 

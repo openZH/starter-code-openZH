@@ -8,7 +8,7 @@ output: html_document
 
 Die Abteilung «Data» des Statistischen Amts ist die Anlaufstelle für alle Fragen zu statistischen Informationen. Das Team bewirtschaftet das statistische Grundangebot des Kanton Zürich und bietet Nutzenden kostenlose Auskunft und Beratung zu Anfragen per Telefon oder E-Mail. Seit 2015 werden Anfragen mit Metadaten erfasst und in einer Anfragenstatistik archiviert.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/698@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/698@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 698@statistisches-amt-kanton-zuerich.
 

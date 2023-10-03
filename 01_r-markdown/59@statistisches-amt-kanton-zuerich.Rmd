@@ -8,7 +8,7 @@ output: html_document
 
 Anzahl Restaurants, Imbissstuben, Tea-Rooms und Gelaterias inkl. Restaurants mit begrenzten Übernachtungsmöglichkeiten (2008: NOGA2008 561001 und 561002; bis 2005: NOGA2002 HA 553). Bruch in der Reihe zwischen 2008 und 2011 aufgrund des Übergangs von der alten BZ-Methodik auf STATENT. Daten des aktuellsten Jahres provisorisch.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/59@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/59@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 59@statistisches-amt-kanton-zuerich.
 

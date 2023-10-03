@@ -8,7 +8,7 @@ output: html_document
 
 Wöchentlich aktualisierte Informationen zu den im Firmenzentralregister (Zefix) des Eidgenössischen Amts für das Handelsregister (EHRA) eingetragenen Unternehmen und weiteren Rechtseinheiten mit Sitz (Domiziladresse) im Kanton Zürich. Die Daten (Ressourcen) enthalten wöchentlich aktualisierte Konkurseröffnungen und Neugründungen nach Branche. Die Brancheninformation stammt aus dem Betriebs- und Unternehmensregister (BUR), dort sind NOGA-Codes hinterlegt. Das Statistische Amt plant weitere Daten als weitere Ressourcen zu veröffentlichen.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/1742@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1742@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 1742@statistisches-amt-kanton-zuerich.
 

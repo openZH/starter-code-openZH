@@ -8,7 +8,7 @@ output: html_document
 
 Neu erstellte Wohnungen in Mehrfamilienhäusern
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/230@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/230@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 230@statistisches-amt-kanton-zuerich.
 

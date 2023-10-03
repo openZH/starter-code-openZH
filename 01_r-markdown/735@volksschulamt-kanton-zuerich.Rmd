@@ -8,7 +8,7 @@ output: html_document
 
 Für Schulbehörden, Schulleitungen, Schulverwaltungen und Lehrpersonen zusammengestellte Kontaktpersonen des Volksschulamts zu Primar- und Sekundarschulen und den Themen 'Personal', 'Lohn', 'Beratung' und 'Sonderpädagogik'.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/735@volksschulamt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/735@volksschulamt-kanton-zuerich)
 
 Auto generated R starter code for data set 735@volksschulamt-kanton-zuerich.
 

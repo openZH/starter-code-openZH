@@ -8,7 +8,7 @@ output: html_document
 
 Der Datensatz basiert auf dem Gesamtverkehrsmodell (GVM) des Kantons Zürich. Das GVM bildet die Verkehrsnachfrage auf Basis modellierter Nachfragebeziehungen von A nach B ab im öffentlichen Verkehr (ÖV), im motorisierten Individualverkehr (MIV) und im Fuss- und Veloverkehr. Im Ergebnis liegen die Beziehungsmatrizen in Personenwege für die Verkehrsmittelarten MIV, ÖV, Velo- und Fussverkehr für Gemeinden und Planungsregionen vor. Zum MIV gehören Autos, Motorräder und Mofas. Mit regelmässigen Aktualisierungen werden die laufenden Veränderungen im Verkehrsgeschehen nachgeführt und die Prognosen angepasst. Mehr Informationen zu den Daten in den Beschreibungen der Ressourcen.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/1982@afm-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1982@afm-kanton-zuerich)
 
 Auto generated R starter code for data set 1982@afm-kanton-zuerich.
 

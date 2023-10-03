@@ -8,7 +8,7 @@ output: html_document
 
 Steuerbares Einkommen Schweiz steuerpflichtiger natürlicher Personen aus der Bundessteuerstatistik. Das 75%-Quantil ist ein Schwellenwert: Drei Viertel der Bevölkerung liegt unter, das andere Viertel über diesem Wert.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/249@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/249@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 249@statistisches-amt-kanton-zuerich.
 

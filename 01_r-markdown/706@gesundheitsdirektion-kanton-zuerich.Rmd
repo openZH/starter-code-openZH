@@ -9,7 +9,7 @@ output: html_document
 Anzahl zertifizierte Intensivpflege-Betten und deren aktuelle Belegung auf Spitalebene im Kanton Zürich (Stand jeweils am Mittwoch). Die Daten werden einmal wöchentlich (jeweils am Mittwoch) aktualisiert. Variabeln: 'Name des Spitals', 'Anzahl Covid-19-PatientInnen auf der Intensivpflegestation, an deren Behandlung sich das Spital derzeit beteiligen müsste (die Sollwerte werden von der Gesundheitsdirektion zusammen mit den Spitälern definiert)', 'Anzahl Covid-19-PatientInnen auf der Intensivpflegestation', 'Anzahl andere PatientInnen auf der Intensivpflegestation' und (seit 2021-12-10) 'Anzahl zertifizierte Intensivpflege-Betten, die aktuell mit dem verfügbaren Pflegepersonal betrieben werden können'.
 Der Datensatz wurde bis zum 02.05.2023 aktualisiert
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/706@gesundheitsdirektion-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/706@gesundheitsdirektion-kanton-zuerich)
 
 Auto generated R starter code for data set 706@gesundheitsdirektion-kanton-zuerich.
 

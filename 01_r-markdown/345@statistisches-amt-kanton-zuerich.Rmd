@@ -8,7 +8,7 @@ output: html_document
 
 Anzahl Arbeitsstätten des Primär-, des Sekundär- und des Tertiärsektors. Aktuellstes Jahr provisorisch.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/345@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/345@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 345@statistisches-amt-kanton-zuerich.
 

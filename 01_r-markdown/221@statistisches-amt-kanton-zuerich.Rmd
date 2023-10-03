@@ -8,7 +8,7 @@ output: html_document
 
 Durchschnittliche Zahl von Sterbefällen im Fünfjahresmittel pro 1000 Einw. Beispiel: Die Zahl von 2003 entspricht dem Mittelwert der Sterbefällen von 1999-2003 in Bezug auf die Einwohnerzahl von 1998.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/221@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/221@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 221@statistisches-amt-kanton-zuerich.
 

@@ -8,7 +8,7 @@ output: html_document
 
 Eigenkapital (ehem. Kapital) steuerpflichtiger juristischer Personen
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/188@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/188@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 188@statistisches-amt-kanton-zuerich.
 

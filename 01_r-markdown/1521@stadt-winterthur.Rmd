@@ -8,7 +8,7 @@ output: html_document
 
 Bestand der wirtschaftlichen Wohnbevölkerung nach Alter (5-Jahres-Altersgruppen), Geschlecht und Herkunft (Schweiz / Ausland) per Ende Jahr.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/1521@stadt-winterthur)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1521@stadt-winterthur)
 
 Auto generated R starter code for data set 1521@stadt-winterthur.
 

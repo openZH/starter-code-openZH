@@ -8,7 +8,7 @@ output: html_document
 
 Anzahl Unfälle pro 1000 Einwohner Total (mit Personen- und/oder Sachschaden)
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/393@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/393@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 393@statistisches-amt-kanton-zuerich.
 

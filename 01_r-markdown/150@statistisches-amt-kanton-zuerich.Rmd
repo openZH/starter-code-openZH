@@ -8,7 +8,7 @@ output: html_document
 
 Der Motorisierungsgrad ist die Anzahl der eingelösten Personenwagen am 30. September, berechnet pro 1000 Einwohnerinnen und Einwohner der zivilrechtlichen Wohnbevölkerung am Ende des Vorjahres. Hinweis: Der Wert für den ganzen Kanton umfasst alle Autos mit einem Zürcher Kennzeichen; diese können auch Personen oder Unternehmen gehören, die ihr Domizil nicht im Kanton Zürich haben.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/150@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/150@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 150@statistisches-amt-kanton-zuerich.
 

@@ -10,7 +10,7 @@ Schüler/innen auf Sekundarstufe I an öffentlich finanzierten Schulen im Kanton
 
 Die Daten werden jährlich für den Stichtag 15.9. erhoben.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/1583@bildungsstatistik-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1583@bildungsstatistik-kanton-zuerich)
 
 Auto generated R starter code for data set 1583@bildungsstatistik-kanton-zuerich.
 

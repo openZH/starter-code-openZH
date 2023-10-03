@@ -8,7 +8,7 @@ output: html_document
 
 Durchschnittliches Eigenkapital (ehem. Kapital) steuerpflichtiger juristischer Personen. Hinweis: Sehr hohe Beträge einiger weniger Steuerpflichtigen wirken sich entsprechend stark auf den Mittelwert aus.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/29@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/29@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 29@statistisches-amt-kanton-zuerich.
 

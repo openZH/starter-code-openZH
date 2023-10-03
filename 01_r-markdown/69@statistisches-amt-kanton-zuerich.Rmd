@@ -8,7 +8,7 @@ output: html_document
 
 Wegzüge in Bezug auf die Einwohnerzahl (gemäss Kantonaler Erhebung) Ende des vorhergehenden Jahres. Beispiel: Die "Wegzüge [%] 2003" beziehen sich auf die Einwohnerzahl von Ende 2002. Hinweis: Ab 2011 Wechsel des Produktionsverfahrens und neue Definition der ständigen Wohnbevölkerung, die zusätzlich Personen im Asylprozess mit einer Gesamtaufenthaltsdauer von mindestens 12 Monaten umfasst. Inkl. innerkantonaler Wanderungen.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/69@statistisches-amt-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/69@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 69@statistisches-amt-kanton-zuerich.
 
