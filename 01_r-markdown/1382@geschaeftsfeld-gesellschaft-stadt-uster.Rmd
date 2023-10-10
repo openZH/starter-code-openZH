@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-10-09"
+date: "2023-10-10"
 output: html_document
 ---
 
@@ -22,7 +22,7 @@ Auto generated R starter code for data set 1382@geschaeftsfeld-gesellschaft-stad
 - **Enddate** `2021-07-11`
 - **Theme** `['Bevölkerung', 'Bevölkerung']`
 - **Keyword** `['internet', 'internetnutzung', 'jugendberatung', 'jugend_und_sport', 'raum', 'jugendkriminalitaet', 'ogd']`
-- **Publisher** `['Geschäftsfeld Gesellschaft der Stadt Uster']`
+- **Publisher** `['Stadt Uster']`
 - **Landingpage** `https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021`
 
 
@@ -89,4 +89,4 @@ tail(df)
 
 # Questions about the data?
 
-Geschäftsfeld Gesellschaft der Stadt Uster | Kindheit, Jugend und Familie | kindheit@uster.ch
+Stadt Uster | Kindheit, Jugend und Familie | kindheit@uster.ch

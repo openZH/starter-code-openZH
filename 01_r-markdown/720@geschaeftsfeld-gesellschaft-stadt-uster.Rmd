@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-10-09"
+date: "2023-10-10"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto generated R starter code for data set 720@geschaeftsfeld-gesellschaft-stadt
 - **Enddate** `None`
 - **Theme** `['Kultur, Medien, Informationsgesellschaft, Sport', 'Politik', 'Bevölkerung', 'Öffentliche Verwaltung und Finanzen']`
 - **Keyword** `['quartiervereine', 'gemeinwesen', 'kommunikation', 'quartier', 'information', 'ogd']`
-- **Publisher** `['Geschäftsfeld Gesellschaft der Stadt Uster']`
+- **Publisher** `['Stadt Uster']`
 - **Landingpage** `https://github.com/GesellschaftStadtUster/quartier_infokaesten`
 
 
@@ -77,4 +77,4 @@ tail(df)
 
 # Questions about the data?
 
-Geschäftsfeld Gesellschaft der Stadt Uster | Quartier- und Gemeinwesenarbeit | quartier@uster.ch
+Stadt Uster | Quartier- und Gemeinwesenarbeit | quartier@uster.ch
