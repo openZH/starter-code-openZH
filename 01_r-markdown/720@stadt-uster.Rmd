@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-10-10"
+date: "2023-10-11"
 output: html_document
 ---
 
@@ -8,9 +8,9 @@ output: html_document
 
 Quartierkästen sind Schaukästen, in denen Informationsmaterial ausgehängt wird. Es sind Quartierkästen mit Längen- und Breitengrad verzeichnet, die von der Stadt Uster und den Quartiervereinen gemeinsam bewirtschaftet werden (sind im Eigentum der Stadt Uster) und solche die auf private Initiative von den Quartiervereinen bewirtschafet werden. Über die gemeinsam bewirtschafteten Quartierkästen werden wöchentlich die wichtigsten Informationen aus der Stadtverwaltung der Bevölkerung zugänglich gemacht. Fotos der Quartierkästen werden unregelmässig ca. alle 3 bis 5 Jahre aktualisiert.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/720@geschaeftsfeld-gesellschaft-stadt-uster)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/720@stadt-uster)
 
-Auto generated R starter code for data set 720@geschaeftsfeld-gesellschaft-stadt-uster.
+Auto generated R starter code for data set 720@stadt-uster.
 
 ## Metadata
 

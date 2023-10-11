@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-10-10"
+date: "2023-10-11"
 output: html_document
 ---
 
@@ -15,13 +15,13 @@ Auto generated R starter code for data set 731@staatskanzlei-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2021-09-27T09:12:00`
-- **Modified** `2023-05-25T17:35:34`
+- **Modified** `2023-10-10T10:25:29`
 - **Startdate** `2020-07-08`
-- **Enddate** `2023-02-14`
+- **Enddate** `2023-10-09`
 - **Theme** `['Öffentliche Verwaltung und Finanzen']`
 - **Keyword** `['kantonale_verwaltung', 'kanton_zuerich', 'ogd']`
 - **Publisher** `['Staatskanzlei des Kantons Zürich']`
-- **Landingpage** `https://openzh.shinyapps.io/openzh_dashboard/`
+- **Landingpage** `https://openzh.shinyapps.io/UAstat/`
 
 
 # Load packages

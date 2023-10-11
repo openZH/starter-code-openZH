@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-10-10"
+date: "2023-10-11"
 output: html_document
 ---
 
@@ -10,9 +10,9 @@ Befragung von Jugendlichen mit Wohnsitz in Uster zu den Schwerpunktthemen Social
 
 
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1382@geschaeftsfeld-gesellschaft-stadt-uster)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1382@stadt-uster)
 
-Auto generated R starter code for data set 1382@geschaeftsfeld-gesellschaft-stadt-uster.
+Auto generated R starter code for data set 1382@stadt-uster.
 
 ## Metadata
 

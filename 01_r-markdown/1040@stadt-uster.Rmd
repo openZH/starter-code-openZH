@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-10-10"
+date: "2023-10-11"
 output: html_document
 ---
 
@@ -8,9 +8,9 @@ output: html_document
 
 Angebote und Infrastruktur für Kinder, Jugendliche und Familien in der Stadt Uster. Der Datensatz umfasst Koordinaten, Adressen, Kategorien (siehe Liste der Kategorien im "Readme: Datenstruktur" unter "Weitere Informationen"), Zugänglichkeitsangaben (siehe Optionen der Zugänglichkeit ebenda), Beschreibungen sowie Webseiten-Links.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1040@geschaeftsfeld-gesellschaft-stadt-uster)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1040@stadt-uster)
 
-Auto generated R starter code for data set 1040@geschaeftsfeld-gesellschaft-stadt-uster.
+Auto generated R starter code for data set 1040@stadt-uster.
 
 ## Metadata
 

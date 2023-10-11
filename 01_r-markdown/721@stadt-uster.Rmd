@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-10-10"
+date: "2023-10-11"
 output: html_document
 ---
 
@@ -8,9 +8,9 @@ output: html_document
 
 Sämtliche Beiträge der Kulturförderung der Stadt Uster ab 2018. Daten enthalten: 'Gesuchsteller', 'Projekts', 'Förderbereich', 'Förderart' und 'Förderbetrag'. Grundlage der Förderung bildet das Reglement Kulturförderung der Stadt Uster (siehe unter "Weitere Informationen")
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/721@geschaeftsfeld-gesellschaft-stadt-uster)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/721@stadt-uster)
 
-Auto generated R starter code for data set 721@geschaeftsfeld-gesellschaft-stadt-uster.
+Auto generated R starter code for data set 721@stadt-uster.
 
 ## Metadata
 
