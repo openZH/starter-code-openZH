@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-10-24"
+date: "2023-10-25"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 677@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2020-05-25T00:00:00`
-- **Modified** `2022-11-03T12:45:40`
+- **Modified** `2023-10-24T08:20:41`
 - **Startdate** `2002-12-31`
-- **Enddate** `2022-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['Mobilität und Verkehr']`
 - **Keyword** `['bezirke', 'fahrzeuge', 'gemeinden', 'kanton_zuerich', 'motorfahrzeugbestand', 'motorfahrzeuge', 'personenwagen', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : PW-Neuzulassungen pro 1000 Einw. [Anz.]
 # Description              : None
 # Issued                   : 2020-05-25T00:00:00
-# Modified                 : 2022-11-03T12:45:40
+# Modified                 : 2023-10-24T08:20:41
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_601.csv')

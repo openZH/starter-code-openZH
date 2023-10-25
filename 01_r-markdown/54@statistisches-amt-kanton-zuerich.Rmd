@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-10-24"
+date: "2023-10-25"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 54@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2022-10-10T10:04:17`
+- **Modified** `2023-10-09T13:16:08`
 - **Startdate** `1970-12-31`
-- **Enddate** `2021-12-31`
+- **Enddate** `2022-12-31`
 - **Theme** `['Bevölkerung']`
 - **Keyword** `['bevoelkerung', 'bezirke', 'gemeinden', 'haushalte', 'kanton_zuerich', 'privathaushalte', 'bevoelkerungsstatistik', 'einwohner', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Privathaushalte Total [Anz.]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2022-10-10T10:04:17
+# Modified                 : 2023-10-09T13:16:08
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_455.csv')
