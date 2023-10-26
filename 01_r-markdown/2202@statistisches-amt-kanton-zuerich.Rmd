@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-10-25"
+date: "2023-10-26"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 2202@statistisches-amt-kanton-zuerich
 ## Metadata
 
 - **Issued** `2023-08-18T11:33:59`
-- **Modified** `2023-10-22T19:29:21`
+- **Modified** `2023-10-25T09:54:40`
 - **Startdate** `2023-10-22`
 - **Enddate** `2023-10-22`
 - **Theme** `['Politik']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Nationalratswahl 2023: Parteiresultate Ebene Kanton
 # Description              : None
 # Issued                   : 2023-08-18T11:33:59
-# Modified                 : 2023-10-22T19:29:26
+# Modified                 : 2023-10-25T09:52:49
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002202_00004447.csv')
@@ -55,7 +55,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Nationalratswahl 2023: Parteiresultate Ebene Gemeinden
 # Description              : None
 # Issued                   : 2023-08-18T11:33:59
-# Modified                 : 2023-10-22T19:29:44
+# Modified                 : 2023-10-25T09:52:57
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002202_00004448.csv')
@@ -65,7 +65,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Nationalratswahl 2023: Listenresultate Ebene Kanton
 # Description              : None
 # Issued                   : 2023-08-18T11:33:59
-# Modified                 : 2023-10-22T19:29:49
+# Modified                 : 2023-10-25T09:53:03
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002202_00004449.csv')
@@ -75,7 +75,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Nationalratswahl 2023: Listenresultate Ebene Gemeinden
 # Description              : None
 # Issued                   : 2023-08-18T11:33:59
-# Modified                 : 2023-10-22T19:29:54
+# Modified                 : 2023-10-25T09:53:08
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002202_00004450.csv')
@@ -85,7 +85,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Nationalratswahl 2023: Kandidierendenresultate Ebene Kanton
 # Description              : None
 # Issued                   : 2023-08-18T11:33:59
-# Modified                 : 2023-10-22T19:30:01
+# Modified                 : 2023-10-25T09:53:12
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002202_00004451.csv')
@@ -95,7 +95,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Nationalratswahl 2023: Kandidierendenresultate Ebene Gemeinden
 # Description              : None
 # Issued                   : 2023-08-18T11:33:59
-# Modified                 : 2023-10-22T19:31:01
+# Modified                 : 2023-10-25T09:53:16
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002202_00004452.csv')
@@ -105,7 +105,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Nationalratswahl 2023: Wahlbeteiligung Ebene Kanton
 # Description              : None
 # Issued                   : 2023-08-18T11:33:59
-# Modified                 : 2023-10-22T19:30:18
+# Modified                 : 2023-10-25T09:53:21
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002202_00004453.csv')
@@ -115,7 +115,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Nationalratswahl 2023: Wahlbeteiligung Ebene Gemeinden
 # Description              : None
 # Issued                   : 2023-08-18T11:33:59
-# Modified                 : 2023-10-22T19:30:29
+# Modified                 : 2023-10-25T09:53:27
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002202_00004454.csv')
