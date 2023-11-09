@@ -1,10 +1,10 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-11-08"
+date: "2023-11-09"
 output: html_document
 ---
 
-## Dataset: Resultate und Wahlbeteiligung Kantonsratswahl
+## Dataset: Resultate und Wahlbeteiligung Kantonsratswahl 2023
 
 Echtzeitresultate und -wahlbeteiligungen der Erneuerungswahl der Mitglieder des Kantonsrates
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 2183@statistisches-amt-kanton-zuerich
 ## Metadata
 
 - **Issued** `2023-06-19T16:15:34`
-- **Modified** `2023-06-19T16:15:34`
+- **Modified** `2023-11-08T08:22:34`
 - **Startdate** `2023-02-12`
 - **Enddate** `2023-02-12`
 - **Theme** `['Politik']`
