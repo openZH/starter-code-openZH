@@ -1,0 +1,280 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2023-11-10"
+output: html_document
+---
+
+## Dataset: Messdaten langjähriger Abgasmessungen im realen Fahrbetrieb mittels Remote Sensing (RSD)
+
+Der "Remote Sensing Detector" (RSD) ermöglicht berührungsfreie Messungen von Abgasen vorbeifahrender Fahrzeuge unter realen Verkehrsbedingungen. Diese Messungen können hauptsächlich dazu verwendet werden, Erkenntnisse über die Emissionen von Stickoxiden bestimmter Fahrzeugkategorien zu erlangen. Die Messungen liefern zudem Informationen über die Emissionen von Kohlenstoffmonoxid und Kohlenwasserstoffen. Die Emissionen der Fahrzeuge werden somit in realen Verkehrssituationen bestimmt und erlauben beispielsweise Aussagen über die Emissionen der Fahrzeugflotte, den Anteil hochemittierender Fahrzeuge am gesamten Fahrzeugbestand, dem Alterungsverhalten von Abgasreinigungssystemen sowie der Abhängigkeiten der Schadstoffwerte von einzelnen Abgasstufen (EURO-Normen). Darüber hinaus ermöglichen die Daten eine Untersuchung des Einflusses verkehrsbezogener Faktoren, wie etwa der Fahrdynamik, auf den Abgasausstoss. Der Datensatz enthält hunderttausende Messdaten aus Messkampagnen seit dem Jahr 2002 (jährlich, beziehungsweise seit dem Jahr 2022 mit Unterbrüchen), die mit ausreichendem Fachwissen eine aussagekräftige Auswertung zulassen. Weitere Informationen sind der abgelegten Datensatz-Beschreibung zu entnehmen. Für eine Methodendokumentation, Beispielauswertungen und deren fachliche Einordnung sei auf den verlinkten Fachbericht verwiesen.
+
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2382@awel-kanton-zuerich)
+
+Auto generated R starter code for data set 2382@awel-kanton-zuerich.
+
+## Metadata
+
+- **Issued** `2023-11-09T09:11:55`
+- **Modified** `2023-11-09T09:11:55`
+- **Startdate** `2002-05-16`
+- **Enddate** `2023-08-17`
+- **Theme** `['Mobilität und Verkehr', 'Raum, Umwelt']`
+- **Keyword** `['fahrzeuge', 'luft', 'luftschadstoffe', 'strassenverkehr', 'luftqualitaet', 'emissionen', 'stickoxide', 'abgase', 'ogd']`
+- **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
+- **Landingpage** `None`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 21 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 4793
+# Title                    : Daten RSD-Messkampagne 2002
+# Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
+# Issued                   : 2023-11-09T09:11:55
+# Modified                 : 2023-11-09T09:11:55
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004793.csv')
+
+# Distribution 1
+# Ktzhdistid               : 4794
+# Title                    : Daten RSD-Messkampagne 2003
+# Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
+# Issued                   : 2023-11-09T09:11:55
+# Modified                 : 2023-11-09T09:11:55
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004794.csv')
+
+# Distribution 2
+# Ktzhdistid               : 4795
+# Title                    : Daten RSD-Messkampagne 2004
+# Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
+# Issued                   : 2023-11-09T09:11:55
+# Modified                 : 2023-11-09T09:11:55
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004795.csv')
+
+# Distribution 3
+# Ktzhdistid               : 4796
+# Title                    : Daten RSD-Messkampagne 2005
+# Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
+# Issued                   : 2023-11-09T09:11:55
+# Modified                 : 2023-11-09T09:11:55
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004796.csv')
+
+# Distribution 4
+# Ktzhdistid               : 4797
+# Title                    : Daten RSD-Messkampagne 2006
+# Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
+# Issued                   : 2023-11-09T09:11:55
+# Modified                 : 2023-11-09T09:11:55
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004797.csv')
+
+# Distribution 5
+# Ktzhdistid               : 4798
+# Title                    : Daten RSD-Messkampagne 2007
+# Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
+# Issued                   : 2023-11-09T09:11:55
+# Modified                 : 2023-11-09T09:11:55
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004798.csv')
+
+# Distribution 6
+# Ktzhdistid               : 4799
+# Title                    : Daten RSD-Messkampagne 2008
+# Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
+# Issued                   : 2023-11-09T09:11:55
+# Modified                 : 2023-11-09T09:11:55
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004799.csv')
+
+# Distribution 7
+# Ktzhdistid               : 4800
+# Title                    : Daten RSD-Messkampagne 2009
+# Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
+# Issued                   : 2023-11-09T09:11:55
+# Modified                 : 2023-11-09T09:11:55
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004800.csv')
+
+# Distribution 8
+# Ktzhdistid               : 4801
+# Title                    : Daten RSD-Messkampagne 2010
+# Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
+# Issued                   : 2023-11-09T09:11:55
+# Modified                 : 2023-11-09T09:11:55
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004801.csv')
+
+# Distribution 9
+# Ktzhdistid               : 4802
+# Title                    : Daten RSD-Messkampagne 2011
+# Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
+# Issued                   : 2023-11-09T09:11:55
+# Modified                 : 2023-11-09T09:11:55
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004802.csv')
+
+# Distribution 10
+# Ktzhdistid               : 4803
+# Title                    : Daten RSD-Messkampagne 2012
+# Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
+# Issued                   : 2023-11-09T09:11:55
+# Modified                 : 2023-11-09T09:11:55
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004803.csv')
+
+# Distribution 11
+# Ktzhdistid               : 4804
+# Title                    : Daten RSD-Messkampagne 2013
+# Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
+# Issued                   : 2023-11-09T09:11:55
+# Modified                 : 2023-11-09T09:11:55
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004804.csv')
+
+# Distribution 12
+# Ktzhdistid               : 4805
+# Title                    : Daten RSD-Messkampagne 2014
+# Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
+# Issued                   : 2023-11-09T09:11:55
+# Modified                 : 2023-11-09T09:11:55
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004805.csv')
+
+# Distribution 13
+# Ktzhdistid               : 4806
+# Title                    : Daten RSD-Messkampagne 2015
+# Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
+# Issued                   : 2023-11-09T09:11:55
+# Modified                 : 2023-11-09T09:11:55
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004806.csv')
+
+# Distribution 14
+# Ktzhdistid               : 4807
+# Title                    : Daten RSD-Messkampagne 2016
+# Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
+# Issued                   : 2023-11-09T09:11:55
+# Modified                 : 2023-11-09T09:11:55
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004807.csv')
+
+# Distribution 15
+# Ktzhdistid               : 4808
+# Title                    : Daten RSD-Messkampagne 2017
+# Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
+# Issued                   : 2023-11-09T09:11:55
+# Modified                 : 2023-11-09T09:11:55
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004808.csv')
+
+# Distribution 16
+# Ktzhdistid               : 4809
+# Title                    : Daten RSD-Messkampagne 2018
+# Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
+# Issued                   : 2023-11-09T09:11:55
+# Modified                 : 2023-11-09T09:11:55
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004809.csv')
+
+# Distribution 17
+# Ktzhdistid               : 4810
+# Title                    : Daten RSD-Messkampagne 2019
+# Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
+# Issued                   : 2023-11-09T09:11:55
+# Modified                 : 2023-11-09T09:11:55
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004810.csv')
+
+# Distribution 18
+# Ktzhdistid               : 4811
+# Title                    : Daten RSD-Messkampagne 2020
+# Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
+# Issued                   : 2023-11-09T09:11:55
+# Modified                 : 2023-11-09T09:11:55
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004811.csv')
+
+# Distribution 19
+# Ktzhdistid               : 4812
+# Title                    : Daten RSD-Messkampagne 2021
+# Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
+# Issued                   : 2023-11-09T09:11:55
+# Modified                 : 2023-11-09T09:11:55
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004812.csv')
+
+# Distribution 20
+# Ktzhdistid               : 4813
+# Title                    : Daten RSD-Messkampagne 2023
+# Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
+# Issued                   : 2023-11-09T09:11:55
+# Modified                 : 2023-11-09T09:11:55
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004813.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich | Abteilung Luft, Klima und Strahlung | luft@bd.zh.ch
