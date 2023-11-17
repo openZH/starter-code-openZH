@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-11-16"
+date: "2023-11-17"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 695@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2020-07-07T16:48:00`
-- **Modified** `2023-10-23T09:52:20`
+- **Modified** `2023-11-16T15:43:50`
 - **Startdate** `2007-10-21`
 - **Enddate** `2023-10-22`
 - **Theme** `['Politik']`
