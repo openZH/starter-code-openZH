@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-11-19"
+date: "2023-11-20"
 output: html_document
 ---
 
@@ -85,7 +85,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Ständeratswahl 2023 – 2. Wahlgang: Kandidierendenresultate Ebene Kanton
 # Description              : None
 # Issued                   : 2023-11-14T07:50:53
-# Modified                 : 2023-11-15T07:54:06
+# Modified                 : 2023-11-19T09:36:16
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004763.csv')
@@ -95,7 +95,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Ständeratswahl 2023 – 2. Wahlgang: Kandidierendenresultate Ebene Gemeinden
 # Description              : None
 # Issued                   : 2023-11-14T07:51:09
-# Modified                 : 2023-11-15T07:54:06
+# Modified                 : 2023-11-19T08:58:15
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004764.csv')
@@ -105,7 +105,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Ständeratswahl 2023 – 2. Wahlgang: Wahlbeteiligung Ebene Kanton
 # Description              : None
 # Issued                   : 2023-11-14T07:51:25
-# Modified                 : 2023-11-15T07:54:07
+# Modified                 : 2023-11-19T08:58:20
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004765.csv')
@@ -115,7 +115,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Ständeratswahl 2023 – 2. Wahlgang: Wahlbeteiligung Ebene Gemeinden
 # Description              : None
 # Issued                   : 2023-11-14T07:51:41
-# Modified                 : 2023-11-15T07:54:06
+# Modified                 : 2023-11-19T08:58:27
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004766.csv')
