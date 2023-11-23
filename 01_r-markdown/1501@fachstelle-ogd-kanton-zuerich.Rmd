@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-11-22"
+date: "2023-11-23"
 output: html_document
 ---
 
@@ -41,16 +41,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 2878
-# Title                    : Suchbegriffe 2022, 1. Quartal
-# Description              : Maximal 1000 häufgste Suchbegriffe, die von Nutzenden im Quartal verwendet worden sind. Personennamen, Beleidigungen oder diskriminierenden Äusserungen wurden entfernt.
-# Issued                   : 2022-06-28T16:40:53
-# Modified                 : 2022-06-28T16:40:53
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001501_00002878.csv')
-
-# Distribution 1
 # Ktzhdistid               : 2940
 # Title                    : Suchbegriffe 2021, 4. Quartal
 # Description              : Maximal 1000 häufgste Suchbegriffe, die von Nutzenden im Quartal verwendet worden sind. Personennamen, Beleidigungen oder diskriminierenden Äusserungen wurden entfernt.
@@ -60,7 +50,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001501_00002940.csv')
 
-# Distribution 2
+# Distribution 1
 # Ktzhdistid               : 2941
 # Title                    : Suchbegriffe 2021, 3. Quartal
 # Description              : Maximal 1000 häufgste Suchbegriffe, die von Nutzenden im Quartal verwendet worden sind. Personennamen, Beleidigungen oder diskriminierenden Äusserungen wurden entfernt.
@@ -70,7 +60,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001501_00002941.csv')
 
-# Distribution 3
+# Distribution 2
 # Ktzhdistid               : 2942
 # Title                    : Suchbegriffe 2021, 2. Quartal
 # Description              : Maximal 1000 häufgste Suchbegriffe, die von Nutzenden im Quartal verwendet worden sind. Personennamen, Beleidigungen oder diskriminierenden Äusserungen wurden entfernt.
@@ -79,6 +69,16 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001501_00002942.csv')
+
+# Distribution 3
+# Ktzhdistid               : 2878
+# Title                    : Suchbegriffe 2022, 1. Quartal
+# Description              : Maximal 1000 häufgste Suchbegriffe, die von Nutzenden im Quartal verwendet worden sind. Personennamen, Beleidigungen oder diskriminierenden Äusserungen wurden entfernt.
+# Issued                   : 2022-06-28T16:40:53
+# Modified                 : 2022-06-28T16:40:53
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001501_00002878.csv')
 
 
 
