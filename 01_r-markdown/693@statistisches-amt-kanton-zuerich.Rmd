@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-11-24"
+date: "2023-11-25"
 output: html_document
 ---
 
@@ -75,7 +75,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Gemeindeinformationen Erneuerungswahl Nationalrat 2023
 # Description              : Gemeindespezifische Informationen wie BFS-Nummer und Stimmbeteiligung für die Nationalratswahl 2023
 # Issued                   : 2023-10-23T09:37:40
-# Modified                 : 2023-11-22T14:01:15
+# Modified                 : 2023-11-24T16:16:24
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004704.csv')
@@ -115,7 +115,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Gemeindeinformationen Erneuerungswahl Nationalrat 2019
 # Description              : Gemeindespezifische Informationen wie BFS-Nummer und Stimmbeteiligung für die Nationalratswahl 2019
 # Issued                   : 2020-07-07T16:31:03
-# Modified                 : 2023-11-22T14:02:51
+# Modified                 : 2023-11-24T16:17:02
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001684.csv')
@@ -155,7 +155,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Gemeindeinformationen Erneuerungswahl Nationalrat 2015
 # Description              : Gemeindespezifische Informationen wie BFS-Nummer und Stimmbeteiligung für die Nationalratswahl 2015
 # Issued                   : 2020-07-07T16:27:59
-# Modified                 : 2023-11-22T14:04:19
+# Modified                 : 2023-11-24T16:17:30
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001681.csv')
