@@ -1,10 +1,10 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-11-28"
+date: "2023-11-29"
 output: html_document
 ---
 
-## Dataset: NRW Wähleranteil AL [%]
+## Dataset: NRW Wähleranteil FGA/AL/PDA [%]
 
 Wähleranteil AL bei Nationalratswahlen. Hinweis: 2015 werden alle Auslandschweizer zur Stadt Zürich gezählt.
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 11@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2019-10-21T10:29:00`
-- **Startdate** `1999-12-31`
-- **Enddate** `2019-12-31`
+- **Modified** `2023-11-28T15:46:25`
+- **Startdate** `2007-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['Politik']`
 - **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'nationalratswahlen', 'parteien', 'politik', 'wahlen', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -42,10 +42,10 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 10
-# Title                    : NRW Wähleranteil AL [%]
+# Title                    : NRW Wähleranteil FGA/AL/PDA [%]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2019-10-21T10:29:20
+# Modified                 : 2023-11-28T15:46:48
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_440.csv')

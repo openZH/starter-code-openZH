@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-11-28"
+date: "2023-11-29"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 2182@statistisches-amt-kanton-zuerich
 ## Metadata
 
 - **Issued** `2023-06-06T12:34:21`
-- **Modified** `2023-06-06T13:23:03`
+- **Modified** `2023-11-28T16:23:00`
 - **Startdate** `2023-12-31`
 - **Enddate** `2023-12-31`
 - **Theme** `['Politik']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : KRW Wähleranteil Die Mitte [%]
 # Description              : None
 # Issued                   : 2023-06-06T12:34:21
-# Modified                 : 2023-06-06T12:34:21
+# Modified                 : 2023-11-28T16:23:00
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_842.csv')
