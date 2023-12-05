@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-12-04"
+date: "2023-12-05"
 output: html_document
 ---
 
-## Dataset: KRW Wähleranteil Übrige [%]
+## Dataset: Kantonsratswahlen: Wähleranteil Übrige [%]
 
-Wähleranteil übrige Parteien bei Kantonsratswahlen.
+Wähleranteil aller Listen der übrigen Parteien bei den Kantonsratswahlen
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2483@statistisches-amt-kanton-zuerich)
 
@@ -42,7 +42,7 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 4956
-# Title                    : KRW Wähleranteil Übrige [%]
+# Title                    : Kantonsratswahlen: Wähleranteil Übrige [%]
 # Description              : None
 # Issued                   : 2023-11-28T15:58:31
 # Modified                 : 2023-11-28T16:22:00

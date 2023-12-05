@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-12-04"
+date: "2023-12-05"
 output: html_document
 ---
 
-## Dataset: KRW Wähleranteil CVP [%]
+## Dataset: Kantonsratswahlen: Wähleranteil CVP [%]
 
-Wähleranteil CVP bei Kantonsratswahlen
+Wähleranteil aller Listen der Partei CVP bei den Kantonsratswahlen
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/78@statistisches-amt-kanton-zuerich)
 
@@ -42,7 +42,7 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 64
-# Title                    : KRW Wähleranteil CVP [%]
+# Title                    : Kantonsratswahlen: Wähleranteil CVP [%]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
 # Modified                 : 2019-03-25T10:44:53

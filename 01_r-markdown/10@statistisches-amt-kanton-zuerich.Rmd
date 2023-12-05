@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-12-04"
+date: "2023-12-05"
 output: html_document
 ---
 
-## Dataset: KRW Wähleranteil SD [%]
+## Dataset: Kantonsratswahlen: Wähleranteil SD [%]
 
-Wähleranteil SD bei Kantonsratswahlen
+Wähleranteil aller Listen der Partei SD bei den Kantonsratswahlen
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/10@statistisches-amt-kanton-zuerich)
 
@@ -42,7 +42,7 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 9
-# Title                    : KRW Wähleranteil SD [%]
+# Title                    : Kantonsratswahlen: Wähleranteil SD [%]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
 # Modified                 : 2016-06-24T11:38:30

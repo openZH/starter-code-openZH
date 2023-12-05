@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-12-04"
+date: "2023-12-05"
 output: html_document
 ---
 
-## Dataset: KRW Wähleranteil Die Mitte [%]
+## Dataset: Kantonsratswahlen: Wähleranteil Die Mitte [%]
 
-Wähleranteil Die Mitte bei Kantonsratswahlen
+Wähleranteil aller Listen der Partei die Mitte bei den Kantonsratswahlen
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2182@statistisches-amt-kanton-zuerich)
 
@@ -42,7 +42,7 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 4284
-# Title                    : KRW Wähleranteil Die Mitte [%]
+# Title                    : Kantonsratswahlen: Wähleranteil Die Mitte [%]
 # Description              : None
 # Issued                   : 2023-06-06T12:34:21
 # Modified                 : 2023-11-28T16:23:00

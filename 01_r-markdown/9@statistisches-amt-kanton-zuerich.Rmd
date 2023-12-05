@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-12-04"
+date: "2023-12-05"
 output: html_document
 ---
 
-## Dataset: KRW Wähleranteil GLP [%]
+## Dataset: Kantonsratswahlen: Wähleranteil GLP [%]
 
-Wähleranteil GLP bei Kantonsratswahlen
+Wähleranteil aller Listen der Partei GLP bei den Kantonsratswahlen
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/9@statistisches-amt-kanton-zuerich)
 
@@ -42,7 +42,7 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 8
-# Title                    : KRW Wähleranteil GLP [%]
+# Title                    : Kantonsratswahlen: Wähleranteil GLP [%]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
 # Modified                 : 2023-11-28T16:22:00

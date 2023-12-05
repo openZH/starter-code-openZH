@@ -1,10 +1,10 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-12-04"
+date: "2023-12-05"
 output: html_document
 ---
 
-## Dataset: NRW Wähleranteil BDP [%]
+## Dataset: Nationalratswahlen: Wähleranteil BDP [%]
 
 Wähleranteil BDP bei Nationalsratswahlen. Hinweis: 2015 werden alle Auslandschweizer zur Stadt Zürich gezählt.
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 297@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2019-10-21T10:29:00`
+- **Modified** `2023-12-04T08:21:09`
 - **Startdate** `2011-12-31`
 - **Enddate** `2019-12-31`
 - **Theme** `['Politik']`
@@ -42,7 +42,7 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 227
-# Title                    : NRW Wähleranteil BDP [%]
+# Title                    : Nationalratswahlen: Wähleranteil BDP [%]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
 # Modified                 : 2019-10-21T10:29:20
