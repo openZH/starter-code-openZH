@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-12-08"
+date: "2023-12-09"
 output: html_document
 ---
 
@@ -55,7 +55,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Kandidierende 2. Wahlgang Erneuerungswahl Ständerat 2023
 # Description              : None
 # Issued                   : 2023-11-22T14:46:11
-# Modified                 : 2023-11-22T14:46:11
+# Modified                 : 2023-12-08T10:03:03
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00004905.csv')
@@ -75,7 +75,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Kandidierende 1. Wahlgang Erneuerungswahl Ständerat 2023
 # Description              : None
 # Issued                   : 2023-10-22T19:15:10
-# Modified                 : 2023-11-22T15:06:09
+# Modified                 : 2023-12-08T09:56:48
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00004685.csv')
@@ -95,7 +95,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Kandidierende 2. Wahlgang Erneuerungswahl Ständerat 2019
 # Description              : None
 # Issued                   : 2021-06-01T13:10:50
-# Modified                 : 2023-11-22T15:06:49
+# Modified                 : 2023-12-08T10:02:49
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001825.csv')
@@ -115,7 +115,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Kandidierende 1. Wahlgang Erneuerungswahl Ständerat 2019
 # Description              : None
 # Issued                   : 2021-06-01T13:07:24
-# Modified                 : 2023-11-22T15:07:53
+# Modified                 : 2023-12-08T09:56:31
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001824.csv')
@@ -135,7 +135,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Kandidierende 2. Wahlgang Erneuerungswahl Ständerat 2015
 # Description              : None
 # Issued                   : 2021-06-01T13:03:51
-# Modified                 : 2023-11-22T15:08:46
+# Modified                 : 2023-12-08T10:02:32
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001823.csv')
@@ -155,7 +155,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Kandidierende 1. Wahlgang Erneuerungswahl Ständerat 2015
 # Description              : None
 # Issued                   : 2021-06-01T13:01:26
-# Modified                 : 2023-11-22T15:09:23
+# Modified                 : 2023-12-08T09:56:13
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001821.csv')
@@ -175,7 +175,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Kandidierende 2. Wahlgang Erneuerungswahl Ständerat 2011
 # Description              : None
 # Issued                   : 2021-06-01T13:00:38
-# Modified                 : 2023-11-22T15:10:27
+# Modified                 : 2023-12-08T10:02:12
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001820.csv')
@@ -195,7 +195,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Kandidierende 1. Wahlgang Erneuerungswahl Ständerat 2011
 # Description              : None
 # Issued                   : 2021-06-01T12:59:42
-# Modified                 : 2023-11-22T15:11:25
+# Modified                 : 2023-12-08T09:55:52
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001819.csv')
@@ -215,7 +215,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Kandidierende 2. Wahlgang Erneuerungswahl Ständerat 2007
 # Description              : None
 # Issued                   : 2021-06-01T10:59:23
-# Modified                 : 2023-11-22T15:12:12
+# Modified                 : 2023-12-08T10:01:51
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001818.csv')
@@ -235,7 +235,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Kandidierende 1. Wahlgang Erneuerungswahl Ständerat 2007
 # Description              : None
 # Issued                   : 2021-06-01T10:46:51
-# Modified                 : 2023-11-22T15:12:58
+# Modified                 : 2023-12-08T09:55:18
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001817.csv')
