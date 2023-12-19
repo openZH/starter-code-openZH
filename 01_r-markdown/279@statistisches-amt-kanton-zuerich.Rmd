@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-12-18"
+date: "2023-12-19"
 output: html_document
 ---
 
 ## Dataset: Schül. Tertiärstufe [Pers. pro 1000 Einw.]
 
-inkl. Universität Zürich, aber ohne ETH; gemessen an der zivilrechtlichen Bevölkerung Ende Vorjahr
+inkl. Universität Zürich, aber ohne ETH; gemessen an der zivilrechtlichen Bevölkerung Ende Vorjahr. Ab 2017 sind nur noch Tertiärausbildungen ohne Hochschulen enthalten.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/279@statistisches-amt-kanton-zuerich)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 279@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2023-10-24T10:19:36`
+- **Modified** `2023-12-18T07:57:06`
 - **Startdate** `1999-12-31`
 - **Enddate** `2022-12-31`
 - **Theme** `['Bildung, Wissenschaft']`
