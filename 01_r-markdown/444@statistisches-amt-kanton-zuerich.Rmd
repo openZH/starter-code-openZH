@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-01-05"
+date: "2024-01-06"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Abstimmungsparolen von kantonalzürcher und nationalen Parteien
 # Description              : None
 # Issued                   : 2019-07-02T16:21:22
-# Modified                 : 2024-01-04T07:54:08
+# Modified                 : 2024-01-05T07:54:07
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_abstimmungsparolen.csv')
