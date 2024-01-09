@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-01-08"
+date: "2024-01-09"
 output: html_document
 ---
 
@@ -41,14 +41,14 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 2940
-# Title                    : Suchbegriffe 2021, 4. Quartal
+# Ktzhdistid               : 2942
+# Title                    : Suchbegriffe 2021, 2. Quartal
 # Description              : Maximal 1000 häufgste Suchbegriffe, die von Nutzenden im Quartal verwendet worden sind. Personennamen, Beleidigungen oder diskriminierenden Äusserungen wurden entfernt.
-# Issued                   : 2022-06-28T16:40:53
-# Modified                 : 2022-06-28T16:40:53
+# Issued                   : 2022-06-28T17:12:46
+# Modified                 : 2022-06-28T17:12:46
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001501_00002940.csv')
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001501_00002942.csv')
 
 # Distribution 1
 # Ktzhdistid               : 2941
@@ -61,14 +61,14 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001501_00002941.csv')
 
 # Distribution 2
-# Ktzhdistid               : 2942
-# Title                    : Suchbegriffe 2021, 2. Quartal
+# Ktzhdistid               : 2940
+# Title                    : Suchbegriffe 2021, 4. Quartal
 # Description              : Maximal 1000 häufgste Suchbegriffe, die von Nutzenden im Quartal verwendet worden sind. Personennamen, Beleidigungen oder diskriminierenden Äusserungen wurden entfernt.
-# Issued                   : 2022-06-28T17:12:46
-# Modified                 : 2022-06-28T17:12:46
+# Issued                   : 2022-06-28T16:40:53
+# Modified                 : 2022-06-28T16:40:53
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001501_00002942.csv')
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001501_00002940.csv')
 
 # Distribution 3
 # Ktzhdistid               : 2878

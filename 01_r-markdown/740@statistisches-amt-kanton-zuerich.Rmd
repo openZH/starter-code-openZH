@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-01-08"
+date: "2024-01-09"
 output: html_document
 ---
 
@@ -41,16 +41,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1887
-# Title                    : Metadaten aller Indikatoren im COVID_19 Gesellschaftsmonitoring des Kantons Zürich
-# Description              : Variabeln: 'id' = Kombination von 'variable_short' und 'location' ergibt eindeutigen Identifkator; 'topic' = thematische Kategorie des Indikators; 'variable_short' = Kurzbezeichnung des Indikators (kein String); 'variable_long' = längere Bezeichnung des Indikators (String); 'location' = räumlicher Bezug der Erhebung, 'unit' = Masseinheit des erhobenen Werts; 'source' = Quelle der erhobenen Daten, 'update' = Aktualisierungsfrequenz, 'public' = Status der Veröffentlichung (ja/nein), 'description' = URL mit Beschreibung zur Grundlage der jeweiligen Datenerhebung, Hinweisen zur Methodik sowie Weiteren Informationen; 'last_modified' = Datum der letzten Aktualisierung; 'date_first_obs' = Startdatum der Zeitreihe (d.i. die erste erhobene Beobachtung); 'date_last_obs' = Enddatum der Zeitreihe (d.i. die letzte erhobene Beobachtung); 'sort' = alphabetische Sortierungsvariable nach 'topic' und 'variable_long'.
-# Issued                   : 2021-10-04T17:38:30
-# Modified                 : 2021-10-25T11:18:07
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
-
-df <- read_delim('https://raw.githubusercontent.com/statistikZH/covid19monitoring/master/Metadata.csv')
-
-# Distribution 1
 # Ktzhdistid               : 1886
 # Title                    : Daten aller Indikatoren im COVID_19 Gesellschaftsmonitoring des Kantons Zürich
 # Description              : Variabeln: 'date' = Datum der Erhebung; 'value' = erhobener Wert; 'topic' = thematische Kategorie des Indikators (Liste aller Indikatoren siehe Readme unter "Weiterführende Informationen"); 'variable_short' = Kurzbezeichnung des Indikators (kein String); 'variable_long' = längere Bezeichnung des Indikators (String); 'location' = räumlicher Bezug der Erhebung, 'unit' = Masseinheit des erhobenen Werts; 'source' = Quelle der erhobenen Daten, 'update' = Aktualisierungsfrequenz, 'public' = Status der Veröffentlichung (ja/nein), 'description' = URL mit Beschreibung zur Grundlage der jeweiligen Datenerhebung, Hinweisen zur Methodik sowie Weiteren Informationen.
@@ -59,6 +49,16 @@ df <- read_delim('https://raw.githubusercontent.com/statistikZH/covid19monitorin
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://raw.githubusercontent.com/statistikZH/covid19monitoring/master/covid19socialmonitoring.csv')
+
+# Distribution 1
+# Ktzhdistid               : 1887
+# Title                    : Metadaten aller Indikatoren im COVID_19 Gesellschaftsmonitoring des Kantons Zürich
+# Description              : Variabeln: 'id' = Kombination von 'variable_short' und 'location' ergibt eindeutigen Identifkator; 'topic' = thematische Kategorie des Indikators; 'variable_short' = Kurzbezeichnung des Indikators (kein String); 'variable_long' = längere Bezeichnung des Indikators (String); 'location' = räumlicher Bezug der Erhebung, 'unit' = Masseinheit des erhobenen Werts; 'source' = Quelle der erhobenen Daten, 'update' = Aktualisierungsfrequenz, 'public' = Status der Veröffentlichung (ja/nein), 'description' = URL mit Beschreibung zur Grundlage der jeweiligen Datenerhebung, Hinweisen zur Methodik sowie Weiteren Informationen; 'last_modified' = Datum der letzten Aktualisierung; 'date_first_obs' = Startdatum der Zeitreihe (d.i. die erste erhobene Beobachtung); 'date_last_obs' = Enddatum der Zeitreihe (d.i. die letzte erhobene Beobachtung); 'sort' = alphabetische Sortierungsvariable nach 'topic' und 'variable_long'.
+# Issued                   : 2021-10-04T17:38:30
+# Modified                 : 2021-10-25T11:18:07
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
+
+df <- read_delim('https://raw.githubusercontent.com/statistikZH/covid19monitoring/master/Metadata.csv')
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-01-08"
+date: "2024-01-09"
 output: html_document
 ---
 
@@ -41,16 +41,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 322
-# Title                    : Abstimmungsarchiv des Kantons Zürich, Ergebnisse pro Gemeinde
-# Description              : None
-# Issued                   : 2016-02-26T10:10:10
-# Modified                 : 2023-06-21T15:31:08
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_abstimmungsarchiv_gemeinden.csv')
-
-# Distribution 1
 # Ktzhdistid               : 323
 # Title                    : Abstimmungsarchiv des Kantons Zürich, Ergebnisse Kanton Zürich
 # Description              : None
@@ -59,6 +49,16 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_abstim
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_abstimmungsarchiv_kanton.csv')
+
+# Distribution 1
+# Ktzhdistid               : 322
+# Title                    : Abstimmungsarchiv des Kantons Zürich, Ergebnisse pro Gemeinde
+# Description              : None
+# Issued                   : 2016-02-26T10:10:10
+# Modified                 : 2023-06-21T15:31:08
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_abstimmungsarchiv_gemeinden.csv')
 
 
 

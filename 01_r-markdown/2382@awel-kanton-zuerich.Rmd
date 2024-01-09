@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-01-08"
+date: "2024-01-09"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 2382@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2023-11-09T09:11:55`
-- **Modified** `2023-11-09T09:11:55`
+- **Modified** `2024-01-08T14:20:29`
 - **Startdate** `2002-05-16`
 - **Enddate** `2023-08-17`
 - **Theme** `['Mobilität und Verkehr', 'Raum, Umwelt']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Daten RSD-Messkampagne 2002
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
-# Modified                 : 2023-11-09T09:11:55
+# Modified                 : 2024-01-08T08:35:49
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004793.csv')
@@ -55,7 +55,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Daten RSD-Messkampagne 2003
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
-# Modified                 : 2023-11-09T09:11:55
+# Modified                 : 2024-01-08T08:45:19
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004794.csv')
@@ -65,7 +65,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Daten RSD-Messkampagne 2004
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
-# Modified                 : 2023-11-09T09:11:55
+# Modified                 : 2024-01-08T08:51:29
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004795.csv')
@@ -75,7 +75,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Daten RSD-Messkampagne 2005
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
-# Modified                 : 2023-11-09T09:11:55
+# Modified                 : 2024-01-08T08:57:42
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004796.csv')
@@ -85,7 +85,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Daten RSD-Messkampagne 2006
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
-# Modified                 : 2023-11-09T09:11:55
+# Modified                 : 2024-01-08T09:03:46
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004797.csv')
@@ -95,7 +95,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Daten RSD-Messkampagne 2007
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
-# Modified                 : 2023-11-09T09:11:55
+# Modified                 : 2024-01-08T09:08:20
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004798.csv')
@@ -105,7 +105,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Daten RSD-Messkampagne 2008
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
-# Modified                 : 2023-11-09T09:11:55
+# Modified                 : 2024-01-08T09:15:03
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004799.csv')
@@ -115,7 +115,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Daten RSD-Messkampagne 2009
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
-# Modified                 : 2023-11-09T09:11:55
+# Modified                 : 2024-01-08T09:21:25
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004800.csv')
@@ -125,7 +125,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Daten RSD-Messkampagne 2010
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
-# Modified                 : 2023-11-09T09:11:55
+# Modified                 : 2024-01-08T09:27:36
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004801.csv')
@@ -135,7 +135,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Daten RSD-Messkampagne 2011
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
-# Modified                 : 2023-11-09T09:11:55
+# Modified                 : 2024-01-08T12:05:51
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004802.csv')
@@ -145,7 +145,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Daten RSD-Messkampagne 2012
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
-# Modified                 : 2023-11-09T09:11:55
+# Modified                 : 2024-01-08T12:14:03
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004803.csv')
@@ -155,7 +155,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Daten RSD-Messkampagne 2013
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
-# Modified                 : 2023-11-09T09:11:55
+# Modified                 : 2024-01-08T12:24:12
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004804.csv')
@@ -165,7 +165,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Daten RSD-Messkampagne 2014
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
-# Modified                 : 2023-11-09T09:11:55
+# Modified                 : 2024-01-08T12:34:59
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004805.csv')
@@ -175,7 +175,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Daten RSD-Messkampagne 2015
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
-# Modified                 : 2023-11-09T09:11:55
+# Modified                 : 2024-01-08T12:46:47
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004806.csv')
@@ -185,7 +185,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Daten RSD-Messkampagne 2016
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
-# Modified                 : 2023-11-09T09:11:55
+# Modified                 : 2024-01-08T12:59:00
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004807.csv')
@@ -195,7 +195,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Daten RSD-Messkampagne 2017
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
-# Modified                 : 2023-11-09T09:11:55
+# Modified                 : 2024-01-08T13:11:02
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004808.csv')
@@ -205,7 +205,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Daten RSD-Messkampagne 2018
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
-# Modified                 : 2023-11-09T09:11:55
+# Modified                 : 2024-01-08T13:25:20
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004809.csv')
@@ -215,7 +215,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Daten RSD-Messkampagne 2019
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
-# Modified                 : 2023-11-09T09:11:55
+# Modified                 : 2024-01-08T13:39:33
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004810.csv')
@@ -225,7 +225,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Daten RSD-Messkampagne 2020
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
-# Modified                 : 2023-11-09T09:11:55
+# Modified                 : 2024-01-08T13:53:10
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004811.csv')
@@ -235,7 +235,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Daten RSD-Messkampagne 2021
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
-# Modified                 : 2023-11-09T09:11:55
+# Modified                 : 2024-01-08T14:08:24
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004812.csv')
@@ -245,7 +245,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Daten RSD-Messkampagne 2023
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
-# Modified                 : 2023-11-09T09:11:55
+# Modified                 : 2024-01-08T14:20:28
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004813.csv')

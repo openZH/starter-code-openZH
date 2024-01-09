@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-01-08"
+date: "2024-01-09"
 output: html_document
 ---
 
@@ -41,16 +41,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 2918
-# Title                    : Codebook Bevölkerungsbefragung 2019
-# Description              : Im Codebook sind die erhobenen Variablen mit den möglichen Ausprägungen beschrieben. 
-# Issued                   : 2022-07-07T13:45:15
-# Modified                 : 2022-07-07T13:45:15
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001341_00002918.csv')
-
-# Distribution 1
 # Ktzhdistid               : 2759
 # Title                    : Antworten der Bevölkerungsbefragung in den Zürcher Gemeinden 2019
 # Description              : Antworten zu vier Themenblöcken (1-4): (1) Identifikation mit Wohnort und Zufriedenheit in der Wohngemeinde; (2) Gemeindeleistungen, Wichtigkeit dieser Aspekte und Zufriedenheit mit der Umsetzung durch Gemeinden; (3) Beurteilung Höhe der Steuern, kommunaler Steuerfuss und Bandbreite der kommunalen Steuerfüsse, in welche Themen sollen Steuergelder zukünftig investiert werden?; (4) Bereitschaft Dienstleistungen der Wohngemeinde in einer Nachbargemeinde zu beziehen, beziehungsweise welche Massnahmen zu ergreifen sind, wenn zentrale Dienstleistungen nicht mehr selbstständig von der Wohngemeinde erfüllt werden können.
@@ -59,6 +49,16 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001341_00002759.csv')
+
+# Distribution 1
+# Ktzhdistid               : 2918
+# Title                    : Codebook Bevölkerungsbefragung 2019
+# Description              : Im Codebook sind die erhobenen Variablen mit den möglichen Ausprägungen beschrieben. 
+# Issued                   : 2022-07-07T13:45:15
+# Modified                 : 2022-07-07T13:45:15
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001341_00002918.csv')
 
 
 
