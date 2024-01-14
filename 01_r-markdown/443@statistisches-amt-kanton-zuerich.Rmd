@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-01-13"
+date: "2024-01-14"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Abstimmungsempfehlungen von Kantonsrat und Regierungsrat des Kantons Zürich
 # Description              : None
 # Issued                   : 2019-07-02T15:41:05
-# Modified                 : 2024-01-05T07:54:07
+# Modified                 : 2024-01-13T07:54:08
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_abstimmungsempfehlungen.csv')
