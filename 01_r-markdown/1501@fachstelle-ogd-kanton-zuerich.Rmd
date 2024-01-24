@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-01-23"
+date: "2024-01-24"
 output: html_document
 ---
 
-## Dataset: Web Analytics des Daten- und Publikationskatalogs des Kantons Zürich ab April 2021 bis März 2022
+## Dataset: Nutzenden verwendete Suchbegriffe im Datenkatalog des Kantons Zürich
 
-Nutzungsstatistiken der Metadatensätze von Verwaltungseinheiten und Organen des Kantons Zürich, die im Daten- und Publikationskatalogs des Kantons Zürich findbar sind. Verfügbar sind: von Nutzenden verwendete Suchbegriffe. Hinweise: Die Ressourcen zum Jahr 2020 beginnen ab dem Zeitpunkt der Einführung des neuen kantonalen Webauftritts per Anfang Juli 2020. Die Ressourcen zum Jahr 2021 umfassen alle vier Quartale. Die Ressourcen zum Jahr 2022 umfassen nur das erste Quartal. Ab April 2022 ist die Aktualisierung aufgrund der Einführung einer neuen Version des Katalogs pausiert.
+Nutzungsstatistiken der Metadatensätze von Verwaltungseinheiten und Organen des Kantons Zürich, die im Daten- und Publikationskatalogs des Kantons Zürich findbar sind. Verfügbar sind: von Nutzenden verwendete Suchbegriffe. Hinweise: Die Ressourcen zum Jahr 2021 umfassen alle vier Quartale. Die Ressourcen zum Jahr 2022 umfassen nur das erste Quartal. Ab April 2022 ist die Aktualisierung aufgrund der Einführung einer neuen Version des Katalogs gestoppt.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1501@fachstelle-ogd-kanton-zuerich)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 1501@fachstelle-ogd-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2022-06-28T16:40:53`
-- **Modified** `2022-06-29T09:37:51`
+- **Modified** `2024-01-23T17:08:21`
 - **Startdate** `2021-04-01`
 - **Enddate** `2022-03-31`
 - **Theme** `['Öffentliche Verwaltung und Finanzen']`
@@ -41,14 +41,14 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 2942
-# Title                    : Suchbegriffe 2021, 2. Quartal
+# Ktzhdistid               : 2940
+# Title                    : Suchbegriffe 2021, 4. Quartal
 # Description              : Maximal 1000 häufgste Suchbegriffe, die von Nutzenden im Quartal verwendet worden sind. Personennamen, Beleidigungen oder diskriminierenden Äusserungen wurden entfernt.
-# Issued                   : 2022-06-28T17:12:46
-# Modified                 : 2022-06-28T17:12:46
+# Issued                   : 2022-06-28T16:40:53
+# Modified                 : 2022-06-28T16:40:53
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001501_00002942.csv')
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001501_00002940.csv')
 
 # Distribution 1
 # Ktzhdistid               : 2941
@@ -61,14 +61,14 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001501_00002941.csv')
 
 # Distribution 2
-# Ktzhdistid               : 2940
-# Title                    : Suchbegriffe 2021, 4. Quartal
+# Ktzhdistid               : 2942
+# Title                    : Suchbegriffe 2021, 2. Quartal
 # Description              : Maximal 1000 häufgste Suchbegriffe, die von Nutzenden im Quartal verwendet worden sind. Personennamen, Beleidigungen oder diskriminierenden Äusserungen wurden entfernt.
-# Issued                   : 2022-06-28T16:40:53
-# Modified                 : 2022-06-28T16:40:53
+# Issued                   : 2022-06-28T17:12:46
+# Modified                 : 2022-06-28T17:12:46
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001501_00002940.csv')
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001501_00002942.csv')
 
 # Distribution 3
 # Ktzhdistid               : 2878
