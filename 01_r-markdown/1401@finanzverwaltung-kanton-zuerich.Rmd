@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-01-29"
+date: "2024-01-30"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 1401@finanzverwaltung-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2022-06-07T11:05:44`
-- **Modified** `2023-01-26T14:12:38`
+- **Modified** `2024-01-29T11:07:35`
 - **Startdate** `2008-12-31`
 - **Enddate** `2020-12-31`
 - **Theme** `['Öffentliche Verwaltung und Finanzen']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Staatsquote des Kantons Zürich ab 2008
 # Description              : Variabeln: 'gesamtausgaben' und 'bruttoinlandprodukt' in Tausend CHF.
 # Issued                   : 2022-06-07T11:05:44
-# Modified                 : 2023-01-26T14:12:03
+# Modified                 : 2024-01-29T11:08:04
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001401_00002738.csv')
