@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-02-02"
+date: "2024-02-03"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 1641@statistisches-amt-kanton-zuerich
 ## Metadata
 
 - **Issued** `2022-08-17T10:43:44`
-- **Modified** `2024-01-26T12:49:51`
+- **Modified** `2024-02-02T12:49:54`
 - **Startdate** `None`
-- **Enddate** `2024-01-26`
+- **Enddate** `2024-02-02`
 - **Theme** `['Öffentliche Verwaltung und Finanzen']`
 - **Keyword** `['gemeinden', 'gemeindeverwaltung', 'kantonale_verwaltung', 'kanton_zuerich', 'stadtverwaltung', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : OGD-Publisher im Kanton Zürich
 # Description              : Spaltenüberschriften: 'PUBLISHER' = Bezeichnung der Organisation, unter deren Hoheit die publizierten Daten stehen; 'ABTEILUNG' = Bezeichnung der entsprechenden Abteilung der Organisation, welche die Datenhoheit besitzt (eine Abteilung kann angegeben sein, aber muss nicht); 'PUBLISHER_SUFFIX' = URL-Slug der Organisation (die Abteilung wird im Slug nicht repräsentiert).
 # Issued                   : 2022-08-17T10:43:44
-# Modified                 : 2024-01-26T12:49:52
+# Modified                 : 2024-02-02T12:49:54
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/kanton_zuerich_ogd_orgs.csv')
