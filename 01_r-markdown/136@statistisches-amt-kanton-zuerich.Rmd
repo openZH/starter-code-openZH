@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-03-04"
+date: "2024-03-05"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 136@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2023-06-30T13:27:00`
-- **Startdate** `1990-12-31`
-- **Enddate** `2022-12-31`
+- **Modified** `2024-03-04T13:59:00`
+- **Startdate** `2013-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['Gesundheit']`
 - **Keyword** `['bezirke', 'gemeinden', 'gesundheit', 'kanton_zuerich', 'zahnaerzte', 'zahnaerztinnen', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Zahnärzte [Anz.]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2023-06-30T13:27:00
+# Modified                 : 2024-03-04T13:59:00
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_544.csv')

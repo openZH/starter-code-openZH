@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-03-04"
+date: "2024-03-05"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 285@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2023-03-07T07:53:43`
+- **Modified** `2024-03-04T13:59:47`
 - **Startdate** `1978-12-31`
-- **Enddate** `2022-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['Bevölkerung']`
 - **Keyword** `['bevoelkerung', 'bezirke', 'gemeinden', 'heimat', 'kanton_zuerich', 'nationalitaet', 'schweiz', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Bevölkerung: Heimat Schweiz [Pers.]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2023-03-07T07:53:43
+# Modified                 : 2024-03-04T13:59:47
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_805.csv')
