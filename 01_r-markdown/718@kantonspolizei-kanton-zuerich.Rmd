@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-03-07"
+date: "2024-03-08"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 718@kantonspolizei-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2021-03-09T13:51:00`
-- **Modified** `2023-03-17T12:28:18`
+- **Modified** `2024-03-07T15:29:01`
 - **Startdate** `2011-01-01`
 - **Enddate** `2022-12-31`
 - **Theme** `['Gesundheit', 'Mobilität und Verkehr']`
@@ -77,4 +77,4 @@ tail(df)
 
 # Questions about the data?
 
-Kantonspolizei des Kantons Zürich | Verkehrstechnische Abteilung | verkehrstechnik@kapo.zh.ch
+Kantonspolizei des Kantons Zürich | Verkehrspolizei-Spezialabteilung | vpsa@kapo.zh.ch
