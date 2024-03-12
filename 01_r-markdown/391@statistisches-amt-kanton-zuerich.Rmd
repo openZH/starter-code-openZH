@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-03-11"
+date: "2024-03-12"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 391@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-09-22T00:00:00`
-- **Modified** `2022-11-22T16:30:30`
+- **Modified** `2024-03-11T07:57:57`
 - **Startdate** `2013-12-31`
-- **Enddate** `2022-12-31`
+- **Enddate** `None`
 - **Theme** `['Mobilität und Verkehr']`
 - **Keyword** `['kanton_zuerich', 'oeffentlicher_verkehr', 'verkehr', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Anteil GK F [%]
 # Description              : None
 # Issued                   : 2016-09-22T10:10:00
-# Modified                 : 2022-11-22T16:30:30
+# Modified                 : 2024-03-11T07:57:57
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_826.csv')
