@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-03-13"
+date: "2024-03-14"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Produktion von Wärme und Strom aus erneuerbaren Energieträgern im Kanton Zürich
 # Description              : Zur Produktion von Wärme in Megawattstunden (MWh) enthalten sind die Energieträger: Kehricht, Biomasse (einschliesslich Holz), Sonne, Wasser (umfasst Oberflächen- und Grundwasser), Geothermie (untiefe Bohrungen), Luft (umfasst Luft-Wärmepumpen) sowie Abwasser. Zur Produktion von Strom zusätzlich enthalten ist der Energieträger 'Windkraft', während bei 'Geothermie' keine 'untiefen', sondern nur 'tiefe' Bohrungen zur Stromproduktion beitragen; die Energieträger 'Luft' und 'Abwasser' werden zur Stromproduktion nicht genutzt.
 # Issued                   : 2022-08-25T09:41:42
-# Modified                 : 2024-01-30T14:22:40
+# Modified                 : 2024-03-13T13:24:31
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001681_00003140.csv')
