@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-03-26"
+date: "2024-03-27"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 413@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2019-07-01T20:19:00`
-- **Modified** `2023-04-28T12:45:48`
+- **Modified** `2024-03-26T10:57:41`
 - **Startdate** `2012-12-31`
-- **Enddate** `2023-12-31`
+- **Enddate** `2024-12-31`
 - **Theme** `['Öffentliche Verwaltung und Finanzen']`
 - **Keyword** `['gemeindefinanzen', 'gemeinden', 'gemeindesteuerfuesse', 'gemeindesteuern', 'kanton_zuerich', 'oeffentliche_finanzen', 'steuerfuss', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Steuerfuss (ohne Kirchen) [%]
 # Description              : None
 # Issued                   : 2019-07-01T20:19:00
-# Modified                 : 2023-04-28T12:45:48
+# Modified                 : 2024-03-26T10:57:41
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_839.csv')
