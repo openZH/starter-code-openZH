@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-03-27"
+date: "2024-03-28"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Beschäftigte im Quartal nach Sektor und Geschlecht in Total und Vollzeitäquivalente ab 2018
 # Description              : Die Daten beinhalten aggregierte Beschäftigtenzahlen in der Stadt Winterthur. Sie sind nach Sektor und Geschlecht aufgeschlüsselt. Neben den Totalen werden auch die Vollzeitäquivalente ("VZAE") abgebildet. Die hier ausgewiesenen Daten zu den Beschäftigten basieren auf der Beschäftigungsstatistik (BESTA) des BFS. Sekundärsektor = Bergbau, Verarbeitendes Gewerbe/Herstellung von Waren, Energie- und Wasserversorgung, Baugewerbe/Bau  Tertiärsektor = Handel, Instandhaltung/Reparatur, Verkehr/Lagerei, Gastgewerbe/Gastronomie, Information/Kommunikation, Finanz-/Versicherungs-DL, Grundstücks-/Wohnungswesen, weitere DL, öffentliche Verwaltung, Erziehung/Unterricht, Gesundheit, Kunst 
 # Issued                   : 2023-03-09T11:53:00
-# Modified                 : 2023-03-09T11:53:00
+# Modified                 : 2024-03-27T09:23:53
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001823_00003360.csv')
