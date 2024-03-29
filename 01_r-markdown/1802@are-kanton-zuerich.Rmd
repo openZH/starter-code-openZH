@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-03-28"
+date: "2024-03-29"
 output: html_document
 ---
 
 ## Dataset: Geschossflächen im Kanton Zürich
 
-Übersicht über den Stand der Geschossflächen im Kanton Zürich. Die Geschossflächendefinition lehnt sich an die Definition der Geschossfläche GF gemäss SIA und der anrechenbare Geschossfläche gemäss Planungs- und Baugesetz (PBG) an. Die Erhebung der Geschossflächen leitet sich indirekt aus gesetzlichen Vorgaben von Bund und Kanton ab. Der Zweck der Erhebung der Geschossflächenreserven ist aufzuzeigen, welches Verdichtungspotential rechnerisch in Form von Geschossflächen in der Bauzone theoretisch vorhanden ist. Demgegenüber soll mit dem Geschossflächenbestand quantifiziert werden, wie viel Geschossfläche innerhalb der Bauzone bereits realisiert worden ist. Ab 2021 wird ein neues Berechnungsmodell verwendet, dadurch sind die Werte nur schwer mit jenen der Vorjahre vergleichbar. Aus technischen Gründen fand für 2020 keine Datenerhebung statt
+Übersicht über den Stand der Geschossflächen im Kanton Zürich. Die Geschossflächendefinition lehnt sich an die Definition der Geschossfläche GF gemäss SIA und der anrechenbare Geschossfläche gemäss Planungs- und Baugesetz (PBG) an. Die Erhebung der Geschossflächen leitet sich indirekt aus gesetzlichen Vorgaben von Bund und Kanton ab. Der Zweck der Erhebung der Geschossflächenreserven ist aufzuzeigen, welches Verdichtungspotential rechnerisch in Form von Geschossflächen in der Bauzone theoretisch vorhanden ist. Demgegenüber soll mit dem Geschossflächenbestand quantifiziert werden, wie viel Geschossfläche innerhalb der Bauzone bereits realisiert wurde. Ab 2021 wird ein neues Berechnungsmodell angewendet, daher sind die Werte mit den Vorjahren nur schwer vergleichbar. Für 2020 wurden aus technischen Gründen keine Daten erhoben.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1802@are-kanton-zuerich)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 1802@are-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2022-12-05T11:47:42`
-- **Modified** `2023-01-10T16:42:01`
+- **Modified** `2024-03-28T13:50:41`
 - **Startdate** `2000-01-01`
 - **Enddate** `2021-12-31`
 - **Theme** `['Raum, Umwelt']`

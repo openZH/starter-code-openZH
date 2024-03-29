@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-03-28"
+date: "2024-03-29"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 695@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2020-07-07T16:48:00`
-- **Modified** `2023-11-22T14:47:02`
+- **Modified** `2024-03-28T09:11:38`
 - **Startdate** `2007-10-21`
 - **Enddate** `2023-10-22`
 - **Theme** `['Politik']`
@@ -41,186 +41,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 4904
-# Title                    : Resultate 2. Wahlgang Erneuerungswahl Ständerat 2023
-# Description              : None
-# Issued                   : 2023-11-22T14:44:47
-# Modified                 : 2023-11-24T16:27:25
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00004904.csv')
-
-# Distribution 1
-# Ktzhdistid               : 4905
-# Title                    : Kandidierende 2. Wahlgang Erneuerungswahl Ständerat 2023
-# Description              : None
-# Issued                   : 2023-11-22T14:46:11
-# Modified                 : 2023-12-08T10:03:03
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00004905.csv')
-
-# Distribution 2
-# Ktzhdistid               : 4686
-# Title                    : Resultate 1. Wahlgang Erneuerungswahl Ständerat 2023
-# Description              : None
-# Issued                   : 2023-10-22T19:16:33
-# Modified                 : 2023-11-24T16:27:52
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00004686.csv')
-
-# Distribution 3
-# Ktzhdistid               : 4685
-# Title                    : Kandidierende 1. Wahlgang Erneuerungswahl Ständerat 2023
-# Description              : None
-# Issued                   : 2023-10-22T19:15:10
-# Modified                 : 2023-12-08T09:56:48
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00004685.csv')
-
-# Distribution 4
-# Ktzhdistid               : 1700
-# Title                    : Resultate 2. Wahlgang Erneuerungswahl Ständerat 2019
-# Description              : None
-# Issued                   : 2020-07-07T17:02:14
-# Modified                 : 2023-11-24T16:28:16
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001700.csv')
-
-# Distribution 5
-# Ktzhdistid               : 1825
-# Title                    : Kandidierende 2. Wahlgang Erneuerungswahl Ständerat 2019
-# Description              : None
-# Issued                   : 2021-06-01T13:10:50
-# Modified                 : 2023-12-08T10:02:49
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001825.csv')
-
-# Distribution 6
-# Ktzhdistid               : 1699
-# Title                    : Resultate 1. Wahlgang Erneuerungswahl Ständerat 2019
-# Description              : None
-# Issued                   : 2020-07-07T17:01:28
-# Modified                 : 2023-11-24T16:28:39
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001699.csv')
-
-# Distribution 7
-# Ktzhdistid               : 1824
-# Title                    : Kandidierende 1. Wahlgang Erneuerungswahl Ständerat 2019
-# Description              : None
-# Issued                   : 2021-06-01T13:07:24
-# Modified                 : 2023-12-08T09:56:31
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001824.csv')
-
-# Distribution 8
-# Ktzhdistid               : 1698
-# Title                    : Resultate 2. Wahlgang Erneuerungswahl Ständerat 2015
-# Description              : None
-# Issued                   : 2020-07-07T17:01:08
-# Modified                 : 2023-11-24T16:29:23
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001698.csv')
-
-# Distribution 9
-# Ktzhdistid               : 1823
-# Title                    : Kandidierende 2. Wahlgang Erneuerungswahl Ständerat 2015
-# Description              : None
-# Issued                   : 2021-06-01T13:03:51
-# Modified                 : 2023-12-08T10:02:32
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001823.csv')
-
-# Distribution 10
-# Ktzhdistid               : 1697
-# Title                    : Resultate 1. Wahlgang Erneuerungswahl Ständerat 2015
-# Description              : None
-# Issued                   : 2020-07-07T17:00:45
-# Modified                 : 2023-11-24T16:30:01
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001697.csv')
-
-# Distribution 11
-# Ktzhdistid               : 1821
-# Title                    : Kandidierende 1. Wahlgang Erneuerungswahl Ständerat 2015
-# Description              : None
-# Issued                   : 2021-06-01T13:01:26
-# Modified                 : 2023-12-08T09:56:13
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001821.csv')
-
-# Distribution 12
-# Ktzhdistid               : 1696
-# Title                    : Resultate 2. Wahlgang Erneuerungswahl Ständerat 2011
-# Description              : None
-# Issued                   : 2020-07-07T16:59:19
-# Modified                 : 2023-11-22T15:10:11
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001696.csv')
-
-# Distribution 13
-# Ktzhdistid               : 1820
-# Title                    : Kandidierende 2. Wahlgang Erneuerungswahl Ständerat 2011
-# Description              : None
-# Issued                   : 2021-06-01T13:00:38
-# Modified                 : 2023-12-08T10:02:12
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001820.csv')
-
-# Distribution 14
-# Ktzhdistid               : 1695
-# Title                    : Resultate 1. Wahlgang Erneuerungswahl Ständerat 2011
-# Description              : None
-# Issued                   : 2020-07-07T16:59:00
-# Modified                 : 2023-11-22T15:10:49
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001695.csv')
-
-# Distribution 15
-# Ktzhdistid               : 1819
-# Title                    : Kandidierende 1. Wahlgang Erneuerungswahl Ständerat 2011
-# Description              : None
-# Issued                   : 2021-06-01T12:59:42
-# Modified                 : 2023-12-08T09:55:52
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001819.csv')
-
-# Distribution 16
-# Ktzhdistid               : 1694
-# Title                    : Resultate 2. Wahlgang Erneuerungswahl Ständerat 2007
-# Description              : None
-# Issued                   : 2020-07-07T16:58:36
-# Modified                 : 2023-11-22T15:11:43
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001694.csv')
-
-# Distribution 17
-# Ktzhdistid               : 1818
-# Title                    : Kandidierende 2. Wahlgang Erneuerungswahl Ständerat 2007
-# Description              : None
-# Issued                   : 2021-06-01T10:59:23
-# Modified                 : 2023-12-08T10:01:51
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001818.csv')
-
-# Distribution 18
 # Ktzhdistid               : 1693
 # Title                    : Resultate 1. Wahlgang Erneuerungswahl Ständerat 2007
 # Description              : None
@@ -230,7 +50,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001693.csv')
 
-# Distribution 19
+# Distribution 1
 # Ktzhdistid               : 1817
 # Title                    : Kandidierende 1. Wahlgang Erneuerungswahl Ständerat 2007
 # Description              : None
@@ -239,6 +59,186 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001817.csv')
+
+# Distribution 2
+# Ktzhdistid               : 1694
+# Title                    : Resultate 2. Wahlgang Erneuerungswahl Ständerat 2007
+# Description              : None
+# Issued                   : 2020-07-07T16:58:36
+# Modified                 : 2023-11-22T15:11:43
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001694.csv')
+
+# Distribution 3
+# Ktzhdistid               : 1818
+# Title                    : Kandidierende 2. Wahlgang Erneuerungswahl Ständerat 2007
+# Description              : None
+# Issued                   : 2021-06-01T10:59:23
+# Modified                 : 2023-12-08T10:01:51
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001818.csv')
+
+# Distribution 4
+# Ktzhdistid               : 1695
+# Title                    : Resultate 1. Wahlgang Erneuerungswahl Ständerat 2011
+# Description              : None
+# Issued                   : 2020-07-07T16:59:00
+# Modified                 : 2023-11-22T15:10:49
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001695.csv')
+
+# Distribution 5
+# Ktzhdistid               : 1819
+# Title                    : Kandidierende 1. Wahlgang Erneuerungswahl Ständerat 2011
+# Description              : None
+# Issued                   : 2021-06-01T12:59:42
+# Modified                 : 2023-12-08T09:55:52
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001819.csv')
+
+# Distribution 6
+# Ktzhdistid               : 1696
+# Title                    : Resultate 2. Wahlgang Erneuerungswahl Ständerat 2011
+# Description              : None
+# Issued                   : 2020-07-07T16:59:19
+# Modified                 : 2023-11-22T15:10:11
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001696.csv')
+
+# Distribution 7
+# Ktzhdistid               : 1820
+# Title                    : Kandidierende 2. Wahlgang Erneuerungswahl Ständerat 2011
+# Description              : None
+# Issued                   : 2021-06-01T13:00:38
+# Modified                 : 2023-12-08T10:02:12
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001820.csv')
+
+# Distribution 8
+# Ktzhdistid               : 1697
+# Title                    : Resultate 1. Wahlgang Erneuerungswahl Ständerat 2015
+# Description              : None
+# Issued                   : 2020-07-07T17:00:45
+# Modified                 : 2023-11-24T16:30:01
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001697.csv')
+
+# Distribution 9
+# Ktzhdistid               : 1821
+# Title                    : Kandidierende 1. Wahlgang Erneuerungswahl Ständerat 2015
+# Description              : None
+# Issued                   : 2021-06-01T13:01:26
+# Modified                 : 2023-12-08T09:56:13
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001821.csv')
+
+# Distribution 10
+# Ktzhdistid               : 1698
+# Title                    : Resultate 2. Wahlgang Erneuerungswahl Ständerat 2015
+# Description              : None
+# Issued                   : 2020-07-07T17:01:08
+# Modified                 : 2023-11-24T16:29:23
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001698.csv')
+
+# Distribution 11
+# Ktzhdistid               : 1823
+# Title                    : Kandidierende 2. Wahlgang Erneuerungswahl Ständerat 2015
+# Description              : None
+# Issued                   : 2021-06-01T13:03:51
+# Modified                 : 2023-12-08T10:02:32
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001823.csv')
+
+# Distribution 12
+# Ktzhdistid               : 1699
+# Title                    : Resultate 1. Wahlgang Erneuerungswahl Ständerat 2019
+# Description              : None
+# Issued                   : 2020-07-07T17:01:28
+# Modified                 : 2023-11-24T16:28:39
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001699.csv')
+
+# Distribution 13
+# Ktzhdistid               : 1824
+# Title                    : Kandidierende 1. Wahlgang Erneuerungswahl Ständerat 2019
+# Description              : None
+# Issued                   : 2021-06-01T13:07:24
+# Modified                 : 2023-12-08T09:56:31
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001824.csv')
+
+# Distribution 14
+# Ktzhdistid               : 1700
+# Title                    : Resultate 2. Wahlgang Erneuerungswahl Ständerat 2019
+# Description              : None
+# Issued                   : 2020-07-07T17:02:14
+# Modified                 : 2023-11-24T16:28:16
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001700.csv')
+
+# Distribution 15
+# Ktzhdistid               : 1825
+# Title                    : Kandidierende 2. Wahlgang Erneuerungswahl Ständerat 2019
+# Description              : None
+# Issued                   : 2021-06-01T13:10:50
+# Modified                 : 2023-12-08T10:02:49
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00001825.csv')
+
+# Distribution 16
+# Ktzhdistid               : 4686
+# Title                    : Resultate 1. Wahlgang Erneuerungswahl Ständerat 2023
+# Description              : None
+# Issued                   : 2023-10-22T19:16:33
+# Modified                 : 2023-11-24T16:27:52
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00004686.csv')
+
+# Distribution 17
+# Ktzhdistid               : 4685
+# Title                    : Kandidierende 1. Wahlgang Erneuerungswahl Ständerat 2023
+# Description              : None
+# Issued                   : 2023-10-22T19:15:10
+# Modified                 : 2023-12-08T09:56:48
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00004685.csv')
+
+# Distribution 18
+# Ktzhdistid               : 4904
+# Title                    : Resultate 2. Wahlgang Erneuerungswahl Ständerat 2023
+# Description              : None
+# Issued                   : 2023-11-22T14:44:47
+# Modified                 : 2023-11-24T16:27:25
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00004904.csv')
+
+# Distribution 19
+# Ktzhdistid               : 4905
+# Title                    : Kandidierende 2. Wahlgang Erneuerungswahl Ständerat 2023
+# Description              : None
+# Issued                   : 2023-11-22T14:46:11
+# Modified                 : 2023-12-08T10:03:03
+# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000695_00004905.csv')
 
 
 

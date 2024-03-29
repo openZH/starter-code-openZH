@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-03-28"
+date: "2024-03-29"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 1601@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2022-09-20T17:24:49`
-- **Modified** `2023-08-02T09:47:57`
+- **Modified** `2024-03-28T14:46:02`
 - **Startdate** `1981-01-01`
-- **Enddate** `2021-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['Bau- und Wohnungswesen']`
 - **Keyword** `['gemeinden', 'neubauten', 'wohnungen', 'wohnungsbau', 'wohnungsbestand', 'ogd']`
 - **Publisher** `['Stadt Winterthur']`
@@ -42,10 +42,10 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 3061
-# Title                    : Anzahl Wohnungen insgesamt und neu gebaut nach Jahr
-# Description              : Variablen: 'Wohnungsbestand' = Gesamtanzahl Wohnungen per Ende Jahr; 'Neuwohnungen' = Neu gebaute Wohnungen im entsprechenden Jahr.
+# Title                    : Anzahl Wohnungen im Bestand, Neubau und Abbruch, nach Jahr
+# Description              : Variablen: 'jahr' = Stand per Ende Jahr; 'bestand' = Gesamtanzahl Wohnungen; 'neubau' = Neu gebaute Wohnungen im entsprechenden Jahr; 'abbruch' = Abgebrochene Wohnungen im entsprechenden Jahr.
 # Issued                   : 2022-09-20T17:24:49
-# Modified                 : 2022-09-20T17:24:49
+# Modified                 : 2024-03-28T14:45:25
 # Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001601_00003061.csv')
