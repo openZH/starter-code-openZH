@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Spaltenüberschriften: 'bfs' = GEMEINDE_BFS_NR; 'gmd' = GEMEINDE; 'hh...' = HAUSHALTE
 # Issued                   : 2020-07-06T15:59:56
 # Modified                 : 2020-07-06T15:59:56
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000691_00001659.csv')
 

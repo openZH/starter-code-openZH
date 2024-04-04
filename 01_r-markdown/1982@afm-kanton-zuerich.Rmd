@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Die Daten zeigen die Verkehrsnachfrage im öffentlichen Verkehr (‘oev’) und im motorisierten Individualverkehr (‘miv’) als absolutes Verkehrsaufkommen (Summe aller Personenwege an einem durchschnittlichen Werktag (DWV)) und als Modal Split (prozentuale Anteile der Verkehrsmittelarten an allen Personenwegen). Neben den Gemeinden werden auch die Verkehrsbeziehungen von und zu den Nachbarkantonen berücksichtigt ("_gebietart" = Aussenkorridor). ‘quelle_code’ und ‘ziel_code’ entsprechen den BFS-Nummern der Gemeinden zum angegebenen Gebietsstand (‘gebietsstand_jahr’). Die Verkehrsströme können nach Binnenverkehr und nach Quell-Ziel-Verkehr unterschieden. Beginnen und enden die Verkehrsbeziehungen im gleichen Gebiet (Quelle und Ziel sind identisch), handelt es sich um Binnenverkehr. Beginnen die Verkehrsbeziehungen in einem Betrachtungsgebiet und führen nach ausserhalb und umgekehrt so handelt es sich um Quell-Ziel-Verkehr.
 # Issued                   : 2023-02-13T13:33:05
 # Modified                 : 2023-02-13T13:33:05
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001982_00003903.csv')
 
@@ -56,7 +55,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Die Daten zeigen die Verkehrsnachfrage im öffentlichen Verkehr (‘oev’), im motorisierten Individualverkehr (‘miv’) und mit Velo ('vel') als absolutes Verkehrsaufkommen (Summe aller Personenwege an einem durchschnittlichen Werktag (DWV)) und als Bi- und Tri-Modal Split (prozentuale Anteile der Verkehrsmittelarten an allen Personenwegen). Bi-Modal Split umfasst ÖV und MIV, Tri-Modal Split auch Velo. Neben den Regionen werden auch die Verkehrsbeziehungen von und zu den Nachbarkantonen berücksichtigt ("_gebietart" = Aussenkorridor). ‘quelle_code’ und ‘ziel_code’ entsprechen den BFS-Nummern der Regionen zum angegebenen Gebietsstand (‘gebietsstand_jahr’). Die Verkehrsströme können nach Binnenverkehr und nach Quell-Ziel-Verkehr unterschieden werden. Beginnen und enden die Verkehrsbeziehungen im gleichen Gebiet (Quelle und Ziel sind identisch), handelt es sich um Binnenverkehr. Beginnen die Verkehrsbeziehungen in einem Betrachtungsgebiet und führen nach ausserhalb und umgekehrt so handelt es sich um Quell-Ziel-Verkehr.
 # Issued                   : 2023-02-13T13:33:05
 # Modified                 : 2023-02-13T13:33:05
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001982_00003943.csv')
 

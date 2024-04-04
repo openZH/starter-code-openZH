@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Die Daten sind differenziert nach Jahr, Bildungsfeld und Berufsmaturitätstyp. Jahr: Das Jahr ist jeweils das Kalenderjahr der Erhebung, wobei der Stichtag der 15.9. ist. Die Daten für das Jahr 2022 sind somit im Schuljahr 2022/23 erhoben worden und zeigen den Datenstand am 15. September 2022. Bildungsfeld: Das Bildungsfeld ist eine Kategorisierung der Berufsbildung nach ISCED2013-F. Es gibt acht Kategorien. Berufsmaturitaetstyp: Beim Berufsmaturitätstyp wird unterschieden zwischen "Berufsfachschule (ohne BM)", "BM1" (gleichzeitig mit der Lehre) oder "BM2" (nach der Lehre). Anzahl: Anzahl der Schülerinnen und Schüler mit der entsprechenden Merkmalskombination
 # Issued                   : 2022-10-24T11:55:49
 # Modified                 : 2023-09-01T15:48:54
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/bista/ZH_Lernende_Berufsbildung_Bildungsfeld.csv')
 

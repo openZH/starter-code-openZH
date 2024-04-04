@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Spalten: 'jahr'; 'organisationseinheit'; 'gesuche_haengig_jan' (am 1. Januar des Jahres); 'gesuche_total' (des gesamten Jahres); 'zugang_uneingeschraenkt_gewaehrt'; 'zugang_teilweise_gewaehrt'; 'zugang_vollstaendig_abgelehnt'; 'anderweitige_erledigung' (z.B. Rückzug, Gegenstandslosigkeit); 'gesuche_haengig_dez' (am 31. Dezember des Jahres).
 # Issued                   : 2019-11-19T17:55:39
 # Modified                 : 2023-02-20T10:28:36
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000523_00000968.csv')
 

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : None
 # Issued                   : 2019-11-28T17:24:03
 # Modified                 : 2023-04-20T08:59:01
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001038.csv')
 
@@ -56,7 +55,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : None
 # Issued                   : 2019-11-28T16:29:40
 # Modified                 : 2023-04-20T08:58:24
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001031.csv')
 
@@ -66,7 +64,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Spaltenüberschriften: 'uebrige StGB'=übrige Delikte gemäss Schweizerischem Strafgesetzbuch; 'SVG'=Strassenverkehrsgesetz; 'BetmG'=Betäubungsmittelgesetz
 # Issued                   : 2019-11-28T16:22:21
 # Modified                 : 2023-04-20T08:56:09
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001029.csv')
 
@@ -76,7 +73,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : None
 # Issued                   : 2019-11-28T16:25:55
 # Modified                 : 2023-04-20T08:57:13
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001030.csv')
 
@@ -86,7 +82,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : None
 # Issued                   : 2019-11-28T16:48:32
 # Modified                 : 2023-04-20T08:59:44
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001034.csv')
 
@@ -96,7 +91,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : None
 # Issued                   : 2019-11-28T16:51:04
 # Modified                 : 2023-04-20T09:00:07
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001035.csv')
 
@@ -106,7 +100,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : None
 # Issued                   : 2019-11-28T16:31:31
 # Modified                 : 2023-04-20T09:00:34
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001032.csv')
 
@@ -116,7 +109,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : 'per Jahresende' bedeutet am 31. Dezember des entsprechenden Jahres
 # Issued                   : 2019-11-28T17:01:07
 # Modified                 : 2023-04-20T09:01:41
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001037.csv')
 
@@ -126,7 +118,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Anzahl verzeigte Jugendliche insgesamt und wegen Gewaltdelikten seit 2008.
 # Issued                   : 2020-06-09T08:10:15
 # Modified                 : 2023-04-20T08:54:47
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001657.csv')
 

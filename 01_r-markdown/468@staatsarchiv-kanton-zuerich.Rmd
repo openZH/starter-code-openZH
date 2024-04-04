@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Tabellen mit Daten zu Eheeinträgen im Kanton Zürich des 16., 17. und 18. Jahrhunderts. Enthaltene Informationen (Spalten): Signatur, Nachname Mann, Vorname Mann, Herkunft Mann, Nachname Frau, Vorname Frau, Herkunft Frau, Zusatzinformationen Mann, Zusatzinformationen Frau, Datum, Kirchgemeinde, Band, Webseite (zum Eintrag in der Archivdatenbank), ID.
 # Issued                   : 2019-08-26T17:57:34
 # Modified                 : 2023-01-17T08:53:31
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://zenodo.org/record/7543043')
 

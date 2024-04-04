@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : None
 # Issued                   : 2023-08-18T11:33:59
 # Modified                 : 2023-10-25T09:52:49
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002202_00004447.csv')
 
@@ -56,7 +55,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : None
 # Issued                   : 2023-08-18T11:33:59
 # Modified                 : 2023-10-25T09:52:57
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002202_00004448.csv')
 
@@ -66,7 +64,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : None
 # Issued                   : 2023-08-18T11:33:59
 # Modified                 : 2023-10-25T09:53:03
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002202_00004449.csv')
 
@@ -76,7 +73,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : None
 # Issued                   : 2023-08-18T11:33:59
 # Modified                 : 2023-10-25T09:53:08
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002202_00004450.csv')
 
@@ -86,7 +82,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : None
 # Issued                   : 2023-08-18T11:33:59
 # Modified                 : 2023-10-25T09:53:12
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002202_00004451.csv')
 
@@ -96,7 +91,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : None
 # Issued                   : 2023-08-18T11:33:59
 # Modified                 : 2023-10-25T09:53:16
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002202_00004452.csv')
 
@@ -106,7 +100,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : None
 # Issued                   : 2023-08-18T11:33:59
 # Modified                 : 2023-10-25T09:53:21
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002202_00004453.csv')
 
@@ -116,7 +109,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : None
 # Issued                   : 2023-08-18T11:33:59
 # Modified                 : 2023-10-25T09:53:27
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002202_00004454.csv')
 

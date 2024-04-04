@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : None
 # Issued                   : 2020-09-17T15:19:34
 # Modified                 : 2020-09-29T17:56:31
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000700_00001723.csv')
 
@@ -56,7 +55,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Abkürzungen und Definitionen sind in der Ressource "Verzeichnis der Personenstammdaten ZH - Abkürzungen und Definitionen" erklärt.
 # Issued                   : 2020-09-17T15:27:53
 # Modified                 : 2020-10-01T11:32:26
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000700_00001724.csv')
 
@@ -66,7 +64,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Abkürzungen und Definitionen sind in der Ressource "Verzeichnis der Personenstammdaten ZH - Abkürzungen und Definitionen" erklärt.
 # Issued                   : 2020-09-17T15:31:37
 # Modified                 : 2020-10-01T11:32:36
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000700_00001725.csv')
 

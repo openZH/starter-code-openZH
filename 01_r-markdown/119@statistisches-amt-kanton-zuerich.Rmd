@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Daten zum aktuellsten Quartalsbericht Handänderungsstatistik zur Preisentwicklung von Wohnbauland, Stockwerkeigentum, Ein- und Mehrfamilienhäusern.
 # Issued                   : 2019-11-27T00:00:00
 # Modified                 : 2023-12-19T16:15:56
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000119_00001212.csv')
 

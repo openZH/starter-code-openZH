@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Zeitreihendaten der Anzahl Kantonsratsmandate pro Wahlkreis. Die Wahlkreise tragen die heute gültige Bezeichnung. Wahlkreis V (Stadt Zürich, Stadtkreise 7 und 8) umfasste bis 1987 auch die Gemeinde Zollikon, ab 1987 wurde Zollikon zum Wahlkreis X (Meilen) gezählt. Weiter wurde der Stadtkreis 12 erst 1971 geschaffen, entsprechend umfasste Wahlkreis VI (Stadt Zürich, Stadtkreise 11 und 12) bis dahin nur den Stadtkreis 11, wobei der Stadtkreis 11 bis dahin das Gebiet der heutigen Stadtkreise 11 und 12 umfasste.
 # Issued                   : 2023-12-15T16:11:15
 # Modified                 : 2023-12-15T16:11:15
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002502_00005025.csv')
 

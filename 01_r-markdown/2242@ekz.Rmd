@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Das Merkmal "Zeistempel" ist im ISO-8601 Standard ausgewiesen. Die Einheit des Bruttolastganges ist kWh.
 # Issued                   : 2023-12-05T13:22:42
 # Modified                 : 2023-12-05T13:22:42
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://blg.downloads.ekz.ch')
 

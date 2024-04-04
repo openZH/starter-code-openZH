@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Variabeln: 'gesamtausgaben' und 'bruttoinlandprodukt' in Tausend CHF.
 # Issued                   : 2022-06-07T11:05:44
 # Modified                 : 2024-01-29T11:08:04
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001401_00002738.csv')
 

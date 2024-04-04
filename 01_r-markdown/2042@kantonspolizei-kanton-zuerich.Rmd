@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Das Total Einbrüche beinhaltet alle polizeilich bekannten, vollendeten und versuchten Einbruchs- und Einschleichdiebstähle. Die Bevölkerungszahlen sind der Einwohnerstatistik des Bundes am Ende des Vorjahres entnommen (bis 2010 ESPOP, ab 2011 STATPOP). Damit wird die Häufigkeitszahl berechnet (Anzahl registrierten Straftaten pro 1000 Einwohner). 
 # Issued                   : 2023-03-22T10:32:20
 # Modified                 : 2024-03-25T08:45:27
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002042_00004083.csv')
 

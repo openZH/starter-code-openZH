@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Der Energieverbrauch wird in Gigawattstunden (GWh) ausgewiesen. Dabei wird unterschieden zwischen den Energiesektoren Wärme, Strom und Treibstoff.
 # Issued                   : 2022-08-25T09:41:16
 # Modified                 : 2024-01-30T14:20:41
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001661_00003118.csv')
 

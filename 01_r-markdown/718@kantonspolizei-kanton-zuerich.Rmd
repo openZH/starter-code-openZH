@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Zu jedem Strassenverkehrsunfall sind der Unfallort (geokodiert), das Jahr, der Monat, der Wochentag, die Unfallstunde, die Strassenart, der Unfalltyp (ab 1. Juli 2015 inklusive Bagatellunfälle zB. Parkschäden), die Unfallbeteiligung ('Fussgänger', 'Velo (ohne E-Bikes)', 'Motorrad') und die Unfallschwerekategorie verfügbar. Detaillierte Definitionen der Variabeln sind in der Ressource "Minimales Geodatenmodell Strassenverkehrsunfallorte (ASTRA)" dokumentiert.
 # Issued                   : 2021-01-25T15:41:19
 # Modified                 : 2024-03-13T10:50:39
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000718_00001783.csv')
 

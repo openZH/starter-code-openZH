@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -47,7 +47,6 @@ library(skimr)
 # Description              : None
 # Issued                   : 2019-07-01T20:19:00
 # Modified                 : 2023-05-16T14:02:27
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_837.csv')
 

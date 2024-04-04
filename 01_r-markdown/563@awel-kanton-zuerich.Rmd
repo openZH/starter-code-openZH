@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -16,9 +16,9 @@ Auto generated R starter code for data set 563@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2019-12-09T00:00:00`
-- **Modified** `2024-04-02T00:01:12`
+- **Modified** `2024-04-04T00:01:09`
 - **Startdate** `None`
-- **Enddate** `2024-04-01`
+- **Enddate** `2024-04-03`
 - **Theme** `['Raum, Umwelt']`
 - **Keyword** `['luft', 'lufttemperaturen', 'ogd']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
@@ -47,7 +47,6 @@ library(skimr)
 # Description              : None
 # Issued                   : 2022-12-02T00:00:59
 # Modified                 : 2023-04-27T15:28:20
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202212.csv')
 
@@ -57,7 +56,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2023-02-16T14:58:06
 # Modified                 : 2023-04-27T15:27:59
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202302.csv')
 
@@ -67,7 +65,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2023-02-16T16:06:05
 # Modified                 : 2023-04-27T15:27:38
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202301.csv')
 
@@ -77,7 +74,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2023-03-02T00:01:10
 # Modified                 : 2023-04-27T15:27:17
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202303.csv')
 
@@ -87,7 +83,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2023-04-02T00:01:07
 # Modified                 : 2023-05-26T15:06:36
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202304.csv')
 
@@ -97,7 +92,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2023-05-02T00:01:09
 # Modified                 : 2023-06-02T02:01:10
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202305.csv')
 
@@ -107,7 +101,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2023-06-02T00:01:12
 # Modified                 : 2023-07-02T02:01:09
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202306.csv')
 
@@ -117,7 +110,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2023-07-02T00:01:11
 # Modified                 : 2023-08-02T02:01:09
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202307.csv')
 
@@ -127,7 +119,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2023-08-02T00:01:10
 # Modified                 : 2023-09-02T02:01:10
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202308.csv')
 
@@ -137,7 +128,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2023-09-02T00:01:12
 # Modified                 : 2023-10-02T02:01:09
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202309.csv')
 
@@ -147,7 +137,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2023-10-02T00:01:11
 # Modified                 : 2023-11-02T01:01:09
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202310.csv')
 
@@ -157,7 +146,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2023-11-02T00:01:11
 # Modified                 : 2023-12-02T01:01:09
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202311.csv')
 
@@ -167,7 +155,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2023-12-02T00:01:11
 # Modified                 : 2024-01-10T10:56:06
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202312.csv')
 
@@ -177,7 +164,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2024-01-02T00:01:09
 # Modified                 : 2024-02-02T01:01:08
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202401.csv')
 
@@ -187,7 +173,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2024-02-02T00:01:10
 # Modified                 : 2024-03-02T01:01:08
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202402.csv')
 
@@ -197,7 +182,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2024-03-02T00:01:11
 # Modified                 : 2024-04-02T02:01:10
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202403.csv')
 
@@ -206,8 +190,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Title                    : LoRa-Sensor-Messwerte 2024/04
 # Description              : None
 # Issued                   : 2024-04-02T00:01:12
-# Modified                 : 2024-04-02T00:01:12
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+# Modified                 : 2024-04-04T02:01:08
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202404.csv')
 
@@ -217,7 +200,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2022-08-25T10:57:07
 # Modified                 : 2022-08-25T10:57:07
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201904.csv')
 
@@ -227,7 +209,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2020-03-06T15:12:53
 # Modified                 : 2022-08-25T12:57:09
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201905.csv')
 
@@ -237,7 +218,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2020-03-06T15:12:25
 # Modified                 : 2022-08-25T12:57:11
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201906.csv')
 
@@ -247,7 +227,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2020-03-06T15:11:42
 # Modified                 : 2022-08-25T12:57:13
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201907.csv')
 
@@ -257,7 +236,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2020-03-06T15:11:10
 # Modified                 : 2022-08-25T12:57:14
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201908.csv')
 
@@ -267,7 +245,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2020-03-06T15:10:40
 # Modified                 : 2022-08-25T12:57:16
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201909.csv')
 
@@ -277,7 +254,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2020-03-06T15:09:09
 # Modified                 : 2022-08-25T12:57:18
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201910.csv')
 
@@ -287,7 +263,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2020-03-06T15:08:32
 # Modified                 : 2022-08-25T12:57:19
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201911.csv')
 
@@ -297,7 +272,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2020-03-06T15:07:58
 # Modified                 : 2022-08-25T12:57:21
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201912.csv')
 
@@ -307,7 +281,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2020-03-06T15:07:28
 # Modified                 : 2022-08-25T12:57:23
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202001.csv')
 
@@ -317,7 +290,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2020-03-06T15:06:31
 # Modified                 : 2022-08-25T12:57:24
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202002.csv')
 
@@ -327,7 +299,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2022-03-10T14:17:33
 # Modified                 : 2022-08-25T12:57:26
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202003.csv')
 
@@ -337,7 +308,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2020-04-09T08:02:28
 # Modified                 : 2022-08-25T12:57:28
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202004.csv')
 
@@ -347,7 +317,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2020-05-04T10:45:42
 # Modified                 : 2022-08-25T12:57:30
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202005.csv')
 
@@ -357,7 +326,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2020-06-02T15:01:23
 # Modified                 : 2022-08-25T12:57:31
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202006.csv')
 
@@ -367,7 +335,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2020-07-06T12:16:49
 # Modified                 : 2022-08-25T12:57:33
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202007.csv')
 
@@ -377,7 +344,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2020-08-03T16:33:40
 # Modified                 : 2022-08-25T12:57:35
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202008.csv')
 
@@ -387,7 +353,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2020-09-08T10:02:54
 # Modified                 : 2022-08-25T12:57:37
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202009.csv')
 
@@ -397,7 +362,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2020-10-05T15:27:41
 # Modified                 : 2022-08-25T12:57:39
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202010.csv')
 
@@ -407,7 +371,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2020-11-02T12:14:25
 # Modified                 : 2022-08-25T12:57:40
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202011.csv')
 
@@ -417,7 +380,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2021-01-11T16:26:34
 # Modified                 : 2022-08-25T12:57:42
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202012.csv')
 
@@ -427,7 +389,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2021-01-11T16:57:24
 # Modified                 : 2022-08-25T12:57:44
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202101.csv')
 
@@ -437,7 +398,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2021-02-01T08:39:41
 # Modified                 : 2022-08-25T12:57:46
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202102.csv')
 
@@ -447,7 +407,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2021-03-03T13:50:17
 # Modified                 : 2022-08-25T12:57:48
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202103.csv')
 
@@ -457,7 +416,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2021-04-07T09:25:47
 # Modified                 : 2022-08-25T12:57:50
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202104.csv')
 
@@ -467,7 +425,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2021-05-03T10:07:38
 # Modified                 : 2022-08-25T12:57:52
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202105.csv')
 
@@ -477,7 +434,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2021-06-04T08:41:28
 # Modified                 : 2022-08-25T12:57:53
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202106.csv')
 
@@ -487,7 +443,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2021-07-13T10:48:23
 # Modified                 : 2022-08-25T12:57:55
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202107.csv')
 
@@ -497,7 +452,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2021-08-19T08:35:14
 # Modified                 : 2022-08-25T12:57:57
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202108.csv')
 
@@ -507,7 +461,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2021-09-02T09:18:58
 # Modified                 : 2022-08-25T12:57:59
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202109.csv')
 
@@ -517,7 +470,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2021-10-04T09:36:12
 # Modified                 : 2022-08-25T12:58:00
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202110.csv')
 
@@ -527,7 +479,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2021-11-10T08:57:07
 # Modified                 : 2022-08-25T12:58:02
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202111.csv')
 
@@ -537,7 +488,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2022-01-14T13:08:43
 # Modified                 : 2022-08-25T12:58:04
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202112.csv')
 
@@ -547,7 +497,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2022-01-14T13:08:26
 # Modified                 : 2022-08-25T13:36:26
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202201.csv')
 
@@ -557,7 +506,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2022-02-16T14:28:32
 # Modified                 : 2022-08-25T13:36:27
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202202.csv')
 
@@ -567,7 +515,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2022-03-04T10:18:32
 # Modified                 : 2022-08-25T13:36:29
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202203.csv')
 
@@ -577,7 +524,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2022-04-02T00:00:59
 # Modified                 : 2022-08-25T13:36:31
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202204.csv')
 
@@ -587,7 +533,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2022-05-03T00:00:58
 # Modified                 : 2022-08-25T13:36:32
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202205.csv')
 
@@ -597,7 +542,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2022-06-02T00:01:01
 # Modified                 : 2022-08-25T13:36:34
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202206.csv')
 
@@ -607,7 +551,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2022-07-02T00:01:06
 # Modified                 : 2022-08-26T12:02:24
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202207.csv')
 
@@ -617,7 +560,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2022-08-02T00:01:01
 # Modified                 : 2022-09-02T02:01:00
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202208.csv')
 
@@ -627,7 +569,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2022-09-02T00:01:01
 # Modified                 : 2022-10-02T02:00:58
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202209.csv')
 
@@ -637,7 +578,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2022-10-02T00:00:59
 # Modified                 : 2022-11-02T01:00:57
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202210.csv')
 
@@ -647,7 +587,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Description              : None
 # Issued                   : 2022-11-02T00:00:58
 # Modified                 : 2022-12-02T01:00:57
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202211.csv')
 

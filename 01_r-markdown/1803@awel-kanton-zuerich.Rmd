@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Der Datensatz zeigt die Gesamtmenge der Siedlungsabfälle aus Haushalten und Betrieben, die bei der kommunalen Sammlung gesammelt wurden. Direkte Anlieferungen an Kehrichtverbrennungsanlagen und private Entsorgungslösungen, die nicht den kommunalen Weg nutzen, sind nicht enthalten. Die Siedlungsabfälle werden unterteilt in die Abfallarten Kehricht (einschliesslich Sperrgut), zum Recycling bestimmte Abfälle wie Altglas, Papier und Karton, Kunststoffe, Metalle, Altöl, biogene Abfälle sowie Textilien. Zudem werden mineralische Abfälle (Grubengut) erfasst. Seit 2007 werden auch Strassenabfälle aus Strassenwischern und Strassensammlerschlämme erfasst. Werte unter 500 kg werden auf 0 Tonnen abgerundet. Einige Gemeinden stellen nicht für alle Abfallarten Daten zur Verfügung, insbesondere für Kunststoffe und Textilien. Einträge mit (‘NA’) bedeuten, dass diese Abfallart in der Gemeinde nicht gesammelt wird oder keine Mengenangabe erfolgte.
 # Issued                   : 2022-11-07T13:23:18
 # Modified                 : 2023-08-21T16:36:50
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001803_00003460.csv')
 
@@ -56,7 +55,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Die Abfallgebühren sind in CHF inkl. MWST angegeben und werden als Abfallgrundgebühr (‘Grundgebuehr’) und Preis pro 35-Liter-Gebührensack (‘35-L-Sack’) ausgewiesen. Die Gebühren gelten für Privathaushalte. Die ‘Grundgebuehr’ gilt pro Kalenderjahr und wird zur Vergleichbarkeit von den Gemeinden auf eine Gebühr für eine 4-Zimmer-Wohnung umgerechnet. Es gibt Ausnahmen, bei denen eine solche Umrechnung nicht vorgenommen wird. Diese Fälle werden mit ‘0’ erfasst. Ebenso mit ‘0’ erfasst sind Gemeinden, wo keine Grundgebühr erhoben wird.
 # Issued                   : 2022-11-07T13:23:18
 # Modified                 : 2024-02-26T11:56:23
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001803_00003461.csv')
 

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 2282@ima-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2024-03-01T13:19:39`
-- **Modified** `2024-03-01T15:10:03`
-- **Startdate** `2021-07-20`
-- **Enddate** `2024-01-01`
+- **Modified** `2024-04-02T14:15:44`
+- **Startdate** `2021-10-01`
+- **Enddate** `2024-03-31`
 - **Theme** `['Energie', 'Mobilität und Verkehr', 'Öffentliche Verwaltung und Finanzen']`
 - **Keyword** `['elektrizitaet', 'fahrzeuge', 'kanton_zuerich', 'ogd']`
 - **Publisher** `['Immobilienamt des Kantons Zürich']`
@@ -45,8 +45,7 @@ library(skimr)
 # Title                    : Ladevorgänge der kantonalen e-Ladestationen
 # Description              : None
 # Issued                   : 2024-03-01T13:19:39
-# Modified                 : 2024-03-01T15:10:03
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
+# Modified                 : 2024-04-02T14:11:18
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002282_00004563.csv')
 

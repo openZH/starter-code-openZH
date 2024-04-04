@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
 # Modified                 : 2024-01-08T08:35:49
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004793.csv')
 
@@ -56,7 +55,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
 # Modified                 : 2024-01-08T08:45:19
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004794.csv')
 
@@ -66,7 +64,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
 # Modified                 : 2024-01-08T08:51:29
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004795.csv')
 
@@ -76,7 +73,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
 # Modified                 : 2024-01-08T08:57:42
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004796.csv')
 
@@ -86,7 +82,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
 # Modified                 : 2024-01-08T09:03:46
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004797.csv')
 
@@ -96,7 +91,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
 # Modified                 : 2024-01-08T09:08:20
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004798.csv')
 
@@ -106,7 +100,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
 # Modified                 : 2024-01-08T09:15:03
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004799.csv')
 
@@ -116,7 +109,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
 # Modified                 : 2024-01-08T09:21:25
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004800.csv')
 
@@ -126,7 +118,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
 # Modified                 : 2024-01-08T09:27:36
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004801.csv')
 
@@ -136,7 +127,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
 # Modified                 : 2024-01-08T12:05:51
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004802.csv')
 
@@ -146,7 +136,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
 # Modified                 : 2024-01-08T12:14:03
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004803.csv')
 
@@ -156,7 +145,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
 # Modified                 : 2024-01-08T12:24:12
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004804.csv')
 
@@ -166,7 +154,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
 # Modified                 : 2024-01-08T12:34:59
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004805.csv')
 
@@ -176,7 +163,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
 # Modified                 : 2024-01-08T12:46:47
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004806.csv')
 
@@ -186,7 +172,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
 # Modified                 : 2024-01-08T12:59:00
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004807.csv')
 
@@ -196,7 +181,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
 # Modified                 : 2024-01-08T13:11:02
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004808.csv')
 
@@ -206,7 +190,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
 # Modified                 : 2024-01-08T13:25:20
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004809.csv')
 
@@ -216,7 +199,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
 # Modified                 : 2024-01-08T13:39:33
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004810.csv')
 
@@ -226,7 +208,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
 # Modified                 : 2024-01-08T13:53:10
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004811.csv')
 
@@ -236,7 +217,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
 # Modified                 : 2024-01-08T14:08:24
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004812.csv')
 
@@ -246,7 +226,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-09T09:11:55
 # Modified                 : 2024-01-08T14:20:28
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004813.csv')
 

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -50,7 +50,6 @@ library(skimr)
 # Description              : Die Daten sind differenziert nach Jahr, Stufe, Typ, Profil, Geschlecht, Finanzierung und Staatsangehörigkeit. Jahr: Das Jahr ist jeweils das Kalenderjahr der Erhebung, wobei der Stichtag der 15.9. ist. Die Daten für das Jahr 2022 sind somit im Schuljahr 2022/23 erhoben worden und zeigen den Datenstand am 15. September 2022. Stufe: Die Lernenden der Mittelstufe sind zum Teil auf der Sekundarstufe I und zum Teil auf der Sekundarstufe II. Die Sekundarstufe II beginnt nach dem Ende der obligatorischen Schulzeit. Mittelschultyp: Beim Typ der Mittelschule wird zwischen Gymnasium, Handelsmittelschule, Fachmittelschule und Informatikmittelschule unterschieden. In der Restkategorie "andere" sind enthalten: Passerelle und allgemeinbildende Privatschule mit eigenem Programm. Bildungsart: Bei den Gymnasien vor 2011: Profil, danach Schwerpunktfach. Bei den Fachmittelschulen: Profil und ab 2015 Fachmaturität. Finanzierung: Es wird zwischen öffentlich finanzierten Bildungsinstitutionen (oeff) und privat finanzierten Bildungsinstitutionen (priv) unterscheidet. Staatsangehoerigkeit: Es wird pro Person nur eine Staatsangehörigkeit erhoben. Falls eine Person mehrere Staatsangehörigkeiten hat, und eine davon ist die Schweizerische, so wird diese prioritär erfasst. Bei anderen mehrfachen Staatsangehörigkeiten wir keine Vorgabe zur Priorisierung gemacht. In dieser Auswertung  wird nur zwischen Schweiz und Ausland unterschieden. Anzahl: Anzahl der Schülerinnen und Schüler mit der entsprechenden Merkmalskombination.
 # Issued                   : 2019-11-24T15:52:46
 # Modified                 : 2023-09-01T15:48:54
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/bista/ZH_Lernende_Mittelschulen.csv')
 

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Variablen: 'Betriebe' = Anzahl Betriebe nach Branche (NOGA-Code); 'Beschaeftigte' = Anzahl Beschäftigte nach Branche (NOGA-Code); 'VZAE' = Anzahl Vollzeitäquivalente nach Branche (NOGA-Code).
 # Issued                   : 2022-09-20T17:22:40
 # Modified                 : 2022-09-20T17:22:40
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001522_00002900.csv')
 

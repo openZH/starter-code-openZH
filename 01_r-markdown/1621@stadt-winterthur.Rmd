@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -43,10 +43,9 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 3063
 # Title                    : Beschäftigtendichte Stadt Winterthur ab 1995
-# Description              : Variablen: 'Jahr'; 'Beschaeftigte' = Beschäftigte in der Stadt Winterthur; 'Einwohner' = Einwohner_innen in der Stadt Winterthur; 'Beschaeftigtendichte' = Anzahl Beschäftigte geteilt durch Anzahl Einwohner_innen.
+# Description              : Variablen: 'jahr'; 'beschaeftigte' = Beschäftigte in der Stadt Winterthur; 'einwohner' = Einwohner/innen in der Stadt Winterthur; 'beschaeftigtendichte' = Anzahl Beschäftigte geteilt durch Anzahl Einwohner/innen.
 # Issued                   : 2022-09-20T17:10:34
-# Modified                 : 2022-10-06T15:05:50
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
+# Modified                 : 2024-04-03T14:56:32
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001621_00003063.csv')
 

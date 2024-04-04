@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Variabeln: 'Code_P' = Primarstufe, 'Name_P' = Name der Primarschulgemeinde, 'Personal_P' = Name der Kontaktperson für das Thema 'Personal', 'Lohn_P' = Name der Kontaktperson für das Thema 'Lohn', 'Beratung_P' = Name der Kontaktperson für das Thema 'Beratung', 'Sonderpädagogik_P' = Name der Kontaktperson für das Thema 'Sonderpädagogik', 'Code_O' = Oberstufe, 'Name_O' = Name der Oberstufenschulgemeinde, 'Personal_O' = Name der Kontaktperson für das Thema 'Personal', 'Lohn_O' = Name der Kontaktperson für das Thema 'Lohn', 'Beratung_O' = Name der Kontaktperson für das Thema 'Beratung', 'Sonderpädagogik_O' = Name der Kontaktperson für das Thema 'Sonderpädagogik'
 # Issued                   : 2021-09-06T12:58:32
 # Modified                 : 2021-09-20T15:55:28
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://raw.githubusercontent.com/statistikZH/Visualisierung_VSAKarte/main/Data/VSA_Kantonskarte.csv')
 

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Länder mit weniger als 10 Einreisenden pro Kalenderwoche (KW) werden in der Kategorie 'andere' zusammengefasst. In den KW 52, 53 und 1/2021 ist teils alleine die Kategorie 'andere' vorhanden, in der die Einreisenden aus *allen* Ländern insgesamt zusammengefasst sind. Grund: Vom 22.12.2020 bis zum 05.01.2021 konnten die Einreisenden das Land nicht eingeben, aus dem sie einreisten.
 # Issued                   : 2020-09-15T18:16:33
 # Modified                 : 2021-07-05T14:34:16
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_zh/COVID19_Einreisequarantaene_pro_KW.csv')
 

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Altersstruktur der Stadt Winterthur ab 2014. Variablen: 'Jahr'; 'Altersklasse' = 5-Jahres-Altersklassen. Personen älter als 95 sind in der Klasse "95+" zusammengefasst; 'Anzahl' = Anzahl Personen pro Klasse.
 # Issued                   : 2022-09-20T16:50:48
 # Modified                 : 2023-10-11T15:20:30
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001381_00003062.csv')
 

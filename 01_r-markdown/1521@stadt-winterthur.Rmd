@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Variablen: 'AK' = 5-Jahres-Altersklassen; 'TotalMann' = Gesamtzahl Männer; 'TotalFrau' = Gesamtzahl Frauen; 'SchweizMann' = Anzahl männliche Schweizer Staatsbürger; 'SchweizFrau' = Anzahl weibliche Schweizer Staatsbürger; 'AuslandMann' = Anzahl männliche Ausländer; 'AuslandFrau' = Anzahl weibliche Ausländerinnen.
 # Issued                   : 2022-09-20T16:55:57
 # Modified                 : 2023-04-19T13:31:32
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001521_00002899.csv')
 

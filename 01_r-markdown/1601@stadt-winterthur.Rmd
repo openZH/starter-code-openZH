@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Variablen: 'jahr' = Stand per Ende Jahr; 'bestand' = Gesamtanzahl Wohnungen; 'neubau' = Neu gebaute Wohnungen im entsprechenden Jahr; 'abbruch' = Abgebrochene Wohnungen im entsprechenden Jahr.
 # Issued                   : 2022-09-20T17:24:49
 # Modified                 : 2024-03-28T14:45:25
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001601_00003061.csv')
 

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Variabeln: 'date' = Tag der Entnahme der Probe; 'id' = Identifikator des Orts; 'location' = Ausgeschriebener Name des Orts; 'quality' = Bewertungsstufen der Badewasserqualität; 'remark' = Optionale Anmerkungen zur Probe; 'source' = Organisation, welche die Probe durchführt; 'lat' = Breitengrad des Orts; 'long' = Längengrad des Orts; 'image' = Bild des Orts (wird nicht regelmässig aktualisiert; URL).
 # Issued                   : 2022-10-17T16:13:37
 # Modified                 : 2024-02-21T09:04:49
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000729_00003341.csv')
 

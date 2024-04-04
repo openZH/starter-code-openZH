@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Im Kanton Zürich eingebautes Deponiematerial, ausgewertet nach Deponietypen. Daten aus Jahresberichten der Deponien.
 # Issued                   : 2023-11-30T15:43:19
 # Modified                 : 2023-11-30T15:43:19
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002442_00004883.csv')
 
@@ -56,7 +55,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Abgelagertes Deponiematerial, aufgeteilt in drei Kategorien: 1. im Kanton Zürich abgelagert, 2. aus anderen Kantonen/Ausland importiert und im Kanton abgelagert, 3. in andere Kantone/Ausland exportiert und abgelagert. Daten vom E-Government Portals des BAFU.
 # Issued                   : 2023-11-30T15:43:19
 # Modified                 : 2023-11-30T15:43:19
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002442_00004884.csv')
 
@@ -66,7 +64,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Description              : Verfügbares, bewilligtes Restvolumen im Verhältnis zum jährlichen Einbauvolumen der Zürcher Deponien. Daten aus Jahresberichten der Deponien.
 # Issued                   : 2023-11-30T15:43:19
 # Modified                 : 2023-11-30T15:43:19
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002442_00004885.csv')
 

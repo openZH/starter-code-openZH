@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -46,7 +46,6 @@ library(skimr)
 # Description              : Kategorien von Konzentrationsbereichen pro Analyt zur Qualitätsbewertung. Variablen: 'analyt' = spezifische Bezeichnung des Indikators (z. B. Chlorothalonil "R471811"); 'kategorie' = Konzentrationsbereich von Messwerten; 'kategorie_sortierung' = Sortierung nach aufsteigender Konzentration; 'farbcode' = hexadezimaler Farbcode, der die Einfärbung der Kategorie in der Visualisierung des Kantonalen Labors bestimmt (siehe 'Trinkwasser' unter "Weitere Informationen"); 'start_datum' = Beginn der Gültigkeit des Konzentrationsbereichs; 'end_datum' = Ende der Gültigkeit des Konzentrationsbereichs; 'bemerkung' = Hinweise zum Grund der Änderung des Konzentrationsbereichs.
 # Issued                   : 2023-03-24T10:10:26
 # Modified                 : 2023-03-24T10:10:26
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/gesundheitsdirektion-kanton-zuerich/kl/twq-data/Konzentrationsbereiche.csv')
 
@@ -56,7 +55,6 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/gesundheitsdirektion-
 # Description              : NA
 # Issued                   : 2023-03-24T10:10:26
 # Modified                 : 2024-03-29T11:25:05
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/gesundheitsdirektion-kanton-zuerich/kl/twq-data/Trinkwasserqualitaetsexport.csv')
 

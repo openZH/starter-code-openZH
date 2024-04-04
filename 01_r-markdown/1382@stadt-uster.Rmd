@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -48,7 +48,6 @@ library(skimr)
 # Description              : Antworten der Jugendbefragung 2021; Teilnehmende sind nach 'Alter', 'Geschlecht' und 'Schulstufe' kategorisiert.
 # Issued                   : 2022-05-15T16:00:33
 # Modified                 : 2022-05-15T16:00:33
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://raw.githubusercontent.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/main/opendata_jugendbefragung.csv')
 
@@ -58,7 +57,6 @@ df <- read_delim('https://raw.githubusercontent.com/GesellschaftStadtUster/kind-
 # Description              : Fragen der Jugendbefragung 2021.
 # Issued                   : 2022-05-15T16:00:18
 # Modified                 : 2022-05-15T16:00:18
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://raw.githubusercontent.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/main/variablen_fragen.csv')
 

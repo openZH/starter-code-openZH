@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-02"
+date: "2024-04-04"
 output: html_document
 ---
 
@@ -48,7 +48,6 @@ library(skimr)
 # Description              : Die Daten sind differenziert nach Jahr, Stufe, Schultyp, Geschlecht, Staatsangehörigkeit, Trägerschaft und Finanzierung. Jahr: Das Jahr ist jeweils das Kalenderjahr der Erhebung, wobei der Stichtag der 15.9. ist. Die Daten für das Jahr 2022 sind somit im Schuljahr 2022/23 erhoben worden und zeigen den Datenstand am 15. September 2022. Stufe: Die Lernenden sind differenziert nach Primarstufe 1-2 (Kindergarten), Primarstufe 3-8 (Primarschule), Sekundarstufe I, Sekundarstufe II und Tertiärstufe. Lernende der Hochschulen sind in den Daten nicht enthalten. Schultyp: Die zur Verfügung stehenden Schultypen unterscheiden sich je nach Stufe. Es gibt insgesamt die Schultypen Volksschule, Heim- und Sonderschule, Mittelschule, Brückenangebote, Berufsfachschulen und Höhere Berufsbildung. Staatsangehoerigkeit: Es wird pro Person nur eine Staatsangehörigkeit erhoben. Falls eine Person mehrere Staatsangehörigkeiten hat, und eine davon ist die Schweizerische, so wird diese prioritär erfasst. Bei anderen mehrfachen Staatsangehörigkeiten wir keine Vorgabe zur Priorisierung gemacht. In dieser Auswertung  wird nur zwischen Schweiz und Ausland unterschieden. Traegerschaft: Es wird zwischen öffentlicher (oeff) und privater Trägerschaft (priv) unterschieden. Finanzierung: Es wird zwischen öffentlich finanzierten Bildungsinstitutionen (oeff) und privat finanzierten Bildungsinstitutionen (priv) unterschieden. Es gibt Schulen, die ein private Trägerschaft haben und öffentlich finanziert sind. Anzahl: Anzahl der Schülerinnen und Schüler mit der entsprechenden Merkmalskombination.
 # Issued                   : 2019-11-21T18:13:16
 # Modified                 : 2023-09-01T15:48:56
-# Rights                   : NonCommercialAllowed-CommercialAllowed-ReferenceRequired
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/bista/ZH_Uebersicht_alle_Lernende.csv')
 
