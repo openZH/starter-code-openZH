@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-04"
+date: "2024-04-05"
 output: html_document
 ---
 
 ## Dataset: Messdaten zu Ammoniak-Messungen im Robenhuserriet im Zeitraum 2021 - 2022
 
-Der vorliegende Datensatz ist das Ergebnis eines Messprojektes von OSTLUFT - der Luftqualitätsüberwachung der Ostschweizer Kantone und des Fürstentums Liechtenstein, durchgeführt durch das Amt für Abfall, Wasser, Energie und Luft (AWEL) des Kantons Zürich. Im Rahmen des Messprojektes wurden in den Jahren 2021 und 2022 an einem Standort  zeitlich hochaufgelöste Messdaten zu Ammoniak Konzentrationen im Naturschutzgebiet Robenhuserriet am Pfäffikersee bei Wetzikon (Kanton Zürich) erhoben. Parallel zu den Ammoniak-Messungen mittels miniDOAS sowie meteorologischen Messgrössen im 10-Minutenmittel wurde die Ammoniakbelastung an sieben Standorten im Naturschutzgebiet mit Passivsammlern erfasst. Mit diesen Daten lassen sich typische räumliche und zeitliche Belastungsmuster durch Ammoniak im Naturschutzgebiet beschreiben, um die massgeblichen Eintragspfade von Ammoniak-gebundenem reaktivem Stickstoff in das empfindliche Ökosystem aufzuzeigen. Weitere Informationen sind der abgelegten Datensatz-Beschreibung und dem verlinkten Fachbericht von OSTLUFT zu entnehmen.
+Der vorliegende Datensatz ist das Ergebnis eines Messprojektes von OSTLUFT - der Luftqualitätsüberwachung der Ostschweizer Kantone und des Fürstentums Liechtenstein, durchgeführt durch das Amt für Abfall, Wasser, Energie und Luft (AWEL) des Kantons Zürich. Im Rahmen des Messprojektes wurden in den Jahren 2021 und 2022 an einem Standort zeitlich hochaufgelöste Messdaten zu Ammoniak Konzentrationen im Naturschutzgebiet Robenhuserriet am Pfäffikersee bei Wetzikon (Kanton Zürich) erhoben. Parallel zu den Ammoniak-Messungen mittels miniDOAS sowie meteorologischen Messgrössen im 10-Minutenmittel wurde die Ammoniakbelastung an sieben Standorten im Naturschutzgebiet mit Passivsammlern erfasst. Mit diesen Daten lassen sich typische räumliche und zeitliche Belastungsmuster durch Ammoniak im Naturschutzgebiet beschreiben, um die massgeblichen Eintragspfade von Ammoniak-gebundenem reaktivem Stickstoff in das empfindliche Ökosystem aufzuzeigen. Weitere Informationen sind der abgelegten Datensatz-Beschreibung und dem verlinkten Fachbericht von OSTLUFT zu entnehmen.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2384@awel-kanton-zuerich)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 2384@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2024-02-14T09:50:28`
-- **Modified** `2024-02-22T09:30:55`
+- **Modified** `2024-04-04T17:47:04`
 - **Startdate** `2021-02-18`
 - **Enddate** `2023-02-15`
 - **Theme** `['Raum, Umwelt']`

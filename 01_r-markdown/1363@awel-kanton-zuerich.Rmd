@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-04"
+date: "2024-04-05"
 output: html_document
 ---
 
 ## Dataset: Luftschadstoffemissionen im Kanton Zürich
 
-Emissionen der wichtigsten Luftschadstoffe (BC, CO, NH3, NMVOC, NOx, PM10, PM2.5, SO2) im Kanton Zürich. Die Emissionsbilanzierung liegt bis auf Stufe Gemeinde und für verschiedene Zeitstände vor.  Die Emissionsdaten der Stickoxide (NOx), Feinstaub (PM10 und PM2.5) sowie Russ (BC) wurden im Rahmen einer schweizweiten Aktualisierung der Karten für Luftschadstoffimmissionen Schweiz und Liechtenstein 2015, 2020, 2030 in Hektarrasterauflösung bilanziert. Die Datengrundlagen für die Emissionen bildet das Emissionsinformations-System Schweiz (EMIS) – die Datenbank des Bundesamts für Umwelt BAFU mit den nationalen Luftschadstoff- und Treibhausgasemissionen - zum Zeitpunkt Mitte 2019. In einer Ergänzungsstudie im Auftrag des BAFU wurden für dieselben Emittentengruppen anschliessend auch Emissionskataster in Hektarrasterauflösung für weitere Luftschadstoffe und Treibhausgase erstellt. Im Anschluss an die genannten Arbeiten hat die 'Luftqualitätsüberwachung der Ostschweizer Kantone und des Fürstentums Liechtenstein' (OSTLUFT) die Arbeitsgemeinschaft INFRAS/Meteotest damit beauftragt, die Emissionen aller genannten Substanzen auf Stufe Gemeinden des OSTLUFT-Gebiets zu aggregieren und die Daten in geeigneter Form aufzubereiten mit dem Ziel, für die OSTLUFT-Gemeinden eine mit dem schweizerischen Emissionskataster konsistente Datengrundlage zur Verfügung zu haben. Eine Aktualisierung der Daten wurde mit gleicher Methodik aber basierend auf den Datengrundlagen aus dem Emissionsinformations-System Schweiz (EMIS) zum Zeitpunkt Mitte 2023 durchgeführt. Hinweis: Die Städte Winterthur und Zürich verfügen über eigenen Bilanzierungen der Luftschadstoffe auf ihrem Gebiet. Detailliertere Angaben dazu sind unter "weitere Informationen" verlinkt. 
+Emissionen der wichtigsten Luftschadstoffe (BC, CO, NH3, NMVOC, NOx, PM10, PM2.5, SO2) im Kanton Zürich. Die Emissionsbilanzierung liegt bis auf Stufe Gemeinde und für verschiedene Zeitstände vor. Die Emissionsdaten der Stickoxide (NOx), Feinstaub (PM10 und PM2.5) sowie Russ (BC) wurden im Rahmen einer schweizweiten Aktualisierung der Karten für Luftschadstoffimmissionen Schweiz und Liechtenstein 2015, 2020, 2030 in Hektarrasterauflösung bilanziert. Die Datengrundlagen für die Emissionen bildet das Emissionsinformations-System Schweiz (EMIS) – die Datenbank des Bundesamts für Umwelt BAFU mit den nationalen Luftschadstoff- und Treibhausgasemissionen - zum Zeitpunkt Mitte 2019. In einer Ergänzungsstudie im Auftrag des BAFU wurden für dieselben Emittentengruppen anschliessend auch Emissionskataster in Hektarrasterauflösung für weitere Luftschadstoffe und Treibhausgase erstellt. Im Anschluss an die genannten Arbeiten hat die 'Luftqualitätsüberwachung der Ostschweizer Kantone und des Fürstentums Liechtenstein' (OSTLUFT) die Arbeitsgemeinschaft INFRAS/Meteotest damit beauftragt, die Emissionen aller genannten Substanzen auf Stufe Gemeinden des OSTLUFT-Gebiets zu aggregieren und die Daten in geeigneter Form aufzubereiten mit dem Ziel, für die OSTLUFT-Gemeinden eine mit dem schweizerischen Emissionskataster konsistente Datengrundlage zur Verfügung zu haben. Eine Aktualisierung der Daten wurde mit gleicher Methodik aber basierend auf den Datengrundlagen aus dem Emissionsinformations-System Schweiz (EMIS) zum Zeitpunkt Mitte 2023 durchgeführt. Hinweis: Die Städte Winterthur und Zürich verfügen über eigenen Bilanzierungen der Luftschadstoffe auf ihrem Gebiet. Detailliertere Angaben dazu sind unter "weitere Informationen" verlinkt. 
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1363@awel-kanton-zuerich)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 1363@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2022-07-07T09:10:11`
-- **Modified** `2024-03-25T15:21:53`
+- **Modified** `2024-04-04T17:46:19`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['Gesundheit', 'Raum, Umwelt']`

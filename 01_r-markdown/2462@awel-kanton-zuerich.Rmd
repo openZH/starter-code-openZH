@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-04"
+date: "2024-04-05"
 output: html_document
 ---
 
 ## Dataset: Kurzzeitmessungen nichtionisierende Strahlung im Kanton Zürich
 
-Das AWEL führt seit 2011 vorallem auf Pausenplätzen von Schulen systematische halbstündige Messungen der hochfrequenten nichtionisierenden Strahlung (HF-NIS) durch. Ziel ist einen Überblick über die Exposition der Bevölkerung an unterschiedlichen Orten im Kanton Zürich mit Funkstrahlung zu erhalten. Dieser Datensatz enthält die Rohdaten sowie aufbereitete Messwerte daraus. Neben der Strahlung von Mobilfunkanlagen und mobilen Kommunikationsgeräten wird auch diejenige von Radio- und Fernsehsendern sowie WLAN-Netzen aufgezeichnet. Alle zwei Jahre werden auf 10-15 noch nie besuchten Plätzen Messungen durchgeführt. In den dazwischen liegenden Jahren werden auf 17 bereits früher besuchten Plätzen Wiederholungsmessungen durchführt. Letztere ermöglichen Aussagen über die zeitliche Entwicklung der Expositionen, die sich vor allem wegen des Ausbaus und der technischen Weiterentwicklung der Funknetze ändern.  
+Das AWEL führt seit 2011 vorallem auf Pausenplätzen von Schulen systematische halbstündige Messungen der hochfrequenten nichtionisierenden Strahlung (HF-NIS) durch. Ziel ist einen Überblick über die Exposition der Bevölkerung an unterschiedlichen Orten im Kanton Zürich mit Funkstrahlung zu erhalten. Dieser Datensatz enthält die Rohdaten sowie aufbereitete Messwerte daraus. Neben der Strahlung von Mobilfunkanlagen und mobilen Kommunikationsgeräten wird auch diejenige von Radio- und Fernsehsendern sowie WLAN-Netzen aufgezeichnet. Alle zwei Jahre werden auf 10-15 noch nie besuchten Plätzen Messungen durchgeführt. In den dazwischen liegenden Jahren werden auf 17 bereits früher besuchten Plätzen Wiederholungsmessungen durchführt. Letztere ermöglichen Aussagen über die zeitliche Entwicklung der Expositionen, die sich vor allem wegen des Ausbaus und der technischen Weiterentwicklung der Funknetze ändern.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2462@awel-kanton-zuerich)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 2462@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2024-03-13T15:26:55`
-- **Modified** `2024-03-13T15:26:55`
+- **Modified** `2024-04-04T17:45:40`
 - **Startdate** `2011-01-01`
 - **Enddate** `2023-12-31`
 - **Theme** `['Gesundheit', 'Raum, Umwelt']`

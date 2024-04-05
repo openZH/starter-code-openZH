@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-04"
+date: "2024-04-05"
 output: html_document
 ---
 
 ## Dataset: Gebäude und Wohnungen im Kanton Zürich
 
-Gebäude und Wohnungen im Kanton Zürich gemäss eidgenössischem Gebäude- und Wohnungsregister (eidg. GWR). Es verzeichnet die Gebäude und jede Wohnung im Kanton umfassend  in Merkmalen gemäss Merkmalsbeschreibung (siehe Link). Die Ressourcen lassen sich über die EGID verknüpfen. Das eidg. GWR wird durch die Gemeinden des Kantons Zürich geführt, die kantonale Koordinationsstelle GWR-ZH begleitet und berät sie dabei. Die Koordinationsstelle GWR-ZH stellt die Daten alle 3 Monate zur Verfügung und werden zum Stichtag vollständig ersetzt. Ein Zeitverlauf ist in den Daten nicht ersichtlich. Datenquelle bildet das eidg. GWR des Bundesamts für Statistik (BFS). Die Daten bilden den Stand des eidg. GWR ab, wie er durch die Gemeinden erfasst wird. Abweichungen vom tatsächlichen Zustand der Gebäude und Wohnungen sind möglich und im Bereich Energiequellen (Solaranlagen) sowie Wärmequellen (Heizungen) wahrscheinlich. Hinweise auf Abweichungen senden Sie bitte direkt an die Gemeinde, auf deren Boden sich das Objekt befindet, respektive an Statistik Stadt Zürich für Daten auf dem Stadtgebiet Zürich.
+Gebäude und Wohnungen im Kanton Zürich gemäss eidgenössischem Gebäude- und Wohnungsregister (eidg. GWR). Es verzeichnet die Gebäude und jede Wohnung im Kanton umfassend in Merkmalen gemäss Merkmalsbeschreibung (siehe Link). Die Ressourcen lassen sich über die EGID verknüpfen. Das eidg. GWR wird durch die Gemeinden des Kantons Zürich geführt, die kantonale Koordinationsstelle GWR-ZH begleitet und berät sie dabei. Die Koordinationsstelle GWR-ZH stellt die Daten alle 3 Monate zur Verfügung und werden zum Stichtag vollständig ersetzt. Ein Zeitverlauf ist in den Daten nicht ersichtlich. Datenquelle bildet das eidg. GWR des Bundesamts für Statistik (BFS). Die Daten bilden den Stand des eidg. GWR ab, wie er durch die Gemeinden erfasst wird. Abweichungen vom tatsächlichen Zustand der Gebäude und Wohnungen sind möglich und im Bereich Energiequellen (Solaranlagen) sowie Wärmequellen (Heizungen) wahrscheinlich. Hinweise auf Abweichungen senden Sie bitte direkt an die Gemeinde, auf deren Boden sich das Objekt befindet, respektive an Statistik Stadt Zürich für Daten auf dem Stadtgebiet Zürich.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2022@fachstelle-ogd-kanton-zuerich)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 2022@fachstelle-ogd-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2023-04-24T09:55:58`
-- **Modified** `2024-03-01T15:12:31`
+- **Modified** `2024-04-04T17:43:41`
 - **Startdate** `2023-12-31`
 - **Enddate** `2023-12-31`
 - **Theme** `['Bau- und Wohnungswesen']`

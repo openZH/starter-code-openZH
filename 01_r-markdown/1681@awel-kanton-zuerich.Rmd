@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-04"
+date: "2024-04-05"
 output: html_document
 ---
 
@@ -15,10 +15,10 @@ Auto generated R starter code for data set 1681@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2022-08-25T09:41:42`
-- **Modified** `2024-01-30T14:25:56`
+- **Modified** `2024-04-04T18:01:47`
 - **Startdate** `2010-01-01`
 - **Enddate** `2022-12-31`
-- **Theme** `['Energie', None]`
+- **Theme** `['Energie']`
 - **Keyword** `['abfall', 'elektrizitaet', 'elektrizitaetsproduktion', 'energie', 'energieproduktion', 'energietraeger', 'erneuerbare_energien', 'holz', 'kehricht', 'luft', 'seen', 'sonnenenergie', 'sonnenkollektor', 'strom', 'waermepumpen', 'wasser', 'wasserkraft', 'windenergie', 'grundwasser', 'energieressourcen', 'biomasse', 'geothermie', 'abwasser', 'waerme', 'photovoltaik', 'wind', 'windkraft', 'sonne', 'ogd']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
 - **Landingpage** `None`

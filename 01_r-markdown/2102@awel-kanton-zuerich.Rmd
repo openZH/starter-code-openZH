@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-04"
+date: "2024-04-05"
 output: html_document
 ---
 
@@ -17,10 +17,10 @@ Auto generated R starter code for data set 2102@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2023-07-12T11:06:29`
-- **Modified** `2024-03-20T16:31:06`
+- **Modified** `2024-04-04T18:02:37`
 - **Startdate** `2015-01-01`
 - **Enddate** `2022-12-31`
-- **Theme** `['Mobilität und Verkehr', 'Raum, Umwelt', None]`
+- **Theme** `['Mobilität und Verkehr', 'Raum, Umwelt']`
 - **Keyword** `['fahrzeuge', 'klima', 'motorfahrzeugbestand', 'umwelt', 'emissionen', 'ogd']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
 - **Landingpage** `None`

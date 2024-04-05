@@ -1,10 +1,10 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-04"
+date: "2024-04-05"
 output: html_document
 ---
 
-## Dataset: Neuzulassungen  Elektromotor [%]
+## Dataset: Neuzulassungen Elektromotor [%]
 
 Anteil der Personenwagen (PW) mit Elektromotor an allen Personenwagen, die zwischen dem 1. Oktober des Vorjahrs und dem 30. September erstmals in Verkehr gesetzt wurden. Hinweis: Der Wert für den ganzen Kanton umfasst alle Autos mit einem Zürcher Kennzeichen; diese können auch Personen oder Unternehmen gehören, die ihr Domizil nicht im Kanton Zürich haben.
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 688@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2020-05-25T00:00:00`
-- **Modified** `2023-10-24T08:20:41`
+- **Modified** `2024-04-04T17:19:50`
 - **Startdate** `2002-12-31`
 - **Enddate** `2023-12-31`
 - **Theme** `['Mobilität und Verkehr']`

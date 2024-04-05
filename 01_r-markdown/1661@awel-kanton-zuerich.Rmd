@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-04"
+date: "2024-04-05"
 output: html_document
 ---
 
@@ -15,10 +15,10 @@ Auto generated R starter code for data set 1661@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2022-08-25T09:41:16`
-- **Modified** `2024-01-30T14:26:30`
+- **Modified** `2024-04-04T18:02:15`
 - **Startdate** `2010-01-01`
 - **Enddate** `2022-12-31`
-- **Theme** `['Energie', 'Mobilität und Verkehr', 'Raum, Umwelt', None]`
+- **Theme** `['Energie', 'Mobilität und Verkehr', 'Raum, Umwelt']`
 - **Keyword** `['elektrizitaet', 'energie', 'strom', 'stromverbrauch', 'treibstoffverbrauch', 'waerme', 'energieverbrauch', 'waermeverbrauch', 'treibstoff', 'ogd']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
 - **Landingpage** `None`

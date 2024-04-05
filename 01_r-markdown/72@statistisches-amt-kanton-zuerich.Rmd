@@ -1,10 +1,10 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-04"
+date: "2024-04-05"
 output: html_document
 ---
 
-## Dataset: Bauzonen überbaut  [%]
+## Dataset: Bauzonen überbaut [%]
 
 Anteil überbaute Bauzonenfläche gemessen an der gesamten Bauzonenfläche
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 72@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2024-03-04T13:58:38`
+- **Modified** `2024-04-04T17:23:58`
 - **Startdate** `1996-12-31`
 - **Enddate** `2022-12-31`
 - **Theme** `['Bau- und Wohnungswesen']`

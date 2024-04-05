@@ -1,13 +1,13 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-04"
+date: "2024-04-05"
 output: html_document
 ---
 
 ## Dataset: Stadtklimamessungen Winterthur
 
 Temperatur und Luftfeuchtigkeit sowie die Strahlung als Hilfswerte gemessen durch Sensoren von rund 25 Meteohelix-Messstationen im Stadtgebiet von Winterthur. Dieses Messnetz wurde im Sommer 2022 durch die Fachstelle Umwelt der Stadt Winterthur aufgebaut und seither betrieben. 
-Der Datensatz wird täglich aktualisiert und umfasst alle für die Standorte gültigen Messwerte im 10-Minuten-Mittel; die Standortinformationen sind in der Ressource "Standorte-Stationen" abrufbar. Es handelt sich um Rohdaten, welche direkt von der meteoblue API (Produktbeschrieb unter "Zusätzliche Informationen" verlinkt) bezogen wurden, und nicht plausibilisiert oder korrigiert sind. In der Ressource "Datenbeschrieb" finden Sie die vollständige Beschreibung der Merkmale. Direkter Zugriff auf die meteoblue API ist möglich und kann direkt bei meteoblue angefragt werden.  
+Der Datensatz wird täglich aktualisiert und umfasst alle für die Standorte gültigen Messwerte im 10-Minuten-Mittel; die Standortinformationen sind in der Ressource "Standorte-Stationen" abrufbar. Es handelt sich um Rohdaten, welche direkt von der meteoblue API (Produktbeschrieb unter "Zusätzliche Informationen" verlinkt) bezogen wurden, und nicht plausibilisiert oder korrigiert sind. In der Ressource "Datenbeschrieb" finden Sie die vollständige Beschreibung der Merkmale. Direkter Zugriff auf die meteoblue API ist möglich und kann direkt bei meteoblue angefragt werden.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2142@stadt-winterthur)
 
@@ -16,9 +16,9 @@ Auto generated R starter code for data set 2142@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2023-08-28T16:46:58`
-- **Modified** `2024-04-04T03:47:29`
+- **Modified** `2024-04-05T03:47:32`
 - **Startdate** `2022-11-01`
-- **Enddate** `2024-04-03`
+- **Enddate** `2024-04-04`
 - **Theme** `['Raum, Umwelt']`
 - **Keyword** `['klima', 'luft', 'lufttemperaturen', 'temperatur', 'ogd']`
 - **Publisher** `['Stadt Winterthur']`
@@ -64,7 +64,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Standorte-Stationen
 # Description              : Mess-Standorte der Stadtklima Winterthur Messdaten. Die Merkmale "laengengrad" und "breitengrad" sind im WGS 84 Koordinatensystem angegeben. Die Merkmale 'daten_von' und 'daten_bis' wurde aus den verfügbaren Messdaten bestimmt.
 # Issued                   : 2023-08-28T16:46:58
-# Modified                 : 2024-04-04T03:47:31
+# Modified                 : 2024-04-05T03:47:34
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002142_00004244.csv')
 
@@ -73,7 +73,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Messdaten_2024
 # Description              : Informationen zu den Merkmalen findet man in der Ressource Datenbeschrieb.txt unter dem Datensatz. Die Daten können Lücken enthalten.
 # Issued                   : 2024-01-02T03:48:21
-# Modified                 : 2024-04-04T03:47:29
+# Modified                 : 2024-04-05T03:47:32
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002142_00005084.csv')
 
