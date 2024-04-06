@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-05"
+date: "2024-04-06"
 output: html_document
 ---
 
@@ -52,9 +52,9 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_ZEFIX_
 # Distribution 1
 # Ktzhdistid               : 3740
 # Title                    : Neugründungen nach Branchen im Kanton Zürich und der Schweiz insgesamt, wöchentlich aktualisiert
-# Description              : keine
+# Description              : None
 # Issued                   : 2023-01-20T15:22:41
-# Modified                 : 2024-04-01T05:48:25
+# Modified                 : 2024-04-05T09:38:12
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_ZEFIX_Neugruendungen.csv')
 

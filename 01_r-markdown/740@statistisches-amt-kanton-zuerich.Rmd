@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-05"
+date: "2024-04-06"
 output: html_document
 ---
 
@@ -15,10 +15,10 @@ Auto generated R starter code for data set 740@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2021-10-04T00:00:00`
-- **Modified** `2021-10-25T11:18:00`
+- **Modified** `2024-04-05T07:50:32`
 - **Startdate** `2018-01-01`
 - **Enddate** `None`
-- **Theme** `['Bildung, Wissenschaft', 'Energie', 'Gesundheit', 'Industrie, Dienstleistungen', 'Mobilität und Verkehr', 'Öffentliche Verwaltung und Finanzen', 'Soziale Sicherheit', 'Raum, Umwelt', 'Arbeit, Erwerb', 'Öffentliche Verwaltung und Finanzen']`
+- **Theme** `['Bildung, Wissenschaft', 'Energie', 'Gesundheit', 'Industrie, Dienstleistungen', 'Mobilität und Verkehr', 'Öffentliche Verwaltung und Finanzen', 'Soziale Sicherheit', 'Raum, Umwelt', 'Arbeit, Erwerb']`
 - **Keyword** `['arbeitslose', 'ausbildung', 'bahn', 'berufslehre', 'bildung', 'bus', 'energie', 'familienberatung', 'flugbewegungen', 'flughafen', 'flugverkehr', 'gesundheit', 'gesundheitszustand', 'handelsregister', 'internetnutzung', 'jugendberatung', 'kinder', 'kinderbetreuung', 'kindergarten', 'kinderkrippen', 'kleinkinderbetreuung', 'konkurse', 'konsum', 'langsamverkehr', 'lehrlinge', 'luftverkehr', 'medien', 'oeffentlicher_verkehr', 'oeffentliche_schulen', 'primarschule', 'psychosozial', 's-bahn', 'soziales', 'stellensuchende', 'strassenverkehr', 'strassenverkehrszaehlung', 'suchtprobleme', 'todesfaelle', 'verkehr', 'verkehrsfrequenz', 'verkehrsmittelwahl', 'volkswirtschaft', 'vorschulstufe', 'wirtschaft', 'corona', 'covid-19', 'sars-cov-2', 'mobilitaet', 'covid19', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://github.com/statistikZH/covid19monitoring`

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-05"
+date: "2024-04-06"
 output: html_document
 ---
 
@@ -43,36 +43,36 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 4443
 # Title                    : Ständeratswahl 2023 – 1. Wahlgang: Kandidierendenresultate Ebene Kanton
-# Description              : NA
+# Description              : None
 # Issued                   : 2023-08-18T15:55:19
-# Modified                 : 2023-11-03T11:12:37
+# Modified                 : 2024-04-05T09:37:22
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004443.csv')
 
 # Distribution 1
 # Ktzhdistid               : 4444
 # Title                    : Ständeratswahl 2023 – 1. Wahlgang: Kandidierendenresultate Ebene Gemeinden
-# Description              : NA
+# Description              : None
 # Issued                   : 2023-08-18T15:55:19
-# Modified                 : 2023-11-03T11:13:00
+# Modified                 : 2024-04-05T09:37:28
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004444.csv')
 
 # Distribution 2
 # Ktzhdistid               : 4445
 # Title                    : Ständeratswahl 2023 – 1. Wahlgang: Wahlbeteiligung Ebene Kanton
-# Description              : NA
+# Description              : None
 # Issued                   : 2023-08-18T15:55:19
-# Modified                 : 2023-11-03T11:13:13
+# Modified                 : 2024-04-05T09:37:33
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004445.csv')
 
 # Distribution 3
 # Ktzhdistid               : 4446
 # Title                    : Ständeratswahl 2023 – 1. Wahlgang: Wahlbeteiligung Ebene Gemeinden
-# Description              : NA
+# Description              : None
 # Issued                   : 2023-08-18T15:55:19
-# Modified                 : 2023-11-03T11:13:25
+# Modified                 : 2024-04-05T09:37:41
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004446.csv')
 

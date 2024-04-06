@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-05"
+date: "2024-04-06"
 output: html_document
 ---
 
 ## Dataset: Altersstruktur der Stadt Winterthur ab 2014
 
-Altersstruktur der Bevölkerung der Stadt Winterthur ab 2014, Endjahresstand 31. Dezember des Jahres. Quelle:  Einwohnerkontrolle der Stadt Winterthur.
+Altersstruktur der Bevölkerung der Stadt Winterthur ab 2014, Endjahresstand 31. Dezember des Jahres. Quelle: Einwohnerkontrolle der Stadt Winterthur.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1381@stadt-winterthur)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 1381@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2022-09-20T16:50:48`
-- **Modified** `2023-10-11T15:21:20`
+- **Modified** `2024-04-05T10:33:56`
 - **Startdate** `2014-01-01`
 - **Enddate** `2022-12-31`
 - **Theme** `['Bevölkerung']`

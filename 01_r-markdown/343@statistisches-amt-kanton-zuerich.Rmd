@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-05"
+date: "2024-04-06"
 output: html_document
 ---
 
 ## Dataset: VZÄ im Primärsektor [Anz.]
 
-Beschäftigung des Primärsektors (Land- und Forstwirtschaft) in Vollzeitäquivalenten. Aktuellstes Jahr provisorisch.  Ab 2015 Berechnung mit neuem Modell, was in Bezug auf die VZÄ zu einem Bruch in der Zeitreihe zwischen 2014 und 2015 führt. Werte < 4 werden nicht ausgewiesen.
+Beschäftigung des Primärsektors (Land- und Forstwirtschaft) in Vollzeitäquivalenten. Aktuellstes Jahr provisorisch. Ab 2015 Berechnung mit neuem Modell, was in Bezug auf die VZÄ zu einem Bruch in der Zeitreihe zwischen 2014 und 2015 führt. Werte < 4 werden nicht ausgewiesen.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/343@statistisches-amt-kanton-zuerich)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 343@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2023-08-25T08:14:10`
+- **Modified** `2024-04-05T10:59:02`
 - **Startdate** `2011-12-31`
 - **Enddate** `2021-12-31`
 - **Theme** `['Arbeit, Erwerb']`

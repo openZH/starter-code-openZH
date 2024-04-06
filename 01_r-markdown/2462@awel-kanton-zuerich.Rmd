@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-05"
+date: "2024-04-06"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 2462@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2024-03-13T15:26:55`
-- **Modified** `2024-04-04T17:45:40`
+- **Modified** `2024-04-05T16:09:58`
 - **Startdate** `2011-01-01`
 - **Enddate** `2023-12-31`
 - **Theme** `['Gesundheit', 'Raum, Umwelt']`
@@ -35,7 +35,7 @@ library(skimr)
 
 # Load data
 
--   The dataset has 2 distribution(s) in CSV format.
+-   The dataset has 1 distribution(s) in CSV format.
 -   All available CSV distributions are listed below and can be read into a tibble.
 
 ```{r}
@@ -48,15 +48,6 @@ library(skimr)
 # Modified                 : 2024-03-13T15:26:55
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002462_00004924.csv')
-
-# Distribution 1
-# Ktzhdistid               : 4983
-# Title                    : Aufbereitete Messwerte
-# Description              : Mehr Informationen zum Inhalt der Daten ist in der Ressource Metadatenbeschreibung enthalten.
-# Issued                   : 2024-03-13T15:26:55
-# Modified                 : 2024-03-13T15:26:55
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002462_00004983.csv')
 
 
 
