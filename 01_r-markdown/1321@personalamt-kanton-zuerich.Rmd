@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-09"
+date: "2024-04-10"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 1321@personalamt-kanton-zuerich.
 - **Modified** `2023-07-13T17:21:34`
 - **Startdate** `2020-01-01`
 - **Enddate** `2022-12-31`
-- **Theme** `['Arbeit, Erwerb', 'Öffentliche Verwaltung und Finanzen']`
+- **Theme** `['Arbeit, Erwerb', 'Finanzen', 'Verwaltung']`
 - **Keyword** `['alter', 'ausbildung', 'beschaeftigte', 'beschaeftigungsgrad', 'frauenanteil', 'geschlecht', 'staatspersonal', 'teilzeiterwerbstaetige', 'verwaltungspersonal', 'vollzeitaequivalente', 'vollzeiterwerbstaetige', 'lohnstruktur', 'ogd']`
 - **Publisher** `['Personalamt des Kantons Zürich']`
 - **Landingpage** `None`

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-09"
+date: "2024-04-10"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 715@fachstelle-ogd-kanton-zuerich.
 - **Modified** `2023-05-25T17:35:23`
 - **Startdate** `2018-02-01`
 - **Enddate** `2021-03-28`
-- **Theme** `['Öffentliche Verwaltung und Finanzen']`
+- **Theme** `['Finanzen', 'Verwaltung']`
 - **Keyword** `['direktionen', 'kantonale_verwaltung', 'kanton_zuerich', 'ogd']`
 - **Publisher** `['Fachstelle Open Government Data des Kantons Zürich']`
 - **Landingpage** `None`

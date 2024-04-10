@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-09"
+date: "2024-04-10"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 720@stadt-uster.
 - **Modified** `2021-07-09T08:09:52`
 - **Startdate** `None`
 - **Enddate** `None`
-- **Theme** `['Kultur, Medien, Informationsgesellschaft, Sport', 'Politik', 'Bevölkerung', 'Öffentliche Verwaltung und Finanzen']`
+- **Theme** `['Kultur, Medien, Informationsgesellschaft, Sport', 'Politik', 'Bevölkerung', 'Finanzen', 'Verwaltung']`
 - **Keyword** `['quartiervereine', 'gemeinwesen', 'kommunikation', 'quartier', 'information', 'ogd']`
 - **Publisher** `['Stadt Uster']`
 - **Landingpage** `https://github.com/GesellschaftStadtUster/quartier_infokaesten`

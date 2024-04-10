@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-09"
+date: "2024-04-10"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 2282@ima-kanton-zuerich.
 - **Modified** `2024-04-02T14:15:44`
 - **Startdate** `2021-10-01`
 - **Enddate** `2024-03-31`
-- **Theme** `['Energie', 'Mobilität und Verkehr', 'Öffentliche Verwaltung und Finanzen']`
+- **Theme** `['Energie', 'Mobilität und Verkehr', 'Finanzen', 'Verwaltung']`
 - **Keyword** `['elektrizitaet', 'fahrzeuge', 'kanton_zuerich', 'ogd']`
 - **Publisher** `['Immobilienamt des Kantons Zürich']`
 - **Landingpage** `None`
