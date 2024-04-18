@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-17"
+date: "2024-04-18"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Kiesstatistik des Kantons Zürich ab 1990
 # Description              : Variabeln: 'thema' = thematischer Aspekt, 'indikator' = erhobene Variable , 'einheit' = Masseinheit, 'region' = räumliche Einheit, 'jahr' = Jahr, 'wert' = Wert.
 # Issued                   : 2021-09-16T10:05:28
-# Modified                 : 2023-05-25T15:59:00
+# Modified                 : 2024-04-17T07:44:40
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000736_00001881.csv')
 
