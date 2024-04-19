@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-18"
+date: "2024-04-19"
 output: html_document
 ---
 
 ## Dataset: Quartier-Infokästen der Stadt Uster und Quartiervereinen
 
-Quartierkästen sind Schaukästen, in denen Informationsmaterial ausgehängt wird. Es sind Quartierkästen mit Längen- und Breitengrad verzeichnet, die von der Stadt Uster und den Quartiervereinen gemeinsam bewirtschaftet werden (sind im Eigentum der Stadt Uster) und solche die auf private Initiative von den Quartiervereinen bewirtschafet werden. Über die gemeinsam bewirtschafteten Quartierkästen werden wöchentlich die wichtigsten Informationen aus der Stadtverwaltung der Bevölkerung zugänglich gemacht. Fotos der Quartierkästen werden unregelmässig ca. alle 3 bis 5 Jahre aktualisiert.
+Quartierkästen sind Schaukästen, in denen Informationsmaterial ausgehängt wird. Es sind Quartierkästen mit Längen- und Breitengrad verzeichnet, die von der Stadt Uster und den Quartiervereinen gemeinsam bewirtschaftet werden (sind im Eigentum der Stadt Uster) und solche die auf private Initiative von den Quartiervereinen bewirtschafet werden. Über die gemeinsam bewirtschafteten Quartierkästen werden wöchentlich die wichtigsten Informationen aus der Stadtverwaltung der Bevölkerung zugänglich gemacht. Die Daten werden nicht mehr aktualisiert, die Koordination liegt nicht mehr bei der Stadt.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/720@stadt-uster)
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 720@stadt-uster.
 ## Metadata
 
 - **Issued** `2021-07-07T11:26:00`
-- **Modified** `2021-07-09T08:09:52`
+- **Modified** `2024-04-18T15:15:35`
 - **Startdate** `None`
-- **Enddate** `None`
+- **Enddate** `2021-07-01`
 - **Theme** `['Kultur, Medien, Informationsgesellschaft, Sport', 'Politik', 'Bevölkerung', 'Finanzen', 'Verwaltung']`
 - **Keyword** `['quartiervereine', 'gemeinwesen', 'kommunikation', 'quartier', 'information', 'ogd']`
 - **Publisher** `['Stadt Uster']`
