@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-19"
+date: "2024-04-20"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 1362@gesundheitsdirektion-kanton-zuer
 ## Metadata
 
 - **Issued** `2023-03-24T10:10:26`
-- **Modified** `2024-04-12T11:25:04`
+- **Modified** `2024-04-19T11:25:05`
 - **Startdate** `2020-01-01`
-- **Enddate** `2024-01-13`
+- **Enddate** `2024-01-20`
 - **Theme** `['Land- und Forstwirtschaft', 'Gesundheit', 'Raum, Umwelt']`
 - **Keyword** `['gemeinden', 'gesundheit', 'trinkwasser', 'wasser', 'pestizide', 'wasserversorgung', 'lebensmittel', 'schwellenwert', 'pflanzenschutzmittel', 'verunreinigung', 'ogd']`
 - **Publisher** `['Gesundheitsdirektion des Kantons Zürich']`
@@ -54,7 +54,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/gesundheitsdirektion-
 # Title                    : Netzproben der Trinkwasserqualität
 # Description              : None
 # Issued                   : 2023-03-24T10:10:26
-# Modified                 : 2024-04-12T11:25:04
+# Modified                 : 2024-04-19T11:25:05
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/gesundheitsdirektion-kanton-zuerich/kl/twq-data/Trinkwasserqualitaetsexport.csv')
 
