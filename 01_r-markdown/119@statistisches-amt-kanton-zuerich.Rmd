@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-04-30"
+date: "2024-05-01"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 119@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2018-05-27T00:00:00`
-- **Modified** `2023-09-25T09:52:19`
+- **Modified** `2024-04-30T14:19:53`
 - **Startdate** `2012-12-31`
-- **Enddate** `2023-06-30`
+- **Enddate** `2023-12-31`
 - **Theme** `['Raum, Umwelt']`
 - **Keyword** `['bodenpreise', 'einfamilienhaus', 'immobilienpreise', 'kanton_zuerich', 'mehrfamilienhaus', 'stockwerkeigentum', 'wohnbauland', 'immobilienhandel']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    :  Daten für interaktive Grafiken: Quartalsbericht Handänderungsstatistik 
 # Description              : Daten zum aktuellsten Quartalsbericht Handänderungsstatistik zur Preisentwicklung von Wohnbauland, Stockwerkeigentum, Ein- und Mehrfamilienhäusern.
 # Issued                   : 2019-11-27T00:00:00
-# Modified                 : 2023-12-19T16:15:56
+# Modified                 : 2024-04-30T14:19:16
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000119_00001212.csv')
 
