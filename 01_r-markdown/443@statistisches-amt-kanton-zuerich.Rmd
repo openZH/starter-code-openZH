@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 443@statistisches-amt-kanton-zuerich.
 - **Modified** `2023-01-04T13:29:38`
 - **Startdate** `1981-04-05`
 - **Enddate** `None`
-- **Theme** `['Politik']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE']`
 - **Keyword** `['abstimmungen', 'eidgenoessische_volksabstimmungen', 'kantonale_volksabstimmungen', 'kantonsrat', 'politik', 'regierungsrat', 'demokratie', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `None`

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 2242@ekz.
 - **Modified** `2023-12-05T13:22:42`
 - **Startdate** `2022-01-01`
 - **Enddate** `None`
-- **Theme** `['Energie']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENER']`
 - **Keyword** `['energie', 'stromverbrauch', 'ogd']`
 - **Publisher** `['Elektrizitätswerke des Kantons Zürich EKZ']`
 - **Landingpage** `https://www.ekz.ch/de/ueber-ekz/medien/publikationen/Bruttolastgang-von-EKZ-und-EKZ-Einsiedeln.html`

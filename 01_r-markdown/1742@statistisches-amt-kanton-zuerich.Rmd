@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 1742@statistisches-amt-kanton-zuerich
 - **Modified** `2024-05-13T05:51:01`
 - **Startdate** `2017-01-01`
 - **Enddate** `2024-05-12`
-- **Theme** `['Öffentliche Verwaltung und Finanzen', 'Arbeit, Erwerb']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['branchen', 'einzelfirmen', 'firmen', 'genossenschaften', 'gmbh', 'handelsregister', 'konkurse', 'stiftungen', 'unternehmen', 'wirtschaft', 'vereine', 'unternehmensdaten', 'shab', 'ehra', 'zefix', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `None`

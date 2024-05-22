@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 523@fachstelle-ogd-kanton-zuerich.
 - **Modified** `2023-02-20T10:28:27`
 - **Startdate** `2013-01-01`
 - **Enddate** `2022-12-31`
-- **Theme** `['Finanzen', 'Verwaltung']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['direktionen', 'kantonale_verwaltung', 'regierungsrat', 'ogd']`
 - **Publisher** `['Fachstelle Open Government Data des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/kanton/kantonale-verwaltung/oeffentlichkeitsprinzip.html`

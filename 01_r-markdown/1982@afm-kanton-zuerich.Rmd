@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 1982@afm-kanton-zuerich.
 - **Modified** `2024-04-09T14:17:23`
 - **Startdate** `2018-12-31`
 - **Enddate** `2040-12-31`
-- **Theme** `['Mobilität und Verkehr']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TRAN']`
 - **Keyword** `['gemeinden', 'oeffentlicher_verkehr', 'strassenverkehr', 'verkehr', 'verkehrsmittelwahl', 'raumplanungsregionen', 'auto', 'verkehrsnachfrage', 'oev', 'miv', 'velo', 'ogd']`
 - **Publisher** `['Amt für Mobilität des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/mobilitaet/gesamtverkehrsplanung/verkehrsgrundlagen/verkehrsnachfrage.html`

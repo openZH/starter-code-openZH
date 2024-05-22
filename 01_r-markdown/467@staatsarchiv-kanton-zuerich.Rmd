@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 467@staatsarchiv-kanton-zuerich.
 - **Modified** `2023-01-16T13:31:25`
 - **Startdate** `1803-01-01`
 - **Enddate** `None`
-- **Theme** `['Politik']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE']`
 - **Keyword** `['kantonsrat', 'regierungsrat', 'demokratie', 'ogd']`
 - **Publisher** `['Staatsarchiv des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/wahlen-abstimmungen/kantons-regierungsratswahlen/mitglieder-kantonsrats-ab-1803.html`

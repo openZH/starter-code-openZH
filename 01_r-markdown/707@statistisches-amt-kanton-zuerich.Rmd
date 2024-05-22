@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 707@statistisches-amt-kanton-zuerich.
 - **Modified** `2022-02-24T11:29:57`
 - **Startdate** `2020-02-28`
 - **Enddate** `2022-02-03`
-- **Theme** `['Kriminalität, Strafrecht', 'Gesundheit', 'Mobilität und Verkehr']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/HEAL', 'http://publications.europa.eu/resource/authority/data-theme/JUST', 'http://publications.europa.eu/resource/authority/data-theme/TRAN']`
 - **Keyword** `['bezirke', 'gastgewerbe', 'gewerbe', 'kanton_zuerich', 'oeffentlicher_verkehr', 'schulen', 'corona', 'sars-cov-2', 'mobilitaet', 'covid19', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/gesundheit/coronavirus/zahlen-fakten-covid-19.html?keyword=covid19`

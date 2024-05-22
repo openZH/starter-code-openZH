@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 2384@awel-kanton-zuerich.
 - **Modified** `2024-04-04T17:47:04`
 - **Startdate** `2021-02-18`
 - **Enddate** `2023-02-15`
-- **Theme** `['Raum, Umwelt']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI']`
 - **Keyword** `['luftschadstoffe', 'naturschutzgebiete', 'ammoniak', 'luftqualitaet', 'messung', 'ogd']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
 - **Landingpage** `None`

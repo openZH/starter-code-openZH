@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 735@volksschulamt-kanton-zuerich.
 - **Modified** `2021-09-20T15:55:00`
 - **Startdate** `None`
 - **Enddate** `None`
-- **Theme** `['Bildung, Wissenschaft']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC']`
 - **Keyword** `['bildung', 'primarschule', 'schulen', 'schulgemeinden', 'sekundarschule', 'volksschule', 'ogd']`
 - **Publisher** `['Volksschulamt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/bildung/informationen-fuer-schulen/informationen-volksschule.html#-536456471`

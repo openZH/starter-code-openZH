@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 718@kantonspolizei-kanton-zuerich.
 - **Modified** `2024-03-13T10:51:17`
 - **Startdate** `2011-01-01`
 - **Enddate** `2023-12-31`
-- **Theme** `['Gesundheit', 'Mobilität und Verkehr']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/HEAL', 'http://publications.europa.eu/resource/authority/data-theme/TRAN']`
 - **Keyword** `['fahrzeuge', 'langsamverkehr', 'motorfahrzeuge', 'motorraeder', 'sachschaden', 'strassenverkehr', 'strassenverkehrsunfaelle', 'verkehrsunfaelle', 'gesamtverkehrsdaten', 'ogd']`
 - **Publisher** `['Kantonspolizei des Kantons Zürich']`
 - **Landingpage** `None`

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -22,7 +22,7 @@ Auto generated R starter code for data set 526@bildungsstatistik-kanton-zuerich.
 - **Modified** `2023-09-01T15:48:54`
 - **Startdate** `2000-09-15`
 - **Enddate** `2022-09-15`
-- **Theme** `['Bildung, Wissenschaft']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC']`
 - **Keyword** `['ausbildung', 'bildung', 'bildungsstufe', 'gymnasien', 'handelsschulen', 'lernende', 'mittelschulen', 'schueler', 'schuelerinnen', 'bildungsdaten', 'ogd']`
 - **Publisher** `['Bildungsstatistik des Kantons Zürich']`
 - **Landingpage** `None`

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 177@statistisches-amt-kanton-zuerich.
 - **Modified** `2024-03-04T13:58:38`
 - **Startdate** `1996-12-31`
 - **Enddate** `2022-12-31`
-- **Theme** `['Bau- und Wohnungswesen']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['bauzonen', 'bauzonenverbrauch', 'bezirke', 'bodennutzung', 'gemeinden', 'kanton_zuerich', 'zonenart', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`

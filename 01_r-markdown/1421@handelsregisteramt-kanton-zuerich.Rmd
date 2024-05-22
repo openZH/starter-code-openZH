@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 1421@handelsregisteramt-kanton-zueric
 - **Modified** `2024-01-16T09:23:00`
 - **Startdate** `2018-01-01`
 - **Enddate** `2023-12-31`
-- **Theme** `['Öffentliche Verwaltung und Finanzen', 'Arbeit, Erwerb']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['branchen', 'firmen', 'genossenschaften', 'handelsregister', 'konkurse', 'unternehmen', 'wirtschaft', 'vereine', 'unternehmensdaten', 'loeschungen', 'sitzverlegungen', 'ogd']`
 - **Publisher** `['Handelsregisteramt des Kantons Zürich']`
 - **Landingpage** `None`

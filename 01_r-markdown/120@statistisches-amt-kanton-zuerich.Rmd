@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 120@statistisches-amt-kanton-zuerich.
 - **Modified** `2023-05-26T09:51:33`
 - **Startdate** `2000-12-31`
 - **Enddate** `2019-12-31`
-- **Theme** `['Bau- und Wohnungswesen']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['bautaetigkeit', 'neubauten']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `None`

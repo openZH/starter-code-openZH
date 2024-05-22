@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 729@gesundheitsdirektion-kanton-zueri
 - **Modified** `2023-08-29T14:37:24`
 - **Startdate** `2019-07-03`
 - **Enddate** `2023-08-24`
-- **Theme** `['Kultur, Medien, Informationsgesellschaft, Sport', 'Gesundheit', 'Raum, Umwelt']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC', 'http://publications.europa.eu/resource/authority/data-theme/HEAL', 'http://publications.europa.eu/resource/authority/data-theme/ENVI']`
 - **Keyword** `['gesundheit', 'kanton_zuerich', 'seen', 'sport', 'wasser', 'ogd']`
 - **Publisher** `['Gesundheitsdirektion des Kantons Zürich']`
 - **Landingpage** `None`

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 332@statistisches-amt-kanton-zuerich.
 - **Modified** `2023-01-06T14:55:15`
 - **Startdate** `1974-12-31`
 - **Enddate** `2022-12-31`
-- **Theme** `['Preise']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['bauland', 'bezirke', 'bodenpreise', 'gemeinden', 'kanton_zuerich', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`

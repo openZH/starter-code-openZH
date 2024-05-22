@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 468@staatsarchiv-kanton-zuerich.
 - **Modified** `2024-05-14T13:00:56`
 - **Startdate** `1525-01-01`
 - **Enddate** `1800-12-31`
-- **Theme** `['Kultur, Medien, Informationsgesellschaft, Sport', 'Bevölkerung']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI', 'http://publications.europa.eu/resource/authority/data-theme/EDUC']`
 - **Keyword** `['ehe', 'eheschliessungen', 'gemeinden', 'heiraten', 'kirchgemeinden', 'verheiratet', 'linked-data', 'sparql', 'rdf', 'ogd']`
 - **Publisher** `['Staatsarchiv des Kantons Zürich']`
 - **Landingpage** `https://zenodo.org/records/11191059`

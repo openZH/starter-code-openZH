@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 465@gemeindeamt-kanton-zuerich.
 - **Modified** `2019-07-25T16:38:00`
 - **Startdate** `1990-01-01`
 - **Enddate** `2017-12-31`
-- **Theme** `['Finanzen', 'Verwaltung']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['gemeindefinanzen', 'gemeinden', 'ogd']`
 - **Publisher** `['Gemeindeamt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/pruefung-uebermittlung-gemeindedaten.html`

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 2042@kantonspolizei-kanton-zuerich.
 - **Modified** `2024-03-25T08:46:32`
 - **Startdate** `2009-01-01`
 - **Enddate** `2023-12-31`
-- **Theme** `['Kriminalität, Strafrecht']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/JUST']`
 - **Keyword** `['gemeinden', 'kriminalitaet', 'strafbare_handlungen', 'strafdelikte', 'straftaten', 'einbrueche', 'ogd']`
 - **Publisher** `['Kantonspolizei des Kantons Zürich']`
 - **Landingpage** `None`

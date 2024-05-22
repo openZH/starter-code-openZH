@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 698@statistisches-amt-kanton-zuerich.
 - **Modified** `2024-05-01T05:28:11`
 - **Startdate** `2015-01-05`
 - **Enddate** `2024-04-30`
-- **Theme** `['Finanzen', 'Verwaltung']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `None`

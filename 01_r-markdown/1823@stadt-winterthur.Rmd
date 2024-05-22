@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 1823@stadt-winterthur.
 - **Modified** `2023-08-02T09:44:29`
 - **Startdate** `2018-01-01`
 - **Enddate** `2022-12-31`
-- **Theme** `['Arbeit, Erwerb']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['arbeitskraefte', 'beschaeftigte', 'bevoelkerung', 'gemeinden', 'ogd']`
 - **Publisher** `['Stadt Winterthur']`
 - **Landingpage** `https://stadt.winterthur.ch/themen/die-stadt/winterthur/statistik/wirtschaft`

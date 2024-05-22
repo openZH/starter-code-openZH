@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 705@statistisches-amt-kanton-zuerich.
 - **Modified** `2023-11-22T14:29:12`
 - **Startdate** `2010-12-31`
 - **Enddate** `2050-12-31`
-- **Theme** `['Bevölkerung']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['altersklassen', 'bevoelkerung', 'bevoelkerungsprognosen', 'bevoelkerungswachstum', 'einwohnerzahl', 'geschlecht', 'prognosen', 'raumplanungsregionen', 'bevoelkerungsszenarien', 'bevoelkerungsstatistik', 'einwohner', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/soziales/bevoelkerungszahlen/zukuenftige_entwicklung.html`

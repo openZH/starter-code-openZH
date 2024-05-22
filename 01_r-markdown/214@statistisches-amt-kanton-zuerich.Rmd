@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 214@statistisches-amt-kanton-zuerich.
 - **Modified** `2023-10-24T10:19:36`
 - **Startdate** `1990-12-31`
 - **Enddate** `2022-12-31`
-- **Theme** `['Bildung, Wissenschaft']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC']`
 - **Keyword** `['berufsschule', 'bezirke', 'gemeinden', 'kanton_zuerich', 'schueler', 'schuelerinnen', 'schulen', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 386@statistisches-amt-kanton-zuerich.
 - **Modified** `2024-04-08T11:09:11`
 - **Startdate** `2013-12-31`
 - **Enddate** `None`
-- **Theme** `['Mobilität und Verkehr']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TRAN']`
 - **Keyword** `['kanton_zuerich', 'oeffentlicher_verkehr', 'verkehr', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`

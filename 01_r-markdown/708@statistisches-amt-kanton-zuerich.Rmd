@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 708@statistisches-amt-kanton-zuerich.
 - **Modified** `2023-06-13T21:56:05`
 - **Startdate** `2015-12-31`
 - **Enddate** `2017-12-31`
-- **Theme** `['Finanzen', 'Verwaltung']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['bezirke', 'gemeinden', 'gewinnsteuer', 'juristische_personen', 'kanton_zuerich', 'kapitalsteuer', 'staatssteuer', 'steuern', 'steuerdaten', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `None`

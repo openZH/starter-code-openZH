@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 719@fachstelle-ogd-kanton-zuerich.
 - **Modified** `2023-04-05T13:02:14`
 - **Startdate** `2020-04-06`
 - **Enddate** `2021-02-19`
-- **Theme** `['Kultur, Medien, Informationsgesellschaft, Sport']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC']`
 - **Keyword** `['kultur', 'kulturfinanzierung', 'corona', 'covid-19', 'covid19', 'ogd']`
 - **Publisher** `['Fachstelle Open Government Data des Kantons Zürich']`
 - **Landingpage** `None`

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 1120@are-kanton-zuerich.
 - **Modified** `2024-05-16T08:41:05`
 - **Startdate** `1991-01-01`
 - **Enddate** `2022-12-31`
-- **Theme** `['Raum, Umwelt']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI']`
 - **Keyword** `['bauzonen', 'bauzonenverbrauch', 'raum', 'ogd']`
 - **Publisher** `['Amt für Raumentwicklung des Kantons Zürich']`
 - **Landingpage** `None`

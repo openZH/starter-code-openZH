@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 2022@fachstelle-ogd-kanton-zuerich.
 - **Modified** `2024-04-04T17:43:41`
 - **Startdate** `2023-12-31`
 - **Enddate** `2023-12-31`
-- **Theme** `['Bau- und Wohnungswesen']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['gebaeude', 'gebaeudeart', 'gemeinden', 'heizung', 'heizungsart', 'strassen', 'wohnung', 'wohnungen', 'wohnungsbestand', 'ogd']`
 - **Publisher** `['Fachstelle Open Government Data des Kantons Zürich']`
 - **Landingpage** `None`

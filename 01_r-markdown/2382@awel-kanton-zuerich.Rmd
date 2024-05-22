@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-05-21"
+date: "2024-05-22"
 output: html_document
 ---
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 2382@awel-kanton-zuerich.
 - **Modified** `2024-01-08T14:20:29`
 - **Startdate** `2002-05-16`
 - **Enddate** `2023-08-17`
-- **Theme** `['Mobilität und Verkehr', 'Raum, Umwelt']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI', 'http://publications.europa.eu/resource/authority/data-theme/TRAN']`
 - **Keyword** `['fahrzeuge', 'luft', 'luftschadstoffe', 'strassenverkehr', 'luftqualitaet', 'emissionen', 'stickoxide', 'abgase', 'ogd']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
 - **Landingpage** `None`
