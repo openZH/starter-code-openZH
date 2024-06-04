@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-06-03"
+date: "2024-06-04"
 output: html_document
 ---
 
@@ -16,9 +16,9 @@ Auto generated R starter code for data set 116@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2023-05-05T10:33:48`
+- **Modified** `2024-06-03T10:04:25`
 - **Startdate** `2007-12-31`
-- **Enddate** `2022-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['bauland', 'bezirke', 'freihandverkaeufe', 'gemeinden', 'handaenderungen', 'kanton_zuerich', 'wohnbauland', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -46,7 +46,7 @@ library(skimr)
 # Title                    : Verkäufe von unbebautem Land [Anz.]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2023-05-05T10:33:48
+# Modified                 : 2024-06-03T10:04:25
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_402.csv')
 
