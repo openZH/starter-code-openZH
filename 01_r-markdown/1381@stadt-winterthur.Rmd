@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-06-04"
+date: "2024-06-05"
 output: html_document
 ---
 
-## Dataset: Altersstruktur der Stadt Winterthur ab 2014
+## Dataset: Altersstruktur der Stadt Winterthur
 
-Altersstruktur der Bevölkerung der Stadt Winterthur ab 2014, Endjahresstand 31. Dezember des Jahres. Quelle: Einwohnerkontrolle der Stadt Winterthur.
+Altersstruktur der Bevölkerung der Stadt Winterthur ab 2009, Endjahresstand 31. Dezember des Jahres. Eine vollständige Dokumentation ist in der Ressource "Dokumentation Daten" zu finden.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1381@stadt-winterthur)
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 1381@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2022-09-20T16:50:48`
-- **Modified** `2024-04-05T10:33:56`
-- **Startdate** `2014-01-01`
-- **Enddate** `2022-12-31`
+- **Modified** `2024-06-04T10:26:39`
+- **Startdate** `2009-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['alter', 'altersgruppen', 'altersklassen', 'bevoelkerung', 'gemeinden', 'ogd']`
 - **Publisher** `['Stadt Winterthur']`
@@ -42,10 +42,10 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 3062
-# Title                    : Altersstruktur Stadt Winterthur ab 2014
-# Description              : Altersstruktur der Stadt Winterthur ab 2014. Variablen: 'Jahr'; 'Altersklasse' = 5-Jahres-Altersklassen. Personen älter als 95 sind in der Klasse "95+" zusammengefasst; 'Anzahl' = Anzahl Personen pro Klasse.
+# Title                    : Altersstruktur Stadt Winterthur
+# Description              : Altersstruktur der Stadt Winterthur ab 2009. Eine vollständige Dokumentation ist in der Ressource "Dokumentation Daten" zu finden.
 # Issued                   : 2022-09-20T16:50:48
-# Modified                 : 2023-10-11T15:20:30
+# Modified                 : 2024-06-04T10:28:22
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001381_00003062.csv')
 
