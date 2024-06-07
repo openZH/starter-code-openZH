@@ -1,0 +1,79 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2024-06-07"
+output: html_document
+---
+
+## Dataset: Bevölkerung der Stadt Winterthur, nach Heimat, Geschlecht und Altersklasse
+
+Bestand der wirtschaftlichen Wohnbevölkerung nach Heimat (Schweiz/Ausland), Geschlecht und Altersklasse (5 Jahre) per Ende Jahr. Eine vollständige Dokumentation ist in der Ressource "Dokumentation Daten" zu finden.
+
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2605@stadt-winterthur)
+
+Auto generated R starter code for data set 2605@stadt-winterthur.
+
+## Metadata
+
+- **Issued** `2024-06-06T14:10:16`
+- **Modified** `2024-06-06T14:10:16`
+- **Startdate** `2014-12-31`
+- **Enddate** `2023-12-31`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
+- **Keyword** `['altersgruppen', 'bevoelkerung', 'gemeinden', 'geschlecht', 'nationalitaet']`
+- **Publisher** `['Stadt Winterthur']`
+- **Landingpage** `https://stadt.winterthur.ch/themen/die-stadt/winterthur/statistik/bevoelkerung`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 5330
+# Title                    : Bevölkerung, nach Heimat, Geschlecht und Alter
+# Description              : Eine vollständige Dokumentation ist in der Ressource "Dokumentation Daten" zu finden.
+# Issued                   : 2024-06-06T14:10:16
+# Modified                 : 2024-06-06T14:10:16
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002605_00005330.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Stadt Winterthur | Stadtentwicklung der Stadt Winterthur | statistik@win.ch
