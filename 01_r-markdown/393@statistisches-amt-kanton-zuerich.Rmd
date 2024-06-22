@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-06-21"
+date: "2024-06-22"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 393@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-09-22T10:10:00`
-- **Modified** `2023-05-30T10:51:55`
+- **Modified** `2024-06-21T14:38:28`
 - **Startdate** `2010-12-31`
-- **Enddate** `2022-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TRAN']`
 - **Keyword** `['kanton_zuerich', 'verkehr', 'verkehrsunfaelle', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Unfälle [pro 1000 Einw.]
 # Description              : None
 # Issued                   : 2016-09-22T10:10:00
-# Modified                 : 2023-05-30T10:51:55
+# Modified                 : 2024-06-21T14:38:28
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_820.csv')
 
