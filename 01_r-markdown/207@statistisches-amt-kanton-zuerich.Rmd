@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-06-25"
+date: "2024-06-26"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 207@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2023-06-26T10:06:16`
+- **Modified** `2024-06-25T16:05:09`
 - **Startdate** `1990-12-31`
-- **Enddate** `2022-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['bevoelkerung', 'bevoelkerungsbewegungen', 'bezirke', 'geburten', 'gemeinden', 'kanton_zuerich', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Geburten [Pers.]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2023-06-26T10:06:16
+# Modified                 : 2024-06-25T16:05:09
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_96.csv')
 
