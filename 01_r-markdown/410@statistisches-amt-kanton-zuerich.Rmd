@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-01"
+date: "2024-07-02"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 410@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2019-07-01T20:19:00`
-- **Modified** `2023-05-16T14:02:27`
+- **Modified** `2024-07-01T09:08:50`
 - **Startdate** `1990-12-31`
-- **Enddate** `2022-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'kirchensteuer', 'oeffentliche_finanzen', 'steuerpflichtige', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Katholische Kirchensteuerpflichtige [Anz.]
 # Description              : None
 # Issued                   : 2019-07-01T20:19:00
-# Modified                 : 2023-05-16T14:02:27
+# Modified                 : 2024-07-01T09:08:50
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_836.csv')
 
