@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-08"
+date: "2024-07-09"
 output: html_document
 ---
 
@@ -16,7 +16,7 @@ Auto generated R starter code for data set 728@gesundheitsdirektion-kanton-zueri
 ## Metadata
 
 - **Issued** `2021-07-06T00:00:00`
-- **Modified** `2024-04-04T17:47:41`
+- **Modified** `2024-07-08T17:06:07`
 - **Startdate** `2021-05-30`
 - **Enddate** `2023-05-02`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/HEAL']`
