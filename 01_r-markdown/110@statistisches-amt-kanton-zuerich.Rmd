@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-11"
+date: "2024-07-12"
 output: html_document
 ---
 
@@ -15,11 +15,11 @@ Auto generated R starter code for data set 110@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2023-08-18T08:09:58`
+- **Modified** `2024-07-11T16:42:35`
 - **Startdate** `1984-12-31`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
-- **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'leerwohnungen', 'wohnungen', 'wohnungsbestand', 'ogd']`
+- **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'leerwohnungen', 'wohnungen', 'wohnungsbestand', 'quote', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
 

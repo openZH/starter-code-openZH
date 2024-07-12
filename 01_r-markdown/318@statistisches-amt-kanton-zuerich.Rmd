@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-11"
+date: "2024-07-12"
 output: html_document
 ---
 
@@ -19,7 +19,7 @@ Auto generated R starter code for data set 318@statistisches-amt-kanton-zuerich.
 - **Startdate** `2011-12-31`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON']`
-- **Keyword** `['arbeitslose', 'arbeitslosenquote', 'arbeitslosigkeit', 'arbeitsmarkt', 'bezirke', 'gemeinden', 'kanton_zuerich', 'ogd']`
+- **Keyword** `['arbeitslose', 'arbeitslosigkeit', 'arbeitsmarkt', 'bezirke', 'gemeinden', 'kanton_zuerich', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
 

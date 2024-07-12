@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-11"
+date: "2024-07-12"
 output: html_document
 ---
 
@@ -15,11 +15,11 @@ Auto generated R starter code for data set 395@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-12-13T00:00:00`
-- **Modified** `2019-02-15T11:45:00`
+- **Modified** `2024-07-11T16:51:39`
 - **Startdate** `1990-12-31`
 - **Enddate** `2017-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
-- **Keyword** `['gemeindefinanzen', 'gemeinden', 'kanton_zuerich', 'oeffentliche_finanzen', 'ogd']`
+- **Keyword** `['gemeindefinanzen', 'gemeinden', 'kanton_zuerich', 'oeffentliche_finanzen', 'staatsfinanzen', 'staatsinvestitionen', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `None`
 

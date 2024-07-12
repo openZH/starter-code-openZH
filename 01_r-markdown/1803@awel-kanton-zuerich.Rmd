@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-11"
+date: "2024-07-12"
 output: html_document
 ---
 
@@ -15,11 +15,11 @@ Auto generated R starter code for data set 1803@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2022-11-07T13:23:18`
-- **Modified** `2024-07-10T17:02:16`
+- **Modified** `2024-07-11T16:22:25`
 - **Startdate** `2000-01-01`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI']`
-- **Keyword** `['abfall', 'abfallentsorgung', 'altglas', 'karton', 'kehricht', 'papier', 'recycling', 'siedlungsabfaelle', 'sperrgut', 'kunststoff', 'textilien', 'strassenabfall', 'abfallgebuehren', 'altoel', 'ogd']`
+- **Keyword** `['abfall', 'altglas', 'entsorgung', 'karton', 'kehricht', 'papier', 'recycling', 'siedlungsabfaelle', 'sperrgut', 'kunststoff', 'textilien', 'strassenabfall', 'abfallgebuehren', 'altoel', 'ogd']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-712_1-1994_09_25-2001_01_01-085.html`
 

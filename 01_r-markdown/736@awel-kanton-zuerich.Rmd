@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-11"
+date: "2024-07-12"
 output: html_document
 ---
 
@@ -19,7 +19,7 @@ Auto generated R starter code for data set 736@awel-kanton-zuerich.
 - **Startdate** `1990-01-01`
 - **Enddate** `2022-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI', 'http://publications.europa.eu/resource/authority/data-theme/ENVI']`
-- **Keyword** `['abfallverwertung', 'bahn', 'umwelt', 'raumplanungsregionen', 'aushub', 'kies', 'bahntransport', 'rohstoffe', 'ogd']`
+- **Keyword** `['verwertung', 'bahn', 'umwelt', 'raumplanungsregionen', 'aushub', 'kies', 'bahntransport', 'rohstoffe', 'ogd']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
 - **Landingpage** `None`
 

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-11"
+date: "2024-07-12"
 output: html_document
 ---
 
@@ -15,11 +15,11 @@ Auto generated R starter code for data set 334@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2023-11-28T15:57:59`
+- **Modified** `2024-07-11T16:44:13`
 - **Startdate** `2010-12-31`
 - **Enddate** `2022-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
-- **Keyword** `['ahv', 'bezirke', 'bezuegerquote', 'gemeinden', 'kanton_zuerich', 'sozialleistungen', 'zusatzrenten', 'ogd']`
+- **Keyword** `['ahv', 'bezirke', 'gemeinden', 'kanton_zuerich', 'sozialleistungen', 'zusatzrenten', 'quote', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
 
