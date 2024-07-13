@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-12"
+date: "2024-07-13"
 output: html_document
 ---
 
@@ -19,7 +19,7 @@ Auto generated R starter code for data set 254@statistisches-amt-kanton-zuerich.
 - **Startdate** `2010-01-01`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
-- **Keyword** `['alter', 'altersgruppen', 'altersklassen', 'altersstruktur', 'auslaender', 'auslaenderinnen', 'bevoelkerung', 'bezirke', 'einwohnerzahl', 'gemeinden', 'geschlecht', 'heimat', 'bevoelkerungsstatistik', 'einwohner', 'ogd', 'bevoelkerungsbestand']`
+- **Keyword** `['alter', 'altersgruppen', 'altersklassen', 'altersstruktur', 'auslaender', 'bevoelkerung', 'bezirke', 'einwohnerzahl', 'gemeinden', 'geschlecht', 'heimat', 'bevoelkerungsstatistik', 'einwohner', 'ogd', 'bevoelkerungsbestand']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `None`
 
