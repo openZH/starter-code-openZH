@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-15"
+date: "2024-07-16"
 output: html_document
 ---
 
@@ -17,11 +17,11 @@ Auto generated R starter code for data set 1382@stadt-uster.
 ## Metadata
 
 - **Issued** `2022-05-15T00:00:00`
-- **Modified** `2024-04-05T07:51:22`
+- **Modified** `2024-07-15T10:11:18`
 - **Startdate** `2021-06-24`
 - **Enddate** `2021-07-11`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
-- **Keyword** `['internet', 'internetnutzung', 'jugendberatung', 'jugend_und_sport', 'raum', 'jugendkriminalitaet', 'ogd']`
+- **Keyword** `['internetnutzung', 'beratungsangebote', 'jugend_und_sport', 'raumentwicklung', 'jugendkriminalitaet', 'jugendliche', 'ogd']`
 - **Publisher** `['Stadt Uster']`
 - **Landingpage** `https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021`
 

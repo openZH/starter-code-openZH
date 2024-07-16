@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-15"
+date: "2024-07-16"
 output: html_document
 ---
 
@@ -19,7 +19,7 @@ Auto generated R starter code for data set 691@statistisches-amt-kanton-zuerich.
 - **Startdate** `2019-12-31`
 - **Enddate** `2019-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI', 'http://publications.europa.eu/resource/authority/data-theme/EDUC', 'http://publications.europa.eu/resource/authority/data-theme/HEAL']`
-- **Keyword** `['altersgruppen', 'gemeinden', 'haushalte', 'kanton_zuerich', 'kinderbetreuung', 'covid-19', 'sars-cov-2', 'bevoelkerungsstatistik', 'einwohner', 'covid19', 'ogd']`
+- **Keyword** `['altersgruppen', 'gemeinden', 'haushalte', 'kanton_zuerich', 'kinderbetreuung', 'covid-19', 'einwohner', 'covid19', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.web.statistik.zh.ch/covid19_indikatoren_uebersicht/#/50/Alle`
 

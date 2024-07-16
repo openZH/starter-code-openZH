@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-15"
+date: "2024-07-16"
 output: html_document
 ---
 
@@ -15,11 +15,11 @@ Auto generated R starter code for data set 34@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2024-06-03T10:04:25`
+- **Modified** `2024-07-15T09:46:02`
 - **Startdate** `2007-12-31`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
-- **Keyword** `['bezirke', 'eigentum', 'gemeinden', 'handaenderungen', 'immobilien', 'kanton_zuerich', 'mehrfamilienhaus', 'ogd']`
+- **Keyword** `['bezirke', 'eigentum', 'gemeinden', 'eigentumswechsel', 'handaenderungen', 'immobilien', 'kanton_zuerich', 'mehrfamilienhaus', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
 

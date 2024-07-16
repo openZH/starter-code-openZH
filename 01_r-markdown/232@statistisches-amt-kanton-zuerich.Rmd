@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-15"
+date: "2024-07-16"
 output: html_document
 ---
 
@@ -19,7 +19,7 @@ Auto generated R starter code for data set 232@statistisches-amt-kanton-zuerich.
 - **Startdate** `1971-12-31`
 - **Enddate** `2021-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
-- **Keyword** `['bezirke', 'gemeinden', 'immobilien', 'kanton_zuerich', 'neuwohnungen', 'wohnbautaetigkeit', 'wohnungen', 'ogd']`
+- **Keyword** `['bezirke', 'gemeinden', 'immobilien', 'kanton_zuerich', 'wohnbautaetigkeit', 'wohnungen', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
 

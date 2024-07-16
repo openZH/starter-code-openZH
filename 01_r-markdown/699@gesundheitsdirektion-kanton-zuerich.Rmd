@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-15"
+date: "2024-07-16"
 output: html_document
 ---
 
@@ -19,7 +19,7 @@ Auto generated R starter code for data set 699@gesundheitsdirektion-kanton-zueri
 - **Startdate** `2020-07-06`
 - **Enddate** `2021-08-15`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/HEAL', 'http://publications.europa.eu/resource/authority/data-theme/TRAN']`
-- **Keyword** `['gesundheit', 'krankheiten', 'corona', 'covid-19', 'sars-cov-2', 'covid19', 'ogd']`
+- **Keyword** `['gesundheit', 'krankheiten', 'corona', 'covid-19', 'covid19', 'ogd']`
 - **Publisher** `['Gesundheitsdirektion des Kantons Zürich']`
 - **Landingpage** `https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_zh`
 

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-15"
+date: "2024-07-16"
 output: html_document
 ---
 
@@ -15,11 +15,11 @@ Auto generated R starter code for data set 711@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2020-12-10T00:00:00`
-- **Modified** `2024-03-15T13:56:43`
+- **Modified** `2024-07-15T09:33:38`
 - **Startdate** `2012-12-31`
 - **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
-- **Keyword** `['gemeindesteuerfuesse', 'gemeindesteuern', 'juristische_personen', 'natuerliche_personen', 'ogd']`
+- **Keyword** `['gemeindesteuern', 'juristische_personen', 'natuerliche_personen', 'steuerfuss', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `None`
 
@@ -41,15 +41,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1776
-# Title                    : Zürcher Gemeindesteuerfüsse - Zeitreihe
-# Description              : Gemeindesteuerfüsse seit 2012, ohne aktuelle Erhebung
-# Issued                   : 2020-12-10T15:38:07
-# Modified                 : 2024-03-15T13:56:44
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/steuerfuesse/kanton_zuerich_stf_timeseries.csv')
-
-# Distribution 1
 # Ktzhdistid               : 1775
 # Title                    : Zürcher Gemeindesteuerfüsse - aktuell
 # Description              : Gemeindesteuerfüsse der laufenden Erhebung. Die Daten werden während der Erhebungsphase (Dezember bis ca. März) laufend aktualisiert.
@@ -57,6 +48,15 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/steuerfuesse/kanton_z
 # Modified                 : 2024-03-14T11:22:21
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/steuerfuesse/kanton_zuerich_stf_aktuell.csv')
+
+# Distribution 1
+# Ktzhdistid               : 1776
+# Title                    : Zürcher Gemeindesteuerfüsse - Zeitreihe
+# Description              : Gemeindesteuerfüsse seit 2012, ohne aktuelle Erhebung
+# Issued                   : 2020-12-10T15:38:07
+# Modified                 : 2024-03-15T13:56:44
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/steuerfuesse/kanton_zuerich_stf_timeseries.csv')
 
 
 

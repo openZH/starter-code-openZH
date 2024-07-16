@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-15"
+date: "2024-07-16"
 output: html_document
 ---
 
@@ -19,7 +19,7 @@ Auto generated R starter code for data set 1541@statistisches-amt-kanton-zuerich
 - **Startdate** `2022-03-01`
 - **Enddate** `2024-05-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
-- **Keyword** `['aufenthalt', 'fluechtlinge', 'kanton_zuerich', 'einwohner', 'ogd']`
+- **Keyword** `['aufenthalt', 'gefluechtete', 'kanton_zuerich', 'einwohner', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `None`
 

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-15"
+date: "2024-07-16"
 output: html_document
 ---
 
@@ -15,11 +15,11 @@ Auto generated R starter code for data set 544@oberjugendanwaltschaft-kanton-zue
 ## Metadata
 
 - **Issued** `2019-11-28T00:00:00`
-- **Modified** `2024-06-05T07:13:03`
+- **Modified** `2024-07-15T10:11:42`
 - **Startdate** `2007-01-01`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/JUST']`
-- **Keyword** `['kanton_zuerich', 'strafdelikte', 'verurteilungen', 'jugendkriminalitaet', 'ogd']`
+- **Keyword** `['kanton_zuerich', 'strafdelikte', 'verurteilungen', 'jugendkriminalitaet', 'jugendliche', 'ogd']`
 - **Publisher** `['Oberjugendanwaltschaft des Kantons Zürich']`
 - **Landingpage** `None`
 

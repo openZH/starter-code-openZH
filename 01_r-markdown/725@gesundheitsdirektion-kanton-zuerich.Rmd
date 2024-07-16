@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-15"
+date: "2024-07-16"
 output: html_document
 ---
 
@@ -19,7 +19,7 @@ Auto generated R starter code for data set 725@gesundheitsdirektion-kanton-zueri
 - **Startdate** `2021-01-01`
 - **Enddate** `2022-10-12`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/HEAL']`
-- **Keyword** `['alter', 'altersgruppen', 'altersklassen', 'bezirke', 'geschlecht', 'gesundheit', 'kanton_zuerich', 'krankheiten', 'wohnsitz', 'corona', 'covid-19', 'sars-cov-2', 'covid19', 'ogd']`
+- **Keyword** `['alter', 'altersgruppen', 'altersklassen', 'bezirke', 'amtliches_geschlecht', 'gesundheit', 'kanton_zuerich', 'krankheiten', 'wohnsitz', 'corona', 'covid-19', 'covid19', 'ogd']`
 - **Publisher** `['Gesundheitsdirektion des Kantons Zürich']`
 - **Landingpage** `https://github.com/openZH/covid_19_vaccination_campaign_ZH`
 

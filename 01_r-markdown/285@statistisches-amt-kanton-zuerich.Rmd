@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-15"
+date: "2024-07-16"
 output: html_document
 ---
 
@@ -15,11 +15,11 @@ Auto generated R starter code for data set 285@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2024-03-04T13:59:47`
+- **Modified** `2024-07-15T09:53:13`
 - **Startdate** `1978-12-31`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
-- **Keyword** `['bevoelkerung', 'bezirke', 'gemeinden', 'heimat', 'kanton_zuerich', 'nationalitaet', 'schweiz', 'ogd']`
+- **Keyword** `['bevoelkerung', 'bezirke', 'gemeinden', 'herkunft', 'kanton_zuerich', 'nationalitaet', 'schweiz', 'staatsangehoerigkeit', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
 

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-15"
+date: "2024-07-16"
 output: html_document
 ---
 
@@ -15,11 +15,11 @@ Auto generated R starter code for data set 1601@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2022-09-20T17:24:49`
-- **Modified** `2024-03-28T14:46:02`
+- **Modified** `2024-07-15T11:49:08`
 - **Startdate** `1981-01-01`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
-- **Keyword** `['gemeinden', 'neubauten', 'wohnungen', 'wohnungsbau', 'wohnungsbestand', 'ogd']`
+- **Keyword** `['bautaetigkeit', 'gemeinden', 'wohnbautaetigkeit', 'wohnungen', 'wohnungsbau', 'wohnungsbestand', 'ogd']`
 - **Publisher** `['Stadt Winterthur']`
 - **Landingpage** `https://stadt.winterthur.ch/themen/die-stadt/winterthur/statistik/bauen-und-wohnen`
 

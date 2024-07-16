@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-15"
+date: "2024-07-16"
 output: html_document
 ---
 
@@ -15,11 +15,11 @@ Auto generated R starter code for data set 684@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2020-05-25T00:00:00`
-- **Modified** `2023-10-24T08:20:41`
+- **Modified** `2024-07-15T11:43:10`
 - **Startdate** `2002-12-31`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TRAN']`
-- **Keyword** `['bezirke', 'fahrzeuge', 'gemeinden', 'kanton_zuerich', 'motorfahrzeugbestand', 'motorfahrzeuge', 'personenwagen', 'privatverkehr', 'ogd']`
+- **Keyword** `['bezirke', 'fahrzeuge', 'gemeinden', 'kanton_zuerich', 'motorfahrzeuge', 'personenwagen', 'privatverkehr', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
 

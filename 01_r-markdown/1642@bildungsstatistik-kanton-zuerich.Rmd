@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-15"
+date: "2024-07-16"
 output: html_document
 ---
 
@@ -19,7 +19,7 @@ Auto generated R starter code for data set 1642@bildungsstatistik-kanton-zuerich
 - **Startdate** `2000-09-15`
 - **Enddate** `2022-09-15`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
-- **Keyword** `['ausbildung', 'berufsbildung', 'berufslehre', 'berufsmaturitaetsschule', 'berufsschule', 'bildung', 'bildungsstufe', 'lernende', 'schueler', 'schuelerinnen', 'bildungsdaten', 'ogd']`
+- **Keyword** `['ausbildung', 'berufsbildung', 'berufslehre', 'berufsmaturitaetsschule', 'berufsschule', 'bildung', 'bildungsstufe', 'lernende', 'schueler', 'bildungsdaten', 'ogd']`
 - **Publisher** `['Bildungsstatistik des Kantons Zürich']`
 - **Landingpage** `None`
 

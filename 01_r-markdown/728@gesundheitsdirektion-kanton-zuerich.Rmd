@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-15"
+date: "2024-07-16"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto generated R starter code for data set 728@gesundheitsdirektion-kanton-zueri
 - **Startdate** `2021-05-30`
 - **Enddate** `2023-05-02`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/HEAL']`
-- **Keyword** `['bezirke', 'gesundheit', 'kanton_zuerich', 'krankheiten', 'wasser', 'corona', 'covid-19', 'sars-cov-2', 'covid19', 'ogd']`
+- **Keyword** `['bezirke', 'gesundheit', 'kanton_zuerich', 'krankheiten', 'wasser', 'corona', 'covid-19', 'covid19', 'ogd']`
 - **Publisher** `['Gesundheitsdirektion des Kantons Zürich']`
 - **Landingpage** `https://github.com/openZH/covid_19_wastewater_monitoring_ZH`
 
