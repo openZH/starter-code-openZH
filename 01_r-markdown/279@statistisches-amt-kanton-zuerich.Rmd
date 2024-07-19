@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-18"
+date: "2024-07-19"
 output: html_document
 ---
 
@@ -19,7 +19,7 @@ Auto generated R starter code for data set 279@statistisches-amt-kanton-zuerich.
 - **Startdate** `1999-12-31`
 - **Enddate** `2022-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC']`
-- **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'schueler', 'studierende', 'tertiaerstufe', 'ogd']`
+- **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'schueler*innen', 'studierende', 'tertiaerstufe', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
 
