@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-07-23"
+date: "2024-07-24"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 2442@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2023-11-30T15:43:19`
-- **Modified** `2023-11-30T15:43:19`
+- **Modified** `2024-07-23T11:51:21`
 - **Startdate** `1988-12-31`
-- **Enddate** `2022-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI']`
 - **Keyword** `['abfall', 'umwelt', 'deponien', 'abfallanlagen', 'ogd']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Eingebautes Material nach Deponietypen im Kanton Zürich
 # Description              : Im Kanton Zürich eingebautes Deponiematerial, ausgewertet nach Deponietypen. Daten aus Jahresberichten der Deponien.
 # Issued                   : 2023-11-30T15:43:19
-# Modified                 : 2023-11-30T15:43:19
+# Modified                 : 2024-07-23T11:45:03
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002442_00004883.csv')
 
@@ -63,7 +63,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Restvolumen zu Einbauvolumen nach Deponietypen im Kanton Zürich
 # Description              : Verfügbares, bewilligtes Restvolumen im Verhältnis zum jährlichen Einbauvolumen der Zürcher Deponien. Daten aus Jahresberichten der Deponien.
 # Issued                   : 2023-11-30T15:43:19
-# Modified                 : 2023-11-30T15:43:19
+# Modified                 : 2024-07-23T11:47:57
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002442_00004885.csv')
 
