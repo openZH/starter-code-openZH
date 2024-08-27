@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-08-26"
+date: "2024-08-27"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Messdaten Luftschadstoffe und Meteorologie Kloten Feld 2020
 # Description              : Informationen zum Datensatz siehe Datensatzbeschrieb
 # Issued                   : 2024-07-31T09:03:23
-# Modified                 : 2024-07-31T09:03:23
+# Modified                 : 2024-08-26T15:27:15
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002383_00005465.csv')
 
@@ -54,7 +54,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Messdaten Luftschadstoffe und Meteorologie Kloten Feld 2021
 # Description              : Informationen zum Datensatz siehe Datensatzbeschrieb
 # Issued                   : 2024-07-31T09:03:23
-# Modified                 : 2024-07-31T09:03:23
+# Modified                 : 2024-08-26T15:27:18
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002383_00005466.csv')
 
@@ -63,7 +63,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Messdaten Luftschadstoffe und Meteorologie Kloten Feld 2022
 # Description              : Informationen zum Datensatz siehe Datensatzbeschrieb
 # Issued                   : 2024-07-31T09:03:23
-# Modified                 : 2024-07-31T09:03:23
+# Modified                 : 2024-08-26T15:27:21
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002383_00005467.csv')
 
@@ -72,7 +72,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Messdaten Luftschadstoffe und Meteorologie Kloten Feld 2023
 # Description              : Informationen zum Datensatz siehe Datensatzbeschrieb
 # Issued                   : 2024-07-31T09:03:23
-# Modified                 : 2024-07-31T09:03:23
+# Modified                 : 2024-08-26T15:27:24
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002383_00005468.csv')
 
