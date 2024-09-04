@@ -1,12 +1,14 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-09-03"
+date: "2024-09-04"
 output: html_document
 ---
 
 ## Dataset: Leerwohnungszahlen
 
-Leerwohnungsdaten der Zürcher Gemeinden
+Leerwohnungsdaten der Gemeinden im Kanton Gemeinden. 
+
+Jährlich aktualisiert wird nur die Ressource "Anzahl Leerwohnungen pro Gemeinde im Kanton Zürich seit 1994". Weitere Informationen dieser Ressource finden sie in den dazugehörigen Metadaten
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/128@statistisches-amt-kanton-zuerich)
 
@@ -15,7 +17,7 @@ Auto generated R starter code for data set 128@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2019-08-20T00:00:00`
-- **Modified** `2024-08-14T07:49:03`
+- **Modified** `2024-09-03T17:00:29`
 - **Startdate** `1984-06-01`
 - **Enddate** `2024-06-01`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
@@ -51,10 +53,10 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 
 # Distribution 1
 # Ktzhdistid               : 1978
-# Title                    : Anzahl Leerwohnungen pro Gemeinde im Kanton Zürich seit 1994
-# Description              : Stichtag der Erhebung ist der 1. Juni, die Angaben beziehen sich auf den Gemeindestand (Variable bfs) zum Zeitpunkt der Erhebung
+# Title                    : Anzahl Leerwohnungen pro Gemeinde im Kanton Zürich seit 1994 nach Anzahl Zimmer, Gebäudetyp, Eigentumsverhältnis und Alter der Wohnung (Alt vs. Neubau)
+# Description              : Stichtag der Erhebung ist der 1. Juni, die Angaben beziehen sich auf den Gemeindestand (Variable bfs) zum Zeitpunkt der Erhebung. Erhoben werden die Daten von den Gemeinden nach Vorgaben des BFS. Weiter Angaben zur Erhebung finden sich hier unter Methode: https://www.zh.ch/de/planen-bauen/raumplanung/immobilienmarkt/leerwohnungen.html#-291192554
 # Issued                   : 2021-11-23T11:01:23
-# Modified                 : 2024-08-14T07:47:45
+# Modified                 : 2024-09-03T17:06:34
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000128_00001978.csv')
 
