@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-09-09"
+date: "2024-09-10"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 1742@statistisches-amt-kanton-zuerich
 ## Metadata
 
 - **Issued** `2022-09-06T14:13:35`
-- **Modified** `2024-09-02T03:56:30`
+- **Modified** `2024-09-09T03:52:50`
 - **Startdate** `2017-01-01`
-- **Enddate** `2024-09-01`
+- **Enddate** `2024-09-08`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['branchen', 'einzelfirmen', 'firmen', 'genossenschaften', 'gmbh', 'handelsregister', 'konkurse', 'stiftungen', 'unternehmen', 'wirtschaft', 'vereine', 'unternehmensdaten', 'shab', 'ehra', 'zefix', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Konkurseröffnungen nach Branchen im Kanton Zürich und der Schweiz insgesamt, wöchentlich aktualisiert
 # Description              : Anzahl der Eröffnungen von Konkursverfahren gegen Unternehmen und weitere Rechtseinheiten, wie sie im Zentralen Firmenindex (Zefix) mit Mutationstyp "KE Auflösung inf. Konkurs" ausgewiesenen sind. Die Meldungen werden mit den Branchenklassifikationen gemäss der Allgemeinen Systematik der Wirtschaftszweige (NOGA) angereichert und nach Branchen-Abschnitten (Grossbuchstaben) aggregiert. Aufgrund von Unterschieden bei der Datenerhebung kann es zu Abweichungen von anderen Auswertungen (zB. von kantonalen Handelsregisterämtern) kommen. Variabeln: 'br_abschnitt_red' = Auswahl von Branchen-Abschnitten (Grossbuchstaben) gemäss der Allgemeinen Systematik der Wirtschaftszweige (NOGA); 'location' = Kantonskürzel oder 'CH' für die Schweiz insgesamt; 'date' = Datum der Publikation im Schweizerischen Handelsamtsblatt (SHAB), die im Normalfall einige Tage nach der Publikation durch die kantonalen Ämter erfolgt; 'value' = Anzahl erstmaliger Konkursverfahrenseröffnungen per SHAB-Publikationsdatum; 'cumsum_diff' = Differenz der Anzahl Konkursverfahrenseröffnungen am SHAB-Publikationsdatum verglichen mit dem Durchschnitt Konkurseröffnungen der Vergleichsperiode 2017 bis 2019.
 # Issued                   : 2022-09-06T14:13:35
-# Modified                 : 2024-09-02T05:56:27
+# Modified                 : 2024-09-09T05:52:44
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_ZEFIX_Konkurse.csv')
 
@@ -54,7 +54,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_ZEFIX_
 # Title                    : Neugründungen nach Branchen im Kanton Zürich und der Schweiz insgesamt, wöchentlich aktualisiert
 # Description              : None
 # Issued                   : 2023-01-20T15:22:41
-# Modified                 : 2024-09-02T05:56:30
+# Modified                 : 2024-09-09T05:52:50
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_ZEFIX_Neugruendungen.csv')
 
