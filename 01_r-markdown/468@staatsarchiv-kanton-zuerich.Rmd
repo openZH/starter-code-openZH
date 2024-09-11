@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-09-10"
+date: "2024-09-11"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 468@staatsarchiv-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2019-08-26T00:00:00`
-- **Modified** `2024-05-14T13:00:56`
+- **Modified** `2024-09-10T12:06:28`
 - **Startdate** `1525-01-01`
 - **Enddate** `1800-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI', 'http://publications.europa.eu/resource/authority/data-theme/EDUC']`

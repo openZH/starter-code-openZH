@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-09-10"
+date: "2024-09-11"
 output: html_document
 ---
 
 ## Dataset: Anzahl Einbrüche nach Gemeinden des Kantons Zürich
 
-Anzahl der Einbrüche wie sie in der Kriminalstatistik der Kantonspolizei Zürich erfasst werden. Aufgegliedert nach Gemeinden (im Fall der Stadt Zürich nach Stadtkreisen) und ergänzt mit Angaben zur Bevölkerungszahl. Die polizeiliche Kriminalstatistik (PKS) des Kantons Zürich wird jährlich publiziert. Die polizeiliche Kriminalstatistik verzeichnet nur die polizeilich bekannt gewordene Kriminalität - das sogenannte Hellfeld. Sie ist eine Ausgangsstatistik. D.h. die Straftaten erscheinen nicht zum Tatzeitpunkt in der Statistik. Ausschlaggebend für die Zählung in der PKS ist der Zeitpunkt, an dem die Polizei einen ersten Rapport zur Straftat abgeschlossen hat.
+Anzahl der Einbrüche, wie sie in der polizeilichen Kriminalstatistik (PKS) der Kantonspolizei Zürich erfasst werden. Die Erfassung erfolgt durch Polizistinnen und Polizisten im polizeilichen Datenerfassungssystem. Durch das Bundesamt für Statistik werden die erfassten Daten nach schweizweit einheitlichen Qualitätskriterien geprüft. Die Daten sind nach Gemeinden (im Fall der Stadt Zürich nach Stadtkreisen) des Kantons Zürich aufgegliedert und mit Angaben zur Bevölkerungszahl ergänzt. Die PKS des Kantons Zürich wird jährlich publiziert. Sie verzeichnet nur die polizeilich bekannt gewordene Kriminalität - das sogenannte Hellfeld. Die PKS ist eine Ausgangsstatistik, d.h. die Straftaten erscheinen nicht zum Tatzeitpunkt in der Statistik. Ausschlaggebend für die Zählung in der PKS ist der Zeitpunkt, an dem die Polizei einen ersten Rapport zur Straftat abgeschlossen hat.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2042@kantonspolizei-kanton-zuerich)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 2042@kantonspolizei-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2023-03-22T10:32:20`
-- **Modified** `2024-03-25T08:46:32`
+- **Modified** `2024-09-10T16:25:08`
 - **Startdate** `2009-01-01`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/JUST']`

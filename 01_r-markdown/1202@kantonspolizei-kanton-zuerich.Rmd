@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-09-10"
+date: "2024-09-11"
 output: html_document
 ---
 
 ## Dataset: Polizeiliche Kriminalstatistik (PKS) des Kantons Zürich
 
-Die polizeiliche Kriminalstatistik (PKS) des Kantons Zürich wird jährlich publiziert. Sie beinhaltet Zahlen zu den registrierten Straftaten (und zu polizeilich beschuldigten sowie geschädigten Personen) für das Strafgesetzbuch (StGB), das Ausländer- und Integrationsgesetz (AIG) und das Betäubungsmittelgesetz (BetmG). Die polizeiliche Kriminalstatistik verzeichnet nur die polizeilich bekannt gewordene Kriminalität - das sogenannte Hellfeld. Sie ist eine Ausgangsstatistik. D.h. die Straftaten erscheinen nicht zum Tatzeitpunkt in der Statistik. Ausschlaggebend für die Zählung in der PKS ist der Zeitpunkt, an dem die Polizei einen ersten Rapport zur Straftat abgeschlossen hat.
+Die polizeiliche Kriminalstatistik (PKS) des Kantons Zürich wird jährlich publiziert. Sie beinhaltet Zahlen zu den registrierten Straftaten (und zu polizeilich beschuldigten sowie geschädigten Personen) für das Strafgesetzbuch (StGB), das Ausländer- und Integrationsgesetz (AIG) und das Betäubungsmittelgesetz (BetmG) für den Kanton Zürich. Die Daten werden von Polizistinnen und Polizisten im polizeilichen Datenerfassungssystem registriert und vom Bundesamt für Statistik nach schweizweit einheitlichen Qualitätskriterien geprüft. Die Daten werden kontinuierlich bei Bekanntwerden von Straftaten erhoben. Sie verzeichnen somit das sogenannte Hellfeld. Änderungen in der Gesetzgebung können sich auf die Datenreihen der PKS auswirken. Die PKS ist eine Ausgangsstatistik, d.h. die Straftaten erscheinen nicht zum Tatzeitpunkt in der Statistik. Ausschlaggebend für die Zählung in der PKS ist der Zeitpunkt, an dem die Polizei einen ersten Rapport zur Straftat abgeschlossen hat.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1202@kantonspolizei-kanton-zuerich)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 1202@kantonspolizei-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2022-03-10T13:54:15`
-- **Modified** `2024-03-25T08:50:17`
+- **Modified** `2024-09-10T16:22:54`
 - **Startdate** `2009-01-01`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/JUST']`
