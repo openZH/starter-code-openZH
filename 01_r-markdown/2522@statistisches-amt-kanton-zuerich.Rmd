@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-09-24"
+date: "2024-09-25"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 2522@statistisches-amt-kanton-zuerich
 ## Metadata
 
 - **Issued** `2024-01-26T11:21:12`
-- **Modified** `2024-09-23T01:49:14`
+- **Modified** `2024-09-25T01:49:15`
 - **Startdate** `2023-09-01`
-- **Enddate** `2024-09-22`
+- **Enddate** `2024-09-24`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Web Analytics auf Ebene Datensatz 
 # Description              : Zeigt die Anzahl Klicks und Besuchende pro Datensatz und Tag.  'Datensatz' entspricht 'dataset' nach DCAP-AP CH.
 # Issued                   : 2024-01-26T00:00:00
-# Modified                 : 2024-09-23T03:49:11
+# Modified                 : 2024-09-25T03:49:12
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002522_00005024.csv')
 
@@ -54,7 +54,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Web Analytics zu den Zugriffen auf Ebene Ressource
 # Description              : Zeigt die Anzahl Klicks auf die 'Herunterladen' oder 'Konvertiere zu Excel' Schaltflächen und die Anzahl Besuchenden welche mindestens einen Klick auf die 'Herunterladen' oder 'Konvertiere zu Excel' Schaltfläche pro Ressource und Tag gemacht haben. 'Ressource' entspricht 'distribution' nach DCAP-AP CH. Zusätzlich wird die Anzahl Downloads (wie oft die Ressource aufgerufen wurde) ausgewiesen. In der Regel sollte die Anzahl Downloads immer höher oder gleich als die Anzahl Klicks auf die Schaltflächen im Datenkatalog sein. Da aber im Zeitraum von September 2023 bis heute aus nicht bekannten Gründen, nicht alle Zugriffe detektiert werden, sind die Zahlen zu den Downloads in diesem Zeitraum nicht abschliessend. Die Anzahl Downloads von Ressourcen, welche nicht auf unserem Webserver gespeichert sind, werden nicht gezählt und ist der Grund warum es bei den Anzahl Downloads zu leeren Werten kommen kann.
 # Issued                   : 2024-01-26T00:00:00
-# Modified                 : 2024-09-23T03:49:13
+# Modified                 : 2024-09-25T03:49:14
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002522_00005043.csv')
 
@@ -63,7 +63,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Web Analytics 'Details anzeigen' zu Ressourcen
 # Description              : Zeigt die Anzahl Klicks und Besuchende der Informationsseite der Ressourcen (Klick auf "Details anzeigen") pro Ressource und Tag. 'Ressource' entspricht 'distribution' nach DCAP-AP CH.
 # Issued                   : 2024-01-26T09:53:13
-# Modified                 : 2024-09-23T03:49:12
+# Modified                 : 2024-09-25T03:49:13
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002522_00005023.csv')
 
@@ -72,7 +72,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Web Analytics auf Ebene verwandter Datensatz
 # Description              : Zeigt die Anzahl Klicks und Besuchende pro verwandten Datensatz und Tag. 'Datensatz' entspricht 'dataset' nach DCAP-AP CH. Die Merkmale 'datensatz_id' und 'datensatz_titel' zeigen, von welchem Datensatz aus der Klick auf den verwandten Datensatz erfolgte. 
 # Issued                   : 2024-01-26T09:52:45
-# Modified                 : 2024-09-23T03:49:14
+# Modified                 : 2024-09-25T03:49:15
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002522_00005044.csv')
 
