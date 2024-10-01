@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-09-30"
+date: "2024-10-01"
 output: html_document
 ---
 
 ## Dataset: ÖV-Wege Quell-, Ziel- und Binnenverkehr [Anz.]
 
-Das ÖV-Verkehrsaufkommen ist die Summe aller ÖV-Personenwege im Quell-, Ziel- und Binnenverkehr an einem durchschnittlichen Werktag (DWV). Mit Prognosezustand. Anzahl Wege pro Gemeinde, pro Planungsregion und ganzer Kanton.
+Modelliertes Verkehrsaufkommen als Summe aller ÖV-Personenwege im Quell-, Ziel- und Binnenverkehr pro Gebiet an einem durchschnittlichen Werktag (DWV). Abweichungen zum tatsächlichen Aufkommen und zu Werten früherer Jahre sind auf Grund der Berechnungsmethode möglich.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/366@statistisches-amt-kanton-zuerich)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 366@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2022-11-11T07:34:30`
+- **Modified** `2024-09-30T16:46:16`
 - **Startdate** `2013-12-31`
 - **Enddate** `2018-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TRAN']`

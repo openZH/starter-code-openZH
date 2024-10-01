@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-09-30"
+date: "2024-10-01"
 output: html_document
 ---
 
 ## Dataset: MIV-Anteil (Modal Split) [%]
 
-Grundlage für die Berechnung des MIV-Anteils sind die MIV-Wege des Quell-, Ziel- und Binnenverkehrs des jeweiligen Gebiets an einem durchschnittlichen Werktag (DWV). Mit Prognosezustand.
+Grundlage für die Berechnung des MIV-Anteils sind die modellierten MIV-Wege des Quell-, Ziel- und Binnenverkehrs des jeweiligen Gebiets an einem durchschnittlichen Werktag (DWV). Abweichungen zum tatsächlichen Anteil und zu Werten früherer Jahre sind auf Grund der Berechnungsmethode möglich.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/364@statistisches-amt-kanton-zuerich)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 364@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-21T00:00:00`
-- **Modified** `2022-11-11T07:36:00`
+- **Modified** `2024-09-30T16:44:34`
 - **Startdate** `2013-12-31`
 - **Enddate** `2018-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TRAN']`
