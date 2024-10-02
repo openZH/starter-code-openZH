@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-10-01"
+date: "2024-10-02"
 output: html_document
 ---
 
 ## Dataset: Nutzungsdichte im Kanton Zürich
 
-Mit der Nutzungsdichte wird aufgezeigt, wie viele Einwohner und Beschäftige pro Hektare Bauzone (Wohn-, Misch- und Arbeitszonen) durchschnittlich wohnen bzw. arbeiten.
+Mit der Nutzungsdichte wird aufgezeigt, wie viele Einwohner und Beschäftige pro Hektare Bauzone (Wohn-, Misch- und Arbeitszonen) durchschnittlich wohnen bzw. arbeiten. Es werden Daten auf Stufe Gemeinde, Planungsregion und für den Kanton Zürich als Ganzes bereitgestellt. Datenquellen sind die Einwohnerdaten des Statistischen Amts Kanton Zürich, Beschäftigtendaten des Bundesamts für Statistik (BFS) und die Nutzungszonen gemäss ÖREB-Kataster des Kantons Zürich.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2622@are-kanton-zuerich)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 2622@are-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2024-05-30T11:16:47`
-- **Modified** `2024-05-30T11:16:47`
+- **Modified** `2024-10-01T13:28:21`
 - **Startdate** `2012-01-01`
 - **Enddate** `2021-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI', 'http://publications.europa.eu/resource/authority/data-theme/ENVI']`
