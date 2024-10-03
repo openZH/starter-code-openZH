@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-10-02"
+date: "2024-10-03"
 output: html_document
 ---
 
@@ -54,7 +54,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Export, Import und Einbau von Deponiematerial im Kanton Zürich
 # Description              : Abgelagertes Deponiematerial, aufgeteilt in drei Kategorien: 1. im Kanton Zürich abgelagert, 2. aus anderen Kantonen/Ausland importiert und im Kanton abgelagert, 3. in andere Kantone/Ausland exportiert und abgelagert. Daten vom E-Government Portals des BAFU.
 # Issued                   : 2023-11-30T15:43:19
-# Modified                 : 2023-11-30T15:43:19
+# Modified                 : 2024-10-02T10:18:33
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002442_00004884.csv')
 
