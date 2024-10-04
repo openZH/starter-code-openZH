@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-10-03"
+date: "2024-10-04"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 1421@handelsregisteramt-kanton-zueric
 ## Metadata
 
 - **Issued** `2022-10-11T14:15:13`
-- **Modified** `2024-08-06T08:48:53`
+- **Modified** `2024-10-03T08:30:30`
 - **Startdate** `2018-01-01`
-- **Enddate** `2024-06-30`
+- **Enddate** `2024-09-30`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['branchen', 'firmen', 'genossenschaften', 'handelsregister', 'konkurse', 'unternehmen', 'wirtschaft', 'vereine', 'unternehmensdaten', 'loeschungen', 'sitzverlegungen', 'ogd']`
 - **Publisher** `['Handelsregisteramt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Neueintragungen pro Quartal und Branchen ab 2018
 # Description              : Als Neueintragung versteht man die erstmalige Erfassung von Unternehmen und weiteren Rechtseinheiten im Handelsregister.
 # Issued                   : 2022-10-11T14:15:13
-# Modified                 : 2024-08-06T10:48:46
+# Modified                 : 2024-10-03T10:30:02
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_HRA_Neueintragungen.csv')
 
@@ -54,7 +54,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_HRA_Ne
 # Title                    : Löschungen pro Quartal und Branchen ab 2018
 # Description              : Als Löschungen werden Schliessungen von Unternehmen und weiteren Rechtseinheiten erfasst. Darunter fallen auch Löschungen von Amtes wegen sowie  aufgrund eines Fusionsverfahrens.
 # Issued                   : 2022-10-11T14:15:13
-# Modified                 : 2024-08-06T10:48:48
+# Modified                 : 2024-10-03T10:30:13
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_HRA_Loeschungen.csv')
 
@@ -63,7 +63,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_HRA_Lo
 # Title                    : Konkurse pro Quartal und Branchen ab 2018
 # Description              : Sobald das Konkursgericht über eine Firma den Konkurs eröffnet hat, wird ein Konkursfall registriert. Wird das Verfahren eingestellt und zu einem späteren Zeitpunkt ein neues Konkursverfahren eröffnet, wird diese  Konkurseröffnung erneut gezählt.
 # Issued                   : 2022-10-11T14:15:13
-# Modified                 : 2024-08-06T10:48:51
+# Modified                 : 2024-10-03T10:30:22
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_HRA_Konkurse.csv')
 
@@ -72,7 +72,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_HRA_Ko
 # Title                    : Sitzverlegungen pro Quartal und Branche ab 2018
 # Description              : Unternehmen und weitere Rechtseinheiten können ihre Domiziladresse ändern. Sobald ein Wechsel über die Kantonsgrenzen erfolgt, wechselt die Zuständigkeit des kantonalen Handelsregisters. Verlegt ein im Zürcher Handelsregister eingetragenes Unternehmen sein Domizil in einen anderen Kanton, wird dies als Wegzug aus dem Kanton Zürich gezählt. Umgekehrt hat eine Domiziländerung in eine Zürcher Gemeinde einen Eintrag im Zürcher Handelsregister zur Folge, was als Zuzug in den Kanton Zürich ausgewiesen wird.
 # Issued                   : 2022-10-11T14:15:13
-# Modified                 : 2024-08-06T10:48:53
+# Modified                 : 2024-10-03T10:30:30
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_HRA_Sitzverlegungen.csv')
 
