@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-10-04"
+date: "2024-10-05"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 400@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2018-06-15T12:00:00`
-- **Modified** `2023-10-06T15:48:18`
+- **Modified** `2024-10-04T10:13:21`
 - **Startdate** `1990-12-31`
-- **Enddate** `2022-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['bezirke', 'gemeindefinanzen', 'gemeinden', 'kanton_zuerich', 'finanzaufwand', 'oeffentliche_finanzen', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Ertrags- (+) / Aufwandüberschuss (-) [Fr./Einw.]
 # Description              : None
 # Issued                   : 2018-06-15T12:00:00
-# Modified                 : 2023-10-06T15:48:18
+# Modified                 : 2024-10-04T10:13:21
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_828.csv')
 

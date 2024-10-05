@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-10-04"
+date: "2024-10-05"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 226@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-21T00:00:00`
-- **Modified** `2023-09-07T15:25:12`
+- **Modified** `2024-10-03T14:23:22`
 - **Startdate** `1996-12-31`
-- **Enddate** `2022-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI']`
 - **Keyword** `['glas', 'bezirke', 'gemeinden', 'kanton_zuerich', 'recycling', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Verpackungsglasmengen [Tonnen]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2023-09-07T15:25:12
+# Modified                 : 2024-10-03T14:23:22
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_138.csv')
 

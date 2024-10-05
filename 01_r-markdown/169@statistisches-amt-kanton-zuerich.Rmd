@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-10-04"
+date: "2024-10-05"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 169@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2024-07-11T16:51:03`
+- **Modified** `2024-10-04T10:14:17`
 - **Startdate** `1990-12-31`
-- **Enddate** `2022-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['bezirke', 'finanzkennzahlen', 'gemeindefinanzen', 'gemeinden', 'kanton_zuerich', 'oeffentliche_finanzen', 'staatsinvestitionen', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Nettoinvestitionen [Fr./Einw.]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2023-10-06T15:47:54
+# Modified                 : 2024-10-04T10:14:17
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_430.csv')
 

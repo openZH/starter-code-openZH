@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-10-04"
+date: "2024-10-05"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 182@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2023-04-14T08:59:48`
+- **Modified** `2024-09-30T08:53:41`
 - **Startdate** `2004-12-31`
-- **Enddate** `2022-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TRAN']`
 - **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'oeffentlicher_verkehr', 'verkehrsinfrastruktur', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Weg zur nächsten Haltestelle [m]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2023-04-14T08:59:48
+# Modified                 : 2024-09-30T08:53:41
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_400.csv')
 

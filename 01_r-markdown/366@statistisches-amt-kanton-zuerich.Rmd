@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-10-04"
+date: "2024-10-05"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : ÖV-Wege Quell-, Ziel- und Binnenverkehr [Anz.]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2020-09-22T14:44:38
+# Modified                 : 2024-09-30T08:54:00
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_492.csv')
 
