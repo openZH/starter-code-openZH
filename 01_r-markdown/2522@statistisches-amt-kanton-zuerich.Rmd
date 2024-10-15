@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-10-14"
+date: "2024-10-15"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Web Analytics auf Ebene Datensatz 
 # Description              : Zeigt die Anzahl Klicks und Besuchende pro Datensatz und Tag.  'Datensatz' entspricht 'dataset' nach DCAP-AP CH.
 # Issued                   : 2024-01-26T00:00:00
-# Modified                 : 2024-10-14T03:49:12
+# Modified                 : 2024-10-15T03:49:13
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002522_00005024.csv')
 
