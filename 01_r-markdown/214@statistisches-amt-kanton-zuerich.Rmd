@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-11-01"
+date: "2024-11-02"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 214@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2023-10-24T10:19:36`
+- **Modified** `2024-11-01T16:07:51`
 - **Startdate** `1990-12-31`
-- **Enddate** `2022-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC']`
 - **Keyword** `['berufsschule', 'bezirke', 'gemeinden', 'kanton_zuerich', 'schueler*innen', 'schulen', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Schül. Berufsschule [pro 1000 Einw.]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2023-10-24T10:19:36
+# Modified                 : 2024-11-01T16:07:51
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_142.csv')
 
