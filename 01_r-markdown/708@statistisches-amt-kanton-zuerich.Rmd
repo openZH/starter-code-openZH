@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-11-02"
+date: "2024-11-03"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 708@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2020-11-11T13:06:00`
-- **Modified** `2024-10-30T13:26:57`
+- **Modified** `2024-11-02T06:50:19`
 - **Startdate** `2015-12-31`
 - **Enddate** `2019-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Steuerpflichtige, Steuerfaktoren und Steuererträge jur. Personen nach Rechtsform
 # Description              : Steuerpflichtige, Steuerfaktoren (Reingewinn/Kapital) und Steuererträge der juristischen Personen. Bei den Steuererträgen handelt es sich um die einfache Staatssteuer, wenn nichts anderes angegeben ist. Die Daten stammen vom Kantonalen Steueramt. Rechtsformen sind: Aktiengesellschaften, GmbH, Genossenschaften, Vereine und Stiftungen. Stichtag: Gewinnsteuer und Kapitalsteuer werden jedes Jahr erhoben. Für die Bemessung der Gewinn-/Kapitalsteuer wird auf den Gewinn/das Kapital an einem bestimmten Stichtag (Gewinn/Kapital am Ende des Geschäftsjahres) abgestellt.
 # Issued                   : 2020-11-11T13:12:48
-# Modified                 : 2024-10-30T14:26:58
+# Modified                 : 2024-11-02T07:50:20
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000708_00001747.csv')
 
