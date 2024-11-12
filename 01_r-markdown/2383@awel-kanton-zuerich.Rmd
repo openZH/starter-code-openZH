@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-11-11"
+date: "2024-11-12"
 output: html_document
 ---
 
 ## Dataset: Messdaten zu ultrafeinen Partikeln in Kloten: Anzahl-Grössenverteilungen, Luftschadstoffe und Meteorologie
 
-Dieser Datensatz ist das Ergebnis einer Luftqualitäts-Messkampagne von OSTLUFT in den Jahren 2020 bis 2023, durchgeführt in der Stadt Kloten im Kanton Zürich. OSTLUFT ist die Luftqualitätsüberwachung der Ostschweizer Kantone und des Fürstentums Liechtenstein. Westlich von Kloten liegt der Flughafen Zürich-Kloten. Gleichzeitig gibt es in der Gegend auch hohe Strassenverkehrsaufkommen. Beides sind wichtige Quellen für ultrafeine Partikel (d.h., Aerosolpartikel mit einem Durchmesser kleiner als 100 nm). Mit Hilfe der erhobenen Messdaten kann die Frage beantwortet werden, wie sehr Luft- und Strassenverkehr in Kloten das Vorkommen und die Dynamik von ultrafeinen Partikeln am Messort beeinflussen. Dafür wurden mit einer Luftqualitäts-Messstation verschiedene Luftschadstoffe, meteorologische Parameter und die Anzahl-Grössenverteilungen ultrafeiner Partikel gemessen. Details zum Messort, zu den verwendeten Methoden, Messgrössen sowie der zeitlichen Datenabdeckung sind dem beigefügten Datensatzbeschrieb und dem verlinkten Fachbericht von OSTLUFT zu entnehmen.
+Dieser Datensatz ist das Ergebnis einer Luftqualitäts-Messkampagne von Ostluft in den Jahren 2020 bis 2023, durchgeführt in der Stadt Kloten im Kanton Zürich. Ostluft ist die Luftqualitätsüberwachung der Ostschweizer Kantone und des Fürstentums Liechtenstein. Westlich von Kloten liegt der Flughafen Zürich-Kloten. Gleichzeitig gibt es in der Gegend auch hohe Strassenverkehrsaufkommen. Beides sind wichtige Quellen für ultrafeine Partikel (d.h., Aerosolpartikel mit einem Durchmesser kleiner als 100 nm). Mit Hilfe der erhobenen Messdaten kann die Frage beantwortet werden, wie sehr Luft- und Strassenverkehr in Kloten das Vorkommen und die Dynamik von ultrafeinen Partikeln am Messort beeinflussen. Dafür wurden mit einer Luftqualitäts-Messstation verschiedene Luftschadstoffe, meteorologische Parameter und die Anzahl-Grössenverteilungen ultrafeiner Partikel gemessen. Details zum Messort, zu den verwendeten Methoden, Messgrössen sowie der zeitlichen Datenabdeckung sind dem beigefügten Datensatzbeschrieb und dem verlinkten Fachbericht von Ostluft zu entnehmen.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2383@awel-kanton-zuerich)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 2383@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2024-07-31T09:03:23`
-- **Modified** `2024-07-31T09:03:23`
+- **Modified** `2024-11-11T08:54:59`
 - **Startdate** `2020-02-29`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI']`
