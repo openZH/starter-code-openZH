@@ -1,0 +1,79 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2024-11-22"
+output: html_document
+---
+
+## Dataset: Leerwohnungen der Stadt Winterthur
+
+Leerwohnungen der Stadt Winterthur ab 1984. Die Leerwohnungszählung erhebt die Anzahl leerstehenden Wohnungen per  1. Juni des Jahres. Die Leerwohnungszählung wird nach Vorgaben des Bundes durchgeführt. Nicht erfasst werden Wohnungen, die zwar unbewohnt, jedoch schon vermietet oder verkauft sind. Ebenfalls nicht erfasst werden Wohnungen, die zwar ausgeschrieben sind, aber am 1. Juni nicht bezugsbereit sind. Die von der Leerwohnungszählung ausgewiesenen Resultate beziehen sich deshalb auf denjenigen Teil des Wohnungsangebots, der nicht sofort von der Nachfrage absorbiert wird. Eine vollständige Dokumentation ist in der Ressource "Dokumentation Daten" zu finden.
+
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2582@stadt-winterthur)
+
+Auto generated R starter code for data set 2582@stadt-winterthur.
+
+## Metadata
+
+- **Issued** `2024-11-21T12:29:29`
+- **Modified** `2024-11-21T12:29:29`
+- **Startdate** `1984-06-01`
+- **Enddate** `2024-06-01`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
+- **Keyword** `['leerwohnungen', 'leerwohnungsziffer', 'mietwohnungen', 'wohnung', 'wohnungen', 'ogd']`
+- **Publisher** `['Stadt Winterthur']`
+- **Landingpage** `https://stadt.winterthur.ch/themen/die-stadt/winterthur/statistik/bauen-und-wohnen`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 5283
+# Title                    : Leerwohnungen und Leerwohnungsquote der Stadt Winterthur nach Jahr
+# Description              : Eine vollständige Dokumentation ist in der Ressource "Dokumentation Daten" zu finden.
+# Issued                   : 2024-11-21T12:29:29
+# Modified                 : 2024-11-21T12:29:29
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002582_00005283.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Stadt Winterthur | Stadtentwicklung der Stadt Winterthur | statistik@win.ch
