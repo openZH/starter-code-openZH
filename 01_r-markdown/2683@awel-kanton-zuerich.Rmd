@@ -1,15 +1,16 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-12-04"
+date: "2024-12-05"
 output: html_document
 ---
 
 ## Dataset: Treibhausgasemissionen im Kanton Zürich
 
-Emissionen der wichtigsten Klimagase (CO2, CH4, N2O und synthetische Gase) im Kanton Zürich. 
+Emissionen der wichtigsten Klimagase (CO2, CH4, N2O und synthetische Gase) im Kanton Zürich.
 Die aufgeführten Treibhausgasemissionen sind als CO2-Äquivalente in Tonnen pro Jahr ausgewiesen und nach dem Territorialprinzip bilanziert. Das bedeutet, dass alle innerhalb des Kantons Zürich anfallenden Emissionen für die Bilanz berücksichtigt werden. 
 Die Emissionen liegen als jährliche Zeitreihe ab 1990 vor. Sie werden zudem für die fünf Hauptgruppen "Abwasser und Abfall", "Landwirtschaft", "Verkehr", "Industrie" und "Gebäude" ausgewiesen. Bei Bedarf können sie auf differenziertere Untergruppen verfeinert werden.
 Die Emissionsdaten stammen hauptsächlich aus der jährlich nachgeführten kantonalen Bilanzierung mittels "Ecospeed Region". Die Emissionen aus dem Gebäudebereich stammen aus der zweijährlichen Berichterstattung zu den "CO2-Emissionen aus dem Gebäudepark" zuhanden des Bundes.
+Um die Entwicklung der Treibhausgasemissionen möglichst zeitnah sichtbar zu machen, wurde die Erstellungsmethodik 2024 leicht überarbeitet. Dies hat zur Folge, dass sich die Emissionsdaten auch für zurückliegende Jahre leicht geändert haben. Zukünftig ist eine jährliche Datennachführung und -aktualisierung vorgesehen.
 Detailliertere Angaben zu den Daten sind als eigene Ressource "Datenbeschreibung Treibhausgasemissionen im Kanton Zürich" verlinkt.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2683@awel-kanton-zuerich)
@@ -19,7 +20,7 @@ Auto generated R starter code for data set 2683@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2024-08-21T12:40:30`
-- **Modified** `2024-08-23T16:42:27`
+- **Modified** `2024-12-04T15:15:30`
 - **Startdate** `1990-01-01`
 - **Enddate** `2022-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI']`

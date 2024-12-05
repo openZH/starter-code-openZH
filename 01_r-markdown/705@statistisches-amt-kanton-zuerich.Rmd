@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-12-04"
+date: "2024-12-05"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 705@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2020-10-14T22:35:00`
-- **Modified** `2023-11-22T14:29:12`
+- **Modified** `2024-12-04T11:34:11`
 - **Startdate** `2010-12-31`
 - **Enddate** `2050-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
@@ -35,12 +35,30 @@ library(skimr)
 
 # Load data
 
--   The dataset has 4 distribution(s) in CSV format.
+-   The dataset has 6 distribution(s) in CSV format.
 -   All available CSV distributions are listed below and can be read into a tibble.
 
 ```{r}
 
 # Distribution 0
+# Ktzhdistid               : 5785
+# Title                    : Bevölkerungsprognose Trend ZH 2024, nach Region, Geschlecht und 20 Altersklassen
+# Description              : Bevölkerung 2010–2050 nach Region, Geschlecht und Alter, nach zivilrechtlichem Wohnsitz, Daten per Ende Jahr. Maschinenlesbares Format.
+# Issued                   : 2024-12-04T12:42:21
+# Modified                 : 2024-12-04T12:42:21
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000705_00005785.csv')
+
+# Distribution 1
+# Ktzhdistid               : 5784
+# Title                    : Bevölkerungsprognose Trend ZH 2024, nach Bezirk, Geschlecht und 20 Altersklassen
+# Description              : Bevölkerung 2010–2050 nach Bezirk, Geschlecht und Alter, nach zivilrechtlichem Wohnsitz, Daten per Ende Jahr. Maschinenlesbares Format.
+# Issued                   : 2024-12-04T12:42:29
+# Modified                 : 2024-12-04T12:42:29
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000705_00005784.csv')
+
+# Distribution 2
 # Ktzhdistid               : 4901
 # Title                    : Bevölkerungsprognose Trend ZH 2023, nach Region, Geschlecht und 20 Altersklassen
 # Description              : Bevölkerung 2010–2050 nach Region, Geschlecht und Alter, nach zivilrechtlichem Wohnsitz, Daten per Ende Jahr. Maschinenlesbares Format.
@@ -49,7 +67,7 @@ library(skimr)
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000705_00004901.csv')
 
-# Distribution 1
+# Distribution 3
 # Ktzhdistid               : 4902
 # Title                    : Bevölkerungsprognose Trend ZH 2023, nach Bezirk, Geschlecht und 20 Altersklassen
 # Description              : Bevölkerung 2010–2050 nach Bezirk, Geschlecht und Alter, nach zivilrechtlichem Wohnsitz, Daten per Ende Jahr. Maschinenlesbares Format.
@@ -58,7 +76,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000705_00004902.csv')
 
-# Distribution 2
+# Distribution 4
 # Ktzhdistid               : 1740
 # Title                    : Bevölkerungsprognose Trend ZH 2022, nach Region, Geschlecht und 20 Altersklassen
 # Description              : Bevölkerung 2010–2050 nach Region, Geschlecht und Alter, nach zivilrechtlichem Wohnsitz, Daten per Ende Jahr. Maschinenlesbares Format.
@@ -67,7 +85,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000705_00001740.csv')
 
-# Distribution 3
+# Distribution 5
 # Ktzhdistid               : 1741
 # Title                    : Bevölkerungsprognose Trend ZH 2022, nach Bezirk, Geschlecht und 20 Altersklassen
 # Description              : Bevölkerung 2010–2050 nach Bezirk, Geschlecht und Alter, nach zivilrechtlichem Wohnsitz, Daten per Ende Jahr. Maschinenlesbares Format.
