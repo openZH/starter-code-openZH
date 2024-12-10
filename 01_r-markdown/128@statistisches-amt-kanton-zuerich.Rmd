@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-12-09"
+date: "2024-12-10"
 output: html_document
 ---
 
 ## Dataset: Leerwohnungszahlen
 
-Leerwohnungsdaten der Gemeinden im Kanton Gemeinden. 
+Leerwohnungsdaten der Gemeinden im Kanton Zürich. Die Daten werden für die Leerwohnungszählung erhoben.
 
 Jährlich aktualisiert wird nur die Ressource "Anzahl Leerwohnungen pro Gemeinde im Kanton Zürich seit 1994". Weitere Informationen dieser Ressource finden sie in den dazugehörigen Metadaten
 
@@ -17,7 +17,7 @@ Auto generated R starter code for data set 128@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2019-08-20T00:00:00`
-- **Modified** `2024-09-03T17:00:29`
+- **Modified** `2024-12-09T14:34:07`
 - **Startdate** `1984-06-01`
 - **Enddate** `2024-06-01`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
