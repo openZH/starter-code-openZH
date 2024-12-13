@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-12-12"
+date: "2024-12-13"
 output: html_document
 ---
 
 ## Dataset: Feuerwehr-Einsätze in Winterthur
 
-Schutz und Intervention Winterthur pflegt seit 2019 sämtliche Feuerwehreinsätze und veröffentlicht diese auf der städtischen Website. Die Mehrheit der Einsätze finden auf städtischem Gebiet statt. Wird die Feuerwehr Winterthur zur Unterstützung in umliegende Gemeinden gerufen, sind diese Einsätze ebenfalls im API erfasst. Die Rohdaten sind als API verfügbar und können sowohl als JSON als auch als CSV bezogen werden. In den Rohdaten enthalten sind Angaben wie das Einsatzdatum, der Zeitpunkt des Alarms, die Dauer des Einsatzes, einen Titel, die verwendeten Fahrzeuge, sowohl die Anzahl der involvierten Personen der Feuerwehren und des Zivilschutzes. Die Einsätze werden regelmässig (meist täglich) nachgeführt. 
+Schutz & Intervention Winterthur veröffentlicht seit 2019 sämtliche Feuerwehr-Einsätze auf der städtischen Website. Die Mehrheit der Einsätze finden auf städtischem Gebiet statt. Wird die Feuerwehr von Schutz & Intervention Winterthur zur Unterstützung in umliegende Gemeinden gerufen, sind diese Einsätze ebenfalls im API erfasst. Die Rohdaten sind als API verfügbar und können sowohl als JSON als auch als CSV bezogen werden. In den Rohdaten enthalten sind Angaben wie das Einsatzdatum, der Zeitpunkt des Alarms, die Dauer des Einsatzes, ein Titel, die verwendeten Fahrzeuge sowie die Anzahl der involvierten Personen der Feuerwehr und des Zivilschutzes. Die Einsätze werden regelmässig (meist täglich) nachgeführt. 
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2822@stadt-winterthur)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 2822@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2024-12-11T17:15:28`
-- **Modified** `2024-12-11T17:15:28`
+- **Modified** `2024-12-12T09:04:58`
 - **Startdate** `2019-01-01`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/JUST']`
