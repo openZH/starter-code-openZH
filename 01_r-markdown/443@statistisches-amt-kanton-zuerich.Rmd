@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-12-16"
+date: "2024-12-17"
 output: html_document
 ---
 
 ## Dataset: Abstimmungsempfehlungen von Kantonsrat und Regierungsrat des Kantons Zürich
 
-Abstimmungsempfehlungen des Zürcher Regierungs- und Kantonsrats zu kantonalen Abstimmungen und des Bundes-, des National- und des Ständerates zu eidgenössischen Abstimmungen. Es besteht kein Anspruch auf Vollständigkeit. Bitte senden Sie Ergänzungen zum Datensatz an die unter Kontakt angegebene E-Mail-Adresse.
+Abstimmungsempfehlungen des Zürcher Regierungs- und Kantonsrats zu kantonalen Abstimmungen und des Bundes-, des National- und des Ständerates zu eidgenössischen Abstimmungen. Die Daten werden von den Parteien geliefert und von den Webseiten der Parteien ausgelesen, es besteht daher kein Anspruch auf Vollständigkeit. Falls Sie Ergänzungen haben, senden Sie diese an die unter Kontakt angegebene E-Mail-Adresse.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/443@statistisches-amt-kanton-zuerich)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 443@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2019-07-02T00:00:00`
-- **Modified** `2024-07-16T16:54:45`
+- **Modified** `2024-12-16T11:58:22`
 - **Startdate** `1981-04-05`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE']`
