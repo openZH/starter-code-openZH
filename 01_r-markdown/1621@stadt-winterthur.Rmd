@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-12-18"
+date: "2024-12-19"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 1621@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2022-09-20T17:10:34`
-- **Modified** `2024-06-04T16:54:18`
-- **Startdate** `1995-01-01`
-- **Enddate** `2019-12-31`
+- **Modified** `2024-12-18T16:36:19`
+- **Startdate** `1995-12-31`
+- **Enddate** `2022-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['arbeitskraefte', 'beschaeftigte', 'bevoelkerung', 'gemeinden', 'ogd']`
 - **Publisher** `['Stadt Winterthur']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Beschäftigtendichte Stadt Winterthur ab 1995
 # Description              : Eine vollständige Dokumentation ist in der Ressource "Dokumentation Daten" zu finden.
 # Issued                   : 2022-09-20T17:10:34
-# Modified                 : 2024-06-04T16:54:00
+# Modified                 : 2024-12-18T17:36:19
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001621_00003063.csv')
 
