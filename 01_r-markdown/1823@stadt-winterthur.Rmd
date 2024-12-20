@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-12-19"
+date: "2024-12-20"
 output: html_document
 ---
 
 ## Dataset: Beschäftigte der Stadt Winterthur
 
-Beschäftigte der Stadt Winterthur ab 2018, Stand Ende Quartal des Jahres. Quelle: Beschäftigungsstatistik (BESTA), BFS.
+Beschäftigte der Stadt Winterthur ab 2018, Stand Ende Quartal des Jahres. Quelle: Beschäftigungsstatistik (BESTA), BFS. Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1823@stadt-winterthur)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 1823@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2023-03-09T11:53:00`
-- **Modified** `2023-08-02T09:44:29`
+- **Modified** `2024-12-19T13:53:34`
 - **Startdate** `2018-01-01`
 - **Enddate** `2022-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON']`
@@ -43,9 +43,9 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 3360
 # Title                    : Beschäftigte im Quartal nach Sektor und Geschlecht in Total und Vollzeitäquivalente ab 2018
-# Description              : Die Daten beinhalten aggregierte Beschäftigtenzahlen in der Stadt Winterthur. Sie sind nach Sektor und Geschlecht aufgeschlüsselt. Neben den Totalen werden auch die Vollzeitäquivalente ("VZAE") abgebildet. Die hier ausgewiesenen Daten zu den Beschäftigten basieren auf der Beschäftigungsstatistik (BESTA) des BFS. Sekundärsektor = Bergbau, Verarbeitendes Gewerbe/Herstellung von Waren, Energie- und Wasserversorgung, Baugewerbe/Bau  Tertiärsektor = Handel, Instandhaltung/Reparatur, Verkehr/Lagerei, Gastgewerbe/Gastronomie, Information/Kommunikation, Finanz-/Versicherungs-DL, Grundstücks-/Wohnungswesen, weitere DL, öffentliche Verwaltung, Erziehung/Unterricht, Gesundheit, Kunst 
+# Description              : Die Daten beinhalten aggregierte Beschäftigtenzahlen in der Stadt Winterthur. Sie sind nach Sektor und Geschlecht aufgeschlüsselt. Neben den Totalen werden auch die Vollzeitäquivalente ("VZAE") abgebildet. Die hier ausgewiesenen Daten zu den Beschäftigten basieren auf der Beschäftigungsstatistik (BESTA) des Bundesamt für Statistik BFS. Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben. 
 # Issued                   : 2023-03-09T11:53:00
-# Modified                 : 2024-03-27T09:23:53
+# Modified                 : 2024-12-19T11:14:41
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001823_00003360.csv')
 

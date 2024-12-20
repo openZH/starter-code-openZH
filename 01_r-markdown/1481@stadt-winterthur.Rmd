@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-12-19"
+date: "2024-12-20"
 output: html_document
 ---
 
 ## Dataset: Bevölkerungswachstum der Stadt Winterthur ab 1985
 
-Zeitreihe des Bevölkerungsbestands und -wachstums (total sowie Schweizer:innen und Ausländer:innen) in der Stadt Winterthur ab 1985.
+Zeitreihe des Bevölkerungsbestands und -wachstums (total sowie Schweizer:innen und Ausländer:innen) in der Stadt Winterthur ab 1985. Eine vollständige Dokumentation ist in der Ressource "Dokumentation Daten" zu finden.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1481@stadt-winterthur)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 1481@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2022-09-20T17:00:21`
-- **Modified** `2023-08-02T09:46:38`
+- **Modified** `2024-12-19T17:21:31`
 - **Startdate** `1985-12-31`
 - **Enddate** `2021-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
@@ -43,9 +43,9 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 2898
 # Title                    : Bevölkerungsbestand und -wachstum total und Schweizer:innen und Ausländer:innen nach Jahr
-# Description              : Variablen: 'yyyy' = Jahr; 'gesamt' = Gesamtzahl der Einwohner:innen; 'wachstum' = Bevölkerungswachstum zum Vorjahr absolut; 'schweiz' = Anzahl Schweizer:innen; 'ausland' = Anzahl Ausländer:innen.
+# Description              : Variablen: 'yyyy' = Jahr; 'gesamt' = Gesamtzahl der Einwohner:innen; 'wachstum' = Bevölkerungswachstum zum Vorjahr absolut; 'schweiz' = Anzahl Schweizer:innen; 'ausland' = Anzahl Ausländer:innen. Eine vollständige Dokumentation ist in der Ressource "Dokumentation Daten" zu finden.
 # Issued                   : 2022-09-20T17:00:21
-# Modified                 : 2024-03-19T16:33:16
+# Modified                 : 2024-12-19T17:21:50
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001481_00002898.csv')
 

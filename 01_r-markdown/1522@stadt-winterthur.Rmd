@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-12-19"
+date: "2024-12-20"
 output: html_document
 ---
 
 ## Dataset: Betriebe, Beschäftigte, Vollzeitäquivalente in der Stadt Winterthur ab 2011
 
-Betriebe, Beschäftigte und Vollzeitäquivalente nach Branchen in der Stadt Winterthur. Die Branchen sind mit NOGA08 (Stufe 2) codiert (Allgemeine Systematik der Wirtschaftszweige, Nomenclature Générale des Activités économiques). Datenquelle: Bundesamt für Statistik, Statistik der Unternehmensstruktur (STATENT).
+Betriebe, Beschäftigte und Vollzeitäquivalente nach Branchen in der Stadt Winterthur. Die Branchen sind mit NOGA08 (Stufe 2) codiert (Allgemeine Systematik der Wirtschaftszweige, Nomenclature Générale des Activités économiques). Datenquelle: Bundesamt für Statistik, Statistik der Unternehmensstruktur (STATENT). Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1522@stadt-winterthur)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 1522@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2022-09-20T17:22:40`
-- **Modified** `2024-04-08T10:44:05`
+- **Modified** `2024-12-19T13:53:47`
 - **Startdate** `2011-01-01`
 - **Enddate** `2021-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/AGRI', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
@@ -43,9 +43,9 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 2900
 # Title                    : Betriebe, Beschäftigte, Vollzeitäquivalente nach Branchen in der Stadt Winterthur nach Jahr
-# Description              : Variablen: 'jahr' = Jahr gemäss STATENT; 'noga082_id' = ID der Branche nach NOGA08, Stufe 2; 'noga082' = Name der Branche nach NOGA08, Stufe 2; 'betriebe' = Anzahl Betriebe nach Branche (NOGA-Code). Sind weniger als 4 Betriebe in einer Gruppe, wird ein leerer Wert in den Spalten 'betriebe', 'beschaeftigte' und 'vzae' ausgewiesen. Zudem wird die Spalte 'betriebe_ist_kleingruppe' mit einem 'true' vermerkt.; 'beschaeftigte' = Anzahl Beschäftigte nach Branche (NOGA-Code); 'vzae' = Anzahl Vollzeitäquivalente nach Branche (NOGA-Code).
+# Description              : Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
 # Issued                   : 2022-09-20T17:22:40
-# Modified                 : 2024-04-08T10:49:13
+# Modified                 : 2024-12-19T13:54:18
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001522_00002900.csv')
 

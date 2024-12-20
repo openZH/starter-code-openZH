@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2024-12-19"
+date: "2024-12-20"
 output: html_document
 ---
 
-## Dataset: Bevölkerung der Stadt Winterthur nach Alter, Geschlecht und Herkunft ab 2021
+## Dataset: Bevölkerung der Stadt Winterthur nach Alter, Geschlecht und Herkunft
 
-Bestand der wirtschaftlichen Wohnbevölkerung nach Alter (5-Jahres-Altersgruppen), Geschlecht und Herkunft (Schweiz / Ausland) per Ende Jahr.
+Dieser Datensatz wird nicht mehr weitergeführt (discontinued). Als Alternative wird der Datensatz "Bevölkerung der Stadt Winterthur, nach Heimat, Geschlecht und Altersklasse" angeboten (siehe verwandte Datensätze). Bestand der wirtschaftlichen Wohnbevölkerung nach Alter (5-Jahres-Altersgruppen), Geschlecht und Herkunft (Schweiz / Ausland) per Ende Jahr.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1521@stadt-winterthur)
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 1521@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2022-09-20T16:55:57`
-- **Modified** `2023-08-02T09:46:19`
-- **Startdate** `2021-01-01`
-- **Enddate** `2021-12-31`
+- **Modified** `2024-12-19T16:51:29`
+- **Startdate** `2014-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['alter', 'altersgruppen', 'altersklassen', 'altersstruktur', 'bevoelkerung', 'bevoelkerungswachstum', 'gemeinden', 'nationalitaet', 'ogd']`
 - **Publisher** `['Stadt Winterthur']`
@@ -43,9 +43,9 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 2899
 # Title                    : Alter, Geschlecht, Herkunft der Einwohner:innen der Stadt Winterthur nach Jahr
-# Description              : Variablen: 'AK' = 5-Jahres-Altersklassen; 'TotalMann' = Gesamtzahl Männer; 'TotalFrau' = Gesamtzahl Frauen; 'SchweizMann' = Anzahl männliche Schweizer Staatsbürger; 'SchweizFrau' = Anzahl weibliche Schweizer Staatsbürger; 'AuslandMann' = Anzahl männliche Ausländer; 'AuslandFrau' = Anzahl weibliche Ausländerinnen.
+# Description              : Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
 # Issued                   : 2022-09-20T16:55:57
-# Modified                 : 2023-04-19T13:31:32
+# Modified                 : 2024-12-19T16:37:58
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001521_00002899.csv')
 
