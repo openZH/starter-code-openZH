@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-01-08"
+date: "2025-01-09"
 output: html_document
 ---
 
@@ -17,9 +17,9 @@ Auto generated R starter code for data set 1581@bildungsstatistik-kanton-zuerich
 ## Metadata
 
 - **Issued** `2022-10-24T11:33:24`
-- **Modified** `2024-05-27T10:02:46`
+- **Modified** `2025-01-08T14:11:35`
 - **Startdate** `2000-09-15`
-- **Enddate** `2022-09-15`
+- **Enddate** `2023-09-15`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC']`
 - **Keyword** `['ausbildung', 'bildung', 'hauptsprache', 'kindergarten', 'lernende', 'primarschule', 'schueler*innen', 'schulgemeinden', 'sekundarschule', 'sprache', 'volksschule', 'bildungsdaten', 'ogd']`
 - **Publisher** `['Bildungsstatistik des Kantons Zürich']`
@@ -45,9 +45,9 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 3019
 # Title                    : Lernende der Volksschule im Kanton Zürich nach Erstsprache (Deutsch/nicht Deutsch) ab 2000
-# Description              : Die Daten sind differenziert nach Jahr, zuständiger Schulgemeinde und Erstsprache. Bei Zellen kleiner 5 wird nur der Wert "1-5" ausgewiesen. Jahr: Das Jahr ist jeweils das Kalenderjahr der Erhebung, wobei der Stichtag der 15.9. ist. Die Daten für das Jahr 2022 sind somit im Schuljahr 2022/23 erhoben worden und zeigen den Datenstand am 15. September 2022. Schulgemeinde: Hier wir die zuständige Schulgemeinde dargestellt. Das ist üblicherweise die Schulgemeinde des Wohnort. Es entspricht aber nicht in jedem Fall der Schulgemeinde des Schulstandorts der effektiv besucht wird. Erstsprache: Als Erstsprache gilt diejenige Sprache, die als erste erlernt wird. Die Bildungsstatistik erhebt seit 2010 die Erstsprache als Merkmal der Lernenden. Bis zum Jahr 2009 wurde die Muttersprache erhoben. Anzahl: Anzahl der Schülerinnen und Schüler mit der entsprechenden Merkmalskombination.
+# Description              : Die Daten sind differenziert nach Jahr, zuständiger Schulgemeinde und Erstsprache.\n\nBei Zellen kleiner 5 wird nur der Wert \"1-5\" ausgewiesen.\n\nJahr: Das Jahr ist jeweils das Kalenderjahr der Erhebung, wobei der Stichtag der 15.9. ist. Die Daten für das Jahr 2023 sind somit im Schuljahr 2023/24 erhoben worden und zeigen den Datenstand am 15. September 2023.\nSchulgemeinde: Hier wir die zuständige Schulgemeinde dargestellt. Das ist üblicherweise die Schulgemeinde des Wohnort. Es entspricht aber nicht in jedem Fall der Schulgemeinde des Schulstandorts der effektiv besucht wird.\nErstsprache: Als Erstsprache gilt diejenige Sprache, die als erste erlernt wird. Die Bildungsstatistik erhebt seit 2010 die Erstsprache als Merkmal der Lernenden. Bis zum Jahr 2009 wurde die Muttersprache erhoben.\nAnzahl: Anzahl der Schülerinnen und Schüler mit der entsprechenden Merkmalskombination.
 # Issued                   : 2022-10-24T11:33:24
-# Modified                 : 2023-09-01T15:48:55
+# Modified                 : 2025-01-08T14:11:35
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/bista/ZH_Lernende_Volksschule_Regional_Erstsprache.csv')
 

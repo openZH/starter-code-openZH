@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-01-08"
+date: "2025-01-09"
 output: html_document
 ---
 
@@ -19,9 +19,9 @@ Auto generated R starter code for data set 526@bildungsstatistik-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2019-12-02T13:15:00`
-- **Modified** `2024-05-27T10:02:16`
+- **Modified** `2025-01-08T14:11:34`
 - **Startdate** `2000-09-15`
-- **Enddate** `2022-09-15`
+- **Enddate** `2023-09-15`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC']`
 - **Keyword** `['ausbildung', 'bildung', 'bildungsstufe', 'gymnasien', 'lernende', 'mittelschulen', 'schueler*innen', 'bildungsdaten', 'ogd']`
 - **Publisher** `['Bildungsstatistik des Kantons Zürich']`
@@ -47,9 +47,9 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1009
 # Title                    : Lernende der Mittelschulen im Kanton Zürich ab 2000
-# Description              : Die Daten sind differenziert nach Jahr, Stufe, Typ, Profil, Geschlecht, Finanzierung und Staatsangehörigkeit. Jahr: Das Jahr ist jeweils das Kalenderjahr der Erhebung, wobei der Stichtag der 15.9. ist. Die Daten für das Jahr 2022 sind somit im Schuljahr 2022/23 erhoben worden und zeigen den Datenstand am 15. September 2022. Stufe: Die Lernenden der Mittelstufe sind zum Teil auf der Sekundarstufe I und zum Teil auf der Sekundarstufe II. Die Sekundarstufe II beginnt nach dem Ende der obligatorischen Schulzeit. Mittelschultyp: Beim Typ der Mittelschule wird zwischen Gymnasium, Handelsmittelschule, Fachmittelschule und Informatikmittelschule unterschieden. In der Restkategorie "andere" sind enthalten: Passerelle und allgemeinbildende Privatschule mit eigenem Programm. Bildungsart: Bei den Gymnasien vor 2011: Profil, danach Schwerpunktfach. Bei den Fachmittelschulen: Profil und ab 2015 Fachmaturität. Finanzierung: Es wird zwischen öffentlich finanzierten Bildungsinstitutionen (oeff) und privat finanzierten Bildungsinstitutionen (priv) unterscheidet. Staatsangehoerigkeit: Es wird pro Person nur eine Staatsangehörigkeit erhoben. Falls eine Person mehrere Staatsangehörigkeiten hat, und eine davon ist die Schweizerische, so wird diese prioritär erfasst. Bei anderen mehrfachen Staatsangehörigkeiten wir keine Vorgabe zur Priorisierung gemacht. In dieser Auswertung  wird nur zwischen Schweiz und Ausland unterschieden. Anzahl: Anzahl der Schülerinnen und Schüler mit der entsprechenden Merkmalskombination.
+# Description              : Die Daten sind differenziert nach Jahr, Stufe, Typ, Profil, Geschlecht, Finanzierung und Staatsangehörigkeit.\n\nJahr: Das Jahr ist jeweils das Kalenderjahr der Erhebung, wobei der Stichtag der 15.9. ist. Die Daten für das Jahr 2023 sind somit im Schuljahr 2023/24 erhoben worden und zeigen den Datenstand am 15. September 2023.\nStufe: Die Lernenden der Mittelstufe sind zum Teil auf der Sekundarstufe I und zum Teil auf der Sekundarstufe II. Die Sekundarstufe II beginnt nach dem Ende der obligatorischen Schulzeit.\nMittelschultyp: Beim Typ der Mittelschule wird zwischen Gymnasium, Handelsmittelschule, Fachmittelschule und Informatikmittelschule unterschieden. In der Restkategorie \"andere\" sind enthalten: Passerelle und allgemeinbildende Privatschule mit eigenem Programm.\nBildungsart: Bei den Gymnasien vor 2011: Profil, danach Schwerpunktfach. Bei den Fachmittelschulen: Profil und ab 2015 Fachmaturität.\nFinanzierung: Es wird zwischen öffentlich finanzierten Bildungsinstitutionen (oeff) und privat finanzierten Bildungsinstitutionen (priv) unterscheidet.\nStaatsangehoerigkeit: Es wird pro Person nur eine Staatsangehörigkeit erhoben. Falls eine Person mehrere Staatsangehörigkeiten hat, und eine davon ist die Schweizerische, so wird diese prioritär erfasst. Bei anderen mehrfachen Staatsangehörigkeiten wir keine Vorgabe zur Priorisierung gemacht. In dieser Auswertung  wird nur zwischen Schweiz und Ausland unterschieden.\nAnzahl: Anzahl der Schülerinnen und Schüler mit der entsprechenden Merkmalskombination.
 # Issued                   : 2019-11-24T15:52:46
-# Modified                 : 2023-09-01T15:48:54
+# Modified                 : 2025-01-08T14:11:34
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/bista/ZH_Lernende_Mittelschulen.csv')
 
