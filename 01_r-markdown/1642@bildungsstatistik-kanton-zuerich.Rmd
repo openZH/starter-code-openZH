@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-01-09"
+date: "2025-01-10"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 1642@bildungsstatistik-kanton-zuerich
 ## Metadata
 
 - **Issued** `2022-10-24T11:55:49`
-- **Modified** `2025-01-08T14:11:34`
+- **Modified** `2025-01-09T11:55:14`
 - **Startdate** `2000-09-15`
 - **Enddate** `2023-09-15`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
@@ -43,9 +43,9 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 3078
 # Title                    : Lernende der Berufsbildung im Kanton Zürich ab 2000
-# Description              : Ausgewiesen wird die Anzahl der Lernenden. Die Daten sind differenziert nach Jahr, Bildungsfeld und Berufsmaturitätstyp.\n\nJahr: Das Jahr ist jeweils das Kalenderjahr der Erhebung, wobei der Stichtag der 15.9. ist. Die Daten für das Jahr 2023 sind somit im Schuljahr 2023/24 erhoben worden und zeigen den Datenstand am 15. September 2023.\nBildungsfeld: Das Bildungsfeld ist eine Kategorisierung der Berufsbildung nach ISCED2013-F. Es gibt acht Kategorien.\nBerufsmaturitaetstyp: Beim Berufsmaturitätstyp wird unterschieden zwischen \"Berufsfachschule (ohne BM)\", \"BM1\" (gleichzeitig mit der Lehre) oder \"BM2\" (nach der Lehre).\nAnzahl: Anzahl der Schülerinnen und Schüler mit der entsprechenden Merkmalskombination
+# Description              : Ausgewiesen wird die Anzahl der Lernenden an Berufsschulen im Kanton Zürich. Die Daten sind differenziert nach Jahr, Bildungsfeld und Berufsmaturitätstyp. Jahr: Das Jahr ist jeweils das Kalenderjahr der Erhebung, wobei der Stichtag der 15.9. ist. Die Daten für das Jahr 2023 sind somit im Schuljahr 2023/24 erhoben worden und zeigen den Datenstand am 15. September 2023. Bildungsfeld: Das Bildungsfeld ist eine Kategorisierung der Berufsbildung nach ISCED2013-F. Es gibt acht Kategorien. Berufsmaturitaetstyp: Beim Berufsmaturitätstyp wird unterschieden zwischen "Berufsfachschule (ohne BM)", "BM1" (gleichzeitig mit der Lehre) oder "BM2" (nach der Lehre). Anzahl: Anzahl der Schülerinnen und Schüler mit der entsprechenden Merkmalskombination. Die Daten werden im Rahmen der Statistik der Lernenden für das Bundesamtes für Statistik erhoben. Es handelt sich um eine Vollerhebung.
 # Issued                   : 2022-10-24T11:55:49
-# Modified                 : 2025-01-08T14:11:34
+# Modified                 : 2025-01-09T11:55:58
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/bista/ZH_Lernende_Berufsbildung_Bildungsfeld.csv')
 
