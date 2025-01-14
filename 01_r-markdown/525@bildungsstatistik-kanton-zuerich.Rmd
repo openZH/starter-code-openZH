@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-01-13"
+date: "2025-01-14"
 output: html_document
 ---
 
@@ -47,9 +47,9 @@ library(skimr)
 # Title                    : Lernende der Volksschule im Kanton Zürich nach Staatsangehörigkeit auf Ebene Schulgemeinde ab 2000
 # Description              : Ausgewiesen wird die Anzahl der Lernenden in der Regelschule im Kanton Zürich. Die Daten sind differenziert nach Jahr, zuständiger Schulgemeinde und Staatsangehörigkeit. Bei Zellen kleiner 5 wird die Staatsangehörigkeit zuerst auf Ebene Grossregion und, wenn nötig, auf Ebene Kontinent aggregiert. Jahr: Das Jahr ist jeweils das Kalenderjahr der Erhebung, wobei der Stichtag der 15.9. ist. Die Daten für das Jahr 2023 sind somit im Schuljahr 2023/24 erhoben worden und zeigen den Datenstand am 15. September 2023. Schulgemeinde: Es wird die zuständige Schulgemeinde dargestellt. Das ist üblicherweise die Schulgemeinde des Wohnort. Es entspricht aber nicht in jedem Fall der Schulgemeinde des Schulstandorts der effektiv besucht wird. Staatsangehoerigkeit: Es wird pro Person nur eine Staatsangehörigkeit erhoben. Falls eine Person mehrere Staatsangehörigkeiten hat, und eine davon ist die Schweizerische, so wird diese prioritär erfasst. Bei anderen mehrfachen Staatsangehörigkeiten wir keine Vorgabe zur Priorisierung gemacht. Staatsangehoerigkeit_ISO2_Code: Bei der Aggregation auf Grossregion und Kontinent bleibt der ISO2 Code leer. Anzahl: Anzahl der Schülerinnen und Schüler mit der entsprechenden Merkmalskombination. Die Daten werden im Rahmen der Statistik der Lernenden für das Bundesamtes für Statistik erhoben. Es handelt sich um eine Vollerhebung.
 # Issued                   : 2022-10-03T12:38:04
-# Modified                 : 2025-01-10T14:12:47
+# Modified                 : 2025-01-13T08:20:22
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/bista/ZH_Lernende_Volksschule_Regional_Staatsangehoerigkeit.csv')
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/bista/ZH_Lernende_Regelschule_Regional_Staatsangehoerigkeit.csv')
 
 
 
