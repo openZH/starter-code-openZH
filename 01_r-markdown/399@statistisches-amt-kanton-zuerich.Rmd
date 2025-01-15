@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-01-14"
+date: "2025-01-15"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 399@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2017-05-26T12:00:00`
-- **Modified** `2023-12-22T07:49:07`
+- **Modified** `2025-01-14T10:02:25`
 - **Startdate** `2013-12-31`
-- **Enddate** `2021-12-31`
+- **Enddate** `2022-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'unternehmen', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Total geschaffene Stellen, Beschäftigte [Anz.]
 # Description              : None
 # Issued                   : 2017-05-26T12:00:00
-# Modified                 : 2023-12-22T07:49:07
+# Modified                 : 2025-01-14T10:02:25
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_356.csv')
 
