@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-01-30"
+date: "2025-01-31"
 output: html_document
 ---
 
