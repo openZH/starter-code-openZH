@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-02-03"
+date: "2025-02-04"
 output: html_document
 ---
 
@@ -261,7 +261,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Listenverbindungen Erneuerungswahl Nationalrat 2019
 # Description              : Listenverbindungen und Unterlistenverbindungen der Nationalratswahl 2019
 # Issued                   : 2020-07-07T16:31:25
-# Modified                 : 2023-11-22T12:01:21
+# Modified                 : 2025-02-03T15:33:20
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001685.csv')
 
