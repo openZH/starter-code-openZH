@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-02-24"
+date: "2025-02-25"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 284@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2024-03-04T13:59:47`
+- **Modified** `2025-02-24T07:58:05`
 - **Startdate** `1991-12-31`
-- **Enddate** `2023-12-31`
+- **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['bevoelkerung', 'bezirke', 'gemeinden', 'amtliches_geschlecht', 'kanton_zuerich', 'maenneranteil', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Bevölkerung: Männeranteil [%]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2024-03-04T13:59:47
+# Modified                 : 2025-02-24T07:58:05
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_103.csv')
 
