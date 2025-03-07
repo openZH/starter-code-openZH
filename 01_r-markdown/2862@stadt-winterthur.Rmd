@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-03-06"
+date: "2025-03-07"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 2862@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2025-02-10T09:19:36`
-- **Modified** `2025-02-10T09:19:36`
-- **Startdate** `2016-12-31`
-- **Enddate** `2024-09-30`
+- **Modified** `2025-03-06T13:07:46`
+- **Startdate** `2020-12-31`
+- **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/AGRI', 'http://publications.europa.eu/resource/authority/data-theme/ENVI']`
 - **Keyword** `['landschaft', 'wald', 'quartieranalyse', 'ogd']`
 - **Publisher** `['Stadt Winterthur']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Städtische Bäume von Winterthur nach Quartieren und Stadtkreisen
 # Description              : Die Indikatoren sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
 # Issued                   : 2025-02-10T09:19:36
-# Modified                 : 2025-02-10T09:19:36
+# Modified                 : 2025-03-06T14:07:46
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002862_00005843.csv')
 
