@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-03-10"
+date: "2025-03-11"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Einwohner und Beschäftigte pro Hektare ab 2012
 # Description              : Durchschnittliche Anzahl Einwohner und Beschäftigte pro Hektare überbaute Wohn-, Misch- und Arbeitszonen im Kanton Zürich. Mit der Spalte «GEO_LEVEL_LEVEL» können im Vergleich zur Spalte «BFS_NR» neben den Gemeinden und Städten (3) zusätzlich auch die Regionen (6) und der Kanton Zürich (1) als Ganzes identifiziert werden Die Spalte GEBIET_NAME beinhaltet sowohl Gemeinden, Städte, Regionen als auch den ganzen Kanton Zürich.
 # Issued                   : 2024-05-30T11:16:47
-# Modified                 : 2024-05-30T11:16:47
+# Modified                 : 2025-03-10T17:56:20
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002622_00005364.csv')
 
