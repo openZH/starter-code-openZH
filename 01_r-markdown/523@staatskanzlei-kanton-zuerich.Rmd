@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-03-12"
+date: "2025-03-13"
 output: html_document
 ---
 
@@ -8,19 +8,19 @@ output: html_document
 
 Anzahl und Erledigungsart der schriftlich eingereichten Informationszugangsgesuche in der kantonalen Verwaltung. Nicht enthalten sind die – praxisgemäss viel zahlreicheren – sogenannten formlosen Gesuche. Darunter fallen insbesondere die telefonischen oder per Mail eingereichten Anfragen. 
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/523@fachstelle-ogd-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/523@staatskanzlei-kanton-zuerich)
 
-Auto generated R starter code for data set 523@fachstelle-ogd-kanton-zuerich.
+Auto generated R starter code for data set 523@staatskanzlei-kanton-zuerich.
 
 ## Metadata
 
 - **Issued** `2019-12-05T09:44:00`
-- **Modified** `2025-03-11T10:13:21`
+- **Modified** `2025-03-12T17:03:16`
 - **Startdate** `2013-01-01`
 - **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['kantonale_verwaltung', 'regierungsrat', 'ogd']`
-- **Publisher** `['Fachstelle Open Government Data des Kantons Zürich']`
+- **Publisher** `['Staatskanzlei des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/kanton/kantonale-verwaltung/oeffentlichkeitsprinzip.html`
 
 
@@ -76,4 +76,4 @@ tail(df)
 
 # Questions about the data?
 
-Fachstelle Open Government Data des Kantons Zürich | info@open.zh.ch
+Staatskanzlei des Kantons Zürich | Koordinationsstelle IDG | idg@sk.zh.ch

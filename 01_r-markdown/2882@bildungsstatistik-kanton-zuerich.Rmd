@@ -1,14 +1,14 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-03-12"
+date: "2025-03-13"
 output: html_document
 ---
 
 ## Dataset: Entwicklung der Bildungsabschlüsse an Mittelschulen im Kanton Zürich ab 2000
 
-Entwicklung der Bildungsabschlüsse an Mittelschulen im Kanton Zürich nach Mittelschultyp seit dem Kalenderjahr 2000.
+Entwicklung der Bildungsabschlüsse an Mittelschulen im Kanton Zürich nach Mittelschultyp seit dem Kalenderjahr 2000. Die Daten sind differenziert nach Jahr und Abschlusstyp. Ausgewiesen werden die Anzahl Abschlüsse an Mittelschulen im Kanton Zürich.
 
-Die Daten werden Jährlich im Januar/Februar erhoben.
+Die Daten werden im Rahmen der Statistik der Bildungsabschlüsse für das Bundesamtes für Statistik erhoben. Es handelt sich um eine Vollerhebung. Die Daten werden Jährlich im Januar/Februar erhoben.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2882@bildungsstatistik-kanton-zuerich)
 
@@ -17,13 +17,13 @@ Auto generated R starter code for data set 2882@bildungsstatistik-kanton-zuerich
 ## Metadata
 
 - **Issued** `2025-02-28T08:53:29`
-- **Modified** `2025-02-28T08:53:29`
+- **Modified** `2025-03-12T17:39:16`
 - **Startdate** `2000-01-01`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC']`
 - **Keyword** `['ausbildung', 'berufsmaturitaetsschule', 'bildung', 'gymnasien', 'lernende', 'matura', 'mittelschulen', 'schueler*innen', 'ogd']`
 - **Publisher** `['Bildungsstatistik des Kantons Zürich']`
-- **Landingpage** `https://www.zh.ch/de/bildung/bildungssystem/zahlen-fakten-in-bildung.html`
+- **Landingpage** `https://www.zh.ch/de/bildung/bildungssystem/zahlen-fakten.html`
 
 
 # Load packages
@@ -45,9 +45,9 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 5943
 # Title                    : Entwicklung der Bildungsabschlüsse an Mittelschulen im Kanton Zürich
-# Description              : Die Daten sind differenziert nach Jahr und Abschlusstyp. Ausgewiesen werden die Anzahl Abschlüsse an Mittelschulen im Kanton Zürich. Jahr: Das Kalenderjahr in dem ein Abschluss stattfand. Abschlusstyp: Erlangter Abschlusstyp resp. Typ der Mittelschule die abgeschlossen wurde. Anzahl: Die Anzahl Personen die eine Ausbildung erfolgreich abgeschlossen haben. Die Diplommittelschule wurde ab  Schuljahr 2007/08 durch die Fachmittelschule ersetzt. Die Daten werden im Rahmen der Statistik der Bildungsabschlüsse für das Bundesamtes für Statistik erhoben. Es handelt sich um eine Vollerhebung.
+# Description              : Die Daten sind differenziert nach Jahr und Abschlusstyp. Ausgewiesen werden die Anzahl Abschlüsse an Mittelschulen im Kanton Zürich. Jahr: Das Kalenderjahr in dem ein Abschluss stattfand. Abschlusstyp: Erlangter Abschlusstyp resp. Typ der Mittelschule die abgeschlossen wurde. Anzahl: Die Anzahl Personen die eine Ausbildung erfolgreich abgeschlossen haben. Die Diplommittelschule wurde ab  Schuljahr 2007/08 durch die Fachmittelschule ersetzt.
 # Issued                   : 2025-02-28T08:53:29
-# Modified                 : 2025-02-28T08:53:29
+# Modified                 : 2025-03-12T16:02:22
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/bista/ZH_Entwicklung_der_Bildungsabschluesse_an_Mittelschulen.csv')
 
