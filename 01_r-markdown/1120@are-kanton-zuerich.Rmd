@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-03-18"
+date: "2025-03-19"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Überbauungsgrad ab 1996 in %
 # Description              : Überbaute Bauzone in % der Bauzone. Es wird in Wohnzone, Mischzone, Arbeitszone und Zone für öffentliche Bauten unterschieden. NULL-Werte bedeuten, dass für die betreffende Gemeinde oder Stadt keine Flächen in der entsprechenden Zonenkategorie im Zonenplan festgelegt sind. Mit der Spalte «GEO_LEVEL_LEVEL» können im Vergleich zur Spalte «BFS_NR» neben den Gemeinden und Städten (3) zusätzlich auch die Regionen (6) und der Kanton Zürich (1) als Ganzes identifiziert werden. Die Spalte GEBIET_NAME beinhaltet sowohl Gemeinden, Städte, Regionen als auch den ganzen Kanton Zürich. Es können keine Totale aus den Werten gerechnet werden.
 # Issued                   : 2022-02-15T10:01:05
-# Modified                 : 2025-03-10T17:51:26
+# Modified                 : 2025-03-18T17:05:13
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001120_00002162.csv')
 
