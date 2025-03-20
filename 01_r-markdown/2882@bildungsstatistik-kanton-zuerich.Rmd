@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-03-19"
+date: "2025-03-20"
 output: html_document
 ---
 
@@ -45,9 +45,9 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 5943
 # Title                    : Entwicklung der Bildungsabschlüsse an Mittelschulen im Kanton Zürich
-# Description              : Die Daten sind differenziert nach Jahr und Abschlusstyp. Ausgewiesen werden die Anzahl Abschlüsse an Mittelschulen im Kanton Zürich. Jahr: Das Kalenderjahr in dem ein Abschluss stattfand. Abschlusstyp: Erlangter Abschlusstyp resp. Typ der Mittelschule die abgeschlossen wurde. Anzahl: Die Anzahl Personen die eine Ausbildung erfolgreich abgeschlossen haben. Die Diplommittelschule wurde ab  Schuljahr 2007/08 durch die Fachmittelschule ersetzt.
+# Description              : Die Daten sind differenziert nach Jahr und Abschlusstyp. Ausgewiesen werden die Anzahl Abschlüsse an Mittelschulen im Kanton Zürich. Jahr: Das Kalenderjahr in dem ein Abschluss stattfand. Abschlusstyp: Erlangter Abschlusstyp resp. Typ der Mittelschule die abgeschlossen wurde. Anzahl: Die Anzahl Personen die eine Ausbildung erfolgreich abgeschlossen haben. Die Diplommittelschule wurde ab  Schuljahr 2007/08 durch die Fachmittelschule ersetzt. Aufgrund der Kürzung der Ausbildungsdauer von 4.5 auf 4 Jahre, haben im Kalenderjahr 2002 zwei Jahrgänge die gymnasiale Ausbildung abgeschlossen. Seit dem Kalenderjahr 2022 werden zusätzliche ausländische Abschlüsse wie Französisches Baccalauréat, GCSE oder A-Level erfasst. Der Anstieg bei den internationalen Mittelschulen ist vorwiegend durch diese methodische Anpassung zu begründen.
 # Issued                   : 2025-02-28T08:53:29
-# Modified                 : 2025-03-12T16:02:22
+# Modified                 : 2025-03-19T08:39:52
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/bista/ZH_Entwicklung_der_Bildungsabschluesse_an_Mittelschulen.csv')
 
