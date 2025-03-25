@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-03-24"
+date: "2025-03-25"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 1381@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2022-09-20T16:50:48`
-- **Modified** `2024-12-11T16:52:09`
+- **Modified** `2025-03-24T13:34:54`
 - **Startdate** `2009-12-31`
-- **Enddate** `2023-12-31`
+- **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['alter', 'altersgruppen', 'altersklassen', 'bevoelkerung', 'gemeinden', 'ogd']`
 - **Publisher** `['Stadt Winterthur']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Altersstruktur Stadt Winterthur
 # Description              : Altersstruktur der Stadt Winterthur ab 2009. Eine vollständige Dokumentation ist in der Ressource "Dokumentation Daten" zu finden.
 # Issued                   : 2022-09-20T16:50:48
-# Modified                 : 2024-12-11T17:52:09
+# Modified                 : 2025-03-24T14:26:58
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001381_00003062.csv')
 

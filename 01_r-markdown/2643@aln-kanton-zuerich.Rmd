@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-03-24"
+date: "2025-03-25"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 2643@aln-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2024-07-18T17:00:16`
-- **Modified** `2024-07-18T17:00:16`
+- **Modified** `2025-03-24T11:02:26`
 - **Startdate** `2021-01-01`
-- **Enddate** `2023-12-31`
+- **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ENVI']`
 - **Keyword** `['oeffentliche_finanzen', 'staatsfinanzen', 'umwelt', 'naturschutz', 'biodiversitaetsfoerderung', 'nhf', 'ogd']`
 - **Publisher** `['Amt für Landschaft und Natur']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Entwicklung Finanzen 89120 seit 2021
 # Description              : None
 # Issued                   : 2024-07-18T17:00:16
-# Modified                 : 2024-07-18T17:00:16
+# Modified                 : 2025-03-24T10:59:47
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002643_00005443.csv')
 

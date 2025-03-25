@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-03-24"
+date: "2025-03-25"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 2742@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2024-11-21T12:33:20`
-- **Modified** `2024-11-21T12:33:48`
-- **Startdate** `2007-01-01`
-- **Enddate** `2023-12-31`
+- **Modified** `2025-03-24T14:01:23`
+- **Startdate** `2007-12-31`
+- **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['geburten', 'todesfaelle', 'wanderungsbewegungen', 'wanderungsbilanz', 'wegzuege', 'zuzuege', 'ogd']`
 - **Publisher** `['Stadt Winterthur']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Bevölkerungsbewegungen Winterthur nach Jahr
 # Description              : Eine vollständige Dokumentation ist in der Ressource "Dokumentation Daten" zu finden.
 # Issued                   : 2024-11-21T12:33:20
-# Modified                 : 2024-11-21T12:33:20
+# Modified                 : 2025-03-24T15:01:23
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002742_00005663.csv')
 
