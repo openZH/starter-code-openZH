@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-03-25"
+date: "2025-03-26"
 output: html_document
 ---
 
@@ -15,11 +15,11 @@ Auto generated R starter code for data set 2762@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2024-11-21T12:20:35`
-- **Modified** `2024-11-21T12:20:35`
+- **Modified** `2025-03-25T13:04:28`
 - **Startdate** `2015-12-31`
-- **Enddate** `2023-12-31`
+- **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
-- **Keyword** `['haushaltsgroesse', 'wohnflaeche', 'wohnung', 'wohnungen', 'wohnungsbestand']`
+- **Keyword** `['haushaltsgroesse', 'wohnflaeche', 'wohnung', 'wohnungen', 'wohnungsbestand', 'ogd']`
 - **Publisher** `['Stadt Winterthur']`
 - **Landingpage** `https://stadt.winterthur.ch/themen/die-stadt/winterthur/statistik/bauen-und-wohnen`
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Wohnen in Winterthur nach Quartieren und Stadtkreisen
 # Description              : Die Indikatoren sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
 # Issued                   : 2024-11-21T12:20:35
-# Modified                 : 2024-11-21T12:20:35
+# Modified                 : 2025-03-25T14:04:27
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002762_00005683.csv')
 
