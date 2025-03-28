@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-03-27"
+date: "2025-03-28"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 1661@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2022-08-25T09:41:16`
-- **Modified** `2024-07-11T16:39:30`
+- **Modified** `2025-03-27T07:28:21`
 - **Startdate** `2010-01-01`
-- **Enddate** `2022-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENER', 'http://publications.europa.eu/resource/authority/data-theme/ENVI', 'http://publications.europa.eu/resource/authority/data-theme/TRAN']`
 - **Keyword** `['elektrizitaet', 'energie', 'strom', 'stromverbrauch', 'treibstoffverbrauch', 'waerme', 'energieverbrauch', 'waermeverbrauch', 'treibstoff', 'erhebung', 'ogd']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Wärme-, Strom- und Treibstoffverbrauch im Kanton Zürich
 # Description              : Der Energieverbrauch wird in Gigawattstunden (GWh) ausgewiesen. Dabei wird unterschieden zwischen den Energiesektoren Wärme, Strom und Treibstoff.
 # Issued                   : 2022-08-25T09:41:16
-# Modified                 : 2024-01-30T14:20:41
+# Modified                 : 2025-03-27T07:27:31
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001661_00003118.csv')
 
