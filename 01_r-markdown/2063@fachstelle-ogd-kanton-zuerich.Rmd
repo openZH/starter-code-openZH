@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-03-30"
+date: "2025-03-31"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 2063@fachstelle-ogd-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2023-03-24T10:12:00`
-- **Modified** `2025-03-30T00:00:21`
+- **Modified** `2025-03-30T23:00:22`
 - **Startdate** `2020-01-01`
 - **Enddate** `2025-03-30`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/HEAL', 'http://publications.europa.eu/resource/authority/data-theme/AGRI', 'http://publications.europa.eu/resource/authority/data-theme/ENVI']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Netzproben der Trinkwasserqualität
 # Description              : None
 # Issued                   : 2023-03-24T10:12:00
-# Modified                 : 2025-03-30T01:00:21
+# Modified                 : 2025-03-31T01:00:22
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002063_00004104.csv')
 
