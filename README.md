@@ -4,7 +4,7 @@
 
 This is an experiment to provide exactly this. 
 
-With this repo you get starter code for **all CSV data sets** (currently 438) that are available in the [data shop of the Statistical Office of Canton Zurich](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/). 
+With this repo you get starter code for **all CSV data sets** (currently 439) that are available in the [data shop of the Statistical Office of Canton Zurich](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/). 
 
 In the list below you find links to preconfigured code files so that you **immediately can start analyzing the data with R or Python.**
 
@@ -16,7 +16,7 @@ Feedback is always very welcome – simply open an issue.
 
 For all data licenses please refer to each data set's link or the metadata API endpoint provided [here](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/datasets/1461@fachstelle-ogd-kanton-zuerich).
 
-<sub>Latest update: **2025-04-04 03:50:19**<sub>
+<sub>Latest update: **2025-04-05 03:48:46**<sub>
 
 | ID | Title (abbreviated to 200 chars) | Python Colab | Python GitHub | R GitHub |
 | :-- | :-- | :-- | :-- | :-- |
@@ -458,3 +458,4 @@ For all data licenses please refer to each data set's link or the metadata API e
 | 2862 | [Städtische Bäume von Winterthur nach Quartieren und Stadtkreisen](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2862@stadt-winterthur) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/2862@stadt-winterthur.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2862@stadt-winterthur.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2862@stadt-winterthur.Rmd) |
 | 2882 | [Entwicklung der Bildungsabschlüsse an Mittelschulen im Kanton Zürich ab 2000](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2882@bildungsstatistik-kanton-zuerich) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/2882@bildungsstatistik-kanton-zuerich.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2882@bildungsstatistik-kanton-zuerich.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2882@bildungsstatistik-kanton-zuerich.Rmd) |
 | 2902 | [Besuche kultureller Einrichtungen in Winterthur](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2902@stadt-winterthur) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/2902@stadt-winterthur.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2902@stadt-winterthur.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2902@stadt-winterthur.Rmd) |
+| 2962 | [Warenimporte und -exporte im Kanton Zürich](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2962@statistisches-amt-kanton-zuerich) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/2962@statistisches-amt-kanton-zuerich.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2962@statistisches-amt-kanton-zuerich.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2962@statistisches-amt-kanton-zuerich.Rmd) |
