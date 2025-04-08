@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-04-07"
+date: "2025-04-08"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 2383@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2024-07-31T09:03:23`
-- **Modified** `2024-11-11T08:54:59`
+- **Modified** `2025-04-07T12:06:45`
 - **Startdate** `2020-02-29`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI']`
