@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-04-08"
+date: "2025-04-09"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 394@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-11-18T15:15:00`
-- **Modified** `2024-03-26T10:57:21`
+- **Modified** `2025-04-08T09:32:16`
 - **Startdate** `1990-12-31`
-- **Enddate** `2024-12-31`
+- **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['gemeinden', 'gemeindesteuern', 'kanton_zuerich', 'steuerfuss', 'steuern', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Steuerfuss juristische Personen [%]
 # Description              : None
 # Issued                   : 2016-11-18T15:15:00
-# Modified                 : 2024-03-26T10:57:21
+# Modified                 : 2025-04-08T09:32:16
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_68.csv')
 
