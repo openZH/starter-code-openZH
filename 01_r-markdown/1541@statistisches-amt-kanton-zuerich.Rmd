@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-05-13"
+date: "2025-05-14"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 1541@statistisches-amt-kanton-zuerich
 ## Metadata
 
 - **Issued** `2022-07-04T13:59:28`
-- **Modified** `2025-03-14T08:25:13`
+- **Modified** `2025-05-13T15:04:55`
 - **Startdate** `2022-03-01`
-- **Enddate** `2025-02-28`
+- **Enddate** `2025-04-30`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['aufenthalt', 'gefluechtete', 'kanton_zuerich', 'einwohner', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Bestandesdaten der ausländischen Wohnbevölkerung im Kanton Zürich mit Aufenthaltsstatus 'Schutzbedürftige'
 # Description              : Aus Datenschutzgründen werden Zellenwerte, in deren Berechnung Merkmale mit weniger als drei Fällen eingehen, als '-' angegeben.
 # Issued                   : 2022-07-04T13:59:28
-# Modified                 : 2025-03-14T09:25:14
+# Modified                 : 2025-05-13T17:04:55
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001541_00002958.csv')
 
