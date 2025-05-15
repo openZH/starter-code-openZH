@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-05-14"
+date: "2025-05-15"
 output: html_document
 ---
 
 ## Dataset: Wohnbautätigkeit in den Gemeinden des Kantons Zürich
 
-Anzahl der Neubau- und Abbruchwohnungen sowie des Wohnbausaldos pro Gemeinde sowie beim CSV zusätzlich nach Zimmerzahl und Gebäudekategorie. Weitere Erläuterungen zur Auswertung (inkl. GWR-Stichtag) finden sich in den Excel-Datei oder beim CSV in den Metadaten. Die Rohdaten zur Bezifferung der Wohnbautätigkeit sind OGD (siehe 'Verwandte Datensätze') . Eine Auswertungsvorlage ist unten verlinkt (siehe 'Weitere Informationen').
+Anzahl der Neubau- und Abbruchwohnungen sowie des Wohnbausaldos pro Gemeinde sowie beim CSV zusätzlich nach Zimmerzahl und Gebäudekategorie. Weitere Erläuterungen zur Auswertung (inkl. GWR-Stichtag) finden sich in den Excel-Datei oder beim CSV in den Metadaten. Die Rohdaten zur Bezifferung der Wohnbautätigkeit sind OGD (siehe 'Verwandte Datensätze'). Eine Auswertungsvorlage ist unten verlinkt (siehe 'Weitere Informationen').
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2922@statistisches-amt-kanton-zuerich)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 2922@statistisches-amt-kanton-zuerich
 ## Metadata
 
 - **Issued** `2025-04-17T14:22:39`
-- **Modified** `2025-04-17T14:22:39`
+- **Modified** `2025-05-14T14:31:18`
 - **Startdate** `2010-12-31`
 - **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI', 'http://publications.europa.eu/resource/authority/data-theme/REGI']`
