@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-05-15"
+date: "2025-05-16"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Finanzieller Aufwand für Schutzmassnahmen
 # Description              : None
 # Issued                   : 2019-11-28T17:24:03
-# Modified                 : 2024-06-05T06:53:37
+# Modified                 : 2025-05-15T10:00:43
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001038.csv')
 
@@ -54,7 +54,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Anzahl Verurteilungen nach Geschlecht
 # Description              : None
 # Issued                   : 2019-11-28T16:29:40
-# Modified                 : 2024-06-05T06:54:20
+# Modified                 : 2025-05-15T10:34:49
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001031.csv')
 
@@ -63,7 +63,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Anzahl Delikte bei den Verurteilungen 
 # Description              : None
 # Issued                   : 2019-11-28T16:22:21
-# Modified                 : 2024-06-05T06:54:38
+# Modified                 : 2025-05-15T11:07:08
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001029.csv')
 
@@ -72,7 +72,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Alter bei Eröffnung der Strafuntersuchung
 # Description              : None
 # Issued                   : 2019-11-28T16:25:55
-# Modified                 : 2024-06-05T06:55:05
+# Modified                 : 2025-05-15T11:12:56
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001030.csv')
 
@@ -81,7 +81,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Art der Sanktion 
 # Description              : None
 # Issued                   : 2019-11-28T16:48:32
-# Modified                 : 2024-06-05T06:55:20
+# Modified                 : 2025-05-15T11:15:24
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001034.csv')
 
@@ -90,7 +90,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    :  Anzahl Personen mit mindestens einer Untersuchungshaft 
 # Description              : None
 # Issued                   : 2019-11-28T16:51:04
-# Modified                 : 2024-06-05T06:55:30
+# Modified                 : 2025-05-15T11:16:34
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001035.csv')
 
@@ -99,7 +99,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Schweizer-/Ausländeranteil bei Verurteilungen
 # Description              : None
 # Issued                   : 2019-11-28T16:31:31
-# Modified                 : 2024-06-05T07:13:03
+# Modified                 : 2025-05-15T11:17:13
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001032.csv')
 
@@ -108,7 +108,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    :  Anzahl Jugendliche in einer Massnahme per Jahresende 
 # Description              : None
 # Issued                   : 2019-11-28T17:01:07
-# Modified                 : 2024-06-05T06:55:51
+# Modified                 : 2025-05-15T11:18:40
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001037.csv')
 
@@ -117,7 +117,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Anzahl verzeigte Jugendliche
 # Description              : None
 # Issued                   : 2020-06-09T08:10:15
-# Modified                 : 2024-06-05T06:56:03
+# Modified                 : 2025-05-15T11:25:52
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001657.csv')
 
