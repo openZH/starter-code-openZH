@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-05-19"
+date: "2025-05-20"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 208@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2024-06-21T14:38:38`
+- **Modified** `2025-05-19T08:27:26`
 - **Startdate** `1985-12-31`
-- **Enddate** `2023-12-31`
+- **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/AGRI']`
 - **Keyword** `['beschaeftigte', 'bezirke', 'gemeinden', 'kanton_zuerich', 'landwirtschaft', 'wirtschaftssektor', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Beschäftigte Landwirtschaft [Pers.]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2024-06-21T14:38:38
+# Modified                 : 2025-05-19T08:27:26
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_264.csv')
 
