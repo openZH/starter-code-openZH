@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-05-20"
+date: "2025-05-21"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 117@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2024-06-21T14:38:43`
+- **Modified** `2025-05-20T10:01:15`
 - **Startdate** `1985-12-31`
-- **Enddate** `2023-12-31`
+- **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/AGRI']`
 - **Keyword** `['bezirke', 'gemeinden', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Kühe [Anz.]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2024-06-21T14:38:43
+# Modified                 : 2025-05-20T10:01:15
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_266.csv')
 
