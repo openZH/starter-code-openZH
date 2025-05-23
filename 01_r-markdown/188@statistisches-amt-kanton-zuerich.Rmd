@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-05-22"
+date: "2025-05-23"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 188@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2024-07-01T09:08:49`
+- **Modified** `2025-05-22T13:20:56`
 - **Startdate** `1990-12-31`
-- **Enddate** `2023-12-31`
+- **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['bezirke', 'eigenkapital', 'gemeinden', 'juristische_personen', 'kanton_zuerich', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Eigenkapital steuerpfl. jur. Pers. [Mio.Fr.]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2024-07-01T09:08:49
+# Modified                 : 2025-05-22T13:20:56
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_280.csv')
 
