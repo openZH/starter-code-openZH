@@ -4,7 +4,7 @@
 
 This is an experiment to provide exactly this. 
 
-With this repo you get starter code for **all CSV data sets** (currently 440) that are available in the [data shop of the Statistical Office of Canton Zurich](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/). 
+With this repo you get starter code for **all CSV data sets** (currently 441) that are available in the [data shop of the Statistical Office of Canton Zurich](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/). 
 
 In the list below you find links to preconfigured code files so that you **immediately can start analyzing the data with R or Python.**
 
@@ -16,7 +16,7 @@ Feedback is always very welcome – simply open an issue.
 
 For all data licenses please refer to each data set's link or the metadata API endpoint provided [here](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/datasets/1461@fachstelle-ogd-kanton-zuerich).
 
-<sub>Latest update: **2025-05-26 04:00:03**<sub>
+<sub>Latest update: **2025-05-27 04:00:19**<sub>
 
 | ID | Title (abbreviated to 200 chars) | Python Colab | Python GitHub | R GitHub |
 | :-- | :-- | :-- | :-- | :-- |
@@ -460,3 +460,4 @@ For all data licenses please refer to each data set's link or the metadata API e
 | 2902 | [Besuche kultureller Einrichtungen in Winterthur](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2902@stadt-winterthur) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/2902@stadt-winterthur.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2902@stadt-winterthur.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2902@stadt-winterthur.Rmd) |
 | 2922 | [Wohnbautätigkeit in den Gemeinden des Kantons Zürich](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2922@statistisches-amt-kanton-zuerich) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/2922@statistisches-amt-kanton-zuerich.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2922@statistisches-amt-kanton-zuerich.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2922@statistisches-amt-kanton-zuerich.Rmd) |
 | 2962 | [Warenimporte und -exporte im Kanton Zürich](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2962@statistisches-amt-kanton-zuerich) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/2962@statistisches-amt-kanton-zuerich.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2962@statistisches-amt-kanton-zuerich.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2962@statistisches-amt-kanton-zuerich.Rmd) |
+| 3002 | [Vornamen der Neugeborenen des Kantons Zürich](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/3002@statistisches-amt-kanton-zuerich) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/3002@statistisches-amt-kanton-zuerich.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/3002@statistisches-amt-kanton-zuerich.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/3002@statistisches-amt-kanton-zuerich.Rmd) |
