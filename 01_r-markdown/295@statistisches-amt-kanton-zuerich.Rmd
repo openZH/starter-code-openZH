@@ -1,12 +1,14 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-06-06"
+date: "2025-06-07"
 output: html_document
 ---
 
 ## Dataset: Sozialhilfequote [%]
 
-Berechnung: Die Sozialhilfequote berechnet sich aus dem Anteil der Sozialhilfeempfänger/innen zur gesamten Bevölkerung. Bei Gemeinden, die weniger als 5 Fälle haben, wird keine Quote ausgewiesen. (Referenzpopulation im Gemeindeporträt: kantonale Bevölkerungserhebung. Das BFS verwendet für die Berechnung seiner Quoten als Referenzpopulation STATPOP des Vorjahres.)
+Der Datensatz enthält die Bezügerquote der wirtschaftlichen Sozialhilfe im Kanton Zürich seit 2007. Er gibt den Anteil der Personen an, die im ausgewiesenen Jahr während mindestens eines Monats wirtschaftliche Sozialhilfe erhalten haben, im Verhältnis zur Gesamtbevölkerung. Die Daten werden vom Bundesamt für Statistik (BFS) jährlich bei den Sozialdiensten auf Ebene Dossier erhoben (Anfangs- und Stichtagszustand). Diese Statistik wird als Sozialhilfeempfängerstatistik bezeichnet.
+ Die Angaben zur Bevölkerung stammen aus der kantonalen Bevölkerungserhebung und beziehen sich auf das jeweilige ausgewiesene Jahr. Auch das BFS berechnet Sozialhilfequoten. Es verwendet aber für die Berechnung seiner Quoten als Referenzpopulation Daten aus dem Vorjahr von der Quelle STATPOP. Die Statistik für den Kanton Zürich wird jeweils im November gemeinsam mit der Publikation des Sozialberichtes des Kantons Zürich veröffentlicht. 
+Die Daten sind weitgehend vollständig. Einzig für das Jahr 2018 fehlen Angaben für die Gemeinde Richterswil. Bei Gemeinden mit weniger als fünf Fällen wird keine Quote ausgewiesen, um die Anonymität der betroffenen Personen zu wahren. Der räumliche Bezug des Datensatzes umfasst den Kanton Zürich, seine Bezirke und Gemeinden. Die Daten sind auf diese geografischen Einheiten aggregiert.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/295@statistisches-amt-kanton-zuerich)
 
@@ -15,7 +17,7 @@ Auto generated R starter code for data set 295@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2024-07-11T16:43:26`
+- **Modified** `2025-06-06T12:37:09`
 - **Startdate** `2007-12-31`
 - **Enddate** `2022-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`

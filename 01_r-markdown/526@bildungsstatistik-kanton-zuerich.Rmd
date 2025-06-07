@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-06-06"
+date: "2025-06-07"
 output: html_document
 ---
 
@@ -19,13 +19,13 @@ Auto generated R starter code for data set 526@bildungsstatistik-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2019-12-02T13:15:00`
-- **Modified** `2025-01-10T13:29:38`
+- **Modified** `2025-06-06T09:08:28`
 - **Startdate** `2000-09-15`
 - **Enddate** `2023-09-15`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC']`
 - **Keyword** `['ausbildung', 'bildung', 'bildungsstufe', 'gymnasien', 'lernende', 'mittelschulen', 'schueler*innen', 'bildungsdaten', 'ogd']`
 - **Publisher** `['Bildungsstatistik des Kantons Zürich']`
-- **Landingpage** `None`
+- **Landingpage** `https://www.zh.ch/de/bildung/bildungssystem/zahlen-fakten/lernende-an-mittelschulen.html`
 
 
 # Load packages

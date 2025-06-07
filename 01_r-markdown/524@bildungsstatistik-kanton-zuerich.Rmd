@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-06-06"
+date: "2025-06-07"
 output: html_document
 ---
 
@@ -17,13 +17,13 @@ Auto generated R starter code for data set 524@bildungsstatistik-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2019-12-02T13:05:00`
-- **Modified** `2025-01-09T11:55:16`
+- **Modified** `2025-06-06T09:18:37`
 - **Startdate** `2000-09-15`
 - **Enddate** `2023-09-15`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC']`
 - **Keyword** `['ausbildung', 'bildung', 'amtliches_geschlecht', 'kindergarten', 'lernende', 'nationalitaet', 'primarschule', 'schueler*innen', 'staatsangehoerigkeit', 'tertiaerstufe', 'volksschule', 'bildungsdaten', 'ogd']`
 - **Publisher** `['Bildungsstatistik des Kantons Zürich']`
-- **Landingpage** `None`
+- **Landingpage** `https://www.zh.ch/de/bildung/bildungssystem/zahlen-fakten/ueberblick-zur-entwicklung-der-schuelerzahlen.html`
 
 
 # Load packages

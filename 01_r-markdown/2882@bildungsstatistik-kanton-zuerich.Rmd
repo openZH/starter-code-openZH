@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-06-06"
+date: "2025-06-07"
 output: html_document
 ---
 
@@ -17,7 +17,7 @@ Auto generated R starter code for data set 2882@bildungsstatistik-kanton-zuerich
 ## Metadata
 
 - **Issued** `2025-02-28T08:53:29`
-- **Modified** `2025-03-12T17:39:16`
+- **Modified** `2025-06-06T09:01:03`
 - **Startdate** `2000-01-01`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC']`
