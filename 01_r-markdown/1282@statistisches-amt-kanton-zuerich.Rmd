@@ -1,13 +1,13 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-07-01"
+date: "2025-07-02"
 output: html_document
 ---
 
 ## Dataset: Archiv Wahlresultate Gemeindeparlamentswahlen im Kanton Zürich
 
 Ergebnisse der Erneuerungswahlen der Gemeindeparlamente der Parlamentsgemeinden des Kantons Zürich. Der Datensatz enthält sämtliche Daten, die von den Zürcher Parlamentsgemeinden für die Abwicklung ihrer Parlamentswahlen in der kantonalen Ausmittlungssoftware erfasst wurden.
-Es ist möglich, dass hier als gewählt ausgegebene Kandidierende ihre Wahl nicht angenommen haben, während der Legislatur zurückgetreten sind oder ihre Partei gewechselt haben. Die Daten bilden also nur die Ergebnisse ab am Wahltag ab und nicht die effektive oder aktuelle Zusammensetzung der Parlamente.
+Die Daten bilden nur die Ergebnisse am Wahltag ab und nicht die effektive oder aktuelle Zusammensetzung der Parlamente. Das heisst, dass es möglich ist, dass hier als gewählt ausgegebene Kandidierende ihre Wahl nicht angenommen haben, während der Legislatur zurückgetreten sind oder ihre Partei gewechselt haben.
 Die Verantwortung über die Daten liegt alleine bei den erfassenden Gemeinden, sie wurden zu keinem Zeitpunkt vom Statistischen Amt des Kantons Zürich kontrolliert oder verändert.
 Die einzelnen Spalten/Variablen aller Ressourcen werden in der Datei "Dokumentation Gemeindeparlamentswahlen" beschrieben.
 
@@ -18,7 +18,7 @@ Auto generated R starter code for data set 1282@statistisches-amt-kanton-zuerich
 ## Metadata
 
 - **Issued** `2022-03-24T10:22:23`
-- **Modified** `2025-06-20T14:25:53`
+- **Modified** `2025-07-01T09:54:22`
 - **Startdate** `2018-03-04`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE']`
