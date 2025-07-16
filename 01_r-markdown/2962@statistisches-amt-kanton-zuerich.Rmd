@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-07-15"
+date: "2025-07-16"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 2962@statistisches-amt-kanton-zuerich
 ## Metadata
 
 - **Issued** `2025-04-04T15:31:27`
-- **Modified** `2025-04-04T15:31:27`
+- **Modified** `2025-07-15T15:35:19`
 - **Startdate** `2016-01-01`
-- **Enddate** `2023-12-31`
+- **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/INTR', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['export', 'import', 'kanton_zuerich', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Importe und Exporte pro Land (und Güterkategorie)
 # Description              : Warenimporte und -exporte pro Land und Güterkategorie. Total 1 enthält keine Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten, Total 2 hingegen schon. Aus Datenschutzgründen Zusammenfassung von einigen Güterkategorien und Ländern. Die Sammelkategorien sind so gebildet, dass die Ländertotale korrekt sind. Maschinenlesbares Format.
 # Issued                   : 2025-04-04T15:31:27
-# Modified                 : 2025-04-04T15:31:27
+# Modified                 : 2025-07-15T15:36:26
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002962_00006123.csv')
 
@@ -54,7 +54,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Importe und Exporte pro Güterkategorie (und Land)
 # Description              : Warenimporte und -exporte pro Güterkategorie und Land. Total 1 enthält keine Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten, Total 2 hingegen schon. Aus Datenschutzgründen Zusammenfassung von einigen Ländern und Güterkategorien. Die Sammelkategorien sind so gebildet, dass die Totale der Güterkategorien korrekt sind. Maschinenlesbares Format.
 # Issued                   : 2025-04-04T15:31:27
-# Modified                 : 2025-04-04T15:31:27
+# Modified                 : 2025-07-15T17:04:57
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002962_00006125.csv')
 
