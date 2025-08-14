@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-08-13"
+date: "2025-08-14"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 153@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2024-07-26T10:51:14`
+- **Modified** `2025-07-30T09:23:41`
 - **Startdate** `1998-12-31`
-- **Enddate** `2022-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['investitionen', 'bautaetigkeit', 'bezirke', 'gebaeudeart', 'gemeinden', 'kanton_zuerich', 'mehrfamilienhaus', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Bauinv. MFH 5 Jahre [Fr./Einw.]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2024-07-26T10:51:14
+# Modified                 : 2025-07-30T09:23:41
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_175.csv')
 
