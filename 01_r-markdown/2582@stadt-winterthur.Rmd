@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-08-21"
+date: "2025-08-22"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 2582@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2024-11-21T12:29:29`
-- **Modified** `2025-07-15T13:35:07`
+- **Modified** `2025-08-21T13:16:00`
 - **Startdate** `1984-12-31`
-- **Enddate** `2024-12-31`
+- **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['leerwohnungen', 'leerwohnungsziffer', 'mietwohnungen', 'wohnung', 'wohnungen', 'ogd']`
 - **Publisher** `['Stadt Winterthur']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Leerwohnungen und Leerwohnungsquote der Stadt Winterthur nach Jahr
 # Description              : Eine vollständige Dokumentation ist in der Ressource "Dokumentation Daten" zu finden.
 # Issued                   : 2024-11-21T12:29:29
-# Modified                 : 2025-07-15T15:32:02
+# Modified                 : 2025-08-21T15:16:00
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002582_00005283.csv')
 
