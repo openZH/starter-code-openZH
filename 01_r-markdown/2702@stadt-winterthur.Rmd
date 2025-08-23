@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-08-22"
+date: "2025-08-23"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 2702@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2024-11-21T12:18:40`
-- **Modified** `2025-07-01T12:43:21`
+- **Modified** `2025-08-22T14:07:19`
 - **Startdate** `2014-12-31`
-- **Enddate** `2025-06-30`
+- **Enddate** `2025-07-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['alter', 'bevoelkerung', 'gemeinden', 'nationalitaet', 'quartieranalyse', 'ogd']`
 - **Publisher** `['Stadt Winterthur']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Bevölkerung von Winterthur nach Quartieren und Stadtkreisen
 # Description              : Die Indikatoren sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
 # Issued                   : 2024-11-21T12:18:40
-# Modified                 : 2025-07-01T14:43:21
+# Modified                 : 2025-08-22T16:07:19
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002702_00005583.csv')
 
