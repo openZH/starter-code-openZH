@@ -1,0 +1,115 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2025-08-29"
+output: html_document
+---
+
+## Dataset: Gebietsstammdaten Kanton Zürich
+
+Der Datensatz enthält Gebietsstammdaten des Kantons Zürich - das heisst Informationen (insbesondere offizielle Codes und Namen) zu Gemeinden, Bezirken und Raumplanungsregionen. Der Datensatz besteht aus drei Code-Tabellen zu Gemeinden, Bezirke und Raumplanungsregionen und aus zwei Tabellen mit ergänzenden Informationen: Eine Tabelle zu Mutationen von Gemeinden (Namensänderungen und Fusionen) seit 1990 und eine Tabelle mit den Zuweisungen der Gemeinden zu deren Bezirk und Raumplanungsregion. Die Kombination aus gebietstyp_code und [gebiet]_code ist eindeutig. Die Codes für Gemeinden und Bezirke werden vom Bundesamt für Statistik vergeben (Bfs-Nummer). Die Abgrenzung der Raumplanungsregionen erfolgt durch das Bundesamt für Raumentwicklung sowie die kantonalen Raumplanungsfachstellen und wird periodisch überarbeitet. Die Daten sind aktuell, vollständig und stabil und werden im Falle von Änderungen aktualisiert.
+
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/3082@statistisches-amt-kanton-zuerich)
+
+Auto generated R starter code for data set 3082@statistisches-amt-kanton-zuerich.
+
+## Metadata
+
+- **Issued** `2025-08-28T15:06:16`
+- **Modified** `2025-08-28T15:06:16`
+- **Startdate** `None`
+- **Enddate** `None`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/REGI']`
+- **Keyword** `['bezirke', 'gemeinden', 'raumplanungsregionen', 'stammdaten', 'ogd']`
+- **Publisher** `['Statistisches Amt des Kantons Zürich']`
+- **Landingpage** `https://github.com/statistikZH/gebietsstammdaten_zh`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 5 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 6503
+# Title                    : Normdaten Gemeinden Kanton Zürich
+# Description              : Für eine Beschreibung der einzelnen Variablen siehe "weitere Informationen" auf der Startseite des Datensatzes.
+# Issued                   : 2025-08-28T15:06:16
+# Modified                 : 2025-08-28T15:06:16
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003082_00006503.csv')
+
+# Distribution 1
+# Ktzhdistid               : 6504
+# Title                    : Gemeindemutationen Kanton Zürich
+# Description              : Gemeindemutationen Kanton Zürich (Namensänderungen und Fusionen) seit 1990.  Für eine Beschreibung der einzelnen Variablen siehe "weitere Informationen" auf der Startseite des Datensatzes.
+# Issued                   : 2025-08-28T15:06:16
+# Modified                 : 2025-08-28T15:06:16
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003082_00006504.csv')
+
+# Distribution 2
+# Ktzhdistid               : 6505
+# Title                    : Normdaten Bezirke Kanton Zürich
+# Description              : Für eine Beschreibung der einzelnen Variablen siehe "weitere Informationen" auf der Startseite des Datensatzes.
+# Issued                   : 2025-08-28T15:06:16
+# Modified                 : 2025-08-28T15:06:16
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003082_00006505.csv')
+
+# Distribution 3
+# Ktzhdistid               : 6506
+# Title                    : Normdaten Raumplanungsregionen Kanton Zürich
+# Description              : Für eine Beschreibung der einzelnen Variablen siehe "weitere Informationen" auf der Startseite des Datensatzes.
+# Issued                   : 2025-08-28T15:06:16
+# Modified                 : 2025-08-28T15:06:16
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003082_00006506.csv')
+
+# Distribution 4
+# Ktzhdistid               : 6563
+# Title                    : Gemeindezuweisungen zu Bezirk und Raumplanungsregion Kanton Zürich
+# Description              : Für eine Beschreibung der einzelnen Variablen siehe "weitere Informationen" auf der Startseite des Datensatzes.
+# Issued                   : 2025-08-28T15:06:16
+# Modified                 : 2025-08-28T15:06:16
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003082_00006563.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Statistisches Amt des Kantons Zürich | Data Management | rebekka.pluess@zh.ch
