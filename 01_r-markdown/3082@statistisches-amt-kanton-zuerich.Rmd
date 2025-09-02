@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-09-01"
+date: "2025-09-02"
 output: html_document
 ---
 
 ## Dataset: Gebietsstammdaten Kanton Zürich
 
-Der Datensatz enthält Gebietsstammdaten des Kantons Zürich - das heisst Informationen (insbesondere offizielle Codes und Namen) zu Gemeinden, Bezirken und Raumplanungsregionen. Der Datensatz besteht aus drei Code-Tabellen zu Gemeinden, Bezirke und Raumplanungsregionen und aus zwei Tabellen mit ergänzenden Informationen: Eine Tabelle zu Mutationen von Gemeinden (Namensänderungen und Fusionen) seit 1990 und eine Tabelle mit den Zuweisungen der Gemeinden zu deren Bezirk und Raumplanungsregion. Die Kombination aus gebietstyp_code und [gebiet]_code ist eindeutig. Die Codes für Gemeinden und Bezirke werden vom Bundesamt für Statistik vergeben (Bfs-Nummer). Die Abgrenzung der Raumplanungsregionen erfolgt durch das Bundesamt für Raumentwicklung sowie die kantonalen Raumplanungsfachstellen und wird periodisch überarbeitet. Die Daten sind aktuell, vollständig und stabil und werden im Falle von Änderungen aktualisiert.
+Der Datensatz enthält Informationen (insbesondere offizielle Codes und Namen) zu Gemeinden, Bezirken und Raumplanungsregionen. Der Datensatz besteht aus drei Code-Tabellen zu Gemeinden, Bezirke und Raumplanungsregionen und aus zwei Tabellen mit ergänzenden Informationen: Eine Tabelle zu Mutationen von Gemeinden (Namensänderungen und Fusionen) seit 1990 und eine Tabelle mit den Zuweisungen der Gemeinden zu deren Bezirk und Raumplanungsregion. Die Kombination aus gebietstyp_code und [gebiet]_code ist eindeutig. Die Codes für Gemeinden und Bezirke werden vom Bundesamt für Statistik vergeben (Bfs-Nummer). Die Abgrenzung der Raumplanungsregionen erfolgt durch das Bundesamt für Raumentwicklung sowie die kantonalen Raumplanungsfachstellen und wird periodisch überarbeitet. Die Daten sind aktuell, vollständig und stabil und werden im Falle von Änderungen aktualisiert.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/3082@statistisches-amt-kanton-zuerich)
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 3082@statistisches-amt-kanton-zuerich
 ## Metadata
 
 - **Issued** `2025-08-28T15:06:16`
-- **Modified** `2025-08-28T15:06:16`
+- **Modified** `2025-09-01T09:50:09`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/REGI']`
