@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-09-05"
+date: "2025-09-06"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 194@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2024-08-12T13:54:42`
+- **Modified** `2025-08-14T08:57:02`
 - **Startdate** `1990-12-31`
-- **Enddate** `2023-12-31`
+- **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['bezirke', 'gemeindefinanzen', 'gemeinden', 'kanton_zuerich', 'politische_gemeinden', 'schulgemeinden', 'steuerertrag', 'steuern', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Steuerertrag Politische/Schulgemeinde [Mio.Fr.]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2024-08-12T13:54:42
+# Modified                 : 2025-08-14T08:57:02
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_297.csv')
 

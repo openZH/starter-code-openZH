@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-09-05"
+date: "2025-09-06"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 59@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2024-08-27T07:53:29`
+- **Modified** `2025-09-05T11:30:25`
 - **Startdate** `2011-12-31`
-- **Enddate** `None`
+- **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['betriebe', 'bezirke', 'gastgewerbe', 'gemeinden', 'kanton_zuerich', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Restaurants [Anz.]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2024-08-27T07:53:29
+# Modified                 : 2025-09-05T11:30:25
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_304.csv')
 
