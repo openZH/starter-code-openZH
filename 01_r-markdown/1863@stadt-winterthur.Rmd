@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-09-08"
+date: "2025-09-09"
 output: html_document
 ---
 
@@ -16,9 +16,9 @@ Auto generated R starter code for data set 1863@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2022-11-25T09:02:55`
-- **Modified** `2025-09-07T09:52:06`
+- **Modified** `2025-09-08T09:52:04`
 - **Startdate** `2022-01-01`
-- **Enddate** `2025-09-06`
+- **Enddate** `2025-09-07`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENER']`
 - **Keyword** `['gemeinden', 'strom', 'stromverbrauch', 'ogd']`
 - **Publisher** `['Stadt Winterthur']`
@@ -46,7 +46,7 @@ library(skimr)
 # Title                    : Energieverbrauch als Bruttolastgang ab 2022
 # Description              : Der Bruttolastgang wird pro Viertelstunde in Kilowattstunden zusammengefasst.
 # Issued                   : 2022-11-25T09:02:55
-# Modified                 : 2025-09-07T11:52:05
+# Modified                 : 2025-09-08T11:52:04
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001863_00003562.csv')
 
