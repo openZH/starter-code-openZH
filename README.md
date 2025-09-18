@@ -16,7 +16,7 @@ Feedback is always very welcome – simply open an issue.
 
 For all data licenses please refer to each data set's link or the metadata API endpoint provided [here](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/datasets/1461@fachstelle-ogd-kanton-zuerich).
 
-<sub>Latest update: **2025-09-17 03:46:41**<sub>
+<sub>Latest update: **2025-09-18 03:48:19**<sub>
 
 | ID | Title (abbreviated to 200 chars) | Python Colab | Python GitHub | R GitHub |
 | :-- | :-- | :-- | :-- | :-- |
