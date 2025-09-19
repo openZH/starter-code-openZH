@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-09-18"
+date: "2025-09-19"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 2282@ima-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2024-03-01T13:19:39`
-- **Modified** `2025-07-16T14:15:10`
+- **Modified** `2025-09-18T15:47:34`
 - **Startdate** `2021-10-01`
 - **Enddate** `2025-03-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENER', 'http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/TRAN', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
