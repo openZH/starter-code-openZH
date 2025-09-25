@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-09-24"
+date: "2025-09-25"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 1802@are-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2022-12-05T11:47:42`
-- **Modified** `2024-10-01T13:27:44`
+- **Modified** `2025-09-24T08:47:50`
 - **Startdate** `2000-01-01`
-- **Enddate** `2023-12-31`
+- **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI']`
 - **Keyword** `['gemeinden', 'geschossflaeche', 'raumentwicklung', 'raumplanungsregionen', 'ogd']`
 - **Publisher** `['Amt für Raumentwicklung des Kantons Zürich']`
