@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-09-30"
+date: "2025-10-01"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 327@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-20T20:16:00`
-- **Modified** `2024-10-04T10:43:33`
+- **Modified** `2025-09-30T07:49:23`
 - **Startdate** `1970-12-31`
-- **Enddate** `2023-12-31`
+- **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['bevoelkerung', 'bezirke', 'gemeinden', 'haushalte', 'haushaltsgroesse', 'kanton_zuerich', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Anteil 3-Personenhaushalte [%]
 # Description              : None
 # Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2024-10-04T10:43:33
+# Modified                 : 2025-09-30T07:49:23
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_472.csv')
 
