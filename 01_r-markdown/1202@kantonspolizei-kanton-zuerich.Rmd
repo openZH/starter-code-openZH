@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-10-02"
+date: "2025-10-03"
 output: html_document
 ---
 
@@ -35,7 +35,7 @@ library(skimr)
 
 # Load data
 
--   The dataset has 9 distribution(s) in CSV format.
+-   The dataset has 10 distribution(s) in CSV format.
 -   All available CSV distributions are listed below and can be read into a tibble.
 
 ```{r}
@@ -120,6 +120,15 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Modified                 : 2025-06-19T14:12:15
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001202_00005085.csv')
+
+# Distribution 9
+# Ktzhdistid               : 6383
+# Title                    : Beschuldigte zu Gewaltstraftaten nach Geschlecht, Altersklasse, Gewaltkategorie und Qualifikation
+# Description              : Die Datei enthält die Anzahl von Beschuldigten (d.h. natürlichen geschädigten Personen) zu Gewaltstraftaten pro Jahr unterteilt nach Geschlecht, Altersklasse, Gewaltkategorie und Qualifikation. Die Spalte Gewaltkategorie enthält die Kategorien "ausserhäusliche Gewalt" (abgekürzt: AUSG) und "häusliche Gewalt" (abgekürzt: HG). Ob ein Gewaltdelikt unter die häusliche Gewalt fällt, wird über die familiäre Beziehung zwischen Opfer und beschuldigter Person bestimmt: häusliche Gewalt ist dann erfüllt, wenn es sich bei der oder dem Beschuldigten um einen aktuellen oder ehemaligen Partner oder eine nahe verwandte Person des Opfers handelt. Bei der ausserhäuslichen Gewalt besteht diese familiäre Vorbeziehung zwischen Oper und Beschuldigten nicht. Pro Jahr und pro Gewaltkategorie wird jede beschuldigte Person nur einmal gezählt, auch wenn sie mehrfach pro Jahr Gewaltdelikte begangen hat. Die Qualifikation beschreibt, ob eine beschuldigte Person innerhalb der gesamten Zeitperiode (z.Z. 6 Jahre) auch selbst Opfer eines Gewaltdeliktes wurde.
+# Issued                   : 2025-10-02T17:59:54
+# Modified                 : 2025-10-02T17:59:54
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001202_00006383.csv')
 
 
 
