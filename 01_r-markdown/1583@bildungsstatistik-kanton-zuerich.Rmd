@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-10-03"
+date: "2025-10-04"
 output: html_document
 ---
 
@@ -17,9 +17,9 @@ Auto generated R starter code for data set 1583@bildungsstatistik-kanton-zuerich
 ## Metadata
 
 - **Issued** `2022-10-24T11:50:08`
-- **Modified** `2025-06-06T09:03:50`
+- **Modified** `2025-10-03T14:38:20`
 - **Startdate** `2000-09-15`
-- **Enddate** `2023-09-15`
+- **Enddate** `2024-09-15`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC']`
 - **Keyword** `['ausbildung', 'bildung', 'bildungsstufe', 'lernende', 'schueler*innen', 'schulgemeinden', 'sekundarschule', 'bildungsdaten', 'ogd']`
 - **Publisher** `['Bildungsstatistik des Kantons Zürich']`
@@ -45,11 +45,11 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 3021
 # Title                    : Lernende auf Sekundarstufe I im Kanton Zürich ab 2000
-# Description              : Ausgewiesen wird die Anzahl der Lernenden an Schule auf Stufe Sek I im Kanton Zürich. Die Daten sind differenziert nach Jahr, zuständiger Schulgemeinde und Sek-Anforderungstyp. Bei Zellen kleiner 5 wird nur der Wert "1-5" ausgewiesen. Jahr: Das Jahr ist jeweils das Kalenderjahr der Erhebung, wobei der Stichtag der 15.9. ist. Die Daten für das Jahr 2023 sind somit im Schuljahr 2023/24 erhoben worden und zeigen den Datenstand am 15. September 2023. Schulgemeinde: Hier wir die zuständige Schulgemeinde dargestellt. Das ist üblicherweise die Schulgemeinde des Wohnort. Es entspricht aber nicht in jedem Fall der Schulgemeinde des Schulstandorts der effektiv besucht wird. Anforderungstyp: In absteigender Reihenfolge sind dies: Mittelschule, Sekundarschule A, Sekundarschule B, Sekundarschule C, besondere Klassen, Heim-/Sonderschulung. Anzahl: Anzahl der Schülerinnen und Schüler mit der entsprechenden Merkmalskombination. Die Daten werden im Rahmen der Statistik der Lernenden für das Bundesamtes für Statistik erhoben. Es handelt sich um eine Vollerhebung.
+# Description              : Ausgewiesen wird die Anzahl der Lernenden an Schule auf Stufe Sek I im Kanton Zürich. Die Daten sind differenziert nach Jahr, zuständiger Schulgemeinde und Sek-Anforderungstyp. Bei Zellen kleiner 5 wird nur der Wert "1-5" ausgewiesen. Jahr: Das Jahr ist jeweils das Kalenderjahr der Erhebung, wobei der Stichtag der 15.9. ist. Die Daten für das Jahr 2024 sind somit im Schuljahr 2024/25 erhoben worden und zeigen den Datenstand am 15. September 2024. Schulgemeinde: Hier wir die zuständige Schulgemeinde dargestellt. Das ist üblicherweise die Schulgemeinde des Wohnort. Es entspricht aber nicht in jedem Fall der Schulgemeinde des Schulstandorts der effektiv besucht wird. Anforderungstyp: In absteigender Reihenfolge sind dies: Mittelschule, Sekundarschule A, Sekundarschule B, Sekundarschule C, besondere Klassen, Heim-/Sonderschulung. Anzahl: Anzahl der Schülerinnen und Schüler mit der entsprechenden Merkmalskombination. Die Daten werden im Rahmen der Statistik der Lernenden für das Bundesamtes für Statistik erhoben. Es handelt sich um eine Vollerhebung.
 # Issued                   : 2022-10-24T11:50:08
-# Modified                 : 2025-01-10T14:04:11
+# Modified                 : 2025-10-03T14:45:48
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/bista/ZH_Lernende_Sekundarstufe_I_Anforderungstyp.csv')
+df <- read_delim('https://www.bista.zh.ch/basicapi/ogd/data_lernende_sekundarstufe_i_anforderungstyp')
 
 
 

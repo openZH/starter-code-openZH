@@ -1,17 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-10-03"
+date: "2025-10-04"
 output: html_document
 ---
 
 ## Dataset: Spitex-Institutionen Kanton Zürich
 
-Der Datensatz enthält betriebliche Daten zu den Spitex-Institutionen mit einer Bewilligung im Kanton Zürich. Als Spitex-Institutionen gelten folgende:
-•	Leistungserbringer für Hilfe und/oder Pflege zu Hause
-•	Leistungserbringer für Hilfe und/oder Pflege in Alterssiedlungen, Seniorenresidenzen und betreutes Wohnen (Inhouse)
-•	Leistungserbringer für Pflege in Tages- oder Nachtstrukturen (ToNS)
-•	Leistungserbringer, die Pflege in ihren Ambulatorium (Praxis) oder eigenen Lokalen durchführen
-
+Der Datensatz enthält betriebliche Daten zu den Spitex-Institutionen mit einer Bewilligung im Kanton Zürich. Als Spitex-Institutionen gelten Leistungserbringer für Hilfe und/oder Pflege zu Hause, Leistungserbringer für Hilfe und/oder Pflege in Alterssiedlungen, Seniorenresidenzen und betreutes Wohnen (Inhouse), Leistungserbringer für Pflege in Tages- oder Nachtstrukturen (ToNS) oder Leistungserbringer, die Pflege in ihren Ambulatorium (Praxis) oder eigenen Lokalen durchführen.
 Der Datensatz umfasst aggregierte Informationen zum Leistungsangebot, zu den erbrachten Leistungen, zum Personal sowie zu den Klienten der verschiedenen Institutionen. Die Daten werden jeweils im Rahmen der jährlichen Erhebung der Statistik der Hilfe und Pflege zu Hause (Spitex) im Kanton Zürich erhoben. Der Inhalt der Erhebung ist seit Jahren stabil. Dies ermöglicht verlässliche Vergleiche über die Jahre hinweg. 
 Die Daten beziehen sich ausschliesslich auf Spitex-Leistungen im Kanton Zürich und ermöglichen somit eine detaillierte Analyse der dortigen Versorgungssituation.
 
@@ -22,7 +17,7 @@ Auto generated R starter code for data set 3103@gesundheitsdirektion-kanton-zuer
 ## Metadata
 
 - **Issued** `2025-10-02T14:32:26`
-- **Modified** `2025-10-02T14:47:36`
+- **Modified** `2025-10-03T07:50:51`
 - **Startdate** `2019-01-01`
 - **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/HEAL']`

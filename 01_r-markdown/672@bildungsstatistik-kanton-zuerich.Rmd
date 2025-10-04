@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-10-03"
+date: "2025-10-04"
 output: html_document
 ---
 
@@ -17,9 +17,9 @@ Auto generated R starter code for data set 672@bildungsstatistik-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2020-03-06T17:39:00`
-- **Modified** `2025-06-06T09:15:51`
+- **Modified** `2025-10-03T15:02:28`
 - **Startdate** `2011-01-01`
-- **Enddate** `2023-12-31`
+- **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC']`
 - **Keyword** `['ausbildung', 'bildung', 'gemeinden', 'gymnasien', 'lernende', 'matura', 'mittelschulen', 'politische_gemeinden', 'schueler*innen', 'quote', 'bildungsdaten', 'ogd']`
 - **Publisher** `['Bildungsstatistik des Kantons Zürich']`
@@ -47,9 +47,9 @@ library(skimr)
 # Title                    : Maturitätsquoten im Kanton Zürich
 # Description              : Die Daten sind differenziert nach Stand der Gemeindegrenzen, politische Gemeinde, BFS-Code der politischen Gemeinde. Ausgewiesen werden die Anzahl Abschlüsse einer Gymnasialen Maturität, die Anzahl Personen im Alter von 19 Jahren und die daraus berechnete Quote. Stand_Gemeindegrenzen: Durch die Fusionen von Gemeinden verändern sich die Gemeindegrenzen von Jahr zu Jahr. Der Stand der Gemeindegrenzen zeigt das Jahr, das für die Auswahl der Gemeinden benutzt wird. Sind Gemeinden in den Vorjahren noch nicht fusioniert, werden diese für die Berechnung zusammengefasst. Total_Abschluss_gymnasial: Die Anzahl aller in den vier relevanten Jahren erlangen gymnasialen Maturitäten. Relevant für die Zuteilung zu den Gemeinden ist der Wohnort der Schülerinnen und Schüler. Schülerinnen und Schüler, welche eine Schule ausserhalb des Kantons Zürich besuchen, sind nicht berücksichtigt. Total_19_Jahre: Als Referenz für die Quotenberechnung dient die jeweilige 19-jährige Wohnbevölkerung. Für Gemeinden, deren Anzahl 19-Jähriger kleiner als 51 ist, wird keine Maturitätsquote berechnet. Die Daten im Zähler werden im Rahmen der Statistik der Bildungsabschlüsse für das Bundesamtes für Statistik erhoben. Es handelt sich um eine Vollerhebung. Die Daten im Zähler stammen aus der Bevölkerungsstatistik des Kanton Zürich vom Statistischen Amt Kanton Zürich.
 # Issued                   : 2020-03-06T17:58:24
-# Modified                 : 2025-01-10T14:14:08
+# Modified                 : 2025-10-03T15:04:22
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/bista/ZH_Maturitaetsquote_Gemeinden_und_Kanton.csv')
+df <- read_delim('https://www.bista.zh.ch/basicapi/ogd/data_maturitaetsquote_gemeinden_und_kanton')
 
 
 
