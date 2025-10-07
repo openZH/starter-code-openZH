@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-10-06"
+date: "2025-10-07"
 output: html_document
 ---
 
@@ -45,36 +45,36 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 6624
 # Title                    : Spitex-Institutionen Kanton Zürich
-# Description              : Die wichtigsten Kenngrössen zu den erbrachten Leistungen und Kosten pro Spitex-Institution. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz
+# Description              : Die wichtigsten Kenngrössen zu den erbrachten Leistungen und Kosten pro Spitex-Institution. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003103_00006623.txt
 # Issued                   : 2025-10-02T14:32:26
-# Modified                 : 2025-10-02T14:32:26
+# Modified                 : 2025-10-06T08:13:53
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003103_00006624.csv')
 
 # Distribution 1
 # Ktzhdistid               : 6625
 # Title                    : Klientinnen und Klienten Spitex-Institutionen Kanton Zürich
-# Description              : Anzahl betreute Klientinnen und Klienten sowie die geleisteten Stunden pro Leistungsart. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz
+# Description              : Anzahl betreute Klientinnen und Klienten sowie die geleisteten Stunden pro Leistungsart. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003103_00006623.txt
 # Issued                   : 2025-10-02T14:32:26
-# Modified                 : 2025-10-02T14:32:26
+# Modified                 : 2025-10-06T08:14:02
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003103_00006625.csv')
 
 # Distribution 2
 # Ktzhdistid               : 6626
 # Title                    : Personal Spitex-Institutionen Kanton Zürich
-# Description              : Anzahl Mitarbeitende und Anzahl VZÄ pro Bezirk, und Diplomart. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz
+# Description              : Anzahl Mitarbeitende und Anzahl VZÄ pro Bezirk, und Diplomart. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003103_00006623.txt
 # Issued                   : 2025-10-02T14:32:26
-# Modified                 : 2025-10-02T14:32:26
+# Modified                 : 2025-10-06T08:14:17
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003103_00006626.csv')
 
 # Distribution 3
 # Ktzhdistid               : 6627
 # Title                    : Aufwände und Erträge Spitex-Institutionen Kanton Zürich
-# Description              : Aufwände und Erträge pro Bezirk zu den wichtigsten Konten. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz
+# Description              : Aufwände und Erträge pro Bezirk zu den wichtigsten Konten. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003103_00006623.txt
 # Issued                   : 2025-10-02T14:32:26
-# Modified                 : 2025-10-02T14:32:26
+# Modified                 : 2025-10-06T08:14:27
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003103_00006627.csv')
 
