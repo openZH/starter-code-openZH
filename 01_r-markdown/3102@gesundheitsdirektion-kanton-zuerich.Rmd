@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-10-10"
+date: "2025-10-11"
 output: html_document
 ---
 
@@ -46,7 +46,7 @@ library(skimr)
 # Title                    : Betriebe Alters- und Pflegeheime Kanton Zürich
 # Description              : Daten zum Leistungsangebot, zu den erbrachten Leistungen sowie die wichtigsten Kenngrössen zu den Kosten pro Heim. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006484.txt
 # Issued                   : 2025-10-02T14:32:04
-# Modified                 : 2025-10-06T08:04:15
+# Modified                 : 2025-10-10T15:22:44
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006486.csv')
 
