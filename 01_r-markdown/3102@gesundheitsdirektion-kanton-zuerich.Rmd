@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-10-13"
+date: "2025-10-14"
 output: html_document
 ---
 
@@ -82,7 +82,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Wanderbewegungen Alters- und Pflegeheime Kanton Zürich
 # Description              : Daten zum Herkunftskanton der Bewohnenden und zum Standortbezirk des Pflegeheims.  Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006484.txt
 # Issued                   : 2025-10-02T14:32:04
-# Modified                 : 2025-10-06T08:12:06
+# Modified                 : 2025-10-13T16:17:46
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006606.csv')
 

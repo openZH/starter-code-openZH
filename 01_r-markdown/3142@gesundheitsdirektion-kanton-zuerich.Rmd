@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-10-13"
+date: "2025-10-14"
 output: html_document
 ---
 
@@ -55,7 +55,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Klientinnen und Klienten selbstständig erwerbende Pflegefachpersonen Kanton Zürich
 # Description              : Anzahl betreute Klientinnen und Klienten sowie die geleisteten Stunden pro Leistungsart. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003142_00006628.txt
 # Issued                   : 2025-10-02T14:32:13
-# Modified                 : 2025-10-06T08:16:27
+# Modified                 : 2025-10-13T17:33:13
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003142_00006630.csv')
 
