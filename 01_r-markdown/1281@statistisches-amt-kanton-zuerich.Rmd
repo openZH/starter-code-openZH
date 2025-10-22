@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-10-21"
+date: "2025-10-22"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Ergebnisse der kommunalen Behördenwahlen 2022
 # Description              : Ergebnisse der Erneuerungswahlen der Zürcher Gemeindebehörden. Abgebildet sind sämtliche über die den Gemeinden vom Kanton Zürich zur Verfügung gestellte Wahl- und Abstimmungssoftware abgewickelten Gesamterneuerungswahlen von Gemeindebehörden 2022, sowie sämtliche gemeldete in Stiller Wahl gewählte Personen für Behörden mit Amtsantritt 2022. Gemeinden sind gesetzlich nicht verpflichtet, die Behördenwahlen mit besagter Software abzuwickeln oder Stille Wahlen zu melden. Ausserdem ist es möglich, dass an der Urne gewählte Personen die Wahl ablehnen. Der rechtskräftig gewordene Ausgang einer Wahl wird lediglich von der entsprechenden Gemeinde publiziert. Korrektur 28.10.2024: Gewisse Kandidierendenspalten waren bisher fälschlicherweise unter unterschiedlichen Wahlen in denselben Gemeinden geführt. Dieser Fehler wurde korrigiert.
 # Issued                   : 2022-03-24T10:21:34
-# Modified                 : 2024-10-28T15:08:31
+# Modified                 : 2025-10-21T12:04:49
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001281_00002419.csv')
 
