@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-10-27"
+date: "2025-10-28"
 output: html_document
 ---
 
@@ -117,7 +117,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Opfer von Gewaltstraftaten nach Geschlecht, Altersklasse, Gewaltkategorie und Qualifikation
 # Description              : Die Datei enthält die Anzahl von Opfern (d.h. natürlichen geschädigten Personen) von Gewaltstraftaten pro Jahr unterteilt nach Geschlecht, Altersklasse, Gewaltkategorie und Qualifikation. Die Spalte Gewaltkategorie enthält die Kategorien "ausserhäusliche Gewalt" (abgekürzt: AUSG) und "häusliche Gewalt" (abgekürzt: HG). Ob ein Gewaltdelikt unter die häusliche Gewalt fällt wird über die familiäre Beziehung zwischen Opfer und beschuldigter Person bestimmt: häusliche Gewalt ist dann erfüllt, wenn es sich bei der beschuldlgiten Person um einen aktuellen oder ehemaligen Partner oder eine nahe verwandte Person des Opfers handelt. Bei der ausserhäuslichen Gewalt besteht diese familiäre Vorbeziehung zwischen Oper und beschuldigter Person nicht. Pro Jahr und pro Gewaltkategorie wird jedes Opfer nur einmal gezählt, auch wenn es mehrfach pro Jahr zum Opfer wurde. Die Qualifikation beschreibt, ob ein Opfer innerhalb der gesamten Zeitperiode (z.Z. 6 Jahre) auch selbst straffällig als Täter eines Gewaltdeliktes wurde.
 # Issued                   : 2024-03-01T13:34:46
-# Modified                 : 2025-06-19T14:12:15
+# Modified                 : 2025-10-27T16:46:57
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001202_00005085.csv')
 
