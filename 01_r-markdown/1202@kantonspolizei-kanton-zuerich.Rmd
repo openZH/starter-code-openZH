@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-10-29"
+date: "2025-10-30"
 output: html_document
 ---
 
@@ -117,7 +117,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Opfer von Gewaltstraftaten nach Geschlecht, Altersklasse, Gewaltkategorie und Qualifikation
 # Description              : Die Datei enthält die Anzahl von Opfern (d.h. natürlichen geschädigten Personen) von Gewaltstraftaten pro Jahr unterteilt nach Geschlecht, Altersklasse, Gewaltkategorie und Qualifikation. Die Spalte Gewaltkategorie enthält die Kategorien "ausserhäusliche Gewalt" (abgekürzt: AUSG) und "häusliche Gewalt" (abgekürzt: HG). Ob ein Gewaltdelikt unter die häusliche Gewalt fällt wird über die familiäre Beziehung zwischen Opfer und beschuldigter Person bestimmt: häusliche Gewalt ist dann erfüllt, wenn es sich bei der beschuldlgiten Person um einen aktuellen oder ehemaligen Partner oder eine nahe verwandte Person des Opfers handelt. Bei der ausserhäuslichen Gewalt besteht diese familiäre Vorbeziehung zwischen Oper und beschuldigter Person nicht. Pro Jahr und pro Gewaltkategorie wird jedes Opfer nur einmal gezählt, auch wenn es mehrfach pro Jahr zum Opfer wurde. Die Qualifikation beschreibt, ob ein Opfer innerhalb der gesamten Zeitperiode (z.Z. 6 Jahre) auch selbst straffällig als Täter eines Gewaltdeliktes wurde.
 # Issued                   : 2024-03-01T13:34:46
-# Modified                 : 2025-10-27T16:46:57
+# Modified                 : 2025-10-29T10:57:04
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001202_00005085.csv')
 
@@ -126,7 +126,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_0000
 # Title                    : Beschuldigte zu Gewaltstraftaten nach Geschlecht, Altersklasse und Gewaltkategorie
 # Description              : Die Datei enthält die Anzahl von Beschuldigten (d.h. natürlichen geschädigten Personen) zu Gewaltstraftaten pro Jahr unterteilt nach Geschlecht, Altersklasse und Gewaltkategorie. Die Spalte Gewaltkategorie enthält die Kategorien "ausserhäusliche Gewalt" (abgekürzt: AUSG) und "häusliche Gewalt" (abgekürzt: HG). Ob ein Gewaltdelikt unter die häusliche Gewalt fällt, wird über die familiäre Beziehung zwischen Opfer und beschuldigter Person bestimmt: häusliche Gewalt ist dann erfüllt, wenn es sich bei der oder dem Beschuldigten um einen aktuellen oder ehemaligen Partner oder eine nahe verwandte Person des Opfers handelt. Bei der ausserhäuslichen Gewalt besteht diese familiäre Vorbeziehung zwischen Oper und Beschuldigten nicht. Pro Jahr und pro Gewaltkategorie wird jede beschuldigte Person nur einmal gezählt, auch wenn sie mehrfach pro Jahr Gewaltdelikte begangen hat.
 # Issued                   : 2025-10-02T17:59:54
-# Modified                 : 2025-10-22T15:29:37
+# Modified                 : 2025-10-29T11:02:18
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001202_00006383.csv')
 
