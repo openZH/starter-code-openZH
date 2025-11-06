@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 694@statistisches-amt-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2020-07-07T16:39:00`
-- **Modified** `2024-03-28T09:12:57`
+- **Issued** `2020-07-06T22:00:00`
+- **Modified** `2024-03-27T23:00:00`
 - **Startdate** `2007-12-31`
 - **Enddate** `2019-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE']`
-- **Keyword** `['kanton_zuerich', 'politik', 'politische_parteien', 'regierungsrat', 'regierungsratswahlen', 'wahlen', 'wahlergebnisse', 'wahlarchiv', 'demokratie', 'ogd']`
+- **Keyword** `['demokratie', 'kanton_zuerich', 'ogd', 'politik', 'politische_parteien', 'regierungsrat', 'regierungsratswahlen', 'wahlarchiv', 'wahlen', 'wahlergebnisse']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/wahlen-abstimmungen/kantons-regierungsratswahlen.html`
 
@@ -44,109 +44,109 @@ library(skimr)
 # Ktzhdistid               : 1687
 # Title                    : Resultate 1. Wahlgang Gesamterneuerungswahl Regierungsrat 2007
 # Description              : None
-# Issued                   : 2020-07-07T16:44:16
-# Modified                 : 2023-11-22T14:21:43
+# Issued                   : 2020-07-06T22:00:00
+# Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00001687.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00001687.csv')
 
 # Distribution 1
 # Ktzhdistid               : 1826
 # Title                    : Kandidierende 1. Wahlgang Gesamterneuerungswahl Regierungsrat 2007
 # Description              : None
-# Issued                   : 2021-06-01T13:36:34
-# Modified                 : 2023-12-08T10:00:06
+# Issued                   : 2021-05-31T22:00:00
+# Modified                 : 2023-12-07T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00001826.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00001826.csv')
 
 # Distribution 2
 # Ktzhdistid               : 1737
 # Title                    : Resultate 1. Wahlgang Ersatzwahl Regierungsrat 2009
 # Description              : None
-# Issued                   : 2020-10-09T11:38:54
-# Modified                 : 2023-11-22T14:19:55
+# Issued                   : 2020-10-08T22:00:00
+# Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00001737.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00001737.csv')
 
 # Distribution 3
 # Ktzhdistid               : 1827
 # Title                    : Kandidierende 1. Wahlgang Ersatzwahl Regierungsrat 2009
 # Description              : None
-# Issued                   : 2021-06-01T13:37:41
-# Modified                 : 2023-12-08T09:59:19
+# Issued                   : 2021-05-31T22:00:00
+# Modified                 : 2023-12-07T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00001827.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00001827.csv')
 
 # Distribution 4
 # Ktzhdistid               : 1688
 # Title                    : Resultate 1. Wahlgang Gesamterneuerungswahl Regierungsrat 2011
 # Description              : None
-# Issued                   : 2020-07-07T16:45:23
-# Modified                 : 2023-11-22T14:18:40
+# Issued                   : 2020-07-06T22:00:00
+# Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00001688.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00001688.csv')
 
 # Distribution 5
 # Ktzhdistid               : 1828
 # Title                    : Kandidierende 1. Wahlgang Gesamterneuerungswahl Regierungsrat 2011
 # Description              : None
-# Issued                   : 2021-06-01T13:38:41
-# Modified                 : 2023-12-08T10:00:22
+# Issued                   : 2021-05-31T22:00:00
+# Modified                 : 2023-12-07T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00001828.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00001828.csv')
 
 # Distribution 6
 # Ktzhdistid               : 1689
 # Title                    : Resultate 1. Wahlgang Gesamterneuerungswahl Regierungsrat 2015
 # Description              : None
-# Issued                   : 2020-07-07T16:46:18
-# Modified                 : 2023-11-22T14:17:53
+# Issued                   : 2020-07-06T22:00:00
+# Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00001689.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00001689.csv')
 
 # Distribution 7
 # Ktzhdistid               : 1829
 # Title                    : Kandidierende 1. Wahlgang Gesamterneuerungswahl Regierungsrat 2015
 # Description              : None
-# Issued                   : 2021-06-01T13:43:00
-# Modified                 : 2023-12-08T10:00:36
+# Issued                   : 2021-05-31T22:00:00
+# Modified                 : 2023-12-07T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00001829.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00001829.csv')
 
 # Distribution 8
 # Ktzhdistid               : 1690
 # Title                    : Resultate 1. Wahlgang Gesamterneuerungswahl Regierungsrat 2019
 # Description              : None
-# Issued                   : 2020-07-07T16:46:50
-# Modified                 : 2023-11-22T14:16:49
+# Issued                   : 2020-07-06T22:00:00
+# Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00001690.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00001690.csv')
 
 # Distribution 9
 # Ktzhdistid               : 1830
 # Title                    : Kandidierende 1. Wahlgang Gesamterneuerungswahl Regierungsrat 2019
 # Description              : None
-# Issued                   : 2021-06-01T13:47:09
-# Modified                 : 2023-12-08T10:00:53
+# Issued                   : 2021-05-31T22:00:00
+# Modified                 : 2023-12-07T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00001830.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00001830.csv')
 
 # Distribution 10
 # Ktzhdistid               : 3944
 # Title                    : Resultate 1. Wahlgang Gesamterneuerungswahl Regierungsrat 2023
 # Description              : None
-# Issued                   : 2023-02-21T10:11:45
-# Modified                 : 2023-11-22T14:16:03
+# Issued                   : 2023-02-20T23:00:00
+# Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00003944.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00003944.csv')
 
 # Distribution 11
 # Ktzhdistid               : 3945
 # Title                    : Kandidierende 1. Wahlgang Gesamterneuerungswahl Regierungsrat 2023
 # Description              : None
-# Issued                   : 2023-02-21T10:06:02
-# Modified                 : 2023-12-08T10:01:32
+# Issued                   : 2023-02-20T23:00:00
+# Modified                 : 2023-12-07T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00003945.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000694_00003945.csv')
 
 
 

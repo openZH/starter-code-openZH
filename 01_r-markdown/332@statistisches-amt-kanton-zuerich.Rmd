@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,8 +14,8 @@ Auto generated R starter code for data set 332@statistisches-amt-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2016-01-20T20:16:00`
-- **Modified** `2025-09-16T09:16:01`
+- **Issued** `2016-01-19T23:00:00`
+- **Modified** `2025-09-15T22:00:00`
 - **Startdate** `1974-12-31`
 - **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON']`
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 255
 # Title                    : Baulandpreis Modell (Median) [Fr./m2]
 # Description              : None
-# Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2024-06-03T10:04:16
+# Issued                   : 2016-01-20T23:00:00
+# Modified                 : 2024-06-02T22:00:00
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_477.csv')
 

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 157@statistisches-amt-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2016-01-20T20:16:00`
-- **Modified** `2025-07-30T09:23:41`
+- **Issued** `2016-01-19T23:00:00`
+- **Modified** `2025-07-29T22:00:00`
 - **Startdate** `1998-12-31`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
-- **Keyword** `['investitionen', 'bautaetigkeit', 'bezirke', 'gemeinden', 'kanton_zuerich', 'kultur', 'spitaeler', 'ogd']`
+- **Keyword** `['bautaetigkeit', 'bezirke', 'gemeinden', 'investitionen', 'kanton_zuerich', 'kultur', 'ogd', 'spitaeler']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
 
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 122
 # Title                    : Bauinv. Spital, Kultur usw. 5 J. [Fr./Einw.]
 # Description              : None
-# Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2025-07-30T09:23:41
+# Issued                   : 2016-01-20T23:00:00
+# Modified                 : 2025-07-29T22:00:00
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_180.csv')
 

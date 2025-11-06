@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 352@statistisches-amt-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2016-01-20T20:16:00`
-- **Modified** `2024-07-11T16:42:14`
+- **Issued** `2016-01-19T23:00:00`
+- **Modified** `2024-07-10T22:00:00`
 - **Startdate** `2010-12-31`
 - **Enddate** `2015-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
-- **Keyword** `['bevoelkerung', 'bezirke', 'gemeinden', 'kanton_zuerich', 'sozialleistungen', 'quote', 'ogd']`
+- **Keyword** `['bevoelkerung', 'bezirke', 'gemeinden', 'kanton_zuerich', 'ogd', 'quote', 'sozialleistungen']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
 
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 273
 # Title                    : Bezügerquote der bedarfsabh. Sozialleistungen [%]
 # Description              : None
-# Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2022-12-22T12:07:08
+# Issued                   : 2016-01-20T23:00:00
+# Modified                 : 2022-12-21T23:00:00
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_815.csv')
 

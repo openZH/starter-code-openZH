@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 2383@awel-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2024-07-31T09:03:23`
-- **Modified** `2025-04-07T12:06:45`
+- **Issued** `2024-07-30T22:00:00`
+- **Modified** `2025-04-06T22:00:00`
 - **Startdate** `2020-02-29`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI']`
-- **Keyword** `['flugverkehr', 'luftschadstoffe', 'strassenverkehr', 'feinstaub', 'luftqualitaet', 'ogd']`
+- **Keyword** `['feinstaub', 'flugverkehr', 'luftqualitaet', 'luftschadstoffe', 'ogd', 'strassenverkehr']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
 - **Landingpage** `https://www.ostluft.ch`
 
@@ -44,73 +44,73 @@ library(skimr)
 # Ktzhdistid               : 5465
 # Title                    : Messdaten Luftschadstoffe und Meteorologie Kloten Feld 2020
 # Description              : Informationen zum Datensatz siehe Datensatzbeschrieb
-# Issued                   : 2024-07-31T09:03:23
-# Modified                 : 2024-08-26T15:27:15
+# Issued                   : 2024-07-30T22:00:00
+# Modified                 : 2024-08-25T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002383_00005465.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002383_00005465.csv')
 
 # Distribution 1
 # Ktzhdistid               : 5466
 # Title                    : Messdaten Luftschadstoffe und Meteorologie Kloten Feld 2021
 # Description              : Informationen zum Datensatz siehe Datensatzbeschrieb
-# Issued                   : 2024-07-31T09:03:23
-# Modified                 : 2024-08-26T15:27:18
+# Issued                   : 2024-07-30T22:00:00
+# Modified                 : 2024-08-25T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002383_00005466.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002383_00005466.csv')
 
 # Distribution 2
 # Ktzhdistid               : 5467
 # Title                    : Messdaten Luftschadstoffe und Meteorologie Kloten Feld 2022
 # Description              : Informationen zum Datensatz siehe Datensatzbeschrieb
-# Issued                   : 2024-07-31T09:03:23
-# Modified                 : 2024-08-26T15:27:21
+# Issued                   : 2024-07-30T22:00:00
+# Modified                 : 2024-08-25T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002383_00005467.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002383_00005467.csv')
 
 # Distribution 3
 # Ktzhdistid               : 5468
 # Title                    : Messdaten Luftschadstoffe und Meteorologie Kloten Feld 2023
 # Description              : Informationen zum Datensatz siehe Datensatzbeschrieb
-# Issued                   : 2024-07-31T09:03:23
-# Modified                 : 2024-08-26T15:27:24
+# Issued                   : 2024-07-30T22:00:00
+# Modified                 : 2024-08-25T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002383_00005468.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002383_00005468.csv')
 
 # Distribution 4
 # Ktzhdistid               : 5469
 # Title                    : Messdaten Aerosol Anzahl-Grössenverteilungen Kloten Feld 2020
 # Description              : Informationen zum Datensatz siehe Datensatzbeschrieb
-# Issued                   : 2024-07-31T09:03:23
-# Modified                 : 2024-07-31T09:03:23
+# Issued                   : 2024-07-30T22:00:00
+# Modified                 : 2024-07-30T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002383_00005469.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002383_00005469.csv')
 
 # Distribution 5
 # Ktzhdistid               : 5470
 # Title                    : Messdaten Aerosol Anzahl-Grössenverteilungen Kloten Feld 2021
 # Description              : Informationen zum Datensatz siehe Datensatzbeschrieb
-# Issued                   : 2024-07-31T09:03:23
-# Modified                 : 2024-07-31T09:03:23
+# Issued                   : 2024-07-30T22:00:00
+# Modified                 : 2024-07-30T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002383_00005470.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002383_00005470.csv')
 
 # Distribution 6
 # Ktzhdistid               : 5471
 # Title                    : Messdaten Aerosol Anzahl-Grössenverteilungen Kloten Feld 2022
 # Description              : Informationen zum Datensatz siehe Datensatzbeschrieb
-# Issued                   : 2024-07-31T09:03:23
-# Modified                 : 2024-07-31T09:03:23
+# Issued                   : 2024-07-30T22:00:00
+# Modified                 : 2024-07-30T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002383_00005471.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002383_00005471.csv')
 
 # Distribution 7
 # Ktzhdistid               : 5472
 # Title                    : Messdaten Aerosol Anzahl-Grössenverteilungen Kloten Feld 2023
 # Description              : Informationen zum Datensatz siehe Datensatzbeschrieb
-# Issued                   : 2024-07-31T09:03:23
-# Modified                 : 2024-07-31T09:03:23
+# Issued                   : 2024-07-30T22:00:00
+# Modified                 : 2024-07-30T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002383_00005472.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002383_00005472.csv')
 
 
 

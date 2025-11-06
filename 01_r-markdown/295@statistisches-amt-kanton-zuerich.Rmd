@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -16,12 +16,12 @@ Auto generated R starter code for data set 295@statistisches-amt-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2016-01-20T20:16:00`
-- **Modified** `2025-09-16T08:15:33`
+- **Issued** `2016-01-19T23:00:00`
+- **Modified** `2025-09-15T22:00:00`
 - **Startdate** `2007-12-31`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
-- **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'sozialhilfe', 'sozialleistungen', 'quote', 'ogd']`
+- **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'ogd', 'quote', 'sozialhilfe', 'sozialleistungen']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
 
@@ -46,8 +46,8 @@ library(skimr)
 # Ktzhdistid               : 225
 # Title                    : Sozialhilfequote [%]
 # Description              : None
-# Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2025-09-16T08:15:33
+# Issued                   : 2016-01-20T23:00:00
+# Modified                 : 2025-09-15T22:00:00
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_541.csv')
 

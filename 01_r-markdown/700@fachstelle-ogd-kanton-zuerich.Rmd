@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 700@fachstelle-ogd-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2020-09-29T14:45:00`
-- **Modified** `2020-10-01T11:32:26`
+- **Issued** `2020-09-28T22:00:00`
+- **Modified** `2020-09-30T22:00:00`
 - **Startdate** `None`
 - **Enddate** `None`
-- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
-- **Keyword** `['kantonale_verwaltung', 'kanton_zuerich', 'ogd']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON', 'http://publications.europa.eu/resource/authority/data-theme/GOVE']`
+- **Keyword** `['kanton_zuerich', 'kantonale_verwaltung', 'ogd']`
 - **Publisher** `['Fachstelle Open Government Data des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/kanton/kantonale-verwaltung/digitale-verwaltung/digitalisierungsprojekte.html#1124425435`
 
@@ -44,28 +44,28 @@ library(skimr)
 # Ktzhdistid               : 1723
 # Title                    : Verzeichnis der Personenstammdaten ZH - Abkürzungen und Definitionen
 # Description              : None
-# Issued                   : 2020-09-17T15:19:34
-# Modified                 : 2020-09-29T17:56:31
+# Issued                   : 2020-09-16T22:00:00
+# Modified                 : 2020-09-28T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000700_00001723.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000700_00001723.csv')
 
 # Distribution 1
 # Ktzhdistid               : 1724
 # Title                    : Verzeichnis der Personenstammdaten ZH - Merkmale zu Registern und Systemen
 # Description              : Abkürzungen und Definitionen sind in der Ressource "Verzeichnis der Personenstammdaten ZH - Abkürzungen und Definitionen" erklärt.
-# Issued                   : 2020-09-17T15:27:53
-# Modified                 : 2020-10-01T11:32:26
+# Issued                   : 2020-09-16T22:00:00
+# Modified                 : 2020-09-30T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000700_00001724.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000700_00001724.csv')
 
 # Distribution 2
 # Ktzhdistid               : 1725
 # Title                    : Verzeichnis der Personenstammdaten ZH - Merkmale zu Verwaltungseinheiten
 # Description              : Abkürzungen und Definitionen sind in der Ressource "Verzeichnis der Personenstammdaten ZH - Abkürzungen und Definitionen" erklärt.
-# Issued                   : 2020-09-17T15:31:37
-# Modified                 : 2020-10-01T11:32:36
+# Issued                   : 2020-09-16T22:00:00
+# Modified                 : 2020-09-30T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000700_00001725.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000700_00001725.csv')
 
 
 

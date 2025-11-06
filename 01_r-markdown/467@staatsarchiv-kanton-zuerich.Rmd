@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 467@staatsarchiv-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2018-12-21T12:00:00`
-- **Modified** `2024-09-10T13:45:53`
+- **Issued** `2018-12-20T23:00:00`
+- **Modified** `2024-09-09T22:00:00`
 - **Startdate** `1803-01-01`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE']`
-- **Keyword** `['kantonsrat', 'demokratie', 'ogd']`
+- **Keyword** `['demokratie', 'kantonsrat', 'ogd']`
 - **Publisher** `['Staatsarchiv des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/wahlen-abstimmungen/kantons-regierungsratswahlen/mitglieder-kantonsrats-ab-1803.html`
 
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 788
 # Title                    : Kantonsratsmitglieder Kanton Zürich - Personen
 # Description              : Variabeln: ID_PERSON_NEW; NACHNAME; VORNAME; GESCHLECHT; DATUM_GEBURT_TAG; DATUM_GEBURT_MONAT; DATUM_GEBURT_JAHR; DATUM_GEBURT; DATUM_TOD_TAG; DATUM_TOD_MONAT; DATUM_TOD_JAHR; DATUM_TOD; BERUF; AKAD_TITEL; KONFESSION; DIENSTGRAD; GND; HLS; MATRIKELZH; VIAF; QUELLEN; BEMERKUNGEN; BILD; BILDQUELLE
-# Issued                   : 2019-08-26T18:04:06
-# Modified                 : 2023-01-16T13:32:36
+# Issued                   : 2019-08-25T22:00:00
+# Modified                 : 2023-01-15T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/krdb-lod/master/data/personen.csv')
 
@@ -53,8 +53,8 @@ df <- read_delim('https://raw.githubusercontent.com/openZH/krdb-lod/master/data/
 # Ktzhdistid               : 830
 # Title                    : Kantonsratsmitglieder Kanton Zürich - Zivilstände
 # Description              : Variabeln: ID_ZIVILSTAND_NEW; ID_PERSON_NEW; ID_PERSON; ZIVILSTAND; PARTNER_NACHNAME; PARTNER_VORNAME; DATUM_VON_TAG; DATUM_VON_MONAT; DATUM_VON_JAHR; DATUM_BIS_TAG; DATUM_BIS_MONAT; DATUM_BIS_JAHR
-# Issued                   : 2019-09-04T15:29:38
-# Modified                 : 2023-01-16T13:32:44
+# Issued                   : 2019-09-03T22:00:00
+# Modified                 : 2023-01-15T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/krdb-lod/master/data/zivilstaende.csv')
 
@@ -62,8 +62,8 @@ df <- read_delim('https://raw.githubusercontent.com/openZH/krdb-lod/master/data/
 # Ktzhdistid               : 828
 # Title                    : Kantonsratsmitglieder Kanton Zürich - Wohnorte
 # Description              : Variabeln: ID_WOHNORT_NEW; ID_PERSON_NEW; ID_PERSON; POSTLEITZAHL; GEMEINDENAME; DATUM_VON_TAG; DATUM_VON_MONAT; DATUM_VON_JAHR; DATUM_BIS_TAG; DATUM_BIS_MONAT; DATUM_BIS_JAHR
-# Issued                   : 2019-09-04T15:08:21
-# Modified                 : 2023-01-16T13:32:51
+# Issued                   : 2019-09-03T22:00:00
+# Modified                 : 2023-01-15T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/krdb-lod/master/data/wohnorte.csv')
 
@@ -71,8 +71,8 @@ df <- read_delim('https://raw.githubusercontent.com/openZH/krdb-lod/master/data/
 # Ktzhdistid               : 829
 # Title                    : Kantonsratsmitglieder Kanton Zürich - Buergerorte
 # Description              : Variabeln: ID_BUERGERORT_NEW; ID_PERSON_NEW; ID_PERSON; ORT; DATUM_VON_TAG; DATUM_VON_MONAT; DATUM_VON_JAHR; DATUM_BIS_TAG; DATUM_BIS_MONAT; DATUM_BIS_JAHR
-# Issued                   : 2019-09-04T15:16:59
-# Modified                 : 2023-01-16T13:33:01
+# Issued                   : 2019-09-03T22:00:00
+# Modified                 : 2023-01-15T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/krdb-lod/master/data/buergerorte.csv')
 
@@ -80,8 +80,8 @@ df <- read_delim('https://raw.githubusercontent.com/openZH/krdb-lod/master/data/
 # Ktzhdistid               : 832
 # Title                    : Kantonsratsmitglieder Kanton Zürich - Einsitze
 # Description              : Variabeln: ID_EINSITZ_NEW; ID_PERSON_NEW; ID_PERSON; RAT; DATUM_EINTRITT_TAG; DATUM_EINTRITT_MONAT; DATUM_EINTRITT_JAHR; DATUM_AUSTRITT_TAG; DATUM_AUSTRITT_MONAT; DATUM_AUSTRITT_JAHR; WAHLKREIS; QUELLEN; BEMERKUNGEN
-# Issued                   : 2019-09-04T16:00:17
-# Modified                 : 2023-01-16T13:33:13
+# Issued                   : 2019-09-03T22:00:00
+# Modified                 : 2023-01-15T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/krdb-lod/master/data/einsitze.csv')
 
@@ -89,8 +89,8 @@ df <- read_delim('https://raw.githubusercontent.com/openZH/krdb-lod/master/data/
 # Ktzhdistid               : 834
 # Title                    : Kantonsratsmitglieder Kanton Zürich - Funktionen
 # Description              : Variabeln: ID_FUNKTION_NEW; ID_EINSITZ_NEW; ID_PERSON_NEW; ID_PERSON; FUNKTIONSBEZEICHNUNG; DATUM_VON_TAG; DATUM_VON_MONAT; DATUM_VON_JAHR; DATUM_BIS_TAG; DATUM_BIS_MONAT; DATUM_BIS_JAHR
-# Issued                   : 2019-09-04T16:11:19
-# Modified                 : 2023-01-16T13:33:22
+# Issued                   : 2019-09-03T22:00:00
+# Modified                 : 2023-01-15T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/krdb-lod/master/data/funktionen.csv')
 
@@ -98,8 +98,8 @@ df <- read_delim('https://raw.githubusercontent.com/openZH/krdb-lod/master/data/
 # Ktzhdistid               : 833
 # Title                    : Kantonsratsmitglieder Kanton Zürich - Parteien
 # Description              : Variabeln: ID_PARTEI_NEW; ID_EINSITZ_NEW; ID_PERSON_NEW; ID_PERSON; PARTEIBEZEICHNUNG; FRAKTION; DATUM_VON_TAG; DATUM_VON_MONAT; DATUM_VON_JAHR; DATUM_BIS_TAG; DATUM_BIS_MONAT; DATUM_BIS_JAHR
-# Issued                   : 2019-09-04T16:08:11
-# Modified                 : 2023-01-16T13:33:28
+# Issued                   : 2019-09-03T22:00:00
+# Modified                 : 2023-01-15T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/krdb-lod/master/data/parteien.csv')
 
@@ -107,8 +107,8 @@ df <- read_delim('https://raw.githubusercontent.com/openZH/krdb-lod/master/data/
 # Ktzhdistid               : 831
 # Title                    : Kantonsratsmitglieder Kanton Zürich - Bindungen
 # Description              : Variabeln: ID_BINDUNG_NEW; ID_PERSON_NEW; ID_PERSON; BINDUNGSKATEGORIE; INSTITUTION; DATUM_VON_TAG; DATUM_VON_MONAT; DATUM_VON_JAHR; DATUM_BIS_TAG; DATUM_BIS_MONAT; DATUM_BIS_JAHR
-# Issued                   : 2019-09-04T15:58:40
-# Modified                 : 2023-01-16T13:33:35
+# Issued                   : 2019-09-03T22:00:00
+# Modified                 : 2023-01-15T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/krdb-lod/master/data/bindungen.csv')
 

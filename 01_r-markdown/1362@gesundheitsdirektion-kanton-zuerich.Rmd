@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 1362@gesundheitsdirektion-kanton-zuer
 
 ## Metadata
 
-- **Issued** `2023-03-24T10:10:26`
-- **Modified** `2025-10-29T16:04:28`
+- **Issued** `2023-03-23T23:00:00`
+- **Modified** `2025-10-31T12:29:31`
 - **Startdate** `2020-01-01`
-- **Enddate** `2025-07-31`
-- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/HEAL', 'http://publications.europa.eu/resource/authority/data-theme/AGRI', 'http://publications.europa.eu/resource/authority/data-theme/ENVI']`
-- **Keyword** `['gemeinden', 'gesundheit', 'trinkwasser', 'wasser', 'pestizide', 'wasserversorgung', 'lebensmittel', 'schwellenwert', 'pflanzenschutzmittel', 'verunreinigung', 'ogd']`
+- **Enddate** `2025-08-02`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/AGRI', 'http://publications.europa.eu/resource/authority/data-theme/ENVI', 'http://publications.europa.eu/resource/authority/data-theme/HEAL']`
+- **Keyword** `['gemeinden', 'gesundheit', 'lebensmittel', 'ogd', 'pestizide', 'pflanzenschutzmittel', 'schwellenwert', 'trinkwasser', 'verunreinigung', 'wasser', 'wasserversorgung']`
 - **Publisher** `['Gesundheitsdirektion des Kantons Zürich']`
 - **Landingpage** `None`
 
@@ -44,19 +44,19 @@ library(skimr)
 # Ktzhdistid               : 6003
 # Title                    : Bewertungskategorien der Trinkwasserqualität
 # Description              : Kategorien von Konzentrationsbereichen pro Analyt zur Qualitätsbewertung. Variablen: 'analyt' = spezifische Bezeichnung des Indikators (z. B. Chlorothalonil "R471811"); 'kategorie' = Konzentrationsbereich von Messwerten; 'kategorie_sortierung' = Sortierung nach aufsteigender Konzentration; 'farbcode' = hexadezimaler Farbcode, der die Einfärbung der Kategorie in der Visualisierung des Kantonalen Labors bestimmt (siehe 'Trinkwasser' unter "Weitere Informationen"); 'start_datum' = Beginn der Gültigkeit des Konzentrationsbereichs; 'end_datum' = Ende der Gültigkeit des Konzentrationsbereichs; 'bemerkung' = Hinweise zum Grund der Änderung des Konzentrationsbereichs.
-# Issued                   : 2025-02-24T14:40:20
-# Modified                 : 2025-02-24T14:40:20
+# Issued                   : 2025-02-23T23:00:00
+# Modified                 : 2025-02-23T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001362_00006003.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001362_00006003.csv')
 
 # Distribution 1
 # Ktzhdistid               : 6004
 # Title                    : Netzproben der Trinkwasserqualität
 # Description              : None
-# Issued                   : 2025-02-24T14:40:43
-# Modified                 : 2025-10-29T16:04:28
+# Issued                   : 2025-02-23T23:00:00
+# Modified                 : 2025-10-31T12:29:28
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001362_00006004.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001362_00006004.csv')
 
 
 

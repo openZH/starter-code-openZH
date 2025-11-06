@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 1681@awel-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2022-08-25T09:41:42`
-- **Modified** `2025-03-27T07:32:03`
+- **Issued** `2022-08-24T22:00:00`
+- **Modified** `2025-03-26T23:00:00`
 - **Startdate** `2010-01-01`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENER']`
-- **Keyword** `['abfall', 'elektrizitaet', 'elektrizitaetsproduktion', 'energie', 'energieproduktion', 'energietraeger', 'erneuerbare_energien', 'holz', 'kehricht', 'luft', 'seen', 'sonnenenergie', 'strom', 'waermepumpen', 'wasser', 'wasserkraft', 'windenergie', 'grundwasser', 'energieressourcen', 'biomasse', 'geothermie', 'abwasser', 'waerme', 'photovoltaik', 'wind', 'windkraft', 'sonne', 'ogd']`
+- **Keyword** `['abfall', 'abwasser', 'biomasse', 'elektrizitaet', 'elektrizitaetsproduktion', 'energie', 'energieproduktion', 'energieressourcen', 'energietraeger', 'erneuerbare_energien', 'geothermie', 'grundwasser', 'holz', 'kehricht', 'luft', 'ogd', 'photovoltaik', 'seen', 'sonne', 'sonnenenergie', 'strom', 'waerme', 'waermepumpen', 'wasser', 'wasserkraft', 'wind', 'windenergie', 'windkraft']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
 - **Landingpage** `None`
 
@@ -44,10 +44,10 @@ library(skimr)
 # Ktzhdistid               : 3140
 # Title                    : Produktion von Wärme und Strom aus erneuerbaren Energieträgern im Kanton Zürich
 # Description              : Zur Produktion von Wärme in Megawattstunden (MWh) enthalten sind die Energieträger: Kehricht, Biomasse (einschliesslich Holz), Sonne, Wasser (umfasst Oberflächen- und Grundwasser), Geothermie (untiefe Bohrungen), Luft (umfasst Luft-Wärmepumpen) sowie Abwasser. Zur Produktion von Strom zusätzlich enthalten ist der Energieträger 'Windkraft', während bei 'Geothermie' keine 'untiefen', sondern nur 'tiefe' Bohrungen zur Stromproduktion beitragen; die Energieträger 'Luft' und 'Abwasser' werden zur Stromproduktion nicht genutzt.
-# Issued                   : 2022-08-25T09:41:42
-# Modified                 : 2025-04-03T11:17:45
+# Issued                   : 2022-08-24T22:00:00
+# Modified                 : 2025-04-02T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001681_00003140.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001681_00003140.csv')
 
 
 

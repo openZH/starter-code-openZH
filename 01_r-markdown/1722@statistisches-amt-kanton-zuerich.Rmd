@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 1722@statistisches-amt-kanton-zuerich
 
 ## Metadata
 
-- **Issued** `2022-09-19T16:51:19`
-- **Modified** `2025-06-10T11:07:25`
+- **Issued** `2022-09-18T22:00:00`
+- **Modified** `2025-06-09T22:00:00`
 - **Startdate** `2016-12-31`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
-- **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'mietwohnungen', 'wohnungen', 'ogd']`
+- **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'mietwohnungen', 'ogd', 'wohnungen']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
 
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 3220
 # Title                    : Anteil Gemeinnützige Wohnungen [%]
 # Description              : None
-# Issued                   : 2022-09-19T16:51:19
-# Modified                 : 2025-06-10T11:07:25
+# Issued                   : 2022-09-18T22:00:00
+# Modified                 : 2025-06-09T22:00:00
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_841.csv')
 

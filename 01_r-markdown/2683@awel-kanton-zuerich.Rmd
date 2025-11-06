@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -19,12 +19,12 @@ Auto generated R starter code for data set 2683@awel-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2024-08-21T12:40:30`
-- **Modified** `2025-08-27T11:51:51`
+- **Issued** `2024-08-20T22:00:00`
+- **Modified** `2025-08-26T22:00:00`
 - **Startdate** `1990-01-01`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI']`
-- **Keyword** `['klima', 'emissionen', 'ogd']`
+- **Keyword** `['emissionen', 'klima', 'ogd']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/umwelt-tiere/klima/klimakarte-daten.html`
 
@@ -49,10 +49,10 @@ library(skimr)
 # Ktzhdistid               : 5504
 # Title                    : Treibhausgasemissionen im Kanton Zürich ab 1990
 # Description              : Emissionen der wichtigsten Klimagase (CO2, CH4, N2O und synthetische Gase) im Kanton Zürich. Die aufgeführten Treibhausgasemissionen sind nach dem Territorialprinzip bilanziert und werden als CO2-Äquivalente in Tonnen pro Jahr ausgewiesen. Die Emissionen liegen als jährliche Zeitreihe ab 1990 vor. Mehr Informationen zum Inhalt der Daten sind in der Ressource "Datenbeschreibung Treibhausgasemissionen im Kanton Zürich" enthalten.
-# Issued                   : 2024-08-21T12:40:30
-# Modified                 : 2025-08-27T11:32:56
+# Issued                   : 2024-08-20T22:00:00
+# Modified                 : 2025-08-26T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002683_00005504.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002683_00005504.csv')
 
 
 

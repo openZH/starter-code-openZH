@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 3002@statistisches-amt-kanton-zuerich
 
 ## Metadata
 
-- **Issued** `2025-05-26T09:03:50`
-- **Modified** `2025-10-28T10:15:50`
+- **Issued** `2025-05-25T22:00:00`
+- **Modified** `2025-10-27T23:00:00`
 - **Startdate** `1987-01-01`
 - **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
-- **Keyword** `['bevoelkerung', 'geburten', 'kinder', 'vornamen', 'ogd']`
+- **Keyword** `['bevoelkerung', 'geburten', 'kinder', 'ogd', 'vornamen']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `None`
 
@@ -44,10 +44,10 @@ library(skimr)
 # Ktzhdistid               : 6263
 # Title                    : Vornamen der Neugeborenen (tabellarisch)
 # Description              : CSV-File mit den Spalten: VORNAME (String), GEBURTSJAHR (Number), GESCHLECHT (String; Codierung m = männlich, f=weiblich), ANZAHL_NEUGEBORENE (Number) 
-# Issued                   : 2025-05-26T09:03:50
-# Modified                 : 2025-10-28T11:15:50
+# Issued                   : 2025-05-25T22:00:00
+# Modified                 : 2025-10-27T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003002_00006263.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003002_00006263.csv')
 
 
 

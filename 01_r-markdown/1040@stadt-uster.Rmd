@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 1040@stadt-uster.
 
 ## Metadata
 
-- **Issued** `2021-11-22T00:00:00`
-- **Modified** `2024-07-15T10:09:10`
+- **Issued** `2021-11-21T23:00:00`
+- **Modified** `2024-07-14T22:00:00`
 - **Startdate** `None`
 - **Enddate** `None`
-- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI', 'http://publications.europa.eu/resource/authority/data-theme/EDUC']`
-- **Keyword** `['familien', 'beratungsangebote', 'kinder', 'kinderbetreuung', 'kindergarten', 'jugendliche', 'ogd']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC', 'http://publications.europa.eu/resource/authority/data-theme/SOCI']`
+- **Keyword** `['beratungsangebote', 'familien', 'jugendliche', 'kinder', 'kinderbetreuung', 'kindergarten', 'ogd']`
 - **Publisher** `['Stadt Uster']`
 - **Landingpage** `https://github.com/GesellschaftStadtUster/kind-jugend-fam_angebote`
 
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 1957
 # Title                    : Tabelle der Angebote und Infrastruktur für Kinder, Jugendliche und Familien in der Stadt Uster
 # Description              : Variabeln: 'lng' = Längengrad, 'lat' = Breitengrad, 'name' = Name des Angebots, 'strasse', 'hausnr', 'plz', 'ort', 'anlage' = Name der Anlage, 'kategorie' = Kategorie des Angebots (siehe Liste der Kategorien im "Readme: Datenstruktur" unter "Weitere Informationen"), 'zugaenglichkeit' = (siehe Optionen der Zugänglichkeit ebenda), 'beschreibung' = Beschreibung des Angebots, 'website' = URL des Angebots.
-# Issued                   : 2021-11-22T23:05:02
-# Modified                 : 2021-11-23T08:11:28
+# Issued                   : 2021-11-21T23:00:00
+# Modified                 : 2021-11-22T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/GesellschaftStadtUster/kind-jugend-fam_angebote/main/angebote_kjf_uster.csv')
 

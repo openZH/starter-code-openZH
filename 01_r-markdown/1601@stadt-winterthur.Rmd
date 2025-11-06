@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 1601@stadt-winterthur.
 
 ## Metadata
 
-- **Issued** `2022-09-20T17:24:49`
-- **Modified** `2024-07-15T11:49:08`
+- **Issued** `2022-09-19T22:00:00`
+- **Modified** `2024-07-14T22:00:00`
 - **Startdate** `1981-01-01`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
-- **Keyword** `['bautaetigkeit', 'gemeinden', 'wohnbautaetigkeit', 'wohnungen', 'wohnungsbau', 'wohnungsbestand', 'ogd']`
+- **Keyword** `['bautaetigkeit', 'gemeinden', 'ogd', 'wohnbautaetigkeit', 'wohnungen', 'wohnungsbau', 'wohnungsbestand']`
 - **Publisher** `['Stadt Winterthur']`
 - **Landingpage** `https://stadt.winterthur.ch/themen/die-stadt/winterthur/statistik/bauen-und-wohnen`
 
@@ -44,10 +44,10 @@ library(skimr)
 # Ktzhdistid               : 3061
 # Title                    : Anzahl Wohnungen im Bestand, Neubau und Abbruch, nach Jahr
 # Description              : Variablen: 'jahr' = Stand per Ende Jahr; 'bestand' = Gesamtanzahl Wohnungen; 'neubau' = Neu gebaute Wohnungen im entsprechenden Jahr; 'abbruch' = Abgebrochene Wohnungen im entsprechenden Jahr.
-# Issued                   : 2022-09-20T17:24:49
-# Modified                 : 2024-03-28T14:45:25
+# Issued                   : 2022-09-19T22:00:00
+# Modified                 : 2024-03-27T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001601_00003061.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001601_00003061.csv')
 
 
 

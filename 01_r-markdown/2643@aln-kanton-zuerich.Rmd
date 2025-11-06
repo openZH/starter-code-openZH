@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 2643@aln-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2024-07-18T17:00:16`
-- **Modified** `2025-03-24T11:02:26`
+- **Issued** `2024-07-17T22:00:00`
+- **Modified** `2025-03-23T23:00:00`
 - **Startdate** `2021-01-01`
 - **Enddate** `2024-12-31`
-- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ENVI']`
-- **Keyword** `['oeffentliche_finanzen', 'staatsfinanzen', 'umwelt', 'naturschutz', 'biodiversitaetsfoerderung', 'nhf', 'ogd']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI', 'http://publications.europa.eu/resource/authority/data-theme/GOVE']`
+- **Keyword** `['biodiversitaetsfoerderung', 'naturschutz', 'nhf', 'oeffentliche_finanzen', 'ogd', 'staatsfinanzen', 'umwelt']`
 - **Publisher** `['Amt für Landschaft und Natur']`
 - **Landingpage** `https://www.zh.ch/de/umwelt-tiere/naturschutz/biodiversitaetsfoerderung.html`
 
@@ -44,10 +44,10 @@ library(skimr)
 # Ktzhdistid               : 5443
 # Title                    : Entwicklung Finanzen 89120 seit 2021
 # Description              : None
-# Issued                   : 2024-07-18T17:00:16
-# Modified                 : 2025-03-24T10:59:47
+# Issued                   : 2024-07-17T22:00:00
+# Modified                 : 2025-03-23T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002643_00005443.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002643_00005443.csv')
 
 
 

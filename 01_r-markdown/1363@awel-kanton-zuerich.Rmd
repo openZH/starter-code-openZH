@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 1363@awel-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2022-07-07T09:10:11`
-- **Modified** `2024-07-10T08:54:36`
+- **Issued** `2022-07-06T22:00:00`
+- **Modified** `2024-07-09T22:00:00`
 - **Startdate** `None`
 - **Enddate** `None`
-- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/HEAL', 'http://publications.europa.eu/resource/authority/data-theme/ENVI']`
-- **Keyword** `['gemeinden', 'immissionen', 'kanton_zuerich', 'luft', 'luftschadstoffe', 'stickstoffdioxid', 'kohlenmonoxid', 'feinstaub', 'ammoniak', 'luftqualitaet', 'schadstoffbelastung', 'emissionen', 'russ', 'ogd']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI', 'http://publications.europa.eu/resource/authority/data-theme/HEAL']`
+- **Keyword** `['ammoniak', 'emissionen', 'feinstaub', 'gemeinden', 'immissionen', 'kanton_zuerich', 'kohlenmonoxid', 'luft', 'luftqualitaet', 'luftschadstoffe', 'ogd', 'russ', 'schadstoffbelastung', 'stickstoffdioxid']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/umwelt-tiere/luft-strahlung/daten-karten.html`
 
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 2698
 # Title                    : Luftschadstoffemissionen im Kanton Zürich 2015, 2020 und 2030 (Submission 2019)
 # Description              : Luftschadstoffemissionen im Kanton Zürich 2015, 2020 und 2030, basierend auf der Submission 2019. Mehr Informationen zum Inhalt der Daten sind in der Ressource "Datenbeschreibung Luftschadstoffe im Kanton Zürich" enthalten.
-# Issued                   : 2022-07-07T09:10:11
-# Modified                 : 2024-03-25T14:48:58
+# Issued                   : 2022-07-06T22:00:00
+# Modified                 : 2024-03-24T23:00:00
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/ostluft_emissionsbilanzen/emissionen_gemeinden_ostluft.csv')
 
@@ -53,8 +53,8 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/ostluft_emissionsbilanzen
 # Ktzhdistid               : 5250
 # Title                    : Luftschadstoffemissionen im Kanton Zürich 2015, 2020, 2021 und 2030 (Submission 2023)
 # Description              : Luftschadstoffemissionen im Kanton Zürich 2015, 2020, 2021 und 2030, basierend auf der Submission 2023. Mehr Informationen zum Inhalt der Daten sind in der Ressource "Datenbeschreibung Luftschadstoffe im Kanton Zürich" enthalten.
-# Issued                   : 2024-04-03T16:25:25
-# Modified                 : 2024-04-03T16:25:25
+# Issued                   : 2024-04-02T22:00:00
+# Modified                 : 2024-04-02T22:00:00
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/ostluft_emissionsbilanzen/emissionen_lss_2023_gemeinden_zh.csv')
 

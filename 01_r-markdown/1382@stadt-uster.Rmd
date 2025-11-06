@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -16,12 +16,12 @@ Auto generated R starter code for data set 1382@stadt-uster.
 
 ## Metadata
 
-- **Issued** `2022-05-15T00:00:00`
-- **Modified** `2024-07-15T10:11:18`
+- **Issued** `2022-05-14T22:00:00`
+- **Modified** `2024-07-14T22:00:00`
 - **Startdate** `2021-06-24`
 - **Enddate** `2021-07-11`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
-- **Keyword** `['internetnutzung', 'beratungsangebote', 'jugend_und_sport', 'raumentwicklung', 'jugendkriminalitaet', 'jugendliche', 'ogd']`
+- **Keyword** `['beratungsangebote', 'internetnutzung', 'jugend_und_sport', 'jugendkriminalitaet', 'jugendliche', 'ogd', 'raumentwicklung']`
 - **Publisher** `['Stadt Uster']`
 - **Landingpage** `https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021`
 
@@ -46,8 +46,8 @@ library(skimr)
 # Ktzhdistid               : 2679
 # Title                    : Jugendbefragung 2021 - Antworten
 # Description              : Antworten der Jugendbefragung 2021; Teilnehmende sind nach 'Alter', 'Geschlecht' und 'Schulstufe' kategorisiert.
-# Issued                   : 2022-05-15T16:00:33
-# Modified                 : 2022-05-15T16:00:33
+# Issued                   : 2022-05-14T22:00:00
+# Modified                 : 2022-05-14T22:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/main/opendata_jugendbefragung.csv')
 
@@ -55,8 +55,8 @@ df <- read_delim('https://raw.githubusercontent.com/GesellschaftStadtUster/kind-
 # Ktzhdistid               : 2718
 # Title                    : Jugendbefragung 2021 - Fragen
 # Description              : Fragen der Jugendbefragung 2021.
-# Issued                   : 2022-05-15T16:00:18
-# Modified                 : 2022-05-15T16:00:18
+# Issued                   : 2022-05-14T22:00:00
+# Modified                 : 2022-05-14T22:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/main/variablen_fragen.csv')
 

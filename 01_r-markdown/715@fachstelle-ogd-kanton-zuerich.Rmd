@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 715@fachstelle-ogd-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2018-12-11T12:00:00`
-- **Modified** `2023-05-25T17:35:23`
+- **Issued** `2018-12-10T23:00:00`
+- **Modified** `2023-05-24T22:00:00`
 - **Startdate** `2018-02-01`
 - **Enddate** `2021-03-28`
-- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
-- **Keyword** `['kantonale_verwaltung', 'kanton_zuerich', 'ogd']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON', 'http://publications.europa.eu/resource/authority/data-theme/GOVE']`
+- **Keyword** `['kanton_zuerich', 'kantonale_verwaltung', 'ogd']`
 - **Publisher** `['Fachstelle Open Government Data des Kantons Zürich']`
 - **Landingpage** `None`
 
@@ -44,314 +44,314 @@ library(skimr)
 # Ktzhdistid               : 1630
 # Title                    : ZH Datasets Visits - 2020 Februar
 # Description              : None
-# Issued                   : 2020-04-23T18:06:31
-# Modified                 : 2020-04-23T18:06:31
+# Issued                   : 2020-04-22T22:00:00
+# Modified                 : 2020-04-22T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001630.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001630.csv')
 
 # Distribution 1
 # Ktzhdistid               : 1629
 # Title                    : ZH Datasets Visits - 2020 Januar
 # Description              : None
-# Issued                   : 2020-04-23T18:04:57
-# Modified                 : 2020-04-23T18:04:57
+# Issued                   : 2020-04-22T22:00:00
+# Modified                 : 2020-04-22T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001629.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001629.csv')
 
 # Distribution 2
 # Ktzhdistid               : 1631
 # Title                    : ZH Datasets Visits - 2020 März
 # Description              : None
-# Issued                   : 2020-04-23T18:07:26
-# Modified                 : 2020-04-23T18:07:26
+# Issued                   : 2020-04-22T22:00:00
+# Modified                 : 2020-04-22T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001631.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001631.csv')
 
 # Distribution 3
 # Ktzhdistid               : 1708
 # Title                    : ZH Datasets Visits - 2020 April
 # Description              : Ausgenommen sind die Datensätze, die von der Geoinformation des Kantons Zürich auf opendata.swiss verwaltet werden.
-# Issued                   : 2020-08-10T17:49:40
-# Modified                 : 2020-08-10T17:49:40
+# Issued                   : 2020-08-09T22:00:00
+# Modified                 : 2020-08-09T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001708.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001708.csv')
 
 # Distribution 4
 # Ktzhdistid               : 1709
 # Title                    : ZH Datasets Visits - 2020 Mai
 # Description              : Ausgenommen sind die Datensätze, die von der Geoinformation des Kantons Zürich auf opendata.swiss verwaltet werden.
-# Issued                   : 2020-08-10T17:53:49
-# Modified                 : 2020-08-10T17:53:49
+# Issued                   : 2020-08-09T22:00:00
+# Modified                 : 2020-08-09T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001709.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001709.csv')
 
 # Distribution 5
 # Ktzhdistid               : 1710
 # Title                    : ZH Datasets Visits - 2020 Juni
 # Description              : Ausgenommen sind die Datensätze, die von der Geoinformation des Kantons Zürich auf opendata.swiss verwaltet werden.
-# Issued                   : 2020-08-10T17:54:51
-# Modified                 : 2020-08-10T17:54:51
+# Issued                   : 2020-08-09T22:00:00
+# Modified                 : 2020-08-09T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001710.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001710.csv')
 
 # Distribution 6
 # Ktzhdistid               : 1730
 # Title                    : ZH Datasets Visits - 2020 September
 # Description              : Ausgenommen sind die Datensätze, die von der Geoinformation des Kantons Zürich auf opendata.swiss verwaltet werden.
-# Issued                   : 2020-10-01T16:46:30
-# Modified                 : 2020-10-01T16:46:30
+# Issued                   : 2020-09-30T22:00:00
+# Modified                 : 2020-09-30T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001730.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001730.csv')
 
 # Distribution 7
 # Ktzhdistid               : 770
 # Title                    : ZH Datasets Visits - 2018 Februar
 # Description              : None
-# Issued                   : 2019-08-26T17:20:06
-# Modified                 : 2019-08-26T17:29:18
+# Issued                   : 2019-08-25T22:00:00
+# Modified                 : 2019-08-25T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000770.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000770.csv')
 
 # Distribution 8
 # Ktzhdistid               : 771
 # Title                    : ZH Datasets Visits - 2018 März
 # Description              : None
-# Issued                   : 2019-08-26T17:29:32
-# Modified                 : 2019-08-26T17:29:32
+# Issued                   : 2019-08-25T22:00:00
+# Modified                 : 2019-08-25T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000771.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000771.csv')
 
 # Distribution 9
 # Ktzhdistid               : 772
 # Title                    : ZH Datasets Visits - 2018 April
 # Description              : None
-# Issued                   : 2019-08-26T17:30:22
-# Modified                 : 2019-08-26T17:30:22
+# Issued                   : 2019-08-25T22:00:00
+# Modified                 : 2019-08-25T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000772.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000772.csv')
 
 # Distribution 10
 # Ktzhdistid               : 773
 # Title                    : ZH Datasets Visits - 2018 Mai
 # Description              : None
-# Issued                   : 2019-08-26T17:31:17
-# Modified                 : 2019-08-26T17:31:17
+# Issued                   : 2019-08-25T22:00:00
+# Modified                 : 2019-08-25T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000773.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000773.csv')
 
 # Distribution 11
 # Ktzhdistid               : 774
 # Title                    : ZH Datasets Visits - 2018 Juni
 # Description              : None
-# Issued                   : 2019-08-26T17:32:32
-# Modified                 : 2019-08-26T17:32:32
+# Issued                   : 2019-08-25T22:00:00
+# Modified                 : 2019-08-25T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000774.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000774.csv')
 
 # Distribution 12
 # Ktzhdistid               : 775
 # Title                    : ZH Datasets Visits - 2018 Juli
 # Description              : None
-# Issued                   : 2019-08-26T17:33:26
-# Modified                 : 2019-08-26T17:33:26
+# Issued                   : 2019-08-25T22:00:00
+# Modified                 : 2019-08-25T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000775.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000775.csv')
 
 # Distribution 13
 # Ktzhdistid               : 776
 # Title                    : ZH Datasets Visits - 2018 August
 # Description              : None
-# Issued                   : 2019-08-26T17:34:08
-# Modified                 : 2019-08-26T17:34:08
+# Issued                   : 2019-08-25T22:00:00
+# Modified                 : 2019-08-25T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000776.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000776.csv')
 
 # Distribution 14
 # Ktzhdistid               : 777
 # Title                    : ZH Datasets Visits - 2018 September
 # Description              : None
-# Issued                   : 2019-08-26T17:35:21
-# Modified                 : 2019-08-26T17:35:21
+# Issued                   : 2019-08-25T22:00:00
+# Modified                 : 2019-08-25T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000777.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000777.csv')
 
 # Distribution 15
 # Ktzhdistid               : 778
 # Title                    : ZH Datasets Visits - 2018 Oktober
 # Description              : None
-# Issued                   : 2019-08-26T17:37:19
-# Modified                 : 2019-08-26T17:37:19
+# Issued                   : 2019-08-25T22:00:00
+# Modified                 : 2019-08-25T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000778.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000778.csv')
 
 # Distribution 16
 # Ktzhdistid               : 779
 # Title                    : ZH Datasets Visits - 2018 November
 # Description              : None
-# Issued                   : 2019-08-26T17:38:16
-# Modified                 : 2019-08-26T17:38:16
+# Issued                   : 2019-08-25T22:00:00
+# Modified                 : 2019-08-25T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000779.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000779.csv')
 
 # Distribution 17
 # Ktzhdistid               : 780
 # Title                    : ZH Datasets Visits - 2018 Dezember
 # Description              : None
-# Issued                   : 2019-08-26T17:38:58
-# Modified                 : 2019-08-26T17:38:58
+# Issued                   : 2019-08-25T22:00:00
+# Modified                 : 2019-08-25T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000780.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000780.csv')
 
 # Distribution 18
 # Ktzhdistid               : 781
 # Title                    : ZH Datasets Visits - 2019 Januar
 # Description              : None
-# Issued                   : 2019-08-26T17:41:39
-# Modified                 : 2019-08-26T17:41:39
+# Issued                   : 2019-08-25T22:00:00
+# Modified                 : 2019-08-25T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000781.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000781.csv')
 
 # Distribution 19
 # Ktzhdistid               : 782
 # Title                    : ZH Datasets Visits - 2019 Februar
 # Description              : None
-# Issued                   : 2019-08-26T17:42:32
-# Modified                 : 2019-08-26T17:42:32
+# Issued                   : 2019-08-25T22:00:00
+# Modified                 : 2019-08-25T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000782.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000782.csv')
 
 # Distribution 20
 # Ktzhdistid               : 783
 # Title                    : ZH Datasets Visits - 2019 März
 # Description              : None
-# Issued                   : 2019-08-26T17:43:19
-# Modified                 : 2019-08-26T17:43:19
+# Issued                   : 2019-08-25T22:00:00
+# Modified                 : 2019-08-25T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000783.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000783.csv')
 
 # Distribution 21
 # Ktzhdistid               : 784
 # Title                    : ZH Datasets Visits - 2019 April
 # Description              : None
-# Issued                   : 2019-08-26T17:44:18
-# Modified                 : 2019-08-26T17:44:18
+# Issued                   : 2019-08-25T22:00:00
+# Modified                 : 2019-08-25T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000784.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000784.csv')
 
 # Distribution 22
 # Ktzhdistid               : 785
 # Title                    : ZH Datasets Visits - 2019 Mai
 # Description              : None
-# Issued                   : 2019-08-26T17:45:00
-# Modified                 : 2019-08-26T17:45:00
+# Issued                   : 2019-08-25T22:00:00
+# Modified                 : 2019-08-25T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000785.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000785.csv')
 
 # Distribution 23
 # Ktzhdistid               : 835
 # Title                    : ZH Datasets Visits - 2019 Juni
 # Description              : None
-# Issued                   : 2019-09-05T10:03:48
-# Modified                 : 2019-09-05T10:03:48
+# Issued                   : 2019-09-04T22:00:00
+# Modified                 : 2019-09-04T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000835.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000835.csv')
 
 # Distribution 24
 # Ktzhdistid               : 836
 # Title                    : ZH Datasets Visits - 2019 Juli
 # Description              : None
-# Issued                   : 2019-09-05T10:05:36
-# Modified                 : 2019-09-05T10:05:36
+# Issued                   : 2019-09-04T22:00:00
+# Modified                 : 2019-09-04T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000836.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000836.csv')
 
 # Distribution 25
 # Ktzhdistid               : 837
 # Title                    : ZH Datasets Visits - 2019 August
 # Description              : None
-# Issued                   : 2019-09-05T10:06:58
-# Modified                 : 2019-09-05T10:06:58
+# Issued                   : 2019-09-04T22:00:00
+# Modified                 : 2019-09-04T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000837.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000837.csv')
 
 # Distribution 26
 # Ktzhdistid               : 848
 # Title                    : ZH Datasets Visits - 2019 September
 # Description              : None
-# Issued                   : 2019-10-14T10:50:35
-# Modified                 : 2019-10-14T10:50:35
+# Issued                   : 2019-10-13T22:00:00
+# Modified                 : 2019-10-13T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000848.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000848.csv')
 
 # Distribution 27
 # Ktzhdistid               : 908
 # Title                    : ZH Datasets Visits - 2019 Oktober
 # Description              : None
-# Issued                   : 2019-11-04T12:56:05
-# Modified                 : 2019-11-04T12:56:05
+# Issued                   : 2019-11-03T23:00:00
+# Modified                 : 2019-11-03T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000908.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00000908.csv')
 
 # Distribution 28
 # Ktzhdistid               : 1088
 # Title                    : ZH Datasets Visits - 2019 November
 # Description              : None
-# Issued                   : 2019-12-16T12:08:17
-# Modified                 : 2019-12-16T12:08:19
+# Issued                   : 2019-12-15T23:00:00
+# Modified                 : 2019-12-15T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001088.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001088.csv')
 
 # Distribution 29
 # Ktzhdistid               : 1128
 # Title                    : ZH Datasets Visits - 2019 Dezember
 # Description              : None
-# Issued                   : 2020-01-13T15:38:53
-# Modified                 : 2020-01-13T15:38:53
+# Issued                   : 2020-01-12T23:00:00
+# Modified                 : 2020-01-12T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001128.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001128.csv')
 
 # Distribution 30
 # Ktzhdistid               : 1711
 # Title                    : ZH Datasets Visits - 2020 Juli
 # Description              : Ausgenommen sind die Datensätze, die von der Geoinformation des Kantons Zürich auf opendata.swiss verwaltet werden.
-# Issued                   : 2020-08-10T17:57:20
-# Modified                 : 2020-08-10T17:57:20
+# Issued                   : 2020-08-09T22:00:00
+# Modified                 : 2020-08-09T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001711.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001711.csv')
 
 # Distribution 31
 # Ktzhdistid               : 1720
 # Title                    : ZH Datasets Visits - 2020 August
 # Description              : Ausgenommen sind die Datensätze, die von der Geoinformation des Kantons Zürich auf opendata.swiss verwaltet werden.
-# Issued                   : 2020-09-01T15:44:03
-# Modified                 : 2020-09-01T15:44:03
+# Issued                   : 2020-08-31T22:00:00
+# Modified                 : 2020-08-31T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001720.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001720.csv')
 
 # Distribution 32
 # Ktzhdistid               : 1752
 # Title                    : ZH Datasets Visits - 2020 Oktober
 # Description              : Ausgenommen sind die Datensätze, die von der Geoinformation des Kantons Zürich auf opendata.swiss verwaltet werden.
-# Issued                   : 2020-11-13T17:32:44
-# Modified                 : 2020-11-13T17:32:45
+# Issued                   : 2020-11-12T23:00:00
+# Modified                 : 2020-11-12T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001752.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001752.csv')
 
 # Distribution 33
 # Ktzhdistid               : 1772
 # Title                    : ZH Datasets Visits - 2020 November
 # Description              : Ausgenommen sind die Datensätze, die von der Geoinformation des Kantons Zürich auf opendata.swiss verwaltet werden.
-# Issued                   : 2020-12-02T07:17:21
-# Modified                 : 2020-12-02T07:17:21
+# Issued                   : 2020-12-01T23:00:00
+# Modified                 : 2020-12-01T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001772.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000715_00001772.csv')
 
 # Distribution 34
 # Ktzhdistid               : 1799
 # Title                    : ZH Datasets Visits - 2021 Februar
 # Description              : Ausgenommen sind die Datensätze, die von der Geoinformation des Kanton Zürich auf opendata.swiss verwaltet werden.
-# Issued                   : 2021-03-24T13:08:20
-# Modified                 : 2021-03-24T13:08:20
+# Issued                   : 2021-03-23T23:00:00
+# Modified                 : 2021-03-23T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/web-analytics-der-open-government-data-des-kantons-zuerich/master/data/ZH_Datasets_UniqueActions_2021-02.csv')
 
@@ -359,8 +359,8 @@ df <- read_delim('https://raw.githubusercontent.com/openZH/web-analytics-der-ope
 # Ktzhdistid               : 1798
 # Title                    : ZH Datasets Visits - 2021 Januar
 # Description              : Ausgenommen sind die Datensätze, die von der Geoinformation des Kantons Zürich auf opendata.swiss verwaltet werden.
-# Issued                   : 2021-03-24T13:05:56
-# Modified                 : 2021-03-24T13:05:56
+# Issued                   : 2021-03-23T23:00:00
+# Modified                 : 2021-03-23T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/web-analytics-der-open-government-data-des-kantons-zuerich/master/data/ZH_Datasets_UniqueActions_2021-01.csv')
 
@@ -368,8 +368,8 @@ df <- read_delim('https://raw.githubusercontent.com/openZH/web-analytics-der-ope
 # Ktzhdistid               : 1797
 # Title                    : ZH Datasets Visits - 2020 Dezember
 # Description              : Ausgenommen sind die Datensätze, die von der Geoinformation des Kantons Zürich auf opendata.swiss verwaltet werden.
-# Issued                   : 2021-03-24T11:27:43
-# Modified                 : 2021-03-24T11:27:43
+# Issued                   : 2021-03-23T23:00:00
+# Modified                 : 2021-03-23T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/web-analytics-der-open-government-data-des-kantons-zuerich/master/data/ZH_Datasets_UniqueActions_2020-12.csv')
 

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 686@statistisches-amt-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2020-05-25T00:00:00`
-- **Modified** `2025-07-21T07:46:04`
+- **Issued** `2020-05-24T22:00:00`
+- **Modified** `2025-07-20T22:00:00`
 - **Startdate** `2002-12-31`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TRAN']`
-- **Keyword** `['bezirke', 'fahrzeuge', 'gemeinden', 'kanton_zuerich', 'motorfahrzeuge', 'personenwagen', 'ogd']`
+- **Keyword** `['bezirke', 'fahrzeuge', 'gemeinden', 'kanton_zuerich', 'motorfahrzeuge', 'ogd', 'personenwagen']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
 
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 1646
 # Title                    : Neuzulassungen  Dieselmotor [%]
 # Description              : None
-# Issued                   : 2020-05-25T00:00:00
-# Modified                 : 2025-07-21T07:46:04
+# Issued                   : 2020-05-24T22:00:00
+# Modified                 : 2025-07-20T22:00:00
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_610.csv')
 

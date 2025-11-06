@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
-## Dataset: Maturitätsquoten im Kanton Zürich
+## Dataset: Gymnasiale Maturitätsquoten im Kanton Zürich
 
-Durchschnittliche Maturitätsquoten aller politischen Gemeinden im Kanton Zürich der im Vierjahresschnitt. Die Quoten werden pro politische Gemeinde und Jahr wie folgt berechnet: Summe der Maturitätsabschlüsse der Gemeinde in den vier letzten Jahren geteilt durch die Summe der Anzahl 19-jähriger Einwohnerinnen und Einwohner dieser Gemeinde in den letzten vier Jahren.
+Durchschnittliche gymnasiale Maturitätsquoten aller politischen Gemeinden im Kanton Zürich der im Vierjahresschnitt. Die Quoten werden pro politische Gemeinde und Jahr wie folgt berechnet: Summe der Maturitätsabschlüsse der Gemeinde in den vier letzten Jahren geteilt durch die Summe der Anzahl 19-jähriger Einwohnerinnen und Einwohner dieser Gemeinde in den letzten vier Jahren.
 
 Publiziert sind die Maturitätsquoten ab dem Gemeindestand von 2014 (Abschlüsse und Bevölkerungsstände von 2011 bis 2014).
 
@@ -16,12 +16,12 @@ Auto generated R starter code for data set 672@bildungsstatistik-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2020-03-06T17:39:00`
-- **Modified** `2025-10-03T15:02:28`
+- **Issued** `2020-03-05T23:00:00`
+- **Modified** `2025-10-30T13:52:29`
 - **Startdate** `2011-01-01`
 - **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC']`
-- **Keyword** `['ausbildung', 'bildung', 'gemeinden', 'gymnasien', 'lernende', 'matura', 'mittelschulen', 'politische_gemeinden', 'schueler*innen', 'quote', 'bildungsdaten', 'ogd']`
+- **Keyword** `['ausbildung', 'bildung', 'bildungsdaten', 'gemeinden', 'gymnasien', 'lernende', 'matura', 'mittelschulen', 'ogd', 'politische_gemeinden', 'quote', 'schueler*innen']`
 - **Publisher** `['Bildungsstatistik des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/bildung/bildungssystem/zahlen-fakten/gymnasiale-maturitaetsquote.html`
 
@@ -44,10 +44,10 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1625
-# Title                    : Maturitätsquoten im Kanton Zürich
-# Description              : Die Daten sind differenziert nach Stand der Gemeindegrenzen, politische Gemeinde, BFS-Code der politischen Gemeinde. Ausgewiesen werden die Anzahl Abschlüsse einer Gymnasialen Maturität, die Anzahl Personen im Alter von 19 Jahren und die daraus berechnete Quote. Stand_Gemeindegrenzen: Durch die Fusionen von Gemeinden verändern sich die Gemeindegrenzen von Jahr zu Jahr. Der Stand der Gemeindegrenzen zeigt das Jahr, das für die Auswahl der Gemeinden benutzt wird. Sind Gemeinden in den Vorjahren noch nicht fusioniert, werden diese für die Berechnung zusammengefasst. Total_Abschluss_gymnasial: Die Anzahl aller in den vier relevanten Jahren erlangen gymnasialen Maturitäten. Relevant für die Zuteilung zu den Gemeinden ist der Wohnort der Schülerinnen und Schüler. Schülerinnen und Schüler, welche eine Schule ausserhalb des Kantons Zürich besuchen, sind nicht berücksichtigt. Total_19_Jahre: Als Referenz für die Quotenberechnung dient die jeweilige 19-jährige Wohnbevölkerung. Für Gemeinden, deren Anzahl 19-Jähriger kleiner als 51 ist, wird keine Maturitätsquote berechnet. Die Daten im Zähler werden im Rahmen der Statistik der Bildungsabschlüsse für das Bundesamtes für Statistik erhoben. Es handelt sich um eine Vollerhebung. Die Daten im Zähler stammen aus der Bevölkerungsstatistik des Kanton Zürich vom Statistischen Amt Kanton Zürich.
-# Issued                   : 2020-03-06T17:58:24
-# Modified                 : 2025-10-03T15:04:22
+# Title                    : Gymnasiale Maturitätsquoten im Kanton Zürich
+# Description              : Die Daten sind differenziert nach Stand der Gemeindegrenzen, politische Gemeinde, BFS-Code der politischen Gemeinde. Ausgewiesen werden die Anzahl Abschlüsse einer Gymnasialen Maturität, die Anzahl Personen im Alter von 19 Jahren und die daraus berechnete Quote. Stand_Gemeindegrenzen: Durch die Fusionen von Gemeinden verändern sich die Gemeindegrenzen von Jahr zu Jahr. Der Stand der Gemeindegrenzen zeigt das Jahr, das für die Auswahl der Gemeinden benutzt wird. Sind Gemeinden in den Vorjahren noch nicht fusioniert, werden diese für die Berechnung zusammengefasst. Total_Abschluss_gymnasial: Die Anzahl aller in den vier relevanten Jahren erlangen gymnasialen Maturitäten. Neben den Abschlüssen an den öffentlichen Gymnasien werden auch die Abschlüsse an der Kantonalen Maturitätsschule für Erwachsene sowie an den anerkannten privat finanzierten Gymnasien berücksichtigt. Relevant für die Zuteilung zu den Gemeinden ist der Wohnort der Schülerinnen und Schüler. Schülerinnen und Schüler, welche eine Schule ausserhalb des Kantons Zürich besuchen, sind nicht berücksichtigt.  Total_19_Jahre: Als Referenz für die Quotenberechnung dient die jeweilige 19-jährige Wohnbevölkerung. Für Gemeinden, deren Anzahl 19-Jähriger kleiner als 51 ist, wird keine Maturitätsquote berechnet. Die Daten im Zähler werden im Rahmen der Statistik der Bildungsabschlüsse für das Bundesamtes für Statistik erhoben. Es handelt sich um eine Vollerhebung. Die Daten im Zähler stammen aus der Bevölkerungsstatistik des Kanton Zürich vom Statistischen Amt Kanton Zürich.
+# Issued                   : 2020-03-05T23:00:00
+# Modified                 : 2025-10-30T13:54:55
 
 df <- read_delim('https://www.bista.zh.ch/basicapi/ogd/data_maturitaetsquote_gemeinden_und_kanton')
 

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,11 +14,11 @@ Auto generated R starter code for data set 465@gemeindeamt-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2018-12-10T12:00:00`
-- **Modified** `2019-07-25T16:38:00`
+- **Issued** `2018-12-09T23:00:00`
+- **Modified** `2019-07-24T22:00:00`
 - **Startdate** `1990-01-01`
 - **Enddate** `2017-12-31`
-- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON', 'http://publications.europa.eu/resource/authority/data-theme/GOVE']`
 - **Keyword** `['gemeindefinanzen', 'gemeinden', 'ogd']`
 - **Publisher** `['Gemeindeamt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/pruefung-uebermittlung-gemeindedaten.html`
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 768
 # Title                    : Bilanzwert der langfristigen Schulden [Fr./Einw.]
 # Description              : Bilanzwert der langfristigen Schulden pro Kopf pro konsolidierte Gemeinde.
-# Issued                   : 2019-08-26T16:09:04
-# Modified                 : 2018-12-10T17:00:00
+# Issued                   : 2019-08-25T22:00:00
+# Modified                 : 2018-12-09T23:00:00
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/gaz/KANTON_ZUERICH_gaz_langfristige_schulden.csv')
 

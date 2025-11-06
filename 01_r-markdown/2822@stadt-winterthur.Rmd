@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 2822@stadt-winterthur.
 
 ## Metadata
 
-- **Issued** `2024-12-11T17:15:28`
-- **Modified** `2024-12-12T09:04:58`
+- **Issued** `2024-12-10T23:00:00`
+- **Modified** `2024-12-11T23:00:00`
 - **Startdate** `2019-01-01`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/JUST']`
-- **Keyword** `['sicherheit', 'feuerwehr', 'rettung', 'ogd']`
+- **Keyword** `['feuerwehr', 'ogd', 'rettung', 'sicherheit']`
 - **Publisher** `['Stadt Winterthur']`
 - **Landingpage** `https://stadt.winterthur.ch/gemeinde/verwaltung/sicherheit-und-umwelt/schutz-und-intervention/einsaetze/feuerwehr-einsaetze`
 
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 5804
 # Title                    : Feuerwehr-Einsätze Winterthur (API CSV)
 # Description              : Dieser Endpoint liefert die Einsätze der Feuerwehr Winterthur im CSV-Format. Die Dokumentation zum API ist im Datensatz verlinkt unter "API-Dokumentation Feuerwehr-Einsätze".
-# Issued                   : 2024-12-11T17:15:28
-# Modified                 : 2024-12-11T17:15:28
+# Issued                   : 2024-12-10T23:00:00
+# Modified                 : 2024-12-10T23:00:00
 
 df <- read_delim('https://einsatzberichte-feuerwehr.winterthur.ch/mission-reports/csv')
 

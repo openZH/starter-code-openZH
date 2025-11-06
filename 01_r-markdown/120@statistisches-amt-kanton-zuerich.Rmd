@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,8 +14,8 @@ Auto generated R starter code for data set 120@statistisches-amt-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2019-02-27T00:00:00`
-- **Modified** `2024-07-15T11:49:53`
+- **Issued** `2019-02-26T23:00:00`
+- **Modified** `2024-07-14T22:00:00`
 - **Startdate** `2000-12-31`
 - **Enddate** `2019-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
@@ -44,19 +44,19 @@ library(skimr)
 # Ktzhdistid               : 1220
 # Title                    : Jahresentwicklung Wohnbautätigkeit (Daten)
 # Description              : Daten zur Jahresentwicklung der Wohnbautätigkeit ab 2000
-# Issued                   : 2020-02-01T00:00:00
-# Modified                 : 2020-02-01T00:00:00
+# Issued                   : 2020-01-31T23:00:00
+# Modified                 : 2020-01-31T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000120_00001220.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000120_00001220.csv')
 
 # Distribution 1
 # Ktzhdistid               : 1225
 # Title                    : Quartalsentwicklung Wohnbautätigkeit (Daten)
 # Description              : Daten zur Quartalsentwicklung der Wohnbautätigkeit ab 2014
-# Issued                   : 2020-02-01T00:00:00
-# Modified                 : 2020-02-01T00:00:00
+# Issued                   : 2020-01-31T23:00:00
+# Modified                 : 2020-01-31T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000120_00001225.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000120_00001225.csv')
 
 
 

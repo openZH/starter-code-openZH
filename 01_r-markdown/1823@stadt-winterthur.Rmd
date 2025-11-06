@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,8 +14,8 @@ Auto generated R starter code for data set 1823@stadt-winterthur.
 
 ## Metadata
 
-- **Issued** `2023-03-09T11:53:00`
-- **Modified** `2025-08-27T07:53:20`
+- **Issued** `2023-03-08T23:00:00`
+- **Modified** `2025-08-26T22:00:00`
 - **Startdate** `2018-03-31`
 - **Enddate** `2025-06-30`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON']`
@@ -44,10 +44,10 @@ library(skimr)
 # Ktzhdistid               : 3360
 # Title                    : Beschäftigte im Quartal nach Sektor und Geschlecht in Total und Vollzeitäquivalente ab 2018
 # Description              : Die Daten beinhalten aggregierte Beschäftigtenzahlen in der Stadt Winterthur. Sie sind nach Sektor und Geschlecht aufgeschlüsselt. Neben den Totalen werden auch die Vollzeitäquivalente ("VZAE") abgebildet. Die hier ausgewiesenen Daten zu den Beschäftigten basieren auf der Beschäftigungsstatistik (BESTA) des Bundesamt für Statistik BFS. Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben. 
-# Issued                   : 2023-03-09T11:53:00
-# Modified                 : 2025-08-27T09:53:20
+# Issued                   : 2023-03-08T23:00:00
+# Modified                 : 2025-08-26T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001823_00003360.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001823_00003360.csv')
 
 
 

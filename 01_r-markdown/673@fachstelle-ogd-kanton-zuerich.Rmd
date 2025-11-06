@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 673@fachstelle-ogd-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2020-03-16T07:46:00`
-- **Modified** `2023-01-10T17:08:07`
+- **Issued** `2020-03-15T23:00:00`
+- **Modified** `2023-01-09T23:00:00`
 - **Startdate** `2020-01-05`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/HEAL']`
-- **Keyword** `['gesundheit', 'kantone', 'krankheiten', 'schweiz', 'corona', 'covid-19', 'covid19', 'ogd']`
+- **Keyword** `['corona', 'covid-19', 'covid19', 'gesundheit', 'kantone', 'krankheiten', 'ogd', 'schweiz']`
 - **Publisher** `['Fachstelle Open Government Data des Kantons Zürich']`
 - **Landingpage** `https://github.com/openZH/covid_19/`
 
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 1627
 # Title                    : COVID_19 open government data reported by Swiss Cantons and Principality of Liechtenstein from January 5, 2020
 # Description              : Case numbers include persons tested in Switzerland per Canton (26 Cantons) plus Principality of Liechtenstein. For definition of variables see Readme listed below "Further information / Weitere Informationen".
-# Issued                   : 2020-03-16T08:05:32
-# Modified                 : 2021-07-06T14:33:17
+# Issued                   : 2020-03-15T23:00:00
+# Modified                 : 2021-07-05T22:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/covid_19/master/COVID19_Fallzahlen_CH_total_v2.csv')
 

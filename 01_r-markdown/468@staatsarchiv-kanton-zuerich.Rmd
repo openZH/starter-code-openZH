@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 468@staatsarchiv-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2019-08-26T00:00:00`
-- **Modified** `2024-09-10T12:06:28`
+- **Issued** `2019-08-25T22:00:00`
+- **Modified** `2024-09-09T22:00:00`
 - **Startdate** `1525-01-01`
 - **Enddate** `1800-12-31`
-- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI', 'http://publications.europa.eu/resource/authority/data-theme/EDUC']`
-- **Keyword** `['ehe', 'eheschliessungen', 'gemeinden', 'heiraten', 'kirchgemeinden', 'linked-data', 'sparql', 'rdf', 'ogd']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC', 'http://publications.europa.eu/resource/authority/data-theme/SOCI']`
+- **Keyword** `['ehe', 'eheschliessungen', 'gemeinden', 'heiraten', 'kirchgemeinden', 'linked-data', 'ogd', 'rdf', 'sparql']`
 - **Publisher** `['Staatsarchiv des Kantons Zürich']`
 - **Landingpage** `https://zenodo.org/records/11191059`
 
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 787
 # Title                    : Zürcher Ehedaten des 16. bis 18. Jahrhunderts als tabellarische Daten
 # Description              : Tabellen mit Daten zu Eheeinträgen im Kanton Zürich des 16., 17. und 18. Jahrhunderts. Enthaltene Informationen (Spalten): Signatur, Nachname Mann, Vorname Mann, Herkunft Mann, HLS Artikel Mann, GND Mann, Nachname Frau, Vorname Frau, Herkunft Frau, HLS Artikel Frau, GND Frau, Zusatzinformationen Mann, Zusatzinformationen Frau, Datum, Kirchgemeinde, Band, Webseite (zum Eintrag in der Archivdatenbank), ID.
-# Issued                   : 2019-08-26T17:57:34
-# Modified                 : 2024-05-14T12:58:47
+# Issued                   : 2019-08-25T22:00:00
+# Modified                 : 2024-05-13T22:00:00
 
 df <- read_delim('https://zenodo.org/records/11191059')
 

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 731@staatskanzlei-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2021-09-27T09:12:00`
-- **Modified** `2024-03-06T11:58:55`
+- **Issued** `2021-09-26T22:00:00`
+- **Modified** `2024-03-05T23:00:00`
 - **Startdate** `2020-07-08`
 - **Enddate** `2023-10-11`
-- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
-- **Keyword** `['kantonale_verwaltung', 'kanton_zuerich', 'ogd']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON', 'http://publications.europa.eu/resource/authority/data-theme/GOVE']`
+- **Keyword** `['kanton_zuerich', 'kantonale_verwaltung', 'ogd']`
 - **Publisher** `['Staatskanzlei des Kantons Zürich']`
 - **Landingpage** `https://openzh.shinyapps.io/UAstat/`
 
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 1865
 # Title                    : Web Analytics von Webseiten des Statistischen Amts im Webauftritt des Kantons Zürich ab Juli 2020
 # Description              : Variabeln: 'date' = Datum, 'url' = alle Webseiten, bei denen unter ‘Kontakt’ (im Footer) das Statistische Amt aufgeführt ist; die Webseiten-URLs sind auf die Basis-URLs gekürzt und aggregiert (Basis-URL = Alle Parameter nach dem ersten Auftreten von “html” werden abgeschnitten), 'theme' = die Themen entsprechen dem in der URL einer Webseite erstgenannten Thema (mögliche erstgenannte Themen sind auf der Homepage von zh.ch aufgeführt), 'nb_visits' = Anzahl Seitenbesuche; nach 30 Minuten Seiteninaktivität wird der Besuch neu gezählt.
-# Issued                   : 2021-08-26T11:18:16
-# Modified                 : 2021-09-27T09:14:37
+# Issued                   : 2021-08-25T22:00:00
+# Modified                 : 2021-09-26T22:00:00
 
 df <- read_delim('https://www.web.statistik.zh.ch/UAstat/data_stat.csv')
 
@@ -76,4 +76,4 @@ tail(df)
 
 # Questions about the data?
 
-Statistisches Amt des Kantons Zürich | Data Shop | datashop@statistik.zh.ch
+Staatskanzlei des Kantons Zürich | datashop@statistik.zh.ch

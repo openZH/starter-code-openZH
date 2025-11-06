@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 2442@awel-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2023-11-30T15:43:19`
-- **Modified** `2025-09-09T07:42:07`
+- **Issued** `2023-11-29T23:00:00`
+- **Modified** `2025-09-08T22:00:00`
 - **Startdate** `1988-12-31`
 - **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI']`
-- **Keyword** `['abfall', 'umwelt', 'deponien', 'abfallanlagen', 'ogd']`
+- **Keyword** `['abfall', 'abfallanlagen', 'deponien', 'ogd', 'umwelt']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
 - **Landingpage** `None`
 
@@ -44,28 +44,28 @@ library(skimr)
 # Ktzhdistid               : 4883
 # Title                    : Eingebautes Material nach Deponietypen im Kanton Zürich
 # Description              : Im Kanton Zürich eingebautes Deponiematerial, ausgewertet nach Deponietypen. Daten aus Jahresberichten der Deponien.
-# Issued                   : 2023-11-30T15:43:19
-# Modified                 : 2025-09-09T07:41:36
+# Issued                   : 2023-11-29T23:00:00
+# Modified                 : 2025-09-08T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002442_00004883.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002442_00004883.csv')
 
 # Distribution 1
 # Ktzhdistid               : 4884
 # Title                    : Export, Import und Einbau von Deponiematerial im Kanton Zürich
 # Description              : Abgelagertes Deponiematerial, aufgeteilt in drei Kategorien: 1. im Kanton Zürich abgelagert, 2. aus anderen Kantonen/Ausland importiert und im Kanton abgelagert, 3. in andere Kantone/Ausland exportiert und abgelagert. Daten vom E-Government Portals des BAFU.
-# Issued                   : 2023-11-30T15:43:19
-# Modified                 : 2025-09-09T07:43:13
+# Issued                   : 2023-11-29T23:00:00
+# Modified                 : 2025-09-08T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002442_00004884.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002442_00004884.csv')
 
 # Distribution 2
 # Ktzhdistid               : 4885
 # Title                    : Restvolumen zu Einbauvolumen nach Deponietypen im Kanton Zürich
 # Description              : Verfügbares, bewilligtes Restvolumen im Verhältnis zum jährlichen Einbauvolumen der Zürcher Deponien. Daten aus Jahresberichten der Deponien.
-# Issued                   : 2023-11-30T15:43:19
-# Modified                 : 2025-09-09T07:44:12
+# Issued                   : 2023-11-29T23:00:00
+# Modified                 : 2025-09-08T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002442_00004885.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002442_00004885.csv')
 
 
 

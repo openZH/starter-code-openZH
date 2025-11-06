@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,8 +14,8 @@ Auto generated R starter code for data set 2604@stadt-winterthur.
 
 ## Metadata
 
-- **Issued** `2024-06-06T14:13:08`
-- **Modified** `2025-05-28T09:31:32`
+- **Issued** `2024-06-05T22:00:00`
+- **Modified** `2025-05-27T22:00:00`
 - **Startdate** `2014-12-31`
 - **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
@@ -44,10 +44,10 @@ library(skimr)
 # Ktzhdistid               : 5328
 # Title                    : Bevölkerung, nach Staatenkleingruppe und Quartier
 # Description              : Eine vollständige Dokumentation ist in der Ressource "Dokumentation Daten" zu finden.
-# Issued                   : 2024-06-06T14:13:08
-# Modified                 : 2025-05-28T11:29:45
+# Issued                   : 2024-06-05T22:00:00
+# Modified                 : 2025-05-27T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002604_00005328.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002604_00005328.csv')
 
 
 

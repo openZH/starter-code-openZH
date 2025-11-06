@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 729@gesundheitsdirektion-kanton-zueri
 
 ## Metadata
 
-- **Issued** `2021-08-03T15:33:00`
-- **Modified** `2025-08-11T09:58:13`
+- **Issued** `2021-08-02T22:00:00`
+- **Modified** `2025-08-10T22:00:00`
 - **Startdate** `2019-07-03`
 - **Enddate** `2025-08-08`
-- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC', 'http://publications.europa.eu/resource/authority/data-theme/HEAL', 'http://publications.europa.eu/resource/authority/data-theme/ENVI']`
-- **Keyword** `['gesundheit', 'kanton_zuerich', 'seen', 'sport', 'wasser', 'ogd']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC', 'http://publications.europa.eu/resource/authority/data-theme/ENVI', 'http://publications.europa.eu/resource/authority/data-theme/HEAL']`
+- **Keyword** `['gesundheit', 'kanton_zuerich', 'ogd', 'seen', 'sport', 'wasser']`
 - **Publisher** `['Gesundheitsdirektion des Kantons Zürich']`
 - **Landingpage** `None`
 
@@ -44,10 +44,10 @@ library(skimr)
 # Ktzhdistid               : 3341
 # Title                    : Erhebung der Badewasserqualität in öffentlichen Badeanstalten an Flüssen und Seen im Kanton Zürich
 # Description              : Variabeln: 'date' = Tag der Entnahme der Probe; 'id' = Identifikator des Orts; 'location' = Ausgeschriebener Name des Orts; 'quality' = Bewertungsstufen der Badewasserqualität; 'remark' = Optionale Anmerkungen zur Probe; 'source' = Organisation, welche die Probe durchführt; 'lat' = Breitengrad des Orts; 'long' = Längengrad des Orts; 'image' = Bild des Orts (wird nicht regelmässig aktualisiert; URL).
-# Issued                   : 2022-10-17T16:13:37
-# Modified                 : 2025-08-11T09:58:55
+# Issued                   : 2022-10-16T22:00:00
+# Modified                 : 2025-08-10T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000729_00003341.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000729_00003341.csv')
 
 
 

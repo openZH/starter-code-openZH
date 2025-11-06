@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 693@statistisches-amt-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2020-07-07T16:01:00`
-- **Modified** `2024-03-28T09:19:23`
+- **Issued** `2020-07-06T22:00:00`
+- **Modified** `2024-03-27T23:00:00`
 - **Startdate** `2007-10-21`
 - **Enddate** `2023-10-22`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE']`
-- **Keyword** `['kanton_zuerich', 'nationalrat', 'nationalratswahlen', 'panaschierstimmen', 'politik', 'politische_parteien', 'wahlen', 'wahlergebnisse', 'wahlarchiv', 'demokratie', 'ogd']`
+- **Keyword** `['demokratie', 'kanton_zuerich', 'nationalrat', 'nationalratswahlen', 'ogd', 'panaschierstimmen', 'politik', 'politische_parteien', 'wahlarchiv', 'wahlen', 'wahlergebnisse']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/wahlen-abstimmungen/national-staenderatswahlen.html`
 
@@ -44,280 +44,280 @@ library(skimr)
 # Ktzhdistid               : 4844
 # Title                    : Zuordnungstabelle Listen – Parteien
 # Description              : Tabelle für die Zuordnung von Listen zu Parteien bei Nationalratswahlen im Kanton Zürich. Die ausgewiesenen Parteien sind an die vom Bundesamt für Statistik (BFS) in Zeitreihen separat ausgewiesenen Parteien angelehnt.
-# Issued                   : 2023-11-22T13:49:34
-# Modified                 : 2023-11-29T09:23:41
+# Issued                   : 2023-11-21T23:00:00
+# Modified                 : 2023-11-28T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004844.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004844.csv')
 
 # Distribution 1
 # Ktzhdistid               : 1674
 # Title                    : Panaschierstatistik Erneuerungswahl Nationalrat 2007
 # Description              : Stimmen nach Herkunft für alle Kandidierenden der Nationalratswahl 2007 pro Gemeinde
-# Issued                   : 2020-07-07T16:24:18
-# Modified                 : 2023-11-22T14:07:57
+# Issued                   : 2020-07-06T22:00:00
+# Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001674.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001674.csv')
 
 # Distribution 2
 # Ktzhdistid               : 4952
 # Title                    : Listenresultate Erneuerungswahl Nationalrat 2007
 # Description              : Anzahl erhaltener Stimmen pro Liste und Gebiet
-# Issued                   : 2023-11-29T11:56:22
-# Modified                 : 2023-11-29T11:56:22
+# Issued                   : 2023-11-28T23:00:00
+# Modified                 : 2023-11-28T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004952.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004952.csv')
 
 # Distribution 3
 # Ktzhdistid               : 4951
 # Title                    : Parteiresultate Erneuerungswahl Nationalrat 2007
 # Description              : Anzahl erhaltener Stimmen pro Partei und Gebiet. Die Zuteilung der Listen zu einer Partei erfolgt gemäss der Ressource "Zuordnungstabelle Listen – Parteien" dieses Datasets.
-# Issued                   : 2023-11-29T11:56:18
-# Modified                 : 2023-11-29T11:56:18
+# Issued                   : 2023-11-28T23:00:00
+# Modified                 : 2023-11-28T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004951.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004951.csv')
 
 # Distribution 4
 # Ktzhdistid               : 1833
 # Title                    : Kandidierende Erneuerungswahl Nationalrat 2007
 # Description              : Informationen zu den Kandidierenden der Nationalratswahl 2007
-# Issued                   : 2021-06-02T08:10:02
-# Modified                 : 2021-06-02T08:10:02
+# Issued                   : 2021-06-01T22:00:00
+# Modified                 : 2021-06-01T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001833.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001833.csv')
 
 # Distribution 5
 # Ktzhdistid               : 1675
 # Title                    : Gemeindeinformationen Erneuerungswahl Nationalrat 2007
 # Description              : Gemeindespezifische Informationen wie BFS-Nummer und Stimmbeteiligung für die Nationalratswahl 2007
-# Issued                   : 2020-07-07T16:24:49
-# Modified                 : 2023-11-22T14:08:27
+# Issued                   : 2020-07-06T22:00:00
+# Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001675.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001675.csv')
 
 # Distribution 6
 # Ktzhdistid               : 1676
 # Title                    : Listenverbindungen Erneuerungswahl Nationalrat 2007
 # Description              : Listenverbindungen und Unterlistenverbindungen der Nationalratswahl 2007
-# Issued                   : 2020-07-07T16:25:13
-# Modified                 : 2023-11-22T12:09:28
+# Issued                   : 2020-07-06T22:00:00
+# Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001676.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001676.csv')
 
 # Distribution 7
 # Ktzhdistid               : 1677
 # Title                    : Panaschierstatistik Erneuerungswahl Nationalrat 2011
 # Description              : Stimmen nach Herkunft für alle Kandidierenden der Nationalratswahl 2011 pro Gemeinde
-# Issued                   : 2020-07-07T16:25:45
-# Modified                 : 2023-11-22T14:05:46
+# Issued                   : 2020-07-06T22:00:00
+# Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001677.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001677.csv')
 
 # Distribution 8
 # Ktzhdistid               : 4950
 # Title                    : Listenresultate Erneuerungswahl Nationalrat 2011
 # Description              : Anzahl erhaltener Stimmen pro Liste und Gebiet
-# Issued                   : 2023-11-29T11:56:28
-# Modified                 : 2023-11-29T11:56:28
+# Issued                   : 2023-11-28T23:00:00
+# Modified                 : 2023-11-28T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004950.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004950.csv')
 
 # Distribution 9
 # Ktzhdistid               : 4949
 # Title                    : Parteiresultate Erneuerungswahl Nationalrat 2011
 # Description              : Anzahl erhaltener Stimmen pro Partei und Gebiet. Die Zuteilung der Listen zu einer Partei erfolgt gemäss der Ressource "Zuordnungstabelle Listen – Parteien" dieses Datasets.
-# Issued                   : 2023-11-29T11:56:25
-# Modified                 : 2023-11-29T11:56:25
+# Issued                   : 2023-11-28T23:00:00
+# Modified                 : 2023-11-28T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004949.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004949.csv')
 
 # Distribution 10
 # Ktzhdistid               : 1834
 # Title                    : Kandidierende Erneuerungswahl Nationalrat 2011
 # Description              : Informationen zu den Kandidierenden der Nationalratswahl 2011
-# Issued                   : 2021-06-02T08:11:37
-# Modified                 : 2021-06-02T08:11:37
+# Issued                   : 2021-06-01T22:00:00
+# Modified                 : 2021-06-01T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001834.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001834.csv')
 
 # Distribution 11
 # Ktzhdistid               : 1678
 # Title                    : Gemeindeinformationen Erneuerungswahl Nationalrat 2011
 # Description              : Gemeindespezifische Informationen wie BFS-Nummer und Stimmbeteiligung für die Nationalratswahl 2011
-# Issued                   : 2020-07-07T16:26:25
-# Modified                 : 2023-11-22T14:06:57
+# Issued                   : 2020-07-06T22:00:00
+# Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001678.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001678.csv')
 
 # Distribution 12
 # Ktzhdistid               : 1679
 # Title                    : Listenverbindungen Erneuerungswahl Nationalrat 2011
 # Description              : Listenverbindungen und Unterlistenverbindungen der Nationalratswahl 2011
-# Issued                   : 2020-07-07T16:26:51
-# Modified                 : 2023-11-22T12:06:50
+# Issued                   : 2020-07-06T22:00:00
+# Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001679.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001679.csv')
 
 # Distribution 13
 # Ktzhdistid               : 1680
 # Title                    : Panaschierstatistik Erneuerungswahl Nationalrat 2015
 # Description              : Stimmen nach Herkunft für alle Kandidierenden der Nationalratswahl 2015 pro Gemeinde
-# Issued                   : 2020-07-07T16:27:16
-# Modified                 : 2023-11-22T14:03:53
+# Issued                   : 2020-07-06T22:00:00
+# Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001680.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001680.csv')
 
 # Distribution 14
 # Ktzhdistid               : 4948
 # Title                    : Listenresultate Erneuerungswahl Nationalrat 2015
 # Description              : Anzahl erhaltener Stimmen pro Liste und Gebiet
-# Issued                   : 2023-11-29T11:56:36
-# Modified                 : 2023-11-29T11:56:36
+# Issued                   : 2023-11-28T23:00:00
+# Modified                 : 2023-11-28T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004948.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004948.csv')
 
 # Distribution 15
 # Ktzhdistid               : 4947
 # Title                    : Parteiresultate Erneuerungswahl Nationalrat 2015
 # Description              : Anzahl erhaltener Stimmen pro Partei und Gebiet. Die Zuteilung der Listen zu einer Partei erfolgt gemäss der Ressource "Zuordnungstabelle Listen – Parteien" dieses Datasets.
-# Issued                   : 2023-11-29T11:56:32
-# Modified                 : 2023-11-29T11:56:32
+# Issued                   : 2023-11-28T23:00:00
+# Modified                 : 2023-11-28T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004947.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004947.csv')
 
 # Distribution 16
 # Ktzhdistid               : 1835
 # Title                    : Kandidierende Erneuerungswahl Nationalrat 2015
 # Description              : Informationen zu den Kandidierenden der Nationalratswahl 2015
-# Issued                   : 2021-06-02T08:16:41
-# Modified                 : 2021-06-02T08:16:41
+# Issued                   : 2021-06-01T22:00:00
+# Modified                 : 2021-06-01T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001835.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001835.csv')
 
 # Distribution 17
 # Ktzhdistid               : 1681
 # Title                    : Gemeindeinformationen Erneuerungswahl Nationalrat 2015
 # Description              : Gemeindespezifische Informationen wie BFS-Nummer und Stimmbeteiligung für die Nationalratswahl 2015
-# Issued                   : 2020-07-07T16:27:59
-# Modified                 : 2023-11-24T16:17:30
+# Issued                   : 2020-07-06T22:00:00
+# Modified                 : 2023-11-23T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001681.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001681.csv')
 
 # Distribution 18
 # Ktzhdistid               : 1682
 # Title                    : Listenverbindungen Erneuerungswahl Nationalrat 2015
 # Description              : Listenverbindungen und Unterlistenverbindungen der Nationalratswahl 2015
-# Issued                   : 2020-07-07T16:28:22
-# Modified                 : 2023-11-22T12:04:35
+# Issued                   : 2020-07-06T22:00:00
+# Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001682.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001682.csv')
 
 # Distribution 19
 # Ktzhdistid               : 1683
 # Title                    : Panaschierstatistik Erneuerungswahl Nationalrat 2019
 # Description              : Stimmen nach Herkunft für alle Kandidierenden der Nationalratswahl 2019 pro Gemeinde
-# Issued                   : 2020-07-07T16:30:32
-# Modified                 : 2023-11-22T14:02:12
+# Issued                   : 2020-07-06T22:00:00
+# Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001683.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001683.csv')
 
 # Distribution 20
 # Ktzhdistid               : 4946
 # Title                    : Listenresultate Erneuerungswahl Nationalrat 2019
 # Description              : Anzahl erhaltener Stimmen pro Liste und Gebiet
-# Issued                   : 2023-11-29T11:56:45
-# Modified                 : 2023-11-29T11:56:45
+# Issued                   : 2023-11-28T23:00:00
+# Modified                 : 2023-11-28T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004946.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004946.csv')
 
 # Distribution 21
 # Ktzhdistid               : 4945
 # Title                    : Parteiresultate Erneuerungswahl Nationalrat 2019
 # Description              : Anzahl erhaltener Stimmen pro Partei und Gebiet. Die Zuteilung der Listen zu einer Partei erfolgt gemäss der Ressource "Zuordnungstabelle Listen – Parteien" dieses Datasets.
-# Issued                   : 2023-11-29T11:56:40
-# Modified                 : 2023-11-29T11:56:40
+# Issued                   : 2023-11-28T23:00:00
+# Modified                 : 2023-11-28T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004945.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004945.csv')
 
 # Distribution 22
 # Ktzhdistid               : 1836
 # Title                    : Kandidierende Erneuerungswahl Nationalrat 2019
 # Description              : Informationen zu den Kandidierenden der Nationalratswahl 2019
-# Issued                   : 2021-06-02T08:19:07
-# Modified                 : 2021-06-02T08:19:07
+# Issued                   : 2021-06-01T22:00:00
+# Modified                 : 2021-06-01T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001836.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001836.csv')
 
 # Distribution 23
 # Ktzhdistid               : 1684
 # Title                    : Gemeindeinformationen Erneuerungswahl Nationalrat 2019
 # Description              : Gemeindespezifische Informationen wie BFS-Nummer und Stimmbeteiligung für die Nationalratswahl 2019
-# Issued                   : 2020-07-07T16:31:03
-# Modified                 : 2023-11-24T16:17:02
+# Issued                   : 2020-07-06T22:00:00
+# Modified                 : 2023-11-23T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001684.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001684.csv')
 
 # Distribution 24
 # Ktzhdistid               : 1685
 # Title                    : Listenverbindungen Erneuerungswahl Nationalrat 2019
 # Description              : Listenverbindungen und Unterlistenverbindungen der Nationalratswahl 2019
-# Issued                   : 2020-07-07T16:31:25
-# Modified                 : 2025-02-03T15:33:20
+# Issued                   : 2020-07-06T22:00:00
+# Modified                 : 2025-02-02T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001685.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001685.csv')
 
 # Distribution 25
 # Ktzhdistid               : 4705
 # Title                    : Panaschierstatistik Erneuerungswahl Nationalrat 2023
 # Description              : Stimmen nach Herkunft für alle Kandidierenden der Nationalratswahl 2023 pro Gemeinde
-# Issued                   : 2023-10-23T09:47:19
-# Modified                 : 2023-11-22T14:00:54
+# Issued                   : 2023-10-22T22:00:00
+# Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004705.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004705.csv')
 
 # Distribution 26
 # Ktzhdistid               : 4944
 # Title                    : Listenresultate Erneuerungswahl Nationalrat 2023
 # Description              : Anzahl erhaltener Stimmen pro Liste und Gebiet
-# Issued                   : 2023-11-29T11:56:54
-# Modified                 : 2023-11-29T11:56:54
+# Issued                   : 2023-11-28T23:00:00
+# Modified                 : 2023-11-28T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004944.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004944.csv')
 
 # Distribution 27
 # Ktzhdistid               : 4703
 # Title                    : Kandidierende Erneuerungswahl Nationalrat 2023
 # Description              : Informationen zu den Kandidierenden der Nationalratswahl 2023
-# Issued                   : 2023-10-23T09:34:55
-# Modified                 : 2023-10-23T09:34:55
+# Issued                   : 2023-10-22T22:00:00
+# Modified                 : 2023-10-22T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004703.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004703.csv')
 
 # Distribution 28
 # Ktzhdistid               : 4943
 # Title                    : Parteiresultate Erneuerungswahl Nationalrat 2023
 # Description              : Anzahl erhaltener Stimmen pro Partei und Gebiet. Die Zuteilung der Listen zu einer Partei erfolgt gemäss der Ressource "Zuordnungstabelle Listen – Parteien" dieses Datasets.
-# Issued                   : 2023-11-29T11:56:50
-# Modified                 : 2023-11-29T11:56:50
+# Issued                   : 2023-11-28T23:00:00
+# Modified                 : 2023-11-28T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004943.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004943.csv')
 
 # Distribution 29
 # Ktzhdistid               : 4704
 # Title                    : Gemeindeinformationen Erneuerungswahl Nationalrat 2023
 # Description              : Gemeindespezifische Informationen wie BFS-Nummer und Stimmbeteiligung für die Nationalratswahl 2023
-# Issued                   : 2023-10-23T09:37:40
-# Modified                 : 2023-11-24T16:16:24
+# Issued                   : 2023-10-22T22:00:00
+# Modified                 : 2023-11-23T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004704.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004704.csv')
 
 # Distribution 30
 # Ktzhdistid               : 4523
 # Title                    : Listenverbindungen Erneuerungswahl Nationalrat 2023
 # Description              : Listenverbindungen und Unterlistenverbindungen der Nationalratswahl 2023
-# Issued                   : 2023-09-04T11:43:54
-# Modified                 : 2023-11-22T11:57:57
+# Issued                   : 2023-09-03T22:00:00
+# Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004523.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004523.csv')
 
 
 

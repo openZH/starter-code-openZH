@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -15,12 +15,12 @@ Auto generated R starter code for data set 3102@gesundheitsdirektion-kanton-zuer
 
 ## Metadata
 
-- **Issued** `2025-10-02T14:32:04`
-- **Modified** `2025-10-02T14:32:04`
+- **Issued** `2025-10-01T22:00:00`
+- **Modified** `2025-10-01T22:00:00`
 - **Startdate** `2019-01-01`
 - **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/HEAL']`
-- **Keyword** `['altersheime', 'pflegeheime', 'ogd']`
+- **Keyword** `['altersheime', 'ogd', 'pflegeheime']`
 - **Publisher** `['Gesundheitsdirektion des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/gesundheit/heime-spitex/zahlen-fakten-langzeitpflege.html`
 
@@ -45,64 +45,64 @@ library(skimr)
 # Ktzhdistid               : 6486
 # Title                    : Betriebe Alters- und Pflegeheime Kanton Zürich
 # Description              : Daten zum Leistungsangebot, zu den erbrachten Leistungen sowie die wichtigsten Kenngrössen zu den Kosten pro Heim. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006484.txt
-# Issued                   : 2025-10-02T14:32:04
-# Modified                 : 2025-10-10T15:22:44
+# Issued                   : 2025-10-01T22:00:00
+# Modified                 : 2025-10-09T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006486.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006486.csv')
 
 # Distribution 1
 # Ktzhdistid               : 6603
 # Title                    : Bewohnende Alters- und Pflegeheime Kanton Zürich
 # Description              : Anzahl Bewohnende per Ende Jahr pro Bezirk, Altersgruppe oder Pflegebedarfsstufe. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006484.txt
-# Issued                   : 2025-10-02T14:32:04
-# Modified                 : 2025-10-06T08:11:06
+# Issued                   : 2025-10-01T22:00:00
+# Modified                 : 2025-10-05T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006603.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006603.csv')
 
 # Distribution 2
 # Ktzhdistid               : 6604
 # Title                    : Eintritte in Alters- und Pflegeheime Kanton Zürich
 # Description              : Anzahl neu eingetretene Bewohnende pro Bezirk,  Pflegebedarfsstufe oder Aufenthaltsort vor Eintritt. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006484.txt
-# Issued                   : 2025-10-02T14:32:04
-# Modified                 : 2025-10-06T08:11:21
+# Issued                   : 2025-10-01T22:00:00
+# Modified                 : 2025-10-05T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006604.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006604.csv')
 
 # Distribution 3
 # Ktzhdistid               : 6605
 # Title                    : Austritte aus Alters- und Pflegeheime Kanton Zürich
 # Description              : Anzahl ausgetretene Bewohnende pro Bezirk, Pflegebedarfsstufe oder Aufenthaltsort nach Austritt. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006484.txt
-# Issued                   : 2025-10-02T14:32:04
-# Modified                 : 2025-10-06T08:11:36
+# Issued                   : 2025-10-01T22:00:00
+# Modified                 : 2025-10-05T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006605.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006605.csv')
 
 # Distribution 4
 # Ktzhdistid               : 6606
 # Title                    : Wanderbewegungen Alters- und Pflegeheime Kanton Zürich
 # Description              : Daten zum Herkunftskanton der Bewohnenden und zum Standortbezirk des Pflegeheims.  Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006484.txt
-# Issued                   : 2025-10-02T14:32:04
-# Modified                 : 2025-10-13T16:17:46
+# Issued                   : 2025-10-01T22:00:00
+# Modified                 : 2025-10-12T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006606.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006606.csv')
 
 # Distribution 5
 # Ktzhdistid               : 6607
 # Title                    : Personal Alters- und Pflegeheime Kanton Zürich
 # Description              : Anzahl Mitarbeitende und Anzahl VZÄ pro Geschlecht, Bezirk, Altersgruppe, Einsatzbereich oder Ausbildungstyp. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006484.txt
-# Issued                   : 2025-10-02T14:32:04
-# Modified                 : 2025-10-06T08:12:28
+# Issued                   : 2025-10-01T22:00:00
+# Modified                 : 2025-10-05T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006607.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006607.csv')
 
 # Distribution 6
 # Ktzhdistid               : 6608
 # Title                    : Kosten und Erträge Alters- und Pflegeheime Kanton Zürich
 # Description              : Kosten und Erträge pro Bezirk zu den wichtigsten Kostenstellen und Konten.  Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006484.txt
-# Issued                   : 2025-10-02T14:32:04
-# Modified                 : 2025-10-06T08:12:46
+# Issued                   : 2025-10-01T22:00:00
+# Modified                 : 2025-10-05T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006608.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006608.csv')
 
 
 

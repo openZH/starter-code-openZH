@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 229@statistisches-amt-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2016-01-20T20:16:00`
-- **Modified** `2025-07-30T09:24:14`
+- **Issued** `2016-01-19T23:00:00`
+- **Modified** `2025-07-29T22:00:00`
 - **Startdate** `1971-12-31`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
-- **Keyword** `['bezirke', 'einfamilienhaus', 'gemeinden', 'immobilien', 'kanton_zuerich', 'wohnbautaetigkeit', 'ogd']`
+- **Keyword** `['bezirke', 'einfamilienhaus', 'gemeinden', 'immobilien', 'kanton_zuerich', 'ogd', 'wohnbautaetigkeit']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
 
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 191
 # Title                    : Neuerstellte EFH [Whg.]
 # Description              : None
-# Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2025-07-30T09:24:14
+# Issued                   : 2016-01-20T23:00:00
+# Modified                 : 2025-07-29T22:00:00
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_371.csv')
 

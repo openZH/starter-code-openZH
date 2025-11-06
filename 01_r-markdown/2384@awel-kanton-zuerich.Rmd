@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 2384@awel-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2024-02-14T09:50:28`
-- **Modified** `2024-04-04T17:47:04`
+- **Issued** `2024-02-13T23:00:00`
+- **Modified** `2024-04-03T22:00:00`
 - **Startdate** `2021-02-18`
 - **Enddate** `2023-02-15`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI']`
-- **Keyword** `['luftschadstoffe', 'naturschutzgebiete', 'ammoniak', 'luftqualitaet', 'messung', 'ogd']`
+- **Keyword** `['ammoniak', 'luftqualitaet', 'luftschadstoffe', 'messung', 'naturschutzgebiete', 'ogd']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
 - **Landingpage** `None`
 
@@ -44,37 +44,37 @@ library(skimr)
 # Ktzhdistid               : 5184
 # Title                    : Standort-Metadaten
 # Description              : Informationen zum Datensatz siehe Datensatzbeschrieb
-# Issued                   : 2024-02-14T09:50:28
-# Modified                 : 2024-02-14T09:50:28
+# Issued                   : 2024-02-13T23:00:00
+# Modified                 : 2024-02-13T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002384_00005184.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002384_00005184.csv')
 
 # Distribution 1
 # Ktzhdistid               : 5185
 # Title                    : Zeitlich hochaufgelöste Ammoniak Messdaten
 # Description              : Informationen zum Datensatz siehe Datensatzbeschrieb
-# Issued                   : 2024-02-14T09:50:28
-# Modified                 : 2024-02-14T09:50:28
+# Issued                   : 2024-02-13T23:00:00
+# Modified                 : 2024-02-13T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002384_00005185.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002384_00005185.csv')
 
 # Distribution 2
 # Ktzhdistid               : 5186
 # Title                    : Zeitlich hochaufgelöste meteorologische Messdaten
 # Description              : Informationen zum Datensatz siehe Datensatzbeschrieb
-# Issued                   : 2024-02-14T09:50:28
-# Modified                 : 2024-02-14T09:50:28
+# Issued                   : 2024-02-13T23:00:00
+# Modified                 : 2024-02-13T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002384_00005186.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002384_00005186.csv')
 
 # Distribution 3
 # Ktzhdistid               : 5187
 # Title                    : Ammoniak-Passivsammler Messdaten
 # Description              : Informationen zum Datensatz siehe Datensatzbeschrieb
-# Issued                   : 2024-02-14T09:50:28
-# Modified                 : 2024-02-14T09:50:28
+# Issued                   : 2024-02-13T23:00:00
+# Modified                 : 2024-02-13T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002384_00005187.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002384_00005187.csv')
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 2502@statistisches-amt-kanton-zuerich
 
 ## Metadata
 
-- **Issued** `2023-12-15T16:11:15`
-- **Modified** `2024-07-16T16:58:08`
+- **Issued** `2023-12-14T23:00:00`
+- **Modified** `2024-07-15T22:00:00`
 - **Startdate** `1935-01-01`
 - **Enddate** `2027-01-01`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE']`
-- **Keyword** `['kantonsrat', 'kantonsratswahlen', 'politik', 'wahlen', 'exekutive', 'wahlarchiv', 'demokratie', 'ogd']`
+- **Keyword** `['demokratie', 'exekutive', 'kantonsrat', 'kantonsratswahlen', 'ogd', 'politik', 'wahlarchiv', 'wahlen']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/wahlen-abstimmungen/kantons-regierungsratswahlen.html`
 
@@ -44,10 +44,10 @@ library(skimr)
 # Ktzhdistid               : 5025
 # Title                    : Zeitreihendaten Sitze pro Wahlkreis
 # Description              : Zeitreihendaten der Anzahl Kantonsratsmandate pro Wahlkreis. Die Wahlkreise tragen die heute gültige Bezeichnung. Wahlkreis V (Stadt Zürich, Stadtkreise 7 und 8) umfasste bis 1987 auch die Gemeinde Zollikon, ab 1987 wurde Zollikon zum Wahlkreis X (Meilen) gezählt. Weiter wurde der Stadtkreis 12 erst 1971 geschaffen, entsprechend umfasste Wahlkreis VI (Stadt Zürich, Stadtkreise 11 und 12) bis dahin nur den Stadtkreis 11, wobei der Stadtkreis 11 bis dahin das Gebiet der heutigen Stadtkreise 11 und 12 umfasste.
-# Issued                   : 2023-12-15T16:11:15
-# Modified                 : 2023-12-15T16:11:15
+# Issued                   : 2023-12-14T23:00:00
+# Modified                 : 2023-12-14T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002502_00005025.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002502_00005025.csv')
 
 
 

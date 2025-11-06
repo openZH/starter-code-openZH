@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 1522@stadt-winterthur.
 
 ## Metadata
 
-- **Issued** `2022-09-20T17:22:40`
-- **Modified** `2025-08-21T08:06:07`
+- **Issued** `2022-09-19T22:00:00`
+- **Modified** `2025-08-20T22:00:00`
 - **Startdate** `2011-12-31`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/AGRI', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
-- **Keyword** `['beschaeftigte', 'betriebe', 'branchen', 'vollzeitaequivalente', 'ogd']`
+- **Keyword** `['beschaeftigte', 'betriebe', 'branchen', 'ogd', 'vollzeitaequivalente']`
 - **Publisher** `['Stadt Winterthur']`
 - **Landingpage** `https://stadt.winterthur.ch/themen/die-stadt/winterthur/statistik/wirtschaft`
 
@@ -44,10 +44,10 @@ library(skimr)
 # Ktzhdistid               : 2900
 # Title                    : Betriebe, Beschäftigte, Vollzeitäquivalente nach Branchen in der Stadt Winterthur nach Jahr
 # Description              : Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
-# Issued                   : 2022-09-20T17:22:40
-# Modified                 : 2025-08-21T10:06:07
+# Issued                   : 2022-09-19T22:00:00
+# Modified                 : 2025-08-20T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001522_00002900.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001522_00002900.csv')
 
 
 

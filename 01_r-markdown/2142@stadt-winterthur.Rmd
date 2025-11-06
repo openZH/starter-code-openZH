@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -15,12 +15,12 @@ Auto generated R starter code for data set 2142@stadt-winterthur.
 
 ## Metadata
 
-- **Issued** `2023-08-28T16:46:58`
-- **Modified** `2025-10-30T05:02:08`
+- **Issued** `2023-08-27T22:00:00`
+- **Modified** `2025-11-05T05:02:17`
 - **Startdate** `2022-11-01`
 - **Enddate** `2025-01-19`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI']`
-- **Keyword** `['klima', 'luft', 'lufttemperaturen', 'temperatur', 'ogd']`
+- **Keyword** `['klima', 'luft', 'lufttemperaturen', 'ogd', 'temperatur']`
 - **Publisher** `['Stadt Winterthur']`
 - **Landingpage** `None`
 
@@ -42,49 +42,49 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 4245
-# Title                    : Messdaten_2022
-# Description              : Die Messwerte sind in UTC (Coordinated Universal Time). Mithilfe dem Merkmal "station_id" können die Ressourcen: "Standorte-Stationen" und "Messdaten_XXXX" kombiniert werden. Wenn im Verlauf der Zeit neue Stationen dazu kommen oder wegfallen, ist dies in der Ressource "Standorte-Stationen" an den Merkmalen "daten_von" und "daten_bis" abzulesen. Die vollständige Dokumentation der Merkmale finden Sie in der Ressource Datenbeschrieb.txt. Die Daten können Lücken enthalten. 
-# Issued                   : 2023-08-28T16:46:58
-# Modified                 : 2025-01-21T09:36:00
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002142_00004245.csv')
-
-# Distribution 1
-# Ktzhdistid               : 4246
-# Title                    : Messdaten_2023
-# Description              : Die Messwerte sind in UTC (Coordinated Universal Time). Mithilfe dem Merkmal "station_id" können die Ressourcen: "Standorte-Stationen" und "Messdaten_XXXX" kombiniert werden. Wenn im Verlauf der Zeit neue Stationen dazu kommen oder wegfallen, ist dies in der Ressource "Standorte-Stationen" an den Merkmalen "daten_von" und "daten_bis" abzulesen. Die vollständige Dokumentation der Merkmale finden Sie in der Ressource Datenbeschrieb.txt. Die Daten können Lücken enthalten. 
-# Issued                   : 2023-08-28T16:46:58
-# Modified                 : 2025-01-21T10:12:09
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002142_00004246.csv')
-
-# Distribution 2
-# Ktzhdistid               : 5084
-# Title                    : Messdaten_2024
-# Description              : Informationen zu den Merkmalen findet man in der Ressource Datenbeschrieb.txt unter dem Datensatz. Die Daten können Lücken enthalten.
-# Issued                   : 2024-01-02T03:48:21
-# Modified                 : 2025-01-21T10:14:37
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002142_00005084.csv')
-
-# Distribution 3
-# Ktzhdistid               : 5883
-# Title                    : Messdaten_2025
-# Description              : Informationen zu den Merkmalen findet man in der Ressource Datenbeschrieb.txt unter dem Datensatz. Die Daten können Lücken enthalten.
-# Issued                   : 2025-01-09T09:10:56
-# Modified                 : 2025-10-30T06:02:07
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002142_00005883.csv')
-
-# Distribution 4
 # Ktzhdistid               : 4244
 # Title                    : Standorte-Stationen
 # Description              : Mess-Standorte der Stadtklima Winterthur Messdaten. Die Merkmale "laengengrad" und "breitengrad" sind im WGS 84 Koordinatensystem angegeben. Die Merkmale 'daten_von' und 'daten_bis' wurde aus den verfügbaren Messdaten bestimmt.
-# Issued                   : 2023-08-28T16:46:58
-# Modified                 : 2025-10-30T06:01:40
+# Issued                   : 2023-08-27T22:00:00
+# Modified                 : 2025-11-05T05:01:47
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002142_00004244.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002142_00004244.csv')
+
+# Distribution 1
+# Ktzhdistid               : 4245
+# Title                    : Messdaten_2022
+# Description              : Die Messwerte sind in UTC (Coordinated Universal Time). Mithilfe dem Merkmal "station_id" können die Ressourcen: "Standorte-Stationen" und "Messdaten_XXXX" kombiniert werden. Wenn im Verlauf der Zeit neue Stationen dazu kommen oder wegfallen, ist dies in der Ressource "Standorte-Stationen" an den Merkmalen "daten_von" und "daten_bis" abzulesen. Die vollständige Dokumentation der Merkmale finden Sie in der Ressource Datenbeschrieb.txt. Die Daten können Lücken enthalten. 
+# Issued                   : 2023-08-27T22:00:00
+# Modified                 : 2025-01-20T23:00:00
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002142_00004245.csv')
+
+# Distribution 2
+# Ktzhdistid               : 4246
+# Title                    : Messdaten_2023
+# Description              : Die Messwerte sind in UTC (Coordinated Universal Time). Mithilfe dem Merkmal "station_id" können die Ressourcen: "Standorte-Stationen" und "Messdaten_XXXX" kombiniert werden. Wenn im Verlauf der Zeit neue Stationen dazu kommen oder wegfallen, ist dies in der Ressource "Standorte-Stationen" an den Merkmalen "daten_von" und "daten_bis" abzulesen. Die vollständige Dokumentation der Merkmale finden Sie in der Ressource Datenbeschrieb.txt. Die Daten können Lücken enthalten. 
+# Issued                   : 2023-08-27T22:00:00
+# Modified                 : 2025-01-20T23:00:00
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002142_00004246.csv')
+
+# Distribution 3
+# Ktzhdistid               : 5084
+# Title                    : Messdaten_2024
+# Description              : Informationen zu den Merkmalen findet man in der Ressource Datenbeschrieb.txt unter dem Datensatz. Die Daten können Lücken enthalten.
+# Issued                   : 2024-01-01T23:00:00
+# Modified                 : 2025-01-20T23:00:00
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002142_00005084.csv')
+
+# Distribution 4
+# Ktzhdistid               : 5883
+# Title                    : Messdaten_2025
+# Description              : Informationen zu den Merkmalen findet man in der Ressource Datenbeschrieb.txt unter dem Datensatz. Die Daten können Lücken enthalten.
+# Issued                   : 2025-01-08T23:00:00
+# Modified                 : 2025-11-05T05:02:14
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002142_00005883.csv')
 
 
 

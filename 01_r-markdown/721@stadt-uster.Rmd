@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 721@stadt-uster.
 
 ## Metadata
 
-- **Issued** `2021-07-06T00:00:00`
-- **Modified** `2023-01-09T15:39:17`
+- **Issued** `2021-07-05T22:00:00`
+- **Modified** `2023-01-08T23:00:00`
 - **Startdate** `2018-01-01`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC']`
-- **Keyword** `['film', 'kultur', 'kulturfoerderung', 'kunst', 'museen', 'musik', 'theater', 'ogd']`
+- **Keyword** `['film', 'kultur', 'kulturfoerderung', 'kunst', 'museen', 'musik', 'ogd', 'theater']`
 - **Publisher** `['Stadt Uster']`
 - **Landingpage** `https://github.com/GesellschaftStadtUster/kultur_foerderbeitrage`
 
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 1853
 # Title                    : Tabelle der Fördergesuche der Kulturförderung der Stadt Uster
 # Description              : Variabeln: 'DatumEntscheid' = Datum der Beschlussfassung über das Gesuch, bei Leistungskontrakten der Auszahlung, 'Gesuchsteller' = Bezeichnung des Gesuchstellers gemäss Fördergesuch, 'Projekt' = Bezeichnung des geförderten Projekts, 'Foerderbereich' = Bezeichnung des Förderbereichs, 'Foerderart' = Bezeichnung der Förderart ('Projektbeitrag' oder 'Leistungskontrakt'), 'FoerderbeitragCHF' = Bewilligter Betrag.
-# Issued                   : 2021-07-06T17:36:33
-# Modified                 : 2021-11-23T21:12:49
+# Issued                   : 2021-07-05T22:00:00
+# Modified                 : 2021-11-22T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/GesellschaftStadtUster/kultur_foerderbeitrage/main/daten_kulturfoerderung_uster.csv')
 

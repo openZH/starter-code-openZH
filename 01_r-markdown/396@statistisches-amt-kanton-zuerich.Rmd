@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 396@statistisches-amt-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2017-05-26T12:00:00`
-- **Modified** `2025-01-14T10:02:25`
+- **Issued** `2017-05-25T22:00:00`
+- **Modified** `2025-01-13T23:00:00`
 - **Startdate** `2013-12-31`
 - **Enddate** `2022-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON']`
-- **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'unternehmen', 'unternehmensstruktur', 'ogd']`
+- **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'ogd', 'unternehmen', 'unternehmensstruktur']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
 
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 489
 # Title                    : Neu gegründete Unternehmen Total [Anz.]
 # Description              : None
-# Issued                   : 2017-05-26T12:00:00
-# Modified                 : 2025-01-14T10:02:25
+# Issued                   : 2017-05-25T22:00:00
+# Modified                 : 2025-01-13T23:00:00
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_353.csv')
 

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 2242@ekz.
 
 ## Metadata
 
-- **Issued** `2023-12-05T13:22:42`
-- **Modified** `2023-12-05T13:22:42`
+- **Issued** `2023-12-04T23:00:00`
+- **Modified** `2023-12-04T23:00:00`
 - **Startdate** `2022-01-01`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENER']`
-- **Keyword** `['energie', 'stromverbrauch', 'ogd']`
+- **Keyword** `['energie', 'ogd', 'stromverbrauch']`
 - **Publisher** `['Elektrizitätswerke des Kantons Zürich EKZ']`
 - **Landingpage** `https://www.ekz.ch/de/ueber-ekz/medien/publikationen/Bruttolastgang-von-EKZ-und-EKZ-Einsiedeln.html`
 
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 4383
 # Title                    : Detaillierter Bruttolastgang EKZ und EKZ Einsiedeln
 # Description              : Das Merkmal "Zeistempel" ist im ISO-8601 Standard ausgewiesen. Die Einheit des Bruttolastganges ist kWh.
-# Issued                   : 2023-12-05T13:22:42
-# Modified                 : 2023-12-05T13:22:42
+# Issued                   : 2023-12-04T23:00:00
+# Modified                 : 2023-12-04T23:00:00
 
 df <- read_delim('https://blg.downloads.ekz.ch')
 

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 2203@statistisches-amt-kanton-zuerich
 
 ## Metadata
 
-- **Issued** `2023-08-18T15:55:19`
-- **Modified** `2023-11-14T07:54:35`
+- **Issued** `2023-08-17T22:00:00`
+- **Modified** `2023-11-13T23:00:00`
 - **Startdate** `2023-10-22`
 - **Enddate** `2023-11-19`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE']`
-- **Keyword** `['staenderatswahlen', 'wahlen', 'wahlergebnisse', 'wahlarchiv', 'demokratie', 'ogd']`
+- **Keyword** `['demokratie', 'staenderatswahlen', 'wahlarchiv', 'wahlen', 'wahlergebnisse']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://app.statistik.zh.ch/wahlen_abstimmungen/prod/Actual/Det/1_1_20231119/250107`
 
@@ -44,73 +44,73 @@ library(skimr)
 # Ktzhdistid               : 4443
 # Title                    : Ständeratswahl 2023 – 1. Wahlgang: Kandidierendenresultate Ebene Kanton
 # Description              : None
-# Issued                   : 2023-08-18T15:55:19
-# Modified                 : 2024-04-05T09:37:22
+# Issued                   : 2023-08-17T22:00:00
+# Modified                 : 2024-04-04T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004443.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004443.csv')
 
 # Distribution 1
 # Ktzhdistid               : 4444
 # Title                    : Ständeratswahl 2023 – 1. Wahlgang: Kandidierendenresultate Ebene Gemeinden
 # Description              : None
-# Issued                   : 2023-08-18T15:55:19
-# Modified                 : 2024-04-05T09:37:28
+# Issued                   : 2023-08-17T22:00:00
+# Modified                 : 2024-04-04T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004444.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004444.csv')
 
 # Distribution 2
 # Ktzhdistid               : 4445
 # Title                    : Ständeratswahl 2023 – 1. Wahlgang: Wahlbeteiligung Ebene Kanton
 # Description              : None
-# Issued                   : 2023-08-18T15:55:19
-# Modified                 : 2024-04-05T09:37:33
+# Issued                   : 2023-08-17T22:00:00
+# Modified                 : 2024-04-04T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004445.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004445.csv')
 
 # Distribution 3
 # Ktzhdistid               : 4446
 # Title                    : Ständeratswahl 2023 – 1. Wahlgang: Wahlbeteiligung Ebene Gemeinden
 # Description              : None
-# Issued                   : 2023-08-18T15:55:19
-# Modified                 : 2024-04-05T09:37:41
+# Issued                   : 2023-08-17T22:00:00
+# Modified                 : 2024-04-04T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004446.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004446.csv')
 
 # Distribution 4
 # Ktzhdistid               : 4763
 # Title                    : Ständeratswahl 2023 – 2. Wahlgang: Kandidierendenresultate Ebene Kanton
 # Description              : None
-# Issued                   : 2023-11-14T07:50:53
-# Modified                 : 2023-11-19T09:36:16
+# Issued                   : 2023-11-13T23:00:00
+# Modified                 : 2023-11-18T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004763.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004763.csv')
 
 # Distribution 5
 # Ktzhdistid               : 4764
 # Title                    : Ständeratswahl 2023 – 2. Wahlgang: Kandidierendenresultate Ebene Gemeinden
 # Description              : None
-# Issued                   : 2023-11-14T07:51:09
-# Modified                 : 2023-11-19T08:58:15
+# Issued                   : 2023-11-13T23:00:00
+# Modified                 : 2023-11-18T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004764.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004764.csv')
 
 # Distribution 6
 # Ktzhdistid               : 4765
 # Title                    : Ständeratswahl 2023 – 2. Wahlgang: Wahlbeteiligung Ebene Kanton
 # Description              : None
-# Issued                   : 2023-11-14T07:51:25
-# Modified                 : 2023-11-19T08:58:20
+# Issued                   : 2023-11-13T23:00:00
+# Modified                 : 2023-11-18T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004765.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004765.csv')
 
 # Distribution 7
 # Ktzhdistid               : 4766
 # Title                    : Ständeratswahl 2023 – 2. Wahlgang: Wahlbeteiligung Ebene Gemeinden
 # Description              : None
-# Issued                   : 2023-11-14T07:51:41
-# Modified                 : 2023-11-19T08:58:27
+# Issued                   : 2023-11-13T23:00:00
+# Modified                 : 2023-11-18T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004766.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002203_00004766.csv')
 
 
 

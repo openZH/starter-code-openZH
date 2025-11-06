@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 2183@statistisches-amt-kanton-zuerich
 
 ## Metadata
 
-- **Issued** `2023-06-19T16:15:34`
-- **Modified** `2023-11-08T08:22:34`
+- **Issued** `2023-06-18T22:00:00`
+- **Modified** `2023-11-07T23:00:00`
 - **Startdate** `2023-02-12`
 - **Enddate** `2023-02-12`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE']`
-- **Keyword** `['kantonsratswahlen', 'wahlen', 'wahlergebnisse', 'wahlarchiv', 'demokratie', 'ogd']`
+- **Keyword** `['demokratie', 'kantonsratswahlen', 'wahlarchiv', 'wahlen', 'wahlergebnisse']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://app.statistik.zh.ch/wahlen_abstimmungen/prod/Archive/ElectionProporz/1/1/20230212/240122/Results/alle`
 
@@ -44,73 +44,73 @@ library(skimr)
 # Ktzhdistid               : 4285
 # Title                    : Kantonsratswahl 2023: Listenresultate Ebene Kanton
 # Description              : None
-# Issued                   : 2023-06-19T16:15:34
-# Modified                 : 2023-06-19T16:15:34
+# Issued                   : 2023-06-18T22:00:00
+# Modified                 : 2023-06-18T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002183_00004285.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002183_00004285.csv')
 
 # Distribution 1
 # Ktzhdistid               : 4286
 # Title                    : Kantonsratswahl 2023: Listenresultate Ebene Wahlkreise
 # Description              : None
-# Issued                   : 2023-06-19T16:15:34
-# Modified                 : 2023-06-19T16:15:34
+# Issued                   : 2023-06-18T22:00:00
+# Modified                 : 2023-06-18T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002183_00004286.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002183_00004286.csv')
 
 # Distribution 2
 # Ktzhdistid               : 4287
 # Title                    : Kantonsratswahl 2023: Listenresultate Ebene Gemeinde
 # Description              : None
-# Issued                   : 2023-06-19T16:15:34
-# Modified                 : 2023-06-19T16:15:34
+# Issued                   : 2023-06-18T22:00:00
+# Modified                 : 2023-06-18T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002183_00004287.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002183_00004287.csv')
 
 # Distribution 3
 # Ktzhdistid               : 4288
 # Title                    : Kantonsratswahl 2023: Kandidierendenresultate Ebene Wahlkreise
 # Description              : None
-# Issued                   : 2023-06-19T16:15:34
-# Modified                 : 2023-06-19T16:15:34
+# Issued                   : 2023-06-18T22:00:00
+# Modified                 : 2023-06-18T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002183_00004288.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002183_00004288.csv')
 
 # Distribution 4
 # Ktzhdistid               : 4289
 # Title                    : Kantonsratswahl 2023: Kandidierendenresultate Ebene Gemeinden
 # Description              : None
-# Issued                   : 2023-06-19T16:15:34
-# Modified                 : 2023-06-19T16:15:34
+# Issued                   : 2023-06-18T22:00:00
+# Modified                 : 2023-06-18T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002183_00004289.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002183_00004289.csv')
 
 # Distribution 5
 # Ktzhdistid               : 4290
 # Title                    : Kantonsratswahl 2023: Wahlbeteiligung Ebene Kanton
 # Description              : None
-# Issued                   : 2023-06-19T16:15:34
-# Modified                 : 2023-06-19T16:15:34
+# Issued                   : 2023-06-18T22:00:00
+# Modified                 : 2023-06-18T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002183_00004290.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002183_00004290.csv')
 
 # Distribution 6
 # Ktzhdistid               : 4291
 # Title                    : Kantonsratswahl 2023: Wahlbeteiligung Ebene Wahlkreise
 # Description              : None
-# Issued                   : 2023-06-19T16:15:34
-# Modified                 : 2023-06-19T16:15:34
+# Issued                   : 2023-06-18T22:00:00
+# Modified                 : 2023-06-18T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002183_00004291.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002183_00004291.csv')
 
 # Distribution 7
 # Ktzhdistid               : 4292
 # Title                    : Kantonsratswahl 2023: Wahlbeteiligung Ebene Gemeinden
 # Description              : None
-# Issued                   : 2023-06-19T16:15:34
-# Modified                 : 2023-06-19T16:15:34
+# Issued                   : 2023-06-18T22:00:00
+# Modified                 : 2023-06-18T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002183_00004292.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002183_00004292.csv')
 
 
 

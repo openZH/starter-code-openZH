@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 735@volksschulamt-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2021-09-06T00:00:00`
-- **Modified** `2021-09-20T15:55:00`
+- **Issued** `2021-09-05T22:00:00`
+- **Modified** `2021-09-19T22:00:00`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC']`
-- **Keyword** `['bildung', 'primarschule', 'schulen', 'schulgemeinden', 'sekundarschule', 'volksschule', 'ogd']`
+- **Keyword** `['bildung', 'ogd', 'primarschule', 'schulen', 'schulgemeinden', 'sekundarschule', 'volksschule']`
 - **Publisher** `['Volksschulamt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/bildung/informationen-fuer-schulen/informationen-volksschule.html#-536456471`
 
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 1875
 # Title                    : Tabelle der Kontaktpersonen des Volksschulamts des Kantons Zürich nach Schulgemeinde und Themen
 # Description              : Variabeln: 'Code_P' = Primarstufe, 'Name_P' = Name der Primarschulgemeinde, 'Personal_P' = Name der Kontaktperson für das Thema 'Personal', 'Lohn_P' = Name der Kontaktperson für das Thema 'Lohn', 'Beratung_P' = Name der Kontaktperson für das Thema 'Beratung', 'Sonderpädagogik_P' = Name der Kontaktperson für das Thema 'Sonderpädagogik', 'Code_O' = Oberstufe, 'Name_O' = Name der Oberstufenschulgemeinde, 'Personal_O' = Name der Kontaktperson für das Thema 'Personal', 'Lohn_O' = Name der Kontaktperson für das Thema 'Lohn', 'Beratung_O' = Name der Kontaktperson für das Thema 'Beratung', 'Sonderpädagogik_O' = Name der Kontaktperson für das Thema 'Sonderpädagogik'
-# Issued                   : 2021-09-06T12:58:32
-# Modified                 : 2021-09-20T15:55:28
+# Issued                   : 2021-09-05T22:00:00
+# Modified                 : 2021-09-19T22:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/statistikZH/Visualisierung_VSAKarte/main/Data/VSA_Kantonskarte.csv')
 

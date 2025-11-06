@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 2063@fachstelle-ogd-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2023-03-24T10:12:00`
-- **Modified** `2025-10-30T00:00:23`
+- **Issued** `2023-03-23T23:00:00`
+- **Modified** `2025-11-06T00:00:28`
 - **Startdate** `2020-01-01`
-- **Enddate** `2025-10-30`
-- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/HEAL', 'http://publications.europa.eu/resource/authority/data-theme/AGRI', 'http://publications.europa.eu/resource/authority/data-theme/ENVI']`
-- **Keyword** `['gemeinden', 'gesundheit', 'trinkwasser', 'wasser', 'pestizide', 'wasserversorgung', 'lebensmittel', 'schwellenwert', 'pflanzenschutzmittel', 'verunreinigung', 'ogd']`
+- **Enddate** `2025-11-06`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/AGRI', 'http://publications.europa.eu/resource/authority/data-theme/ENVI', 'http://publications.europa.eu/resource/authority/data-theme/HEAL']`
+- **Keyword** `['gemeinden', 'gesundheit', 'lebensmittel', 'ogd', 'pestizide', 'pflanzenschutzmittel', 'schwellenwert', 'trinkwasser', 'verunreinigung', 'wasser', 'wasserversorgung']`
 - **Publisher** `['Fachstelle Open Government Data des Kantons Zürich']`
 - **Landingpage** `None`
 
@@ -44,10 +44,10 @@ library(skimr)
 # Ktzhdistid               : 4104
 # Title                    : Netzproben der Trinkwasserqualität
 # Description              : None
-# Issued                   : 2023-03-24T10:12:00
-# Modified                 : 2025-10-30T01:00:23
+# Issued                   : 2023-03-23T23:00:00
+# Modified                 : 2025-11-06T00:00:26
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002063_00004104.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002063_00004104.csv')
 
 
 

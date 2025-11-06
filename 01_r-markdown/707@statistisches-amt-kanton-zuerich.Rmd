@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 707@statistisches-amt-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2020-11-06T00:00:00`
-- **Modified** `2024-07-08T17:03:56`
+- **Issued** `2020-11-05T23:00:00`
+- **Modified** `2024-07-07T22:00:00`
 - **Startdate** `2020-02-28`
 - **Enddate** `2022-02-03`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/HEAL', 'http://publications.europa.eu/resource/authority/data-theme/JUST', 'http://publications.europa.eu/resource/authority/data-theme/TRAN']`
-- **Keyword** `['bezirke', 'gastgewerbe', 'gewerbe', 'kanton_zuerich', 'oeffentlicher_verkehr', 'schulen', 'corona', 'mobilitaet', 'covid19', 'ogd']`
+- **Keyword** `['bezirke', 'corona', 'covid19', 'gastgewerbe', 'gewerbe', 'kanton_zuerich', 'mobilitaet', 'oeffentlicher_verkehr', 'ogd', 'schulen']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `None`
 
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 1745
 # Title                    : COVID_19 Massnahmen im Kanton Zürich
 # Description              : None
-# Issued                   : 2020-11-06T17:05:03
-# Modified                 : 2022-02-24T11:29:57
+# Issued                   : 2020-11-05T23:00:00
+# Modified                 : 2022-02-23T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/statistikZH/covid19zeitmarker/master/covid19zeitmarker.csv')
 

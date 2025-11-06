@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 363@statistisches-amt-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2016-01-21T00:00:00`
-- **Modified** `2024-09-30T16:43:50`
+- **Issued** `2016-01-20T23:00:00`
+- **Modified** `2024-09-29T22:00:00`
 - **Startdate** `2013-12-31`
 - **Enddate** `2018-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TRAN']`
-- **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'oeffentlicher_verkehr', 'verkehrsmittelwahl', 'ogd']`
+- **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'oeffentlicher_verkehr', 'ogd', 'verkehrsmittelwahl']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
 
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 284
 # Title                    : ÖV-Anteil (Modal Split) [%]
 # Description              : None
-# Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2024-09-30T08:54:00
+# Issued                   : 2016-01-20T23:00:00
+# Modified                 : 2024-09-29T22:00:00
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_480.csv')
 

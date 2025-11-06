@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -15,12 +15,12 @@ Auto generated R starter code for data set 1863@stadt-winterthur.
 
 ## Metadata
 
-- **Issued** `2022-11-25T09:02:55`
-- **Modified** `2025-10-29T09:52:19`
+- **Issued** `2022-11-24T23:00:00`
+- **Modified** `2025-11-05T09:52:25`
 - **Startdate** `2022-01-01`
-- **Enddate** `2025-10-28`
+- **Enddate** `2025-11-04`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENER']`
-- **Keyword** `['gemeinden', 'strom', 'stromverbrauch', 'ogd']`
+- **Keyword** `['gemeinden', 'ogd', 'strom', 'stromverbrauch']`
 - **Publisher** `['Stadt Winterthur']`
 - **Landingpage** `None`
 
@@ -45,37 +45,37 @@ library(skimr)
 # Ktzhdistid               : 3562
 # Title                    : Energieverbrauch als Bruttolastgang ab 2022
 # Description              : Der Bruttolastgang wird pro Viertelstunde in Kilowattstunden zusammengefasst.
-# Issued                   : 2022-11-25T09:02:55
-# Modified                 : 2025-10-29T10:52:19
+# Issued                   : 2022-11-24T23:00:00
+# Modified                 : 2025-11-05T09:52:23
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001863_00003562.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001863_00003562.csv')
 
 # Distribution 1
 # Ktzhdistid               : 3561
 # Title                    : Energieverbrauch als Bruttolastgang 2013-2015
 # Description              : Der Bruttolastgang wird pro Viertelstunde in Kilowattstunden zusammengefasst.
-# Issued                   : 2022-11-25T09:02:55
-# Modified                 : 2022-11-25T09:02:55
+# Issued                   : 2022-11-24T23:00:00
+# Modified                 : 2022-11-24T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001863_00003561.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001863_00003561.csv')
 
 # Distribution 2
 # Ktzhdistid               : 3563
 # Title                    : Energieverbrauch als Bruttolastgang 2016-2018
 # Description              : Der Bruttolastgang wird pro Viertelstunde in Kilowattstunden zusammengefasst.
-# Issued                   : 2022-11-25T09:02:55
-# Modified                 : 2022-11-25T09:02:55
+# Issued                   : 2022-11-24T23:00:00
+# Modified                 : 2022-11-24T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001863_00003563.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001863_00003563.csv')
 
 # Distribution 3
 # Ktzhdistid               : 3564
 # Title                    : Energieverbrauch als Bruttolastgang 2019-2021
 # Description              : Der Bruttolastgang wird pro Viertelstunde in Kilowattstunden zusammengefasst.
-# Issued                   : 2022-11-25T09:02:55
-# Modified                 : 2022-11-25T09:02:55
+# Issued                   : 2022-11-24T23:00:00
+# Modified                 : 2022-11-24T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001863_00003564.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001863_00003564.csv')
 
 
 

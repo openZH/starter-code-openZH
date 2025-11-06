@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 444@statistisches-amt-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2019-07-02T00:00:00`
-- **Modified** `2024-07-16T16:55:11`
+- **Issued** `2019-07-01T22:00:00`
+- **Modified** `2024-07-15T22:00:00`
 - **Startdate** `1998-11-29`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE']`
-- **Keyword** `['abstimmungen', 'eidgenoessische_volksabstimmungen', 'kantonale_volksabstimmungen', 'kantonsrat', 'politik', 'regierungsrat', 'exekutive', 'demokratie', 'ogd']`
+- **Keyword** `['abstimmungen', 'demokratie', 'eidgenoessische_volksabstimmungen', 'exekutive', 'kantonale_volksabstimmungen', 'kantonsrat', 'ogd', 'politik', 'regierungsrat']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `None`
 
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 749
 # Title                    : Abstimmungsparolen von kantonalzürcher und nationalen Parteien
 # Description              : None
-# Issued                   : 2019-07-02T16:21:22
-# Modified                 : 2025-10-29T07:53:10
+# Issued                   : 2019-07-01T22:00:00
+# Modified                 : 2025-10-28T23:00:00
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_abstimmungsparolen.csv')
 

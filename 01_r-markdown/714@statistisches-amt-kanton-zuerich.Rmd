@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 714@statistisches-amt-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2016-02-26T00:00:00`
-- **Modified** `2022-05-31T14:51:46`
+- **Issued** `2016-02-25T23:00:00`
+- **Modified** `2022-05-30T22:00:00`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE']`
-- **Keyword** `['abstimmungen', 'abstimmungsergebnisse', 'eidgenoessische_volksabstimmungen', 'gemeinden', 'kantonale_volksabstimmungen', 'politik', 'politische_gemeinden', 'demokratie', 'ogd']`
+- **Keyword** `['abstimmungen', 'abstimmungsergebnisse', 'demokratie', 'eidgenoessische_volksabstimmungen', 'gemeinden', 'kantonale_volksabstimmungen', 'ogd', 'politik', 'politische_gemeinden']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `None`
 
@@ -41,22 +41,22 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 323
-# Title                    : Abstimmungsarchiv des Kantons Zürich, Ergebnisse Kanton Zürich
-# Description              : None
-# Issued                   : 2016-02-26T10:10:10
-# Modified                 : 2025-09-29T16:15:15
-
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_abstimmungsarchiv_kanton.csv')
-
-# Distribution 1
 # Ktzhdistid               : 322
 # Title                    : Abstimmungsarchiv des Kantons Zürich, Ergebnisse pro Gemeinde
 # Description              : None
-# Issued                   : 2016-02-26T10:10:10
-# Modified                 : 2025-09-29T16:14:53
+# Issued                   : 2016-02-25T23:00:00
+# Modified                 : 2025-09-28T22:00:00
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_abstimmungsarchiv_gemeinden.csv')
+
+# Distribution 1
+# Ktzhdistid               : 323
+# Title                    : Abstimmungsarchiv des Kantons Zürich, Ergebnisse Kanton Zürich
+# Description              : None
+# Issued                   : 2016-02-25T23:00:00
+# Modified                 : 2025-09-28T22:00:00
+
+df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_abstimmungsarchiv_kanton.csv')
 
 
 

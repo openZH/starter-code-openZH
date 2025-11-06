@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 3082@statistisches-amt-kanton-zuerich
 
 ## Metadata
 
-- **Issued** `2025-08-28T15:06:16`
-- **Modified** `2025-09-01T09:50:09`
+- **Issued** `2025-08-27T22:00:00`
+- **Modified** `2025-08-31T22:00:00`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/REGI']`
-- **Keyword** `['bezirke', 'gemeinden', 'raumplanungsregionen', 'stammdaten', 'ogd']`
+- **Keyword** `['bezirke', 'gemeinden', 'ogd', 'raumplanungsregionen', 'stammdaten']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://github.com/statistikZH/gebietsstammdaten_zh`
 
@@ -44,46 +44,46 @@ library(skimr)
 # Ktzhdistid               : 6503
 # Title                    : Normdaten Gemeinden Kanton Zürich
 # Description              : Für eine Beschreibung der einzelnen Variablen siehe "weitere Informationen" auf der Startseite des Datensatzes.
-# Issued                   : 2025-08-28T15:06:16
-# Modified                 : 2025-08-28T15:06:16
+# Issued                   : 2025-08-27T22:00:00
+# Modified                 : 2025-08-27T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003082_00006503.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003082_00006503.csv')
 
 # Distribution 1
 # Ktzhdistid               : 6504
 # Title                    : Gemeindemutationen Kanton Zürich
 # Description              : Gemeindemutationen Kanton Zürich (Namensänderungen und Fusionen) seit 1990.  Für eine Beschreibung der einzelnen Variablen siehe "weitere Informationen" auf der Startseite des Datensatzes.
-# Issued                   : 2025-08-28T15:06:16
-# Modified                 : 2025-08-28T15:06:16
+# Issued                   : 2025-08-27T22:00:00
+# Modified                 : 2025-08-27T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003082_00006504.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003082_00006504.csv')
 
 # Distribution 2
 # Ktzhdistid               : 6505
 # Title                    : Normdaten Bezirke Kanton Zürich
 # Description              : Für eine Beschreibung der einzelnen Variablen siehe "weitere Informationen" auf der Startseite des Datensatzes.
-# Issued                   : 2025-08-28T15:06:16
-# Modified                 : 2025-08-28T15:06:16
+# Issued                   : 2025-08-27T22:00:00
+# Modified                 : 2025-08-27T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003082_00006505.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003082_00006505.csv')
 
 # Distribution 3
 # Ktzhdistid               : 6506
 # Title                    : Normdaten Raumplanungsregionen Kanton Zürich
 # Description              : Für eine Beschreibung der einzelnen Variablen siehe "weitere Informationen" auf der Startseite des Datensatzes.
-# Issued                   : 2025-08-28T15:06:16
-# Modified                 : 2025-08-28T15:06:16
+# Issued                   : 2025-08-27T22:00:00
+# Modified                 : 2025-08-27T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003082_00006506.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003082_00006506.csv')
 
 # Distribution 4
 # Ktzhdistid               : 6563
 # Title                    : Gemeindezuweisungen zu Bezirk und Raumplanungsregion Kanton Zürich
 # Description              : Für eine Beschreibung der einzelnen Variablen siehe "weitere Informationen" auf der Startseite des Datensatzes.
-# Issued                   : 2025-08-28T15:06:16
-# Modified                 : 2025-08-28T15:06:16
+# Issued                   : 2025-08-27T22:00:00
+# Modified                 : 2025-08-27T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003082_00006563.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003082_00006563.csv')
 
 
 

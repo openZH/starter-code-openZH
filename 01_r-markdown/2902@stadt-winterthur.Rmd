@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 2902@stadt-winterthur.
 
 ## Metadata
 
-- **Issued** `2025-02-18T11:12:57`
-- **Modified** `2025-02-18T11:12:57`
+- **Issued** `2025-02-17T23:00:00`
+- **Modified** `2025-02-17T23:00:00`
 - **Startdate** `1982-01-01`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC']`
-- **Keyword** `['bibliotheken', 'museen', 'theater', 'ogd']`
+- **Keyword** `['bibliotheken', 'museen', 'ogd', 'theater']`
 - **Publisher** `['Stadt Winterthur']`
 - **Landingpage** `None`
 
@@ -44,10 +44,10 @@ library(skimr)
 # Ktzhdistid               : 5968
 # Title                    : Besuche kultureller Einrichtungen in Winterthur
 # Description              : Die Indikatoren sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
-# Issued                   : 2025-02-18T11:12:57
-# Modified                 : 2025-02-18T11:12:57
+# Issued                   : 2025-02-17T23:00:00
+# Modified                 : 2025-02-17T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002902_00005968.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002902_00005968.csv')
 
 
 

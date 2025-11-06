@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,11 +14,11 @@ Auto generated R starter code for data set 720@stadt-uster.
 
 ## Metadata
 
-- **Issued** `2021-07-07T11:26:00`
-- **Modified** `2024-04-18T15:15:35`
+- **Issued** `2021-07-06T22:00:00`
+- **Modified** `2024-04-17T22:00:00`
 - **Startdate** `None`
 - **Enddate** `2021-07-01`
-- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI', 'http://publications.europa.eu/resource/authority/data-theme/EDUC', 'http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON', 'http://publications.europa.eu/resource/authority/data-theme/EDUC', 'http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['ogd']`
 - **Publisher** `['Stadt Uster']`
 - **Landingpage** `https://github.com/GesellschaftStadtUster/quartier_infokaesten`
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 1803
 # Title                    : Tabelle mit allen Quartierkästen der Stadt Uster und Quartiervereinen
 # Description              : Variabeln: 'standort', 'quartierverein', 'besitzer' = 'stadt' oder 'quartierverein', 'lat' = Breitengrad, 'lng' = Längengrad, 'bild_kasten' = URL zum Foto des Quartierkastens, 'link_google-streetview' = URL zum Foto des Quartierkastens auf Google Streetview.
-# Issued                   : 2021-04-12T15:38:29
-# Modified                 : 2021-07-09T08:09:52
+# Issued                   : 2021-04-11T22:00:00
+# Modified                 : 2021-07-08T22:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/GesellschaftStadtUster/quartier_infokaesten/main/liste_quartierinfokaesten.csv')
 

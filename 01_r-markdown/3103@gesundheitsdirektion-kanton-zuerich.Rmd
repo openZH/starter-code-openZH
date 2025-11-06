@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -16,12 +16,12 @@ Auto generated R starter code for data set 3103@gesundheitsdirektion-kanton-zuer
 
 ## Metadata
 
-- **Issued** `2025-10-02T14:32:26`
-- **Modified** `2025-10-03T07:50:51`
+- **Issued** `2025-10-01T22:00:00`
+- **Modified** `2025-10-02T22:00:00`
 - **Startdate** `2019-01-01`
 - **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/HEAL']`
-- **Keyword** `['spitexleistungen', 'ogd']`
+- **Keyword** `['ogd', 'spitexleistungen']`
 - **Publisher** `['Gesundheitsdirektion des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/gesundheit/heime-spitex/zahlen-fakten-langzeitpflege.html`
 
@@ -46,37 +46,37 @@ library(skimr)
 # Ktzhdistid               : 6624
 # Title                    : Spitex-Institutionen Kanton Zürich
 # Description              : Die wichtigsten Kenngrössen zu den erbrachten Leistungen und Kosten pro Spitex-Institution. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003103_00006623.txt
-# Issued                   : 2025-10-02T14:32:26
-# Modified                 : 2025-10-13T16:51:30
+# Issued                   : 2025-10-01T22:00:00
+# Modified                 : 2025-10-12T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003103_00006624.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003103_00006624.csv')
 
 # Distribution 1
 # Ktzhdistid               : 6625
 # Title                    : Klientinnen und Klienten Spitex-Institutionen Kanton Zürich
 # Description              : Anzahl betreute Klientinnen und Klienten sowie die geleisteten Stunden pro Leistungsart. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003103_00006623.txt
-# Issued                   : 2025-10-02T14:32:26
-# Modified                 : 2025-10-13T17:32:31
+# Issued                   : 2025-10-01T22:00:00
+# Modified                 : 2025-10-12T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003103_00006625.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003103_00006625.csv')
 
 # Distribution 2
 # Ktzhdistid               : 6626
 # Title                    : Personal Spitex-Institutionen Kanton Zürich
 # Description              : Anzahl Mitarbeitende und Anzahl VZÄ pro Bezirk, und Diplomart. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003103_00006623.txt
-# Issued                   : 2025-10-02T14:32:26
-# Modified                 : 2025-10-13T16:51:56
+# Issued                   : 2025-10-01T22:00:00
+# Modified                 : 2025-10-12T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003103_00006626.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003103_00006626.csv')
 
 # Distribution 3
 # Ktzhdistid               : 6627
 # Title                    : Aufwände und Erträge Spitex-Institutionen Kanton Zürich
 # Description              : Aufwände und Erträge pro Bezirk zu den wichtigsten Konten. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003103_00006623.txt
-# Issued                   : 2025-10-02T14:32:26
-# Modified                 : 2025-10-13T16:52:16
+# Issued                   : 2025-10-01T22:00:00
+# Modified                 : 2025-10-12T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003103_00006627.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003103_00006627.csv')
 
 
 

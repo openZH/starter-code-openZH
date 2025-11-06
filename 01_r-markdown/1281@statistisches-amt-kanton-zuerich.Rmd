@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 1281@statistisches-amt-kanton-zuerich
 
 ## Metadata
 
-- **Issued** `2022-03-24T10:21:34`
-- **Modified** `2023-01-04T13:53:02`
+- **Issued** `2022-03-23T23:00:00`
+- **Modified** `2023-01-03T23:00:00`
 - **Startdate** `2022-02-13`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE']`
-- **Keyword** `['gemeinden', 'gemeindewahlen', 'kanton_zuerich', 'politik', 'politische_gemeinden', 'politische_parteien', 'wahlen', 'wahlergebnisse', 'wahlarchiv', 'demokratie', 'ogd']`
+- **Keyword** `['demokratie', 'gemeinden', 'gemeindewahlen', 'kanton_zuerich', 'ogd', 'politik', 'politische_gemeinden', 'politische_parteien', 'wahlarchiv', 'wahlen', 'wahlergebnisse']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/wahlen-abstimmungen/gemeindewahlen.html`
 
@@ -44,10 +44,10 @@ library(skimr)
 # Ktzhdistid               : 2419
 # Title                    : Ergebnisse der kommunalen Behördenwahlen 2022
 # Description              : Ergebnisse der Erneuerungswahlen der Zürcher Gemeindebehörden. Abgebildet sind sämtliche über die den Gemeinden vom Kanton Zürich zur Verfügung gestellte Wahl- und Abstimmungssoftware abgewickelten Gesamterneuerungswahlen von Gemeindebehörden 2022, sowie sämtliche gemeldete in Stiller Wahl gewählte Personen für Behörden mit Amtsantritt 2022. Gemeinden sind gesetzlich nicht verpflichtet, die Behördenwahlen mit besagter Software abzuwickeln oder Stille Wahlen zu melden. Ausserdem ist es möglich, dass an der Urne gewählte Personen die Wahl ablehnen. Der rechtskräftig gewordene Ausgang einer Wahl wird lediglich von der entsprechenden Gemeinde publiziert. Korrektur 28.10.2024: Gewisse Kandidierendenspalten waren bisher fälschlicherweise unter unterschiedlichen Wahlen in denselben Gemeinden geführt. Dieser Fehler wurde korrigiert.
-# Issued                   : 2022-03-24T10:21:34
-# Modified                 : 2025-10-21T12:04:49
+# Issued                   : 2022-03-23T23:00:00
+# Modified                 : 2025-10-20T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001281_00002419.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001281_00002419.csv')
 
 
 

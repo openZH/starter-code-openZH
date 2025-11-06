@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,10 +14,10 @@ Auto generated R starter code for data set 3122@stadt-winterthur.
 
 ## Metadata
 
-- **Issued** `2025-09-03T09:38:11`
-- **Modified** `2025-10-29T09:52:23`
+- **Issued** `2025-09-02T22:00:00`
+- **Modified** `2025-11-05T09:52:28`
 - **Startdate** `2023-01-01`
-- **Enddate** `2025-10-28`
+- **Enddate** `2025-11-04`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENER']`
 - **Keyword** `['elektrizitaet', 'elektrizitaetsproduktion', 'messung', 'ogd']`
 - **Publisher** `['Stadt Winterthur']`
@@ -44,10 +44,10 @@ library(skimr)
 # Ktzhdistid               : 6583
 # Title                    : Lastgang Netzeinspeisung ab 2023
 # Description              : Der Lastgang wird pro Viertelstunde in Kilowattstunden zusammengefasst.
-# Issued                   : 2025-09-03T09:38:12
-# Modified                 : 2025-10-29T10:52:23
+# Issued                   : 2025-09-02T22:00:00
+# Modified                 : 2025-11-05T09:52:26
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003122_00006583.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003122_00006583.csv')
 
 
 

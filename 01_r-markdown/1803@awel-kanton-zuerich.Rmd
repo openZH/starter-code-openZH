@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 1803@awel-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2022-11-07T13:23:18`
-- **Modified** `2025-07-16T14:25:00`
+- **Issued** `2022-11-06T23:00:00`
+- **Modified** `2025-07-15T22:00:00`
 - **Startdate** `2000-01-01`
 - **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI']`
-- **Keyword** `['abfall', 'glas', 'entsorgung', 'karton', 'kehricht', 'papier', 'recycling', 'sperrgut', 'kunststoff', 'textilien', 'abfallgebuehren', 'oel', 'ogd']`
+- **Keyword** `['abfall', 'abfallgebuehren', 'entsorgung', 'glas', 'karton', 'kehricht', 'kunststoff', 'oel', 'ogd', 'papier', 'recycling', 'sperrgut', 'textilien']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-712_1-1994_09_25-2001_01_01-085.html`
 
@@ -44,19 +44,19 @@ library(skimr)
 # Ktzhdistid               : 3460
 # Title                    : Abfallmengen nach Abfallarten und Gemeinden
 # Description              : Der Datensatz zeigt die Gesamtmenge der Siedlungsabfälle aus Haushalten und Betrieben, die bei der kommunalen Sammlung gesammelt wurden. Direkte Anlieferungen an Kehrichtverbrennungsanlagen und private Entsorgungslösungen, die nicht den kommunalen Weg nutzen, sind nicht enthalten. Die Siedlungsabfälle werden unterteilt in die Abfallarten Kehricht (einschliesslich Sperrgut), zum Recycling bestimmte Abfälle wie Altglas, Papier und Karton, Kunststoffe, Metalle, Altöl, biogene Abfälle sowie Textilien. Zudem werden mineralische Abfälle (Grubengut) erfasst. Seit 2007 werden auch Strassenabfälle aus Strassenwischern und Strassensammlerschlämme erfasst. Werte unter 500 kg werden auf 0 Tonnen abgerundet. Einige Gemeinden stellen nicht für alle Abfallarten Daten zur Verfügung, insbesondere für Kunststoffe und Textilien. Einträge mit (‘NA’) bedeuten, dass diese Abfallart in der Gemeinde nicht gesammelt wird oder keine Mengenangabe erfolgte.
-# Issued                   : 2022-11-07T13:23:18
-# Modified                 : 2025-07-16T14:23:19
+# Issued                   : 2022-11-06T23:00:00
+# Modified                 : 2025-07-15T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001803_00003460.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001803_00003460.csv')
 
 # Distribution 1
 # Ktzhdistid               : 3461
 # Title                    : Abfallgebühren nach Gemeinden
 # Description              : Die Abfallgebühren sind in CHF inkl. MWST angegeben und werden als Abfallgrundgebühr (‘Grundgebuehr’) und Preis pro 35-Liter-Gebührensack (‘35-L-Sack’) ausgewiesen. Die Gebühren gelten für Privathaushalte. Die ‘Grundgebuehr’ gilt pro Kalenderjahr und wird zur Vergleichbarkeit von den Gemeinden auf eine Gebühr für eine 4-Zimmer-Wohnung umgerechnet. Es gibt Ausnahmen, bei denen eine solche Umrechnung nicht vorgenommen wird. Diese Fälle werden mit ‘0’ erfasst. Ebenso mit ‘0’ erfasst sind Gemeinden, wo keine Grundgebühr erhoben wird.
-# Issued                   : 2022-11-07T13:23:18
-# Modified                 : 2025-07-16T07:58:55
+# Issued                   : 2022-11-06T23:00:00
+# Modified                 : 2025-07-15T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001803_00003461.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001803_00003461.csv')
 
 
 

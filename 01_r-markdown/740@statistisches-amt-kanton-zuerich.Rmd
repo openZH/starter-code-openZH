@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 740@statistisches-amt-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2021-10-04T00:00:00`
-- **Modified** `2024-07-15T12:24:33`
+- **Issued** `2021-10-03T22:00:00`
+- **Modified** `2024-07-14T22:00:00`
 - **Startdate** `2018-01-01`
 - **Enddate** `None`
-- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI', 'http://publications.europa.eu/resource/authority/data-theme/EDUC', 'http://publications.europa.eu/resource/authority/data-theme/ENER', 'http://publications.europa.eu/resource/authority/data-theme/HEAL', 'http://publications.europa.eu/resource/authority/data-theme/ENVI', 'http://publications.europa.eu/resource/authority/data-theme/TRAN', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
-- **Keyword** `['arbeitslose', 'ausbildung', 'bahn', 'berufslehre', 'bildung', 'energie', 'familien', 'flugbewegungen', 'flughafen', 'flugverkehr', 'gesundheit', 'gesundheitszustand', 'handelsregister', 'internetnutzung', 'beratungsangebote', 'kinder', 'kinderbetreuung', 'kindergarten', 'konkurse', 'konsum', 'langsamverkehr', 'lernende', 'luftverkehr', 'medien', 'oeffentlicher_verkehr', 'oeffentliche_schulen', 'primarschule', 's-bahn', 'stellensuchende', 'strassenverkehr', 'strassenverkehrszaehlung', 'suchtkrankheiten', 'todesfaelle', 'verkehr', 'verkehrsfrequenz', 'verkehrsmittelwahl', 'volkswirtschaft', 'vorschulstufe', 'wirtschaft', 'corona', 'covid-19', 'mobilitaet', 'epidemien', 'covid19', 'ogd']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON', 'http://publications.europa.eu/resource/authority/data-theme/EDUC', 'http://publications.europa.eu/resource/authority/data-theme/ENER', 'http://publications.europa.eu/resource/authority/data-theme/ENVI', 'http://publications.europa.eu/resource/authority/data-theme/HEAL', 'http://publications.europa.eu/resource/authority/data-theme/SOCI', 'http://publications.europa.eu/resource/authority/data-theme/TRAN']`
+- **Keyword** `['arbeitslose', 'ausbildung', 'bahn', 'beratungsangebote', 'berufslehre', 'bildung', 'corona', 'covid-19', 'covid19', 'energie', 'epidemien', 'familien', 'flugbewegungen', 'flughafen', 'flugverkehr', 'gesundheit', 'gesundheitszustand', 'handelsregister', 'internetnutzung', 'kinder', 'kinderbetreuung', 'kindergarten', 'konkurse', 'konsum', 'langsamverkehr', 'lernende', 'luftverkehr', 'medien', 'mobilitaet', 'oeffentliche_schulen', 'oeffentlicher_verkehr', 'ogd', 'primarschule', 's-bahn', 'stellensuchende', 'strassenverkehr', 'strassenverkehrszaehlung', 'suchtkrankheiten', 'todesfaelle', 'verkehr', 'verkehrsfrequenz', 'verkehrsmittelwahl', 'volkswirtschaft', 'vorschulstufe', 'wirtschaft']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://github.com/statistikZH/covid19monitoring`
 
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 1886
 # Title                    : Daten aller Indikatoren im COVID_19 Gesellschaftsmonitoring des Kantons Zürich
 # Description              : Variabeln: 'date' = Datum der Erhebung; 'value' = erhobener Wert; 'topic' = thematische Kategorie des Indikators (Liste aller Indikatoren siehe Readme unter "Weiterführende Informationen"); 'variable_short' = Kurzbezeichnung des Indikators (kein String); 'variable_long' = längere Bezeichnung des Indikators (String); 'location' = räumlicher Bezug der Erhebung, 'unit' = Masseinheit des erhobenen Werts; 'source' = Quelle der erhobenen Daten, 'update' = Aktualisierungsfrequenz, 'public' = Status der Veröffentlichung (ja/nein), 'description' = URL mit Beschreibung zur Grundlage der jeweiligen Datenerhebung, Hinweisen zur Methodik sowie Weiteren Informationen.
-# Issued                   : 2021-10-04T17:04:16
-# Modified                 : 2021-10-25T11:18:20
+# Issued                   : 2021-10-03T22:00:00
+# Modified                 : 2021-10-24T22:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/statistikZH/covid19monitoring/master/covid19socialmonitoring.csv')
 
@@ -53,8 +53,8 @@ df <- read_delim('https://raw.githubusercontent.com/statistikZH/covid19monitorin
 # Ktzhdistid               : 1887
 # Title                    : Metadaten aller Indikatoren im COVID_19 Gesellschaftsmonitoring des Kantons Zürich
 # Description              : Variabeln: 'id' = Kombination von 'variable_short' und 'location' ergibt eindeutigen Identifkator; 'topic' = thematische Kategorie des Indikators; 'variable_short' = Kurzbezeichnung des Indikators (kein String); 'variable_long' = längere Bezeichnung des Indikators (String); 'location' = räumlicher Bezug der Erhebung, 'unit' = Masseinheit des erhobenen Werts; 'source' = Quelle der erhobenen Daten, 'update' = Aktualisierungsfrequenz, 'public' = Status der Veröffentlichung (ja/nein), 'description' = URL mit Beschreibung zur Grundlage der jeweiligen Datenerhebung, Hinweisen zur Methodik sowie Weiteren Informationen; 'last_modified' = Datum der letzten Aktualisierung; 'date_first_obs' = Startdatum der Zeitreihe (d.i. die erste erhobene Beobachtung); 'date_last_obs' = Enddatum der Zeitreihe (d.i. die letzte erhobene Beobachtung); 'sort' = alphabetische Sortierungsvariable nach 'topic' und 'variable_long'.
-# Issued                   : 2021-10-04T17:38:30
-# Modified                 : 2021-10-25T11:18:07
+# Issued                   : 2021-10-03T22:00:00
+# Modified                 : 2021-10-24T22:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/statistikZH/covid19monitoring/master/Metadata.csv')
 

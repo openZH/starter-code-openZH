@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 2922@statistisches-amt-kanton-zuerich
 
 ## Metadata
 
-- **Issued** `2025-04-17T14:22:39`
-- **Modified** `2025-05-14T14:31:18`
+- **Issued** `2025-04-16T22:00:00`
+- **Modified** `2025-05-13T22:00:00`
 - **Startdate** `2010-12-31`
 - **Enddate** `2024-12-31`
-- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI', 'http://publications.europa.eu/resource/authority/data-theme/REGI']`
-- **Keyword** `['gemeinden', 'wohnbautaetigkeit', 'ogd']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/REGI', 'http://publications.europa.eu/resource/authority/data-theme/SOCI']`
+- **Keyword** `['gemeinden', 'ogd', 'wohnbautaetigkeit']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/planen-bauen/raumplanung/immobilienmarkt/wohnbautaetigkeit.html`
 
@@ -44,10 +44,10 @@ library(skimr)
 # Ktzhdistid               : 6203
 # Title                    : Wohnbautätigkeit in den Gemeinden des Kantons Zürich nach Zimmerzahl und Gebäudekategorie
 # Description              : Der Stichtag der Datengrundlage ist jeweils der 31. Dezember des letzten ausgewiesenen Jahres. Wohnungen in neuen/abgebrochenen Gebäuden. Aufstockungen bzw. Umbauten wurden nicht berücksichtigt.																	 Aufgrund von Registernachführungen können sich die Zahlen insbsondere für Zeiträume nahe beim Stichtag bei zukünftigen Auswertungen noch ändern.																	 Die Datenaufbereitung basiert auf der Schablone hier: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002162_00004263.html
-# Issued                   : 2025-04-17T14:22:39
-# Modified                 : 2025-04-17T14:22:39
+# Issued                   : 2025-04-16T22:00:00
+# Modified                 : 2025-04-16T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002922_00006203.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002922_00006203.csv')
 
 
 

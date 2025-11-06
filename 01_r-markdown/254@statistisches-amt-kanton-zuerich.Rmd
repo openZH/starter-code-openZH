@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 254@statistisches-amt-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2020-02-03T14:26:00`
-- **Modified** `2025-02-07T09:43:29`
+- **Issued** `2020-02-02T23:00:00`
+- **Modified** `2025-02-06T23:00:00`
 - **Startdate** `2010-01-01`
 - **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
-- **Keyword** `['alter', 'altersgruppen', 'altersklassen', 'altersstruktur', 'auslaender*innen', 'bevoelkerung', 'bezirke', 'einwohnerzahl', 'gemeinden', 'amtliches_geschlecht', 'herkunft', 'einwohner', 'ogd', 'bevoelkerungsbestand']`
+- **Keyword** `['alter', 'altersgruppen', 'altersklassen', 'altersstruktur', 'amtliches_geschlecht', 'auslaender*innen', 'bevoelkerung', 'bevoelkerungsbestand', 'bezirke', 'einwohner', 'einwohnerzahl', 'gemeinden', 'herkunft', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `None`
 
@@ -44,10 +44,10 @@ library(skimr)
 # Ktzhdistid               : 1282
 # Title                    :  Bevölkerung nach Gemeinde, Heimat, Geschlecht und Alter (1-Jahres Altersklassen)
 # Description              : Alter in Einjahresaltersklassen angegeben
-# Issued                   : 2020-02-03T15:16:47
-# Modified                 : 2025-02-12T07:50:41
+# Issued                   : 2020-02-02T23:00:00
+# Modified                 : 2025-02-11T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000254_00001282.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000254_00001282.csv')
 
 
 

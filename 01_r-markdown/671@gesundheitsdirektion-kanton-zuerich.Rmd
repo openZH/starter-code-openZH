@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -15,12 +15,12 @@ Auto generated R starter code for data set 671@gesundheitsdirektion-kanton-zueri
 
 ## Metadata
 
-- **Issued** `2020-03-05T16:10:00`
-- **Modified** `2023-01-10T17:14:52`
+- **Issued** `2020-03-04T23:00:00`
+- **Modified** `2023-01-09T23:00:00`
 - **Startdate** `2020-02-27`
 - **Enddate** `2023-01-03`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/HEAL']`
-- **Keyword** `['alter', 'altersgruppen', 'altersklassen', 'bezirke', 'gemeinden', 'amtliches_geschlecht', 'gesundheit', 'kanton_zuerich', 'krankheiten', 'todesfaelle', 'corona', 'covid-19', 'covid19', 'ogd']`
+- **Keyword** `['alter', 'altersgruppen', 'altersklassen', 'amtliches_geschlecht', 'bezirke', 'corona', 'covid-19', 'covid19', 'gemeinden', 'gesundheit', 'kanton_zuerich', 'krankheiten', 'ogd', 'todesfaelle']`
 - **Publisher** `['Gesundheitsdirektion des Kantons Zürich']`
 - **Landingpage** `https://github.com/openZH/covid_19`
 
@@ -45,8 +45,8 @@ library(skimr)
 # Ktzhdistid               : 1613
 # Title                    : COVID_19 Fallzahlen Kanton Zürich nach Alter und Geschlecht bis 03.01.2023
 # Description              : Die Gesundheitsdirektion des Kantons Zürich hat ab dem 27.02.2020 einmal täglich die bestätigt positiven Fälle sowie die Todesfälle mit Angabe des Alters und des Geschlechts veröffentlicht. Ab dem 09.03.2020 galt ein neues Testregime: Nur noch Personen, die schwere Symptome zeigten, ein erhöhtes Komplikationsrisiko besassen oder in direktem Kontakt mit PatientInnen oder BewohnerInnen von Alters- und Pflegeheimen standen, wurden getestet. Ab dem 27.04.2020 empfahl das Bundesamt für Gesundheit BAG zusätzlich auch Personen zu testen, die Symptome einer akuten Atemwegserkrankung zeigen, Muskelschmerzen oder Geruchs- oder Geschmacksverlust aufweisen. Am 08.07.2020 hat die Gesundheitsdirektion des Kantons Zürich die Zeitreihe letztmals aktualisiert; seit 09.07.2020 werden stattdessen einmal wöchentlich alle Fälle pro Kalenderwoche als 10-Jahres-Altersklassen je Geschlecht veröffentlicht (siehe Ressource "COVID_19 Verteilung der Fälle im Kanton Zuerich nach Altersklasse, Geschlecht und Kalenderwoche"). 
-# Issued                   : 2020-03-05T16:43:27
-# Modified                 : 2023-01-04T10:39:22
+# Issued                   : 2020-03-04T23:00:00
+# Modified                 : 2023-01-03T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_ZH_alter_geschlecht.csv')
 
@@ -54,8 +54,8 @@ df <- read_delim('https://raw.githubusercontent.com/openZH/covid_19/master/fallz
 # Ktzhdistid               : 1655
 # Title                    : COVID_19 Fallzahlen Kanton Zürich nach Bezirk und Kalenderwoche ab 24.02.2020 bis 03.01.2023
 # Description              : Bestätigt infizierte Fälle sowie Todesfälle nach Bezirk und Kalenderwoche. Die Daten werden einmal wöchentlich (jeweils am Mittwoch) aktualisiert. Variabeln: 'DistrictId' = Bezirks-ID (BFS-Nummer)*; 'District' = Bezirksname*; 'Population' = Wohnbevölkerung; 'Week' = Kalenderwoche des Befundes ('NewConfCases') / Todesdatums ('NewDeaths'); 'Year' = Jahr des Befundes ('NewConfCases') / Todesdatums ('NewDeaths'); 'NewConfCases' = Neue bestätigte Fälle; 'NewDeaths' = Neue Todesfälle; 'TotalConfCases' = Total der bestätigten Fälle (kumuliert); 'TotalDeaths' = Total der Todesfälle (kumuliert). *Die Fälle werden den Bezirken via Postleitzahl zugeordnet. Eine Minderheit der Postleitzahlen kann nicht eindeutig einem Bezirk zugeordnet werden. Bis zum 26.05.2020 traten 1,3 % der bestätigten Sars-CoV-2 Fälle in Postleitzahlen auf, die in mehreren Bezirken liegen. Postleitzahlgebiete werden daher als Ganzes dem Bezirk zugeordnet, in dem die überwiegende Mehrheit der Bevölkerung lebt. Die Bevölkerungszahl der Bezirke in diesem Datensatz kommt der Kohärenz halber nach dem selben Prinzip zu Stande. Daher weichen die Bevölkerungsdaten der Bezirke in dem Datensatz geringfügig von an anderen Stellen publizierten Zahlen ab. Rund 200 Sars-CoV-2 Fälle können keiner Postleitzahl zugeordnert werden, da bis Anfang April 2020 die Übermittlung des Wohnortes der positiv Getesteten bei Labormeldungen noch nicht zwingend war.
-# Issued                   : 2020-06-04T16:33:27
-# Modified                 : 2023-01-04T10:40:17
+# Issued                   : 2020-06-03T22:00:00
+# Modified                 : 2023-01-03T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_bezirke/fallzahlen_kanton_ZH_bezirk.csv')
 
@@ -63,8 +63,8 @@ df <- read_delim('https://raw.githubusercontent.com/openZH/covid_19/master/fallz
 # Ktzhdistid               : 1702
 # Title                    : COVID_19 Verteilung der Fälle im Kanton Zürich nach Altersklasse, Geschlecht und Kalenderwoche ab 24.02.2020 bis 03.01.2023
 # Description              : Bestätigt positive Fälle sowie die Todesfälle pro Kalenderwoche als 10-Jahres-Altersklassen je Geschlecht. Bis 08.07.2020 wurden täglich Einzelfallzahlen mit Alter und Geschlecht veröffentlicht (siehe Ressource "COVID_19 Fallzahlen Kanton Zuerich nach Alter und Geschlecht"). Die Daten werden einmal wöchentlich (jeweils am Mittwoch) aktualisiert. Variabeln: 'AgeYearCat' = 10-Jahres-Altersklasse (0-9 Jahre, 10-19 Jahre, 20-29 Jahre, usw.); 'NewConfCases' = Neue bestätigte Fälle; 'NewDeaths' = Neue Todesfälle.
-# Issued                   : 2020-07-09T17:55:35
-# Modified                 : 2023-01-04T10:40:38
+# Issued                   : 2020-07-08T22:00:00
+# Modified                 : 2023-01-03T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_ZH_altersklassen_geschlecht.csv')
 
@@ -72,8 +72,8 @@ df <- read_delim('https://raw.githubusercontent.com/openZH/covid_19/master/fallz
 # Ktzhdistid               : 1626
 # Title                    : COVID_19 Fallzahlen Kanton Zürich pro Tag ab 27.02.2020 bis 03.01.2023
 # Description              : Laborbestätigte positive Fälle mit Bezug zum Kanton Zürich. Für Variabeln-Definitionen siehe Readme unter "Weitere Informationen". Hinweis: Bei der Variable 'current_quarantined' handelt es sich um die Anzahl Kontaktpersonen, die theoretisch in Quarantäne sein müssten. Personen, die aufgrund eines vollständigen Impfschutzes nicht in Quarantäne müssen, werden nicht subtrahiert. Die Daten werden einmal wöchentlich (jeweils am Mittwoch) aktualisiert.
-# Issued                   : 2020-03-09T18:37:22
-# Modified                 : 2023-01-04T10:37:53
+# Issued                   : 2020-03-08T23:00:00
+# Modified                 : 2023-01-03T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_ZH_total.csv')
 
@@ -81,8 +81,8 @@ df <- read_delim('https://raw.githubusercontent.com/openZH/covid_19/master/fallz
 # Ktzhdistid               : 1703
 # Title                    : COVID_19 Verteilung der Fälle im Kanton Zürich nach Postleitzahl ab 09.07.2020 bis 03.01.2023
 # Description              : Verteilung der neu bestätigt infizierten Fälle der jeweils letzten sieben Tage nach Postleitzahl. Postleitzahlen, die auf dem Gebiet des Kantons Zürich weniger als 100 EinwohnerInnen aufweisen, werden aus Gründen des Datenschutzes in der Kategorie 'PLZ_uebrige' zusammengefasst. Bei den Werten handelt es sich nicht um Einzelfallzahlen, sondern um Fallzahlklassen. Variabeln: 'PLZ' = Postleitzahl; 'Population' = EinwohnerInnen mit Hauptwohnsitz; 'NewConfCases_7days' = Neue bestätigte Fälle in den vergangenen sieben Tagen in Kategorien (0-3 Fälle, 4-6 Fälle, 7-9 Fälle, usw.). Die Daten werden einmal wöchentlich (jeweils am Mittwoch) aktualisiert.
-# Issued                   : 2020-07-09T18:18:16
-# Modified                 : 2023-01-04T10:40:51
+# Issued                   : 2020-07-08T22:00:00
+# Modified                 : 2023-01-03T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_plz/fallzahlen_kanton_ZH_plz.csv')
 
@@ -90,8 +90,8 @@ df <- read_delim('https://raw.githubusercontent.com/openZH/covid_19/master/fallz
 # Ktzhdistid               : 1715
 # Title                    : COVID_19 Anteil der positiven SARS-CoV-2 Tests im Kanton Zürich nach Kalenderwoche ab 25.05.2020  bis 03.01.2023
 # Description              : Anteil der positiven SARS-CoV-2 Tests pro Kalenderwoche. Variabeln: 'Woche_von' = Beginn der Kalenderwoche (Datum); 'Woche_bis' = Ende der Kalenderwoche (Datum); 'Anzahl_positiv' = Anzahl positiver Tests; 'Anzahl_negativ' = Anzahl negativer Tests; 'Anteil_positiv' = Anteil der positiven Tests an allen Tests. Die Daten werden einmal wöchentlich (jeweils am Mittwoch) aktualisiert.
-# Issued                   : 2020-08-22T00:12:32
-# Modified                 : 2023-01-04T10:41:12
+# Issued                   : 2020-08-21T22:00:00
+# Modified                 : 2023-01-03T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_zh/COVID19_Anteil_positiver_Test_pro_KW.csv')
 
@@ -99,8 +99,8 @@ df <- read_delim('https://raw.githubusercontent.com/openZH/covid_19/master/fallz
 # Ktzhdistid               : 1742
 # Title                    : COVID_19 Anteil der positiven SARS-CoV-2 Tests im Kanton Zürich nach Altersklasse und Kalenderwoche ab 25.05.2020 bis 03.01.2023
 # Description              : Anteil der positiven SARS-CoV-2 Tests pro Kalenderwoche nach Alterskategorien. Variabeln: 'Woche_von' = Beginn der Kalenderwoche (Datum); 'Woche_bis' = Ende der Kalenderwoche (Datum);  'AgeCat'= Alterskategorie; 'Anzahl_positiv' = Anzahl positiver Tests; 'Anzahl_negativ' = Anzahl negativer Tests; 'Anteil_positiv' = Anteil der positiven Tests an allen Tests. Die Daten werden einmal wöchentlich (jeweils am Mittwoch) aktualisiert.
-# Issued                   : 2020-10-23T02:01:53
-# Modified                 : 2023-01-04T10:40:05
+# Issued                   : 2020-10-22T22:00:00
+# Modified                 : 2023-01-03T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_zh/COVID19_Anteil_positiver_Test_Alterklassen_pro_KW.csv')
 
@@ -108,8 +108,8 @@ df <- read_delim('https://raw.githubusercontent.com/openZH/covid_19/master/fallz
 # Ktzhdistid               : 1785
 # Title                    : COVID_19 PCR-Tests und besorgniserregende Virusmutationen im Kanton Zürich
 # Description              : Die Gesundheitsdirektion des Kantons Zürich veröffentlichte ab dem 18.12.2020 bis zum 10.02.2021 wochentags die Anzahl der täglichen positiven PCR-Tests (Spalte: 'new_pcr_pos') und der entdeckten besorgniserregenden Virusmutationen (Spalte: 'new_voc'). Besorgniserregende Virusmutationen ('VOC' = Variant of Concern) lassen sich *nicht* mittels Schnelltests entdecken, jedoch mittels der eingesetzten PCR-Tests. Als besorgniserregend werden Virusmutationen klassifiziert, weil sie u.a. ansteckender als der Wildtyp des Virus sind. Hinweis: Diese Ressource wird ab dem 12.02.2021 nicht weiter aktualisiert, da in der Woche vom 15.02.2021 die Vollständigkeit der Erhebung der verfügbaren Daten analysiert und eine Anpassung des Vorgehens vorgenommen wird, welche VOC getestet werden. Seit dem 19.02.2021 veröffentlicht das BAG wochentags VOC-Daten für alle Kantone ("virusVariants", https://www.covid19.admin.ch/api/data/context).
-# Issued                   : 2021-02-08T17:35:33
-# Modified                 : 2023-01-10T16:38:55
+# Issued                   : 2021-02-07T23:00:00
+# Modified                 : 2023-01-09T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_zh/COVID19_VOC_Kanton_ZH.csv')
 
@@ -117,8 +117,8 @@ df <- read_delim('https://raw.githubusercontent.com/openZH/covid_19/master/fallz
 # Ktzhdistid               : 1771
 # Title                    : COVID_19 Anteil der positiven SARS-CoV-2 Tests im Kanton Zürich bei Kindern und Jugendlichen nach Altersklasse und Kalenderwoche ab 25.05.2020
 # Description              : Anteil der positiven SARS-CoV-2 Tests bei Kindern und Jugendlichen nach Alterskategorien pro Kalenderwoche. Zeitreihe beginnt mit Kalenderwoche 22/2020 (25.-31.05.2020). Die Daten werden einmal wöchentlich (jeweils am Mittwoch) aktualisiert. Variabeln: 'Woche_von' = Beginn der Kalenderwoche (Datum); 'Woche_bis' = Ende der Kalenderwoche (Datum);  'AgeCat'= Alterskategorie (0-3, 4-11, 12-15, 16-19 Jahre); 'Anzahl_positiv' = Anzahl positiver Tests; 'Anzahl_negativ' = Anzahl negativer Tests; 'Anteil_positiv' = Anteil der positiven Tests an allen Tests.
-# Issued                   : 2020-12-01T16:56:51
-# Modified                 : 2022-03-15T13:10:42
+# Issued                   : 2020-11-30T23:00:00
+# Modified                 : 2022-03-14T23:00:00
 
 df <- read_delim('https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_zh/COVID19_Anteil_positiver_Test_Kinder_Jugendliche_pro_KW.csv')
 

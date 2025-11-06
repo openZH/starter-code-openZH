@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 1401@finanzverwaltung-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2022-06-07T11:05:44`
-- **Modified** `2024-07-11T16:43:46`
+- **Issued** `2022-06-06T22:00:00`
+- **Modified** `2024-07-10T22:00:00`
 - **Startdate** `2008-12-31`
 - **Enddate** `2020-12-31`
-- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
-- **Keyword** `['finanzkennzahlen', 'oeffentliche_finanzen', 'staatsfinanzen', 'quote', 'ogd']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON', 'http://publications.europa.eu/resource/authority/data-theme/GOVE']`
+- **Keyword** `['finanzkennzahlen', 'oeffentliche_finanzen', 'ogd', 'quote', 'staatsfinanzen']`
 - **Publisher** `['Finanzverwaltung des Kantons Zürich']`
 - **Landingpage** `None`
 
@@ -44,10 +44,10 @@ library(skimr)
 # Ktzhdistid               : 2738
 # Title                    : Staatsquote des Kantons Zürich ab 2008
 # Description              : Variabeln: 'gesamtausgaben' und 'bruttoinlandprodukt' in Tausend CHF.
-# Issued                   : 2022-06-07T11:05:44
-# Modified                 : 2024-01-29T11:08:04
+# Issued                   : 2022-06-06T22:00:00
+# Modified                 : 2024-01-28T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001401_00002738.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001401_00002738.csv')
 
 
 

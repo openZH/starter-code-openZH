@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,8 +14,8 @@ Auto generated R starter code for data set 102@statistisches-amt-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2016-01-20T20:16:00`
-- **Modified** `2025-02-24T07:58:00`
+- **Issued** `2016-01-19T23:00:00`
+- **Modified** `2025-02-23T23:00:00`
 - **Startdate** `1998-12-31`
 - **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
@@ -44,8 +44,8 @@ library(skimr)
 # Ktzhdistid               : 83
 # Title                    : Bevölkerung: Anteil 20-39-Jährige [%]
 # Description              : None
-# Issued                   : 2016-01-21T16:30:35
-# Modified                 : 2025-02-24T07:58:00
+# Issued                   : 2016-01-20T23:00:00
+# Modified                 : 2025-02-23T23:00:00
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_85.csv')
 

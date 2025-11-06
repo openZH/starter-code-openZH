@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 2462@awel-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2024-03-13T15:26:55`
-- **Modified** `2024-12-04T11:50:47`
+- **Issued** `2024-03-12T23:00:00`
+- **Modified** `2024-12-03T23:00:00`
 - **Startdate** `2011-01-01`
 - **Enddate** `2024-12-31`
-- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/HEAL', 'http://publications.europa.eu/resource/authority/data-theme/ENVI']`
-- **Keyword** `['strahlung', 'mobilfunk', 'wlan', 'rundfunk', 'pausenplatz', 'ogd']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI', 'http://publications.europa.eu/resource/authority/data-theme/HEAL']`
+- **Keyword** `['mobilfunk', 'ogd', 'pausenplatz', 'rundfunk', 'strahlung', 'wlan']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
 - **Landingpage** `None`
 
@@ -44,19 +44,19 @@ library(skimr)
 # Ktzhdistid               : 4924
 # Title                    : Messorte
 # Description              : Mehr Informationen zum Inhalt der Daten ist in der Ressource Metadatenbeschreibung enthalten.
-# Issued                   : 2024-03-13T15:26:55
-# Modified                 : 2024-03-13T15:26:55
+# Issued                   : 2024-03-12T23:00:00
+# Modified                 : 2024-03-12T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002462_00004924.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002462_00004924.csv')
 
 # Distribution 1
 # Ktzhdistid               : 4983
 # Title                    : Aufbereitete Messwerte
 # Description              : Mehr Informationen zum Inhalt der Daten ist in der Ressource Metadatenbeschreibung enthalten.
-# Issued                   : 2024-06-28T10:04:44
-# Modified                 : 2024-12-04T11:50:47
+# Issued                   : 2024-06-27T22:00:00
+# Modified                 : 2024-12-03T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002462_00004983.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002462_00004983.csv')
 
 
 

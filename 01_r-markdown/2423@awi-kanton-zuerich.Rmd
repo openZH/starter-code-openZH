@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 2423@awi-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2023-12-18T16:02:18`
-- **Modified** `2024-04-04T18:01:30`
+- **Issued** `2023-12-17T23:00:00`
+- **Modified** `2024-04-03T22:00:00`
 - **Startdate** `2023-12-31`
 - **Enddate** `2023-12-31`
-- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI', 'http://publications.europa.eu/resource/authority/data-theme/EDUC', 'http://publications.europa.eu/resource/authority/data-theme/TRAN', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
-- **Keyword** `['arbeitsmarkt', 'bildung', 'grossregionen', 'kanton_zuerich', 'steuern', 'volkswirtschaft', 'wirtschaft', 'forschung', 'standortfoerderung', 'ogd']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON', 'http://publications.europa.eu/resource/authority/data-theme/EDUC', 'http://publications.europa.eu/resource/authority/data-theme/SOCI', 'http://publications.europa.eu/resource/authority/data-theme/TRAN']`
+- **Keyword** `['arbeitsmarkt', 'bildung', 'forschung', 'grossregionen', 'kanton_zuerich', 'ogd', 'standortfoerderung', 'steuern', 'volkswirtschaft', 'wirtschaft']`
 - **Publisher** `['Amt für Wirtschaft des Kantons Zürich']`
 - **Landingpage** `None`
 
@@ -44,10 +44,10 @@ library(skimr)
 # Ktzhdistid               : 4863
 # Title                    : Indikatoren zur Vergleichsanalyse Standortattraktivität 2024
 # Description              : Die Vergleichsregionen umfassen jeweils die entsprechende NUTS-2 Region. Entsprechend werden folgende Regionen verglichen: Oberbayern (Muenchen), Easternand Midland (Dublin), Noord-Holland (Amsterdam), UKI-London (London) und Stockholm. Zuerich bezieht sich auf das Gebiet des Kantons Zürich.
-# Issued                   : 2023-12-18T16:02:18
-# Modified                 : 2023-12-19T11:02:15
+# Issued                   : 2023-12-17T23:00:00
+# Modified                 : 2023-12-18T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002423_00004863.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002423_00004863.csv')
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 2184@statistisches-amt-kanton-zuerich
 
 ## Metadata
 
-- **Issued** `2023-06-19T16:15:46`
-- **Modified** `2023-11-08T08:24:27`
+- **Issued** `2023-06-18T22:00:00`
+- **Modified** `2023-11-07T23:00:00`
 - **Startdate** `2023-02-12`
 - **Enddate** `2023-02-12`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE']`
-- **Keyword** `['regierungsratswahlen', 'wahlen', 'wahlergebnisse', 'wahlarchiv', 'demokratie', 'ogd']`
+- **Keyword** `['demokratie', 'regierungsratswahlen', 'wahlarchiv', 'wahlen', 'wahlergebnisse']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://app.statistik.zh.ch/wahlen_abstimmungen/prod/Archive/ElectionMajorz/1/1/20230212/240123/Results`
 
@@ -44,55 +44,55 @@ library(skimr)
 # Ktzhdistid               : 4303
 # Title                    : Regierungsratswahl 2023: Kandidierendenresultate Ebene Kanton
 # Description              : None
-# Issued                   : 2023-06-19T16:15:46
-# Modified                 : 2023-06-19T16:15:46
+# Issued                   : 2023-06-18T22:00:00
+# Modified                 : 2023-06-18T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002184_00004303.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002184_00004303.csv')
 
 # Distribution 1
 # Ktzhdistid               : 4304
 # Title                    : Regierungsratswahl 2023: Kandidierendenresultate Ebene Gemeinden
 # Description              : None
-# Issued                   : 2023-06-19T16:15:46
-# Modified                 : 2023-06-19T16:15:46
+# Issued                   : 2023-06-18T22:00:00
+# Modified                 : 2023-06-18T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002184_00004304.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002184_00004304.csv')
 
 # Distribution 2
 # Ktzhdistid               : 4323
 # Title                    : Regierungsratswahl 2023: Kandidierendenresultate Ebene Stadtkreis
 # Description              : None
-# Issued                   : 2023-06-19T16:15:46
-# Modified                 : 2023-06-19T16:15:46
+# Issued                   : 2023-06-18T22:00:00
+# Modified                 : 2023-06-18T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002184_00004323.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002184_00004323.csv')
 
 # Distribution 3
 # Ktzhdistid               : 4305
 # Title                    : Regierungsratswahl 2023: Wahlbeteiligung Ebene Kanton
 # Description              : None
-# Issued                   : 2023-06-19T16:15:46
-# Modified                 : 2023-06-19T16:15:46
+# Issued                   : 2023-06-18T22:00:00
+# Modified                 : 2023-06-18T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002184_00004305.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002184_00004305.csv')
 
 # Distribution 4
 # Ktzhdistid               : 4306
 # Title                    : Regierungsratswahl 2023: Wahlbeteiligung Ebene Gemeinden
 # Description              : None
-# Issued                   : 2023-06-19T16:15:46
-# Modified                 : 2023-06-19T16:15:46
+# Issued                   : 2023-06-18T22:00:00
+# Modified                 : 2023-06-18T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002184_00004306.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002184_00004306.csv')
 
 # Distribution 5
 # Ktzhdistid               : 4324
 # Title                    : Regierungsratswahl 2023: Wahlbeteiligung Ebene Stadtkreis
 # Description              : None
-# Issued                   : 2023-06-19T16:15:46
-# Modified                 : 2023-06-19T16:15:46
+# Issued                   : 2023-06-18T22:00:00
+# Modified                 : 2023-06-18T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002184_00004324.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002184_00004324.csv')
 
 
 

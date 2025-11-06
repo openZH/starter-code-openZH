@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 1802@are-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2022-12-05T11:47:42`
-- **Modified** `2025-09-24T08:47:50`
+- **Issued** `2022-12-04T23:00:00`
+- **Modified** `2025-09-23T22:00:00`
 - **Startdate** `2000-01-01`
 - **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI']`
-- **Keyword** `['gemeinden', 'geschossflaeche', 'raumentwicklung', 'raumplanungsregionen', 'ogd']`
+- **Keyword** `['gemeinden', 'geschossflaeche', 'ogd', 'raumentwicklung', 'raumplanungsregionen']`
 - **Publisher** `['Amt für Raumentwicklung des Kantons Zürich']`
 - **Landingpage** `None`
 
@@ -44,55 +44,55 @@ library(skimr)
 # Ktzhdistid               : 3323
 # Title                    : Geschossflächenreserven ab 2021 in 1'000m2
 # Description              : Die Geschossflächenreserven zeigen das theoretische Potential an Geschossfläche auf, welches rechnerisch realisiert werden kann. Die Reserven werden in Wohnzonen, Mischzonen und Arbeitszonen unterteilt und zusätzlich in überbaute und nicht überbaute Bauzonen. Mit der Spalte  «GEO_LEVEL_LEVEL» können im Vergleich zur Spalte «BFS_NR» neben den Gemeinden und Städten (3) zusätzlich auch die Regionen (6), die Bezirke (2) und der Kanton Zürich (1) als Ganzes identifiziert werden. Ab 2021 wird das neue Berechnungsmodell angewendet. Für das Jahr 2020 wurde aus technischen Gründen keine Datenerhebung durchgeführt. Allfällige Ausnützungsboni aus den Bau- und Zonenordnungen für die Wohn-, Gewerbe- und Zentrumszonen sind in der Berechnung für das Jahr 2021 berücksichtigt, für die Jahre 2022 und folgende jedoch nicht mehr.
-# Issued                   : 2022-12-05T11:47:42
-# Modified                 : 2025-10-22T09:00:45
+# Issued                   : 2022-12-04T23:00:00
+# Modified                 : 2025-10-21T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003323.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003323.csv')
 
 # Distribution 1
 # Ktzhdistid               : 3325
 # Title                    : Ausbaugrad ab 2021 in %
 # Description              : Der Ausbaugrad gibt an, wie viel Prozent der zulässigen Geschossfläche innerhalb der überbauten Bauzone bereits bebaut wurde. Es wird zwischen Wohnzone, Mischzone und Arbeitszone unterschieden. Mit der Spalte «GEO_LEVEL_LEVEL»" können im Vergleich zur Spalte "BFS_NR" neben den Gemeinden und Städten (3) zusätzlich auch die Regionen (6), die Bezirke (2) und der Kanton Zürich (1) als Ganzes identifizieren werden. Es können keine Totale aus den Werten gerechnet werden. Ab 2021 wird das neue Berechnungsmodell angewendet. Für das Jahr 2020 wurde aus technischen Gründen keine Datenerhebung durchgeführt.
-# Issued                   : 2022-12-05T11:47:42
-# Modified                 : 2025-10-22T09:09:06
+# Issued                   : 2022-12-04T23:00:00
+# Modified                 : 2025-10-21T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003325.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003325.csv')
 
 # Distribution 2
 # Ktzhdistid               : 3321
 # Title                    : Geschossflächenbestand ab 2021 in 1'000m2
 # Description              : Der Geschossflächenbestand gibt an, wie viel Geschossfläche innerhalb der Bauzone bereits realisiert wurde. Es wird unterschieden in Wohnzone, Mischzone, Arbeitszone und Zone für öffentliche Bauten. Mit der Spalte «GEO_LEVEL_LEVEL»" können im Vergleich zur Spalte "BFS_NR" neben den Gemeinden und Städten (3) zusätzlich auch die Regionen (6), die Bezirke (2) und den Kanton Zürich (1) als Ganzes identifizieren werden. Ab 2021 wird das neue Berechnungsmodell angewendet. Für das Jahr 2020 wurde aus technischen Gründen keine Datenerhebung durchgeführt.
-# Issued                   : 2022-12-05T11:47:42
-# Modified                 : 2025-10-22T09:11:02
+# Issued                   : 2022-12-04T23:00:00
+# Modified                 : 2025-10-21T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003321.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003321.csv')
 
 # Distribution 3
 # Ktzhdistid               : 5245
 # Title                    : Geschossflächenreserven 2000 bis 2019 in 1'000m2
 # Description              : Die Geschossflächenreserven zeigen das theoretische Potential an Geschossfläche auf, welches rechnerisch realisiert werden kann. Die Reserven werden in Wohnzonen, Mischzonen und Arbeitszonen unterteilt und zusätzlich in überbaute und nicht überbaute Bauzonen. Mit der Spalte  «GEO_LEVEL_LEVEL» können im Vergleich zur Spalte «BFS_NR» neben den Gemeinden und Städten (3) zusätzlich auch die Regionen (6), die Bezirke (2) und der Kanton Zürich (1) als Ganzes identifiziert werden. Für die Generierung der Daten bis einschliesslich 2019 war das alte Berechnungsmodell im Einsatz.
-# Issued                   : 2024-04-16T07:35:30
-# Modified                 : 2025-10-22T09:01:32
+# Issued                   : 2024-04-15T22:00:00
+# Modified                 : 2025-10-21T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00005245.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00005245.csv')
 
 # Distribution 4
 # Ktzhdistid               : 5247
 # Title                    : Ausbaugrad 2000 bis 2019 in %
 # Description              : Der Ausbaugrad gibt an, wie viel Prozent der zulässigen Geschossfläche innerhalb der überbauten Bauzone bereits bebaut wurde. Es wird zwischen Wohnzone, Mischzone und Arbeitszone unterschieden. Mit der Spalte «GEO_LEVEL_LEVEL» «»können neben den Gemeinden und Städten (3) zusätzlich auch die Regionen (6), die Bezirke (2) und der Kanton Zürich (1) als Ganzes identifiziert werden. Es können keine Totale aus den Werten gerechnet werden. Für die Generierung der Daten bis einschliesslich 2019 war das alte Berechnungsmodell im Einsatz.
-# Issued                   : 2024-04-16T07:35:02
-# Modified                 : 2025-10-22T09:10:00
+# Issued                   : 2024-04-15T22:00:00
+# Modified                 : 2025-10-21T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00005247.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00005247.csv')
 
 # Distribution 5
 # Ktzhdistid               : 5249
 # Title                    : Geschossflächenbestand 2000 bis 2019 in 1'000m2
 # Description              : Der Geschossflächenbestand gibt an, wie viel Geschossfläche innerhalb der Bauzone bereits realisiert wurde. Es wird unterschieden in Wohnzone, Mischzone und Arbeitszone. Mit der Spalte «GEO_LEVEL_LEVEL» können im Vergleich zur Spalte "BFS_NR" neben den Gemeinden und Städten (3) zusätzlich auch die Regionen (6), die Bezirke (2) und der Kanton Zürich (1) als Ganzes identifizieren werden. Für die Generierung der Daten bis einschliesslich 2019 war das alte Berechnungsmodell im Einsatz.
-# Issued                   : 2024-04-16T07:35:16
-# Modified                 : 2025-10-22T09:11:37
+# Issued                   : 2024-04-15T22:00:00
+# Modified                 : 2025-10-21T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00005249.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00005249.csv')
 
 
 

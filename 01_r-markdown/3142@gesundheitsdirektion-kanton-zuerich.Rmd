@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -15,12 +15,12 @@ Auto generated R starter code for data set 3142@gesundheitsdirektion-kanton-zuer
 
 ## Metadata
 
-- **Issued** `2025-10-02T14:32:13`
-- **Modified** `2025-10-02T14:32:13`
+- **Issued** `2025-10-01T22:00:00`
+- **Modified** `2025-10-01T22:00:00`
 - **Startdate** `2019-01-01`
 - **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/HEAL']`
-- **Keyword** `['spitexleistungen', 'ogd']`
+- **Keyword** `['ogd', 'spitexleistungen']`
 - **Publisher** `['Gesundheitsdirektion des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/gesundheit/heime-spitex/zahlen-fakten-langzeitpflege.html`
 
@@ -45,28 +45,28 @@ library(skimr)
 # Ktzhdistid               : 6629
 # Title                    : Generelle Kennzahlen selbstständig erwerbende Pflegefachpersonen Kanton Zürich
 # Description              : Die wichtigsten Kenngrössen zu den erbrachten Leistungen und Kosten von selbstständig erwerbenden Pflegefachpersonen. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003142_00006628.txt
-# Issued                   : 2025-10-02T14:32:13
-# Modified                 : 2025-10-06T08:16:14
+# Issued                   : 2025-10-01T22:00:00
+# Modified                 : 2025-10-05T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003142_00006629.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003142_00006629.csv')
 
 # Distribution 1
 # Ktzhdistid               : 6630
 # Title                    : Klientinnen und Klienten selbstständig erwerbende Pflegefachpersonen Kanton Zürich
 # Description              : Anzahl betreute Klientinnen und Klienten sowie die geleisteten Stunden pro Leistungsart. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003142_00006628.txt
-# Issued                   : 2025-10-02T14:32:13
-# Modified                 : 2025-10-13T17:33:13
+# Issued                   : 2025-10-01T22:00:00
+# Modified                 : 2025-10-12T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003142_00006630.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003142_00006630.csv')
 
 # Distribution 2
 # Ktzhdistid               : 6631
 # Title                    : Aufwände und Erträge selbstständig erwerbende Pflegefachpersonen Kanton Zürich
 # Description              : Aufwände und Erträge zu den wichtigsten Konten. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003142_00006628.txt
-# Issued                   : 2025-10-02T14:32:13
-# Modified                 : 2025-10-06T08:16:38
+# Issued                   : 2025-10-01T22:00:00
+# Modified                 : 2025-10-05T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003142_00006631.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003142_00006631.csv')
 
 
 

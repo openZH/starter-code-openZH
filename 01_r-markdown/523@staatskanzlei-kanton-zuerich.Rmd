@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -14,12 +14,12 @@ Auto generated R starter code for data set 523@staatskanzlei-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2019-12-05T09:44:00`
-- **Modified** `2025-03-12T17:03:16`
+- **Issued** `2019-12-04T23:00:00`
+- **Modified** `2025-03-11T23:00:00`
 - **Startdate** `2013-01-01`
 - **Enddate** `2024-12-31`
-- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`
-- **Keyword** `['kantonale_verwaltung', 'regierungsrat', 'ogd']`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON', 'http://publications.europa.eu/resource/authority/data-theme/GOVE']`
+- **Keyword** `['kantonale_verwaltung', 'ogd', 'regierungsrat']`
 - **Publisher** `['Staatskanzlei des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/kanton/kantonale-verwaltung/oeffentlichkeitsprinzip.html`
 
@@ -44,10 +44,10 @@ library(skimr)
 # Ktzhdistid               : 968
 # Title                    : Statistik der Informationszugangsgesuche nach IDG des Kantons Zürich
 # Description              : Spalten: 'jahr'; 'organisationseinheit'; 'gesuche_haengig_jan' (am 1. Januar des Jahres); 'gesuche_total' (des gesamten Jahres); 'zugang_uneingeschraenkt_gewaehrt'; 'zugang_teilweise_gewaehrt'; 'zugang_vollstaendig_abgelehnt'; 'anderweitige_erledigung' (z.B. Rückzug, Gegenstandslosigkeit); 'gesuche_haengig_dez' (am 31. Dezember des Jahres).
-# Issued                   : 2019-11-19T17:55:39
-# Modified                 : 2025-03-11T10:08:34
+# Issued                   : 2019-11-18T23:00:00
+# Modified                 : 2025-03-10T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000523_00000968.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000523_00000968.csv')
 
 
 

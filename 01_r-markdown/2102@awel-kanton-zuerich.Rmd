@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-05"
+date: "2025-11-06"
 output: html_document
 ---
 
@@ -16,12 +16,12 @@ Auto generated R starter code for data set 2102@awel-kanton-zuerich.
 
 ## Metadata
 
-- **Issued** `2023-07-12T11:06:29`
-- **Modified** `2025-10-09T14:06:07`
+- **Issued** `2023-07-11T22:00:00`
+- **Modified** `2025-10-08T22:00:00`
 - **Startdate** `2015-01-01`
 - **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI', 'http://publications.europa.eu/resource/authority/data-theme/TRAN']`
-- **Keyword** `['fahrzeuge', 'klima', 'motorfahrzeuge', 'umwelt', 'emissionen', 'ogd']`
+- **Keyword** `['emissionen', 'fahrzeuge', 'klima', 'motorfahrzeuge', 'ogd', 'umwelt']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
 - **Landingpage** `None`
 
@@ -46,19 +46,19 @@ library(skimr)
 # Ktzhdistid               : 4163
 # Title                    : Fahrzeugbestand und Emissionen
 # Description              : None
-# Issued                   : 2023-07-12T11:06:29
-# Modified                 : 2025-10-09T14:04:44
+# Issued                   : 2023-07-11T22:00:00
+# Modified                 : 2025-10-08T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002102_00004163.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002102_00004163.csv')
 
 # Distribution 1
 # Ktzhdistid               : 4164
 # Title                    : Neubeschaffungen und Antriebstechnologie
 # Description              : None
-# Issued                   : 2023-07-12T11:06:29
-# Modified                 : 2025-10-09T14:05:04
+# Issued                   : 2023-07-11T22:00:00
+# Modified                 : 2025-10-08T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002102_00004164.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002102_00004164.csv')
 
 
 
