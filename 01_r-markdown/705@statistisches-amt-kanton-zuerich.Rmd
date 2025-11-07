@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-06"
+date: "2025-11-07"
 output: html_document
 ---
 
 ## Dataset: Bevölkerungsprognose für den Kanton Zürich
 
-Bevölkerung nach Bezirk, Region, Geschlecht und Alter (5-Jahres-Altersklassen), nach zivilrechtlichem Wohnsitz, Daten per Ende Jahr. Quelle: Kantonale Bevölkerungserhebung KBE, kantonale Bevölkerungprognose, Statistisches Amt des Kantons Zürich.
+Bevölkerung nach Bezirk, Region, Geschlecht und Alter, nach zivilrechtlichem Wohnsitz, Daten per Ende Jahr. Quelle: Kantonale Bevölkerungserhebung KBE, kantonale Bevölkerungprognose, Statistisches Amt des Kantons Zürich.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/705@statistisches-amt-kanton-zuerich)
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 705@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2020-10-13T22:00:00`
-- **Modified** `2024-12-03T23:00:00`
+- **Modified** `2025-11-06T11:19:16`
 - **Startdate** `2010-12-31`
-- **Enddate** `2050-12-31`
+- **Enddate** `2055-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['altersklassen', 'amtliches_geschlecht', 'bevoelkerung', 'bevoelkerungsprognosen', 'bevoelkerungswachstum', 'einwohner', 'einwohnerzahl', 'ogd', 'prognosen', 'raumplanungsregionen']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
