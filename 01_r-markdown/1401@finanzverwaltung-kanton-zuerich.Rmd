@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-10"
+date: "2025-11-11"
 output: html_document
 ---
 
 ## Dataset: Staatsquote des Kantons Zürich
 
-Die Staatsquote entspricht den «konsolidierten Gesamtausgaben» in Prozent des kantonalen Bruttoinlandprodukts (BIP). Die «konsolidierten Gesamtausgaben» umfassen die Ausgaben (Aufwand ohne Abschreibungen, Einlagen in Bestandeskonti von Fonds im Eigen- und Fremdkapital, durchlaufende Beiträge und interne Verrechnungen) plus Bruttoinvestitionen. Die konsolidierten Gesamtausgaben werden durch die Eidgenössischen Finanzverwaltung (EFV) berechnet. Das BIP des Kantons Zürich wird vom Bundesamt für Statistik (BFS) berechnet. Beide Wirtschaftsindikatoren werden mit einer zeitlichen Verzögerung von zwei Jahren veröffentlicht. Vorliegend wird die Staatsquote des Kantons ohne Gemeinden ausgewiesen. Für die interkantonale Vergleichbarkeit müsste die Staatsquote des Kantons und seiner Gemeinden betrachtet werden, aufgrund der je nach Kanton unterschiedlichen Aufgabenteilungen zwischen Kanton und Gemeinden. 
+Die Staatsquote entspricht den «konsolidierten Gesamtausgaben» in Prozent des kantonalen Bruttoinlandprodukts (BIP). Die «konsolidierten Gesamtausgaben» umfassen die Ausgaben (Aufwand ohne Abschreibungen, Einlagen in Bestandeskonti von Fonds im Eigen- und Fremdkapital, durchlaufende Beiträge und interne Verrechnungen) plus Bruttoinvestitionen. Die konsolidierten Gesamtausgaben werden durch die Eidgenössischen Finanzverwaltung (EFV) berechnet. Das BIP des Kantons Zürich wird vom Bundesamt für Statistik (BFS) berechnet. Beide Wirtschaftsindikatoren werden mit einer zeitlichen Verzögerung von zwei Jahren veröffentlicht. Vorliegend wird die Staatsquote des Kantons ohne Gemeinden ausgewiesen. Für die interkantonale Vergleichbarkeit müsste die Staatsquote des Kantons und seiner Gemeinden betrachtet werden, aufgrund der je nach Kanton unterschiedlichen Aufgabenteilungen zwischen Kanton und Gemeinden.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1401@finanzverwaltung-kanton-zuerich)
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 1401@finanzverwaltung-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2022-06-06T22:00:00`
-- **Modified** `2024-07-10T22:00:00`
+- **Modified** `2025-11-10T15:58:49`
 - **Startdate** `2008-12-31`
-- **Enddate** `2020-12-31`
+- **Enddate** `2022-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON', 'http://publications.europa.eu/resource/authority/data-theme/GOVE']`
 - **Keyword** `['finanzkennzahlen', 'oeffentliche_finanzen', 'ogd', 'quote', 'staatsfinanzen']`
 - **Publisher** `['Finanzverwaltung des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Staatsquote des Kantons Zürich ab 2008
 # Description              : Variabeln: 'gesamtausgaben' und 'bruttoinlandprodukt' in Tausend CHF.
 # Issued                   : 2022-06-06T22:00:00
-# Modified                 : 2024-01-28T23:00:00
+# Modified                 : 2025-11-10T15:55:56
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001401_00002738.csv')
 
@@ -76,4 +76,4 @@ tail(df)
 
 # Questions about the data?
 
-Finanzverwaltung des Kantons Zürich | Steuerung Finanzhaushalt | finanzhaushalt@fdfv.zh.ch
+Finanzverwaltung des Kantons Zürich | Steuerung Finanzhaushalt | finanzhaushalt@zh.ch
