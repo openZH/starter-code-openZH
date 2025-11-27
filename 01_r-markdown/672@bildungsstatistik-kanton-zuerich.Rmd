@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-11-26"
+date: "2025-11-27"
 output: html_document
 ---
 
 ## Dataset: Gymnasiale Maturitätsquoten im Kanton Zürich
 
-Durchschnittliche gymnasiale Maturitätsquoten aller politischen Gemeinden, Bezirke und Raumplanungsregionen im Kanton Zürich. Die Quoten werden pro räumlicher Einheit und Jahr wie folgt berechnet: Summe der Maturitätsabschlüsse von Personen mit Wohnsitz in der räumlichen Einheit in den vier letzten Jahren geteilt durch die Summe der Anzahl 19-jähriger Einwohnerinnen und Einwohner derselben räumlichen Einheit in den letzten vier Jahren.
+Die gymnasiale Maturitätsquote beschreibt den häufigsten Zugangsweg zum Studium an einer Universität, Fachhochschule oder Pädagogischen Hochschule. Hier werden die durchschnittlichen gymnasialen Maturitätsquoten aller politischen Gemeinden, Bezirke und Raumplanungsregionen im Kanton Zürich ausgewiesen. Die Quoten werden pro räumlicher Einheit und Jahr wie folgt berechnet: Summe der Maturitätsabschlüsse von Personen mit Wohnsitz in der räumlichen Einheit in den vier letzten Jahren geteilt durch die Summe der Anzahl 19-jähriger Einwohnerinnen und Einwohner derselben räumlichen Einheit in den letzten vier Jahren. Die hier ausgewiesene Maturitätsquote wird aus einer Kombination der Statistik der Bildungsabschlüsse und der Bevölkerungsstatistik ermittelt.
 
 Publiziert sind die gymnasiale Maturitätsquoten ab dem Gemeindestand von 2014 (Abschlüsse und Bevölkerungsstände von 2011 bis 2014).
 
@@ -17,7 +17,7 @@ Auto generated R starter code for data set 672@bildungsstatistik-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2020-03-05T23:00:00`
-- **Modified** `2025-11-06T10:03:31`
+- **Modified** `2025-11-26T15:43:24`
 - **Startdate** `2011-01-01`
 - **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC']`
