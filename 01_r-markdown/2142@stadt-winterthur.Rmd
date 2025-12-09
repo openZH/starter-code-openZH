@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-12-08"
+date: "2025-12-09"
 output: html_document
 ---
 
@@ -16,7 +16,7 @@ Auto generated R starter code for data set 2142@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2023-08-27T22:00:00`
-- **Modified** `2025-12-07T05:01:31`
+- **Modified** `2025-12-08T05:01:34`
 - **Startdate** `2022-11-01`
 - **Enddate** `2025-01-19`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI']`
@@ -46,7 +46,7 @@ library(skimr)
 # Title                    : Standorte-Stationen
 # Description              : Mess-Standorte der Stadtklima Winterthur Messdaten. Die Merkmale "laengengrad" und "breitengrad" sind im WGS 84 Koordinatensystem angegeben. Die Merkmale 'daten_von' und 'daten_bis' wurde aus den verfügbaren Messdaten bestimmt.
 # Issued                   : 2023-08-27T22:00:00
-# Modified                 : 2025-12-07T05:01:08
+# Modified                 : 2025-12-08T05:01:09
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002142_00004244.csv')
 
@@ -82,7 +82,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000021
 # Title                    : Messdaten_2025
 # Description              : Informationen zu den Merkmalen findet man in der Ressource Datenbeschrieb.txt unter dem Datensatz. Die Daten können Lücken enthalten.
 # Issued                   : 2025-01-08T23:00:00
-# Modified                 : 2025-12-07T05:01:27
+# Modified                 : 2025-12-08T05:01:29
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002142_00005883.csv')
 
