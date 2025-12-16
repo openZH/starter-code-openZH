@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-12-15"
+date: "2025-12-16"
 output: html_document
 ---
 
@@ -50,7 +50,7 @@ library(skimr)
 # Title                    : Treibhausgasemissionen im Kanton Zürich ab 1990
 # Description              : Emissionen der wichtigsten Klimagase (CO2, CH4, N2O und synthetische Gase) im Kanton Zürich. Die aufgeführten Treibhausgasemissionen sind nach dem Territorialprinzip bilanziert und werden als CO2-Äquivalente in Tonnen pro Jahr ausgewiesen. Die Emissionen liegen als jährliche Zeitreihe ab 1990 vor. Mehr Informationen zum Inhalt der Daten sind in der Ressource "Datenbeschreibung Treibhausgasemissionen im Kanton Zürich" enthalten.
 # Issued                   : 2024-08-20T22:00:00
-# Modified                 : 2025-08-26T22:00:00
+# Modified                 : 2025-12-15T14:59:55
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002683_00005504.csv')
 
