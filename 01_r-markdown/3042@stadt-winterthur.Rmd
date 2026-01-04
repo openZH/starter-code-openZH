@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2025-12-28"
+date: "2026-01-04"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 3042@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2025-06-09T22:00:00`
-- **Modified** `2025-12-27T06:16:27`
+- **Modified** `2026-01-03T06:16:26`
 - **Startdate** `2025-03-01`
-- **Enddate** `2025-12-25`
+- **Enddate** `2026-01-01`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/REGI', 'http://publications.europa.eu/resource/authority/data-theme/TRAN']`
 - **Keyword** `['miv', 'motorfahrzeuge', 'ogd', 'privatverkehr', 'strassenverkehr', 'strassenverkehrszaehlung', 'verkehr']`
 - **Publisher** `['Stadt Winterthur']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Verkehrszähldaten motorisierter Individualverkehr in Winterthur, pro Stunde und nach Fahrzeugklassen
 # Description              : Eine vollständige Dokumentation ist in der Ressource "Dokumentation Daten" zu finden.
 # Issued                   : 2025-06-09T22:00:00
-# Modified                 : 2025-12-27T06:16:25
+# Modified                 : 2026-01-03T06:16:23
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003042_00006323.csv')
 
