@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-01-04"
+date: "2026-01-11"
 output: html_document
 ---
 
@@ -15,11 +15,11 @@ Auto generated R starter code for data set 720@stadt-uster.
 ## Metadata
 
 - **Issued** `2021-07-06T22:00:00`
-- **Modified** `2024-04-17T22:00:00`
+- **Modified** `2026-01-05T15:31:25`
 - **Startdate** `None`
 - **Enddate** `2021-07-01`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON', 'http://publications.europa.eu/resource/authority/data-theme/EDUC', 'http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/SOCI']`
-- **Keyword** `['ogd']`
+- **Keyword** `['amtliche_kommunikation', 'gemeinden', 'ogd', 'vereine']`
 - **Publisher** `['Stadt Uster']`
 - **Landingpage** `https://github.com/GesellschaftStadtUster/quartier_infokaesten`
 

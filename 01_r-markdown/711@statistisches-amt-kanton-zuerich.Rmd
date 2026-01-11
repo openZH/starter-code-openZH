@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-01-04"
+date: "2026-01-11"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 711@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2020-12-09T23:00:00`
-- **Modified** `2025-12-22T09:28:48`
+- **Modified** `2026-01-09T09:50:34`
 - **Startdate** `2012-12-31`
 - **Enddate** `2026-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON', 'http://publications.europa.eu/resource/authority/data-theme/GOVE']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Zürcher Gemeindesteuerfüsse - aktuell
 # Description              : Gemeindesteuerfüsse der laufenden Erhebung. Die Daten werden während der Erhebungsphase (Dezember bis ca. März) laufend aktualisiert.
 # Issued                   : 2020-12-09T23:00:00
-# Modified                 : 2025-12-22T09:28:45
+# Modified                 : 2026-01-09T09:50:31
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/steuerfuesse/kanton_zuerich_stf_aktuell.csv')
 

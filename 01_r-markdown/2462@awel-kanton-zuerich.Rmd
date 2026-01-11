@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-01-04"
+date: "2026-01-11"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Messorte
 # Description              : Mehr Informationen zum Inhalt der Daten ist in der Ressource Metadatenbeschreibung enthalten.
 # Issued                   : 2024-03-12T23:00:00
-# Modified                 : 2024-03-12T23:00:00
+# Modified                 : 2026-01-09T09:51:39
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002462_00004924.csv')
 

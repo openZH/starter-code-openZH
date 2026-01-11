@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-01-04"
+date: "2026-01-11"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Auto generated R starter code for data set 1742@statistisches-amt-kanton-zuerich
 ## Metadata
 
 - **Issued** `2022-09-05T22:00:00`
-- **Modified** `2025-12-27T12:15:14`
+- **Modified** `2026-01-06T10:32:59`
 - **Startdate** `2017-01-01`
 - **Enddate** `2025-09-30`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON']`
@@ -43,18 +43,18 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 3261
 # Title                    : Konkurseröffnungen nach Branchen im Kanton Zürich und der Schweiz insgesamt, wöchentlich aktualisiert
-# Description              : Anzahl der Eröffnungen von Konkursverfahren gegen Unternehmen und weitere Rechtseinheiten, wie sie im Zentralen Firmenindex (Zefix) mit Mutationstyp "KE Auflösung inf. Konkurs" ausgewiesenen sind. Die Meldungen werden mit den Branchenklassifikationen gemäss der Allgemeinen Systematik der Wirtschaftszweige (NOGA) angereichert und nach Branchen-Abschnitten (Grossbuchstaben) aggregiert. Aufgrund von Unterschieden bei der Datenerhebung kann es zu Abweichungen von anderen Auswertungen (zB. von kantonalen Handelsregisterämtern) kommen. Variabeln: 'br_abschnitt_red' = Auswahl von Branchen-Abschnitten (Grossbuchstaben) gemäss der Allgemeinen Systematik der Wirtschaftszweige (NOGA); 'location' = Kantonskürzel oder 'CH' für die Schweiz insgesamt; 'date' = Datum der Publikation im Schweizerischen Handelsamtsblatt (SHAB), die im Normalfall einige Tage nach der Publikation durch die kantonalen Ämter erfolgt; 'value' = Anzahl erstmaliger Konkursverfahrenseröffnungen per SHAB-Publikationsdatum. Ab 28.05.2025 werden alle Buchstaben in der Variable 'br_abschnitt_red' einzeln aufgeführt. Die Kategorie "Übrige Branchen" wurde entfernt.
+# Description              : Anzahl der Eröffnungen von Konkursverfahren gegen Unternehmen und weitere Rechtseinheiten, wie sie im Zentralen Firmenindex (Zefix) mit Mutationstyp "KE Auflösung inf. Konkurs" ausgewiesenen sind. Die Meldungen werden mit den Branchenklassifikationen gemäss der Allgemeinen Systematik der Wirtschaftszweige (NOGA) angereichert und nach Branchen-Abschnitten (Grossbuchstaben) aggregiert. Aufgrund von Unterschieden bei der Datenerhebung kann es zu Abweichungen von anderen Auswertungen (zB. von kantonalen Handelsregisterämtern) kommen. Ab 28.05.2025 werden alle Buchstaben in der Variable 'br_abschnitt_red' einzeln aufgeführt. Die Branchen-Abschnitte „O“, „T“ und „U“ werden in der Distribution nicht ausgewiesen, da sie hauptsächlich staatliche Aufgaben betreffen. Die Kategorie "Übrige Branchen" wurde entfernt. Variablen bis 31.12.2025: 'br_abschnitt_red' = Auswahl von Branchen-Abschnitten gemäss der Allgemeinen Systematik der Wirtschaftszweige (NOGA); 'location' = Kantonskürzel oder 'CH' für die Schweiz insgesamt; 'date' = Datum der Publikation im Schweizerischen Handelsamtsblatt (SHAB), die im Normalfall einige Tage nach der Publikation durch die kantonalen Ämter erfolgt; 'value' = Anzahl erstmaliger Konkursverfahrenseröffnungen per SHAB-Publikationsdatum. Variablen ab 01.01.2026: 'br_abschnitt_desc' = Name der Branchen-Abschnitte gemäss NOGA (ersetzt 'br_abschnitt_red'). br_abschnitt_code = Code (Grossbuchstaben) der Brachen-Abschnitte gemäss NOGA, 'wirtschaftssektor_desc' = Name des Sektors der Wirtschaft gemäss NOGA, 'wirtschaftssektor_Code' = Code des Sektors der Wirtschaft gemäss NOGA, der Rest ist identisch zur Version bis 31.12.2025.
 # Issued                   : 2022-09-05T22:00:00
-# Modified                 : 2025-12-27T12:14:58
+# Modified                 : 2026-01-07T10:38:05
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_ZEFIX_Konkurse.csv')
 
 # Distribution 1
 # Ktzhdistid               : 3740
 # Title                    : Neugründungen nach Branchen im Kanton Zürich und der Schweiz insgesamt, wöchentlich aktualisiert
-# Description              : Anzahl der Neugründungen von Unternehmen und weitere Rechtseinheiten, wie sie im Zentralen Firmenindex (Zefix) ausgewiesenen sind. Die Meldungen werden mit den Branchenklassifikationen gemäss der Allgemeinen Systematik der Wirtschaftszweige (NOGA) angereichert und nach Branchen-Abschnitten (Grossbuchstaben) aggregiert. Aufgrund von Unterschieden bei der Datenerhebung kann es zu Abweichungen von anderen Auswertungen (zB. von kantonalen Handelsregisterämtern) kommen. Variabeln: 'br_abschnitt_red' = Auswahl von Branchen-Abschnitten (Grossbuchstaben) gemäss der Allgemeinen Systematik der Wirtschaftszweige (NOGA); 'location' = Kantonskürzel oder 'CH' für die Schweiz insgesamt; 'date' = Datum der Publikation im Schweizerischen Handelsamtsblatt (SHAB), die im Normalfall einige Tage nach der Publikation durch die kantonalen Ämter erfolgt; 'value' = Anzahl erstmaliger Konkursverfahrenseröffnungen per SHAB-Publikationsdatum. Die Zahlen der einzelnen Branchen können erst drei Monate nach Neugründungen publiziert werden. Ab 28.05.2025 werden alle Buchstaben in der Variable 'br_abschnitt_red' einzeln aufgeführt. Die Kategorie "Übrige Branchen" wurde entfernt.
+# Description              : Anzahl der Neugründungen von Unternehmen und weitere Rechtseinheiten, wie sie im Zentralen Firmenindex (Zefix) ausgewiesenen sind. Die Meldungen werden mit den Branchenklassifikationen gemäss der Allgemeinen Systematik der Wirtschaftszweige (NOGA) angereichert und nach Branchen-Abschnitten (Grossbuchstaben) aggregiert. Aufgrund von Unterschieden bei der Datenerhebung kann es zu Abweichungen von anderen Auswertungen (zB. von kantonalen Handelsregisterämtern) kommen. Ab 28.05.2025 werden alle Buchstaben in der Variable 'br_abschnitt_red' einzeln aufgeführt. Die Branchen-Abschnitte „O“, „T“ und „U“ werden in der Distribution nicht ausgewiesen, da sie hauptsächlich staatliche Aufgaben betreffen. Die Kategorie "Übrige Branchen" wurde entfernt. Variablen bis 31.12.2025: 'br_abschnitt_red' = Auswahl von Branchen-Abschnitten gemäss der Allgemeinen Systematik der Wirtschaftszweige (NOGA); 'location' = Kantonskürzel oder 'CH' für die Schweiz insgesamt; 'date' = Datum der Publikation im Schweizerischen Handelsamtsblatt (SHAB), die im Normalfall einige Tage nach der Publikation durch die kantonalen Ämter erfolgt; 'value' = Anzahl erstmaliger Konkursverfahrenseröffnungen per SHAB-Publikationsdatum. Variablen ab 01.01.2026: 'br_abschnitt_desc' = Name der Branchen-Abschnitte gemäss NOGA (ersetzt 'br_abschnitt_red'). br_abschnitt_code = Code (Grossbuchstaben) der Brachen-Abschnitte gemäss NOGA, 'wirtschaftssektor_desc' = Name des Sektors der Wirtschaft gemäss NOGA, 'wirtschaftssektor_Code' = Code des Sektors der Wirtschaft gemäss NOGA, der Rest ist identisch zur Version bis 31.12.2025.
 # Issued                   : 2023-01-19T23:00:00
-# Modified                 : 2025-12-27T12:15:10
+# Modified                 : 2026-01-07T10:39:33
 
 df <- read_delim('https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_ZEFIX_Neugruendungen.csv')
 
