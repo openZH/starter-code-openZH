@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-01-11"
+date: "2026-01-18"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto generated R starter code for data set 2462@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2024-03-12T23:00:00`
-- **Modified** `2024-12-03T23:00:00`
+- **Modified** `2026-01-15T15:56:15`
 - **Startdate** `2011-01-01`
-- **Enddate** `2024-12-31`
+- **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI', 'http://publications.europa.eu/resource/authority/data-theme/HEAL']`
 - **Keyword** `['mobilfunk', 'ogd', 'pausenplatz', 'rundfunk', 'strahlung', 'wlan']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Messorte
 # Description              : Mehr Informationen zum Inhalt der Daten ist in der Ressource Metadatenbeschreibung enthalten.
 # Issued                   : 2024-03-12T23:00:00
-# Modified                 : 2026-01-09T09:51:39
+# Modified                 : 2026-01-14T13:49:56
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002462_00004924.csv')
 
@@ -54,7 +54,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000024
 # Title                    : Aufbereitete Messwerte
 # Description              : Mehr Informationen zum Inhalt der Daten ist in der Ressource Metadatenbeschreibung enthalten.
 # Issued                   : 2024-06-27T22:00:00
-# Modified                 : 2024-12-03T23:00:00
+# Modified                 : 2026-01-15T15:56:13
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002462_00004983.csv')
 
