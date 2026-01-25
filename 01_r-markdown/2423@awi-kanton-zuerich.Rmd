@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-01-18"
+date: "2026-01-25"
 output: html_document
 ---
 
@@ -21,7 +21,7 @@ Auto generated R starter code for data set 2423@awi-kanton-zuerich.
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON', 'http://publications.europa.eu/resource/authority/data-theme/EDUC', 'http://publications.europa.eu/resource/authority/data-theme/SOCI', 'http://publications.europa.eu/resource/authority/data-theme/TRAN']`
 - **Keyword** `['arbeitsmarkt', 'bildung', 'forschung', 'grossregionen', 'kanton_zuerich', 'ogd', 'standortfoerderung', 'steuern', 'volkswirtschaft', 'wirtschaft']`
 - **Publisher** `['Amt für Wirtschaft des Kantons Zürich']`
-- **Landingpage** `None`
+- **Landingpage** `nan`
 
 
 # Load packages

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-01-18"
+date: "2026-01-25"
 output: html_document
 ---
 
@@ -16,8 +16,8 @@ Auto generated R starter code for data set 1040@stadt-uster.
 
 - **Issued** `2021-11-21T23:00:00`
 - **Modified** `2024-07-14T22:00:00`
-- **Startdate** `None`
-- **Enddate** `None`
+- **Startdate** `nan`
+- **Enddate** `nan`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC', 'http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['beratungsangebote', 'familien', 'jugendliche', 'kinder', 'kinderbetreuung', 'kindergarten', 'ogd']`
 - **Publisher** `['Stadt Uster']`

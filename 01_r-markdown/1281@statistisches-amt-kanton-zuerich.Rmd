@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-01-18"
+date: "2026-01-25"
 output: html_document
 ---
 
@@ -17,7 +17,7 @@ Auto generated R starter code for data set 1281@statistisches-amt-kanton-zuerich
 - **Issued** `2022-03-23T23:00:00`
 - **Modified** `2023-01-03T23:00:00`
 - **Startdate** `2022-02-13`
-- **Enddate** `None`
+- **Enddate** `nan`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE']`
 - **Keyword** `['demokratie', 'gemeinden', 'gemeindewahlen', 'kanton_zuerich', 'ogd', 'politik', 'politische_gemeinden', 'politische_parteien', 'wahlarchiv', 'wahlen', 'wahlergebnisse']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`

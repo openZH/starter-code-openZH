@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-01-18"
+date: "2026-01-25"
 output: html_document
 ---
 
@@ -17,7 +17,7 @@ Auto generated R starter code for data set 721@stadt-uster.
 - **Issued** `2021-07-05T22:00:00`
 - **Modified** `2023-01-08T23:00:00`
 - **Startdate** `2018-01-01`
-- **Enddate** `None`
+- **Enddate** `nan`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC']`
 - **Keyword** `['film', 'kultur', 'kulturfoerderung', 'kunst', 'museen', 'musik', 'ogd', 'theater']`
 - **Publisher** `['Stadt Uster']`

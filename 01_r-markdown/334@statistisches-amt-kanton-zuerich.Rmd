@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-01-18"
+date: "2026-01-25"
 output: html_document
 ---
 
@@ -10,6 +10,8 @@ Der Datensatz enthält Informationen über die Bezügerquote von Zusatzleistunge
 Die Daten werden jährlich vom Bundesamt für Statistik (BFS) erhoben und stammen von den Sozialdiensten auf Dossier-Ebene. Diese Erhebung ist Teil der Sozialhilfeempfängerstatistik. Die Bevölkerungsdaten, die für die Berechnung der Quoten verwendet werden, stammen aus der kantonalen Bevölkerungserhebung des Statistischen Amtes und beziehen sich auf das jeweilige Jahr. Auch das BFS berechnet Quoten. Es nutzt aber als Referenzpopulation Daten aus dem Vorjahr von der Quelle STATPOP. Die Ergebnisse für den Kanton Zürich werden jeweils im November zusammen mit dem Sozialbericht des Kantons Zürich veröffentlicht. 
 Die Datenqualität ist hoch, jedoch gibt es einige Einschränkungen. Bei Gemeinden mit weniger als fünf Fällen wird keine Quote ausgewiesen. Die Daten mussten für 16 Gemeinden im Jahr 2017 und für fünf Gemeinden im Jahr 2020 gewichtet werden, da die Gemeinden nicht für das gesamte Jahr Daten geliefert haben. Der räumliche Bezug des Datensatzes umfasst den Kanton Zürich sowie seine Bezirke und Gemeinden. Die Daten sind auf diese geografischen Einheiten aggregiert.
 
+Für das Jahr 2024 liegen keine Zahlen vor.
+
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/334@statistisches-amt-kanton-zuerich)
 
 Auto generated R starter code for data set 334@statistisches-amt-kanton-zuerich.
@@ -17,7 +19,7 @@ Auto generated R starter code for data set 334@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-19T23:00:00`
-- **Modified** `2026-01-15T07:26:11`
+- **Modified** `2026-01-19T07:20:31`
 - **Startdate** `2010-12-31`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`

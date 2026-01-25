@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-01-18"
+date: "2026-01-25"
 output: html_document
 ---
 
@@ -21,7 +21,7 @@ Auto generated R starter code for data set 2462@awel-kanton-zuerich.
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI', 'http://publications.europa.eu/resource/authority/data-theme/HEAL']`
 - **Keyword** `['mobilfunk', 'ogd', 'pausenplatz', 'rundfunk', 'strahlung', 'wlan']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
-- **Landingpage** `None`
+- **Landingpage** `nan`
 
 
 # Load packages

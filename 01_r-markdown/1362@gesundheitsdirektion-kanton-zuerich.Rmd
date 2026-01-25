@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-01-18"
+date: "2026-01-25"
 output: html_document
 ---
 
@@ -21,7 +21,7 @@ Auto generated R starter code for data set 1362@gesundheitsdirektion-kanton-zuer
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/AGRI', 'http://publications.europa.eu/resource/authority/data-theme/ENVI', 'http://publications.europa.eu/resource/authority/data-theme/HEAL']`
 - **Keyword** `['gemeinden', 'gesundheit', 'lebensmittel', 'ogd', 'pestizide', 'pflanzenschutzmittel', 'schwellenwert', 'trinkwasser', 'verunreinigung', 'wasser', 'wasserversorgung']`
 - **Publisher** `['Gesundheitsdirektion des Kantons Zürich']`
-- **Landingpage** `None`
+- **Landingpage** `nan`
 
 
 # Load packages

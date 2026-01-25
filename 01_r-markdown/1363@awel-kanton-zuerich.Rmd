@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-01-18"
+date: "2026-01-25"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Luftschadstoffemissionen im Kanton Zürich ab 1990
 # Description              : Emissionen der wichtigsten Luftschadstoffe (NOx, PM10, PM2.5, Russ, Ammoniak, NMVOC, CO und SO2) im Kanton Zürich.  Die aufgeführten Luftschadstoffemissionen sind nach dem Territorialprinzip bilanziert und werden in Tonnen pro Jahr ausgewiesen.  Die Emissionen liegen als jährliche Zeitreihe ab 1990 vor.  Mehr Informationen zum Inhalt der Daten sind in der Ressource "Datenbeschreibung Luftschadstoffemissionen im Kanton Zürich" enthalten.
 # Issued                   : 2026-01-12T14:42:25
-# Modified                 : 2026-01-16T15:45:03
+# Modified                 : 2026-01-19T08:50:22
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001363_00006729.csv')
 

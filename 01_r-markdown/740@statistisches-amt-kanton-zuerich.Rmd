@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-01-18"
+date: "2026-01-25"
 output: html_document
 ---
 
@@ -17,7 +17,7 @@ Auto generated R starter code for data set 740@statistisches-amt-kanton-zuerich.
 - **Issued** `2021-10-03T22:00:00`
 - **Modified** `2024-07-14T22:00:00`
 - **Startdate** `2018-01-01`
-- **Enddate** `None`
+- **Enddate** `nan`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON', 'http://publications.europa.eu/resource/authority/data-theme/EDUC', 'http://publications.europa.eu/resource/authority/data-theme/ENER', 'http://publications.europa.eu/resource/authority/data-theme/ENVI', 'http://publications.europa.eu/resource/authority/data-theme/HEAL', 'http://publications.europa.eu/resource/authority/data-theme/SOCI', 'http://publications.europa.eu/resource/authority/data-theme/TRAN']`
 - **Keyword** `['arbeitslose', 'ausbildung', 'bahn', 'beratungsangebote', 'berufslehre', 'bildung', 'corona', 'covid-19', 'covid19', 'energie', 'epidemien', 'familien', 'flugbewegungen', 'flughafen', 'flugverkehr', 'gesundheit', 'gesundheitszustand', 'handelsregister', 'internetnutzung', 'kinder', 'kinderbetreuung', 'kindergarten', 'konkurse', 'konsum', 'langsamverkehr', 'lernende', 'luftverkehr', 'medien', 'mobilitaet', 'oeffentliche_schulen', 'oeffentlicher_verkehr', 'ogd', 'primarschule', 's-bahn', 'stellensuchende', 'strassenverkehr', 'strassenverkehrszaehlung', 'suchtkrankheiten', 'todesfaelle', 'verkehr', 'verkehrsfrequenz', 'verkehrsmittelwahl', 'volkswirtschaft', 'vorschulstufe', 'wirtschaft']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`

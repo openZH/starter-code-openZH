@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-01-18"
+date: "2026-01-25"
 output: html_document
 ---
 
@@ -17,7 +17,7 @@ Auto generated R starter code for data set 2822@stadt-winterthur.
 - **Issued** `2024-12-10T23:00:00`
 - **Modified** `2024-12-11T23:00:00`
 - **Startdate** `2019-01-01`
-- **Enddate** `None`
+- **Enddate** `nan`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/JUST']`
 - **Keyword** `['feuerwehr', 'ogd', 'rettung', 'sicherheit']`
 - **Publisher** `['Stadt Winterthur']`
