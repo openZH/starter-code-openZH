@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-01-25"
+date: "2026-01-29"
 output: html_document
 ---
 
@@ -10,7 +10,7 @@ Anzahl Unfälle pro 1000 Einwohner Total (mit Personen- und/oder Sachschaden)
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/393@statistisches-amt-kanton-zuerich)
 
-Auto generated R starter code for data set 393@statistisches-amt-kanton-zuerich.
+Auto-generated R starter code for dataset 393@statistisches-amt-kanton-zuerich.
 
 ## Metadata
 
@@ -35,7 +35,7 @@ library(skimr)
 
 # Load data
 
--   The dataset has 1 distribution(s) in CSV format.
+- The dataset has 1 distribution(s) in CSV format.
 -   All available CSV distributions are listed below and can be read into a tibble.
 
 ```{r}
