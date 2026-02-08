@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-02-01"
+date: "2026-02-08"
 output: html_document
 ---
 
 ## Dataset: Bevölkerung nach Gemeinde, Heimat, Geschlecht und Alter ab 2010
 
-Anzahl der Bevölkerung nach zivilrechtlichem Wohnsitz nach 1-Jahres Altersklassen. Ab 2010 inkl. vorläufig Aufgenommene, die seit mehr als einem Jahr in der Gemeinde leben, ohne WochenaufenthalterInnen und Asylsuchende. Definition "Bevölkerung nach zivilrechtlichem Wohnsitz" gemäss Finanzausgleichsverordnung (FAV), §1, Abs. 3, 4 (siehe "Gesetzliche Grundlage"). 
+Zivilrechtliche Wohnbevölkerung des Kantons Zürich nach Heimat, Geschlecht und 1-Jahres-Altersklassen in den Gemeinden, ab 2010, aktueller Gebietsstand. Definition der zivilrechtlichen Wohnbevölkerung gemäss Finanzausgleichsverordnung (FAV vom 17.08.2011), §1, Abs. 3, 4.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/254@statistisches-amt-kanton-zuerich)
 
@@ -15,9 +15,9 @@ Auto-generated R starter code for dataset 254@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2020-02-02T23:00:00`
-- **Modified** `2025-02-06T23:00:00`
+- **Modified** `2026-02-06T13:05:58`
 - **Startdate** `2010-01-01`
-- **Enddate** `2024-12-31`
+- **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['alter', 'altersgruppen', 'altersklassen', 'altersstruktur', 'amtliches_geschlecht', 'auslaender*innen', 'bevoelkerung', 'bevoelkerungsbestand', 'bezirke', 'einwohner', 'einwohnerzahl', 'gemeinden', 'herkunft', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`

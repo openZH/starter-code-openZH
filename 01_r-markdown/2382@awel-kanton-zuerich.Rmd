@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-02-01"
+date: "2026-02-08"
 output: html_document
 ---
 
 ## Dataset: Messdaten langjähriger Abgasmessungen im realen Fahrbetrieb mittels Remote Sensing (RSD)
 
-Der "Remote Sensing Detector" (RSD) ermöglicht berührungsfreie Messungen von Abgasen vorbeifahrender Fahrzeuge unter realen Verkehrsbedingungen. Diese Messungen können hauptsächlich dazu verwendet werden, Erkenntnisse über die Emissionen von Stickoxiden bestimmter Fahrzeugkategorien zu erlangen. Die Messungen liefern zudem Informationen über die Emissionen von Kohlenstoffmonoxid und Kohlenwasserstoffen. Die Emissionen der Fahrzeuge werden somit in realen Verkehrssituationen bestimmt und erlauben beispielsweise Aussagen über die Emissionen der Fahrzeugflotte, den Anteil hochemittierender Fahrzeuge am gesamten Fahrzeugbestand, dem Alterungsverhalten von Abgasreinigungssystemen sowie der Abhängigkeiten der Schadstoffwerte von einzelnen Abgasstufen (EURO-Normen). Darüber hinaus ermöglichen die Daten eine Untersuchung des Einflusses verkehrsbezogener Faktoren, wie etwa der Fahrdynamik, auf den Abgasausstoss. Der Datensatz enthält hunderttausende Messdaten aus Messkampagnen seit dem Jahr 2002 (jährlich, beziehungsweise seit dem Jahr 2022 mit Unterbrüchen), die mit ausreichendem Fachwissen eine aussagekräftige Auswertung zulassen. Weitere Informationen sind der abgelegten Datensatz-Beschreibung zu entnehmen. Für eine Methodendokumentation, Beispielauswertungen und deren fachliche Einordnung sei auf den verlinkten Fachbericht verwiesen.
+Der "Remote Sensing Detector" (RSD) ermöglicht berührungsfreie Messungen von Abgasen vorbeifahrender Fahrzeuge unter realen Verkehrsbedingungen. Diese Messungen können hauptsächlich dazu verwendet werden, Erkenntnisse über die Emissionen von Stickoxiden bestimmter Fahrzeugkategorien zu erlangen. Die Messungen liefern zudem Informationen über die Emissionen von Kohlenstoffmonoxid und Kohlenwasserstoffen. Die Emissionen der Fahrzeuge werden somit in realen Verkehrssituationen bestimmt und erlauben beispielsweise Aussagen über die Emissionen der Fahrzeugflotte, den Anteil hochemittierender Fahrzeuge am gesamten Fahrzeugbestand, dem Alterungsverhalten von Abgasreinigungssystemen sowie der Abhängigkeiten der Schadstoffwerte von einzelnen Abgasstufen (EURO-Normen). Darüber hinaus ermöglichen die Daten eine Untersuchung des Einflusses verkehrsbezogener Faktoren, wie etwa der Fahrdynamik, auf den Abgasausstoss. Der Datensatz enthält insgesamt mehr als 600'000 Einzelmessungen aus Messkampagnen der Jahre 2002 bis 2021 (jährlich) sowie 2023 und 2025, die mit ausreichendem Fachwissen eine aussagekräftige Auswertung zulassen. Weitere Informationen sind der abgelegten Datensatz-Beschreibung zu entnehmen. Für eine Methodendokumentation, Beispielauswertungen und deren fachliche Einordnung sei auf den verlinkten Fachbericht verwiesen.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2382@awel-kanton-zuerich)
 
@@ -15,9 +15,9 @@ Auto-generated R starter code for dataset 2382@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2023-11-08T23:00:00`
-- **Modified** `2024-01-07T23:00:00`
+- **Modified** `2026-02-06T13:19:49`
 - **Startdate** `2002-05-16`
-- **Enddate** `2023-08-17`
+- **Enddate** `2025-09-23`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI', 'http://publications.europa.eu/resource/authority/data-theme/TRAN']`
 - **Keyword** `['abgase', 'emissionen', 'fahrzeuge', 'luft', 'luftqualitaet', 'luftschadstoffe', 'ogd', 'stickoxide', 'strassenverkehr']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Daten RSD-Messkampagne 2002
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-08T23:00:00
-# Modified                 : 2024-01-07T23:00:00
+# Modified                 : 2026-02-06T13:12:28
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004793.csv')
 
@@ -54,7 +54,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000023
 # Title                    : Daten RSD-Messkampagne 2003
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-08T23:00:00
-# Modified                 : 2024-01-07T23:00:00
+# Modified                 : 2026-02-06T13:12:44
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004794.csv')
 
@@ -63,7 +63,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000023
 # Title                    : Daten RSD-Messkampagne 2004
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-08T23:00:00
-# Modified                 : 2024-01-07T23:00:00
+# Modified                 : 2026-02-06T13:12:59
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004795.csv')
 
@@ -72,7 +72,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000023
 # Title                    : Daten RSD-Messkampagne 2005
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-08T23:00:00
-# Modified                 : 2024-01-07T23:00:00
+# Modified                 : 2026-02-06T13:13:24
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004796.csv')
 
@@ -81,7 +81,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000023
 # Title                    : Daten RSD-Messkampagne 2006
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-08T23:00:00
-# Modified                 : 2024-01-07T23:00:00
+# Modified                 : 2026-02-06T13:13:53
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004797.csv')
 
@@ -90,7 +90,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000023
 # Title                    : Daten RSD-Messkampagne 2007
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-08T23:00:00
-# Modified                 : 2024-01-07T23:00:00
+# Modified                 : 2026-02-06T13:14:11
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004798.csv')
 
@@ -99,7 +99,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000023
 # Title                    : Daten RSD-Messkampagne 2008
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-08T23:00:00
-# Modified                 : 2024-01-07T23:00:00
+# Modified                 : 2026-02-06T13:14:25
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004799.csv')
 
@@ -108,7 +108,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000023
 # Title                    : Daten RSD-Messkampagne 2009
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-08T23:00:00
-# Modified                 : 2024-01-07T23:00:00
+# Modified                 : 2026-02-06T13:14:41
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004800.csv')
 
@@ -117,7 +117,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000023
 # Title                    : Daten RSD-Messkampagne 2010
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-08T23:00:00
-# Modified                 : 2024-01-07T23:00:00
+# Modified                 : 2026-02-06T13:14:58
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004801.csv')
 
@@ -126,7 +126,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000023
 # Title                    : Daten RSD-Messkampagne 2011
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-08T23:00:00
-# Modified                 : 2024-01-07T23:00:00
+# Modified                 : 2026-02-06T13:15:13
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004802.csv')
 
@@ -135,7 +135,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000023
 # Title                    : Daten RSD-Messkampagne 2012
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-08T23:00:00
-# Modified                 : 2024-01-07T23:00:00
+# Modified                 : 2026-02-06T13:15:32
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004803.csv')
 
@@ -144,7 +144,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000023
 # Title                    : Daten RSD-Messkampagne 2013
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-08T23:00:00
-# Modified                 : 2024-01-07T23:00:00
+# Modified                 : 2026-02-06T13:15:47
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004804.csv')
 
@@ -153,7 +153,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000023
 # Title                    : Daten RSD-Messkampagne 2014
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-08T23:00:00
-# Modified                 : 2024-01-07T23:00:00
+# Modified                 : 2026-02-06T13:16:07
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004805.csv')
 
@@ -162,7 +162,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000023
 # Title                    : Daten RSD-Messkampagne 2015
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-08T23:00:00
-# Modified                 : 2024-01-07T23:00:00
+# Modified                 : 2026-02-06T13:16:26
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004806.csv')
 
@@ -171,7 +171,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000023
 # Title                    : Daten RSD-Messkampagne 2016
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-08T23:00:00
-# Modified                 : 2024-01-07T23:00:00
+# Modified                 : 2026-02-06T13:16:51
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004807.csv')
 
@@ -180,7 +180,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000023
 # Title                    : Daten RSD-Messkampagne 2017
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-08T23:00:00
-# Modified                 : 2024-01-07T23:00:00
+# Modified                 : 2026-02-06T13:17:08
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004808.csv')
 
@@ -189,7 +189,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000023
 # Title                    : Daten RSD-Messkampagne 2018
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-08T23:00:00
-# Modified                 : 2024-01-07T23:00:00
+# Modified                 : 2026-02-06T13:17:25
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004809.csv')
 
@@ -198,7 +198,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000023
 # Title                    : Daten RSD-Messkampagne 2019
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-08T23:00:00
-# Modified                 : 2024-01-07T23:00:00
+# Modified                 : 2026-02-06T13:17:43
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004810.csv')
 
@@ -207,7 +207,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000023
 # Title                    : Daten RSD-Messkampagne 2020
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-08T23:00:00
-# Modified                 : 2024-01-07T23:00:00
+# Modified                 : 2026-02-06T13:18:03
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004811.csv')
 
@@ -216,7 +216,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000023
 # Title                    : Daten RSD-Messkampagne 2021
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-08T23:00:00
-# Modified                 : 2024-01-07T23:00:00
+# Modified                 : 2026-02-06T13:18:28
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004812.csv')
 
@@ -225,7 +225,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000023
 # Title                    : Daten RSD-Messkampagne 2023
 # Description              : Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
 # Issued                   : 2023-11-08T23:00:00
-# Modified                 : 2024-01-07T23:00:00
+# Modified                 : 2026-02-06T13:18:50
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002382_00004813.csv')
 
