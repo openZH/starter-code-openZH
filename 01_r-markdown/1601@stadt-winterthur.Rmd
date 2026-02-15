@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-02-08"
+date: "2026-02-15"
 output: html_document
 ---
 
 ## Dataset: Wohnungsbestand und Anzahl Neubauwohnungen in der Stadt Winterthur ab 1981
 
-Zeitreihe des Wohnungsbestandes und der Anzahl Neubauwohnungen in der Stadt Winterthur ab 1981.
+Zeitreihe des Wohnungsbestandes und der Anzahl Neubauwohnungen in der Stadt Winterthur ab 1981. Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1601@stadt-winterthur)
 
@@ -15,9 +15,9 @@ Auto-generated R starter code for dataset 1601@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2022-09-19T22:00:00`
-- **Modified** `2024-07-14T22:00:00`
-- **Startdate** `1981-01-01`
-- **Enddate** `2023-12-31`
+- **Modified** `2026-02-14T12:04:28`
+- **Startdate** `1981-12-31`
+- **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['bautaetigkeit', 'gemeinden', 'ogd', 'wohnbautaetigkeit', 'wohnungen', 'wohnungsbau', 'wohnungsbestand']`
 - **Publisher** `['Stadt Winterthur']`
@@ -43,9 +43,9 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 3061
 # Title                    : Anzahl Wohnungen im Bestand, Neubau und Abbruch, nach Jahr
-# Description              : Variablen: 'jahr' = Stand per Ende Jahr; 'bestand' = Gesamtanzahl Wohnungen; 'neubau' = Neu gebaute Wohnungen im entsprechenden Jahr; 'abbruch' = Abgebrochene Wohnungen im entsprechenden Jahr.
+# Description              : Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
 # Issued                   : 2022-09-19T22:00:00
-# Modified                 : 2024-03-27T23:00:00
+# Modified                 : 2026-02-12T14:13:25
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001601_00003061.csv')
 

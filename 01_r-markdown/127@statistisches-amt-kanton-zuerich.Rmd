@@ -1,0 +1,79 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2026-02-15"
+output: html_document
+---
+
+## Dataset: Bevölkerungsbestand ab 1962
+
+Zivilrechtliche Wohnbevölkerung des Kantons Zürich, nach Gemeinden und weiteren Teilräumen, ab 1962, aktueller Gebietsstand.
+
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/127@statistisches-amt-kanton-zuerich)
+
+Auto-generated R starter code for dataset 127@statistisches-amt-kanton-zuerich.
+
+## Metadata
+
+- **Issued** `2019-03-31T22:00:00`
+- **Modified** `2026-02-06T11:12:26`
+- **Startdate** `1962-12-31`
+- **Enddate** `2025-12-31`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
+- **Keyword** `['bevoelkerung', 'bevoelkerungsbestand', 'bezirke', 'einwohner', 'einwohnerzahl', 'gemeinden', 'kanton_zuerich', 'ogd', 'raumplanungsregionen']`
+- **Publisher** `['Statistisches Amt des Kantons Zürich']`
+- **Landingpage** `nan`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+- The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 6745
+# Title                    : Bevölkerungsbestand ab 1962
+# Description              : None
+# Issued                   : 2026-02-10T16:07:47
+# Modified                 : 2026-02-10T16:07:47
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000127_00006745.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Statistisches Amt des Kantons Zürich | Analysen & Studien | sebastian.weingartner@statistik.ji.zh.ch

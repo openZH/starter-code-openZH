@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-02-08"
+date: "2026-02-15"
 output: html_document
 ---
 
 ## Dataset: Wohnungsbestand nach Zimmerzahl und Quartier in der Stadt Winterthur ab 2015
 
-Zeitreihe des Wohnungsbestandes in der Stadt Winterthur nach Wohnungsgrösse (Zimmerzahl) und Quartier.
+Zeitreihe des Wohnungsbestandes in der Stadt Winterthur nach Wohnungsgrösse (Zimmerzahl) und Quartier. Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1602@stadt-winterthur)
 
@@ -15,9 +15,9 @@ Auto-generated R starter code for dataset 1602@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2022-09-19T22:00:00`
-- **Modified** `2024-03-27T23:00:00`
+- **Modified** `2026-02-14T12:04:28`
 - **Startdate** `2015-12-31`
-- **Enddate** `2023-12-31`
+- **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['gemeinden', 'ogd', 'wohnungen', 'wohnungsbestand', 'zimmerzahl']`
 - **Publisher** `['Stadt Winterthur']`
@@ -43,9 +43,9 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 3060
 # Title                    : Anzahl Wohnungen nach Zimmerzahl, Quartier und Jahr
-# Description              : Variablen: 'jahr' = Endjahresbestand des Jahres; 'quartier_bfs_id' = Quartiernummer gem. BFS; 'quartier' = Name des Quartiers; 'stadtkreis_bfs_id' = Stadtkreisnummer gem. BFS; 'stadtkreis' = Name des Stadtkreises; 'whg_zim_group' = Gruppe gemäss Anzahl Zimmer (1.5-Zimmer-Wohnung zählt als 1); 'anzahl_wohnungen' = Gesamtzahl der Wohnungen.
+# Description              : Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
 # Issued                   : 2022-09-19T22:00:00
-# Modified                 : 2024-03-27T23:00:00
+# Modified                 : 2026-02-12T14:13:25
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001602_00003060.csv')
 

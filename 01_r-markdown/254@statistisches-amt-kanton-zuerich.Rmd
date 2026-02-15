@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-02-08"
+date: "2026-02-15"
 output: html_document
 ---
 
@@ -42,10 +42,10 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1282
-# Title                    :  Bevölkerung nach Gemeinde, Heimat, Geschlecht und Alter (1-Jahres Altersklassen)
+# Title                    : Bevölkerung nach Gemeinde, Heimat, Geschlecht und Alter (1-Jahres Altersklassen)
 # Description              : Alter in Einjahresaltersklassen angegeben
 # Issued                   : 2020-02-02T23:00:00
-# Modified                 : 2025-02-11T23:00:00
+# Modified                 : 2026-02-10T16:47:22
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000254_00001282.csv')
 
