@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-03-01"
+date: "2026-03-08"
 output: html_document
 ---
 
 ## Dataset: Statistik der Informationszugangsgesuche nach IDG des Kantons Zürich ab 2013
 
-Anzahl und Erledigungsart der schriftlich eingereichten Informationszugangsgesuche in der kantonalen Verwaltung. Nicht enthalten sind die – praxisgemäss viel zahlreicheren – sogenannten formlosen Gesuche. Darunter fallen insbesondere die telefonischen oder per Mail eingereichten Anfragen. 
+Anzahl und Erledigungsart der schriftlich eingereichten Informationszugangsgesuche in der kantonalen Verwaltung. Nicht enthalten sind die – praxisgemäss viel zahlreicheren – sogenannten formlosen Gesuche. Darunter fallen insbesondere die telefonischen oder per Mail eingereichten Anfragen.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/523@staatskanzlei-kanton-zuerich)
 
@@ -15,9 +15,9 @@ Auto-generated R starter code for dataset 523@staatskanzlei-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2019-12-04T23:00:00`
-- **Modified** `2025-03-11T23:00:00`
+- **Modified** `2026-03-03T12:20:05`
 - **Startdate** `2013-01-01`
-- **Enddate** `2024-12-31`
+- **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON', 'http://publications.europa.eu/resource/authority/data-theme/GOVE']`
 - **Keyword** `['kantonale_verwaltung', 'ogd', 'regierungsrat']`
 - **Publisher** `['Staatskanzlei des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Statistik der Informationszugangsgesuche nach IDG des Kantons Zürich
 # Description              : Spalten: 'jahr'; 'organisationseinheit'; 'gesuche_haengig_jan' (am 1. Januar des Jahres); 'gesuche_total' (des gesamten Jahres); 'zugang_uneingeschraenkt_gewaehrt'; 'zugang_teilweise_gewaehrt'; 'zugang_vollstaendig_abgelehnt'; 'anderweitige_erledigung' (z.B. Rückzug, Gegenstandslosigkeit); 'gesuche_haengig_dez' (am 31. Dezember des Jahres).
 # Issued                   : 2019-11-18T23:00:00
-# Modified                 : 2025-03-10T23:00:00
+# Modified                 : 2026-03-03T12:18:19
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000523_00000968.csv')
 
