@@ -4,7 +4,7 @@
 
 This is an experiment to provide exactly this. 
 
-With this repo you get starter code for **all CSV datasets** (currently 401) that are available in the [data shop of the Statistical Office of Canton Zurich](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/). 
+With this repo you get starter code for **all CSV datasets** (currently 402) that are available in the [data shop of the Statistical Office of Canton Zurich](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/). 
 
 In the list below you find links to preconfigured code files so that you can **immediately start analyzing the data with R or Python.**
 
@@ -16,7 +16,7 @@ Feedback is always very welcome – simply open an issue.
 
 For all data licenses, please refer to each dataset's link or the metadata API endpoint provided [here](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/datasets/1461@fachstelle-ogd-kanton-zuerich).
 
-<sub>Latest update: **2026-03-08 04:59:20**</sub>
+<sub>Latest update: **2026-03-15 05:20:35**</sub>
 
 | ID | Title (abbreviated to 200 chars) | Python Colab | Python GitHub | R GitHub |
 | :-- | :-- | :-- | :-- | :-- |
@@ -421,3 +421,4 @@ For all data licenses, please refer to each dataset's link or the metadata API e
 | 3123 | [Lastgang des Energieaustauschs der lokalen Elektrizitätsgemeinschaften der Stadt Winterthur](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/3123@stadt-winterthur) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/3123@stadt-winterthur.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/3123@stadt-winterthur.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/3123@stadt-winterthur.Rmd) |
 | 3142 | [Selbstständig erwerbende Pflegefachpersonen Kanton Zürich](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/3142@gesundheitsdirektion-kanton-zuerich) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/3142@gesundheitsdirektion-kanton-zuerich.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/3142@gesundheitsdirektion-kanton-zuerich.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/3142@gesundheitsdirektion-kanton-zuerich.Rmd) |
 | 3143 | [Lernende nach Wohngemeinde, Bezirk, Raumplanungsregion, Schulstufe und Schultyp](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/3143@bildungsstatistik-kanton-zuerich) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/3143@bildungsstatistik-kanton-zuerich.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/3143@bildungsstatistik-kanton-zuerich.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/3143@bildungsstatistik-kanton-zuerich.Rmd) |
+| 3157 | [Bruttolastgang Gasverbrauch der Stadt Winterthur](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/3157@stadt-winterthur) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/openZH/starter-code-openZH/blob/main/02_python/3157@stadt-winterthur.ipynb) | [Python GitHub](https://github.com/openZH/starter-code-openZH/blob/main/02_python/3157@stadt-winterthur.ipynb) | [R GitHub](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/3157@stadt-winterthur.Rmd) |
