@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-03-22"
+date: "2026-03-29"
 output: html_document
 ---
 
@@ -15,11 +15,11 @@ Auto-generated R starter code for dataset 181@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-19T23:00:00`
-- **Modified** `2025-05-07T22:00:00`
+- **Modified** `2026-03-27T12:54:13`
 - **Startdate** `2006-12-31`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI']`
-- **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'ogd', 'trinkwasser', 'wasser', 'wasserverbrauch']`
+- **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'nicht_weitergefuehrt', 'ogd', 'trinkwasser', 'wasser', 'wasserverbrauch']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
 

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-03-22"
+date: "2026-03-29"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto-generated R starter code for dataset 2042@kantonspolizei-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2023-03-21T23:00:00`
-- **Modified** `2025-03-19T23:00:00`
+- **Modified** `2026-03-23T07:48:46`
 - **Startdate** `2009-01-01`
-- **Enddate** `2024-12-31`
+- **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/JUST']`
 - **Keyword** `['einbrueche', 'gemeinden', 'kriminalitaet', 'ogd', 'strafbare_handlungen', 'strafdelikte', 'straftaten']`
 - **Publisher** `['Kantonspolizei des Kantons Zürich']`
@@ -43,9 +43,9 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 4083
 # Title                    : Anzahl Einbrüche nach Gemeinden und in den Stadtkreisen der Stadt Zürich
-# Description              : Das Total Einbrüche beinhaltet alle polizeilich bekannten, vollendeten und versuchten Einbruchs- und Einschleichdiebstähle. Die Bevölkerungszahlen sind der Einwohnerstatistik des Bundes am Ende des Vorjahres entnommen (bis 2010 ESPOP, ab 2011 STATPOP). Damit wird die Häufigkeitszahl berechnet (Anzahl registrierten Straftaten pro 1000 Einwohner). 
+# Description              : Das Total Einbrüche beinhaltet alle polizeilich bekannten, vollendeten und versuchten Einbruchs- und Einschleichdiebstähle. Die Bevölkerungszahlen sind der Einwohnerstatistik des Bundes am Ende des Vorjahres entnommen (bis 2010 ESPOP, ab 2011 STATPOP). Damit wird die Häufigkeitszahl berechnet (Anzahl registrierten Straftaten pro 1000 Einwohner).
 # Issued                   : 2023-03-21T23:00:00
-# Modified                 : 2025-03-23T23:00:00
+# Modified                 : 2026-03-23T07:44:45
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002042_00004083.csv')
 

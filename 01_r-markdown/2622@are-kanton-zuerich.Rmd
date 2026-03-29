@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-03-22"
+date: "2026-03-29"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto-generated R starter code for dataset 2622@are-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2024-05-29T22:00:00`
-- **Modified** `2025-09-23T22:00:00`
+- **Modified** `2026-03-26T09:13:12`
 - **Startdate** `2012-01-01`
-- **Enddate** `2022-12-31`
+- **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI', 'http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['gemeinden', 'ogd', 'raumentwicklung']`
 - **Publisher** `['Amt für Raumentwicklung des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Einwohner und Beschäftigte pro Hektare ab 2012
 # Description              : Durchschnittliche Anzahl Einwohner und Beschäftigte pro Hektare überbaute Wohn-, Misch- und Arbeitszonen im Kanton Zürich. Mit der Spalte «GEO_LEVEL_LEVEL» können im Vergleich zur Spalte «BFS_NR» neben den Gemeinden und Städten (3) zusätzlich auch die Regionen (6), die Bezirke (2) und der Kanton Zürich (1) als Ganzes identifiziert werden Die Spalte GEBIET_NAME beinhaltet sowohl Gemeinden, Städte, Regionen als auch den ganzen Kanton Zürich. Bei der Berechnung der Werte wurden Wohn-, Misch- und Arbeitszonen auf Stufe Gemeinde im Umfang von weniger als 2 Hektare nicht berücksichtigt.
 # Issued                   : 2024-05-29T22:00:00
-# Modified                 : 2025-10-21T22:00:00
+# Modified                 : 2026-03-26T09:12:49
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002622_00005364.csv')
 

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-03-22"
+date: "2026-03-29"
 output: html_document
 ---
 
@@ -15,11 +15,11 @@ Auto-generated R starter code for dataset 396@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2017-05-25T22:00:00`
-- **Modified** `2025-01-13T23:00:00`
+- **Modified** `2026-03-27T13:42:51`
 - **Startdate** `2013-12-31`
 - **Enddate** `2022-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON']`
-- **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'ogd', 'unternehmen', 'unternehmensstruktur']`
+- **Keyword** `['bezirke', 'gemeinden', 'kanton_zuerich', 'nicht_weitergefuehrt', 'ogd', 'unternehmen', 'unternehmensstruktur']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
 

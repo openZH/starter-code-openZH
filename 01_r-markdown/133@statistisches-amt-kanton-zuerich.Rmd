@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-03-22"
+date: "2026-03-29"
 output: html_document
 ---
 
@@ -15,11 +15,11 @@ Auto-generated R starter code for dataset 133@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2016-01-19T23:00:00`
-- **Modified** `2025-04-02T22:00:00`
+- **Modified** `2026-03-27T13:17:23`
 - **Startdate** `1990-12-31`
 - **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/HEAL']`
-- **Keyword** `['aerzteschaft', 'bezirke', 'gemeinden', 'gesundheit', 'kanton_zuerich', 'ogd']`
+- **Keyword** `['aerzteschaft', 'bezirke', 'gemeinden', 'gesundheit', 'kanton_zuerich', 'nicht_weitergefuehrt', 'ogd']`
 - **Publisher** `['Statistisches Amt des Kantons Zürich']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
 
