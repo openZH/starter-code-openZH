@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-03-29"
+date: "2026-04-05"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Auto-generated R starter code for dataset 544@oberjugendanwaltschaft-kanton-zuer
 ## Metadata
 
 - **Issued** `2019-11-27T23:00:00`
-- **Modified** `2024-07-14T22:00:00`
+- **Modified** `2026-03-30T15:16:57`
 - **Startdate** `2007-01-01`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/JUST']`
@@ -148,4 +148,4 @@ tail(df)
 
 # Questions about the data?
 
-Oberjugendanwaltschaft des Kantons Zürich | sarah.reimann@ji.zh.ch
+Oberjugendanwaltschaft des Kantons Zürich | kommunikation.jsp@ji.zh.ch
