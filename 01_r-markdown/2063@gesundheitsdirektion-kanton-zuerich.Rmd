@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-04-08"
+date: "2026-04-12"
 output: html_document
 ---
 
@@ -8,19 +8,19 @@ output: html_document
 
 Konzentrationsbereiche zur Trinkwasserqualität für verschiedene Analyten aus den im Auftrag der Wasserversorgungen durchgeführten ergänzenden Selbstkontrolluntersuchungen in den Gemeinden des Kantons Zürich - im regulären Trinkwassernetz (ohne Notversorgung, Laufbrunnen und Ressourcen). Die Konzentrationsbereiche zur Trinkwasserqualität aus den Kontrolluntersuchungen durchgeführt durch das Kantonale Labor Kanton Zürich sind im Datensatz "Qualität des Trinkwassers im Kanton Zürich ab 2020" der Gesundheitsdirektion enthalten (siehe Verwandte Datensätze).
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2063@fachstelle-ogd-kanton-zuerich)
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2063@gesundheitsdirektion-kanton-zuerich)
 
-Auto-generated R starter code for dataset 2063@fachstelle-ogd-kanton-zuerich.
+Auto-generated R starter code for dataset 2063@gesundheitsdirektion-kanton-zuerich.
 
 ## Metadata
 
 - **Issued** `2023-03-23T23:00:00`
-- **Modified** `2026-04-07T23:00:15`
+- **Modified** `2026-04-09T14:14:10`
 - **Startdate** `2020-01-01`
-- **Enddate** `2026-04-08`
+- **Enddate** `2026-04-09`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/AGRI', 'http://publications.europa.eu/resource/authority/data-theme/ENVI', 'http://publications.europa.eu/resource/authority/data-theme/HEAL']`
 - **Keyword** `['gemeinden', 'gesundheit', 'lebensmittel', 'ogd', 'pestizide', 'pflanzenschutzmittel', 'schwellenwert', 'trinkwasser', 'verunreinigung', 'wasser', 'wasserversorgung']`
-- **Publisher** `['Fachstelle Open Government Data des Kantons Zürich']`
+- **Publisher** `['Gesundheitsdirektion des Kantons Zürich']`
 - **Landingpage** `nan`
 
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Netzproben der Trinkwasserqualität
 # Description              : None
 # Issued                   : 2023-03-23T23:00:00
-# Modified                 : 2026-04-07T23:00:13
+# Modified                 : 2026-04-08T23:00:13
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002063_00004104.csv')
 
@@ -76,4 +76,4 @@ tail(df)
 
 # Questions about the data?
 
-Fachstelle Open Government Data des Kantons Zürich | info@open.zh.ch
+Gesundheitsdirektion des Kantons Zürich | Kantonales Labor | davi@kl.zh.ch
