@@ -1,0 +1,83 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2026-04-19"
+output: html_document
+---
+
+## Dataset: Haushaltsstruktur in Winterthur nach Quartieren und Stadtkreisen
+
+Der Datensatz zeigt die Anzahl der Haushalte von Winterthur, neuzugezogen und alteingesessen.
+Es wird zudem unterschieden nach Haushaltstyp und der Lebensphase, in der sich der Haushalt befindet.
+Die Informationen sind verfügbar für Quartiere, Stadtkreise und der gesamten Stadt Winterthur.
+Die Daten stammen aus dem Wohnmonitor und geben einen Überblick über die Wohnsituation in Winterthur auf verschiedenen räumlichen Ebenen.
+Weitere Informationen zur Datenquelle sowie zu den verwendeten Definitionen sind in der Ressource «Dokumentation Daten» beschrieben.
+
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/3150@stadt-winterthur)
+
+Auto-generated R starter code for dataset 3150@stadt-winterthur.
+
+## Metadata
+
+- **Issued** `2026-04-13T08:09:41`
+- **Modified** `2026-04-13T08:09:41`
+- **Startdate** `2017-12-31`
+- **Enddate** `2025-12-31`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/REGI', 'http://publications.europa.eu/resource/authority/data-theme/SOCI']`
+- **Keyword** `['bevoelkerung', 'haushalte', 'haushaltsgroesse', 'haushaltsstruktur', 'haushaltstypen', 'ogd', 'quartieranalyse']`
+- **Publisher** `['Stadt Winterthur']`
+- **Landingpage** `https://stadt.winterthur.ch/wohnmonitor`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+- The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 6758
+# Title                    : Haushaltsstruktur in Winterthur nach Quartieren und Stadtkreisen
+# Description              : Die Datenreihe des Wohnmonitors gibt einen Überblick zum Wohnen in Winterthur auf Stufe Quartier, Stadtkreis und der gesamten Gemeinde. Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
+# Issued                   : None
+# Modified                 : 2026-03-16T12:58:57
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003150_00006758.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Stadt Winterthur | Stadtentwicklung der Stadt Winterthur | statistik@win.ch

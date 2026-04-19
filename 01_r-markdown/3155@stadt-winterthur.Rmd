@@ -1,0 +1,83 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2026-04-19"
+output: html_document
+---
+
+## Dataset: Wohnungsbestand in Winterthur nach Quartieren und Stadtkreisen
+
+Der Datensatz zeigt, wie sich der Wohnungsbestand in Winterthur zusammensetzt.
+Er enthält Informationen zu Bauperioden, Wohnungsgrössen und zur Anzahl Zimmer und weist diese für Quartiere, Stadtkreise und für die gesamte Stadt aus.
+Zudem wird unterschieden, ob sich die Wohnungen in Einfamilienhäusern oder in Mehrfamilienhäusern befinden.
+Die Daten stammen aus dem Wohnmonitor und geben einen Überblick über die Wohnsituation in Winterthur auf verschiedenen räumlichen Ebenen.
+Weitere Informationen zur Datenquelle sowie zu den verwendeten Definitionen sind in der Ressource «Dokumentation Daten» beschrieben.
+
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/3155@stadt-winterthur)
+
+Auto-generated R starter code for dataset 3155@stadt-winterthur.
+
+## Metadata
+
+- **Issued** `2026-04-13T08:04:12`
+- **Modified** `2026-04-13T08:04:11`
+- **Startdate** `2015-12-31`
+- **Enddate** `2025-12-31`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/REGI', 'http://publications.europa.eu/resource/authority/data-theme/SOCI']`
+- **Keyword** `['einfamilienhaus', 'ogd', 'quartieranalyse', 'wohnflaeche', 'wohnung', 'wohnungen', 'wohnungsbestand', 'zimmerzahl']`
+- **Publisher** `['Stadt Winterthur']`
+- **Landingpage** `https://stadt.winterthur.ch/wohnmonitor`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+- The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 6768
+# Title                    : Wohnungsbestand in Winterthur nach Quartieren und Stadtkreisen
+# Description              : Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
+# Issued                   : None
+# Modified                 : 2026-03-24T14:05:28
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003155_00006768.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Stadt Winterthur | Stadtentwicklung der Stadt Winterthur | statistik@win.ch

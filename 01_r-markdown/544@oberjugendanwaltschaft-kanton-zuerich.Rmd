@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-04-12"
+date: "2026-04-19"
 output: html_document
 ---
 
@@ -41,85 +41,85 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1038
-# Title                    : Finanzieller Aufwand für Schutzmassnahmen
+# Ktzhdistid               : 1657
+# Title                    : Anzahl verzeigte Jugendliche
 # Description              : None
-# Issued                   : 2019-11-27T23:00:00
-# Modified                 : 2025-05-14T22:00:00
+# Issued                   : 2020-06-08T22:00:00
+# Modified                 : 2026-04-15T05:34:45
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001038.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001657.csv')
 
 # Distribution 1
 # Ktzhdistid               : 1031
 # Title                    : Anzahl Verurteilungen nach Geschlecht
 # Description              : None
 # Issued                   : 2019-11-27T23:00:00
-# Modified                 : 2025-05-14T22:00:00
+# Modified                 : 2026-04-15T05:41:23
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001031.csv')
 
 # Distribution 2
 # Ktzhdistid               : 1029
-# Title                    : Anzahl Delikte bei den Verurteilungen 
+# Title                    : Anzahl Delikte bei den Verurteilungen
 # Description              : None
 # Issued                   : 2019-11-27T23:00:00
-# Modified                 : 2025-05-14T22:00:00
+# Modified                 : 2026-04-15T05:36:02
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001029.csv')
 
 # Distribution 3
-# Ktzhdistid               : 1030
-# Title                    : Alter bei Eröffnung der Strafuntersuchung
-# Description              : None
-# Issued                   : 2019-11-27T23:00:00
-# Modified                 : 2025-05-14T22:00:00
-
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001030.csv')
-
-# Distribution 4
-# Ktzhdistid               : 1034
-# Title                    : Art der Sanktion 
-# Description              : None
-# Issued                   : 2019-11-27T23:00:00
-# Modified                 : 2025-05-14T22:00:00
-
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001034.csv')
-
-# Distribution 5
-# Ktzhdistid               : 1035
-# Title                    :  Anzahl Personen mit mindestens einer Untersuchungshaft 
-# Description              : None
-# Issued                   : 2019-11-27T23:00:00
-# Modified                 : 2025-05-14T22:00:00
-
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001035.csv')
-
-# Distribution 6
 # Ktzhdistid               : 1032
 # Title                    : Schweizer-/Ausländeranteil bei Verurteilungen
 # Description              : None
 # Issued                   : 2019-11-27T23:00:00
-# Modified                 : 2025-05-14T22:00:00
+# Modified                 : 2026-04-15T05:47:26
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001032.csv')
 
-# Distribution 7
-# Ktzhdistid               : 1037
-# Title                    :  Anzahl Jugendliche in einer Massnahme per Jahresende 
+# Distribution 4
+# Ktzhdistid               : 1038
+# Title                    : Finanzieller Aufwand für Schutzmassnahmen
 # Description              : None
 # Issued                   : 2019-11-27T23:00:00
-# Modified                 : 2025-05-14T22:00:00
+# Modified                 : 2026-04-15T05:42:43
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001037.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001038.csv')
+
+# Distribution 5
+# Ktzhdistid               : 1030
+# Title                    : Alter bei Eröffnung der Strafuntersuchung
+# Description              : None
+# Issued                   : 2019-11-27T23:00:00
+# Modified                 : 2026-04-15T05:39:00
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001030.csv')
+
+# Distribution 6
+# Ktzhdistid               : 1034
+# Title                    : Art der Sanktion
+# Description              : None
+# Issued                   : 2019-11-27T23:00:00
+# Modified                 : 2026-04-15T05:45:42
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001034.csv')
+
+# Distribution 7
+# Ktzhdistid               : 1035
+# Title                    : Anzahl Personen mit mindestens einer Untersuchungshaft
+# Description              : None
+# Issued                   : 2019-11-27T23:00:00
+# Modified                 : 2026-04-15T05:46:42
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001035.csv')
 
 # Distribution 8
-# Ktzhdistid               : 1657
-# Title                    : Anzahl verzeigte Jugendliche
+# Ktzhdistid               : 1037
+# Title                    : Anzahl Jugendliche in einer Massnahme per Jahresende
 # Description              : None
-# Issued                   : 2020-06-08T22:00:00
-# Modified                 : 2025-05-14T22:00:00
+# Issued                   : 2019-11-27T23:00:00
+# Modified                 : 2026-04-15T05:48:21
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001657.csv')
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000544_00001037.csv')
 
 
 
