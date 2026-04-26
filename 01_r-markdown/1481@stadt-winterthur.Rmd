@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-04-22"
+date: "2026-04-26"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Bevölkerungsbestand und -wachstum total und Schweizer:innen und Ausländer:innen nach Jahr
 # Description              : Variablen: 'yyyy' = Jahr; 'gesamt' = Gesamtzahl der Einwohner:innen; 'wachstum' = Bevölkerungswachstum zum Vorjahr absolut; 'schweiz' = Anzahl Schweizer:innen; 'ausland' = Anzahl Ausländer:innen. Eine vollständige Dokumentation ist in der Ressource "Dokumentation Daten" zu finden.
 # Issued                   : 2022-09-19T22:00:00
-# Modified                 : 2026-01-08T09:21:57
+# Modified                 : 2026-04-25T21:02:31
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001481_00002898.csv')
 
