@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-04-27"
+date: "2026-05-10"
 output: html_document
 ---
 
 ## Dataset: E-Ladestationen der kantonalen Verwaltung Zürich
 
-Ladevorgänge der E-Ladestationen für die Elektrofahrzeuge der kantonalen Fahrzeugflotte. Die Ladestationen werden ausschliesslich durch die Betriebs- und Dienstfahrzeuge der kantonalen Verwaltung genutzt. Das Immobilienamt des Kantons Zürich bestellt und bewirtschaftet die E-Ladestationen für die Kantonale Verwaltung. Der Datensatz zeigt die einzelnen Ladevorgänge an, wie sie im System verzeichnet sind, es finden keine nachträglichen Korrekturen statt.
+Der Datensatz wird vorerst nicht weiter aktualisiert. Für Anfragen zum Datensatz wenden Sie sich bitte an den untenstehenden Kontakt. | Der Datensatz zeigt die Ladevorgänge der E-Ladestationen für die Elektrofahrzeuge der kantonalen Fahrzeugflotte vom Oktober 2021 - September 2025. Die Ladestationen werden ausschliesslich durch die Betriebs- und Dienstfahrzeuge der kantonalen Verwaltung genutzt. Das Immobilienamt des Kantons Zürich bestellt und bewirtschaftet die E-Ladestationen für die Kantonale Verwaltung. Der Datensatz zeigt die einzelnen Ladevorgänge an, wie sie im System verzeichnet sind, es finden keine nachträglichen Korrekturen statt.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2282@ima-kanton-zuerich)
 
@@ -15,11 +15,11 @@ Auto-generated R starter code for dataset 2282@ima-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2024-02-29T23:00:00`
-- **Modified** `2026-04-23T12:29:46`
+- **Modified** `2026-05-05T09:54:04`
 - **Startdate** `2021-10-01`
 - **Enddate** `2025-09-30`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON', 'http://publications.europa.eu/resource/authority/data-theme/ENER', 'http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/TRAN']`
-- **Keyword** `['elektrizitaet', 'fahrzeuge', 'kanton_zuerich', 'ogd']`
+- **Keyword** `['elektrizitaet', 'fahrzeuge', 'kanton_zuerich', 'nicht_weitergefuehrt', 'ogd']`
 - **Publisher** `['Immobilienamt des Kantons Zürich']`
 - **Landingpage** `nan`
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Ladevorgänge der kantonalen e-Ladestationen
 # Description              : None
 # Issued                   : 2024-02-29T23:00:00
-# Modified                 : 2025-10-13T22:00:00
+# Modified                 : 2026-04-27T13:41:15
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002282_00004563.csv')
 

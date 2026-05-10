@@ -1,14 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-04-27"
+date: "2026-05-10"
 output: html_document
 ---
 
 ## Dataset: Wirtschaft in Winterthur nach Quartieren und Stadtkreisen
 
-Dieser Datensatz zeigt, wie sich die Wirtschaft in Winterthur entwickelt hat.
-Er enthält Informationen zu Anzahl Unternehmen, Betrieben, Beschäftigten und Vollzeitäquivalenten.
-Die Daten sind auf Ebene Quartier, Stadtkreis und der Stadt Winterthur verfügbar.
+Der Datensatz zeigt Kennzahlen zur Wirtschaft in Winterthur. Enthalten sind Angaben zu Unternehmen, Betrieben, Beschäftigten und Vollzeitäquivalenten. Die Daten sind nach Quartier, Stadtkreis und für die ganze Stadt Winterthur verfügbar. Sie zeigen, wie sich die Wirtschaft in den verschiedenen Stadtgebieten entwickelt.
 Die Datenreihe der Quartierspiegel gibt einen Überblick über wichtige Indikatoren zu Winterthur auf Stufe Quartier, Stadtkreis und der ganzen Gemeinde. Weitere Indikatoren werden später als weitere Spalten hinzugefügt. Die Indikatoren sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2763@stadt-winterthur)
@@ -18,7 +16,7 @@ Auto-generated R starter code for dataset 2763@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2024-11-20T23:00:00`
-- **Modified** `2026-03-26T14:42:45`
+- **Modified** `2026-04-29T14:16:55`
 - **Startdate** `2011-12-31`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON']`

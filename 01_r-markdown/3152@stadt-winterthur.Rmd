@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-04-27"
+date: "2026-05-10"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto-generated R starter code for dataset 3152@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2026-04-13T08:04:38`
-- **Modified** `2026-04-13T08:04:38`
+- **Modified** `2026-04-29T14:17:46`
 - **Startdate** `2016-12-31`
 - **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/REGI', 'http://publications.europa.eu/resource/authority/data-theme/SOCI']`

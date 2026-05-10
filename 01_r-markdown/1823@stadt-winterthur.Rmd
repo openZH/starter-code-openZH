@@ -1,12 +1,13 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-04-27"
+date: "2026-05-10"
 output: html_document
 ---
 
 ## Dataset: Beschäftigte der Stadt Winterthur
 
-Beschäftigte der Stadt Winterthur ab 2018, Stand Ende Quartal des Jahres. Quelle: Beschäftigungsstatistik (BESTA), BFS. Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
+Der Datensatz zeigt die Anzahl Beschäftigte in der Stadt Winterthur ab 2018. Die Daten liegen pro Quartal vor und beziehen sich jeweils auf den Stand am Ende des Quartals. Enthalten sind Angaben zur Gesamtzahl der Beschäftigten, zu Beschäftigten nach Geschlecht sowie zu Beschäftigten im zweiten und dritten Wirtschaftssektor. Zusätzlich enthält der Datensatz Vollzeitäquivalente. Die Zahlen sind Schätzungen und auf 100 gerundet. Die Daten stammen aus der Beschäftigungsstatistik BESTA des Bundesamts für Statistik.
+Weitere Informationen zur Datenquelle sowie zu den verwendeten Definitionen sind in der Ressource «Dokumentation Daten» beschrieben.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1823@stadt-winterthur)
 
@@ -15,7 +16,7 @@ Auto-generated R starter code for dataset 1823@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2023-03-08T23:00:00`
-- **Modified** `2026-03-02T12:50:07`
+- **Modified** `2026-04-29T14:16:05`
 - **Startdate** `2018-03-31`
 - **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON']`

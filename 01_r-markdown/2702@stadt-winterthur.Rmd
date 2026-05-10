@@ -1,14 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-04-27"
+date: "2026-05-10"
 output: html_document
 ---
 
 ## Dataset: Bevölkerung von Winterthur nach Quartieren und Stadtkreisen
 
-Einwohnende (Bevölkerung) von Winterthur auf Ebene Quartier, Stadtkreis und dem ganzen Stadtgebiet.
-Verfügbare Indikatoren: Anzahl Personen, Durchschnittsalter und Anzahl unterschiedliche Nationalitäten.
-Die Daten sind verfügbar ab 2014, ab 2023 monatlich.
+Der Datensatz zeigt Kennzahlen zur Bevölkerung in Winterthur ab 2014. Enthalten sind Angaben zur Anzahl Personen, zum Durchschnittsalter und zur Anzahl unterschiedlicher Nationalitäten. Die Daten sind nach Quartier, Stadtkreis und für die ganze Stadt Winterthur verfügbar. Ab 2023 liegen die Daten monatlich vor. Sie zeigen, wie sich die Bevölkerung in den verschiedenen Stadtgebieten entwickelt.
 Die Datenreihe der Quartierspiegel gibt einen Überblick über wichtige Indikatoren zu Winterthur auf Stufe Quartier, Stadtkreis und der ganzen Gemeinde. Weitere Indikatoren werden später als weitere Spalten hinzugefügt. Die Indikatoren sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2702@stadt-winterthur)
@@ -18,9 +16,9 @@ Auto-generated R starter code for dataset 2702@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2024-11-20T23:00:00`
-- **Modified** `2026-04-02T10:01:24`
+- **Modified** `2026-05-04T12:22:50`
 - **Startdate** `2014-12-31`
-- **Enddate** `2026-03-31`
+- **Enddate** `2026-04-30`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['alter', 'bevoelkerung', 'gemeinden', 'nationalitaet', 'ogd', 'quartieranalyse']`
 - **Publisher** `['Stadt Winterthur']`
@@ -48,7 +46,7 @@ library(skimr)
 # Title                    : Bevölkerung von Winterthur nach Quartieren und Stadtkreisen
 # Description              : Die Indikatoren sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
 # Issued                   : 2024-11-20T23:00:00
-# Modified                 : 2026-04-02T10:01:24
+# Modified                 : 2026-05-04T12:22:49
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002702_00005583.csv')
 

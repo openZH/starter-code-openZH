@@ -1,12 +1,13 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-04-27"
+date: "2026-05-10"
 output: html_document
 ---
 
 ## Dataset: Bevölkerungsbewegungen in Winterthur
 
-Bevölkerungsbewegungen in der Stadt Winterthur, pro Jahr. Die Daten zeichnen Veränderungen in der städtischen Bevölkerung nach: Zu- und Wegzüge, Umzüge, Geburten und Todesfälle. Die Daten beziehen wir von der Einwohnerkontrolle. Eine vollständige Dokumentation ist in der Ressource "Dokumentation Daten" zu finden.
+Der Datensatz zeigt die Bevölkerungsbewegungen in der Stadt Winterthur pro Jahr. Enthalten sind Angaben zum Bestand der Bevölkerung, Zuzügen, Wegzügen, Umzügen, Geburten und Todesfällen. Die Daten zeigen, wie sich die Bevölkerung in Winterthur verändert. Die Angaben stammen aus der Einwohnerkontrolle.
+Weitere Informationen zur Datenquelle sowie zu den verwendeten Definitionen sind in der Ressource «Dokumentation Daten» beschrieben.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2742@stadt-winterthur)
 
@@ -15,7 +16,7 @@ Auto-generated R starter code for dataset 2742@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2024-11-20T23:00:00`
-- **Modified** `2026-03-24T14:07:40`
+- **Modified** `2026-04-29T14:16:30`
 - **Startdate** `2007-12-31`
 - **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`

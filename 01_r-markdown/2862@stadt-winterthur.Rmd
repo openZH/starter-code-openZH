@@ -1,12 +1,13 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-04-27"
+date: "2026-05-10"
 output: html_document
 ---
 
 ## Dataset: Städtische Bäume von Winterthur nach Quartieren und Stadtkreisen
 
-Die Datenreihe der Quartierspiegel gibt einen Überblick über wichtige Indikatoren zu Winterthur auf Stufe Quartier, Stadtkreis und der ganzen Gemeinde. In diesem Datensatz sind Indikatoren zum Thema der städtischen Bäume enthalten. Städtische Bäume sind Bäume, die von der Stadtgärtnerei gepflegt und unterhalten werden. Dieser Datensatz wird kontinuierlich weiterentwickelt, indem zusätzliche Spalten integriert werden. Die Indikatoren sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
+Der Datensatz zeigt Kennzahlen zu städtischen Bäumen in Winterthur. Die Daten sind nach Quartier, Stadtkreis und für die ganze Stadt Winterthur gegliedert. Städtische Bäume sind Bäume, die von der Stadtgärtnerei gepflegt und unterhalten werden. Die Daten zeigen zum Beispiel Informationen zum Baumbestand in den verschiedenen Stadtgebieten.
+Weitere Informationen zur Datenquelle sowie zu den verwendeten Definitionen sind in der Ressource «Dokumentation Daten» beschrieben.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2862@stadt-winterthur)
 
@@ -15,9 +16,9 @@ Auto-generated R starter code for dataset 2862@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2025-02-09T23:00:00`
-- **Modified** `2026-02-14T12:03:30`
+- **Modified** `2026-05-04T00:01:35`
 - **Startdate** `2020-12-31`
-- **Enddate** `2024-12-31`
+- **Enddate** `2026-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/AGRI', 'http://publications.europa.eu/resource/authority/data-theme/ENVI']`
 - **Keyword** `['landschaft', 'ogd', 'quartieranalyse', 'wald']`
 - **Publisher** `['Stadt Winterthur']`
@@ -45,7 +46,7 @@ library(skimr)
 # Title                    : Städtische Bäume von Winterthur nach Quartieren und Stadtkreisen
 # Description              : Die Indikatoren sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
 # Issued                   : 2025-02-09T23:00:00
-# Modified                 : 2025-03-05T23:00:00
+# Modified                 : 2026-05-04T00:01:35
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002862_00005843.csv')
 

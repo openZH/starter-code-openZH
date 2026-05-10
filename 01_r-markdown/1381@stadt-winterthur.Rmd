@@ -1,12 +1,13 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-04-27"
+date: "2026-05-10"
 output: html_document
 ---
 
 ## Dataset: Altersstruktur der Stadt Winterthur
 
-Altersstruktur der Bevölkerung der Stadt Winterthur ab 2009, Endjahresstand 31. Dezember des Jahres. Eine vollständige Dokumentation ist in der Ressource "Dokumentation Daten" zu finden.
+Der Datensatz zeigt die Altersstruktur der Bevölkerung in der Stadt Winterthur ab 2009. Enthalten ist die Anzahl Personen nach Altersklassen in 5-Jahres-Gruppen. Die Daten sind nach Quartier, Stadtkreis und für die ganze Stadt Winterthur verfügbar. Vor 2014 liegen die Daten nur für die ganze Stadt vor. Die Daten zeigen, wie sich die Bevölkerung in den verschiedenen Altersgruppen zusammensetzt.
+Weitere Informationen zur Datenquelle sowie zu den verwendeten Definitionen sind in der Ressource «Dokumentation Daten» beschrieben.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1381@stadt-winterthur)
 
@@ -15,7 +16,7 @@ Auto-generated R starter code for dataset 1381@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2022-09-19T22:00:00`
-- **Modified** `2026-03-24T14:06:40`
+- **Modified** `2026-04-29T14:15:31`
 - **Startdate** `2009-12-31`
 - **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
@@ -45,7 +46,7 @@ library(skimr)
 # Title                    : Altersstruktur Stadt Winterthur
 # Description              : Altersstruktur der Stadt Winterthur ab 2009. Eine vollständige Dokumentation ist in der Ressource "Dokumentation Daten" zu finden.
 # Issued                   : 2022-09-19T22:00:00
-# Modified                 : 2026-01-08T09:21:10
+# Modified                 : 2026-04-27T18:35:32
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001381_00003062.csv')
 

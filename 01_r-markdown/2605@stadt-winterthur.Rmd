@@ -1,12 +1,13 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-04-27"
+date: "2026-05-10"
 output: html_document
 ---
 
 ## Dataset: Bevölkerung der Stadt Winterthur, nach Heimat, Geschlecht und Altersklasse
 
-Bestand der wirtschaftlichen Wohnbevölkerung nach Heimat (Schweiz/Ausland), Geschlecht und Altersklasse (5 Jahre) per Ende Jahr. Eine vollständige Dokumentation ist in der Ressource "Dokumentation Daten" zu finden.
+Der Datensatz zeigt die wirtschaftliche Wohnbevölkerung der Stadt Winterthur ab 2014. Enthalten sind Angaben zur Anzahl Personen nach Nationalität, Geschlecht und Altersklasse. Die Nationalität unterscheidet zwischen Schweizer Staatsangehörigen und ausländischen Staatsangehörigen. Die Altersklassen sind in 5-Jahres-Gruppen eingeteilt. Die Daten zeigen, wie sich die Zusammensetzung der Bevölkerung in Winterthur entwickelt.
+Weitere Informationen zur Datenquelle sowie zu den verwendeten Definitionen sind in der Ressource «Dokumentation Daten» beschrieben.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2605@stadt-winterthur)
 
@@ -15,7 +16,7 @@ Auto-generated R starter code for dataset 2605@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2024-06-05T22:00:00`
-- **Modified** `2026-02-14T12:02:40`
+- **Modified** `2026-04-29T14:16:31`
 - **Startdate** `2014-12-31`
 - **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`

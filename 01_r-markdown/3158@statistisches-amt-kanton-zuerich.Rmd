@@ -1,0 +1,99 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2026-05-10"
+output: html_document
+---
+
+## Dataset: Immobilienpreise im Kanton Zürich
+
+Der Datensatz enthält Daten zu den Preisen von Wohnbauland, Einfamilienhäusern und Eigentumswohnungen im Kanton Zürich. Die Informationen basieren auf der kantonalen Handänderungsstatistik und geben Aufschluss über das Preisniveau der entsprechenden Immobilienkategorien. Die Daten werden vom Statistischen Amt des Kantons Zürich erhoben. Grundlage hierfür sind die Handänderungsanzeigen der Grundbuchämter und Notariate. Diese Stellen halten jeden Eigentumswechsel von Landwirtschaftsland, Wohnbauland, Industrie- und Gewerbebauland sowie von Gebäuden und Eigentumswohnungen im Grundbuch fest. Hinsichtlich der Datenqualität ist zu beachten, dass die Zahlen der letzten drei vergangenen Jahre sowie des laufenden Jahres als provisorisch sind. Dies liegt an möglichen rückwirkenden Anpassungen. Eine solche Neuklassifizierung erfolgt beispielsweise, wenn nach einem Verkauf ein Gebäudeabbruch stattfindet. In diesem Fall wird davon ausgegangen, dass der Erwerb des Baulands im Vordergrund stand, weshalb die Handänderung nachträglich korrigiert wird. Die Daten weisen einen räumlichen Bezug zum Kanton Zürich auf. Die Ergebnisse sind auf der Ebene der Gemeinden und/oder der Immobilienmarktregionen aggregiert.
+
+Zurzeit wird die Datengrundlage (die Handänderungsstatistik) modernisiert und das Datenangebot im nächsten Jahr neu strukturiert und ggf. werden nicht alle OGD-Ressourcen in der gleichen Form weitergeführt.
+
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/3158@statistisches-amt-kanton-zuerich)
+
+Auto-generated R starter code for dataset 3158@statistisches-amt-kanton-zuerich.
+
+## Metadata
+
+- **Issued** `2026-05-04T13:26:58`
+- **Modified** `2026-05-04T13:26:57`
+- **Startdate** `2010-01-01`
+- **Enddate** `2025-12-31`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/OP_DATPRO']`
+- **Keyword** `['bodenpreise', 'eigentumswohnung', 'einfamilienhaus', 'immobilienhandel', 'immobilienmarkt', 'immobilienpreise', 'ogd']`
+- **Publisher** `['Statistisches Amt des Kantons Zürich']`
+- **Landingpage** `nan`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+- The dataset has 3 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 6780
+# Title                    : Gleitender Medianpreis Wohnbauland (5 Jahre) im Kanton und in den Immobilienmarktregionen
+# Description              : Die Angaben beziehen sich auf die bezahlten Preise. Für höhere Fallzahlen werden hier jeweils alle Transaktionen innerhalb von fünf Jahren berücksichtigt (gleitender Median). Trotzdem ist bei der Interpretation Vorsicht geboten. Wenn zum Beispiel in einem Jahr besonders viele Grundstücke an guten Lagen verkauft werden, werden unabhängig von der Marktentwicklung höhere Werte ausgewiesen. Die Preise im grauen Bereich sind provisorisch und können sich künftig noch verändern. In der Regel werden die Preise nach oben angepasst. Die Einteilung der Gemeinden zu den Immobilienmarktregionen erfolgt durch das Statistische Amt.
+# Issued                   : None
+# Modified                 : 2026-04-29T13:13:25
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003158_00006780.csv')
+
+# Distribution 1
+# Ktzhdistid               : 6781
+# Title                    : Medianpreis der verkauften Einfamilienhäuser im Kanton und in den Immobilienmarktregionen
+# Description              : Die Angaben beziehen sich auf die effektiv bezahlten Preise. Wenn zum Beispiel in einem Jahr besonders viele grosse Einfamilienhäuser verkauft werden und im nächsten Jahr besonders viele kleine, beeinflusst das die ausgewiesenen Preise unabhängig von der Marktentwicklung. Die Preise der letzten drei Jahre sind provisorisch und können sich künftig noch verändern. In der Regel werden die Preise nach oben angepasst. Die Einteilung der Gemeinden zu den Immobilienmarktregionen erfolgt durch das Statistische Amt.
+# Issued                   : None
+# Modified                 : 2026-04-13T11:55:39
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003158_00006781.csv')
+
+# Distribution 2
+# Ktzhdistid               : 6784
+# Title                    : Medianpreis der verkauften Eigentumswohnungen im Kanton und in den Immobilienmarktregionen
+# Description              : Die Angaben beziehen sich auf die effektiv bezahlten Preise. Wenn zum Beispiel in einem Jahr besonders viele grosse Einfamilienhäuser verkauft werden und im nächsten Jahr besonders viele kleine, beeinflusst das die ausgewiesenen Preise unabhängig von der Marktentwicklung. Die Preise der letzten drei Jahre sind provisorisch und können sich künftig noch verändern. In der Regel werden die Preise nach oben angepasst. Die Einteilung der Gemeinden zu den Immobilienmarktregionen erfolgt durch das Statistische Amt.
+# Issued                   : None
+# Modified                 : 2026-04-23T12:37:55
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003158_00006784.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Statistisches Amt des Kantons Zürich | basil.schlaepfer@statistik.ji.zh.ch

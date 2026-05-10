@@ -1,14 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-04-27"
+date: "2026-05-10"
 output: html_document
 ---
 
 ## Dataset: Wohnen in Winterthur nach Quartieren und Stadtkreisen
 
-Statistik zum Thema Wohnen in Winterthur auf Ebene Quartier, Stadtkreis und dem ganzen Stadtgebiet.
-Verfügbare Indikatoren: Anzahl Wohnungen, Wohnfläche pro Person und durchschnittliche Haushaltsgrösse.
-Die Daten sind verfügbar ab 2015.
+Der Datensatz zeigt Kennzahlen zum Wohnen in Winterthur ab 2015. Enthalten sind Angaben zur Anzahl Wohnungen, zur Wohnfläche pro Person und zur durchschnittlichen Haushaltsgrösse. Die Daten sind nach Quartier, Stadtkreis und für die ganze Stadt Winterthur verfügbar. Sie zeigen, wie sich die Wohnsituation in den verschiedenen Stadtgebieten entwickelt.
 Die Datenreihe der Quartierspiegel gibt einen Überblick über wichtige Indikatoren zu Winterthur auf Stufe Quartier, Stadtkreis und der ganzen Gemeinde. Weitere Indikatoren werden später als weitere Spalten hinzugefügt. Die Indikatoren sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2762@stadt-winterthur)
@@ -18,7 +16,7 @@ Auto-generated R starter code for dataset 2762@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2024-11-20T23:00:00`
-- **Modified** `2026-04-02T10:09:18`
+- **Modified** `2026-04-29T14:19:51`
 - **Startdate** `2015-12-31`
 - **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`

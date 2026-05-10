@@ -1,12 +1,13 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-04-27"
+date: "2026-05-10"
 output: html_document
 ---
 
 ## Dataset: Leerwohnungen der Stadt Winterthur
 
-Leerwohnungen der Stadt Winterthur ab 1984. Die Leerwohnungszählung erhebt die Anzahl leerstehenden Wohnungen per  1. Juni des Jahres. Die Leerwohnungszählung wird nach Vorgaben des Bundes durchgeführt. Nicht erfasst werden Wohnungen, die zwar unbewohnt, jedoch schon vermietet oder verkauft sind. Ebenfalls nicht erfasst werden Wohnungen, die zwar ausgeschrieben sind, aber am 1. Juni nicht bezugsbereit sind. Die von der Leerwohnungszählung ausgewiesenen Resultate beziehen sich deshalb auf denjenigen Teil des Wohnungsangebots, der nicht sofort von der Nachfrage absorbiert wird. Eine vollständige Dokumentation ist in der Ressource "Dokumentation Daten" zu finden.
+Der Datensatz zeigt die Anzahl leerstehender Wohnungen in der Stadt Winterthur ab 1984. Erfasst werden Wohnungen, die am 1. Juni leer stehen und sofort vermietet oder verkauft werden können. Nicht enthalten sind Wohnungen, die bereits vermietet oder verkauft sind oder am Stichtag noch nicht bezugsbereit sind. Die Daten zeigen, wie sich der Leerwohnungsbestand in Winterthur entwickelt.
+Weitere Informationen zur Datenquelle sowie zu den verwendeten Definitionen sind in der Ressource «Dokumentation Daten» beschrieben.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2582@stadt-winterthur)
 
@@ -15,7 +16,7 @@ Auto-generated R starter code for dataset 2582@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2024-11-20T23:00:00`
-- **Modified** `2026-02-14T12:03:27`
+- **Modified** `2026-04-29T14:19:49`
 - **Startdate** `1984-12-31`
 - **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`

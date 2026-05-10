@@ -1,12 +1,13 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-04-27"
+date: "2026-05-10"
 output: html_document
 ---
 
 ## Dataset: Beschäftigtendichte in der Stadt Winterthur ab 1995
 
-Anzahl und Anteil Beschäftigte pro Einwohner:innen. Eine vollständige Dokumentation ist in der Ressource "Dokumentation Daten" zu finden.
+Der Datensatz zeigt die Beschäftigten in der Stadt Winterthur im Verhältnis zur Bevölkerung. Enthalten sind die Anzahl Unternehmen, die Anzahl Beschäftigte, die Anzahl Einwohnende und die Beschäftigtendichte. Die Beschäftigtendichte zeigt, wie viele Beschäftigte es pro einwohnende Person gibt. Damit lässt sich die Zahl der Arbeitsplätze mit der Bevölkerungszahl vergleichen.
+Weitere Informationen zur Datenquelle sowie zu den verwendeten Definitionen sind in der Ressource «Dokumentation Daten» beschrieben.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1621@stadt-winterthur)
 
@@ -15,7 +16,7 @@ Auto-generated R starter code for dataset 1621@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2022-09-19T22:00:00`
-- **Modified** `2026-02-14T12:02:06`
+- **Modified** `2026-04-29T14:15:33`
 - **Startdate** `1995-12-31`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON']`

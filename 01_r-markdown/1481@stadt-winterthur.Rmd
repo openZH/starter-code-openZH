@@ -1,12 +1,13 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-04-27"
+date: "2026-05-10"
 output: html_document
 ---
 
 ## Dataset: Bevölkerungswachstum der Stadt Winterthur ab 1985
 
-Zeitreihe des Bevölkerungsbestands und -wachstums (total sowie Schweizer:innen und Ausländer:innen) in der Stadt Winterthur ab 1985. Eine vollständige Dokumentation ist in der Ressource "Dokumentation Daten" zu finden.
+Der Datensatz zeigt den Bevölkerungsbestand und das Bevölkerungswachstum in der Stadt Winterthur ab 1985. Enthalten sind die Gesamtzahl der Einwohnenden, das Wachstum gegenüber dem Vorjahr sowie die Anzahl Personen mit Schweizer Staatsangehörigkeit und ausländischer Staatsangehörigkeit. Ab 2014 ist auch das Durchschnittsalter enthalten. Die Daten beziehen sich jeweils auf den Stand am 31. Dezember.
+Weitere Informationen zur Datenquelle sowie zu den verwendeten Definitionen sind in der Ressource «Dokumentation Daten» beschrieben.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1481@stadt-winterthur)
 
@@ -15,7 +16,7 @@ Auto-generated R starter code for dataset 1481@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2022-09-19T22:00:00`
-- **Modified** `2026-02-14T12:03:27`
+- **Modified** `2026-04-29T14:16:39`
 - **Startdate** `1985-12-31`
 - **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`

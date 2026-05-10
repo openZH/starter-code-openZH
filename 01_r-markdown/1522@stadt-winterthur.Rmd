@@ -1,12 +1,13 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-04-27"
+date: "2026-05-10"
 output: html_document
 ---
 
 ## Dataset: Betriebe, Beschäftigte, Vollzeitäquivalente in der Stadt Winterthur ab 2011
 
-Betriebe, Beschäftigte und Vollzeitäquivalente nach Branchen in der Stadt Winterthur. Die Branchen sind mit NOGA08 (Stufe 2) codiert (Allgemeine Systematik der Wirtschaftszweige, Nomenclature Générale des Activités économiques). Datenquelle: Bundesamt für Statistik, Statistik der Unternehmensstruktur (STATENT). Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
+Der Datensatz zeigt Betriebe, Beschäftigte und Vollzeitäquivalente in der Stadt Winterthur nach Branche. Die Branchen richten sich nach der NOGA-Systematik des Bundesamts für Statistik. Enthalten sind zum Beispiel Angaben zu Industrie, Bau, Handel, Verkehr, Gastronomie, Bildung oder Gesundheitswesen. Die Daten zeigen, wie viele Betriebe und Beschäftigte es in den verschiedenen Wirtschaftsbereichen gibt. Die Daten stammen aus der Statistik der Unternehmensstruktur STATENT des Bundesamts für Statistik.
+Weitere Informationen zur Datenquelle sowie zu den verwendeten Definitionen sind in der Ressource «Dokumentation Daten» beschrieben.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1522@stadt-winterthur)
 
@@ -15,7 +16,7 @@ Auto-generated R starter code for dataset 1522@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2022-09-19T22:00:00`
-- **Modified** `2026-02-14T12:02:06`
+- **Modified** `2026-04-29T14:16:19`
 - **Startdate** `2011-12-31`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/AGRI', 'http://publications.europa.eu/resource/authority/data-theme/ECON']`

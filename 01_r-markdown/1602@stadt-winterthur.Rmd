@@ -1,12 +1,13 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-04-27"
+date: "2026-05-10"
 output: html_document
 ---
 
 ## Dataset: Wohnungsbestand nach Zimmerzahl und Quartier in der Stadt Winterthur ab 2015
 
-Zeitreihe des Wohnungsbestandes in der Stadt Winterthur nach Wohnungsgrösse (Zimmerzahl) und Quartier. Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
+Der Datensatz zeigt den Wohnungsbestand in der Stadt Winterthur nach Jahr, Quartier, Stadtkreis und Wohnungsgrösse. Die Wohnungsgrösse wird nach Anzahl Zimmer ausgewiesen, zum Beispiel 1 Zimmer, 2 Zimmer, 3 Zimmer, 4 Zimmer, 5 Zimmer oder 6 und mehr Zimmer. Enthalten ist die Anzahl Wohnungen pro Zimmergruppe. Die Daten beziehen sich jeweils auf den Stand am 31. Dezember.
+Weitere Informationen zur Datenquelle sowie zu den verwendeten Definitionen sind in der Ressource «Dokumentation Daten» beschrieben.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1602@stadt-winterthur)
 
@@ -15,7 +16,7 @@ Auto-generated R starter code for dataset 1602@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2022-09-19T22:00:00`
-- **Modified** `2026-02-14T12:04:28`
+- **Modified** `2026-04-29T14:19:53`
 - **Startdate** `2015-12-31`
 - **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
