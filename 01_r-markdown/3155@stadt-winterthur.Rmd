@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-05-10"
+date: "2026-05-17"
 output: html_document
 ---
 
@@ -19,7 +19,7 @@ Auto-generated R starter code for dataset 3155@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2026-04-13T08:04:12`
-- **Modified** `2026-04-29T14:19:54`
+- **Modified** `2026-05-11T19:11:15`
 - **Startdate** `2015-12-31`
 - **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/REGI', 'http://publications.europa.eu/resource/authority/data-theme/SOCI']`
@@ -48,8 +48,8 @@ library(skimr)
 # Ktzhdistid               : 6768
 # Title                    : Wohnungsbestand in Winterthur nach Quartieren und Stadtkreisen
 # Description              : Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
-# Issued                   : None
-# Modified                 : 2026-03-24T14:05:28
+# Issued                   : 2026-05-11T19:09:38
+# Modified                 : 2026-05-11T19:09:38
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003155_00006768.csv')
 

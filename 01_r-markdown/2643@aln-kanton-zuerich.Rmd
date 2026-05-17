@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-05-10"
+date: "2026-05-17"
 output: html_document
 ---
 
 ## Dataset: Naturschutz-Finanzaufwand im Natur- und Heimatschutzfond des Kantons Zürich
 
-Der Datensatz enthält Informationen zur Entwicklung des jährlichen Naturschutzaufwandes in den Auftragskategorien gemäss Naturschutzgesamtkonzept des Kantons Zürich im Natur- und Heimatschutzfonds (NHF) seit 2021. Die Daten stammen aus den jährlichen SAP-Finanzbelegen des Profitcenters 89120 Naturschutz des Kantons Zürich und wurden auf die Auftragskategorien gemäss 'Umsetzungsplan Naturschutzgesamtkonzept Zwischenbericht 2020' umgelagert. Weitere Ausgaben zur Biodiversitätsförderung im Kanton Zürich aus anderen Finanzierungsquellen als dem NHF sind in diesen Daten nicht abgebildet. Aufgrund der Komplexität der Kostenumlagerungen waren in den Reportingjahren rückwirkende Anpassungen in einzelnen Kategorien notwendig, um die optimale Vergleichbarkeit der Jahre untereinander zu gewährleisten. Die Datei enthält daher für jedes Reportingjahr die jeweils publizierten Werte für jede Auftragskategorie pro Ausgabejahr, inklusive entsprechender Kommentare zu vorgenommenen Korrekturen. Die Korrekturen sind vollständig und transparent nachvollziehbar dokumentiert. Für eine einfache Übersicht der Finanzentwicklung reicht es, die Datensätze des jeweils aktuellsten Reportingjahres zu betrachten.
+Der Datensatz enthält Informationen zur Entwicklung des jährlichen Naturschutzaufwandes in den Auftragskategorien gemäss Naturschutzgesamtkonzept des Kantons Zürich im Natur- und Heimatschutzfonds (NHF) seit 2020. Die Daten stammen aus den jährlichen SAP-Finanzbelegen des Profitcenters 89120 Naturschutz des Kantons Zürich und wurden auf die Auftragskategorien gemäss 'Umsetzungsplan Naturschutzgesamtkonzept Zwischenbericht 2020' umgelagert. Weitere Ausgaben zur Biodiversitätsförderung im Kanton Zürich aus anderen Finanzierungsquellen als dem NHF sind in diesen Daten nicht abgebildet. Aufgrund der Komplexität der Kostenumlagerungen waren in den Reportingjahren rückwirkende Anpassungen in einzelnen Kategorien notwendig, um die optimale Vergleichbarkeit der Jahre untereinander zu gewährleisten. Die Datei enthält daher für jedes Reportingjahr die jeweils publizierten Werte für jede Auftragskategorie pro Ausgabejahr, inklusive entsprechender Kommentare zu vorgenommenen Korrekturen. Die Korrekturen sind vollständig und transparent nachvollziehbar dokumentiert. Für eine einfache Übersicht der Finanzentwicklung reicht es, die Datensätze des jeweils aktuellsten Reportingjahres zu betrachten.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2643@aln-kanton-zuerich)
 
@@ -15,9 +15,9 @@ Auto-generated R starter code for dataset 2643@aln-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2024-07-17T22:00:00`
-- **Modified** `2025-03-23T23:00:00`
-- **Startdate** `2021-01-01`
-- **Enddate** `2024-12-31`
+- **Modified** `2026-05-13T07:04:23`
+- **Startdate** `2020-01-01`
+- **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI', 'http://publications.europa.eu/resource/authority/data-theme/GOVE']`
 - **Keyword** `['biodiversitaetsfoerderung', 'naturschutz', 'nhf', 'oeffentliche_finanzen', 'ogd', 'staatsfinanzen', 'umwelt']`
 - **Publisher** `['Amt für Landschaft und Natur']`
@@ -42,10 +42,10 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 5443
-# Title                    : Entwicklung Finanzen 89120 seit 2021
+# Title                    : Entwicklung Finanzen 89120 seit 2020
 # Description              : None
 # Issued                   : 2024-07-17T22:00:00
-# Modified                 : 2025-03-23T23:00:00
+# Modified                 : 2026-05-13T07:28:02
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002643_00005443.csv')
 
