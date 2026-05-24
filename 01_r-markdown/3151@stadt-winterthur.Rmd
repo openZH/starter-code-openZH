@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-05-17"
+date: "2026-05-24"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto-generated R starter code for dataset 3151@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2026-04-13T08:09:32`
-- **Modified** `2026-05-11T19:09:17`
+- **Modified** `2026-05-18T12:15:02`
 - **Startdate** `2015-12-31`
 - **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/REGI', 'http://publications.europa.eu/resource/authority/data-theme/SOCI']`
@@ -50,7 +50,7 @@ library(skimr)
 # Title                    : Wohnfläche pro Haushalt in Winterthur nach Quartieren und Stadtkreisen
 # Description              : Die Datenreihe des Wohnmonitors gibt einen Überblick zum Wohnen in Winterthur auf Stufe Quartier, Stadtkreis und der gesamten Gemeinde. Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
 # Issued                   : 2026-05-11T19:09:16
-# Modified                 : 2026-05-11T19:09:16
+# Modified                 : 2026-05-18T12:15:02
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003151_00006760.csv')
 

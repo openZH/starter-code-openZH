@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-05-17"
+date: "2026-05-24"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto-generated R starter code for dataset 3152@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2026-04-13T08:04:38`
-- **Modified** `2026-05-11T19:11:08`
+- **Modified** `2026-05-18T12:15:07`
 - **Startdate** `2016-12-31`
 - **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/REGI', 'http://publications.europa.eu/resource/authority/data-theme/SOCI']`
@@ -50,7 +50,7 @@ library(skimr)
 # Title                    : Wohnbaubilanz in Winterthur nach Quartieren und Stadtkreisen
 # Description              : Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
 # Issued                   : 2026-05-11T19:09:18
-# Modified                 : 2026-05-11T19:09:18
+# Modified                 : 2026-05-18T12:15:07
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003152_00006762.csv')
 
