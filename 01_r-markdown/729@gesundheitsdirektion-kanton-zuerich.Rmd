@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-05-24"
+date: "2026-05-31"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto-generated R starter code for dataset 729@gesundheitsdirektion-kanton-zueric
 ## Metadata
 
 - **Issued** `2021-08-02T22:00:00`
-- **Modified** `2025-08-10T22:00:00`
+- **Modified** `2026-05-28T12:53:49`
 - **Startdate** `2019-07-03`
-- **Enddate** `2025-08-08`
+- **Enddate** `2026-05-21`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC', 'http://publications.europa.eu/resource/authority/data-theme/ENVI', 'http://publications.europa.eu/resource/authority/data-theme/HEAL']`
 - **Keyword** `['gesundheit', 'kanton_zuerich', 'ogd', 'seen', 'sport', 'wasser']`
 - **Publisher** `['Gesundheitsdirektion des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Erhebung der Badewasserqualität in öffentlichen Badeanstalten an Flüssen und Seen im Kanton Zürich
 # Description              : Variabeln: 'date' = Tag der Entnahme der Probe; 'id' = Identifikator des Orts; 'location' = Ausgeschriebener Name des Orts; 'quality' = Bewertungsstufen der Badewasserqualität; 'remark' = Optionale Anmerkungen zur Probe; 'source' = Organisation, welche die Probe durchführt; 'lat' = Breitengrad des Orts; 'long' = Längengrad des Orts; 'image' = Bild des Orts (wird nicht regelmässig aktualisiert; URL).
 # Issued                   : 2022-10-16T22:00:00
-# Modified                 : 2025-08-10T22:00:00
+# Modified                 : 2026-05-28T12:54:49
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000729_00003341.csv')
 
