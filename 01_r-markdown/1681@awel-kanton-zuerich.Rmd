@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-05-31"
+date: "2026-06-14"
 output: html_document
 ---
 
 ## Dataset: Produktion von Wärme und Strom aus erneuerbaren Energieträgern im Kanton Zürich ab 2010
 
-Die Daten weisen für die verschiedenen erneuerbaren Energieträger aus, wie viel sie seit 2010 insgesamt pro Jahr in Megawattstunden (MWh) zur Produktion von Wärme und Strom beigetragen haben. Die Daten stammen aus der Markterhebung Sonnenenergie vom Bundesamt für Energie (BFE), für Biomasse (einschliesslich Holz) von der UMWEKO GmbH, für Abwasser von den Elektrizitätswerken des Kantons Zürich (EKZ) sowie vom Elektrizitätswerk der Stadt Zürich (EWZ), für Kehricht, für Wasser und für Luft vom Amt für Abfall, Wasser, Energie und Luft (AWEL) des Kantons Zürich. Hinweise: Zur Produktion von Strom mittels Geothermie (tiefe Bohrungen) und Windkraft gibt es im Kanton Zürich aktuell keine oder nur sehr tiefe Werte; beide Energieträger sind als Stromquellen in den Daten bis 2022 mit dem Wert '0' enthalten.
+Die Daten weisen für die verschiedenen erneuerbaren Energieträger aus, wie viel sie seit 2010 insgesamt pro Jahr in Megawattstunden (MWh) zur Produktion von Wärme und Strom beigetragen haben. Die Daten stammen aus der Markterhebung Sonnenenergie vom Bundesamt für Energie (BFE), für Biomasse (einschliesslich Holz) von der UMWEKO GmbH, für Abwasser von den Elektrizitätswerken des Kantons Zürich (EKZ) sowie vom Elektrizitätswerk der Stadt Zürich (EWZ), für Kehricht, für Wasser und für Luft vom Amt für Abfall, Wasser, Energie und Luft (AWEL) des Kantons Zürich. Hinweise: Zur Produktion von Strom mittels Geothermie (tiefe Bohrungen) und Windkraft gibt es im Kanton Zürich aktuell keine oder nur sehr tiefe Werte; beide Energieträger sind als Stromquellen in den Daten bis 2022 mit dem Wert '0' enthalten. Neu integriert wurde im Bereich Wärme ein vorerst geschätzter Wert zur Abwärmenutzung von Rechenzentren. Die meisten Daten wurden im Jahr 2026 rückwirkend auf Basis neuer Berechnungen und Datengrundlagen angepasst.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1681@awel-kanton-zuerich)
 
@@ -15,9 +15,9 @@ Auto-generated R starter code for dataset 1681@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2022-08-24T22:00:00`
-- **Modified** `2025-03-26T23:00:00`
+- **Modified** `2026-06-02T13:30:55`
 - **Startdate** `2010-01-01`
-- **Enddate** `2023-12-31`
+- **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENER']`
 - **Keyword** `['abfall', 'abwasser', 'biomasse', 'elektrizitaet', 'elektrizitaetsproduktion', 'energie', 'energieproduktion', 'energieressourcen', 'energietraeger', 'erneuerbare_energien', 'geothermie', 'grundwasser', 'holz', 'kehricht', 'luft', 'ogd', 'photovoltaik', 'seen', 'sonne', 'sonnenenergie', 'strom', 'waerme', 'waermepumpen', 'wasser', 'wasserkraft', 'wind', 'windenergie', 'windkraft']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
@@ -43,9 +43,9 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 3140
 # Title                    : Produktion von Wärme und Strom aus erneuerbaren Energieträgern im Kanton Zürich
-# Description              : Zur Produktion von Wärme in Megawattstunden (MWh) enthalten sind die Energieträger: Kehricht, Biomasse (einschliesslich Holz), Sonne, Wasser (umfasst Oberflächen- und Grundwasser), Geothermie (untiefe Bohrungen), Luft (umfasst Luft-Wärmepumpen) sowie Abwasser. Zur Produktion von Strom zusätzlich enthalten ist der Energieträger 'Windkraft', während bei 'Geothermie' keine 'untiefen', sondern nur 'tiefe' Bohrungen zur Stromproduktion beitragen; die Energieträger 'Luft' und 'Abwasser' werden zur Stromproduktion nicht genutzt.
+# Description              : Zur Produktion von Wärme in Megawattstunden (MWh) enthalten sind die Energieträger: Kehricht, Biomasse (einschliesslich Holz), Sonne, Wasser (umfasst Oberflächen- und Grundwasser), Geothermie (untiefe Bohrungen), Luft (umfasst Luft-Wärmepumpen), Rechenzentren (Abwärme) sowie Abwasser. Zur Produktion von Strom zusätzlich enthalten ist der Energieträger 'Windkraft', während bei 'Geothermie' keine 'untiefen', sondern nur 'tiefe' Bohrungen zur Stromproduktion beitragen; die Energieträger 'Luft' und 'Abwasser' werden zur Stromproduktion nicht genutzt.
 # Issued                   : 2022-08-24T22:00:00
-# Modified                 : 2025-04-02T22:00:00
+# Modified                 : 2026-06-11T14:08:11
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001681_00003140.csv')
 

@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-05-31"
+date: "2026-06-14"
 output: html_document
 ---
 
 ## Dataset: Wärme-, Strom- und Treibstoffverbrauch im Kanton Zürich ab 2010
 
-Die Stromdaten stammen von der Eidgenössischen Elektrizitätskommission (ElCom), die Treibstoffdaten aus der schweizerischen Gesamtenergiestatistik des Bundesamts für Energie (BFE) und die Wärmedaten aus der kantonalen Statistik des Amts für Abfall, Wasser, Energie und Luft (AWEL). Die Erhebung der Daten dient dem AWEL dazu, den Energieverbrauch nach unterschiedlichen Energiesektoren für den Kanton Zürich aufzuzeichnen und beobachten zu können. 
+Die Stromdaten stammen von der Eidgenössischen Elektrizitätskommission (ElCom), die Treibstoffdaten aus der schweizerischen Gesamtenergiestatistik des Bundesamts für Energie (BFE) und die Wärmedaten aus der kantonalen Statistik des Amts für Abfall, Wasser, Energie und Luft (AWEL). Die Erhebung der Daten dient dem AWEL dazu, den Energieverbrauch nach unterschiedlichen Energiesektoren für den Kanton Zürich aufzuzeichnen und beobachten zu können. Neu ist der Eigenverbrauch ab 2024 im Strom enthalten.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1661@awel-kanton-zuerich)
 
@@ -15,9 +15,9 @@ Auto-generated R starter code for dataset 1661@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2022-08-24T22:00:00`
-- **Modified** `2025-03-26T23:00:00`
+- **Modified** `2026-06-03T11:30:18`
 - **Startdate** `2010-01-01`
-- **Enddate** `2023-12-31`
+- **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENER', 'http://publications.europa.eu/resource/authority/data-theme/ENVI', 'http://publications.europa.eu/resource/authority/data-theme/TRAN']`
 - **Keyword** `['elektrizitaet', 'energie', 'energieverbrauch', 'erhebung', 'ogd', 'strom', 'stromverbrauch', 'treibstoff', 'treibstoffverbrauch', 'waerme', 'waermeverbrauch']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Wärme-, Strom- und Treibstoffverbrauch im Kanton Zürich
 # Description              : Der Energieverbrauch wird in Gigawattstunden (GWh) ausgewiesen. Dabei wird unterschieden zwischen den Energiesektoren Wärme, Strom und Treibstoff.
 # Issued                   : 2022-08-24T22:00:00
-# Modified                 : 2025-03-26T23:00:00
+# Modified                 : 2026-06-03T11:29:37
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001661_00003118.csv')
 
