@@ -1,0 +1,179 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2026-06-28"
+output: html_document
+---
+
+## Dataset: Häusliche Gewalt im Kanton Zürich
+
+Das Monitoring häuslicher Gewalt im Kanton Zürich misst, wie verbreitet körperliche, seelische, sexuelle oder wirtschaftliche Gewalt in Familie und Partnerschaft ist. Die Kennzahlen stammen aus verschiedenen Quellen: Interventionsstelle gegen häusliche Gewalt, Obergericht Kanton Zürich, mannebüro Zürich, Team72, Bewährungs- und Vollzugsdienste, Kantonale Opferhilfe, Aufsuchender Dienst Forensic Nurses, Schutzunterkünfte für Minderjährige, Frauenhäuser des Kanton Zürich, Statthalterämter des Kanton Zürich und Staatsanwaltschaft. Jede Stelle erfasst nur jene Fälle, die bei ihr gemeldet und bearbeitet werden. Deshalb sind die Kennwerte, beispielsweise die Opferzahlen, nicht immer gleich. 
+Die Daten werden jährlich aktualisiert und bilden die Grundlage der Webseite «Häusliche Gewalt in Zahlen» (siehe Landingpage). Dort finden Sie auch ein readme zu den Daten, inkl. Methodik und Limitationen.
+
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/3162@statistisches-amt-kanton-zuerich)
+
+Auto-generated R starter code for dataset 3162@statistisches-amt-kanton-zuerich.
+
+## Metadata
+
+- **Issued** `2026-06-23T11:16:47`
+- **Modified** `2026-06-23T11:16:47`
+- **Startdate** `2016-01-01`
+- **Enddate** `2025-12-31`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/JUST', 'http://publications.europa.eu/resource/authority/data-theme/SOCI']`
+- **Keyword** `['aggression', 'gerichte', 'gewalt', 'haeusliche_gewalt', 'kanton_zuerich', 'ogd', 'polizei', 'strafbare_handlungen', 'strafdelikte', 'straftaten']`
+- **Publisher** `['Statistisches Amt des Kantons Zürich']`
+- **Landingpage** `https://www.zh.ch/de/sicherheit-justiz/delikte-praevention/gewalt-extremismus/haeusliche-gewalt/haeusliche-gewalt-in-zahlen.html`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+- The dataset has 12 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 6809
+# Title                    : Aufsuchender Dienst Forensic Nurses
+# Description              : Einsätze des Aufsuchenden Dienstes der Forensic Nurses (ADFN) der Gesundheitsdirektion Kanton Zürich. Erfasst werden Fälle mit forensischer Untersuchung (Ausrückungen zu Spitälern) und telefonische Konsultationen, aufgeschlüsselt nach Deliktart und Kontaktart. Der ADFN ist zuständig für Fälle häuslicher Gewalt und Sexualdelikte. Daten ab April 2024.
+# Issued                   : None
+# Modified                 : 2026-06-22T07:49:26
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003162_00006809.csv')
+
+# Distribution 1
+# Ktzhdistid               : 6793
+# Title                    : Abklärungen Lernprogramm PoG®
+# Description              : Abklärungen für das Lernprogramm PoG® (Partnerschaft ohne Gewalt) des Kantons Zürich. Erfasst werden Personen, die für das Programm abgeklärt wurden, mit Angabe der rechtlichen Grundlage (z.B. Ersatzmassnahme, Strafbefehl, Sistierung), des Abklärungsergebnisses (positiv / negativ) sowie bei negativem Ergebnis der Ablehnungskategorie. Die Historik 2020–2024 enthält nur Gesamtzahlen ohne Aufschlüsselung nach Abklärungsergebnis. Daten ab 2020.
+# Issued                   : None
+# Modified                 : 2026-06-23T09:30:38
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003162_00006793.csv')
+
+# Distribution 2
+# Ktzhdistid               : 6794
+# Title                    : Programmabschlüsse Lernprogramm PoG®
+# Description              : Abschlüsse des Lernprogramms PoG® (Partnerschaft ohne Gewalt) des Kantons Zürich. Erfasst werden Personen, die nach positiver Abklärung am Programm teilgenommen haben, mit Angabe der rechtlichen Grundlage und des Programmabschlusses (abgeschlossen / nicht abgeschlossen). Abklärung und Abschluss können in verschiedenen Jahren stattfinden und sind daher nicht direkt verknüpfbar. Daten ab 2025.
+# Issued                   : None
+# Modified                 : 2026-06-22T07:55:11
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003162_00006794.csv')
+
+# Distribution 3
+# Ktzhdistid               : 6803
+# Title                    : Frauenhäuser: Belegung und Betreuungszahlen
+# Description              : Aggregierte Jahresdaten der drei Frauenhäuser im Kanton Zürich (Frauenhaus Zürich Violetta, Frauenhaus und Beratungsstelle Zürcher Oberland, Frauenhaus Winterthur). Erfasst werden die Anzahl aufgenommener Frauen und Kinder, die mittlere Aufenthaltsdauer in Tagen sowie der Kontext der erlebten Gewalt (Rahmen der Gewalt). Daten ab 2019.
+# Issued                   : None
+# Modified                 : 2026-06-23T09:34:11
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003162_00006803.csv')
+
+# Distribution 4
+# Ktzhdistid               : 6804
+# Title                    : Polizeieinsätze und Gewaltschutzmassnahmen
+# Description              : Aggregierte Jahresdaten der Interventionsstelle gegen Häusliche Gewalt (IST) des Kantons Zürich. Der Datensatz ist im Long-Format strukturiert mit den Spalten thema, kategorie und kategorie_wert. Erfasst werden zwei Themenbereiche: Polizeiausrückungen (Ausrückfälle nach Typ, ab 2016) und polizeilich angeordnete Gewaltschutzmassnahmen (GSG-Verfügungen, Geschlecht der betroffenen Personen, mitbetroffene Minderjährige, alle ab 2016; Beziehung zwischen den Beteiligten ab 2020).
+# Issued                   : None
+# Modified                 : 2026-06-22T08:06:50
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003162_00006804.csv')
+
+# Distribution 5
+# Ktzhdistid               : 6796
+# Title                    : Ansprachen von Gefährdenden
+# Description              : Ansprachen von Gefährdenden nach Gewaltschutzgesetz (GSG) im Bereich häuslicher Gewalt im Kanton Zürich, aufgeteilt nach Geschlecht (Frauen: team72 / BVD; Männer: mannebüro züri). Erfasst werden Ansprachen von Personen, die von der Polizei wegen häuslicher Gewalt gemeldet wurden, mit Angabe der Kontaktart (Kontakt mit Beratung, Kontakt ohne Beratung, nicht erreicht). Daten ab 2019.
+# Issued                   : None
+# Modified                 : 2026-06-22T08:08:01
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003162_00006796.csv')
+
+# Distribution 6
+# Ktzhdistid               : 6801
+# Title                    : Antragsarten bei Gewaltschutzverfahren vor den Bezirksgerichten
+# Description              : Antragsarten bei Gewaltschutzverfahren (GSG) vor den Bezirksgerichten des Kantons Zürich. Erfasst werden die Antragsarten (Verlängerung, Aufhebung oder Anpassung, Anfechtung) mit Angabe des Erledigungsjahres und des Endentscheids. Ein Verfahren mit mehreren Antragsarten erscheint mehrfach (eine Zeile pro Antragsart). Fälle ohne bestimmbare massgebliche Geschäftsunterart weisen keinen Endentscheid auf. Achtung: Dieser Datensatz zählt Antragsarten, nicht Verfahren – eine Aggregation über Antragsarten ergibt keine Verfahrenszahlen. Daten ab 2020.
+# Issued                   : None
+# Modified                 : 2026-06-23T09:34:46
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003162_00006801.csv')
+
+# Distribution 7
+# Ktzhdistid               : 6800
+# Title                    : Gewaltschutzverfahren vor den Bezirksgerichten
+# Description              : Gewaltschutzverfahren (GSG) vor den Bezirksgerichten des Kantons Zürich. Erfasst werden abgeschlossene Verfahren mit Angabe des Erledigungsjahres und des Endentscheids (Gutheissung, Teilweise Gutheissung, Abweisung, Einstellung, Nicht inhaltlich entschieden). Daten ab 2020.
+# Issued                   : None
+# Modified                 : 2026-06-23T09:35:05
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003162_00006800.csv')
+
+# Distribution 8
+# Ktzhdistid               : 6810
+# Title                    : Opferhilfe: Beratungszahlen
+# Description              : Aggregierte Jahresdaten der Opferhilfe-Beratungsstellen im Kanton Zürich. Erfasst werden beratene Personen nach Kontext der erlebten Gewalt (Häusliche Gewalt / Andere Straftaten) und Geschlecht. Die Daten stammen aus der schweizerischen Opferhilfestatistik (OHS) des Bundesamts für Statistik. Daten ab 2014.
+# Issued                   : None
+# Modified                 : 2026-06-23T09:35:48
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003162_00006810.csv')
+
+# Distribution 9
+# Ktzhdistid               : 6808
+# Title                    : Schutzunterkünfte für Minderjährige: Belegung und Beratungszahlen
+# Description              : Aggregierte Jahresdaten der Schutzunterkünfte für Minderjährige im Kanton Zürich (Mädchenhaus, OKey und Schlupfhuus). Erfasst werden aufgenommene Personen, Aufenthaltstage sowie Altersgruppen und Gründe der Unterbringung. Bei den Gründen sind Mehrfachnennungen möglich. Daten ab 2025.
+# Issued                   : None
+# Modified                 : 2026-06-23T09:35:27
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003162_00006808.csv')
+
+# Distribution 10
+# Ktzhdistid               : 6807
+# Title                    : Erledigungen Staatsanwaltschaft
+# Description              : Verfahren wegen häuslicher Gewalt bei der Staatsanwaltschaft Kanton Zürich. Erfasst werden Tatboxen (einzelne Delikte) aus Verfahren, bei denen mindestens ein Delikt aus dem Bereich häusliche Gewalt vorliegt und Beschuldigte und Geschädigte in einer häuslichen Beziehung stehen. Ausgewiesen werden die Anzahl Tatboxen nach Eingangsjahr und Erledigungsgruppe. Der Auswertungsstand entspricht jeweils dem Jahresende. Daten ab 2016.
+# Issued                   : None
+# Modified                 : 2026-06-23T09:36:14
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003162_00006807.csv')
+
+# Distribution 11
+# Ktzhdistid               : 6795
+# Title                    : Häusliche Gewaltverfahren der Statthalterämter
+# Description              : Verfahren zu häuslicher Gewalt der 12 Statthalterämter des Kantons Zürich. Erfasst werden Fälle von einfacher Tätlichkeit, wiederholter Tätlichkeit, sexueller Belästigung und Ungehorsam gegen amtliche Verfügung. Die Daten umfassen die Erledigungsart (Einstellung / NA, Strafbefehl / Busse, Abtretung). Nicht berücksichtigt werden Fälle, die im Kalenderjahr noch pendent sind. Daten ab 2025.
+# Issued                   : 2026-06-23T13:14:43
+# Modified                 : 2026-06-23T13:14:43
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003162_00006795.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Statistisches Amt des Kantons Zürich | Analysen & Studien | tabea.palmtag@statistik.ji.zh.ch
