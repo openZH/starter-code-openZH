@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-06-28"
+date: "2026-07-03"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto-generated R starter code for dataset 2322@statistisches-amt-kanton-zuerich.
 - **Enddate** `2025-09-03`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON']`
 - **Keyword** `['arbeitsstaetten', 'betriebe', 'branchen', 'firmen', 'ogd', 'sitzverlegungen', 'unternehmensstruktur', 'wegzuege', 'zuzuege']`
-- **Publisher** `['Statistisches Amt des Kantons Zürich']`
+- **Publisher** `['Amt für Statistik und Daten']`
 - **Landingpage** `nan`
 
 
@@ -103,4 +103,4 @@ tail(df)
 
 # Questions about the data?
 
-Statistisches Amt des Kantons Zürich | Data Management | dm@statistik.ji.zh.ch
+Amt für Statistik und Daten | Data Management | dm@statistik.ji.zh.ch

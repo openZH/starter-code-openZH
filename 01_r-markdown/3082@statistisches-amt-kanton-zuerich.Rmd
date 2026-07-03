@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-06-28"
+date: "2026-07-03"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto-generated R starter code for dataset 3082@statistisches-amt-kanton-zuerich.
 - **Enddate** `nan`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/REGI']`
 - **Keyword** `['bezirke', 'gemeinden', 'ogd', 'raumplanungsregionen', 'stammdaten']`
-- **Publisher** `['Statistisches Amt des Kantons Zürich']`
+- **Publisher** `['Amt für Statistik und Daten']`
 - **Landingpage** `https://github.com/statistikZH/gebietsstammdaten_zh`
 
 
@@ -112,4 +112,4 @@ tail(df)
 
 # Questions about the data?
 
-Statistisches Amt des Kantons Zürich | Data Management | rebekka.pluess@zh.ch
+Amt für Statistik und Daten | Data Management | rebekka.pluess@zh.ch

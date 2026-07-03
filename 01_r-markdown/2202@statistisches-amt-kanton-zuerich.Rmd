@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-06-28"
+date: "2026-07-03"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto-generated R starter code for dataset 2202@statistisches-amt-kanton-zuerich.
 - **Enddate** `2023-10-22`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE']`
 - **Keyword** `['demokratie', 'nationalratswahlen', 'wahlarchiv', 'wahlen', 'wahlergebnisse']`
-- **Publisher** `['Statistisches Amt des Kantons Zürich']`
+- **Publisher** `['Amt für Statistik und Daten']`
 - **Landingpage** `https://app.statistik.zh.ch/wahlen_abstimmungen/prod/Actual/Det/0_0_20231022/247586`
 
 
@@ -139,4 +139,4 @@ tail(df)
 
 # Questions about the data?
 
-Statistisches Amt des Kantons Zürich | Wahlen & Abstimmungen | wahlen@statistik.ji.zh.ch
+Amt für Statistik und Daten | Wahlen & Abstimmungen | wahlen@statistik.ji.zh.ch

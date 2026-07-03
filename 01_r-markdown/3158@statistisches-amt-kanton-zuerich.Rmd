@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-06-28"
+date: "2026-07-03"
 output: html_document
 ---
 
@@ -22,7 +22,7 @@ Auto-generated R starter code for dataset 3158@statistisches-amt-kanton-zuerich.
 - **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/OP_DATPRO']`
 - **Keyword** `['bodenpreise', 'eigentumswohnung', 'einfamilienhaus', 'immobilienhandel', 'immobilienmarkt', 'immobilienpreise', 'ogd']`
-- **Publisher** `['Statistisches Amt des Kantons Zürich']`
+- **Publisher** `['Amt für Statistik und Daten']`
 - **Landingpage** `nan`
 
 
@@ -96,4 +96,4 @@ tail(df)
 
 # Questions about the data?
 
-Statistisches Amt des Kantons Zürich | basil.schlaepfer@statistik.ji.zh.ch
+Amt für Statistik und Daten | basil.schlaepfer@statistik.ji.zh.ch

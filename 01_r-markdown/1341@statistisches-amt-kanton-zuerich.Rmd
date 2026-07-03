@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-06-28"
+date: "2026-07-03"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto-generated R starter code for dataset 1341@statistisches-amt-kanton-zuerich.
 - **Enddate** `2023-09-30`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON', 'http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['gemeindefinanzen', 'gemeindeleistungen', 'gemeinden', 'gemeindesteuern', 'kanton_zuerich', 'ogd', 'staatsausgaben', 'steuerfuss', 'steuern', 'wohnbevoelkerung', 'wohngemeinde']`
-- **Publisher** `['Statistisches Amt des Kantons Zürich']`
+- **Publisher** `['Amt für Statistik und Daten']`
 - **Landingpage** `nan`
 
 
@@ -103,4 +103,4 @@ tail(df)
 
 # Questions about the data?
 
-Statistisches Amt des Kantons Zürich | Befragungen und Sozialhilfestatistik | umfragen@statistik.ji.zh.ch
+Amt für Statistik und Daten | Befragungen und Sozialhilfestatistik | umfragen@statistik.ji.zh.ch

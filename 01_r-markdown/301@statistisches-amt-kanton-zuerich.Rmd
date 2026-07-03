@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-06-28"
+date: "2026-07-03"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto-generated R starter code for dataset 301@statistisches-amt-kanton-zuerich.
 - **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON', 'http://publications.europa.eu/resource/authority/data-theme/GOVE']`
 - **Keyword** `['bezirke', 'gemeindefinanzen', 'gemeinden', 'kanton_zuerich', 'natuerliche_personen', 'nicht_weitergefuehrt', 'ogd', 'steuerertrag', 'steuern']`
-- **Publisher** `['Statistisches Amt des Kantons Zürich']`
+- **Publisher** `['Amt für Statistik und Daten']`
 - **Landingpage** `https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html`
 
 
@@ -76,4 +76,4 @@ tail(df)
 
 # Questions about the data?
 
-Statistisches Amt des Kantons Zürich | Data Shop | datashop@statistik.zh.ch
+Amt für Statistik und Daten | Data Shop | datashop@statistik.zh.ch

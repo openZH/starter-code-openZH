@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-06-28"
+date: "2026-07-03"
 output: html_document
 ---
 
@@ -21,7 +21,7 @@ Auto-generated R starter code for dataset 3162@statistisches-amt-kanton-zuerich.
 - **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/JUST', 'http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['aggression', 'gerichte', 'gewalt', 'haeusliche_gewalt', 'kanton_zuerich', 'ogd', 'polizei', 'strafbare_handlungen', 'strafdelikte', 'straftaten']`
-- **Publisher** `['Statistisches Amt des Kantons Zürich']`
+- **Publisher** `['Amt für Statistik und Daten']`
 - **Landingpage** `https://www.zh.ch/de/sicherheit-justiz/delikte-praevention/gewalt-extremismus/haeusliche-gewalt/haeusliche-gewalt-in-zahlen.html`
 
 
@@ -44,9 +44,9 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 6809
 # Title                    : Aufsuchender Dienst Forensic Nurses
-# Description              : Einsätze des Aufsuchenden Dienstes der Forensic Nurses (ADFN) der Gesundheitsdirektion Kanton Zürich. Erfasst werden Fälle mit forensischer Untersuchung (Ausrückungen zu Spitälern) und telefonische Konsultationen, aufgeschlüsselt nach Deliktart und Kontaktart. Der ADFN ist zuständig für Fälle häuslicher Gewalt und Sexualdelikte. Daten ab April 2024.
-# Issued                   : None
-# Modified                 : 2026-06-22T07:49:26
+# Description              : Einsätze des Aufsuchenden Dienstes der Forensic Nurses (ADFN). Erfasst werden Fälle mit forensischer Untersuchung (Ausrückungen zu Spitälern) und telefonische Konsultationen, aufgeschlüsselt nach Deliktart und Kontaktart. Der ADFN ist zuständig für Fälle häuslicher Gewalt und Sexualdelikte. Daten ab April 2024.
+# Issued                   : 2026-07-02T12:24:59
+# Modified                 : 2026-07-02T12:24:59
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003162_00006809.csv')
 
@@ -71,9 +71,9 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000031
 # Distribution 3
 # Ktzhdistid               : 6803
 # Title                    : Frauenhäuser: Belegung und Betreuungszahlen
-# Description              : Aggregierte Jahresdaten der drei Frauenhäuser im Kanton Zürich (Frauenhaus Zürich Violetta, Frauenhaus und Beratungsstelle Zürcher Oberland, Frauenhaus Winterthur). Erfasst werden die Anzahl aufgenommener Frauen und Kinder, die mittlere Aufenthaltsdauer in Tagen sowie der Kontext der erlebten Gewalt (Rahmen der Gewalt). Daten ab 2019.
-# Issued                   : None
-# Modified                 : 2026-06-23T09:34:11
+# Description              : Aggregierte Jahresdaten der drei Frauenhäuser im Kanton Zürich (Frauenhaus Zürich Violetta, Frauenhaus Zürcher Oberland, Frauenhaus Winterthur). Erfasst werden die Anzahl aufgenommener Frauen und Kinder, die mittlere Aufenthaltsdauer in Tagen sowie der Kontext der erlebten Gewalt (Rahmen der Gewalt). Daten ab 2019.
+# Issued                   : 2026-07-02T12:25:35
+# Modified                 : 2026-07-02T12:25:35
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003162_00006803.csv')
 
@@ -176,4 +176,4 @@ tail(df)
 
 # Questions about the data?
 
-Statistisches Amt des Kantons Zürich | Analysen & Studien | tabea.palmtag@statistik.ji.zh.ch
+Amt für Statistik und Daten | Analysen & Studien | tabea.palmtag@statistik.ji.zh.ch
