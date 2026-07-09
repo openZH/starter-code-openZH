@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-07-05"
+date: "2026-07-09"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Netzproben der Trinkwasserqualität
 # Description              : None
 # Issued                   : 2023-03-23T23:00:00
-# Modified                 : 2026-04-08T23:00:13
+# Modified                 : 2026-07-08T14:47:28
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002063_00004104.csv')
 

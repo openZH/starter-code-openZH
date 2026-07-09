@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-07-05"
+date: "2026-07-09"
 output: html_document
 ---
 
@@ -20,13 +20,13 @@ Auto-generated R starter code for dataset 2683@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2024-08-20T22:00:00`
-- **Modified** `2025-08-26T22:00:00`
+- **Modified** `2026-07-06T15:48:52`
 - **Startdate** `1990-01-01`
-- **Enddate** `2023-12-31`
+- **Enddate** `2024-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI']`
 - **Keyword** `['emissionen', 'klima', 'ogd']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
-- **Landingpage** `https://www.zh.ch/de/umwelt-tiere/klima/klimakarte-daten.html`
+- **Landingpage** `https://www.zh.ch/de/umwelt-tiere/klima/klimakarte-daten/daten.html`
 
 
 # Load packages
