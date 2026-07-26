@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-07-19"
+date: "2026-07-26"
 output: html_document
 ---
 
@@ -49,7 +49,7 @@ library(skimr)
 # Title                    : Verkehrszähldaten Veloverkehr Kanton Zürich 2025
 # Description              : Der Datensatz umfasst stündliche Velozähldaten des kantonalen Velonetzes im Kanton Zürich für das Jahr 2025, die mittels automatischer Sensoren erhoben werden. Eine detaillierte Dokumentation zu den Daten ist in der Distribution «Dokumentation Daten» verfügbar.
 # Issued                   : 2026-07-17T08:48:29
-# Modified                 : 2026-07-17T08:48:29
+# Modified                 : 2026-07-20T12:02:32
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003062_00006779.csv')
 
@@ -58,7 +58,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000030
 # Title                    : Verkehrszähldaten Veloverkehr Kanton Zürich 2024
 # Description              : Der Datensatz umfasst stündliche Velozähldaten des kantonalen Velonetzes im Kanton Zürich für das Jahr 2024, die mittels automatischer Sensoren erhoben werden. Eine detaillierte Dokumentation zu den Daten ist in der Distribution «Dokumentation Daten» verfügbar.
 # Issued                   : 2026-07-17T08:47:55
-# Modified                 : 2026-07-17T08:47:55
+# Modified                 : 2026-07-20T12:09:22
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003062_00006778.csv')
 
@@ -67,7 +67,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000030
 # Title                    : Verkehrszähldaten Veloverkehr Kanton Zürich 2023
 # Description              : Der Datensatz umfasst stündliche Velozähldaten des kantonalen Velonetzes im Kanton Zürich für das Jahr 2023, die mittels automatischer Sensoren erhoben werden. Eine detaillierte Dokumentation zu den Daten ist in der Distribution «Dokumentation Daten» verfügbar.
 # Issued                   : 2026-07-17T08:47:27
-# Modified                 : 2026-07-17T08:47:27
+# Modified                 : 2026-07-20T12:11:40
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003062_00006777.csv')
 
@@ -76,7 +76,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000030
 # Title                    : Verkehrszähldaten Veloverkehr Kanton Zürich 2022
 # Description              : Der Datensatz umfasst stündliche Velozähldaten des kantonalen Velonetzes im Kanton Zürich für das Jahr 2022, die mittels automatischer Sensoren erhoben werden. Eine detaillierte Dokumentation zu den Daten ist in der Distribution «Dokumentation Daten» verfügbar.
 # Issued                   : 2026-07-17T08:46:56
-# Modified                 : 2026-07-17T08:46:56
+# Modified                 : 2026-07-20T12:12:38
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003062_00006776.csv')
 
@@ -85,7 +85,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000030
 # Title                    : Verkehrszähldaten Veloverkehr Kanton Zürich 2021
 # Description              : Der Datensatz umfasst stündliche Velozähldaten des kantonalen Velonetzes im Kanton Zürich für das Jahr 2021, die mittels automatischer Sensoren erhoben werden. Eine detaillierte Dokumentation zu den Daten ist in der Distribution «Dokumentation Daten» verfügbar.
 # Issued                   : 2026-07-17T08:46:11
-# Modified                 : 2026-07-17T08:46:11
+# Modified                 : 2026-07-20T12:14:37
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003062_00006775.csv')
 
@@ -94,7 +94,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000030
 # Title                    : Verkehrszähldaten Veloverkehr Kanton Zürich 2016-2020
 # Description              : Der Datensatz umfasst stündliche Velozähldaten des kantonalen Velonetzes im Kanton Zürich für die Jahre 2016 bis 2020, die mittels automatischer Sensoren erhoben werden. Eine detaillierte Dokumentation zu den Daten ist in der Distribution «Dokumentation Daten» verfügbar. Als Offene Behördendaten (Open Government Data) veröffentlichte Daten werden zusätzlich zum Datenkatalog unter zh.ch/daten auch auf dem schweizweiten Portal für OGD opendata.swiss publiziert. Damit sich Anwendungen auf OGD beziehen können, sollten diese Daten nach ihrer Veröffentlichung nur noch in Ausnahmefällen gelöscht werden. Nur so kann der Mehrwert entstehen, den wir uns durch OGD erhoffen.
 # Issued                   : 2026-07-17T08:44:40
-# Modified                 : 2026-07-17T08:44:40
+# Modified                 : 2026-07-20T12:16:11
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003062_00006782.csv')
 
