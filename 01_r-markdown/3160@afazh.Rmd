@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-08-02"
+date: "2026-08-09"
 output: html_document
 ---
 
@@ -23,9 +23,9 @@ Auto-generated R starter code for dataset 3160@afazh.
 ## Metadata
 
 - **Issued** `2026-07-06T11:42:18`
-- **Modified** `2026-07-06T11:42:18`
+- **Modified** `2026-08-06T08:43:34`
 - **Startdate** `2020-01-01`
-- **Enddate** `2026-06-30`
+- **Enddate** `2026-07-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON', 'http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['arbeitslose', 'arbeitslosenversicherung', 'arbeitslosigkeit', 'arbeitsmarkt', 'ogd', 'quote', 'stellensuchende']`
 - **Publisher** `['Amt für Arbeit des Kantons Zürich']`
@@ -51,9 +51,9 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 6805
 # Title                    : Arbeitslosigkeit und Stellensuchende in Zürcher Gemeinden
-# Description              : Monatlicher Bestand von arbeitslos und stellensuchend gemeldeten Personen pro Zürcher Gemeinde. Als stellensuchend gelten jene Personen, die beim Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, unabhängig von ihrer sofortigen Verfügbarkeit (beispielsweise Personen in Kündigungsfrist oder Weiterbildung). Als arbeitslos werden jene Personen eingestuft, die keine Stelle haben, beim RAV gemeldet sind und sofort vermittelbar sind. In Fällen, wo die Personendaten kleiner oder gleich fünf sind, werden die Zahlen aus Gründen des Datenschutzes nicht ausgewiesen. Neben der jeweiligen absoluten Zahl enthält die Disposition für jeden Monat auch die Arbeitslosen-, respektive die Stellensuchendenquote. Dabei handelt es sich um den prozentuellen Anteil an der Erwerbsbevölkerung der jeweiligen Gemeinde.
+# Description              : Monatlicher Bestand von arbeitslos und stellensuchend gemeldeten Personen pro Zürcher Gemeinde. Es werden nur Daten für Gemeinden ausgewiesen, die es zum aktuellen Datenstand noch aktiv gibt. Als stellensuchend gelten jene Personen, die beim Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, unabhängig von ihrer sofortigen Verfügbarkeit (beispielsweise Personen in Kündigungsfrist oder Weiterbildung). Als arbeitslos werden jene Personen eingestuft, die keine Stelle haben, beim RAV gemeldet sind und sofort vermittelbar sind. In Fällen, wo die Personendaten kleiner oder gleich fünf sind, werden die Zahlen aus Gründen des Datenschutzes nicht ausgewiesen. Neben der jeweiligen absoluten Zahl enthält die Disposition für jeden Monat auch die Arbeitslosen-, respektive die Stellensuchendenquote. Dabei handelt es sich um den prozentuellen Anteil an der Erwerbsbevölkerung der jeweiligen Gemeinde.
 # Issued                   : 2026-07-16T07:12:47
-# Modified                 : 2026-07-16T07:12:47
+# Modified                 : 2026-08-06T08:43:33
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003160_00006805.csv')
 
@@ -61,8 +61,8 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000031
 # Ktzhdistid               : 6806
 # Title                    : Arbeitslosigkeit und Stellensuchende in Zürcher Bezirken
 # Description              : Monatlicher Bestand von arbeitslos und stellensuchend gemeldeten Personen pro Zürcher Bezirk. Als stellensuchend gelten jene Personen, die beim Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, unabhängig von ihrer sofortigen Verfügbarkeit (beispielsweise Personen in Kündigungsfrist oder Weiterbildung). Als arbeitslos werden jene Personen eingestuft, die keine Stelle haben, beim RAV gemeldet sind und sofort vermittelbar sind. Neben der jeweiligen absoluten Zahl werden für jeden Monat auch die Arbeitslosen-, respektive die Stellensuchendenquote ausgewiesen. Dabei handelt es sich um den prozentuellen Anteil an der Erwerbsbevölkerung der jeweiligen Gemeinde.
-# Issued                   : None
-# Modified                 : 2026-07-06T07:32:58
+# Issued                   : 2026-08-06T08:40:05
+# Modified                 : 2026-08-06T08:43:15
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003160_00006806.csv')
 
@@ -93,4 +93,4 @@ tail(df)
 
 # Questions about the data?
 
-Amt für Arbeit des Kantons Zürich | Kompetenzzentrum Arbeit | statistik@vd.zh.ch
+Amt für Arbeit des Kantons Zürich | Kompetenzzentrum Arbeit | oliver.roos@vd.zh.ch
