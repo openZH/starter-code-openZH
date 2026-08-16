@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-08-09"
+date: "2026-08-16"
 output: html_document
 ---
 
@@ -17,9 +17,9 @@ Auto-generated R starter code for dataset 2982@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2025-06-24T22:00:00`
-- **Modified** `2026-08-09T02:00:24`
+- **Modified** `2026-08-16T02:00:27`
 - **Startdate** `2024-02-06`
-- **Enddate** `2026-08-09`
+- **Enddate** `2026-08-16`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/REGI']`
 - **Keyword** `['bautaetigkeit', 'bauvorhaben', 'bauzonen', 'gemeinden', 'gemeindeverwaltung', 'infrastruktur', 'landparzellen', 'ogd', 'umbau', 'wohnbautaetigkeit', 'wohnungsbau']`
 - **Publisher** `['Amt für Statistik und Daten']`
@@ -47,7 +47,7 @@ library(skimr)
 # Title                    : Baugesuche im Kanton Zürich
 # Description              : Für eine Beschreibung der einzelnen Variablen siehe "weitere Informationen" auf der Startseite des Datensatzes.
 # Issued                   : 2025-06-24T22:00:00
-# Modified                 : 2026-08-09T01:45:21
+# Modified                 : 2026-08-16T01:45:23
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002982_00006183.csv')
 
