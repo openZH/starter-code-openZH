@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-08-17"
+date: "2026-08-23"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Auto-generated R starter code for dataset 128@statistisches-amt-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2019-08-19T22:00:00`
-- **Modified** `2026-08-14T13:27:10`
+- **Modified** `2026-08-18T05:42:39`
 - **Startdate** `1984-06-01`
-- **Enddate** `2025-06-01`
+- **Enddate** `2026-08-18`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['leerwohnungen', 'leerwohnungsziffer', 'mietwohnungen', 'ogd']`
 - **Publisher** `['Amt für Statistik und Daten']`
@@ -43,18 +43,18 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1978
 # Title                    : Wohnungsleerstände nach Anzahl  Zimmer, Gebäudetyp, Eigentumsverhältnis und Alter der Wohnung (Alt vs. Neubau)
-# Description              : Der Datensatz richtet sich an Personen, die selbst die Analysen durchführen wollen. Er enthält die Leerstandszahlen in der granularsten Form. Im Jahr 2026 [erhältlich ab 18.08.2026] wurde der Datensatz rückwirkend bis 2014 mit der Anzahl Wohnungen ergänzt.  Nicht möglich ist dies für die Eigentumsverhältnisse (Miete beziehungsweise Eigentum), weil es im Wohnungs- und Gebäuderegister (GWR) keine Angaben dazu gibt. Aufgrund von Abweichungen bei der Wohnungsdefinition und den Registerständen kann es kleine Unterschiede geben zwischen den publizierten Leerwohnungsziffern und denen, die mit Hilfe dieses Datensatz berechnet werden. In Einzelfällen (vor allem bei den Neubauten) gibt es Widersprüche zwischen Wohnungsleerstand und -bestand. Diese sind Inkonsistenzen zwischen der Leerwohnungserhebung und dem Gebäude- und Wohnungsregister geschuldet. Zum Beispiel wenn Neubauten im Register noch nicht erfasst sind aber für die Leerwohnungszählung bereits berücksichtigt wurden.
+# Description              : Der Datensatz richtet sich an Personen, die selbst die Analysen durchführen wollen. Er enthält die Leerstandszahlen in der granularsten Form. Im Jahr 2026 wurde der Datensatz rückwirkend bis 2014 ergänzt mit der Anzahl Wohnungen gemäss Gebäude- und Wohnungsregister (GWR), jeweils Stand 30. Juni.  Nicht möglich ist dies für die Eigentumsverhältnisse (Miete beziehungsweise Eigentum), weil es im GWR keine Angaben dazu gibt. Aufgrund von Abweichungen bei der Wohnungsdefinition und den Registerständen kann es kleine Unterschiede geben zwischen den publizierten Leerwohnungsziffern und denen, die mit Hilfe dieses Datensatz berechnet werden. In Einzelfällen (vor allem bei den Neubauten) gibt es Widersprüche zwischen Wohnungsleerstand und -bestand. Diese sind Inkonsistenzen zwischen der Leerwohnungserhebung und dem Gebäude- und Wohnungsregister geschuldet. Zum Beispiel wenn Neubauten im Register noch nicht erfasst sind aber für die Leerwohnungszählung bereits berücksichtigt wurden.
 # Issued                   : 2021-11-22T23:00:00
-# Modified                 : 2026-08-17T13:42:25
+# Modified                 : 2026-08-18T06:12:02
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000128_00001978.csv')
 
 # Distribution 1
 # Ktzhdistid               : 6851
-# Title                    : [ab 18.08.2026] Leerwohnungsziffer und Wohnungsleerstände
+# Title                    : Leerwohnungsziffer und Wohnungsleerstände
 # Description              : Der Datensatz enthält die Leerwohnungsziffer (ab 1984) und die Wohnungsleerstände (ab 1990) für den Kanton Zürich  sowie die Bezirke, Raumplanungsregionen und Gemeinden. Es sind die längstmöglichen Datenreihen des Amts für Statistik und Daten. Allfällige Abweichungen zu den vom Bundesamt für Statistik (BFS) publizierten Leerwohnungsziffern bestehen wegen der unterschiedlichen Datengrundlage zur Berechnung des Wohnungsbestands. Das BFS nutzt dafür die Gebäude- und Wohnungsstatistik (GWS) und das Amt für Statistik und Daten das Gebäude- und Wohnungsregister (GWR).
 # Issued                   : 2026-08-14T10:18:52
-# Modified                 : 2026-08-14T11:05:17
+# Modified                 : 2026-08-18T05:43:45
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000128_00006851.csv')
 
