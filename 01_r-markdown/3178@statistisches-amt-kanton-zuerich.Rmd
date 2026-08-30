@@ -1,0 +1,88 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2026-08-30"
+output: html_document
+---
+
+## Dataset: Steuerpflichtige Personen im Kanton Zürich
+
+Im Rahmen der Erhebung zum Gemeindesteuerertrag melden die Gemeinden die Zahl der steuerpflichtigen juristischen Personen sowie die steuerpflichtigen natürlichen Personen mit und ohne Quellensteuerpflicht. Die Daten enthalten die Anzahl steuerpflichtiger Personen (ab 2020) für den Kanton Zürich sowie die Bezirke, Raumplanungsregionen und Gemeinden.
+
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/3178@statistisches-amt-kanton-zuerich)
+
+Auto-generated R starter code for dataset 3178@statistisches-amt-kanton-zuerich.
+
+## Metadata
+
+- **Issued** `2026-08-25T12:14:12`
+- **Modified** `2026-08-25T12:14:12`
+- **Startdate** `2020-12-31`
+- **Enddate** `2025-12-31`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/GOVE', 'http://publications.europa.eu/resource/authority/data-theme/SOCI']`
+- **Keyword** `['gemeinden', 'gemeindesteuern', 'kanton_zuerich', 'ogd', 'steuerdaten', 'steuerpflichtige']`
+- **Publisher** `['Amt für Statistik und Daten']`
+- **Landingpage** `nan`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+- The dataset has 2 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 6863
+# Title                    : Steuerpflichtige natürliche Personen
+# Description              : Steuerpflichtige natürliche Personen sind Menschen, die Einkommens- und Vermögenssteuern bezahlen müssen. Das schliesst auch Personen ein, die aufgrund tiefer Einkommen und/oder Vermögen keine Steuern bezahlen müssen. Die meisten natürlichen Personen werden im ordentlichen Verfahren besteuert. Das heisst, sie reichen einmal im Jahr eine Steuererklärung ein und erhalten dann eine Steuerrechnung. Ebenfalls in den Daten enthalten sind quellensteuerpflichtigen natürliche Personen, bei denen der Arbeitgeber die Steuern mit einem Lohnabzug einzieht und an den Staat weiterleitet. Das betrifft in erster Linie ausländische Arbeitnehmerinnen und Arbeitnehmer ohne Niederlassungsbewilligung oder mit Wohnsitz im Ausland. Paare, die gemeinsam besteuert werden, zählen in den Daten als zwei Personen.
+# Issued                   : None
+# Modified                 : 2026-08-25T12:12:39
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003178_00006863.csv')
+
+# Distribution 1
+# Ktzhdistid               : 6866
+# Title                    : Steuerpflichtige juristische Personen
+# Description              : Steuerpflichtige juristische Personen sind rechtliche Einheiten wie Aktiengesellschaften, GmbHs, Genossenschaften oder Vereine, die Steuern entrichten müssen. Das schliesst auch juristische Personen ein, die aufgrund ihrer wirtschaftlichen Lage keine Steuern bezahlen müssen.
+# Issued                   : None
+# Modified                 : 2026-08-25T12:12:42
+
+df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003178_00006866.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Amt für Statistik und Daten | Data Management | dm@statistik.ji.zh.ch

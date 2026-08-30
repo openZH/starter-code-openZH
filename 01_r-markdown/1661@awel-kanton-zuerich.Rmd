@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-08-23"
+date: "2026-08-30"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Wärme-, Strom- und Treibstoffverbrauch im Kanton Zürich
 # Description              : Der Energieverbrauch wird in Gigawattstunden (GWh) ausgewiesen. Dabei wird unterschieden zwischen den Energiesektoren Wärme, Strom und Treibstoff.
 # Issued                   : 2022-08-24T22:00:00
-# Modified                 : 2026-06-03T11:29:37
+# Modified                 : 2026-08-26T14:10:35
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001661_00003118.csv')
 

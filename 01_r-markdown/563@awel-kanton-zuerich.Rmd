@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-08-23"
+date: "2026-08-30"
 output: html_document
 ---
 
@@ -16,9 +16,9 @@ Auto-generated R starter code for dataset 563@awel-kanton-zuerich.
 ## Metadata
 
 - **Issued** `2019-12-08T23:00:00`
-- **Modified** `2026-08-21T09:58:53`
+- **Modified** `2026-08-24T06:21:45`
 - **Startdate** `2026-08-01`
-- **Enddate** `2026-08-20`
+- **Enddate** `2026-08-23`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ENVI']`
 - **Keyword** `['luft', 'lufttemperaturen', 'ogd']`
 - **Publisher** `['Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich']`
@@ -838,7 +838,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Title                    : LoRa-Sensor-Messwerte 2026/08
 # Description              : None
 # Issued                   : 2026-08-02T07:59:43
-# Modified                 : 2026-08-21T09:58:52
+# Modified                 : 2026-08-24T06:21:44
 
 df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202608.csv')
 
