@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-08-30"
+date: "2026-09-06"
 output: html_document
 ---
 
@@ -16,9 +16,9 @@ Auto-generated R starter code for dataset 3102@gesundheitsdirektion-kanton-zueri
 ## Metadata
 
 - **Issued** `2025-10-01T22:00:00`
-- **Modified** `2025-10-01T22:00:00`
+- **Modified** `2026-09-04T11:47:41`
 - **Startdate** `2019-01-01`
-- **Enddate** `2024-12-31`
+- **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/HEAL']`
 - **Keyword** `['altersheime', 'ogd', 'pflegeheime']`
 - **Publisher** `['Gesundheitsdirektion des Kantons Zürich']`
@@ -46,7 +46,7 @@ library(skimr)
 # Title                    : Betriebe Alters- und Pflegeheime Kanton Zürich
 # Description              : Daten zum Leistungsangebot, zu den erbrachten Leistungen sowie die wichtigsten Kenngrössen zu den Kosten pro Heim. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006484.txt
 # Issued                   : 2025-10-01T22:00:00
-# Modified                 : 2025-10-09T22:00:00
+# Modified                 : 2026-09-04T11:43:49
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006486.csv')
 
@@ -55,7 +55,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000031
 # Title                    : Bewohnende Alters- und Pflegeheime Kanton Zürich
 # Description              : Anzahl Bewohnende per Ende Jahr pro Bezirk, Altersgruppe oder Pflegebedarfsstufe. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006484.txt
 # Issued                   : 2025-10-01T22:00:00
-# Modified                 : 2025-10-05T22:00:00
+# Modified                 : 2026-09-04T11:44:28
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006603.csv')
 
@@ -64,7 +64,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000031
 # Title                    : Eintritte in Alters- und Pflegeheime Kanton Zürich
 # Description              : Anzahl neu eingetretene Bewohnende pro Bezirk,  Pflegebedarfsstufe oder Aufenthaltsort vor Eintritt. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006484.txt
 # Issued                   : 2025-10-01T22:00:00
-# Modified                 : 2025-10-05T22:00:00
+# Modified                 : 2026-09-04T11:44:50
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006604.csv')
 
@@ -73,7 +73,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000031
 # Title                    : Austritte aus Alters- und Pflegeheime Kanton Zürich
 # Description              : Anzahl ausgetretene Bewohnende pro Bezirk, Pflegebedarfsstufe oder Aufenthaltsort nach Austritt. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006484.txt
 # Issued                   : 2025-10-01T22:00:00
-# Modified                 : 2025-10-05T22:00:00
+# Modified                 : 2026-09-04T11:45:15
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006605.csv')
 
@@ -82,7 +82,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000031
 # Title                    : Wanderbewegungen Alters- und Pflegeheime Kanton Zürich
 # Description              : Daten zum Herkunftskanton der Bewohnenden und zum Standortbezirk des Pflegeheims.  Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006484.txt
 # Issued                   : 2025-10-01T22:00:00
-# Modified                 : 2025-10-12T22:00:00
+# Modified                 : 2026-09-04T11:45:36
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006606.csv')
 
@@ -91,7 +91,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000031
 # Title                    : Personal Alters- und Pflegeheime Kanton Zürich
 # Description              : Anzahl Mitarbeitende und Anzahl VZÄ pro Geschlecht, Bezirk, Altersgruppe, Einsatzbereich oder Ausbildungstyp. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006484.txt
 # Issued                   : 2025-10-01T22:00:00
-# Modified                 : 2025-10-05T22:00:00
+# Modified                 : 2026-09-04T11:46:02
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006607.csv')
 
@@ -100,7 +100,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000031
 # Title                    : Kosten und Erträge Alters- und Pflegeheime Kanton Zürich
 # Description              : Kosten und Erträge pro Bezirk zu den wichtigsten Kostenstellen und Konten.  Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006484.txt
 # Issued                   : 2025-10-01T22:00:00
-# Modified                 : 2025-10-05T22:00:00
+# Modified                 : 2026-09-04T11:46:47
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003102_00006608.csv')
 

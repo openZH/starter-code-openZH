@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-08-30"
+date: "2026-09-06"
 output: html_document
 ---
 
@@ -23,7 +23,7 @@ Auto-generated R starter code for dataset 3160@afazh.
 ## Metadata
 
 - **Issued** `2026-07-06T11:42:18`
-- **Modified** `2026-08-06T08:43:34`
+- **Modified** `2026-08-31T06:16:03`
 - **Startdate** `2020-01-01`
 - **Enddate** `2026-07-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/ECON', 'http://publications.europa.eu/resource/authority/data-theme/SOCI']`
@@ -53,7 +53,7 @@ library(skimr)
 # Title                    : Arbeitslosigkeit und Stellensuchende pro Monat in Zürcher Gemeinden
 # Description              : Monatlicher Bestand von arbeitslos und stellensuchend gemeldeten Personen pro Zürcher Gemeinde. Es werden nur Daten für Gemeinden ausgewiesen, die es zum aktuellen Datenstand noch aktiv gibt. Als stellensuchend gelten jene Personen, die beim Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, unabhängig von ihrer sofortigen Verfügbarkeit (beispielsweise Personen in Kündigungsfrist oder Weiterbildung). Als arbeitslos werden jene Personen eingestuft, die keine Stelle haben, beim RAV gemeldet sind und sofort vermittelbar sind. In Fällen, wo die Personendaten kleiner oder gleich fünf sind, werden die Zahlen aus Gründen des Datenschutzes nicht ausgewiesen. Neben der jeweiligen absoluten Zahl enthält die Disposition für jeden Monat auch die Arbeitslosen-, respektive die Stellensuchendenquote. Dabei handelt es sich um den prozentuellen Anteil an der Erwerbsbevölkerung der jeweiligen Gemeinde.
 # Issued                   : 2026-07-16T07:12:47
-# Modified                 : 2026-08-13T14:11:02
+# Modified                 : 2026-08-31T06:16:02
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00003160_00006805.csv')
 
