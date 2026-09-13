@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-09-06"
+date: "2026-09-13"
 output: html_document
 ---
 
@@ -45,7 +45,7 @@ library(skimr)
 # Title                    : Zuordnungstabelle Listen – Parteien
 # Description              : Tabelle für die Zuordnung von Listen zu Parteien bei Zürcher Kantonsratswahlen. Die ausgewiesenen Parteien sind an die vom Bundesamt für Statistik (BFS) in Zeitreihen separat ausgewiesenen Parteien angelehnt.
 # Issued                   : 2023-11-21T23:00:00
-# Modified                 : 2023-11-28T23:00:00
+# Modified                 : 2026-09-10T15:50:50
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000690_00004843.csv')
 
@@ -115,9 +115,9 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Distribution 8
 # Ktzhdistid               : 4965
 # Title                    : Parteiresultate Erneuerungswahl Kantonsrat 2011
-# Description              : Anzahl erhaltener Stimmen pro Partei und Gebiet. Die Zuteilung der Listen zu einer Partei erfolgt gemäss der Ressource "Zuordnungstabelle Listen – Parteien" dieses Datasets.
+# Description              : Anzahl erhaltener Stimmen pro Partei und Gebiet. Die Zuteilung der Listen zu einer Partei erfolgt gemäss der Ressource "Zuordnungstabelle Listen – Parteien" dieses Datasets. Aktualisierung vom 10.09.2026: Bis anhin wurde für die Partei SP fälschlicherweise die doppelte Anzahl an Partei_ParteistimmenTotal ausgewiesen. Dieser Fehler wurde korrigiert.
 # Issued                   : 2023-11-28T23:00:00
-# Modified                 : 2023-11-28T23:00:00
+# Modified                 : 2026-09-10T16:03:52
 
 df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000690_00004965.csv')
 
