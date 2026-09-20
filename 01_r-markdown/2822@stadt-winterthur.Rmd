@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-09-13"
+date: "2026-09-20"
 output: html_document
 ---
 
 ## Dataset: Feuerwehr-Einsätze in Winterthur
 
-Schutz & Intervention Winterthur veröffentlicht seit 2019 sämtliche Feuerwehr-Einsätze auf der städtischen Website. Die Mehrheit der Einsätze finden auf städtischem Gebiet statt. Wird die Feuerwehr von Schutz & Intervention Winterthur zur Unterstützung in umliegende Gemeinden gerufen, sind diese Einsätze ebenfalls im API erfasst. Die Rohdaten sind als API verfügbar und können sowohl als JSON als auch als CSV bezogen werden. In den Rohdaten enthalten sind Angaben wie das Einsatzdatum, der Zeitpunkt des Alarms, die Dauer des Einsatzes, ein Titel, die verwendeten Fahrzeuge sowie die Anzahl der involvierten Personen der Feuerwehr und des Zivilschutzes. Die Einsätze werden regelmässig (meist täglich) nachgeführt. 
+Schutz & Intervention Winterthur veröffentlicht seit 2019 sämtliche Feuerwehr-Einsätze auf der städtischen Website. Die Mehrheit der Einsätze finden auf städtischem Gebiet statt. Wird die Feuerwehr von Schutz & Intervention Winterthur zur Unterstützung in umliegende Gemeinden gerufen, sind diese Einsätze ebenfalls im API erfasst. Die Rohdaten sind als API verfügbar und können sowohl als JSON als auch als CSV bezogen werden. In den Rohdaten enthalten sind Angaben wie das Einsatzdatum, der Zeitpunkt des Alarms, die Dauer des Einsatzes, ein Titel, die verwendeten Fahrzeuge sowie die Anzahl der involvierten Personen der Feuerwehr und des Zivilschutzes. Die Einsätze werden regelmässig (meist täglich) nachgeführt.
 
 [Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2822@stadt-winterthur)
 
@@ -15,13 +15,13 @@ Auto-generated R starter code for dataset 2822@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2024-12-10T23:00:00`
-- **Modified** `2024-12-11T23:00:00`
+- **Modified** `2026-09-16T06:12:29`
 - **Startdate** `2019-01-01`
 - **Enddate** `nan`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/JUST']`
 - **Keyword** `['feuerwehr', 'ogd', 'rettung', 'sicherheit']`
 - **Publisher** `['Stadt Winterthur']`
-- **Landingpage** `https://stadt.winterthur.ch/gemeinde/verwaltung/sicherheit-und-umwelt/schutz-und-intervention/einsaetze/feuerwehr-einsaetze`
+- **Landingpage** `https://stadt.winterthur.ch/organisation/verwaltung-departemente/sicherheit-und-umwelt/schutz-intervention-winterthur/einsaetze-siw`
 
 
 # Load packages

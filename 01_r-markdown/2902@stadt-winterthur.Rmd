@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-09-13"
+date: "2026-09-20"
 output: html_document
 ---
 
@@ -15,13 +15,13 @@ Auto-generated R starter code for dataset 2902@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2025-02-17T23:00:00`
-- **Modified** `2025-02-17T23:00:00`
+- **Modified** `2026-09-16T06:11:26`
 - **Startdate** `1982-01-01`
 - **Enddate** `2023-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/EDUC']`
 - **Keyword** `['bibliotheken', 'museen', 'ogd', 'theater']`
 - **Publisher** `['Stadt Winterthur']`
-- **Landingpage** `nan`
+- **Landingpage** `https://stadt.winterthur.ch/themen/arbeit-steuern-wirtschaft/daten-statistik/kultur-und-bildung`
 
 
 # Load packages

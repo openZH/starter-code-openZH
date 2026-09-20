@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2026-09-13"
+date: "2026-09-20"
 output: html_document
 ---
 
@@ -16,13 +16,13 @@ Auto-generated R starter code for dataset 1481@stadt-winterthur.
 ## Metadata
 
 - **Issued** `2022-09-19T22:00:00`
-- **Modified** `2026-04-29T14:16:39`
+- **Modified** `2026-09-16T06:08:19`
 - **Startdate** `1985-12-31`
 - **Enddate** `2025-12-31`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/SOCI']`
 - **Keyword** `['bevoelkerung', 'bevoelkerungswachstum', 'gemeinden', 'nationalitaet', 'ogd']`
 - **Publisher** `['Stadt Winterthur']`
-- **Landingpage** `https://stadt.winterthur.ch/themen/die-stadt/winterthur/statistik/bevoelkerung`
+- **Landingpage** `https://stadt.winterthur.ch/themen/arbeit-steuern-wirtschaft/daten-statistik/bevoelkerung-und-soziales`
 
 
 # Load packages
