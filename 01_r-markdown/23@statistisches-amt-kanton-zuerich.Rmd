@@ -1,3 +1,0 @@
-# Choose a resource for 23@statistisches-amt-kanton-zuerich
-
-- Anteil jur. Pers. an allg. Gemeindesteuern &#91;%&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/23%40statistisches-amt-kanton-zuerich--e9de468b7f1243d3ea10.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/23%40statistisches-amt-kanton-zuerich--e9de468b7f1243d3ea10.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/23%40statistisches-amt-kanton-zuerich--e9de468b7f1243d3ea10.Rmd)

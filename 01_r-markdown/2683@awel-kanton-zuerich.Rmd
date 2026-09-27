@@ -1,3 +1,0 @@
-# Choose a resource for 2683@awel-kanton-zuerich
-
-- Treibhausgasemissionen im Kanton Zürich ab 1990 (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2683%40awel-kanton-zuerich--61c7a7ad07a8ede42c43.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/2683%40awel-kanton-zuerich--61c7a7ad07a8ede42c43.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2683%40awel-kanton-zuerich--61c7a7ad07a8ede42c43.Rmd)

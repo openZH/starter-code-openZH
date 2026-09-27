@@ -1,3 +1,0 @@
-# Choose a resource for 181@statistisches-amt-kanton-zuerich
-
-- Wasserverbrauch pro Tag und Kopf &#91;Liter&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/181%40statistisches-amt-kanton-zuerich--51545ee1b32521f91417.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/181%40statistisches-amt-kanton-zuerich--51545ee1b32521f91417.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/181%40statistisches-amt-kanton-zuerich--51545ee1b32521f91417.Rmd)

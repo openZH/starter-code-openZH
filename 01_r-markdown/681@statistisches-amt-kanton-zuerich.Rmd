@@ -1,3 +1,0 @@
-# Choose a resource for 681@statistisches-amt-kanton-zuerich
-
-- Bestand Dieselmotor &#91;%&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/681%40statistisches-amt-kanton-zuerich--ea5dcceff233036f5637.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/681%40statistisches-amt-kanton-zuerich--ea5dcceff233036f5637.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/681%40statistisches-amt-kanton-zuerich--ea5dcceff233036f5637.Rmd)

@@ -1,3 +1,0 @@
-# Choose a resource for 275@statistisches-amt-kanton-zuerich
-
-- Restaurants pro 1000 Einwohner &#91;Anz.&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/275%40statistisches-amt-kanton-zuerich--7f7a3a3ea44be8c18d12.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/275%40statistisches-amt-kanton-zuerich--7f7a3a3ea44be8c18d12.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/275%40statistisches-amt-kanton-zuerich--7f7a3a3ea44be8c18d12.Rmd)

@@ -1,3 +1,0 @@
-# Choose a resource for 3156@stadt-winterthur
-
-- Angebots- und Bestandesmieten in Winterthur, pro Stadtkreis und Zimmerzahl (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/3156%40stadt-winterthur--4c5c526850f0241ec1ea.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/3156%40stadt-winterthur--4c5c526850f0241ec1ea.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/3156%40stadt-winterthur--4c5c526850f0241ec1ea.Rmd)

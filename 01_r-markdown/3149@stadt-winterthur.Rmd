@@ -1,3 +1,0 @@
-# Choose a resource for 3149@stadt-winterthur
-
-- Wohnsituation der Haushalte in Winterthur nach Quartieren und Stadtkreisen (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/3149%40stadt-winterthur--575b6aeaf93f2f6fb31e.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/3149%40stadt-winterthur--575b6aeaf93f2f6fb31e.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/3149%40stadt-winterthur--575b6aeaf93f2f6fb31e.Rmd)

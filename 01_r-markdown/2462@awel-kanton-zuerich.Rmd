@@ -1,4 +1,0 @@
-# Choose a resource for 2462@awel-kanton-zuerich
-
-- Messorte (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2462%40awel-kanton-zuerich--0d12a9115ee1a0ea8c78.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/2462%40awel-kanton-zuerich--0d12a9115ee1a0ea8c78.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2462%40awel-kanton-zuerich--0d12a9115ee1a0ea8c78.Rmd)
-- Aufbereitete Messwerte (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2462%40awel-kanton-zuerich--4bea9bb9e2df5ea95337.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/2462%40awel-kanton-zuerich--4bea9bb9e2df5ea95337.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2462%40awel-kanton-zuerich--4bea9bb9e2df5ea95337.Rmd)

@@ -1,3 +1,0 @@
-# Choose a resource for 1681@awel-kanton-zuerich
-
-- Produktion von Wärme und Strom aus erneuerbaren Energieträgern im Kanton Zürich (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/1681%40awel-kanton-zuerich--71d5283f4f529599bd33.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/1681%40awel-kanton-zuerich--71d5283f4f529599bd33.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/1681%40awel-kanton-zuerich--71d5283f4f529599bd33.Rmd)

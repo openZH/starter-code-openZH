@@ -1,3 +1,0 @@
-# Choose a resource for 308@statistisches-amt-kanton-zuerich
-
-- Heiraten &#91;pro 1000 Einw.&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/308%40statistisches-amt-kanton-zuerich--eb328bcf05d15945091b.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/308%40statistisches-amt-kanton-zuerich--eb328bcf05d15945091b.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/308%40statistisches-amt-kanton-zuerich--eb328bcf05d15945091b.Rmd)

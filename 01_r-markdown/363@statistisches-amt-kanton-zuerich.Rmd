@@ -1,3 +1,0 @@
-# Choose a resource for 363@statistisches-amt-kanton-zuerich
-
-- ÖV-Anteil &#40;Modal Split&#41; &#91;%&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/363%40statistisches-amt-kanton-zuerich--f0f1bfe8eacfd3ebfaaa.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/363%40statistisches-amt-kanton-zuerich--f0f1bfe8eacfd3ebfaaa.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/363%40statistisches-amt-kanton-zuerich--f0f1bfe8eacfd3ebfaaa.Rmd)

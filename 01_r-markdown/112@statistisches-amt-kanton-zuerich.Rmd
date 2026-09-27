@@ -1,3 +1,0 @@
-# Choose a resource for 112@statistisches-amt-kanton-zuerich
-
-- Bruttoverschuldungsanteil &#91;%&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/112%40statistisches-amt-kanton-zuerich--50aadc41271179b1674a.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/112%40statistisches-amt-kanton-zuerich--50aadc41271179b1674a.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/112%40statistisches-amt-kanton-zuerich--50aadc41271179b1674a.Rmd)

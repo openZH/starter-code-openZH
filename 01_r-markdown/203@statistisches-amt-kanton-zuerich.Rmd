@@ -1,3 +1,0 @@
-# Choose a resource for 203@statistisches-amt-kanton-zuerich
-
-- Zuzüge &#91;Pers.&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/203%40statistisches-amt-kanton-zuerich--71aef1ca128fcfb02198.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/203%40statistisches-amt-kanton-zuerich--71aef1ca128fcfb02198.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/203%40statistisches-amt-kanton-zuerich--71aef1ca128fcfb02198.Rmd)

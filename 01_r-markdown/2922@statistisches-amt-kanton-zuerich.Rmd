@@ -1,3 +1,0 @@
-# Choose a resource for 2922@statistisches-amt-kanton-zuerich
-
-- Wohnbautätigkeit in den Gemeinden des Kantons Zürich nach Zimmerzahl und Gebäudekategorie (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2922%40statistisches-amt-kanton-zuerich--edd535205e575ff2a26f.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/2922%40statistisches-amt-kanton-zuerich--edd535205e575ff2a26f.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2922%40statistisches-amt-kanton-zuerich--edd535205e575ff2a26f.Rmd)

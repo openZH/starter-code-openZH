@@ -1,3 +1,0 @@
-# Choose a resource for 136@statistisches-amt-kanton-zuerich
-
-- Zahnärzte &#91;Anz.&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/136%40statistisches-amt-kanton-zuerich--5408efa131d8271ef4bc.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/136%40statistisches-amt-kanton-zuerich--5408efa131d8271ef4bc.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/136%40statistisches-amt-kanton-zuerich--5408efa131d8271ef4bc.Rmd)

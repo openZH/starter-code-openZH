@@ -1,3 +1,0 @@
-# Choose a resource for 706@gesundheitsdirektion-kanton-zuerich
-
-- COVID&#95;19 Belegung Intensivpflege Kanton Zürich ab 29.10.2020 bis 02.05.2023 (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/706%40gesundheitsdirektion-kanton-zuerich--052623a9f8c077268652.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/706%40gesundheitsdirektion-kanton-zuerich--052623a9f8c077268652.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/706%40gesundheitsdirektion-kanton-zuerich--052623a9f8c077268652.Rmd)

@@ -1,3 +1,0 @@
-# Choose a resource for 720@stadt-uster
-
-- Tabelle mit allen Quartierkästen der Stadt Uster und Quartiervereinen (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/720%40stadt-uster--9a11c8f7ab96589a2f67.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/720%40stadt-uster--9a11c8f7ab96589a2f67.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/720%40stadt-uster--9a11c8f7ab96589a2f67.Rmd)

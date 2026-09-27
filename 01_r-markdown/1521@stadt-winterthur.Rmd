@@ -1,3 +1,0 @@
-# Choose a resource for 1521@stadt-winterthur
-
-- Alter, Geschlecht, Herkunft der Einwohner:innen der Stadt Winterthur nach Jahr (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/1521%40stadt-winterthur--3cc670f57c672de4c7a9.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/1521%40stadt-winterthur--3cc670f57c672de4c7a9.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/1521%40stadt-winterthur--3cc670f57c672de4c7a9.Rmd)

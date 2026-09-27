@@ -1,3 +1,0 @@
-# Choose a resource for 283@statistisches-amt-kanton-zuerich
-
-- Bevölkerung: Männer &#91;Pers.&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/283%40statistisches-amt-kanton-zuerich--66edb18a202151345237.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/283%40statistisches-amt-kanton-zuerich--66edb18a202151345237.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/283%40statistisches-amt-kanton-zuerich--66edb18a202151345237.Rmd)

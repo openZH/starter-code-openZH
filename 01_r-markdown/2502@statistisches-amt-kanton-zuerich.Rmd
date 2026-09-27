@@ -1,3 +1,0 @@
-# Choose a resource for 2502@statistisches-amt-kanton-zuerich
-
-- Zeitreihendaten Sitze pro Wahlkreis (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2502%40statistisches-amt-kanton-zuerich--6297c1e966a332cd66de.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/2502%40statistisches-amt-kanton-zuerich--6297c1e966a332cd66de.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2502%40statistisches-amt-kanton-zuerich--6297c1e966a332cd66de.Rmd)

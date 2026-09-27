@@ -1,3 +1,0 @@
-# Choose a resource for 190@statistisches-amt-kanton-zuerich
-
-- Steuerbares Vermögen natürliche Pers. &#91;Mio.Fr.&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/190%40statistisches-amt-kanton-zuerich--046d5f2de901c306effa.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/190%40statistisches-amt-kanton-zuerich--046d5f2de901c306effa.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/190%40statistisches-amt-kanton-zuerich--046d5f2de901c306effa.Rmd)

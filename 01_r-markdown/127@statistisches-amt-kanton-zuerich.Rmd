@@ -1,3 +1,0 @@
-# Choose a resource for 127@statistisches-amt-kanton-zuerich
-
-- Bevölkerungsbestand ab 1962 (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/127%40statistisches-amt-kanton-zuerich--2fcb4dabc69c53ef1ad9.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/127%40statistisches-amt-kanton-zuerich--2fcb4dabc69c53ef1ad9.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/127%40statistisches-amt-kanton-zuerich--2fcb4dabc69c53ef1ad9.Rmd)

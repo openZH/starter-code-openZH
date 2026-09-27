@@ -1,3 +1,0 @@
-# Choose a resource for 87@statistisches-amt-kanton-zuerich
-
-- Bevölkerung: Frauenanteil &#91;%&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/87%40statistisches-amt-kanton-zuerich--e7f0be178a75a420675e.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/87%40statistisches-amt-kanton-zuerich--e7f0be178a75a420675e.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/87%40statistisches-amt-kanton-zuerich--e7f0be178a75a420675e.Rmd)

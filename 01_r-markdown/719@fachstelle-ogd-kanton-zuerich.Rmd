@@ -1,3 +1,0 @@
-# Choose a resource for 719@fachstelle-ogd-kanton-zuerich
-
-- Corona-Hilfen im Kulturbereich im Kanton Zürich (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/719%40fachstelle-ogd-kanton-zuerich--fdb3e72a8c316a5da21e.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/719%40fachstelle-ogd-kanton-zuerich--fdb3e72a8c316a5da21e.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/719%40fachstelle-ogd-kanton-zuerich--fdb3e72a8c316a5da21e.Rmd)

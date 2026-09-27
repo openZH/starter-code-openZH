@@ -1,3 +1,0 @@
-# Choose a resource for 1040@stadt-uster
-
-- Tabelle der Angebote und Infrastruktur für Kinder, Jugendliche und Familien in der Stadt Uster (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/1040%40stadt-uster--311667362d4e14cbd4a7.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/1040%40stadt-uster--311667362d4e14cbd4a7.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/1040%40stadt-uster--311667362d4e14cbd4a7.Rmd)

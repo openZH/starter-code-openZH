@@ -1,3 +1,0 @@
-# Choose a resource for 2622@are-kanton-zuerich
-
-- Einwohner und Beschäftigte pro Hektare ab 2012 (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2622%40are-kanton-zuerich--be8f2a4b2c36bd185efa.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/2622%40are-kanton-zuerich--be8f2a4b2c36bd185efa.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2622%40are-kanton-zuerich--be8f2a4b2c36bd185efa.Rmd)

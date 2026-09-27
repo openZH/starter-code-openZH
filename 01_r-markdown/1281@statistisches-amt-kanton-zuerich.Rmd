@@ -1,3 +1,0 @@
-# Choose a resource for 1281@statistisches-amt-kanton-zuerich
-
-- Ergebnisse der kommunalen Behördenwahlen 2022 (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/1281%40statistisches-amt-kanton-zuerich--26925ad2e4911acec3ec.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/1281%40statistisches-amt-kanton-zuerich--26925ad2e4911acec3ec.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/1281%40statistisches-amt-kanton-zuerich--26925ad2e4911acec3ec.Rmd)

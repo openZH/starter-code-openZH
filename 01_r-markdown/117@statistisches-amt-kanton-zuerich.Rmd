@@ -1,3 +1,0 @@
-# Choose a resource for 117@statistisches-amt-kanton-zuerich
-
-- Kühe &#91;Anz.&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/117%40statistisches-amt-kanton-zuerich--e70ab2255081e1d8e5f3.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/117%40statistisches-amt-kanton-zuerich--e70ab2255081e1d8e5f3.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/117%40statistisches-amt-kanton-zuerich--e70ab2255081e1d8e5f3.Rmd)

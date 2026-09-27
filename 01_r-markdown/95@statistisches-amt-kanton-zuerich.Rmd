@@ -1,3 +1,0 @@
-# Choose a resource for 95@statistisches-amt-kanton-zuerich
-
-- Geb.Vol. Industrie/Lager: Zunahme &#91;%&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/95%40statistisches-amt-kanton-zuerich--ee3d3e22a4f9a66dbadf.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/95%40statistisches-amt-kanton-zuerich--ee3d3e22a4f9a66dbadf.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/95%40statistisches-amt-kanton-zuerich--ee3d3e22a4f9a66dbadf.Rmd)

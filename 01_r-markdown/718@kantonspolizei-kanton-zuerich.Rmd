@@ -1,3 +1,0 @@
-# Choose a resource for 718@kantonspolizei-kanton-zuerich
-
-- Polizeilich registrierte Verkehrsunfälle im Kanton Zürich (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/718%40kantonspolizei-kanton-zuerich--7f2f4e201f9ec360cbce.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/718%40kantonspolizei-kanton-zuerich--7f2f4e201f9ec360cbce.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/718%40kantonspolizei-kanton-zuerich--7f2f4e201f9ec360cbce.Rmd)

@@ -1,3 +1,0 @@
-# Choose a resource for 2742@stadt-winterthur
-
-- Bevölkerungsbewegungen Winterthur nach Jahr (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2742%40stadt-winterthur--5f21c8baa5dac974224f.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/2742%40stadt-winterthur--5f21c8baa5dac974224f.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2742%40stadt-winterthur--5f21c8baa5dac974224f.Rmd)

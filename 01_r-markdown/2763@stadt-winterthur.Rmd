@@ -1,3 +1,0 @@
-# Choose a resource for 2763@stadt-winterthur
-
-- Wirtschaft in Winterthur nach Quartieren und Stadtkreisen (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2763%40stadt-winterthur--c3e1e919a00841535e7b.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/2763%40stadt-winterthur--c3e1e919a00841535e7b.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2763%40stadt-winterthur--c3e1e919a00841535e7b.Rmd)

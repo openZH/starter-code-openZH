@@ -1,3 +1,0 @@
-# Choose a resource for 318@statistisches-amt-kanton-zuerich
-
-- Arbeitslosenanteil an Bevölkerung 15-64 Jahre &#91;%&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/318%40statistisches-amt-kanton-zuerich--0fd38d8d24458146dda6.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/318%40statistisches-amt-kanton-zuerich--0fd38d8d24458146dda6.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/318%40statistisches-amt-kanton-zuerich--0fd38d8d24458146dda6.Rmd)

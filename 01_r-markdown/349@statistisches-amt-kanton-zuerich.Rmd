@@ -1,3 +1,0 @@
-# Choose a resource for 349@statistisches-amt-kanton-zuerich
-
-- 6 und mehr Personenhaushalte &#91;Anz.&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/349%40statistisches-amt-kanton-zuerich--e47c693302a66748214e.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/349%40statistisches-amt-kanton-zuerich--e47c693302a66748214e.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/349%40statistisches-amt-kanton-zuerich--e47c693302a66748214e.Rmd)

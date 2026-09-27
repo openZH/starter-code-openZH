@@ -1,3 +1,0 @@
-# Choose a resource for 6@statistisches-amt-kanton-zuerich
-
-- Selbstfinanzierungsgrad &#91;%&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/6%40statistisches-amt-kanton-zuerich--86d798cfc0c07cca07bd.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/6%40statistisches-amt-kanton-zuerich--86d798cfc0c07cca07bd.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/6%40statistisches-amt-kanton-zuerich--86d798cfc0c07cca07bd.Rmd)

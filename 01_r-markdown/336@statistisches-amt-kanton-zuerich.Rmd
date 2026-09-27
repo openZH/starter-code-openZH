@@ -1,3 +1,0 @@
-# Choose a resource for 336@statistisches-amt-kanton-zuerich
-
-- Mikrobetriebe &#40;0-9 VZÄ&#41; &#91;Anz.&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/336%40statistisches-amt-kanton-zuerich--e72ece2edfb2307bc71b.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/336%40statistisches-amt-kanton-zuerich--e72ece2edfb2307bc71b.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/336%40statistisches-amt-kanton-zuerich--e72ece2edfb2307bc71b.Rmd)

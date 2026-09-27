@@ -1,3 +1,0 @@
-# Choose a resource for 2982@statistisches-amt-kanton-zuerich
-
-- Baugesuche im Kanton Zürich (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2982%40statistisches-amt-kanton-zuerich--6625e5060d373b48004a.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/2982%40statistisches-amt-kanton-zuerich--6625e5060d373b48004a.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2982%40statistisches-amt-kanton-zuerich--6625e5060d373b48004a.Rmd)

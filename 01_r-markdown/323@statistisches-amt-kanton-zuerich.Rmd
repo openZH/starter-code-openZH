@@ -1,3 +1,0 @@
-# Choose a resource for 323@statistisches-amt-kanton-zuerich
-
-- 3-Personenhaushalte &#91;Anz.&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/323%40statistisches-amt-kanton-zuerich--b141c317d34b96005b4e.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/323%40statistisches-amt-kanton-zuerich--b141c317d34b96005b4e.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/323%40statistisches-amt-kanton-zuerich--b141c317d34b96005b4e.Rmd)

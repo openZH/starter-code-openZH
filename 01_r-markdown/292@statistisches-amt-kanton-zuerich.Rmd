@@ -1,3 +1,0 @@
-# Choose a resource for 292@statistisches-amt-kanton-zuerich
-
-- Steuerb. Vermögen natürl. Pers. Median &#91;Fr.&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/292%40statistisches-amt-kanton-zuerich--f903d52df2faf8c51bbc.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/292%40statistisches-amt-kanton-zuerich--f903d52df2faf8c51bbc.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/292%40statistisches-amt-kanton-zuerich--f903d52df2faf8c51bbc.Rmd)

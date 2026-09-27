@@ -1,3 +1,0 @@
-# Choose a resource for 47@statistisches-amt-kanton-zuerich
-
-- Jugendquotient &#91;%&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/47%40statistisches-amt-kanton-zuerich--095ba6238db2f3badd83.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/47%40statistisches-amt-kanton-zuerich--095ba6238db2f3badd83.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/47%40statistisches-amt-kanton-zuerich--095ba6238db2f3badd83.Rmd)

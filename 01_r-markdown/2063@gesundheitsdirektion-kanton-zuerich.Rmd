@@ -1,3 +1,0 @@
-# Choose a resource for 2063@gesundheitsdirektion-kanton-zuerich
-
-- Netzproben der Trinkwasserqualität (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2063%40gesundheitsdirektion-kanton-zuerich--b1112cef0d86d88048c0.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/2063%40gesundheitsdirektion-kanton-zuerich--b1112cef0d86d88048c0.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2063%40gesundheitsdirektion-kanton-zuerich--b1112cef0d86d88048c0.Rmd)

@@ -1,3 +1,0 @@
-# Choose a resource for 195@statistisches-amt-kanton-zuerich
-
-- Steuerertrag von juristischen Personen &#91;Mio.Fr.&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/195%40statistisches-amt-kanton-zuerich--be8f27af7ac490b5671f.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/195%40statistisches-amt-kanton-zuerich--be8f27af7ac490b5671f.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/195%40statistisches-amt-kanton-zuerich--be8f27af7ac490b5671f.Rmd)

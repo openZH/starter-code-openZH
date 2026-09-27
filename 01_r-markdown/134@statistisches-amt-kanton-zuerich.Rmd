@@ -1,3 +1,0 @@
-# Choose a resource for 134@statistisches-amt-kanton-zuerich
-
-- Steuerkraft pro Kopf &#91;Fr.&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/134%40statistisches-amt-kanton-zuerich--6b00a4b033bf4cdbf2d0.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/134%40statistisches-amt-kanton-zuerich--6b00a4b033bf4cdbf2d0.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/134%40statistisches-amt-kanton-zuerich--6b00a4b033bf4cdbf2d0.Rmd)

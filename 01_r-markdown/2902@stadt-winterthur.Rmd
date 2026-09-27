@@ -1,3 +1,0 @@
-# Choose a resource for 2902@stadt-winterthur
-
-- Besuche kultureller Einrichtungen in Winterthur (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2902%40stadt-winterthur--907aa6dd39abd2408162.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/2902%40stadt-winterthur--907aa6dd39abd2408162.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2902%40stadt-winterthur--907aa6dd39abd2408162.Rmd)

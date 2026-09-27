@@ -1,3 +1,0 @@
-# Choose a resource for 1401@finanzverwaltung-kanton-zuerich
-
-- Staatsquote des Kantons Zürich ab 2008 (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/1401%40finanzverwaltung-kanton-zuerich--05c225de3266a4ffecd6.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/1401%40finanzverwaltung-kanton-zuerich--05c225de3266a4ffecd6.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/1401%40finanzverwaltung-kanton-zuerich--05c225de3266a4ffecd6.Rmd)

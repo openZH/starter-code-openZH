@@ -1,3 +1,0 @@
-# Choose a resource for 2882@bildungsstatistik-kanton-zuerich
-
-- Entwicklung der Bildungsabschlüsse an Mittelschulen im Kanton Zürich (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2882%40bildungsstatistik-kanton-zuerich--a211a23f92f228573682.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/2882%40bildungsstatistik-kanton-zuerich--a211a23f92f228573682.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2882%40bildungsstatistik-kanton-zuerich--a211a23f92f228573682.Rmd)

@@ -1,3 +1,0 @@
-# Choose a resource for 682@statistisches-amt-kanton-zuerich
-
-- Bestand Hybridantrieb &#91;%&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/682%40statistisches-amt-kanton-zuerich--cff917d569880381e6a3.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/682%40statistisches-amt-kanton-zuerich--cff917d569880381e6a3.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/682%40statistisches-amt-kanton-zuerich--cff917d569880381e6a3.Rmd)

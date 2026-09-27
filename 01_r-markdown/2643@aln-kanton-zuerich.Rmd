@@ -1,3 +1,0 @@
-# Choose a resource for 2643@aln-kanton-zuerich
-
-- Entwicklung Finanzen 89120 seit 2020 (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2643%40aln-kanton-zuerich--ff2bd49d5b79814a2095.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/2643%40aln-kanton-zuerich--ff2bd49d5b79814a2095.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2643%40aln-kanton-zuerich--ff2bd49d5b79814a2095.Rmd)

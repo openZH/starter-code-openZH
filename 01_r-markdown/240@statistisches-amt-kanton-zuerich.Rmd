@@ -1,3 +1,0 @@
-# Choose a resource for 240@statistisches-amt-kanton-zuerich
-
-- Anteil 4 Zi.-Wohnungen &#91;%&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/240%40statistisches-amt-kanton-zuerich--ed6b137ce6d3035af137.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/240%40statistisches-amt-kanton-zuerich--ed6b137ce6d3035af137.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/240%40statistisches-amt-kanton-zuerich--ed6b137ce6d3035af137.Rmd)

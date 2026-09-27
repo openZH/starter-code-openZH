@@ -1,3 +1,0 @@
-# Choose a resource for 99@statistisches-amt-kanton-zuerich
-
-- Geb.Vol. Landwirtschaft: Anteil &#91;%&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/99%40statistisches-amt-kanton-zuerich--15b9a4061504c0b3d89c.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/99%40statistisches-amt-kanton-zuerich--15b9a4061504c0b3d89c.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/99%40statistisches-amt-kanton-zuerich--15b9a4061504c0b3d89c.Rmd)

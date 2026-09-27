@@ -1,3 +1,0 @@
-# Choose a resource for 299@statistisches-amt-kanton-zuerich
-
-- Bevölkerung: Anteil 80 u.m.-Jährige &#91;%&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/299%40statistisches-amt-kanton-zuerich--e3a94cde69d25109e321.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/299%40statistisches-amt-kanton-zuerich--e3a94cde69d25109e321.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/299%40statistisches-amt-kanton-zuerich--e3a94cde69d25109e321.Rmd)

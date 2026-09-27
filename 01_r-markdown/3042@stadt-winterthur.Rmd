@@ -1,3 +1,0 @@
-# Choose a resource for 3042@stadt-winterthur
-
-- Verkehrszähldaten motorisierter Individualverkehr in Winterthur, pro Stunde und nach Fahrzeugklassen (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/3042%40stadt-winterthur--6c67db8ccf1d8e1f37f0.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/3042%40stadt-winterthur--6c67db8ccf1d8e1f37f0.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/3042%40stadt-winterthur--6c67db8ccf1d8e1f37f0.Rmd)

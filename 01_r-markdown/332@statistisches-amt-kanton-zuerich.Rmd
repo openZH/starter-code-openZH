@@ -1,3 +1,0 @@
-# Choose a resource for 332@statistisches-amt-kanton-zuerich
-
-- Baulandpreis Modell &#40;Median&#41; &#91;Fr./m2&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/332%40statistisches-amt-kanton-zuerich--9b354fa2ece403082f35.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/332%40statistisches-amt-kanton-zuerich--9b354fa2ece403082f35.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/332%40statistisches-amt-kanton-zuerich--9b354fa2ece403082f35.Rmd)

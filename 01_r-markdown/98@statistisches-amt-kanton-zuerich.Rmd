@@ -1,3 +1,0 @@
-# Choose a resource for 98@statistisches-amt-kanton-zuerich
-
-- Bevölkerung: Anteil 0-14-Jährige &#91;%&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/98%40statistisches-amt-kanton-zuerich--2daf80a1e1731c6f3c60.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/98%40statistisches-amt-kanton-zuerich--2daf80a1e1731c6f3c60.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/98%40statistisches-amt-kanton-zuerich--2daf80a1e1731c6f3c60.Rmd)

@@ -1,3 +1,0 @@
-# Choose a resource for 74@statistisches-amt-kanton-zuerich
-
-- Gebäudevolumen: Zunahme &#91;%&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/74%40statistisches-amt-kanton-zuerich--648ec4b0dbc23f5da101.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/74%40statistisches-amt-kanton-zuerich--648ec4b0dbc23f5da101.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/74%40statistisches-amt-kanton-zuerich--648ec4b0dbc23f5da101.Rmd)

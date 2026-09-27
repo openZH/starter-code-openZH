@@ -1,3 +1,0 @@
-# Choose a resource for 2822@stadt-winterthur
-
-- Feuerwehr-Einsätze Winterthur &#40;API CSV&#41; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2822%40stadt-winterthur--556c3d085d94c937b245.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/2822%40stadt-winterthur--556c3d085d94c937b245.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2822%40stadt-winterthur--556c3d085d94c937b245.Rmd)

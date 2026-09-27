@@ -1,3 +1,0 @@
-# Choose a resource for 525@bildungsstatistik-kanton-zuerich
-
-- Lernende der Regelschule im Kanton Zürich nach Staatsangehörigkeit auf Ebene Schulgemeinde ab 2000 (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/525%40bildungsstatistik-kanton-zuerich--458e8b496b358666fe0a.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/525%40bildungsstatistik-kanton-zuerich--458e8b496b358666fe0a.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/525%40bildungsstatistik-kanton-zuerich--458e8b496b358666fe0a.Rmd)

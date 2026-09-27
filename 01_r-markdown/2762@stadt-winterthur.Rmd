@@ -1,3 +1,0 @@
-# Choose a resource for 2762@stadt-winterthur
-
-- Wohnen in Winterthur nach Quartieren und Stadtkreisen (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2762%40stadt-winterthur--f25e5ede6f99c0627349.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/2762%40stadt-winterthur--f25e5ede6f99c0627349.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2762%40stadt-winterthur--f25e5ede6f99c0627349.Rmd)

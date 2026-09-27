@@ -1,3 +1,0 @@
-# Choose a resource for 352@statistisches-amt-kanton-zuerich
-
-- Bezügerquote der bedarfsabh. Sozialleistungen &#91;%&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/352%40statistisches-amt-kanton-zuerich--422db8b7ec9a0e4992c5.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/352%40statistisches-amt-kanton-zuerich--422db8b7ec9a0e4992c5.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/352%40statistisches-amt-kanton-zuerich--422db8b7ec9a0e4992c5.Rmd)

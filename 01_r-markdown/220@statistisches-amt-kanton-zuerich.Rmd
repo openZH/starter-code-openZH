@@ -1,3 +1,0 @@
-# Choose a resource for 220@statistisches-amt-kanton-zuerich
-
-- Sterberate &#91;pro 1000 Einw.&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/220%40statistisches-amt-kanton-zuerich--f6e7cd7e340fdc6c1b43.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/220%40statistisches-amt-kanton-zuerich--f6e7cd7e340fdc6c1b43.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/220%40statistisches-amt-kanton-zuerich--f6e7cd7e340fdc6c1b43.Rmd)

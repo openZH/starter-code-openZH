@@ -1,3 +1,0 @@
-# Choose a resource for 237@statistisches-amt-kanton-zuerich
-
-- Anteil 2 Zi.-Wohnungen &#91;%&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/237%40statistisches-amt-kanton-zuerich--021cc1b1b9fdecea1d04.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/237%40statistisches-amt-kanton-zuerich--021cc1b1b9fdecea1d04.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/237%40statistisches-amt-kanton-zuerich--021cc1b1b9fdecea1d04.Rmd)

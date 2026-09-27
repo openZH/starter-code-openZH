@@ -1,3 +1,0 @@
-# Choose a resource for 233@statistisches-amt-kanton-zuerich
-
-- Apotheken &#91;Anz.&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/233%40statistisches-amt-kanton-zuerich--5f70a256b3610ab9db6f.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/233%40statistisches-amt-kanton-zuerich--5f70a256b3610ab9db6f.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/233%40statistisches-amt-kanton-zuerich--5f70a256b3610ab9db6f.Rmd)

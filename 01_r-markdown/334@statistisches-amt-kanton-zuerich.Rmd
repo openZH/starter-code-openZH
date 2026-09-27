@@ -1,3 +1,0 @@
-# Choose a resource for 334@statistisches-amt-kanton-zuerich
-
-- ZL-Bezügerquote der Personen ab 65 Jahren &#91;%&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/334%40statistisches-amt-kanton-zuerich--7d79ea80f36210f7a671.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/334%40statistisches-amt-kanton-zuerich--7d79ea80f36210f7a671.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/334%40statistisches-amt-kanton-zuerich--7d79ea80f36210f7a671.Rmd)

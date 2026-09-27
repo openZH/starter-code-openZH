@@ -1,3 +1,0 @@
-# Choose a resource for 1601@stadt-winterthur
-
-- Anzahl Wohnungen im Bestand, Neubau und Abbruch, nach Jahr (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/1601%40stadt-winterthur--93a2fe186109ddb2f8de.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/1601%40stadt-winterthur--93a2fe186109ddb2f8de.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/1601%40stadt-winterthur--93a2fe186109ddb2f8de.Rmd)

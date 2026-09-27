@@ -1,3 +1,0 @@
-# Choose a resource for 736@awel-kanton-zuerich
-
-- Kiesstatistik des Kantons Zürich ab 1990 (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/736%40awel-kanton-zuerich--5e94dfb3f8210c2ad437.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/736%40awel-kanton-zuerich--5e94dfb3f8210c2ad437.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/736%40awel-kanton-zuerich--5e94dfb3f8210c2ad437.Rmd)

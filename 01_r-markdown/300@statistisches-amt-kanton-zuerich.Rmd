@@ -1,3 +1,0 @@
-# Choose a resource for 300@statistisches-amt-kanton-zuerich
-
-- Steuerkraft &#40;arith. Mittel 3 Jahre&#41; &#91;Mio.Fr.&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/300%40statistisches-amt-kanton-zuerich--6fa1d75f9a99d319b7e5.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/300%40statistisches-amt-kanton-zuerich--6fa1d75f9a99d319b7e5.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/300%40statistisches-amt-kanton-zuerich--6fa1d75f9a99d319b7e5.Rmd)

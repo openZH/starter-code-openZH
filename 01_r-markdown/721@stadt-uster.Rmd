@@ -1,3 +1,0 @@
-# Choose a resource for 721@stadt-uster
-
-- Tabelle der Fördergesuche der Kulturförderung der Stadt Uster (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/721%40stadt-uster--0b51d0ae272cb68974da.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/721%40stadt-uster--0b51d0ae272cb68974da.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/721%40stadt-uster--0b51d0ae272cb68974da.Rmd)

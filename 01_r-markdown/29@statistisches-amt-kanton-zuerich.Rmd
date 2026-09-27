@@ -1,3 +1,0 @@
-# Choose a resource for 29@statistisches-amt-kanton-zuerich
-
-- Ø Eigenkapital steuerpfl. jur. Pers. &#91;1000 Fr.&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/29%40statistisches-amt-kanton-zuerich--70f385a818c0994e3344.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/29%40statistisches-amt-kanton-zuerich--70f385a818c0994e3344.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/29%40statistisches-amt-kanton-zuerich--70f385a818c0994e3344.Rmd)

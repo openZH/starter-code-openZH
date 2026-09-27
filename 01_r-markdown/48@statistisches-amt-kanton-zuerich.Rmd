@@ -1,3 +1,0 @@
-# Choose a resource for 48@statistisches-amt-kanton-zuerich
-
-- Landwirtschaftsbetriebe &#91;Anz.&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/48%40statistisches-amt-kanton-zuerich--2ecbb7803afa50dee752.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/48%40statistisches-amt-kanton-zuerich--2ecbb7803afa50dee752.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/48%40statistisches-amt-kanton-zuerich--2ecbb7803afa50dee752.Rmd)

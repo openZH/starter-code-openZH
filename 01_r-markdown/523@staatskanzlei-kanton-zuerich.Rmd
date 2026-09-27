@@ -1,3 +1,0 @@
-# Choose a resource for 523@staatskanzlei-kanton-zuerich
-
-- Statistik der Informationszugangsgesuche nach IDG des Kantons Zürich (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/523%40staatskanzlei-kanton-zuerich--61097d9d4efe112d458f.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/523%40staatskanzlei-kanton-zuerich--61097d9d4efe112d458f.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/523%40staatskanzlei-kanton-zuerich--61097d9d4efe112d458f.Rmd)

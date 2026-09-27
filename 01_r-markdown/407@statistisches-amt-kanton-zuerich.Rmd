@@ -1,3 +1,0 @@
-# Choose a resource for 407@statistisches-amt-kanton-zuerich
-
-- Total Quellensteuerpflichtige &#91;Anz.&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/407%40statistisches-amt-kanton-zuerich--d29fada2b04a49b71e28.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/407%40statistisches-amt-kanton-zuerich--d29fada2b04a49b71e28.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/407%40statistisches-amt-kanton-zuerich--d29fada2b04a49b71e28.Rmd)

@@ -1,3 +1,0 @@
-# Choose a resource for 2702@stadt-winterthur
-
-- Bevölkerung von Winterthur nach Quartieren und Stadtkreisen (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2702%40stadt-winterthur--7f03b4a2860d387a79ba.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/2702%40stadt-winterthur--7f03b4a2860d387a79ba.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2702%40stadt-winterthur--7f03b4a2860d387a79ba.Rmd)

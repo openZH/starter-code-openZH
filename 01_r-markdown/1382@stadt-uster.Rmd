@@ -1,4 +1,0 @@
-# Choose a resource for 1382@stadt-uster
-
-- Jugendbefragung 2021 - Antworten (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/1382%40stadt-uster--e104d8e7a273be257d17.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/1382%40stadt-uster--e104d8e7a273be257d17.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/1382%40stadt-uster--e104d8e7a273be257d17.Rmd)
-- Jugendbefragung 2021 - Fragen (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/1382%40stadt-uster--f84af8db410592cfca58.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/1382%40stadt-uster--f84af8db410592cfca58.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/1382%40stadt-uster--f84af8db410592cfca58.Rmd)

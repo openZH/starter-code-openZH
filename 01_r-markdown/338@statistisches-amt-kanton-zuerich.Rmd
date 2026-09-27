@@ -1,3 +1,0 @@
-# Choose a resource for 338@statistisches-amt-kanton-zuerich
-
-- Mittlere Betriebe &#40;50-249 VZÄ&#41; &#91;Anz.&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/338%40statistisches-amt-kanton-zuerich--ca737955a097644348c7.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/338%40statistisches-amt-kanton-zuerich--ca737955a097644348c7.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/338%40statistisches-amt-kanton-zuerich--ca737955a097644348c7.Rmd)

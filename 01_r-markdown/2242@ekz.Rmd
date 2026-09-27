@@ -1,3 +1,0 @@
-# Choose a resource for 2242@ekz
-
-- Detaillierter Bruttolastgang EKZ und EKZ Einsiedeln (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2242%40ekz--1c3c852de5c692395257.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/2242%40ekz--1c3c852de5c692395257.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2242%40ekz--1c3c852de5c692395257.Rmd)

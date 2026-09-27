@@ -1,3 +1,0 @@
-# Choose a resource for 364@statistisches-amt-kanton-zuerich
-
-- MIV-Anteil &#40;Modal Split&#41; &#91;%&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/364%40statistisches-amt-kanton-zuerich--689e7c5c3c309c6f2787.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/364%40statistisches-amt-kanton-zuerich--689e7c5c3c309c6f2787.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/364%40statistisches-amt-kanton-zuerich--689e7c5c3c309c6f2787.Rmd)

@@ -1,3 +1,0 @@
-# Choose a resource for 524@bildungsstatistik-kanton-zuerich
-
-- Übersicht über alle Lernenden im Kanton Zürich ab 2000 (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/524%40bildungsstatistik-kanton-zuerich--dd09298f5e66ac68d23d.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/524%40bildungsstatistik-kanton-zuerich--dd09298f5e66ac68d23d.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/524%40bildungsstatistik-kanton-zuerich--dd09298f5e66ac68d23d.Rmd)

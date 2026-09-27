@@ -1,3 +1,0 @@
-# Choose a resource for 206@statistisches-amt-kanton-zuerich
-
-- Altersquotient &#91;%&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/206%40statistisches-amt-kanton-zuerich--3bd15a96c3c1601f0403.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/206%40statistisches-amt-kanton-zuerich--3bd15a96c3c1601f0403.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/206%40statistisches-amt-kanton-zuerich--3bd15a96c3c1601f0403.Rmd)

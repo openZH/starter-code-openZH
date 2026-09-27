@@ -4,7 +4,7 @@
 
 360 datasets · 795 resources · Python and R.
 
-Each resource notebook loads one file. Dataset-level files provide selection links.
+Each resource notebook loads one file. Choose a resource from the table below.
 CSV notebooks need pandas, matplotlib, seaborn and requests (Python), or tidyverse and skimr (R).
 
 | Dataset | Resource | Colab | Python | R |

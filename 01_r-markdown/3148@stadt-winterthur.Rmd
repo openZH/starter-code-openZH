@@ -1,3 +1,0 @@
-# Choose a resource for 3148@stadt-winterthur
-
-- Steuerbares Einkommen und Vermögen in Winterthur nach Quartieren und Stadtkreisen (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/3148%40stadt-winterthur--e00bb81dfe9f35e7c037.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/3148%40stadt-winterthur--e00bb81dfe9f35e7c037.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/3148%40stadt-winterthur--e00bb81dfe9f35e7c037.Rmd)

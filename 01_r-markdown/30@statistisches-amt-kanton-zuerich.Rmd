@@ -1,3 +1,0 @@
-# Choose a resource for 30@statistisches-amt-kanton-zuerich
-
-- Ø steuerbares Vermögen natürliche Pers. &#91;1000 Fr.&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/30%40statistisches-amt-kanton-zuerich--c7a05f61b68b534f958a.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/30%40statistisches-amt-kanton-zuerich--c7a05f61b68b534f958a.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/30%40statistisches-amt-kanton-zuerich--c7a05f61b68b534f958a.Rmd)

@@ -1,3 +1,0 @@
-# Choose a resource for 4@statistisches-amt-kanton-zuerich
-
-- Zuzüge &#91;%&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/4%40statistisches-amt-kanton-zuerich--583b983b8febc28ebc09.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/4%40statistisches-amt-kanton-zuerich--583b983b8febc28ebc09.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/4%40statistisches-amt-kanton-zuerich--583b983b8febc28ebc09.Rmd)

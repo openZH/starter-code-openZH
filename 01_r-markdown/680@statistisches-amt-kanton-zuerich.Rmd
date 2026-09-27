@@ -1,3 +1,0 @@
-# Choose a resource for 680@statistisches-amt-kanton-zuerich
-
-- Bestand Benzinmotor &#91;%&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/680%40statistisches-amt-kanton-zuerich--fb87e09d67a64a78a8dc.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/680%40statistisches-amt-kanton-zuerich--fb87e09d67a64a78a8dc.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/680%40statistisches-amt-kanton-zuerich--fb87e09d67a64a78a8dc.Rmd)

@@ -1,3 +1,0 @@
-# Choose a resource for 59@statistisches-amt-kanton-zuerich
-
-- Restaurants &#91;Anz.&#93; (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/59%40statistisches-amt-kanton-zuerich--c3612437ea6a92e1ccda.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/59%40statistisches-amt-kanton-zuerich--c3612437ea6a92e1ccda.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/59%40statistisches-amt-kanton-zuerich--c3612437ea6a92e1ccda.Rmd)
