@@ -12,7 +12,7 @@ To download a file from GitHub, open its raw view and save it with the original 
 
 For dataset reuse terms, follow the catalogue link for each dataset. The [metadata API catalogue entry](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1461@fachstelle-ogd-kanton-zuerich) provides additional information about the catalogue metadata.
 
-<sub>Last generated: **2026-09-27 09:53:19**</sub>
+<sub>Last generated: **2026-09-27 09:59:10**</sub>
 
 | ID | Title (abbreviated to 200 characters) | Python Colab | Python GitHub | R GitHub |
 | :-- | :-- | :-- | :-- | :-- |
