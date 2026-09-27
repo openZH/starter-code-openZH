@@ -2,13 +2,19 @@
 title: OpenZH starter code
 ---
 
-# Starter code for Canton of Zurich data
+# Starter code for all datasets of Data Shop Canton Zurich
 
-Browse **360 datasets and 795 resources**. Each notebook loads one CSV resource, with metadata and exploratory analysis in Python or R.
+💡 Ever **wished you could open a dataset in a data portal with one click and get a ready-to-use Python Jupyter Notebook or R Markdown file, complete with metadata, descriptions, data links, and starter code?**
 
-Choose **Colab** to run Python in your browser. Notebook and R Markdown links open the source files; use GitHub's raw download to save them.
+This repository provides starter code for **all CSV datasets** in the [data shop of the Office for Statistics and Data of the Canton of Zurich](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/).
 
-For data descriptions and reuse terms, follow the dataset catalogue link. Files at the old dataset-level URLs now provide resource selection links.
+Browse **360 datasets and 795 resources**. Each preconfigured notebook loads one CSV resource and includes metadata and exploratory analysis, so you can **start analyzing with R or Python immediately.**
+
+Open Jupyter notebooks in **Google Colab** to run Python in your browser. Notebook and R Markdown links open the source files.
+
+⚠️ To download a file from GitHub, open its `RAW` view and select `Right-Click Save As`; otherwise, GitHub may save an HTML page instead of the file.
+
+Feedback is welcome - simply open an issue. For licensing information, see [the metadata API endpoint](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/datasets/1461@fachstelle-ogd-kanton-zuerich).
 
 Last generated: 2026-09-27
 
