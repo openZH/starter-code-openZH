@@ -2,7 +2,7 @@
 
 Open a dataset in a Python Jupyter notebook or R Markdown file with metadata, descriptions, download links, and starter code ready to use.
 
-This repository provides starter code for **360 datasets with CSV distributions** in the [Canton of Zurich's data catalogue](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/).
+This overview lists **360 datasets with CSV distributions** selected from the [Canton of Zurich's data catalogue](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/).
 
 The table below links to the code files so you can start analyzing the data with R or Python. **Open the Jupyter notebooks directly in Google Colab** using the Colab buttons.
 
@@ -12,7 +12,7 @@ To download a file from GitHub, open its raw view and save it with the original 
 
 For dataset reuse terms, follow the catalogue link for each dataset. The [metadata API catalogue entry](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1461@fachstelle-ogd-kanton-zuerich) provides additional information about the catalogue metadata.
 
-<sub>Last generated: **2026-09-27 10:20:13**</sub>
+<sub>Last generated: **2026-09-27 10:24:54**</sub>
 
 | ID | Title (abbreviated to 200 characters) | Python Colab | Python GitHub | R GitHub |
 | :-- | :-- | :-- | :-- | :-- |

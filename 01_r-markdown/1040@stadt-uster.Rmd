@@ -26,7 +26,7 @@ Automatically generated R starter code for dataset 1040@stadt-uster.
 
 ## Load packages
 
-Use current stable tidyverse (2.x) and skimr (2.x) with R 4.1 or newer for the native `|>` pipe. Install missing packages once with `install.packages(c("tidyverse", "skimr"))`.
+This template targets tidyverse (2.x) and skimr (2.x) with R 4.1 or newer for the native `|>` pipe; package versions are not pinned. Install missing packages once with `install.packages(c("tidyverse", "skimr"))`.
 
 ```{r setup, message=FALSE}
 library(tidyverse)
