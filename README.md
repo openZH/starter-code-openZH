@@ -1,8 +1,25 @@
-# OpenZH starter code
+---
+title: OpenZH starter code
+---
+
+# Starter code for all datasets of Data Shop Canton Zurich
+
+💡 Ever **wished you could open a dataset in a data portal with one click and get a ready-to-use Python Jupyter Notebook or R Markdown file, complete with metadata, descriptions, data links, and starter code?**
+
+This repository provides starter code for **all CSV datasets** in the [data shop of the Office for Statistics and Data of the Canton of Zurich](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/).
+
+Browse **360 datasets and 795 resources**. Each preconfigured notebook loads one CSV resource and includes metadata and exploratory analysis, so you can **start analyzing with R or Python immediately.**
+
+Open Jupyter notebooks in **Google Colab** to run Python in your browser. Notebook and R Markdown links open the source files.
+
+⚠️ To download a file from GitHub, open its `RAW` view and select `Right-Click Save As`; otherwise, GitHub may save an HTML page instead of the file.
+
+Feedback is welcome - simply open an issue. For licensing information, see [the metadata API endpoint](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/datasets/1461@fachstelle-ogd-kanton-zuerich).
+
+Last generated: 2026-09-27
+
 
 [Browse all resources](https://openZH.github.io/starter-code-openZH/) or [view the resource table](index.md).
-
-360 datasets · 795 resources · Python and R.
 
 Each resource notebook loads one file. Choose a resource from the table below.
 CSV notebooks need pandas, matplotlib, seaborn and requests (Python), or tidyverse and skimr (R).
@@ -804,3 +821,4 @@ CSV notebooks need pandas, matplotlib, seaborn and requests (Python), or tidyver
 | [Ø steuerbares Einkommen natürliche Pers. &#91;Fr.&#93;](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/138%40statistisches-amt-kanton-zuerich) | Ø steuerbares Einkommen natürliche Pers. &#91;Fr.&#93; | [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/138%40statistisches-amt-kanton-zuerich--104.ipynb) | [Notebook](https://github.com/openZH/starter-code-openZH/blob/main/02_python/138%40statistisches-amt-kanton-zuerich--104.ipynb) | [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/138%40statistisches-amt-kanton-zuerich--104.Rmd) |
 | [Ø steuerbares Vermögen natürliche Pers. &#91;1000 Fr.&#93;](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/30%40statistisches-amt-kanton-zuerich) | Ø steuerbares Vermögen natürliche Pers. &#91;1000 Fr.&#93; | [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/30%40statistisches-amt-kanton-zuerich--27.ipynb) | [Notebook](https://github.com/openZH/starter-code-openZH/blob/main/02_python/30%40statistisches-amt-kanton-zuerich--27.ipynb) | [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/30%40statistisches-amt-kanton-zuerich--27.Rmd) |
 | [Übersicht über alle Lernenden im Kanton Zürich ab 2000](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/524%40bildungsstatistik-kanton-zuerich) | Übersicht über alle Lernenden im Kanton Zürich ab 2000 | [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/524%40bildungsstatistik-kanton-zuerich--989.ipynb) | [Notebook](https://github.com/openZH/starter-code-openZH/blob/main/02_python/524%40bildungsstatistik-kanton-zuerich--989.ipynb) | [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/524%40bildungsstatistik-kanton-zuerich--989.Rmd) |
+
