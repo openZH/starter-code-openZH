@@ -1,5 +1,5 @@
 ---
-title: "Open Government Data, provided by Canton Zurich"
+title: "Open government data provided by Canton of Zurich"
 date: "2026-09-27"
 output: html_document
 ---
@@ -8,9 +8,9 @@ output: html_document
 
 Übersicht über den Bauzonenstand und den Bauzonenverbrauch im Kanton Zürich anhand der Indikatoren Bauzonen, Bauzonenverbrauch und Überbauungsgrad. Es werden Daten auf Stufe Gemeinde, Planungsregion und für den Kanton Zürich als Ganzes bereitgestellt. Die jährliche Nachführung des Überbauungs- und Erschliessungsstands durch die Gemeinden im Kanton Zürich stellt die Datengrundlage der Bauzonenstatistik dar. Die Koordination der Nachführung, der Datenzusammenzug, die Datenauswertung und die Datenaufbereitung übernimmt das Amt für Raumentwicklung des Kanton Zürich. Eine weitere Quelle ist der ÖREB-Kataster, aus dem die Nutzungszonen verwendet werden. Aus technischen Gründen können die Daten in den CSV-Dateien erst ab 1996 oder später bereitgestellt werden.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1120@are-kanton-zuerich)
+[View this dataset in the data catalogue](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1120@are-kanton-zuerich)
 
-Auto-generated R starter code for dataset 1120@are-kanton-zuerich.
+Automatically generated R starter code for dataset 1120@are-kanton-zuerich.
 
 ## Metadata
 
@@ -36,7 +36,7 @@ library(skimr)
 # Load data
 
 - The dataset has 4 distribution(s) in CSV format.
--   All available CSV distributions are listed below and can be read into a tibble.
+- All available CSV distributions are listed below and can be read into a tibble.
 
 ```{r}
 
@@ -93,7 +93,7 @@ tail(df)
 
 ```
 
-# Continue your code here...
+# Continue your analysis here
 
 ```{r}
 

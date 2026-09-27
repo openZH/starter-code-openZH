@@ -1,5 +1,5 @@
 ---
-title: "Open Government Data, provided by Canton Zurich"
+title: "Open government data provided by Canton of Zurich"
 date: "2026-09-27"
 output: html_document
 ---
@@ -11,9 +11,9 @@ Die Daten bilden nur die Ergebnisse am Wahltag ab und nicht die effektive oder a
 Die Verantwortung über die Daten liegt alleine bei den erfassenden Gemeinden, sie wurden zu keinem Zeitpunkt vom Statistischen Amt des Kantons Zürich kontrolliert oder verändert.
 Die einzelnen Spalten/Variablen aller Ressourcen werden in der Datei "Dokumentation Gemeindeparlamentswahlen" beschrieben.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1282@statistisches-amt-kanton-zuerich)
+[View this dataset in the data catalogue](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1282@statistisches-amt-kanton-zuerich)
 
-Auto-generated R starter code for dataset 1282@statistisches-amt-kanton-zuerich.
+Automatically generated R starter code for dataset 1282@statistisches-amt-kanton-zuerich.
 
 ## Metadata
 
@@ -39,7 +39,7 @@ library(skimr)
 # Load data
 
 - The dataset has 9 distribution(s) in CSV format.
--   All available CSV distributions are listed below and can be read into a tibble.
+- All available CSV distributions are listed below and can be read into a tibble.
 
 ```{r}
 
@@ -141,7 +141,7 @@ tail(df)
 
 ```
 
-# Continue your code here...
+# Continue your analysis here
 
 ```{r}
 

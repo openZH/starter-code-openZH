@@ -1,5 +1,5 @@
 ---
-title: "Open Government Data, provided by Canton Zurich"
+title: "Open government data provided by Canton of Zurich"
 date: "2026-09-27"
 output: html_document
 ---
@@ -8,9 +8,9 @@ output: html_document
 
 Der Datensatz wird vorerst nicht weiter aktualisiert. Für Anfragen zum Datensatz wenden Sie sich bitte an den untenstehenden Kontakt. | Der Datensatz zeigt die Ladevorgänge der E-Ladestationen für die Elektrofahrzeuge der kantonalen Fahrzeugflotte vom Oktober 2021 - September 2025. Die Ladestationen werden ausschliesslich durch die Betriebs- und Dienstfahrzeuge der kantonalen Verwaltung genutzt. Das Immobilienamt des Kantons Zürich bestellt und bewirtschaftet die E-Ladestationen für die Kantonale Verwaltung. Der Datensatz zeigt die einzelnen Ladevorgänge an, wie sie im System verzeichnet sind, es finden keine nachträglichen Korrekturen statt.
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2282@ima-kanton-zuerich)
+[View this dataset in the data catalogue](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2282@ima-kanton-zuerich)
 
-Auto-generated R starter code for dataset 2282@ima-kanton-zuerich.
+Automatically generated R starter code for dataset 2282@ima-kanton-zuerich.
 
 ## Metadata
 
@@ -36,7 +36,7 @@ library(skimr)
 # Load data
 
 - The dataset has 1 distribution(s) in CSV format.
--   All available CSV distributions are listed below and can be read into a tibble.
+- All available CSV distributions are listed below and can be read into a tibble.
 
 ```{r}
 
@@ -66,7 +66,7 @@ tail(df)
 
 ```
 
-# Continue your code here...
+# Continue your analysis here
 
 ```{r}
 
