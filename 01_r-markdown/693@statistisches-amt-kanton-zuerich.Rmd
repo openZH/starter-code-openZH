@@ -24,22 +24,29 @@ Automatically generated R starter code for dataset 693@statistisches-amt-kanton-
 - **Landingpage** `https://www.zh.ch/de/politik-staat/wahlen-abstimmungen/national-staenderatswahlen.html`
 
 
-# Load packages
+## Load packages
 
-```{r}
+Use current stable tidyverse (2.x) and skimr (2.x) with R 4.1 or newer for the native `|>` pipe. Install missing packages once with `install.packages(c("tidyverse", "skimr"))`.
 
+```{r setup, message=FALSE}
 library(tidyverse)
 library(skimr)
+theme_set(theme_minimal())
 
+get_dataset <- function(url, delim = NULL, ...) {
+  data <- read_delim(url, delim = delim, show_col_types = FALSE, ...)
+  stop_for_problems(data)
+  data
+}
 ```
 
-# Load data
+## Load data
 
-- The dataset has 31 distribution(s) in CSV format.
-- All available CSV distributions are listed below and can be read into a tibble.
+There are **31 CSV distribution(s)**. Each is loaded into `df` in turn; the analysis uses the last one. Run only the assignment you need to analyze another distribution.
 
-```{r}
+The delimiter and column types are guessed. Check the preview and metadata; set `delim`, `col_types`, `na`, or `locale` in `get_dataset(...)` when needed (for example, read identifiers with leading zeros as character columns). Parsing problems stop the import so they can be addressed.
 
+```{r load-data}
 # Distribution 0
 # Ktzhdistid               : 4844
 # Title                    : Zuordnungstabelle Listen – Parteien
@@ -47,7 +54,7 @@ library(skimr)
 # Issued                   : 2023-11-21T23:00:00
 # Modified                 : 2023-11-28T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004844.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004844.csv')
 
 # Distribution 1
 # Ktzhdistid               : 1674
@@ -56,7 +63,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2020-07-06T22:00:00
 # Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001674.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001674.csv')
 
 # Distribution 2
 # Ktzhdistid               : 4952
@@ -65,7 +72,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2023-11-28T23:00:00
 # Modified                 : 2023-11-28T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004952.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004952.csv')
 
 # Distribution 3
 # Ktzhdistid               : 4951
@@ -74,7 +81,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2023-11-28T23:00:00
 # Modified                 : 2023-11-28T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004951.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004951.csv')
 
 # Distribution 4
 # Ktzhdistid               : 1833
@@ -83,7 +90,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2021-06-01T22:00:00
 # Modified                 : 2021-06-01T22:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001833.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001833.csv')
 
 # Distribution 5
 # Ktzhdistid               : 1675
@@ -92,7 +99,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2020-07-06T22:00:00
 # Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001675.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001675.csv')
 
 # Distribution 6
 # Ktzhdistid               : 1676
@@ -101,7 +108,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2020-07-06T22:00:00
 # Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001676.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001676.csv')
 
 # Distribution 7
 # Ktzhdistid               : 1677
@@ -110,7 +117,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2020-07-06T22:00:00
 # Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001677.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001677.csv')
 
 # Distribution 8
 # Ktzhdistid               : 4950
@@ -119,7 +126,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2023-11-28T23:00:00
 # Modified                 : 2023-11-28T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004950.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004950.csv')
 
 # Distribution 9
 # Ktzhdistid               : 4949
@@ -128,7 +135,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2023-11-28T23:00:00
 # Modified                 : 2023-11-28T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004949.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004949.csv')
 
 # Distribution 10
 # Ktzhdistid               : 1834
@@ -137,7 +144,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2021-06-01T22:00:00
 # Modified                 : 2021-06-01T22:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001834.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001834.csv')
 
 # Distribution 11
 # Ktzhdistid               : 1678
@@ -146,7 +153,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2020-07-06T22:00:00
 # Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001678.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001678.csv')
 
 # Distribution 12
 # Ktzhdistid               : 1679
@@ -155,7 +162,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2020-07-06T22:00:00
 # Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001679.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001679.csv')
 
 # Distribution 13
 # Ktzhdistid               : 1680
@@ -164,7 +171,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2020-07-06T22:00:00
 # Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001680.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001680.csv')
 
 # Distribution 14
 # Ktzhdistid               : 4948
@@ -173,7 +180,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2023-11-28T23:00:00
 # Modified                 : 2023-11-28T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004948.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004948.csv')
 
 # Distribution 15
 # Ktzhdistid               : 4947
@@ -182,7 +189,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2023-11-28T23:00:00
 # Modified                 : 2023-11-28T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004947.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004947.csv')
 
 # Distribution 16
 # Ktzhdistid               : 1835
@@ -191,7 +198,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2021-06-01T22:00:00
 # Modified                 : 2021-06-01T22:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001835.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001835.csv')
 
 # Distribution 17
 # Ktzhdistid               : 1681
@@ -200,7 +207,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2020-07-06T22:00:00
 # Modified                 : 2023-11-23T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001681.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001681.csv')
 
 # Distribution 18
 # Ktzhdistid               : 1682
@@ -209,7 +216,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2020-07-06T22:00:00
 # Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001682.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001682.csv')
 
 # Distribution 19
 # Ktzhdistid               : 1683
@@ -218,7 +225,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2020-07-06T22:00:00
 # Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001683.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001683.csv')
 
 # Distribution 20
 # Ktzhdistid               : 4946
@@ -227,7 +234,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2023-11-28T23:00:00
 # Modified                 : 2023-11-28T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004946.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004946.csv')
 
 # Distribution 21
 # Ktzhdistid               : 4945
@@ -236,7 +243,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2023-11-28T23:00:00
 # Modified                 : 2023-11-28T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004945.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004945.csv')
 
 # Distribution 22
 # Ktzhdistid               : 1836
@@ -245,7 +252,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2021-06-01T22:00:00
 # Modified                 : 2021-06-01T22:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001836.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001836.csv')
 
 # Distribution 23
 # Ktzhdistid               : 1684
@@ -254,7 +261,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2020-07-06T22:00:00
 # Modified                 : 2023-11-23T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001684.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001684.csv')
 
 # Distribution 24
 # Ktzhdistid               : 1685
@@ -263,7 +270,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2020-07-06T22:00:00
 # Modified                 : 2025-02-02T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001685.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00001685.csv')
 
 # Distribution 25
 # Ktzhdistid               : 4705
@@ -272,7 +279,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2023-10-22T22:00:00
 # Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004705.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004705.csv')
 
 # Distribution 26
 # Ktzhdistid               : 4944
@@ -281,7 +288,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2023-11-28T23:00:00
 # Modified                 : 2023-11-28T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004944.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004944.csv')
 
 # Distribution 27
 # Ktzhdistid               : 4703
@@ -290,7 +297,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2023-10-22T22:00:00
 # Modified                 : 2023-10-22T22:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004703.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004703.csv')
 
 # Distribution 28
 # Ktzhdistid               : 4943
@@ -299,7 +306,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2023-11-28T23:00:00
 # Modified                 : 2023-11-28T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004943.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004943.csv')
 
 # Distribution 29
 # Ktzhdistid               : 4704
@@ -308,7 +315,7 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2023-10-22T22:00:00
 # Modified                 : 2023-11-23T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004704.csv')
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004704.csv')
 
 # Distribution 30
 # Ktzhdistid               : 4523
@@ -317,33 +324,103 @@ df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_000006
 # Issued                   : 2023-09-03T22:00:00
 # Modified                 : 2023-11-21T23:00:00
 
-df <- read_delim('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004523.csv')
-
+df <- get_dataset('https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000693_00004523.csv')
 
 
 ```
 
-# Analyze data
+## Overview
 
-```{r}
+Inspect before cleaning: these chunks leave `df` unchanged. Duplicate rows and missing values may be meaningful.
 
+```{r overview}
+tibble(
+  rows = nrow(df),
+  columns = ncol(df),
+  duplicate_rows_after_first = sum(duplicated(df))
+)
 glimpse(df)
-str(df)
-skim(df)
-
 head(df)
-tail(df)
-
 ```
 
-# Continue your analysis here
+## Missing values
 
-```{r}
+```{r missing-values}
+missing <- tibble(
+  column = names(df),
+  missing = map_int(df, ~ sum(is.na(.x))),
+  missing_pct = map_dbl(df, ~ mean(is.na(.x)) * 100)
+) |>
+  arrange(desc(missing_pct))
+missing
 
+# Show up to 20 columns with missing values; percentages use all rows.
+missing_plot <- missing |> filter(missing > 0) |> slice_head(n = 20)
+if (nrow(missing_plot) > 0) {
+  ggplot(missing_plot, aes(x = missing_pct, y = reorder(column, missing_pct))) +
+    geom_col(fill = "steelblue") +
+    scale_x_continuous(limits = c(0, 100)) +
+    labs(x = "Missing values (%)", y = NULL, title = "Missingness by column")
+} else {
+  message("No missing values to plot (or the dataset has no rows).")
+}
 ```
 
-------------------------------------------------------------------------
+## Summary and distributions
 
-# Questions about the data?
+`skim()` reports completeness and type-specific summaries. Inspect units before interpreting numeric codes as measurements.
+
+```{r summary}
+if (nrow(df) > 0 && ncol(df) > 0) {
+  skim(df)
+} else {
+  message("No data to summarize.")
+}
+```
+
+```{r histograms}
+# Plot up to four numeric columns, excluding non-finite values only from plots.
+numeric_names <- names(select(df, where(is.numeric))) |> head(4)
+for (column in numeric_names) {
+  values <- df[[column]]
+  values <- values[is.finite(values)]
+  if (length(values) > 0) {
+    plot <- ggplot(tibble(value = values), aes(x = value)) +
+      geom_histogram(bins = 30, fill = "steelblue", colour = "white") +
+      labs(title = column, x = column, y = "Count")
+    print(plot)
+  }
+}
+```
+
+```{r category-counts}
+# Top 10 values for up to three categorical columns, including missing values.
+categorical_names <- df |>
+  select(where(~ is.character(.x) || is.factor(.x) || is.logical(.x))) |>
+  names() |>
+  head(3)
+for (column in categorical_names) {
+  cat(column, "\n")
+  df |> count(.data[[column]], sort = TRUE) |> head(10) |> print()
+}
+```
+
+## Next steps
+
+Choose columns from `names(df)` and adapt these examples. Use the metadata to decide which comparisons make sense.
+
+```{r next-steps}
+# Group summary (replace column names):
+# df |> summarise(n = n(), mean = mean(value, na.rm = TRUE), .by = group)
+
+# Parse a date explicitly, then inspect a time trend:
+# dated <- df |> mutate(date = parse_date(date, format = "%Y-%m-%d"))
+# dated |> ggplot(aes(x = date, y = value)) + geom_point()
+
+# Relationship between two numeric variables:
+# df |> ggplot(aes(x = x_column, y = y_column)) + geom_point(alpha = 0.5)
+```
+
+## Questions about the data?
 
 Amt für Statistik und Daten | Wahlen & Abstimmungen | wahlen@statistik.ji.zh.ch

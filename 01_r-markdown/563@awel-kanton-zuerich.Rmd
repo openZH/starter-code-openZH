@@ -25,22 +25,29 @@ Automatically generated R starter code for dataset 563@awel-kanton-zuerich.
 - **Landingpage** `nan`
 
 
-# Load packages
+## Load packages
 
-```{r}
+Use current stable tidyverse (2.x) and skimr (2.x) with R 4.1 or newer for the native `|>` pipe. Install missing packages once with `install.packages(c("tidyverse", "skimr"))`.
 
+```{r setup, message=FALSE}
 library(tidyverse)
 library(skimr)
+theme_set(theme_minimal())
 
+get_dataset <- function(url, delim = NULL, ...) {
+  data <- read_delim(url, delim = delim, show_col_types = FALSE, ...)
+  stop_for_problems(data)
+  data
+}
 ```
 
-# Load data
+## Load data
 
-- The dataset has 90 distribution(s) in CSV format.
-- All available CSV distributions are listed below and can be read into a tibble.
+There are **90 CSV distribution(s)**. Each is loaded into `df` in turn; the analysis uses the last one. Run only the assignment you need to analyze another distribution.
 
-```{r}
+The delimiter and column types are guessed. Check the preview and metadata; set `delim`, `col_types`, `na`, or `locale` in `get_dataset(...)` when needed (for example, read identifiers with leading zeros as character columns). Parsing problems stop the import so they can be addressed.
 
+```{r load-data}
 # Distribution 0
 # Ktzhdistid               : 1068
 # Title                    : LoRa-Sensor-Messwerte 2020/03
@@ -48,7 +55,7 @@ library(skimr)
 # Issued                   : 2022-03-09T23:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202003.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202003.csv')
 
 # Distribution 1
 # Ktzhdistid               : 1614
@@ -57,7 +64,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2020-03-05T23:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202002.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202002.csv')
 
 # Distribution 2
 # Ktzhdistid               : 1615
@@ -66,7 +73,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2020-03-05T23:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202001.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202001.csv')
 
 # Distribution 3
 # Ktzhdistid               : 1616
@@ -75,7 +82,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2020-03-05T23:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201912.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201912.csv')
 
 # Distribution 4
 # Ktzhdistid               : 1617
@@ -84,7 +91,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2020-03-05T23:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201911.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201911.csv')
 
 # Distribution 5
 # Ktzhdistid               : 1618
@@ -93,7 +100,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2020-03-05T23:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201910.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201910.csv')
 
 # Distribution 6
 # Ktzhdistid               : 1632
@@ -102,7 +109,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2020-05-03T22:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202005.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202005.csv')
 
 # Distribution 7
 # Ktzhdistid               : 1743
@@ -111,7 +118,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2020-11-01T23:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202011.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202011.csv')
 
 # Distribution 8
 # Ktzhdistid               : 1860
@@ -120,7 +127,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2021-07-12T22:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202107.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202107.csv')
 
 # Distribution 9
 # Ktzhdistid               : 1885
@@ -129,7 +136,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2021-10-03T22:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202110.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202110.csv')
 
 # Distribution 10
 # Ktzhdistid               : 1917
@@ -138,7 +145,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2021-11-09T23:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202111.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202111.csv')
 
 # Distribution 11
 # Ktzhdistid               : 2078
@@ -147,7 +154,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2022-01-13T23:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202201.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202201.csv')
 
 # Distribution 12
 # Ktzhdistid               : 2077
@@ -156,7 +163,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2022-01-13T23:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202112.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202112.csv')
 
 # Distribution 13
 # Ktzhdistid               : 1619
@@ -165,7 +172,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2020-03-05T23:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201909.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201909.csv')
 
 # Distribution 14
 # Ktzhdistid               : 1620
@@ -174,7 +181,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2020-03-05T23:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201908.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201908.csv')
 
 # Distribution 15
 # Ktzhdistid               : 1621
@@ -183,7 +190,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2020-03-05T23:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201907.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201907.csv')
 
 # Distribution 16
 # Ktzhdistid               : 1622
@@ -192,7 +199,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2020-03-05T23:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201906.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201906.csv')
 
 # Distribution 17
 # Ktzhdistid               : 1623
@@ -201,7 +208,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2020-03-05T23:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201905.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201905.csv')
 
 # Distribution 18
 # Ktzhdistid               : 1628
@@ -210,7 +217,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2020-04-08T22:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202004.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202004.csv')
 
 # Distribution 19
 # Ktzhdistid               : 1652
@@ -219,7 +226,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2020-06-01T22:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202006.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202006.csv')
 
 # Distribution 20
 # Ktzhdistid               : 1658
@@ -228,7 +235,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2020-07-05T22:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202007.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202007.csv')
 
 # Distribution 21
 # Ktzhdistid               : 1707
@@ -237,7 +244,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2020-08-02T22:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202008.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202008.csv')
 
 # Distribution 22
 # Ktzhdistid               : 1721
@@ -246,7 +253,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2020-09-07T22:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202009.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202009.csv')
 
 # Distribution 23
 # Ktzhdistid               : 1733
@@ -255,7 +262,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2020-10-04T22:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202010.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202010.csv')
 
 # Distribution 24
 # Ktzhdistid               : 1802
@@ -264,7 +271,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2021-04-06T22:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202104.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202104.csv')
 
 # Distribution 25
 # Ktzhdistid               : 1811
@@ -273,7 +280,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2021-05-02T22:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202105.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202105.csv')
 
 # Distribution 26
 # Ktzhdistid               : 1779
@@ -282,7 +289,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2021-01-10T23:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202012.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202012.csv')
 
 # Distribution 27
 # Ktzhdistid               : 1780
@@ -291,7 +298,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2021-01-10T23:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202101.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202101.csv')
 
 # Distribution 28
 # Ktzhdistid               : 1791
@@ -300,7 +307,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2021-03-02T23:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202103.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202103.csv')
 
 # Distribution 29
 # Ktzhdistid               : 1841
@@ -309,7 +316,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2021-06-03T22:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202106.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202106.csv')
 
 # Distribution 30
 # Ktzhdistid               : 1861
@@ -318,7 +325,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2021-08-18T22:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202108.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202108.csv')
 
 # Distribution 31
 # Ktzhdistid               : 1872
@@ -327,7 +334,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2021-09-01T22:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202109.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202109.csv')
 
 # Distribution 32
 # Ktzhdistid               : 1784
@@ -336,7 +343,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2021-01-31T23:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202102.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202102.csv')
 
 # Distribution 33
 # Ktzhdistid               : 2518
@@ -345,7 +352,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2022-04-01T22:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202204.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202204.csv')
 
 # Distribution 34
 # Ktzhdistid               : 3440
@@ -354,7 +361,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2022-11-01T23:00:00
 # Modified                 : 2022-12-01T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202211.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202211.csv')
 
 # Distribution 35
 # Ktzhdistid               : 2198
@@ -363,7 +370,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2022-02-15T23:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202202.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202202.csv')
 
 # Distribution 36
 # Ktzhdistid               : 2959
@@ -372,7 +379,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2022-07-01T22:00:00
 # Modified                 : 2022-08-25T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202207.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202207.csv')
 
 # Distribution 37
 # Ktzhdistid               : 3201
@@ -381,7 +388,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2022-08-24T22:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201904.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_201904.csv')
 
 # Distribution 38
 # Ktzhdistid               : 3965
@@ -390,7 +397,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2023-02-15T23:00:00
 # Modified                 : 2023-04-26T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202302.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202302.csv')
 
 # Distribution 39
 # Ktzhdistid               : 3966
@@ -399,7 +406,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2023-02-15T23:00:00
 # Modified                 : 2023-04-26T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202301.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202301.csv')
 
 # Distribution 40
 # Ktzhdistid               : 4043
@@ -408,7 +415,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2023-03-01T23:00:00
 # Modified                 : 2023-04-26T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202303.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202303.csv')
 
 # Distribution 41
 # Ktzhdistid               : 4143
@@ -417,7 +424,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2023-04-01T22:00:00
 # Modified                 : 2023-05-25T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202304.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202304.csv')
 
 # Distribution 42
 # Ktzhdistid               : 2362
@@ -426,7 +433,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2022-03-03T23:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202203.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202203.csv')
 
 # Distribution 43
 # Ktzhdistid               : 4203
@@ -435,7 +442,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2023-05-01T22:00:00
 # Modified                 : 2023-06-01T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202305.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202305.csv')
 
 # Distribution 44
 # Ktzhdistid               : 4283
@@ -444,7 +451,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2023-06-01T22:00:00
 # Modified                 : 2023-07-01T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202306.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202306.csv')
 
 # Distribution 45
 # Ktzhdistid               : 4363
@@ -453,7 +460,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2023-07-01T22:00:00
 # Modified                 : 2023-08-01T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202307.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202307.csv')
 
 # Distribution 46
 # Ktzhdistid               : 4423
@@ -462,7 +469,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2023-08-01T22:00:00
 # Modified                 : 2023-09-01T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202308.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202308.csv')
 
 # Distribution 47
 # Ktzhdistid               : 4503
@@ -471,7 +478,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2023-09-01T22:00:00
 # Modified                 : 2023-10-01T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202309.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202309.csv')
 
 # Distribution 48
 # Ktzhdistid               : 4603
@@ -480,7 +487,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2023-10-01T22:00:00
 # Modified                 : 2023-11-01T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202310.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202310.csv')
 
 # Distribution 49
 # Ktzhdistid               : 2638
@@ -489,7 +496,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2022-05-02T22:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202205.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202205.csv')
 
 # Distribution 50
 # Ktzhdistid               : 4745
@@ -498,7 +505,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2023-11-01T23:00:00
 # Modified                 : 2023-12-01T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202311.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202311.csv')
 
 # Distribution 51
 # Ktzhdistid               : 2838
@@ -507,7 +514,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2022-06-01T22:00:00
 # Modified                 : 2022-08-24T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202206.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202206.csv')
 
 # Distribution 52
 # Ktzhdistid               : 4984
@@ -516,7 +523,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2023-12-01T23:00:00
 # Modified                 : 2024-01-09T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202312.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202312.csv')
 
 # Distribution 53
 # Ktzhdistid               : 3120
@@ -525,7 +532,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2022-08-01T22:00:00
 # Modified                 : 2022-09-01T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202208.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202208.csv')
 
 # Distribution 54
 # Ktzhdistid               : 5083
@@ -534,7 +541,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2024-01-01T23:00:00
 # Modified                 : 2024-02-01T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202401.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202401.csv')
 
 # Distribution 55
 # Ktzhdistid               : 3240
@@ -543,7 +550,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2022-09-01T22:00:00
 # Modified                 : 2022-10-01T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202209.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202209.csv')
 
 # Distribution 56
 # Ktzhdistid               : 5163
@@ -552,7 +559,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2024-02-01T23:00:00
 # Modified                 : 2024-03-01T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202402.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202402.csv')
 
 # Distribution 57
 # Ktzhdistid               : 3340
@@ -561,7 +568,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2022-10-01T22:00:00
 # Modified                 : 2022-11-01T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202210.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202210.csv')
 
 # Distribution 58
 # Ktzhdistid               : 5228
@@ -570,7 +577,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2024-03-01T23:00:00
 # Modified                 : 2024-04-01T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202403.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202403.csv')
 
 # Distribution 59
 # Ktzhdistid               : 3660
@@ -579,7 +586,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2022-12-01T23:00:00
 # Modified                 : 2023-04-26T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202212.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202212.csv')
 
 # Distribution 60
 # Ktzhdistid               : 5263
@@ -588,7 +595,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2024-04-01T22:00:00
 # Modified                 : 2024-06-30T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202404.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202404.csv')
 
 # Distribution 61
 # Ktzhdistid               : 5343
@@ -597,7 +604,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2024-05-01T22:00:00
 # Modified                 : 2024-06-30T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202405.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202405.csv')
 
 # Distribution 62
 # Ktzhdistid               : 5383
@@ -606,7 +613,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2024-06-01T22:00:00
 # Modified                 : 2024-07-01T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202406.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202406.csv')
 
 # Distribution 63
 # Ktzhdistid               : 5423
@@ -615,7 +622,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2024-07-01T22:00:00
 # Modified                 : 2024-08-01T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202407.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202407.csv')
 
 # Distribution 64
 # Ktzhdistid               : 5483
@@ -624,7 +631,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2024-08-01T22:00:00
 # Modified                 : 2024-09-01T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202408.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202408.csv')
 
 # Distribution 65
 # Ktzhdistid               : 5543
@@ -633,7 +640,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2024-09-01T22:00:00
 # Modified                 : 2024-10-01T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202409.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202409.csv')
 
 # Distribution 66
 # Ktzhdistid               : 5563
@@ -642,7 +649,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2024-10-01T22:00:00
 # Modified                 : 2024-11-01T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202410.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202410.csv')
 
 # Distribution 67
 # Ktzhdistid               : 5643
@@ -651,7 +658,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2024-11-01T23:00:00
 # Modified                 : 2024-12-01T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202411.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202411.csv')
 
 # Distribution 68
 # Ktzhdistid               : 5763
@@ -660,7 +667,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2024-12-01T23:00:00
 # Modified                 : 2025-01-30T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202412.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202412.csv')
 
 # Distribution 69
 # Ktzhdistid               : 5923
@@ -669,7 +676,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2025-01-30T23:00:00
 # Modified                 : 2025-01-30T23:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202501.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202501.csv')
 
 # Distribution 70
 # Ktzhdistid               : 6143
@@ -678,7 +685,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2025-04-08T22:00:00
 # Modified                 : 2025-04-08T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202502.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202502.csv')
 
 # Distribution 71
 # Ktzhdistid               : 6144
@@ -687,7 +694,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2025-04-08T22:00:00
 # Modified                 : 2025-04-08T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202503.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202503.csv')
 
 # Distribution 72
 # Ktzhdistid               : 6145
@@ -696,7 +703,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2025-04-08T22:00:00
 # Modified                 : 2025-08-06T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202504.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202504.csv')
 
 # Distribution 73
 # Ktzhdistid               : 6443
@@ -705,7 +712,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2025-07-22T22:00:00
 # Modified                 : 2025-07-22T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202505.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202505.csv')
 
 # Distribution 74
 # Ktzhdistid               : 6444
@@ -714,7 +721,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2025-07-22T22:00:00
 # Modified                 : 2025-08-06T22:00:00
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202506.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202506.csv')
 
 # Distribution 75
 # Ktzhdistid               : 6445
@@ -723,7 +730,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2025-07-22T22:00:00
 # Modified                 : 2025-12-18T10:30:49
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202507.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202507.csv')
 
 # Distribution 76
 # Ktzhdistid               : 6523
@@ -732,7 +739,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2025-08-06T22:00:00
 # Modified                 : 2025-12-18T10:32:03
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202508.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202508.csv')
 
 # Distribution 77
 # Ktzhdistid               : 6723
@@ -741,7 +748,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2025-12-18T12:49:13
 # Modified                 : 2025-12-18T12:49:13
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202509.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202509.csv')
 
 # Distribution 78
 # Ktzhdistid               : 6724
@@ -750,7 +757,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2025-12-18T12:55:48
 # Modified                 : 2025-12-18T12:55:48
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202510.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202510.csv')
 
 # Distribution 79
 # Ktzhdistid               : 6725
@@ -759,7 +766,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2025-12-18T12:56:15
 # Modified                 : 2025-12-18T12:56:15
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202511.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202511.csv')
 
 # Distribution 80
 # Ktzhdistid               : 6726
@@ -768,7 +775,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2025-12-18T12:56:43
 # Modified                 : 2026-01-07T12:55:05
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202512.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202512.csv')
 
 # Distribution 81
 # Ktzhdistid               : 6731
@@ -777,7 +784,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2026-01-07T12:55:20
 # Modified                 : 2026-02-06T13:50:36
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202601.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202601.csv')
 
 # Distribution 82
 # Ktzhdistid               : 6747
@@ -786,7 +793,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2026-02-06T13:50:49
 # Modified                 : 2026-03-02T07:22:33
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202602.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202602.csv')
 
 # Distribution 83
 # Ktzhdistid               : 6772
@@ -795,7 +802,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2026-03-02T07:22:37
 # Modified                 : 2026-04-24T11:45:04
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202603.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202603.csv')
 
 # Distribution 84
 # Ktzhdistid               : 6790
@@ -804,7 +811,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2026-04-24T11:45:30
 # Modified                 : 2026-05-27T06:48:40
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202604.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202604.csv')
 
 # Distribution 85
 # Ktzhdistid               : 6798
@@ -813,7 +820,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2026-05-27T06:48:59
 # Modified                 : 2026-06-22T14:00:07
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202605.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202605.csv')
 
 # Distribution 86
 # Ktzhdistid               : 6813
@@ -822,7 +829,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2026-06-22T14:00:33
 # Modified                 : 2026-07-13T08:39:12
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202606.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202606.csv')
 
 # Distribution 87
 # Ktzhdistid               : 6814
@@ -831,7 +838,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2026-07-06T08:43:18
 # Modified                 : 2026-08-02T07:59:36
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202607.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202607.csv')
 
 # Distribution 88
 # Ktzhdistid               : 6850
@@ -840,7 +847,7 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2026-08-02T07:59:43
 # Modified                 : 2026-09-07T10:06:58
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202608.csv')
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202608.csv')
 
 # Distribution 89
 # Ktzhdistid               : 6882
@@ -849,33 +856,103 @@ df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_Lo
 # Issued                   : 2026-09-07T10:07:10
 # Modified                 : 2026-09-23T05:43:27
 
-df <- read_delim('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202609.csv')
-
+df <- get_dataset('https://www.web.statistik.zh.ch/awel/LoRa/data/AWEL_Sensors_LoRa_202609.csv')
 
 
 ```
 
-# Analyze data
+## Overview
 
-```{r}
+Inspect before cleaning: these chunks leave `df` unchanged. Duplicate rows and missing values may be meaningful.
 
+```{r overview}
+tibble(
+  rows = nrow(df),
+  columns = ncol(df),
+  duplicate_rows_after_first = sum(duplicated(df))
+)
 glimpse(df)
-str(df)
-skim(df)
-
 head(df)
-tail(df)
-
 ```
 
-# Continue your analysis here
+## Missing values
 
-```{r}
+```{r missing-values}
+missing <- tibble(
+  column = names(df),
+  missing = map_int(df, ~ sum(is.na(.x))),
+  missing_pct = map_dbl(df, ~ mean(is.na(.x)) * 100)
+) |>
+  arrange(desc(missing_pct))
+missing
 
+# Show up to 20 columns with missing values; percentages use all rows.
+missing_plot <- missing |> filter(missing > 0) |> slice_head(n = 20)
+if (nrow(missing_plot) > 0) {
+  ggplot(missing_plot, aes(x = missing_pct, y = reorder(column, missing_pct))) +
+    geom_col(fill = "steelblue") +
+    scale_x_continuous(limits = c(0, 100)) +
+    labs(x = "Missing values (%)", y = NULL, title = "Missingness by column")
+} else {
+  message("No missing values to plot (or the dataset has no rows).")
+}
 ```
 
-------------------------------------------------------------------------
+## Summary and distributions
 
-# Questions about the data?
+`skim()` reports completeness and type-specific summaries. Inspect units before interpreting numeric codes as measurements.
+
+```{r summary}
+if (nrow(df) > 0 && ncol(df) > 0) {
+  skim(df)
+} else {
+  message("No data to summarize.")
+}
+```
+
+```{r histograms}
+# Plot up to four numeric columns, excluding non-finite values only from plots.
+numeric_names <- names(select(df, where(is.numeric))) |> head(4)
+for (column in numeric_names) {
+  values <- df[[column]]
+  values <- values[is.finite(values)]
+  if (length(values) > 0) {
+    plot <- ggplot(tibble(value = values), aes(x = value)) +
+      geom_histogram(bins = 30, fill = "steelblue", colour = "white") +
+      labs(title = column, x = column, y = "Count")
+    print(plot)
+  }
+}
+```
+
+```{r category-counts}
+# Top 10 values for up to three categorical columns, including missing values.
+categorical_names <- df |>
+  select(where(~ is.character(.x) || is.factor(.x) || is.logical(.x))) |>
+  names() |>
+  head(3)
+for (column in categorical_names) {
+  cat(column, "\n")
+  df |> count(.data[[column]], sort = TRUE) |> head(10) |> print()
+}
+```
+
+## Next steps
+
+Choose columns from `names(df)` and adapt these examples. Use the metadata to decide which comparisons make sense.
+
+```{r next-steps}
+# Group summary (replace column names):
+# df |> summarise(n = n(), mean = mean(value, na.rm = TRUE), .by = group)
+
+# Parse a date explicitly, then inspect a time trend:
+# dated <- df |> mutate(date = parse_date(date, format = "%Y-%m-%d"))
+# dated |> ggplot(aes(x = date, y = value)) + geom_point()
+
+# Relationship between two numeric variables:
+# df |> ggplot(aes(x = x_column, y = y_column)) + geom_point(alpha = 0.5)
+```
+
+## Questions about the data?
 
 Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich | Abteilung Luft, Klima und Strahlung | joerg.sintermann@bd.zh.ch
