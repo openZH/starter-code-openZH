@@ -4,9 +4,9 @@ title: OpenZH starter code
 
 # Starter code for Canton of Zurich data
 
-Browse **360 datasets and 795 resources**. Each notebook loads one CSV or Parquet resource, with metadata and exploratory analysis in Python or R.
+Browse **360 datasets and 795 resources**. Each notebook loads one CSV resource, with metadata and exploratory analysis in Python or R.
 
-Choose **Colab** to run Python in your browser. **R online** appears only when an R launcher is configured. Notebook and R Markdown links open the source files; use GitHub's raw download to save them.
+Choose **Colab** to run Python in your browser. Notebook and R Markdown links open the source files; use GitHub's raw download to save them.
 
 For data descriptions and reuse terms, follow the dataset catalogue link. Files at the old dataset-level URLs now provide resource selection links.
 

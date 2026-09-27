@@ -5,7 +5,7 @@
 360 datasets · 795 resources · Python and R.
 
 Each resource notebook loads one file. Dataset-level files provide selection links.
-CSV notebooks need pandas, matplotlib and seaborn (Python), or tidyverse and skimr (R). Parquet additionally requires pyarrow (Python) or arrow (R).
+CSV notebooks need pandas, matplotlib and seaborn (Python), or tidyverse and skimr (R).
 
 | Dataset | Resource | Colab | Python | R |
 | :-- | :-- | :-- | :-- | :-- |

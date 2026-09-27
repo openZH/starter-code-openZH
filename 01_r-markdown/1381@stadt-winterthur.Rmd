@@ -1,3 +1,3 @@
 # Choose a resource for 1381@stadt-winterthur
 
-- Altersstruktur Stadt Winterthur (csv): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/1381%40stadt-winterthur--1f62c5aaaff0046f1a24.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/1381%40stadt-winterthur--1f62c5aaaff0046f1a24.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/1381%40stadt-winterthur--1f62c5aaaff0046f1a24.Rmd)
+- Altersstruktur Stadt Winterthur (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/1381%40stadt-winterthur--1f62c5aaaff0046f1a24.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/1381%40stadt-winterthur--1f62c5aaaff0046f1a24.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/1381%40stadt-winterthur--1f62c5aaaff0046f1a24.Rmd)

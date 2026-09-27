@@ -1,3 +1,3 @@
 # Choose a resource for 2563@stadt-winterthur
 
-- Bevölkerung, nach Heimat und Herkunft (csv): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2563%40stadt-winterthur--a169e03e9aa622379948.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/2563%40stadt-winterthur--a169e03e9aa622379948.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2563%40stadt-winterthur--a169e03e9aa622379948.Rmd)
+- Bevölkerung, nach Heimat und Herkunft (CSV): [Python](https://github.com/openZH/starter-code-openZH/blob/main/02_python/2563%40stadt-winterthur--a169e03e9aa622379948.ipynb) · [Colab](https://colab.research.google.com/github/openZH/starter-code-openZH/blob/main/02_python/2563%40stadt-winterthur--a169e03e9aa622379948.ipynb) · [R Markdown](https://github.com/openZH/starter-code-openZH/blob/main/01_r-markdown/2563%40stadt-winterthur--a169e03e9aa622379948.Rmd)

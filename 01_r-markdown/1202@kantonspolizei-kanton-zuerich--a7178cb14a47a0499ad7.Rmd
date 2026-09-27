@@ -40,8 +40,7 @@ theme_set(theme_minimal())
 USER_AGENT <- "OpenZH-StarterCode-R/1.0"
 HTTP_TIMEOUT <- 30
 
-get_dataset <- function(url, file_format = "csv", delim = NULL, drop_empty_unnamed = TRUE, ...) {
-  if (!file_format %in% c("csv", "parquet")) stop("Unsupported file format")
+get_dataset <- function(url, delim = NULL, drop_empty_unnamed = TRUE, ...) {
   if (grepl("^https?://", url)) {
     local_file <- tempfile()
     on.exit(unlink(local_file), add = TRUE)
@@ -51,12 +50,6 @@ get_dataset <- function(url, file_format = "csv", delim = NULL, drop_empty_unnam
                             quiet = TRUE, headers = c("User-Agent" = USER_AGENT))
     if (status != 0) stop("Resource download failed")
     url <- local_file
-  }
-  if (file_format == "parquet") {
-    if (!requireNamespace("arrow", quietly = TRUE)) {
-      stop('Parquet requires arrow. Install it with install.packages("arrow").')
-    }
-    return(arrow::read_parquet(url, ...))
   }
   data <- read_delim(url, delim = delim, show_col_types = FALSE, ...)
   stop_for_problems(data)
@@ -75,14 +68,14 @@ get_dataset <- function(url, file_format = "csv", delim = NULL, drop_empty_unnam
 
 ## Load data
 
-Selected resource: **Anzahl Straftaten nach Tatbestandsgruppe für ausgewählte Gemeinden und die Stadtkreise der Stadt Zürich** (csv). This notebook loads only this resource. Parquet additionally requires the `arrow` package; install it once with `install.packages("arrow")`. The format comes from catalogue metadata, not the URL suffix.
+Selected resource: **Anzahl Straftaten nach Tatbestandsgruppe für ausgewählte Gemeinden und die Stadtkreise der Stadt Zürich** (CSV). This notebook loads only this resource.
 
 For CSV, the delimiter and column types are guessed. Check the preview and metadata; set `delim`, `col_types`, `na`, or `locale` in `get_dataset(...)` when needed (for example, read identifiers with leading zeros as character columns). Parsing problems stop the import so they can be addressed.
 
 Fully empty columns named `...n` are removed on import. Named empty columns and unnamed columns containing values are kept. Use `drop_empty_unnamed = FALSE` to retain every column, including intentionally named `...n` fields.
 
 ```{r load-data}
-df <- get_dataset("https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001202_00003600.csv", file_format = "csv")
+df <- get_dataset("https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001202_00003600.csv")
 ```
 
 ## Overview
