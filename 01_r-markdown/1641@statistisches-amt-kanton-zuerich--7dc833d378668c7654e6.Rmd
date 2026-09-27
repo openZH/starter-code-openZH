@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Open Government Data publizierende Verwaltungseinheiten und -abteilungen im Kanton Zürich
 
-Liste aller Verwaltungseinheiten und -abteilungen &#40;inkl. &&#35;x27;Publisher-Suffix&&#35;x27; = URL-Slug der Organisation&#41;, die bis zum angegebenen Zeitpunkt offene Behördendaten &#40;OGD&#41; über die kantonale Metadatenverwaltung &#40;MDV&#41; publizieren. Davon ausgenommen sind Behörden, die ausschliesslich offene Geodaten publizieren, da diese nicht über die MDV bereitgestellt werden, sondern über die kantonale Geodateninfrastruktur &#40;Geoinformation Kanton Zürich&#41;. Die Stadt Zürich als grösstes &#42;kommunales&#42; OGD-publizierendes Organ im Kanton ist ebenfalls ausgenommen, da sie über eine eigene OGD-Metadateninfrastruktur &#40;Open Data Zürich&#41; verfügt. Hinweis: Alle OGD, die über die MDV bereitgestellt werden, verfügen sowohl im öffentlichen kantonalen Datenkatalog &#40;zh.ch/daten&#41; wie auch im zentralen Portal für offene Daten der Schweizer Behörden &#40;opendata.swiss&#41; über eine permanente URL &#40;Permalink&#41;: Das &&#35;x27;Publisher-Suffix&&#35;x27; der Organisation, welche die Datenhoheit über die entsprechenden Daten hält, bildet zusammen mit einer numerischen ID den eindeutigen URL-Slug des Metadatensatzes.
+Liste aller Verwaltungseinheiten und -abteilungen &#40;inkl. &#x27;Publisher-Suffix&#x27; = URL-Slug der Organisation&#41;, die bis zum angegebenen Zeitpunkt offene Behördendaten &#40;OGD&#41; über die kantonale Metadatenverwaltung &#40;MDV&#41; publizieren. Davon ausgenommen sind Behörden, die ausschliesslich offene Geodaten publizieren, da diese nicht über die MDV bereitgestellt werden, sondern über die kantonale Geodateninfrastruktur &#40;Geoinformation Kanton Zürich&#41;. Die Stadt Zürich als grösstes &#42;kommunales&#42; OGD-publizierendes Organ im Kanton ist ebenfalls ausgenommen, da sie über eine eigene OGD-Metadateninfrastruktur &#40;Open Data Zürich&#41; verfügt. Hinweis: Alle OGD, die über die MDV bereitgestellt werden, verfügen sowohl im öffentlichen kantonalen Datenkatalog &#40;zh.ch/daten&#41; wie auch im zentralen Portal für offene Daten der Schweizer Behörden &#40;opendata.swiss&#41; über eine permanente URL &#40;Permalink&#41;: Das &#x27;Publisher-Suffix&#x27; der Organisation, welche die Datenhoheit über die entsprechenden Daten hält, bildet zusammen mit einer numerischen ID den eindeutigen URL-Slug des Metadatensatzes.
 
 [View this dataset in the data catalogue](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1641%40statistisches-amt-kanton-zuerich)
 
@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1641@statistisches-amt-kanton
 
 ## Metadata
 
-- **issued:** 2022-08-16T22:00:00
-- **modified:** 2025-10-23T22:00:00
+- **issued:** 2022-08-16 22:00:00
+- **modified:** 2025-10-23 22:00:00
 - **startDate:** nan
 - **endDate:** 2025-10-24
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;gemeinden&&#35;x27;, &&#35;x27;gemeindeverwaltung&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;kantonale&#95;verwaltung&&#35;x27;, &&#35;x27;ogd&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/GOVE
+- **keyword:** gemeinden, gemeindeverwaltung, kanton&#95;zuerich, kantonale&#95;verwaltung, ogd
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** nan
 - **Resource ktzhDistId:** 3098
 - **Resource title:** OGD-Publisher im Kanton Zürich
-- **Resource description:** Spaltenüberschriften: &&#35;x27;PUBLISHER&&#35;x27; = Bezeichnung der Organisation, unter deren Hoheit die publizierten Daten stehen; &&#35;x27;ABTEILUNG&&#35;x27; = Bezeichnung der entsprechenden Abteilung der Organisation, welche die Datenhoheit besitzt &#40;eine Abteilung kann angegeben sein, aber muss nicht&#41;; &&#35;x27;PUBLISHER&#95;SUFFIX&&#35;x27; = URL-Slug der Organisation &#40;die Abteilung wird im Slug nicht repräsentiert&#41;.
-- **Resource issued:** 2022-08-16T22:00:00
-- **Resource modified:** 2025-10-23T22:00:00
+- **Resource description:** Spaltenüberschriften: &#x27;PUBLISHER&#x27; = Bezeichnung der Organisation, unter deren Hoheit die publizierten Daten stehen; &#x27;ABTEILUNG&#x27; = Bezeichnung der entsprechenden Abteilung der Organisation, welche die Datenhoheit besitzt &#40;eine Abteilung kann angegeben sein, aber muss nicht&#41;; &#x27;PUBLISHER&#95;SUFFIX&#x27; = URL-Slug der Organisation &#40;die Abteilung wird im Slug nicht repräsentiert&#41;.
+- **Resource issued:** 2022-08-16 22:00:00
+- **Resource modified:** 2025-10-23 22:00:00
 
 ## Load packages
 

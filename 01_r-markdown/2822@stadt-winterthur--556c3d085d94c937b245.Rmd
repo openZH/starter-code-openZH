@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2822@stadt-winterthur.
 
 ## Metadata
 
-- **issued:** 2024-12-10T23:00:00
-- **modified:** 2026-09-16T06:12:29
+- **issued:** 2024-12-10 23:00:00
+- **modified:** 2026-09-16 06:12:29
 - **startDate:** 2019-01-01
 - **endDate:** nan
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/JUST&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;feuerwehr&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;rettung&&#35;x27;, &&#35;x27;sicherheit&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Stadt Winterthur&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/JUST
+- **keyword:** feuerwehr, ogd, rettung, sicherheit
+- **publisher:** Stadt Winterthur
 - **landingPage:** https://stadt.winterthur.ch/organisation/verwaltung-departemente/sicherheit-und-umwelt/schutz-intervention-winterthur/einsaetze-siw
 - **Resource ktzhDistId:** 5804
 - **Resource title:** Feuerwehr-Einsätze Winterthur &#40;API CSV&#41;
 - **Resource description:** Dieser Endpoint liefert die Einsätze der Feuerwehr Winterthur im CSV-Format. Die Dokumentation zum API ist im Datensatz verlinkt unter &quot;API-Dokumentation Feuerwehr-Einsätze&quot;.
-- **Resource issued:** 2024-12-10T23:00:00
-- **Resource modified:** 2024-12-10T23:00:00
+- **Resource issued:** 2024-12-10 23:00:00
+- **Resource modified:** 2024-12-10 23:00:00
 
 ## Load packages
 

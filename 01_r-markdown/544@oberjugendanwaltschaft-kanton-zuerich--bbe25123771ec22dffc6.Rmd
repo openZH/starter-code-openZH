@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 544@oberjugendanwaltschaft-ka
 
 ## Metadata
 
-- **issued:** 2019-11-27T23:00:00
-- **modified:** 2026-03-30T15:16:57
+- **issued:** 2019-11-27 23:00:00
+- **modified:** 2026-03-30 15:16:57
 - **startDate:** 2007-01-01
 - **endDate:** 2023-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/JUST&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;jugendkriminalitaet&&#35;x27;, &&#35;x27;jugendliche&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;strafdelikte&&#35;x27;, &&#35;x27;verurteilungen&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Oberjugendanwaltschaft des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/JUST
+- **keyword:** jugendkriminalitaet, jugendliche, kanton&#95;zuerich, ogd, strafdelikte, verurteilungen
+- **publisher:** Oberjugendanwaltschaft des Kantons Zürich
 - **landingPage:** nan
 - **Resource ktzhDistId:** 1029
 - **Resource title:** Anzahl Delikte bei den Verurteilungen
 - **Resource description:** None
-- **Resource issued:** 2019-11-27T23:00:00
-- **Resource modified:** 2026-04-15T05:36:02
+- **Resource issued:** 2019-11-27 23:00:00
+- **Resource modified:** 2026-04-15 05:36:02
 
 ## Load packages
 

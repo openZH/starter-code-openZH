@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 691@statistisches-amt-kanton-
 
 ## Metadata
 
-- **issued:** 2020-07-05T22:00:00
-- **modified:** 2023-01-03T23:00:00
+- **issued:** 2020-07-05 22:00:00
+- **modified:** 2023-01-03 23:00:00
 - **startDate:** 2019-12-31
 - **endDate:** 2019-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/EDUC&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/HEAL&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;altersgruppen&&#35;x27;, &&#35;x27;covid-19&&#35;x27;, &&#35;x27;covid19&&#35;x27;, &&#35;x27;einwohner&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;haushalte&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;kinderbetreuung&&#35;x27;, &&#35;x27;ogd&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/EDUC, http://publications.europa.eu/resource/authority/data-theme/HEAL, http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** altersgruppen, covid-19, covid19, einwohner, gemeinden, haushalte, kanton&#95;zuerich, kinderbetreuung, ogd
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** https://www.web.statistik.zh.ch/covid19&#95;indikatoren&#95;uebersicht/&#35;/50/Alle
 - **Resource ktzhDistId:** 1659
 - **Resource title:** Vom Covid-19-Lockdown besonders betroffene Haushalte
-- **Resource description:** Spaltenüberschriften: &&#35;x27;bfs&&#35;x27; = GEMEINDE&#95;BFS&#95;NR; &&#35;x27;gmd&&#35;x27; = GEMEINDE; &&#35;x27;hh...&&#35;x27; = HAUSHALTE
-- **Resource issued:** 2020-07-05T22:00:00
-- **Resource modified:** 2020-07-05T22:00:00
+- **Resource description:** Spaltenüberschriften: &#x27;bfs&#x27; = GEMEINDE&#95;BFS&#95;NR; &#x27;gmd&#x27; = GEMEINDE; &#x27;hh...&#x27; = HAUSHALTE
+- **Resource issued:** 2020-07-05 22:00:00
+- **Resource modified:** 2020-07-05 22:00:00
 
 ## Load packages
 

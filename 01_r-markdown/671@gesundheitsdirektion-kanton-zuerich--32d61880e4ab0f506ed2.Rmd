@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 671@gesundheitsdirektion-kant
 
 ## Metadata
 
-- **issued:** 2020-03-04T23:00:00
-- **modified:** 2023-01-09T23:00:00
+- **issued:** 2020-03-04 23:00:00
+- **modified:** 2023-01-09 23:00:00
 - **startDate:** 2020-02-27
 - **endDate:** 2023-01-03
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/HEAL&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;alter&&#35;x27;, &&#35;x27;altersgruppen&&#35;x27;, &&#35;x27;altersklassen&&#35;x27;, &&#35;x27;amtliches&#95;geschlecht&&#35;x27;, &&#35;x27;bezirke&&#35;x27;, &&#35;x27;corona&&#35;x27;, &&#35;x27;covid-19&&#35;x27;, &&#35;x27;covid19&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;gesundheit&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;krankheiten&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;todesfaelle&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Gesundheitsdirektion des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/HEAL
+- **keyword:** alter, altersgruppen, altersklassen, amtliches&#95;geschlecht, bezirke, corona, covid-19, covid19, gemeinden, gesundheit, kanton&#95;zuerich, krankheiten, ogd, todesfaelle
+- **publisher:** Gesundheitsdirektion des Kantons Zürich
 - **landingPage:** https://github.com/openZH/covid&#95;19
 - **Resource ktzhDistId:** 1702
 - **Resource title:** COVID&#95;19 Verteilung der Fälle im Kanton Zürich nach Altersklasse, Geschlecht und Kalenderwoche ab 24.02.2020 bis 03.01.2023
-- **Resource description:** Bestätigt positive Fälle sowie die Todesfälle pro Kalenderwoche als 10-Jahres-Altersklassen je Geschlecht. Bis 08.07.2020 wurden täglich Einzelfallzahlen mit Alter und Geschlecht veröffentlicht &#40;siehe Ressource &quot;COVID&#95;19 Fallzahlen Kanton Zuerich nach Alter und Geschlecht&quot;&#41;. Die Daten werden einmal wöchentlich &#40;jeweils am Mittwoch&#41; aktualisiert. Variabeln: &&#35;x27;AgeYearCat&&#35;x27; = 10-Jahres-Altersklasse &#40;0-9 Jahre, 10-19 Jahre, 20-29 Jahre, usw.&#41;; &&#35;x27;NewConfCases&&#35;x27; = Neue bestätigte Fälle; &&#35;x27;NewDeaths&&#35;x27; = Neue Todesfälle.
-- **Resource issued:** 2020-07-08T22:00:00
-- **Resource modified:** 2023-01-03T23:00:00
+- **Resource description:** Bestätigt positive Fälle sowie die Todesfälle pro Kalenderwoche als 10-Jahres-Altersklassen je Geschlecht. Bis 08.07.2020 wurden täglich Einzelfallzahlen mit Alter und Geschlecht veröffentlicht &#40;siehe Ressource &quot;COVID&#95;19 Fallzahlen Kanton Zuerich nach Alter und Geschlecht&quot;&#41;. Die Daten werden einmal wöchentlich &#40;jeweils am Mittwoch&#41; aktualisiert. Variabeln: &#x27;AgeYearCat&#x27; = 10-Jahres-Altersklasse &#40;0-9 Jahre, 10-19 Jahre, 20-29 Jahre, usw.&#41;; &#x27;NewConfCases&#x27; = Neue bestätigte Fälle; &#x27;NewDeaths&#x27; = Neue Todesfälle.
+- **Resource issued:** 2020-07-08 22:00:00
+- **Resource modified:** 2023-01-03 23:00:00
 
 ## Load packages
 

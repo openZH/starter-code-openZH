@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2902@stadt-winterthur.
 
 ## Metadata
 
-- **issued:** 2025-02-17T23:00:00
-- **modified:** 2026-09-16T06:11:26
+- **issued:** 2025-02-17 23:00:00
+- **modified:** 2026-09-16 06:11:26
 - **startDate:** 1982-01-01
 - **endDate:** 2023-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/EDUC&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;bibliotheken&&#35;x27;, &&#35;x27;museen&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;theater&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Stadt Winterthur&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/EDUC
+- **keyword:** bibliotheken, museen, ogd, theater
+- **publisher:** Stadt Winterthur
 - **landingPage:** https://stadt.winterthur.ch/themen/arbeit-steuern-wirtschaft/daten-statistik/kultur-und-bildung
 - **Resource ktzhDistId:** 5968
 - **Resource title:** Besuche kultureller Einrichtungen in Winterthur
 - **Resource description:** Die Indikatoren sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
-- **Resource issued:** 2025-02-17T23:00:00
-- **Resource modified:** 2025-02-17T23:00:00
+- **Resource issued:** 2025-02-17 23:00:00
+- **Resource modified:** 2025-02-17 23:00:00
 
 ## Load packages
 

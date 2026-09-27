@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 3122@stadt-winterthur.
 
 ## Metadata
 
-- **issued:** 2025-09-02T22:00:00
-- **modified:** 2026-09-27T10:01:53
+- **issued:** 2025-09-02 22:00:00
+- **modified:** 2026-09-27 10:01:53
 - **startDate:** 2023-01-01
 - **endDate:** 2026-09-26
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENER&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;elektrizitaet&&#35;x27;, &&#35;x27;elektrizitaetsproduktion&&#35;x27;, &&#35;x27;messung&&#35;x27;, &&#35;x27;ogd&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Stadt Winterthur&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ENER
+- **keyword:** elektrizitaet, elektrizitaetsproduktion, messung, ogd
+- **publisher:** Stadt Winterthur
 - **landingPage:** nan
 - **Resource ktzhDistId:** 6583
 - **Resource title:** Lastgang Netzeinspeisung ab 2023
 - **Resource description:** Der Lastgang wird pro Viertelstunde in Kilowattstunden zusammengefasst.
-- **Resource issued:** 2025-09-02T22:00:00
-- **Resource modified:** 2026-09-27T10:01:52
+- **Resource issued:** 2025-09-02 22:00:00
+- **Resource modified:** 2026-09-27 10:01:52
 
 ## Load packages
 

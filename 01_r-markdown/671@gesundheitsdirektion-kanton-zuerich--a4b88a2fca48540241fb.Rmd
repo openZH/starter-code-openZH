@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 671@gesundheitsdirektion-kant
 
 ## Metadata
 
-- **issued:** 2020-03-04T23:00:00
-- **modified:** 2023-01-09T23:00:00
+- **issued:** 2020-03-04 23:00:00
+- **modified:** 2023-01-09 23:00:00
 - **startDate:** 2020-02-27
 - **endDate:** 2023-01-03
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/HEAL&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;alter&&#35;x27;, &&#35;x27;altersgruppen&&#35;x27;, &&#35;x27;altersklassen&&#35;x27;, &&#35;x27;amtliches&#95;geschlecht&&#35;x27;, &&#35;x27;bezirke&&#35;x27;, &&#35;x27;corona&&#35;x27;, &&#35;x27;covid-19&&#35;x27;, &&#35;x27;covid19&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;gesundheit&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;krankheiten&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;todesfaelle&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Gesundheitsdirektion des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/HEAL
+- **keyword:** alter, altersgruppen, altersklassen, amtliches&#95;geschlecht, bezirke, corona, covid-19, covid19, gemeinden, gesundheit, kanton&#95;zuerich, krankheiten, ogd, todesfaelle
+- **publisher:** Gesundheitsdirektion des Kantons Zürich
 - **landingPage:** https://github.com/openZH/covid&#95;19
 - **Resource ktzhDistId:** 1703
 - **Resource title:** COVID&#95;19 Verteilung der Fälle im Kanton Zürich nach Postleitzahl ab 09.07.2020 bis 03.01.2023
-- **Resource description:** Verteilung der neu bestätigt infizierten Fälle der jeweils letzten sieben Tage nach Postleitzahl. Postleitzahlen, die auf dem Gebiet des Kantons Zürich weniger als 100 EinwohnerInnen aufweisen, werden aus Gründen des Datenschutzes in der Kategorie &&#35;x27;PLZ&#95;uebrige&&#35;x27; zusammengefasst. Bei den Werten handelt es sich nicht um Einzelfallzahlen, sondern um Fallzahlklassen. Variabeln: &&#35;x27;PLZ&&#35;x27; = Postleitzahl; &&#35;x27;Population&&#35;x27; = EinwohnerInnen mit Hauptwohnsitz; &&#35;x27;NewConfCases&#95;7days&&#35;x27; = Neue bestätigte Fälle in den vergangenen sieben Tagen in Kategorien &#40;0-3 Fälle, 4-6 Fälle, 7-9 Fälle, usw.&#41;. Die Daten werden einmal wöchentlich &#40;jeweils am Mittwoch&#41; aktualisiert.
-- **Resource issued:** 2020-07-08T22:00:00
-- **Resource modified:** 2023-01-03T23:00:00
+- **Resource description:** Verteilung der neu bestätigt infizierten Fälle der jeweils letzten sieben Tage nach Postleitzahl. Postleitzahlen, die auf dem Gebiet des Kantons Zürich weniger als 100 EinwohnerInnen aufweisen, werden aus Gründen des Datenschutzes in der Kategorie &#x27;PLZ&#95;uebrige&#x27; zusammengefasst. Bei den Werten handelt es sich nicht um Einzelfallzahlen, sondern um Fallzahlklassen. Variabeln: &#x27;PLZ&#x27; = Postleitzahl; &#x27;Population&#x27; = EinwohnerInnen mit Hauptwohnsitz; &#x27;NewConfCases&#95;7days&#x27; = Neue bestätigte Fälle in den vergangenen sieben Tagen in Kategorien &#40;0-3 Fälle, 4-6 Fälle, 7-9 Fälle, usw.&#41;. Die Daten werden einmal wöchentlich &#40;jeweils am Mittwoch&#41; aktualisiert.
+- **Resource issued:** 2020-07-08 22:00:00
+- **Resource modified:** 2023-01-03 23:00:00
 
 ## Load packages
 

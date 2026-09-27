@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 3155@stadt-winterthur.
 
 ## Metadata
 
-- **issued:** 2026-04-13T08:04:12
-- **modified:** 2026-05-11T19:11:15
+- **issued:** 2026-04-13 08:04:12
+- **modified:** 2026-05-11 19:11:15
 - **startDate:** 2015-12-31
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/REGI&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;einfamilienhaus&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;quartieranalyse&&#35;x27;, &&#35;x27;wohnflaeche&&#35;x27;, &&#35;x27;wohnung&&#35;x27;, &&#35;x27;wohnungen&&#35;x27;, &&#35;x27;wohnungsbestand&&#35;x27;, &&#35;x27;zimmerzahl&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Stadt Winterthur&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/REGI, http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** einfamilienhaus, ogd, quartieranalyse, wohnflaeche, wohnung, wohnungen, wohnungsbestand, zimmerzahl
+- **publisher:** Stadt Winterthur
 - **landingPage:** https://stadt.winterthur.ch/wohnmonitor
 - **Resource ktzhDistId:** 6768
 - **Resource title:** Wohnungsbestand in Winterthur nach Quartieren und Stadtkreisen
 - **Resource description:** Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
-- **Resource issued:** 2026-05-11T19:09:38
-- **Resource modified:** 2026-05-11T19:09:38
+- **Resource issued:** 2026-05-11 19:09:38
+- **Resource modified:** 2026-05-11 19:09:38
 
 ## Load packages
 

@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1401@finanzverwaltung-kanton-
 
 ## Metadata
 
-- **issued:** 2022-06-06T22:00:00
-- **modified:** 2025-11-10T15:58:49
+- **issued:** 2022-06-06 22:00:00
+- **modified:** 2025-11-10 15:58:49
 - **startDate:** 2008-12-31
 - **endDate:** 2022-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;finanzkennzahlen&&#35;x27;, &&#35;x27;oeffentliche&#95;finanzen&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;quote&&#35;x27;, &&#35;x27;staatsfinanzen&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Finanzverwaltung des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/GOVE
+- **keyword:** finanzkennzahlen, oeffentliche&#95;finanzen, ogd, quote, staatsfinanzen
+- **publisher:** Finanzverwaltung des Kantons Zürich
 - **landingPage:** nan
 - **Resource ktzhDistId:** 2738
 - **Resource title:** Staatsquote des Kantons Zürich ab 2008
-- **Resource description:** Variabeln: &&#35;x27;gesamtausgaben&&#35;x27; und &&#35;x27;bruttoinlandprodukt&&#35;x27; in Tausend CHF.
-- **Resource issued:** 2022-06-06T22:00:00
-- **Resource modified:** 2025-11-10T15:55:56
+- **Resource description:** Variabeln: &#x27;gesamtausgaben&#x27; und &#x27;bruttoinlandprodukt&#x27; in Tausend CHF.
+- **Resource issued:** 2022-06-06 22:00:00
+- **Resource modified:** 2025-11-10 15:55:56
 
 ## Load packages
 

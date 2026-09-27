@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 467@staatsarchiv-kanton-zueri
 
 ## Metadata
 
-- **issued:** 2018-12-20T23:00:00
-- **modified:** 2024-09-09T22:00:00
+- **issued:** 2018-12-20 23:00:00
+- **modified:** 2024-09-09 22:00:00
 - **startDate:** 1803-01-01
 - **endDate:** nan
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;demokratie&&#35;x27;, &&#35;x27;kantonsrat&&#35;x27;, &&#35;x27;ogd&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Staatsarchiv des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/GOVE
+- **keyword:** demokratie, kantonsrat, ogd
+- **publisher:** Staatsarchiv des Kantons Zürich
 - **landingPage:** https://www.zh.ch/de/politik-staat/wahlen-abstimmungen/kantons-regierungsratswahlen/mitglieder-kantonsrats-ab-1803.html
 - **Resource ktzhDistId:** 828
 - **Resource title:** Kantonsratsmitglieder Kanton Zürich - Wohnorte
 - **Resource description:** Variabeln: ID&#95;WOHNORT&#95;NEW; ID&#95;PERSON&#95;NEW; ID&#95;PERSON; POSTLEITZAHL; GEMEINDENAME; DATUM&#95;VON&#95;TAG; DATUM&#95;VON&#95;MONAT; DATUM&#95;VON&#95;JAHR; DATUM&#95;BIS&#95;TAG; DATUM&#95;BIS&#95;MONAT; DATUM&#95;BIS&#95;JAHR
-- **Resource issued:** 2019-09-03T22:00:00
-- **Resource modified:** 2023-01-15T23:00:00
+- **Resource issued:** 2019-09-03 22:00:00
+- **Resource modified:** 2023-01-15 23:00:00
 
 ## Load packages
 

@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 128@statistisches-amt-kanton-
 
 ## Metadata
 
-- **issued:** 2019-08-19T22:00:00
-- **modified:** 2026-08-18T05:42:39
+- **issued:** 2019-08-19 22:00:00
+- **modified:** 2026-08-18 05:42:39
 - **startDate:** 1984-06-01
 - **endDate:** 2026-08-18
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;leerwohnungen&&#35;x27;, &&#35;x27;leerwohnungsziffer&&#35;x27;, &&#35;x27;mietwohnungen&&#35;x27;, &&#35;x27;ogd&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** leerwohnungen, leerwohnungsziffer, mietwohnungen, ogd
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** https://www.zh.ch/de/planen-bauen/raumplanung/immobilienmarkt/leerwohnungen.html
 - **Resource ktzhDistId:** 1978
 - **Resource title:** Wohnungsleerstände nach Anzahl  Zimmer, Gebäudetyp, Eigentumsverhältnis und Alter der Wohnung &#40;Alt vs. Neubau&#41;
 - **Resource description:** Der Datensatz richtet sich an Personen, die selbst die Analysen durchführen wollen. Er enthält die Leerstandszahlen in der granularsten Form. Im Jahr 2026 wurde der Datensatz rückwirkend bis 2014 ergänzt mit der Anzahl Wohnungen gemäss Gebäude- und Wohnungsregister &#40;GWR&#41;, jeweils Stand 30. Juni.  Nicht möglich ist dies für die Eigentumsverhältnisse &#40;Miete beziehungsweise Eigentum&#41;, weil es im GWR keine Angaben dazu gibt. Aufgrund von Abweichungen bei der Wohnungsdefinition und den Registerständen kann es kleine Unterschiede geben zwischen den publizierten Leerwohnungsziffern und denen, die mit Hilfe dieses Datensatz berechnet werden. In Einzelfällen &#40;vor allem bei den Neubauten&#41; gibt es Widersprüche zwischen Wohnungsleerstand und -bestand. Diese sind Inkonsistenzen zwischen der Leerwohnungserhebung und dem Gebäude- und Wohnungsregister geschuldet. Zum Beispiel wenn Neubauten im Register noch nicht erfasst sind aber für die Leerwohnungszählung bereits berücksichtigt wurden.
-- **Resource issued:** 2021-11-22T23:00:00
-- **Resource modified:** 2026-08-18T06:12:02
+- **Resource issued:** 2021-11-22 23:00:00
+- **Resource modified:** 2026-08-18 06:12:02
 
 ## Load packages
 

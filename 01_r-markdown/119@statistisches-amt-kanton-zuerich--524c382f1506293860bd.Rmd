@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 119@statistisches-amt-kanton-
 
 ## Metadata
 
-- **issued:** 2018-05-26T22:00:00
-- **modified:** 2024-04-29T22:00:00
+- **issued:** 2018-05-26 22:00:00
+- **modified:** 2024-04-29 22:00:00
 - **startDate:** 2012-12-31
 - **endDate:** 2023-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENVI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;bodenpreise&&#35;x27;, &&#35;x27;einfamilienhaus&&#35;x27;, &&#35;x27;immobilienhandel&&#35;x27;, &&#35;x27;immobilienpreise&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;mehrfamilienhaus&&#35;x27;, &&#35;x27;stockwerkeigentum&&#35;x27;, &&#35;x27;wohnbauland&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ENVI
+- **keyword:** bodenpreise, einfamilienhaus, immobilienhandel, immobilienpreise, kanton&#95;zuerich, mehrfamilienhaus, stockwerkeigentum, wohnbauland
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** nan
 - **Resource ktzhDistId:** 1212
 - **Resource title:**  Daten für interaktive Grafiken: Quartalsbericht Handänderungsstatistik 
 - **Resource description:** &#91;Dieser Datensatz wird nicht mehr aktualisiert.&#93;<br><br>Daten zum aktuellsten Quartalsbericht Handänderungsstatistik zur Preisentwicklung von Wohnbauland, Stockwerkeigentum, Ein- und Mehrfamilienhäusern.
-- **Resource issued:** 2019-11-26T23:00:00
-- **Resource modified:** 2025-04-03T22:00:00
+- **Resource issued:** 2019-11-26 23:00:00
+- **Resource modified:** 2025-04-03 22:00:00
 
 ## Load packages
 

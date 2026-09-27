@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 3002@statistisches-amt-kanton
 
 ## Metadata
 
-- **issued:** 2025-05-25T22:00:00
-- **modified:** 2026-08-21T06:31:46
+- **issued:** 2025-05-25 22:00:00
+- **modified:** 2026-08-21 06:31:46
 - **startDate:** 1987-01-01
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;bevoelkerung&&#35;x27;, &&#35;x27;geburten&&#35;x27;, &&#35;x27;kinder&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;vornamen&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** bevoelkerung, geburten, kinder, ogd, vornamen
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** nan
 - **Resource ktzhDistId:** 6263
 - **Resource title:** Vornamen der Neugeborenen &#40;tabellarisch&#41;
 - **Resource description:** CSV-File mit den Spalten: VORNAME &#40;String&#41;, GEBURTSJAHR &#40;Number&#41;, GESCHLECHT &#40;String; Codierung m = männlich, f=weiblich&#41;, ANZAHL&#95;NEUGEBORENE &#40;Number&#41; 
-- **Resource issued:** 2025-05-25T22:00:00
-- **Resource modified:** 2026-08-21T06:31:45
+- **Resource issued:** 2025-05-25 22:00:00
+- **Resource modified:** 2026-08-21 06:31:45
 
 ## Load packages
 

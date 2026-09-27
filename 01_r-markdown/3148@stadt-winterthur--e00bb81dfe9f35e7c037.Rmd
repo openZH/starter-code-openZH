@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 3148@stadt-winterthur.
 
 ## Metadata
 
-- **issued:** 2026-04-13T08:10:06
-- **modified:** 2026-04-29T14:17:29
+- **issued:** 2026-04-13 08:10:06
+- **modified:** 2026-04-29 14:17:29
 - **startDate:** 2016-12-31
 - **endDate:** 2023-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/REGI&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;einkommen&&#35;x27;, &&#35;x27;gemeindesteuern&&#35;x27;, &&#35;x27;haushaltsgroesse&&#35;x27;, &&#35;x27;haushaltsstruktur&&#35;x27;, &&#35;x27;haushaltstypen&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;steuern&&#35;x27;, &&#35;x27;steuerpflichtige&&#35;x27;, &&#35;x27;vermoegen&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Stadt Winterthur&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/REGI, http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** einkommen, gemeindesteuern, haushaltsgroesse, haushaltsstruktur, haushaltstypen, ogd, steuern, steuerpflichtige, vermoegen
+- **publisher:** Stadt Winterthur
 - **landingPage:** https://stadt.winterthur.ch/wohnmonitor
 - **Resource ktzhDistId:** 6754
 - **Resource title:** Steuerbares Einkommen und Vermögen in Winterthur nach Quartieren und Stadtkreisen
 - **Resource description:** Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
 - **Resource issued:** None
-- **Resource modified:** 2026-03-24T19:24:45
+- **Resource modified:** 2026-03-24 19:24:45
 
 ## Load packages
 

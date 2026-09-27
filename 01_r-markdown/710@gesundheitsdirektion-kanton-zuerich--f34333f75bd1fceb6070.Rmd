@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: COVID&#95;19 Sterbeorte Kanton Zürich pro Tag ab 15.03.2020
 
-Kumulierte Anzahl der Todesfälle im Kanton Zürich pro Tag seit Pandemiebeginn nach Art des Sterbeorts: &&#35;x27;Pflege- oder Altersheim&&#35;x27;, &&#35;x27;zuhause&&#35;x27;, &&#35;x27;Spital&&#35;x27;. Die Daten werden einmal wöchentlich &#40;jeweils am Mittwoch&#41; aktualisiert.
+Kumulierte Anzahl der Todesfälle im Kanton Zürich pro Tag seit Pandemiebeginn nach Art des Sterbeorts: &#x27;Pflege- oder Altersheim&#x27;, &#x27;zuhause&#x27;, &#x27;Spital&#x27;. Die Daten werden einmal wöchentlich &#40;jeweils am Mittwoch&#41; aktualisiert.
 
 [View this dataset in the data catalogue](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/710%40gesundheitsdirektion-kanton-zuerich)
 
@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 710@gesundheitsdirektion-kant
 
 ## Metadata
 
-- **issued:** 2020-12-03T23:00:00
-- **modified:** 2022-03-14T23:00:00
+- **issued:** 2020-12-03 23:00:00
+- **modified:** 2022-03-14 23:00:00
 - **startDate:** 2020-03-15
 - **endDate:** nan
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/HEAL&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;altersheime&&#35;x27;, &&#35;x27;corona&&#35;x27;, &&#35;x27;covid-19&&#35;x27;, &&#35;x27;covid19&&#35;x27;, &&#35;x27;gesundheit&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;krankheiten&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;pflegeheime&&#35;x27;, &&#35;x27;spitaeler&&#35;x27;, &&#35;x27;todesfaelle&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Gesundheitsdirektion des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/HEAL
+- **keyword:** altersheime, corona, covid-19, covid19, gesundheit, kanton&#95;zuerich, krankheiten, ogd, pflegeheime, spitaeler, todesfaelle
+- **publisher:** Gesundheitsdirektion des Kantons Zürich
 - **landingPage:** https://github.com/openZH/covid&#95;19/tree/master/fallzahlen&#95;kanton&#95;zh
 - **Resource ktzhDistId:** 1773
 - **Resource title:** COVID&#95;19 Sterbeorte Kanton Zürich pro Tag ab 15.03.2020
-- **Resource description:** Variabeln: &&#35;x27;place&#95;of&#95;death&&#35;x27; = Sterbeort &#40;&&#35;x27;care or nursing home&&#35;x27; = Pflege- oder Altersheim, &&#35;x27;decedent&&#35;x27;s home&&#35;x27; = zuhause, &&#35;x27;hospital&&#35;x27; = Spital&#41;; &&#35;x27;ncumul&#95;deceased&&#35;x27; = Total der Todesfälle &#40;kumuliert&#41;.
-- **Resource issued:** 2020-12-02T23:00:00
-- **Resource modified:** 2022-03-14T23:00:00
+- **Resource description:** Variabeln: &#x27;place&#95;of&#95;death&#x27; = Sterbeort &#40;&#x27;care or nursing home&#x27; = Pflege- oder Altersheim, &#x27;decedent&#x27;s home&#x27; = zuhause, &#x27;hospital&#x27; = Spital&#41;; &#x27;ncumul&#95;deceased&#x27; = Total der Todesfälle &#40;kumuliert&#41;.
+- **Resource issued:** 2020-12-02 23:00:00
+- **Resource modified:** 2022-03-14 23:00:00
 
 ## Load packages
 

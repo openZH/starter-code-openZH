@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2063@gesundheitsdirektion-kan
 
 ## Metadata
 
-- **issued:** 2023-03-23T23:00:00
-- **modified:** 2026-07-09T06:33:53
+- **issued:** 2023-03-23 23:00:00
+- **modified:** 2026-07-09 06:33:53
 - **startDate:** 2020-01-01
 - **endDate:** 2025-12-08
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/AGRI&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENVI&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/HEAL&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;gemeinden&&#35;x27;, &&#35;x27;gesundheit&&#35;x27;, &&#35;x27;lebensmittel&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;pestizide&&#35;x27;, &&#35;x27;pflanzenschutzmittel&&#35;x27;, &&#35;x27;schwellenwert&&#35;x27;, &&#35;x27;trinkwasser&&#35;x27;, &&#35;x27;verunreinigung&&#35;x27;, &&#35;x27;wasser&&#35;x27;, &&#35;x27;wasserversorgung&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Gesundheitsdirektion des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/AGRI, http://publications.europa.eu/resource/authority/data-theme/ENVI, http://publications.europa.eu/resource/authority/data-theme/HEAL
+- **keyword:** gemeinden, gesundheit, lebensmittel, ogd, pestizide, pflanzenschutzmittel, schwellenwert, trinkwasser, verunreinigung, wasser, wasserversorgung
+- **publisher:** Gesundheitsdirektion des Kantons Zürich
 - **landingPage:** nan
 - **Resource ktzhDistId:** 4104
 - **Resource title:** Netzproben der Trinkwasserqualität
 - **Resource description:** None
-- **Resource issued:** 2023-03-23T23:00:00
-- **Resource modified:** 2026-07-09T08:44:14
+- **Resource issued:** 2023-03-23 23:00:00
+- **Resource modified:** 2026-07-09 08:44:14
 
 ## Load packages
 

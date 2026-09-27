@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2242@ekz.
 
 ## Metadata
 
-- **issued:** 2023-12-04T23:00:00
-- **modified:** 2023-12-04T23:00:00
+- **issued:** 2023-12-04 23:00:00
+- **modified:** 2023-12-04 23:00:00
 - **startDate:** 2022-01-01
 - **endDate:** nan
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENER&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;energie&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;stromverbrauch&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Elektrizitätswerke des Kantons Zürich EKZ&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ENER
+- **keyword:** energie, ogd, stromverbrauch
+- **publisher:** Elektrizitätswerke des Kantons Zürich EKZ
 - **landingPage:** https://www.ekz.ch/de/ueber-ekz/medien/publikationen/Bruttolastgang-von-EKZ-und-EKZ-Einsiedeln.html
 - **Resource ktzhDistId:** 4383
 - **Resource title:** Detaillierter Bruttolastgang EKZ und EKZ Einsiedeln
 - **Resource description:** Das Merkmal &quot;Zeistempel&quot; ist im ISO-8601 Standard ausgewiesen. Die Einheit des Bruttolastganges ist kWh.
-- **Resource issued:** 2023-12-04T23:00:00
-- **Resource modified:** 2023-12-04T23:00:00
+- **Resource issued:** 2023-12-04 23:00:00
+- **Resource modified:** 2023-12-04 23:00:00
 
 ## Load packages
 

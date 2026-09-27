@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 3062@tiefbauamt-kanton-zueric
 
 ## Metadata
 
-- **issued:** 2026-03-30T12:06:44
-- **modified:** 2026-03-30T12:09:20
+- **issued:** 2026-03-30 12:06:44
+- **modified:** 2026-03-30 12:09:20
 - **startDate:** 2016-01-01
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/TRAN&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;langsamverkehr&&#35;x27;, &&#35;x27;messung&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;velo&&#35;x27;, &&#35;x27;verkehr&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Tiefbauamt des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/TRAN
+- **keyword:** langsamverkehr, messung, ogd, velo, verkehr
+- **publisher:** Tiefbauamt des Kantons Zürich
 - **landingPage:** nan
 - **Resource ktzhDistId:** 6776
 - **Resource title:** Verkehrszähldaten Veloverkehr Kanton Zürich 2022
 - **Resource description:** Der Datensatz umfasst stündliche Velozähldaten des kantonalen Velonetzes im Kanton Zürich für das Jahr 2022, die mittels automatischer Sensoren erhoben werden. Eine detaillierte Dokumentation zu den Daten ist in der Distribution «Dokumentation Daten» verfügbar.
-- **Resource issued:** 2026-07-17T08:46:56
-- **Resource modified:** 2026-07-20T12:12:38
+- **Resource issued:** 2026-07-17 08:46:56
+- **Resource modified:** 2026-07-20 12:12:38
 
 ## Load packages
 

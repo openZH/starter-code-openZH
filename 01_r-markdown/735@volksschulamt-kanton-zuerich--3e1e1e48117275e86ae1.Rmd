@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Kontaktpersonen des Volksschulamts des Kantons Zürich nach Schulgemeinde und Themen
 
-Für Schulbehörden, Schulleitungen, Schulverwaltungen und Lehrpersonen zusammengestellte Kontaktpersonen des Volksschulamts zu Primar- und Sekundarschulen und den Themen &&#35;x27;Personal&&#35;x27;, &&#35;x27;Lohn&&#35;x27;, &&#35;x27;Beratung&&#35;x27; und &&#35;x27;Sonderpädagogik&&#35;x27;.
+Für Schulbehörden, Schulleitungen, Schulverwaltungen und Lehrpersonen zusammengestellte Kontaktpersonen des Volksschulamts zu Primar- und Sekundarschulen und den Themen &#x27;Personal&#x27;, &#x27;Lohn&#x27;, &#x27;Beratung&#x27; und &#x27;Sonderpädagogik&#x27;.
 
 [View this dataset in the data catalogue](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/735%40volksschulamt-kanton-zuerich)
 
@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 735@volksschulamt-kanton-zuer
 
 ## Metadata
 
-- **issued:** 2021-09-05T22:00:00
-- **modified:** 2021-09-19T22:00:00
+- **issued:** 2021-09-05 22:00:00
+- **modified:** 2021-09-19 22:00:00
 - **startDate:** nan
 - **endDate:** nan
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/EDUC&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;bildung&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;primarschule&&#35;x27;, &&#35;x27;schulen&&#35;x27;, &&#35;x27;schulgemeinden&&#35;x27;, &&#35;x27;sekundarschule&&#35;x27;, &&#35;x27;volksschule&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Volksschulamt des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/EDUC
+- **keyword:** bildung, ogd, primarschule, schulen, schulgemeinden, sekundarschule, volksschule
+- **publisher:** Volksschulamt des Kantons Zürich
 - **landingPage:** https://www.zh.ch/de/bildung/informationen-fuer-schulen/informationen-volksschule.html&#35;-536456471
 - **Resource ktzhDistId:** 1875
 - **Resource title:** Tabelle der Kontaktpersonen des Volksschulamts des Kantons Zürich nach Schulgemeinde und Themen
-- **Resource description:** Variabeln: &&#35;x27;Code&#95;P&&#35;x27; = Primarstufe, &&#35;x27;Name&#95;P&&#35;x27; = Name der Primarschulgemeinde, &&#35;x27;Personal&#95;P&&#35;x27; = Name der Kontaktperson für das Thema &&#35;x27;Personal&&#35;x27;, &&#35;x27;Lohn&#95;P&&#35;x27; = Name der Kontaktperson für das Thema &&#35;x27;Lohn&&#35;x27;, &&#35;x27;Beratung&#95;P&&#35;x27; = Name der Kontaktperson für das Thema &&#35;x27;Beratung&&#35;x27;, &&#35;x27;Sonderpädagogik&#95;P&&#35;x27; = Name der Kontaktperson für das Thema &&#35;x27;Sonderpädagogik&&#35;x27;, &&#35;x27;Code&#95;O&&#35;x27; = Oberstufe, &&#35;x27;Name&#95;O&&#35;x27; = Name der Oberstufenschulgemeinde, &&#35;x27;Personal&#95;O&&#35;x27; = Name der Kontaktperson für das Thema &&#35;x27;Personal&&#35;x27;, &&#35;x27;Lohn&#95;O&&#35;x27; = Name der Kontaktperson für das Thema &&#35;x27;Lohn&&#35;x27;, &&#35;x27;Beratung&#95;O&&#35;x27; = Name der Kontaktperson für das Thema &&#35;x27;Beratung&&#35;x27;, &&#35;x27;Sonderpädagogik&#95;O&&#35;x27; = Name der Kontaktperson für das Thema &&#35;x27;Sonderpädagogik&&#35;x27;
-- **Resource issued:** 2021-09-05T22:00:00
-- **Resource modified:** 2021-09-19T22:00:00
+- **Resource description:** Variabeln: &#x27;Code&#95;P&#x27; = Primarstufe, &#x27;Name&#95;P&#x27; = Name der Primarschulgemeinde, &#x27;Personal&#95;P&#x27; = Name der Kontaktperson für das Thema &#x27;Personal&#x27;, &#x27;Lohn&#95;P&#x27; = Name der Kontaktperson für das Thema &#x27;Lohn&#x27;, &#x27;Beratung&#95;P&#x27; = Name der Kontaktperson für das Thema &#x27;Beratung&#x27;, &#x27;Sonderpädagogik&#95;P&#x27; = Name der Kontaktperson für das Thema &#x27;Sonderpädagogik&#x27;, &#x27;Code&#95;O&#x27; = Oberstufe, &#x27;Name&#95;O&#x27; = Name der Oberstufenschulgemeinde, &#x27;Personal&#95;O&#x27; = Name der Kontaktperson für das Thema &#x27;Personal&#x27;, &#x27;Lohn&#95;O&#x27; = Name der Kontaktperson für das Thema &#x27;Lohn&#x27;, &#x27;Beratung&#95;O&#x27; = Name der Kontaktperson für das Thema &#x27;Beratung&#x27;, &#x27;Sonderpädagogik&#95;O&#x27; = Name der Kontaktperson für das Thema &#x27;Sonderpädagogik&#x27;
+- **Resource issued:** 2021-09-05 22:00:00
+- **Resource modified:** 2021-09-19 22:00:00
 
 ## Load packages
 

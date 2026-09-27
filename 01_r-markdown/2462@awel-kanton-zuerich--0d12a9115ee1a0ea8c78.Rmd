@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2462@awel-kanton-zuerich.
 
 ## Metadata
 
-- **issued:** 2024-03-12T23:00:00
-- **modified:** 2026-02-26T15:41:10
+- **issued:** 2024-03-12 23:00:00
+- **modified:** 2026-02-26 15:41:10
 - **startDate:** 2011-01-01
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENVI&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/HEAL&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;mobilfunk&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;pausenplatz&&#35;x27;, &&#35;x27;rundfunk&&#35;x27;, &&#35;x27;strahlung&&#35;x27;, &&#35;x27;wlan&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ENVI, http://publications.europa.eu/resource/authority/data-theme/HEAL
+- **keyword:** mobilfunk, ogd, pausenplatz, rundfunk, strahlung, wlan
+- **publisher:** Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich
 - **landingPage:** nan
 - **Resource ktzhDistId:** 4924
 - **Resource title:** Messorte
 - **Resource description:** Mehr Informationen zum Inhalt der Daten ist in der Ressource Metadatenbeschreibung enthalten.
-- **Resource issued:** 2024-03-12T23:00:00
-- **Resource modified:** 2026-01-14T13:49:56
+- **Resource issued:** 2024-03-12 23:00:00
+- **Resource modified:** 2026-01-14 13:49:56
 
 ## Load packages
 

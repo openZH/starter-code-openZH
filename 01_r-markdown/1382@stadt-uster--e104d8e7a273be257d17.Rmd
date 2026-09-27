@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1382@stadt-uster.
 
 ## Metadata
 
-- **issued:** 2022-05-14T22:00:00
-- **modified:** 2024-07-14T22:00:00
+- **issued:** 2022-05-14 22:00:00
+- **modified:** 2024-07-14 22:00:00
 - **startDate:** 2021-06-24
 - **endDate:** 2021-07-11
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;beratungsangebote&&#35;x27;, &&#35;x27;internetnutzung&&#35;x27;, &&#35;x27;jugend&#95;und&#95;sport&&#35;x27;, &&#35;x27;jugendkriminalitaet&&#35;x27;, &&#35;x27;jugendliche&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;raumentwicklung&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Stadt Uster&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** beratungsangebote, internetnutzung, jugend&#95;und&#95;sport, jugendkriminalitaet, jugendliche, ogd, raumentwicklung
+- **publisher:** Stadt Uster
 - **landingPage:** https://github.com/GesellschaftStadtUster/kind-jugend-fam&#95;jugendbefragung2021
 - **Resource ktzhDistId:** 2679
 - **Resource title:** Jugendbefragung 2021 - Antworten
-- **Resource description:** Antworten der Jugendbefragung 2021; Teilnehmende sind nach &&#35;x27;Alter&&#35;x27;, &&#35;x27;Geschlecht&&#35;x27; und &&#35;x27;Schulstufe&&#35;x27; kategorisiert.
-- **Resource issued:** 2022-05-14T22:00:00
-- **Resource modified:** 2022-05-14T22:00:00
+- **Resource description:** Antworten der Jugendbefragung 2021; Teilnehmende sind nach &#x27;Alter&#x27;, &#x27;Geschlecht&#x27; und &#x27;Schulstufe&#x27; kategorisiert.
+- **Resource issued:** 2022-05-14 22:00:00
+- **Resource modified:** 2022-05-14 22:00:00
 
 ## Load packages
 

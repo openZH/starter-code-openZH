@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Trinkwasserqualität im Kanton Zürich nach Gemeinden und Verteilzonen
 
-Konzentrationsbereiche zur Trinkwasserqualität für verschiedene Analyten aus den im Auftrag der Wasserversorgungen durchgeführten Selbstkontrolluntersuchungen sowie amtlichen Untersuchungen in den Gemeinden des Kantons Zürich – im regulären Trinkwassernetz &#40;ohne Notversorgung, Laufbrunnen und Ressourcen&#41;. Die Daten-Ressource &&#35;x27;Netzproben&&#35;x27; enthält u. a. das Datum der Probenahme, die spezifische Bezeichnung des Analyten &#40;z. B. Chlorothalonil &quot;R471811&quot;&#41;, die Bezeichnung der Verteilzone&#40;n&#41; der Gemeinde sowie den Konzentrationsbereich &#40;dem der Messwert zugeordnet wurde&#41;. Die Daten-Ressource &&#35;x27;Bewertungskategorien&&#35;x27; enthält die Kategorien der Konzentrationsbereiche pro Analyt sowie den Zeitraum, zu dem sie für die Qualitätsbewertung Gültigkeit haben. Die Messwerte aus den ergänzenden Selbstkontrolluntersuchungen durchgeführt durch externe Dienstleistungslaboratorien im Auftrag der Wasserversorgungen sind im Datensatz &&#35;x27;Qualität des Trinkwassers im Kanton Zürich ab 2020 &#40;Selbstkontrolle der Wasserversorgungen&#41;&&#35;x27; enthalten &#40;siehe Verwandte Datensätze&#41;.
+Konzentrationsbereiche zur Trinkwasserqualität für verschiedene Analyten aus den im Auftrag der Wasserversorgungen durchgeführten Selbstkontrolluntersuchungen sowie amtlichen Untersuchungen in den Gemeinden des Kantons Zürich – im regulären Trinkwassernetz &#40;ohne Notversorgung, Laufbrunnen und Ressourcen&#41;. Die Daten-Ressource &#x27;Netzproben&#x27; enthält u. a. das Datum der Probenahme, die spezifische Bezeichnung des Analyten &#40;z. B. Chlorothalonil &quot;R471811&quot;&#41;, die Bezeichnung der Verteilzone&#40;n&#41; der Gemeinde sowie den Konzentrationsbereich &#40;dem der Messwert zugeordnet wurde&#41;. Die Daten-Ressource &#x27;Bewertungskategorien&#x27; enthält die Kategorien der Konzentrationsbereiche pro Analyt sowie den Zeitraum, zu dem sie für die Qualitätsbewertung Gültigkeit haben. Die Messwerte aus den ergänzenden Selbstkontrolluntersuchungen durchgeführt durch externe Dienstleistungslaboratorien im Auftrag der Wasserversorgungen sind im Datensatz &#x27;Qualität des Trinkwassers im Kanton Zürich ab 2020 &#40;Selbstkontrolle der Wasserversorgungen&#41;&#x27; enthalten &#40;siehe Verwandte Datensätze&#41;.
 
 [View this dataset in the data catalogue](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1362%40gesundheitsdirektion-kanton-zuerich)
 
@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1362@gesundheitsdirektion-kan
 
 ## Metadata
 
-- **issued:** 2023-03-23T23:00:00
-- **modified:** 2026-09-25T09:25:04
+- **issued:** 2023-03-23 23:00:00
+- **modified:** 2026-09-25 09:25:04
 - **startDate:** 2020-01-01
 - **endDate:** 2026-06-27
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/AGRI&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENVI&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/HEAL&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;gemeinden&&#35;x27;, &&#35;x27;gesundheit&&#35;x27;, &&#35;x27;lebensmittel&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;pestizide&&#35;x27;, &&#35;x27;pflanzenschutzmittel&&#35;x27;, &&#35;x27;schwellenwert&&#35;x27;, &&#35;x27;trinkwasser&&#35;x27;, &&#35;x27;verunreinigung&&#35;x27;, &&#35;x27;wasser&&#35;x27;, &&#35;x27;wasserversorgung&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Gesundheitsdirektion des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/AGRI, http://publications.europa.eu/resource/authority/data-theme/ENVI, http://publications.europa.eu/resource/authority/data-theme/HEAL
+- **keyword:** gemeinden, gesundheit, lebensmittel, ogd, pestizide, pflanzenschutzmittel, schwellenwert, trinkwasser, verunreinigung, wasser, wasserversorgung
+- **publisher:** Gesundheitsdirektion des Kantons Zürich
 - **landingPage:** nan
 - **Resource ktzhDistId:** 6003
 - **Resource title:** Bewertungskategorien der Trinkwasserqualität
-- **Resource description:** Kategorien von Konzentrationsbereichen pro Analyt zur Qualitätsbewertung. Variablen: &&#35;x27;analyt&&#35;x27; = spezifische Bezeichnung des Indikators &#40;z. B. Chlorothalonil &quot;R471811&quot;&#41;; &&#35;x27;kategorie&&#35;x27; = Konzentrationsbereich von Messwerten; &&#35;x27;kategorie&#95;sortierung&&#35;x27; = Sortierung nach aufsteigender Konzentration; &&#35;x27;farbcode&&#35;x27; = hexadezimaler Farbcode, der die Einfärbung der Kategorie in der Visualisierung des Kantonalen Labors bestimmt &#40;siehe &&#35;x27;Trinkwasser&&#35;x27; unter &quot;Weitere Informationen&quot;&#41;; &&#35;x27;start&#95;datum&&#35;x27; = Beginn der Gültigkeit des Konzentrationsbereichs; &&#35;x27;end&#95;datum&&#35;x27; = Ende der Gültigkeit des Konzentrationsbereichs; &&#35;x27;bemerkung&&#35;x27; = Hinweise zum Grund der Änderung des Konzentrationsbereichs.
-- **Resource issued:** 2025-02-23T23:00:00
-- **Resource modified:** 2026-02-04T15:08:20
+- **Resource description:** Kategorien von Konzentrationsbereichen pro Analyt zur Qualitätsbewertung. Variablen: &#x27;analyt&#x27; = spezifische Bezeichnung des Indikators &#40;z. B. Chlorothalonil &quot;R471811&quot;&#41;; &#x27;kategorie&#x27; = Konzentrationsbereich von Messwerten; &#x27;kategorie&#95;sortierung&#x27; = Sortierung nach aufsteigender Konzentration; &#x27;farbcode&#x27; = hexadezimaler Farbcode, der die Einfärbung der Kategorie in der Visualisierung des Kantonalen Labors bestimmt &#40;siehe &#x27;Trinkwasser&#x27; unter &quot;Weitere Informationen&quot;&#41;; &#x27;start&#95;datum&#x27; = Beginn der Gültigkeit des Konzentrationsbereichs; &#x27;end&#95;datum&#x27; = Ende der Gültigkeit des Konzentrationsbereichs; &#x27;bemerkung&#x27; = Hinweise zum Grund der Änderung des Konzentrationsbereichs.
+- **Resource issued:** 2025-02-23 23:00:00
+- **Resource modified:** 2026-02-04 15:08:20
 
 ## Load packages
 

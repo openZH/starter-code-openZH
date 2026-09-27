@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 3042@stadt-winterthur.
 
 ## Metadata
 
-- **issued:** 2025-06-09T22:00:00
-- **modified:** 2026-09-19T06:17:07
+- **issued:** 2025-06-09 22:00:00
+- **modified:** 2026-09-19 06:17:07
 - **startDate:** 2025-03-01
 - **endDate:** 2026-09-17
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/REGI&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/TRAN&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;miv&&#35;x27;, &&#35;x27;motorfahrzeuge&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;privatverkehr&&#35;x27;, &&#35;x27;strassenverkehr&&#35;x27;, &&#35;x27;strassenverkehrszaehlung&&#35;x27;, &&#35;x27;verkehr&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Stadt Winterthur&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/REGI, http://publications.europa.eu/resource/authority/data-theme/TRAN
+- **keyword:** miv, motorfahrzeuge, ogd, privatverkehr, strassenverkehr, strassenverkehrszaehlung, verkehr
+- **publisher:** Stadt Winterthur
 - **landingPage:** nan
 - **Resource ktzhDistId:** 6323
 - **Resource title:** Verkehrszähldaten motorisierter Individualverkehr in Winterthur, pro Stunde und nach Fahrzeugklassen
 - **Resource description:** Eine vollständige Dokumentation ist in der Ressource &quot;Dokumentation Daten&quot; zu finden.
-- **Resource issued:** 2025-06-09T22:00:00
-- **Resource modified:** 2026-09-19T06:17:05
+- **Resource issued:** 2025-06-09 22:00:00
+- **Resource modified:** 2026-09-19 06:17:05
 
 ## Load packages
 

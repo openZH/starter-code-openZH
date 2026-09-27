@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 731@staatskanzlei-kanton-zuer
 
 ## Metadata
 
-- **issued:** 2021-09-26T22:00:00
-- **modified:** 2024-03-05T23:00:00
+- **issued:** 2021-09-26 22:00:00
+- **modified:** 2024-03-05 23:00:00
 - **startDate:** 2020-07-08
 - **endDate:** 2023-10-11
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;kantonale&#95;verwaltung&&#35;x27;, &&#35;x27;ogd&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Staatskanzlei des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/GOVE
+- **keyword:** kanton&#95;zuerich, kantonale&#95;verwaltung, ogd
+- **publisher:** Staatskanzlei des Kantons Zürich
 - **landingPage:** https://openzh.shinyapps.io/UAstat/
 - **Resource ktzhDistId:** 1865
 - **Resource title:** Web Analytics von Webseiten des Statistischen Amts im Webauftritt des Kantons Zürich ab Juli 2020
-- **Resource description:** Variabeln: &&#35;x27;date&&#35;x27; = Datum, &&#35;x27;url&&#35;x27; = alle Webseiten, bei denen unter ‘Kontakt’ &#40;im Footer&#41; das Statistische Amt aufgeführt ist; die Webseiten-URLs sind auf die Basis-URLs gekürzt und aggregiert &#40;Basis-URL = Alle Parameter nach dem ersten Auftreten von “html” werden abgeschnitten&#41;, &&#35;x27;theme&&#35;x27; = die Themen entsprechen dem in der URL einer Webseite erstgenannten Thema &#40;mögliche erstgenannte Themen sind auf der Homepage von zh.ch aufgeführt&#41;, &&#35;x27;nb&#95;visits&&#35;x27; = Anzahl Seitenbesuche; nach 30 Minuten Seiteninaktivität wird der Besuch neu gezählt.
-- **Resource issued:** 2021-08-25T22:00:00
-- **Resource modified:** 2021-09-26T22:00:00
+- **Resource description:** Variabeln: &#x27;date&#x27; = Datum, &#x27;url&#x27; = alle Webseiten, bei denen unter ‘Kontakt’ &#40;im Footer&#41; das Statistische Amt aufgeführt ist; die Webseiten-URLs sind auf die Basis-URLs gekürzt und aggregiert &#40;Basis-URL = Alle Parameter nach dem ersten Auftreten von “html” werden abgeschnitten&#41;, &#x27;theme&#x27; = die Themen entsprechen dem in der URL einer Webseite erstgenannten Thema &#40;mögliche erstgenannte Themen sind auf der Homepage von zh.ch aufgeführt&#41;, &#x27;nb&#95;visits&#x27; = Anzahl Seitenbesuche; nach 30 Minuten Seiteninaktivität wird der Besuch neu gezählt.
+- **Resource issued:** 2021-08-25 22:00:00
+- **Resource modified:** 2021-09-26 22:00:00
 
 ## Load packages
 

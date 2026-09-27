@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1040@stadt-uster.
 
 ## Metadata
 
-- **issued:** 2021-11-21T23:00:00
-- **modified:** 2024-07-14T22:00:00
+- **issued:** 2021-11-21 23:00:00
+- **modified:** 2024-07-14 22:00:00
 - **startDate:** nan
 - **endDate:** nan
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/EDUC&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;beratungsangebote&&#35;x27;, &&#35;x27;familien&&#35;x27;, &&#35;x27;jugendliche&&#35;x27;, &&#35;x27;kinder&&#35;x27;, &&#35;x27;kinderbetreuung&&#35;x27;, &&#35;x27;kindergarten&&#35;x27;, &&#35;x27;ogd&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Stadt Uster&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/EDUC, http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** beratungsangebote, familien, jugendliche, kinder, kinderbetreuung, kindergarten, ogd
+- **publisher:** Stadt Uster
 - **landingPage:** https://github.com/GesellschaftStadtUster/kind-jugend-fam&#95;angebote
 - **Resource ktzhDistId:** 1957
 - **Resource title:** Tabelle der Angebote und Infrastruktur für Kinder, Jugendliche und Familien in der Stadt Uster
-- **Resource description:** Variabeln: &&#35;x27;lng&&#35;x27; = Längengrad, &&#35;x27;lat&&#35;x27; = Breitengrad, &&#35;x27;name&&#35;x27; = Name des Angebots, &&#35;x27;strasse&&#35;x27;, &&#35;x27;hausnr&&#35;x27;, &&#35;x27;plz&&#35;x27;, &&#35;x27;ort&&#35;x27;, &&#35;x27;anlage&&#35;x27; = Name der Anlage, &&#35;x27;kategorie&&#35;x27; = Kategorie des Angebots &#40;siehe Liste der Kategorien im &quot;Readme: Datenstruktur&quot; unter &quot;Weitere Informationen&quot;&#41;, &&#35;x27;zugaenglichkeit&&#35;x27; = &#40;siehe Optionen der Zugänglichkeit ebenda&#41;, &&#35;x27;beschreibung&&#35;x27; = Beschreibung des Angebots, &&#35;x27;website&&#35;x27; = URL des Angebots.
-- **Resource issued:** 2021-11-21T23:00:00
-- **Resource modified:** 2021-11-22T23:00:00
+- **Resource description:** Variabeln: &#x27;lng&#x27; = Längengrad, &#x27;lat&#x27; = Breitengrad, &#x27;name&#x27; = Name des Angebots, &#x27;strasse&#x27;, &#x27;hausnr&#x27;, &#x27;plz&#x27;, &#x27;ort&#x27;, &#x27;anlage&#x27; = Name der Anlage, &#x27;kategorie&#x27; = Kategorie des Angebots &#40;siehe Liste der Kategorien im &quot;Readme: Datenstruktur&quot; unter &quot;Weitere Informationen&quot;&#41;, &#x27;zugaenglichkeit&#x27; = &#40;siehe Optionen der Zugänglichkeit ebenda&#41;, &#x27;beschreibung&#x27; = Beschreibung des Angebots, &#x27;website&#x27; = URL des Angebots.
+- **Resource issued:** 2021-11-21 23:00:00
+- **Resource modified:** 2021-11-22 23:00:00
 
 ## Load packages
 

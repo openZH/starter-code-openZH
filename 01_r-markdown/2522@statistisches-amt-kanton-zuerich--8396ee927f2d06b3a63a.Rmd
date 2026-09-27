@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Web Analytics des Datenkatalogs des Kantons Zürich
 
-Dieser Datensatz enthält die Web Analytics des Datenkatalogs des Kantons Zürich &#40;www.zh.ch/daten&#41;. Die Daten zeigen, welche Datensätze &#40;dataset&#41; und Ressourcen &#40;distribution&#41; &#40;siehe Definition in DCAP-AP CH, unten verlinkt&#41; wie oft aufgerufen und besucht wurden. Die Aufrufe und Besuche von externen Webseiten, welche den Datenkatalog eingebunden haben, werden mitgezählt. Aus technischen Gründen werden nicht alle Zugriffe registriert &#40;bei Verwendung von Werbeblockern z.B &&#35;x27;Ad-Blocker&&#35;x27;&#41;. Wir beziehen die Daten von mehreren Matomo APIs. Datensätze und Ressourcen mit 0 Aufrufen/Besuchenden sind nicht ausgewiesen. Aufrufe über Metadatenkatalog wie opendata.swiss sind nicht ausgewiesen.
+Dieser Datensatz enthält die Web Analytics des Datenkatalogs des Kantons Zürich &#40;www.zh.ch/daten&#41;. Die Daten zeigen, welche Datensätze &#40;dataset&#41; und Ressourcen &#40;distribution&#41; &#40;siehe Definition in DCAP-AP CH, unten verlinkt&#41; wie oft aufgerufen und besucht wurden. Die Aufrufe und Besuche von externen Webseiten, welche den Datenkatalog eingebunden haben, werden mitgezählt. Aus technischen Gründen werden nicht alle Zugriffe registriert &#40;bei Verwendung von Werbeblockern z.B &#x27;Ad-Blocker&#x27;&#41;. Wir beziehen die Daten von mehreren Matomo APIs. Datensätze und Ressourcen mit 0 Aufrufen/Besuchenden sind nicht ausgewiesen. Aufrufe über Metadatenkatalog wie opendata.swiss sind nicht ausgewiesen.
 
 [View this dataset in the data catalogue](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2522%40statistisches-amt-kanton-zuerich)
 
@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2522@statistisches-amt-kanton
 
 ## Metadata
 
-- **issued:** 2024-01-25T23:00:00
-- **modified:** 2026-09-27T01:52:38
+- **issued:** 2024-01-25 23:00:00
+- **modified:** 2026-09-27 01:52:38
 - **startDate:** 2023-09-01
 - **endDate:** 2026-09-26
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;ogd&&#35;x27;, &&#35;x27;statistik&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/GOVE
+- **keyword:** ogd, statistik
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** https://openzh.shinyapps.io/OGD&#95;Analytics/
 - **Resource ktzhDistId:** 5024
 - **Resource title:** Web Analytics auf Ebene Datensatz 
-- **Resource description:** Zeigt die Anzahl Klicks und Besuchende pro Datensatz und Tag.  &&#35;x27;Datensatz&&#35;x27; entspricht &&#35;x27;dataset&&#35;x27; nach DCAP-AP CH.
-- **Resource issued:** 2024-01-25T23:00:00
-- **Resource modified:** 2026-09-27T01:52:26
+- **Resource description:** Zeigt die Anzahl Klicks und Besuchende pro Datensatz und Tag.  &#x27;Datensatz&#x27; entspricht &#x27;dataset&#x27; nach DCAP-AP CH.
+- **Resource issued:** 2024-01-25 23:00:00
+- **Resource modified:** 2026-09-27 01:52:26
 
 ## Load packages
 

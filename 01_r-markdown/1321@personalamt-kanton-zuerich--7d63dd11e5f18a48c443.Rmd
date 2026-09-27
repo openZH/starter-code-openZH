@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1321@personalamt-kanton-zueri
 
 ## Metadata
 
-- **issued:** 2022-09-26T22:00:00
-- **modified:** 2026-09-22T09:35:30
+- **issued:** 2022-09-26 22:00:00
+- **modified:** 2026-09-22 09:35:30
 - **startDate:** 2020-01-01
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;alter&&#35;x27;, &&#35;x27;amtliches&#95;geschlecht&&#35;x27;, &&#35;x27;ausbildung&&#35;x27;, &&#35;x27;beschaeftigte&&#35;x27;, &&#35;x27;beschaeftigungsgrad&&#35;x27;, &&#35;x27;frauenanteil&&#35;x27;, &&#35;x27;lohnstruktur&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;staatspersonal&&#35;x27;, &&#35;x27;teilzeiterwerbstaetige&&#35;x27;, &&#35;x27;verwaltungspersonal&&#35;x27;, &&#35;x27;vollzeitaequivalente&&#35;x27;, &&#35;x27;vollzeiterwerbstaetige&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Personalamt des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/GOVE
+- **keyword:** alter, amtliches&#95;geschlecht, ausbildung, beschaeftigte, beschaeftigungsgrad, frauenanteil, lohnstruktur, ogd, staatspersonal, teilzeiterwerbstaetige, verwaltungspersonal, vollzeitaequivalente, vollzeiterwerbstaetige
+- **publisher:** Personalamt des Kantons Zürich
 - **landingPage:** https://www.zh.ch/de/finanzdirektion/personalamt/personal-und-lohnstatistik.html
 - **Resource ktzhDistId:** 2538
 - **Resource title:** Personalaufwand in CHF
 - **Resource description:** Personalaufwand in CHF, differenziert in Löhne inkl. Zulagen, temporäre Arbeitskräfte, Arbeitgeberbeiträge, Arbeitgeberleistungen, Aus- und Weiterbildung des Personals, Personalwerbung, Übriger Personalaufwand. Die Gliederung ergibt sich aus der Kontonummer: Löhne inkl. Zulagen &#40;3000, 3001, 3010, 3020, 3040&#41;, temporäre Arbeitskräfte &#40;3030&#41;, Arbeitgeberbeiträge &#40;3050 bis 3059&#41;, Arbeitgeberleistungen &#40;3060 bis 3069&#41;, Aus- und Weiterbildung des Personals &#40;3090&#41;, Personalwerbung &#40;3091&#41; und übriger Personalaufwand &#40;3099&#41;.<br>Ausgewiesen werden die Werte für die kantonale Verwaltung gesamt, ohne Aufteilung nach Direktionen. Es handelt sich um Jahreswerte aus der Rechnung des jeweiligen Jahres, nicht um Stichtagswerte.<br>Der Aufwand ist nach buchhalterischer Konvention mit negativem Vorzeichen erfasst. Einzelne Konten weisen in einzelnen Jahren positive Werte aus; dabei handelt es sich um Gutschriften oder Korrekturbuchungen.<br>Daten verfügbar ab 2020.Quelle: Personal- und Lohnstatistik
-- **Resource issued:** 2022-09-26T22:00:00
-- **Resource modified:** 2026-09-22T11:30:40
+- **Resource issued:** 2022-09-26 22:00:00
+- **Resource modified:** 2026-09-22 11:30:40
 
 ## Load packages
 

@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 395@statistisches-amt-kanton-
 
 ## Metadata
 
-- **issued:** 2016-12-12T23:00:00
-- **modified:** 2024-07-10T22:00:00
+- **issued:** 2016-12-12 23:00:00
+- **modified:** 2024-07-10 22:00:00
 - **startDate:** 1990-12-31
 - **endDate:** 2017-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;gemeindefinanzen&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;oeffentliche&#95;finanzen&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;staatsfinanzen&&#35;x27;, &&#35;x27;staatsinvestitionen&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/GOVE
+- **keyword:** gemeindefinanzen, gemeinden, kanton&#95;zuerich, oeffentliche&#95;finanzen, ogd, staatsfinanzen, staatsinvestitionen
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** nan
 - **Resource ktzhDistId:** 510
 - **Resource title:** Jahresrechnungen der Anstalten des Kantons Zürich
 - **Resource description:** Mit der Anstalt besteht für die politischen Gemeinden eine Alternative zum Zweckverband oder zu privatrechtlichen Rechtsformen, wie etwa der Aktiengesellschaft oder der Stiftung. Anders als der Zweckverband hat die Anstalt kein Legislativorgan, das aus den Stimmberechtigten oder einer Delegiertenversammlung besteht; in der Anstalt gibt es daher weder ein Initiativ- noch ein Referendumsrecht.
-- **Resource issued:** 2016-12-12T23:00:00
-- **Resource modified:** 2019-02-14T23:00:00
+- **Resource issued:** 2016-12-12 23:00:00
+- **Resource modified:** 2019-02-14 23:00:00
 
 ## Load packages
 

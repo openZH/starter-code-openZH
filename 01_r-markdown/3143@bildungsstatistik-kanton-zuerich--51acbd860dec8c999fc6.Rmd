@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 3143@bildungsstatistik-kanton
 
 ## Metadata
 
-- **issued:** 2025-11-28T12:43:08
-- **modified:** 2025-11-28T12:43:08
+- **issued:** 2025-11-28 12:43:08
+- **modified:** 2025-11-28 12:43:08
 - **startDate:** 2000-09-15
 - **endDate:** 2024-09-15
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/EDUC&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;berufsbildung&&#35;x27;, &&#35;x27;berufsschule&&#35;x27;, &&#35;x27;bezirke&&#35;x27;, &&#35;x27;bildung&&#35;x27;, &&#35;x27;bildungsstufe&&#35;x27;, &&#35;x27;fachhochschulen&&#35;x27;, &&#35;x27;hochschulen&&#35;x27;, &&#35;x27;kindergarten&&#35;x27;, &&#35;x27;lernende&&#35;x27;, &&#35;x27;mittelschulen&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;politische&#95;gemeinden&&#35;x27;, &&#35;x27;primarschule&&#35;x27;, &&#35;x27;raumplanungsregionen&&#35;x27;, &&#35;x27;schueler&#42;innen&&#35;x27;, &&#35;x27;sekundarschule&&#35;x27;, &&#35;x27;studierende&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Bildungsstatistik des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/EDUC
+- **keyword:** berufsbildung, berufsschule, bezirke, bildung, bildungsstufe, fachhochschulen, hochschulen, kindergarten, lernende, mittelschulen, ogd, politische&#95;gemeinden, primarschule, raumplanungsregionen, schueler&#42;innen, sekundarschule, studierende
+- **publisher:** Bildungsstatistik des Kantons Zürich
 - **landingPage:** https://www.zh.ch/de/bildung/bildungssystem/zahlen-fakten.html
 - **Resource ktzhDistId:** 6708
 - **Resource title:** Lernende nach Wohngemeinde, Bezirk, Raumplanungsregion, Schulstufe und Schultyp
 - **Resource description:** Die Daten sind differenziert nach Jahr, Gebietstyp, Gebietscode, Gebietsbezeichnung und Schulstufe/typ. Ausgewiesen werden die Anzahl der Personen mit Wohnort in der entsprechenden räumlichen Einheit und Stufe. Bei Lernenden an Hochschulen und Fachhochschulen wird der Wohnort vor Studienbeginn für die Zuteilung verwendet, bei den übrigen Lernenden der aktuelle Wohnort. <br><br>jahr: Die Daten für das Jahr 2024 sind im Schuljahr 2024/25 erhoben worden und zeigen den Datenstand am Stichtag 15. September 2024.<br>gebietstyp: Es werden die Gebietstypen politische Gemeinde, Bezirk, Raumplanungsregion, sowie der gesamte Kanton Zürich ausgewiesen.<br>gebiet&#95;Code: Der ausgewiesene Code entspricht dem BFS-Code für die Gebietstypen Gemeinde, Bezirk und Kanton. Bei den Raumplanungsregionen wird die Codierung gemäss dem statistischen Amt des Kantons Zürich ausgewiesen.<br>stufe: Die aufeinanderfolgenden Schulstufen sind Kindergarten &#40;Primarstufe 1-2&#41;, Primarschule &#40;Primarstufe 3-8&#41;, Sekundarstufe I, Sekundarstufe II und die Tertiärstufe. Bei den höheren Schulstufen werden zudem folgende Schultypen unterschieden: bei der Sekundarstufe II: Berufsschulen &#40;inkl. Brückenangebote&#41; und  Mittelschulen, und bei der Tertiärstufe die höhere Berufsbildung und die verschiedenen Hochschulen.<br><br>Die Daten der Statistik der Lernenden werde nach dem Schulortprinzip erhoben. Lernende, welche eine Schule ausserhalb des Kantons Zürich besuchen, sind mit Ausnahme der Hochschulen nicht berücksichtigt. Dies kann insbesondere auf der Sekundarstufe II und auf der Tertiärstufe bei der höheren Berufsbildung zu Verzerrungen führen. Mittelschulen werden in Grenzregionen häufig in anderen Kantonen besucht. In der Berufsbildung und und höhere Berufsbildung ist der Schulstandort von der gewählten Ausbildung abhängig.
-- **Resource issued:** 2026-06-19T13:33:24
-- **Resource modified:** 2026-09-18T07:39:57
+- **Resource issued:** 2026-06-19 13:33:24
+- **Resource modified:** 2026-09-18 07:39:57
 
 ## Load packages
 

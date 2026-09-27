@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 364@statistisches-amt-kanton-
 
 ## Metadata
 
-- **issued:** 2016-01-20T23:00:00
-- **modified:** 2026-03-27T13:43:10
+- **issued:** 2016-01-20 23:00:00
+- **modified:** 2026-03-27 13:43:10
 - **startDate:** 2013-12-31
 - **endDate:** 2018-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/TRAN&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;bezirke&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;nicht&#95;weitergefuehrt&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;verkehr&&#35;x27;, &&#35;x27;verkehrsmittelwahl&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/TRAN
+- **keyword:** bezirke, gemeinden, kanton&#95;zuerich, nicht&#95;weitergefuehrt, ogd, verkehr, verkehrsmittelwahl
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html
 - **Resource ktzhDistId:** 285
 - **Resource title:** MIV-Anteil &#40;Modal Split&#41; &#91;%&#93;
 - **Resource description:** None
-- **Resource issued:** 2016-01-20T23:00:00
-- **Resource modified:** 2021-11-29T23:00:00
+- **Resource issued:** 2016-01-20 23:00:00
+- **Resource modified:** 2021-11-29 23:00:00
 
 ## Load packages
 

@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Wohnbautätigkeit in den Gemeinden des Kantons Zürich
 
-Anzahl der Neubau- und Abbruchwohnungen sowie des Wohnbausaldos pro Gemeinde sowie beim CSV zusätzlich nach Zimmerzahl und Gebäudekategorie. Weitere Erläuterungen zur Auswertung &#40;inkl. GWR-Stichtag&#41; finden sich in den Excel-Datei oder beim CSV in den Metadaten. Die Rohdaten zur Bezifferung der Wohnbautätigkeit sind OGD &#40;siehe &&#35;x27;Verwandte Datensätze&&#35;x27;&#41;. Eine Auswertungsvorlage ist unten verlinkt &#40;siehe &&#35;x27;Weitere Informationen&&#35;x27;&#41;.
+Anzahl der Neubau- und Abbruchwohnungen sowie des Wohnbausaldos pro Gemeinde sowie beim CSV zusätzlich nach Zimmerzahl und Gebäudekategorie. Weitere Erläuterungen zur Auswertung &#40;inkl. GWR-Stichtag&#41; finden sich in den Excel-Datei oder beim CSV in den Metadaten. Die Rohdaten zur Bezifferung der Wohnbautätigkeit sind OGD &#40;siehe &#x27;Verwandte Datensätze&#x27;&#41;. Eine Auswertungsvorlage ist unten verlinkt &#40;siehe &#x27;Weitere Informationen&#x27;&#41;.
 
 [View this dataset in the data catalogue](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2922%40statistisches-amt-kanton-zuerich)
 
@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2922@statistisches-amt-kanton
 
 ## Metadata
 
-- **issued:** 2025-04-16T22:00:00
-- **modified:** 2026-02-25T13:54:14
+- **issued:** 2025-04-16 22:00:00
+- **modified:** 2026-02-25 13:54:14
 - **startDate:** 2010-12-31
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/REGI&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;gemeinden&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;wohnbautaetigkeit&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/REGI, http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** gemeinden, ogd, wohnbautaetigkeit
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** https://www.zh.ch/de/planen-bauen/raumplanung/immobilienmarkt/wohnbautaetigkeit.html
 - **Resource ktzhDistId:** 6203
 - **Resource title:** Wohnbautätigkeit in den Gemeinden des Kantons Zürich nach Zimmerzahl und Gebäudekategorie
 - **Resource description:** Der Stichtag der Datengrundlage ist jeweils der 31. Dezember des letzten ausgewiesenen Jahres.<br>Wohnungen in neuen/abgebrochenen Gebäuden. Aufstockungen bzw. Umbauten wurden nicht berücksichtigt.																	<br>Aufgrund von Registernachführungen können sich die Zahlen insbsondere für Zeiträume nahe beim Stichtag bei zukünftigen Auswertungen noch ändern.																	<br>Die Datenaufbereitung basiert auf der Schablone hier: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH&#95;00002162&#95;00004263.html
-- **Resource issued:** 2025-04-16T22:00:00
-- **Resource modified:** 2026-02-25T13:53:50
+- **Resource issued:** 2025-04-16 22:00:00
+- **Resource modified:** 2026-02-25 13:53:50
 
 ## Load packages
 

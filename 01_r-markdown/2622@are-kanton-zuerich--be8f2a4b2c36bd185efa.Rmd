@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2622@are-kanton-zuerich.
 
 ## Metadata
 
-- **issued:** 2024-05-29T22:00:00
-- **modified:** 2026-03-26T09:13:12
+- **issued:** 2024-05-29 22:00:00
+- **modified:** 2026-03-26 09:13:12
 - **startDate:** 2012-01-01
 - **endDate:** 2023-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENVI&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;gemeinden&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;raumentwicklung&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Raumentwicklung des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ENVI, http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** gemeinden, ogd, raumentwicklung
+- **publisher:** Amt für Raumentwicklung des Kantons Zürich
 - **landingPage:** nan
 - **Resource ktzhDistId:** 5364
 - **Resource title:** Einwohner und Beschäftigte pro Hektare ab 2012
 - **Resource description:** Durchschnittliche Anzahl Einwohner und Beschäftigte pro Hektare überbaute Wohn-, Misch- und Arbeitszonen im Kanton Zürich. Mit der Spalte «GEO&#95;LEVEL&#95;LEVEL» können im Vergleich zur Spalte «BFS&#95;NR» neben den Gemeinden und Städten &#40;3&#41; zusätzlich auch die Regionen &#40;6&#41;, die Bezirke &#40;2&#41; und der Kanton Zürich &#40;1&#41; als Ganzes identifiziert werden Die Spalte GEBIET&#95;NAME beinhaltet sowohl Gemeinden, Städte, Regionen als auch den ganzen Kanton Zürich. Bei der Berechnung der Werte wurden Wohn-, Misch- und Arbeitszonen auf Stufe Gemeinde im Umfang von weniger als 2 Hektare nicht berücksichtigt.
-- **Resource issued:** 2024-05-29T22:00:00
-- **Resource modified:** 2026-03-26T09:12:49
+- **Resource issued:** 2024-05-29 22:00:00
+- **Resource modified:** 2026-03-26 09:12:49
 
 ## Load packages
 

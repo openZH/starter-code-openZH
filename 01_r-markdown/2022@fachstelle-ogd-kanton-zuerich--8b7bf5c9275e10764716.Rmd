@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2022@fachstelle-ogd-kanton-zu
 
 ## Metadata
 
-- **issued:** 2023-04-23T22:00:00
-- **modified:** 2026-08-04T10:57:51
+- **issued:** 2023-04-23 22:00:00
+- **modified:** 2026-08-04 10:57:51
 - **startDate:** 2026-06-30
 - **endDate:** 2026-06-30
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;gebaeude&&#35;x27;, &&#35;x27;gebaeudeart&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;heizung&&#35;x27;, &&#35;x27;heizungsart&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;strassen&&#35;x27;, &&#35;x27;wohnung&&#35;x27;, &&#35;x27;wohnungen&&#35;x27;, &&#35;x27;wohnungsbestand&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Fachstelle Open Government Data des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** gebaeude, gebaeudeart, gemeinden, heizung, heizungsart, ogd, strassen, wohnung, wohnungen, wohnungsbestand
+- **publisher:** Fachstelle Open Government Data des Kantons Zürich
 - **landingPage:** nan
 - **Resource ktzhDistId:** 4064
 - **Resource title:** Gebäude
-- **Resource description:** Daten des eidg. GWR mit Bezug zu ganzen Gebäuden und ihrer Haustechnik. Aus den Daten lassen sich umfassende Angaben zum Gebäudebestand ablesen, beispielsweise zum Gebäudealter oder den Wärme- und Energiequellen. Die Merkmale entsprechen denen im Merkmalskatalogs des eidg. GWR &#40;siehe Link unter &quot;weitere Informationen&quot; im Datensatzbeschrieb&#41; und sind dort beschrieben. Leerwerte wurden in den Gemeinden nicht ausgefüllt, ihr Wert ist unbekannt. Für die einfachere Nutzung fügt die Fach- und Koordinationsstelle OGD vor der Publikation folgende Merkmale hinzu: Für das Merkmal &&#35;x27;Kanton&&#35;x27; wird für alle Beobachtungen ZH abgefüllt. Das Merkmal &&#35;x27;Gemeindename&&#35;x27; wird mittels BFS-Nummer entsprechend der Gemeindetabelle des Statistischen Amts ausgegeben. Das Merkmal &&#35;x27;Anzahl&#95;Wohnungen&&#35;x27; wird anhand der Ressource Wohnungen berechnet.
-- **Resource issued:** 2023-04-23T22:00:00
-- **Resource modified:** 2026-08-04T10:57:26
+- **Resource description:** Daten des eidg. GWR mit Bezug zu ganzen Gebäuden und ihrer Haustechnik. Aus den Daten lassen sich umfassende Angaben zum Gebäudebestand ablesen, beispielsweise zum Gebäudealter oder den Wärme- und Energiequellen. Die Merkmale entsprechen denen im Merkmalskatalogs des eidg. GWR &#40;siehe Link unter &quot;weitere Informationen&quot; im Datensatzbeschrieb&#41; und sind dort beschrieben. Leerwerte wurden in den Gemeinden nicht ausgefüllt, ihr Wert ist unbekannt. Für die einfachere Nutzung fügt die Fach- und Koordinationsstelle OGD vor der Publikation folgende Merkmale hinzu: Für das Merkmal &#x27;Kanton&#x27; wird für alle Beobachtungen ZH abgefüllt. Das Merkmal &#x27;Gemeindename&#x27; wird mittels BFS-Nummer entsprechend der Gemeindetabelle des Statistischen Amts ausgegeben. Das Merkmal &#x27;Anzahl&#95;Wohnungen&#x27; wird anhand der Ressource Wohnungen berechnet.
+- **Resource issued:** 2023-04-23 22:00:00
+- **Resource modified:** 2026-08-04 10:57:26
 
 ## Load packages
 

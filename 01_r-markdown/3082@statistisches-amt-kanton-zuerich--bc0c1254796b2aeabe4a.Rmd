@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 3082@statistisches-amt-kanton
 
 ## Metadata
 
-- **issued:** 2025-08-27T22:00:00
-- **modified:** 2025-12-08T08:29:59
+- **issued:** 2025-08-27 22:00:00
+- **modified:** 2025-12-08 08:29:59
 - **startDate:** nan
 - **endDate:** nan
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/REGI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;bezirke&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;raumplanungsregionen&&#35;x27;, &&#35;x27;stammdaten&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/REGI
+- **keyword:** bezirke, gemeinden, ogd, raumplanungsregionen, stammdaten
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** https://github.com/statistikZH/gebietsstammdaten&#95;zh
 - **Resource ktzhDistId:** 6563
 - **Resource title:** Gemeindezuweisungen zu Bezirk und Raumplanungsregion Kanton Zürich
 - **Resource description:** Für eine Beschreibung der einzelnen Variablen siehe &quot;weitere Informationen&quot; auf der Startseite des Datensatzes.
-- **Resource issued:** 2025-08-27T22:00:00
-- **Resource modified:** 2025-08-27T22:00:00
+- **Resource issued:** 2025-08-27 22:00:00
+- **Resource modified:** 2025-08-27 22:00:00
 
 ## Load packages
 

@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 465@gemeindeamt-kanton-zueric
 
 ## Metadata
 
-- **issued:** 2018-12-09T23:00:00
-- **modified:** 2026-03-27T12:56:16
+- **issued:** 2018-12-09 23:00:00
+- **modified:** 2026-03-27 12:56:16
 - **startDate:** 1990-01-01
 - **endDate:** 2017-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;gemeindefinanzen&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;nicht&#95;weitergefuehrt&&#35;x27;, &&#35;x27;ogd&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Gemeindeamt des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/GOVE
+- **keyword:** gemeindefinanzen, gemeinden, nicht&#95;weitergefuehrt, ogd
+- **publisher:** Gemeindeamt des Kantons Zürich
 - **landingPage:** https://www.zh.ch/de/politik-staat/gemeinden/pruefung-uebermittlung-gemeindedaten.html
 - **Resource ktzhDistId:** 768
 - **Resource title:** Bilanzwert der langfristigen Schulden &#91;Fr./Einw.&#93;
 - **Resource description:** Bilanzwert der langfristigen Schulden pro Kopf pro konsolidierte Gemeinde.
-- **Resource issued:** 2019-08-25T22:00:00
-- **Resource modified:** 2018-12-09T23:00:00
+- **Resource issued:** 2019-08-25 22:00:00
+- **Resource modified:** 2018-12-09 23:00:00
 
 ## Load packages
 

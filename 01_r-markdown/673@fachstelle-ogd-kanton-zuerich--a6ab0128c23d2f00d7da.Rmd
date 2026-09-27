@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 673@fachstelle-ogd-kanton-zue
 
 ## Metadata
 
-- **issued:** 2020-03-15T23:00:00
-- **modified:** 2023-01-09T23:00:00
+- **issued:** 2020-03-15 23:00:00
+- **modified:** 2023-01-09 23:00:00
 - **startDate:** 2020-01-05
 - **endDate:** nan
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/HEAL&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;corona&&#35;x27;, &&#35;x27;covid-19&&#35;x27;, &&#35;x27;covid19&&#35;x27;, &&#35;x27;gesundheit&&#35;x27;, &&#35;x27;kantone&&#35;x27;, &&#35;x27;krankheiten&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;schweiz&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Fachstelle Open Government Data des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/HEAL
+- **keyword:** corona, covid-19, covid19, gesundheit, kantone, krankheiten, ogd, schweiz
+- **publisher:** Fachstelle Open Government Data des Kantons Zürich
 - **landingPage:** https://github.com/openZH/covid&#95;19/
 - **Resource ktzhDistId:** 1627
 - **Resource title:** COVID&#95;19 open government data reported by Swiss Cantons and Principality of Liechtenstein from January 5, 2020
 - **Resource description:** Case numbers include persons tested in Switzerland per Canton &#40;26 Cantons&#41; plus Principality of Liechtenstein. For definition of variables see Readme listed below &quot;Further information / Weitere Informationen&quot;.
-- **Resource issued:** 2020-03-15T23:00:00
-- **Resource modified:** 2021-07-05T22:00:00
+- **Resource issued:** 2020-03-15 23:00:00
+- **Resource modified:** 2021-07-05 22:00:00
 
 ## Load packages
 

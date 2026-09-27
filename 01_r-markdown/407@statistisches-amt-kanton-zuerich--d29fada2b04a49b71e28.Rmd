@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 407@statistisches-amt-kanton-
 
 ## Metadata
 
-- **issued:** 2019-06-30T22:00:00
-- **modified:** 2026-03-27T12:53:42
+- **issued:** 2019-06-30 22:00:00
+- **modified:** 2026-03-27 12:53:42
 - **startDate:** 1990-12-31
 - **endDate:** 2024-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;bezirke&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;nicht&#95;weitergefuehrt&&#35;x27;, &&#35;x27;oeffentliche&#95;finanzen&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;steuerpflichtige&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/GOVE
+- **keyword:** bezirke, gemeinden, kanton&#95;zuerich, nicht&#95;weitergefuehrt, oeffentliche&#95;finanzen, ogd, steuerpflichtige
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html
 - **Resource ktzhDistId:** 723
 - **Resource title:** Total Quellensteuerpflichtige &#91;Anz.&#93;
 - **Resource description:** None
-- **Resource issued:** 2019-06-30T22:00:00
-- **Resource modified:** 2025-05-21T22:00:00
+- **Resource issued:** 2019-06-30 22:00:00
+- **Resource modified:** 2025-05-21 22:00:00
 
 ## Load packages
 

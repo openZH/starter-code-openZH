@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1803@awel-kanton-zuerich.
 
 ## Metadata
 
-- **issued:** 2022-11-06T23:00:00
-- **modified:** 2025-07-15T22:00:00
+- **issued:** 2022-11-06 23:00:00
+- **modified:** 2025-07-15 22:00:00
 - **startDate:** 2000-01-01
 - **endDate:** 2024-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENVI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;abfall&&#35;x27;, &&#35;x27;abfallgebuehren&&#35;x27;, &&#35;x27;entsorgung&&#35;x27;, &&#35;x27;glas&&#35;x27;, &&#35;x27;karton&&#35;x27;, &&#35;x27;kehricht&&#35;x27;, &&#35;x27;kunststoff&&#35;x27;, &&#35;x27;oel&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;papier&&#35;x27;, &&#35;x27;recycling&&#35;x27;, &&#35;x27;sperrgut&&#35;x27;, &&#35;x27;textilien&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ENVI
+- **keyword:** abfall, abfallgebuehren, entsorgung, glas, karton, kehricht, kunststoff, oel, ogd, papier, recycling, sperrgut, textilien
+- **publisher:** Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich
 - **landingPage:** https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-712&#95;1-1994&#95;09&#95;25-2001&#95;01&#95;01-085.html
 - **Resource ktzhDistId:** 3461
 - **Resource title:** Abfallgebühren nach Gemeinden
 - **Resource description:** Die Abfallgebühren sind in CHF inkl. MWST angegeben und werden als Abfallgrundgebühr &#40;‘Grundgebuehr’&#41; und Preis pro 35-Liter-Gebührensack &#40;‘35-L-Sack’&#41; ausgewiesen. Die Gebühren gelten für Privathaushalte. Die ‘Grundgebuehr’ gilt pro Kalenderjahr und wird zur Vergleichbarkeit von den Gemeinden auf eine Gebühr für eine 4-Zimmer-Wohnung umgerechnet. Es gibt Ausnahmen, bei denen eine solche Umrechnung nicht vorgenommen wird. Diese Fälle werden mit ‘0’ erfasst. Ebenso mit ‘0’ erfasst sind Gemeinden, wo keine Grundgebühr erhoben wird.
-- **Resource issued:** 2022-11-06T23:00:00
-- **Resource modified:** 2025-07-15T22:00:00
+- **Resource issued:** 2022-11-06 23:00:00
+- **Resource modified:** 2025-07-15 22:00:00
 
 ## Load packages
 

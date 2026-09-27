@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2383@awel-kanton-zuerich.
 
 ## Metadata
 
-- **issued:** 2024-07-30T22:00:00
-- **modified:** 2025-04-06T22:00:00
+- **issued:** 2024-07-30 22:00:00
+- **modified:** 2025-04-06 22:00:00
 - **startDate:** 2020-02-29
 - **endDate:** 2023-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENVI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;feinstaub&&#35;x27;, &&#35;x27;flugverkehr&&#35;x27;, &&#35;x27;luftqualitaet&&#35;x27;, &&#35;x27;luftschadstoffe&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;strassenverkehr&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ENVI
+- **keyword:** feinstaub, flugverkehr, luftqualitaet, luftschadstoffe, ogd, strassenverkehr
+- **publisher:** Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich
 - **landingPage:** https://www.ostluft.ch
 - **Resource ktzhDistId:** 5472
 - **Resource title:** Messdaten Aerosol Anzahl-Grössenverteilungen Kloten Feld 2023
 - **Resource description:** Informationen zum Datensatz siehe Datensatzbeschrieb
-- **Resource issued:** 2024-07-30T22:00:00
-- **Resource modified:** 2024-07-30T22:00:00
+- **Resource issued:** 2024-07-30 22:00:00
+- **Resource modified:** 2024-07-30 22:00:00
 
 ## Load packages
 

@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1803@awel-kanton-zuerich.
 
 ## Metadata
 
-- **issued:** 2022-11-06T23:00:00
-- **modified:** 2025-07-15T22:00:00
+- **issued:** 2022-11-06 23:00:00
+- **modified:** 2025-07-15 22:00:00
 - **startDate:** 2000-01-01
 - **endDate:** 2024-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENVI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;abfall&&#35;x27;, &&#35;x27;abfallgebuehren&&#35;x27;, &&#35;x27;entsorgung&&#35;x27;, &&#35;x27;glas&&#35;x27;, &&#35;x27;karton&&#35;x27;, &&#35;x27;kehricht&&#35;x27;, &&#35;x27;kunststoff&&#35;x27;, &&#35;x27;oel&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;papier&&#35;x27;, &&#35;x27;recycling&&#35;x27;, &&#35;x27;sperrgut&&#35;x27;, &&#35;x27;textilien&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ENVI
+- **keyword:** abfall, abfallgebuehren, entsorgung, glas, karton, kehricht, kunststoff, oel, ogd, papier, recycling, sperrgut, textilien
+- **publisher:** Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich
 - **landingPage:** https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-712&#95;1-1994&#95;09&#95;25-2001&#95;01&#95;01-085.html
 - **Resource ktzhDistId:** 3460
 - **Resource title:** Abfallmengen nach Abfallarten und Gemeinden
 - **Resource description:** Der Datensatz zeigt die Gesamtmenge der Siedlungsabfälle aus Haushalten und Betrieben, die bei der kommunalen Sammlung gesammelt wurden. Direkte Anlieferungen an Kehrichtverbrennungsanlagen und private Entsorgungslösungen, die nicht den kommunalen Weg nutzen, sind nicht enthalten. Die Siedlungsabfälle werden unterteilt in die Abfallarten Brennbare Abfälle &#40;Kehricht &amp; Sperrgut&#41; und zum Recycling bestimmte Abfälle wie Altglas, Papier und Karton, Kunststoffe, Metalle, Altöl, biogene Abfälle sowie Textilien. Zudem werden mineralische Abfälle &#40;Grubengut&#41; erfasst. Seit 2007 werden auch Strassenabfälle aus Strassenwischern und Strassensammlerschlämme erfasst. Werte unter 500 kg werden auf 0 Tonnen abgerundet. Einige Gemeinden stellen nicht für alle Abfallarten Daten zur Verfügung, insbesondere für Kunststoffe und Textilien. Einträge mit &#40;‘NA’&#41; bedeuten, dass diese Abfallart in der Gemeinde nicht gesammelt wird oder keine Mengenangabe erfolgte.
-- **Resource issued:** 2022-11-06T23:00:00
-- **Resource modified:** 2026-03-02T05:05:32
+- **Resource issued:** 2022-11-06 23:00:00
+- **Resource modified:** 2026-03-02 05:05:32
 
 ## Load packages
 

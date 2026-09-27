@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2962@statistisches-amt-kanton
 
 ## Metadata
 
-- **issued:** 2025-04-03T22:00:00
-- **modified:** 2025-07-14T22:00:00
+- **issued:** 2025-04-03 22:00:00
+- **modified:** 2025-07-14 22:00:00
 - **startDate:** 2016-01-01
 - **endDate:** 2024-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/INTR&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;export&&#35;x27;, &&#35;x27;import&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;ogd&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/INTR
+- **keyword:** export, import, kanton&#95;zuerich, ogd
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** nan
 - **Resource ktzhDistId:** 6125
 - **Resource title:** Importe und Exporte pro Güterkategorie &#40;und Land&#41;
 - **Resource description:** Warenimporte und -exporte pro Güterkategorie und Land. Total 1 enthält keine Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten, Total 2 hingegen schon. Aus Datenschutzgründen Zusammenfassung von einigen Ländern und Güterkategorien. Die Sammelkategorien sind so gebildet, dass die Totale der Güterkategorien korrekt sind. Maschinenlesbares Format.
-- **Resource issued:** 2025-04-03T22:00:00
-- **Resource modified:** 2025-07-14T22:00:00
+- **Resource issued:** 2025-04-03 22:00:00
+- **Resource modified:** 2025-07-14 22:00:00
 
 ## Load packages
 

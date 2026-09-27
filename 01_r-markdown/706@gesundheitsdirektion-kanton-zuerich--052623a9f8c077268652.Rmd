@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: COVID&#95;19 Belegung Intensivpflege Kanton Zürich ab 29.10.2020 bis 02.05.2023
 
-Anzahl zertifizierte Intensivpflege-Betten und deren aktuelle Belegung auf Spitalebene im Kanton Zürich &#40;Stand jeweils am Mittwoch&#41;. Die Daten werden einmal wöchentlich &#40;jeweils am Mittwoch&#41; aktualisiert. Variabeln: &&#35;x27;Name des Spitals&&#35;x27;, &&#35;x27;Anzahl Covid-19-PatientInnen auf der Intensivpflegestation, an deren Behandlung sich das Spital derzeit beteiligen müsste &#40;die Sollwerte werden von der Gesundheitsdirektion zusammen mit den Spitälern definiert&#41;&&#35;x27;, &&#35;x27;Anzahl Covid-19-PatientInnen auf der Intensivpflegestation&&#35;x27;, &&#35;x27;Anzahl andere PatientInnen auf der Intensivpflegestation&&#35;x27; und &#40;seit 2021-12-10&#41; &&#35;x27;Anzahl zertifizierte Intensivpflege-Betten, die aktuell mit dem verfügbaren Pflegepersonal betrieben werden können&&#35;x27;.<br>Der Datensatz wurde bis zum 02.05.2023 aktualisiert
+Anzahl zertifizierte Intensivpflege-Betten und deren aktuelle Belegung auf Spitalebene im Kanton Zürich &#40;Stand jeweils am Mittwoch&#41;. Die Daten werden einmal wöchentlich &#40;jeweils am Mittwoch&#41; aktualisiert. Variabeln: &#x27;Name des Spitals&#x27;, &#x27;Anzahl Covid-19-PatientInnen auf der Intensivpflegestation, an deren Behandlung sich das Spital derzeit beteiligen müsste &#40;die Sollwerte werden von der Gesundheitsdirektion zusammen mit den Spitälern definiert&#41;&#x27;, &#x27;Anzahl Covid-19-PatientInnen auf der Intensivpflegestation&#x27;, &#x27;Anzahl andere PatientInnen auf der Intensivpflegestation&#x27; und &#40;seit 2021-12-10&#41; &#x27;Anzahl zertifizierte Intensivpflege-Betten, die aktuell mit dem verfügbaren Pflegepersonal betrieben werden können&#x27;.<br>Der Datensatz wurde bis zum 02.05.2023 aktualisiert
 
 [View this dataset in the data catalogue](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/706%40gesundheitsdirektion-kanton-zuerich)
 
@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 706@gesundheitsdirektion-kant
 
 ## Metadata
 
-- **issued:** 2020-11-05T23:00:00
-- **modified:** 2023-05-08T22:00:00
+- **issued:** 2020-11-05 23:00:00
+- **modified:** 2023-05-08 22:00:00
 - **startDate:** 2020-10-29
 - **endDate:** 2023-05-02
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/HEAL&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;corona&&#35;x27;, &&#35;x27;covid-19&&#35;x27;, &&#35;x27;covid19&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;patient&#42;innen&&#35;x27;, &&#35;x27;spitaeler&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Gesundheitsdirektion des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/HEAL
+- **keyword:** corona, covid-19, covid19, kanton&#95;zuerich, ogd, patient&#42;innen, spitaeler
+- **publisher:** Gesundheitsdirektion des Kantons Zürich
 - **landingPage:** https://github.com/openZH/covid&#95;19/tree/master/fallzahlen&#95;kanton&#95;zh
 - **Resource ktzhDistId:** 1744
 - **Resource title:** COVID&#95;19 Belegung Intensivpflege Kanton Zürich ab 29.10.2020 bis 02.05.2023
-- **Resource description:** Variabeln: &&#35;x27;hospital&#95;name&&#35;x27; = Name des Spitals; &&#35;x27;current&#95;icu&#95;service&#95;certified&&#35;x27; = Anzahl zertifizierte Intensivpflege-Betten; &&#35;x27;current&#95;icu&#95;target&#95;covid&&#35;x27; = Anzahl Covid-19-PatientInnen auf der Intensivpflegestation, an deren Behandlung sich das Spital derzeit beteiligen müsste &#40;die Sollwerte werden von der Gesundheitsdirektion zusammen mit den Spitälern definiert&#41;; &&#35;x27;current&#95;icu&#95;covid&&#35;x27; = Anzahl Covid-19-PatientInnen auf der Intensivpflegestation; &&#35;x27;current&#95;icu&#95;not&#95;covid&&#35;x27; = Anzahl andere PatientInnen auf der Intensivpflegestation; &&#35;x27;current&#95;icu&#95;service&#95;certified&#95;operated&&#35;x27; &#40;seit 2021-12-10&#41; = Anzahl zertifizierte Intensivpflege-Betten, die aktuell mit dem verfügbaren Pflegepersonal betrieben werden können.
-- **Resource issued:** 2020-11-05T23:00:00
-- **Resource modified:** 2023-05-08T22:00:00
+- **Resource description:** Variabeln: &#x27;hospital&#95;name&#x27; = Name des Spitals; &#x27;current&#95;icu&#95;service&#95;certified&#x27; = Anzahl zertifizierte Intensivpflege-Betten; &#x27;current&#95;icu&#95;target&#95;covid&#x27; = Anzahl Covid-19-PatientInnen auf der Intensivpflegestation, an deren Behandlung sich das Spital derzeit beteiligen müsste &#40;die Sollwerte werden von der Gesundheitsdirektion zusammen mit den Spitälern definiert&#41;; &#x27;current&#95;icu&#95;covid&#x27; = Anzahl Covid-19-PatientInnen auf der Intensivpflegestation; &#x27;current&#95;icu&#95;not&#95;covid&#x27; = Anzahl andere PatientInnen auf der Intensivpflegestation; &#x27;current&#95;icu&#95;service&#95;certified&#95;operated&#x27; &#40;seit 2021-12-10&#41; = Anzahl zertifizierte Intensivpflege-Betten, die aktuell mit dem verfügbaren Pflegepersonal betrieben werden können.
+- **Resource issued:** 2020-11-05 23:00:00
+- **Resource modified:** 2023-05-08 22:00:00
 
 ## Load packages
 

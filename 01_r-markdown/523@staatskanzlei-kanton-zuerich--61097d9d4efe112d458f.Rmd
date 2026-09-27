@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 523@staatskanzlei-kanton-zuer
 
 ## Metadata
 
-- **issued:** 2019-12-04T23:00:00
-- **modified:** 2026-03-03T12:20:05
+- **issued:** 2019-12-04 23:00:00
+- **modified:** 2026-03-03 12:20:05
 - **startDate:** 2013-01-01
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;kantonale&#95;verwaltung&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;regierungsrat&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Staatskanzlei des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/GOVE
+- **keyword:** kantonale&#95;verwaltung, ogd, regierungsrat
+- **publisher:** Staatskanzlei des Kantons Zürich
 - **landingPage:** https://www.zh.ch/de/politik-staat/kanton/kantonale-verwaltung/oeffentlichkeitsprinzip.html
 - **Resource ktzhDistId:** 968
 - **Resource title:** Statistik der Informationszugangsgesuche nach IDG des Kantons Zürich
-- **Resource description:** Spalten: &&#35;x27;jahr&&#35;x27;; &&#35;x27;organisationseinheit&&#35;x27;; &&#35;x27;gesuche&#95;haengig&#95;jan&&#35;x27; &#40;am 1. Januar des Jahres&#41;; &&#35;x27;gesuche&#95;total&&#35;x27; &#40;des gesamten Jahres&#41;; &&#35;x27;zugang&#95;uneingeschraenkt&#95;gewaehrt&&#35;x27;; &&#35;x27;zugang&#95;teilweise&#95;gewaehrt&&#35;x27;; &&#35;x27;zugang&#95;vollstaendig&#95;abgelehnt&&#35;x27;; &&#35;x27;anderweitige&#95;erledigung&&#35;x27; &#40;z.B. Rückzug, Gegenstandslosigkeit&#41;; &&#35;x27;gesuche&#95;haengig&#95;dez&&#35;x27; &#40;am 31. Dezember des Jahres&#41;.
-- **Resource issued:** 2019-11-18T23:00:00
-- **Resource modified:** 2026-03-03T12:18:19
+- **Resource description:** Spalten: &#x27;jahr&#x27;; &#x27;organisationseinheit&#x27;; &#x27;gesuche&#95;haengig&#95;jan&#x27; &#40;am 1. Januar des Jahres&#41;; &#x27;gesuche&#95;total&#x27; &#40;des gesamten Jahres&#41;; &#x27;zugang&#95;uneingeschraenkt&#95;gewaehrt&#x27;; &#x27;zugang&#95;teilweise&#95;gewaehrt&#x27;; &#x27;zugang&#95;vollstaendig&#95;abgelehnt&#x27;; &#x27;anderweitige&#95;erledigung&#x27; &#40;z.B. Rückzug, Gegenstandslosigkeit&#41;; &#x27;gesuche&#95;haengig&#95;dez&#x27; &#40;am 31. Dezember des Jahres&#41;.
+- **Resource issued:** 2019-11-18 23:00:00
+- **Resource modified:** 2026-03-03 12:18:19
 
 ## Load packages
 

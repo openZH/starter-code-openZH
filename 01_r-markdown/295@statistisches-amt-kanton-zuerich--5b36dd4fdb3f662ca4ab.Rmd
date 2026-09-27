@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 295@statistisches-amt-kanton-
 
 ## Metadata
 
-- **issued:** 2016-01-19T23:00:00
-- **modified:** 2026-03-27T13:11:30
+- **issued:** 2016-01-19 23:00:00
+- **modified:** 2026-03-27 13:11:30
 - **startDate:** 2007-12-31
 - **endDate:** 2024-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;bezirke&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;nicht&#95;weitergefuehrt&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;quote&&#35;x27;, &&#35;x27;sozialhilfe&&#35;x27;, &&#35;x27;sozialleistungen&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** bezirke, gemeinden, kanton&#95;zuerich, nicht&#95;weitergefuehrt, ogd, quote, sozialhilfe, sozialleistungen
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html
 - **Resource ktzhDistId:** 225
 - **Resource title:** Sozialhilfequote &#91;%&#93;
 - **Resource description:** None
-- **Resource issued:** 2016-01-20T23:00:00
-- **Resource modified:** 2025-09-15T22:00:00
+- **Resource issued:** 2016-01-20 23:00:00
+- **Resource modified:** 2025-09-15 22:00:00
 
 ## Load packages
 

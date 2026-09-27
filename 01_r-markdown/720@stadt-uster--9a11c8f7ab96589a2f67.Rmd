@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 720@stadt-uster.
 
 ## Metadata
 
-- **issued:** 2021-07-06T22:00:00
-- **modified:** 2026-01-05T15:31:25
+- **issued:** 2021-07-06 22:00:00
+- **modified:** 2026-01-05 15:31:25
 - **startDate:** nan
 - **endDate:** 2021-07-01
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/EDUC&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;amtliche&#95;kommunikation&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;vereine&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Stadt Uster&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/EDUC, http://publications.europa.eu/resource/authority/data-theme/GOVE, http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** amtliche&#95;kommunikation, gemeinden, ogd, vereine
+- **publisher:** Stadt Uster
 - **landingPage:** https://github.com/GesellschaftStadtUster/quartier&#95;infokaesten
 - **Resource ktzhDistId:** 1803
 - **Resource title:** Tabelle mit allen Quartierkästen der Stadt Uster und Quartiervereinen
-- **Resource description:** Variabeln: &&#35;x27;standort&&#35;x27;, &&#35;x27;quartierverein&&#35;x27;, &&#35;x27;besitzer&&#35;x27; = &&#35;x27;stadt&&#35;x27; oder &&#35;x27;quartierverein&&#35;x27;, &&#35;x27;lat&&#35;x27; = Breitengrad, &&#35;x27;lng&&#35;x27; = Längengrad, &&#35;x27;bild&#95;kasten&&#35;x27; = URL zum Foto des Quartierkastens, &&#35;x27;link&#95;google-streetview&&#35;x27; = URL zum Foto des Quartierkastens auf Google Streetview.
-- **Resource issued:** 2021-04-11T22:00:00
-- **Resource modified:** 2021-07-08T22:00:00
+- **Resource description:** Variabeln: &#x27;standort&#x27;, &#x27;quartierverein&#x27;, &#x27;besitzer&#x27; = &#x27;stadt&#x27; oder &#x27;quartierverein&#x27;, &#x27;lat&#x27; = Breitengrad, &#x27;lng&#x27; = Längengrad, &#x27;bild&#95;kasten&#x27; = URL zum Foto des Quartierkastens, &#x27;link&#95;google-streetview&#x27; = URL zum Foto des Quartierkastens auf Google Streetview.
+- **Resource issued:** 2021-04-11 22:00:00
+- **Resource modified:** 2021-07-08 22:00:00
 
 ## Load packages
 

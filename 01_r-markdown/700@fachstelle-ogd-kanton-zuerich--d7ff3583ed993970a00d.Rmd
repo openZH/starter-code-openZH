@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 700@fachstelle-ogd-kanton-zue
 
 ## Metadata
 
-- **issued:** 2020-09-28T22:00:00
-- **modified:** 2020-09-30T22:00:00
+- **issued:** 2020-09-28 22:00:00
+- **modified:** 2020-09-30 22:00:00
 - **startDate:** nan
 - **endDate:** nan
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;kantonale&#95;verwaltung&&#35;x27;, &&#35;x27;ogd&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Fachstelle Open Government Data des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/GOVE
+- **keyword:** kanton&#95;zuerich, kantonale&#95;verwaltung, ogd
+- **publisher:** Fachstelle Open Government Data des Kantons Zürich
 - **landingPage:** https://www.zh.ch/de/politik-staat/kanton/kantonale-verwaltung/digitale-verwaltung/digitalisierungsprojekte.html&#35;1124425435
 - **Resource ktzhDistId:** 1723
 - **Resource title:** Verzeichnis der Personenstammdaten ZH - Abkürzungen und Definitionen
 - **Resource description:** None
-- **Resource issued:** 2020-09-16T22:00:00
-- **Resource modified:** 2020-09-28T22:00:00
+- **Resource issued:** 2020-09-16 22:00:00
+- **Resource modified:** 2020-09-28 22:00:00
 
 ## Load packages
 

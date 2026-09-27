@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1321@personalamt-kanton-zueri
 
 ## Metadata
 
-- **issued:** 2022-09-26T22:00:00
-- **modified:** 2026-09-22T09:35:30
+- **issued:** 2022-09-26 22:00:00
+- **modified:** 2026-09-22 09:35:30
 - **startDate:** 2020-01-01
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;alter&&#35;x27;, &&#35;x27;amtliches&#95;geschlecht&&#35;x27;, &&#35;x27;ausbildung&&#35;x27;, &&#35;x27;beschaeftigte&&#35;x27;, &&#35;x27;beschaeftigungsgrad&&#35;x27;, &&#35;x27;frauenanteil&&#35;x27;, &&#35;x27;lohnstruktur&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;staatspersonal&&#35;x27;, &&#35;x27;teilzeiterwerbstaetige&&#35;x27;, &&#35;x27;verwaltungspersonal&&#35;x27;, &&#35;x27;vollzeitaequivalente&&#35;x27;, &&#35;x27;vollzeiterwerbstaetige&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Personalamt des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/GOVE
+- **keyword:** alter, amtliches&#95;geschlecht, ausbildung, beschaeftigte, beschaeftigungsgrad, frauenanteil, lohnstruktur, ogd, staatspersonal, teilzeiterwerbstaetige, verwaltungspersonal, vollzeitaequivalente, vollzeiterwerbstaetige
+- **publisher:** Personalamt des Kantons Zürich
 - **landingPage:** https://www.zh.ch/de/finanzdirektion/personalamt/personal-und-lohnstatistik.html
 - **Resource ktzhDistId:** 2566
 - **Resource title:** Anzahl Anstellungsverhältnisse nach Geschlecht und Beschäftigungsgrad ab 2020
-- **Resource description:** Anzahl Anstellungsverhältnisse per Stichtag 31. Dezember des Berichtjahres in absoluten Zahlen und in Prozent, wobei jede Anstellung unabhängig ihres Beschäftigungsgrades voll gezählt wird. Die Anzahl Anstellungsverhältnisse ist höher als die Gesamtzahl der angestellten Personen, da eine Person mehrere Stellen innehaben kann &#40;Mehrfachanstellung&#41;. Es werden nur die Anstellungsverhältnisse der Kategorie &&#35;x27;Angestellte&&#35;x27; ausgewiesen, die Kategorie &&#35;x27;übriges Personal&&#35;x27; wird in der Statistik nicht berücksichtigt. Indikator &&#35;x27;Teilzeit &lt; 50%&&#35;x27; = Beschäftigungsgrad &lt; 50%, &&#35;x27;Teilzeit ≥ 50%&&#35;x27; = Beschäftigungsgrad ≥ 50%, &&#35;x27;Vollzeit&&#35;x27; = Beschäftigungsgrad ≥ 90%.
-- **Resource issued:** 2022-09-26T22:00:00
-- **Resource modified:** 2026-03-13T14:28:04
+- **Resource description:** Anzahl Anstellungsverhältnisse per Stichtag 31. Dezember des Berichtjahres in absoluten Zahlen und in Prozent, wobei jede Anstellung unabhängig ihres Beschäftigungsgrades voll gezählt wird. Die Anzahl Anstellungsverhältnisse ist höher als die Gesamtzahl der angestellten Personen, da eine Person mehrere Stellen innehaben kann &#40;Mehrfachanstellung&#41;. Es werden nur die Anstellungsverhältnisse der Kategorie &#x27;Angestellte&#x27; ausgewiesen, die Kategorie &#x27;übriges Personal&#x27; wird in der Statistik nicht berücksichtigt. Indikator &#x27;Teilzeit &lt; 50%&#x27; = Beschäftigungsgrad &lt; 50%, &#x27;Teilzeit ≥ 50%&#x27; = Beschäftigungsgrad ≥ 50%, &#x27;Vollzeit&#x27; = Beschäftigungsgrad ≥ 90%.
+- **Resource issued:** 2022-09-26 22:00:00
+- **Resource modified:** 2026-03-13 14:28:04
 
 ## Load packages
 

@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Luftschadstoffemissionen im Kanton Zürich
 
-Emissionen der wichtigsten Luftschadstoffe &#40;BC, CO, NH3, NMVOC, NOx, PM10, PM2.5, SO2&#41; im Kanton Zürich. Die Emissionsbilanzierung liegt bis auf Stufe Gemeinde und für verschiedene Zeitstände vor. Die Emissionsdaten der Stickoxide &#40;NOx&#41;, Feinstaub &#40;PM10 und PM2.5&#41; sowie Russ &#40;BC&#41; wurden im Rahmen einer schweizweiten Aktualisierung der Karten für Luftschadstoffimmissionen Schweiz und Liechtenstein 2015, 2020, 2030 in Hektarrasterauflösung bilanziert. Die Datengrundlagen für die Emissionen bildet das Emissionsinformations-System Schweiz &#40;EMIS&#41; – die Datenbank des Bundesamts für Umwelt BAFU mit den nationalen Luftschadstoff- und Treibhausgasemissionen - zum Zeitpunkt Mitte 2019. In einer Ergänzungsstudie im Auftrag des BAFU wurden für dieselben Emittentengruppen anschliessend auch Emissionskataster in Hektarrasterauflösung für weitere Luftschadstoffe und Treibhausgase erstellt. Im Anschluss an die genannten Arbeiten hat die &&#35;x27;Luftqualitätsüberwachung der Ostschweizer Kantone und des Fürstentums Liechtenstein&&#35;x27; &#40;OSTLUFT&#41; die Arbeitsgemeinschaft INFRAS/Meteotest damit beauftragt, die Emissionen aller genannten Substanzen auf Stufe Gemeinden des OSTLUFT-Gebiets zu aggregieren und die Daten in geeigneter Form aufzubereiten mit dem Ziel, für die OSTLUFT-Gemeinden eine mit dem schweizerischen Emissionskataster konsistente Datengrundlage zur Verfügung zu haben. Eine Aktualisierung der Daten wurde mit gleicher Methodik aber basierend auf den Datengrundlagen aus dem Emissionsinformations-System Schweiz &#40;EMIS&#41; zu den Zeitpunkten Mitte 2023 und 2025 durchgeführt. Die unterschiedlichen Datengrundlagen sind über das Attribut &#91;stand&#93; &#40;stand == &quot;sub&#95;19&quot;: Daten aus Submission 2019 &#124; stand == &quot;sub&#95;23&quot;: Daten aus Submission 2023 &#124; stand == &quot;sub&#95;25&quot;: Daten aus Submission 2025&#41; filterbar. Hinweis: Die Städte Winterthur und Zürich verfügen über eigenen Bilanzierungen der Luftschadstoffe auf ihrem Gebiet. Detailliertere Angaben dazu sind unter &quot;weitere Informationen&quot; verlinkt.
+Emissionen der wichtigsten Luftschadstoffe &#40;BC, CO, NH3, NMVOC, NOx, PM10, PM2.5, SO2&#41; im Kanton Zürich. Die Emissionsbilanzierung liegt bis auf Stufe Gemeinde und für verschiedene Zeitstände vor. Die Emissionsdaten der Stickoxide &#40;NOx&#41;, Feinstaub &#40;PM10 und PM2.5&#41; sowie Russ &#40;BC&#41; wurden im Rahmen einer schweizweiten Aktualisierung der Karten für Luftschadstoffimmissionen Schweiz und Liechtenstein 2015, 2020, 2030 in Hektarrasterauflösung bilanziert. Die Datengrundlagen für die Emissionen bildet das Emissionsinformations-System Schweiz &#40;EMIS&#41; – die Datenbank des Bundesamts für Umwelt BAFU mit den nationalen Luftschadstoff- und Treibhausgasemissionen - zum Zeitpunkt Mitte 2019. In einer Ergänzungsstudie im Auftrag des BAFU wurden für dieselben Emittentengruppen anschliessend auch Emissionskataster in Hektarrasterauflösung für weitere Luftschadstoffe und Treibhausgase erstellt. Im Anschluss an die genannten Arbeiten hat die &#x27;Luftqualitätsüberwachung der Ostschweizer Kantone und des Fürstentums Liechtenstein&#x27; &#40;OSTLUFT&#41; die Arbeitsgemeinschaft INFRAS/Meteotest damit beauftragt, die Emissionen aller genannten Substanzen auf Stufe Gemeinden des OSTLUFT-Gebiets zu aggregieren und die Daten in geeigneter Form aufzubereiten mit dem Ziel, für die OSTLUFT-Gemeinden eine mit dem schweizerischen Emissionskataster konsistente Datengrundlage zur Verfügung zu haben. Eine Aktualisierung der Daten wurde mit gleicher Methodik aber basierend auf den Datengrundlagen aus dem Emissionsinformations-System Schweiz &#40;EMIS&#41; zu den Zeitpunkten Mitte 2023 und 2025 durchgeführt. Die unterschiedlichen Datengrundlagen sind über das Attribut &#91;stand&#93; &#40;stand == &quot;sub&#95;19&quot;: Daten aus Submission 2019 &#124; stand == &quot;sub&#95;23&quot;: Daten aus Submission 2023 &#124; stand == &quot;sub&#95;25&quot;: Daten aus Submission 2025&#41; filterbar. Hinweis: Die Städte Winterthur und Zürich verfügen über eigenen Bilanzierungen der Luftschadstoffe auf ihrem Gebiet. Detailliertere Angaben dazu sind unter &quot;weitere Informationen&quot; verlinkt.
 
 [View this dataset in the data catalogue](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1363%40awel-kanton-zuerich)
 
@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1363@awel-kanton-zuerich.
 
 ## Metadata
 
-- **issued:** 2022-07-06T22:00:00
-- **modified:** 2026-01-16T16:13:10
+- **issued:** 2022-07-06 22:00:00
+- **modified:** 2026-01-16 16:13:10
 - **startDate:** 1990-01-01
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENVI&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/HEAL&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;ammoniak&&#35;x27;, &&#35;x27;emissionen&&#35;x27;, &&#35;x27;feinstaub&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;immissionen&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;kohlenmonoxid&&#35;x27;, &&#35;x27;luft&&#35;x27;, &&#35;x27;luftqualitaet&&#35;x27;, &&#35;x27;luftschadstoffe&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;russ&&#35;x27;, &&#35;x27;schadstoffbelastung&&#35;x27;, &&#35;x27;stickstoffdioxid&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ENVI, http://publications.europa.eu/resource/authority/data-theme/HEAL
+- **keyword:** ammoniak, emissionen, feinstaub, gemeinden, immissionen, kanton&#95;zuerich, kohlenmonoxid, luft, luftqualitaet, luftschadstoffe, ogd, russ, schadstoffbelastung, stickstoffdioxid
+- **publisher:** Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich
 - **landingPage:** https://www.zh.ch/de/umwelt-tiere/luft-strahlung/daten-karten.html
 - **Resource ktzhDistId:** 6729
 - **Resource title:** Luftschadstoffemissionen im Kanton Zürich ab 1990
 - **Resource description:** Emissionen der wichtigsten Luftschadstoffe &#40;NOx, PM10, PM2.5, Russ, Ammoniak, NMVOC, CO und SO2&#41; im Kanton Zürich. <br>Die aufgeführten Luftschadstoffemissionen sind nach dem Territorialprinzip bilanziert und werden in Tonnen pro Jahr ausgewiesen. <br>Die Emissionen liegen als jährliche Zeitreihe ab 1990 vor. <br>Mehr Informationen zum Inhalt der Daten sind in der Ressource &quot;Datenbeschreibung Luftschadstoffemissionen im Kanton Zürich&quot; enthalten.
-- **Resource issued:** 2026-01-12T14:42:25
-- **Resource modified:** 2026-01-19T08:50:22
+- **Resource issued:** 2026-01-12 14:42:25
+- **Resource modified:** 2026-01-19 08:50:22
 
 ## Load packages
 

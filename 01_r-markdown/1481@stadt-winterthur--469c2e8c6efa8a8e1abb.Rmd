@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1481@stadt-winterthur.
 
 ## Metadata
 
-- **issued:** 2022-09-19T22:00:00
-- **modified:** 2026-09-16T06:08:19
+- **issued:** 2022-09-19 22:00:00
+- **modified:** 2026-09-16 06:08:19
 - **startDate:** 1985-12-31
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;bevoelkerung&&#35;x27;, &&#35;x27;bevoelkerungswachstum&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;nationalitaet&&#35;x27;, &&#35;x27;ogd&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Stadt Winterthur&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** bevoelkerung, bevoelkerungswachstum, gemeinden, nationalitaet, ogd
+- **publisher:** Stadt Winterthur
 - **landingPage:** https://stadt.winterthur.ch/themen/arbeit-steuern-wirtschaft/daten-statistik/bevoelkerung-und-soziales
 - **Resource ktzhDistId:** 2898
 - **Resource title:** Bevölkerungsbestand und -wachstum total und Schweizer:innen und Ausländer:innen nach Jahr
-- **Resource description:** Variablen: &&#35;x27;yyyy&&#35;x27; = Jahr; &&#35;x27;gesamt&&#35;x27; = Gesamtzahl der Einwohner:innen; &&#35;x27;wachstum&&#35;x27; = Bevölkerungswachstum zum Vorjahr absolut; &&#35;x27;schweiz&&#35;x27; = Anzahl Schweizer:innen; &&#35;x27;ausland&&#35;x27; = Anzahl Ausländer:innen. Eine vollständige Dokumentation ist in der Ressource &quot;Dokumentation Daten&quot; zu finden.
-- **Resource issued:** 2022-09-19T22:00:00
-- **Resource modified:** 2026-04-25T21:02:31
+- **Resource description:** Variablen: &#x27;yyyy&#x27; = Jahr; &#x27;gesamt&#x27; = Gesamtzahl der Einwohner:innen; &#x27;wachstum&#x27; = Bevölkerungswachstum zum Vorjahr absolut; &#x27;schweiz&#x27; = Anzahl Schweizer:innen; &#x27;ausland&#x27; = Anzahl Ausländer:innen. Eine vollständige Dokumentation ist in der Ressource &quot;Dokumentation Daten&quot; zu finden.
+- **Resource issued:** 2022-09-19 22:00:00
+- **Resource modified:** 2026-04-25 21:02:31
 
 ## Load packages
 

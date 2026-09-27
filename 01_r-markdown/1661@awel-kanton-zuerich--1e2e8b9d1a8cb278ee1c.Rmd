@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1661@awel-kanton-zuerich.
 
 ## Metadata
 
-- **issued:** 2022-08-24T22:00:00
-- **modified:** 2026-06-03T11:30:18
+- **issued:** 2022-08-24 22:00:00
+- **modified:** 2026-06-03 11:30:18
 - **startDate:** 2010-01-01
 - **endDate:** 2024-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENER&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENVI&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/TRAN&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;elektrizitaet&&#35;x27;, &&#35;x27;energie&&#35;x27;, &&#35;x27;energieverbrauch&&#35;x27;, &&#35;x27;erhebung&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;strom&&#35;x27;, &&#35;x27;stromverbrauch&&#35;x27;, &&#35;x27;treibstoff&&#35;x27;, &&#35;x27;treibstoffverbrauch&&#35;x27;, &&#35;x27;waerme&&#35;x27;, &&#35;x27;waermeverbrauch&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ENER, http://publications.europa.eu/resource/authority/data-theme/ENVI, http://publications.europa.eu/resource/authority/data-theme/TRAN
+- **keyword:** elektrizitaet, energie, energieverbrauch, erhebung, ogd, strom, stromverbrauch, treibstoff, treibstoffverbrauch, waerme, waermeverbrauch
+- **publisher:** Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich
 - **landingPage:** nan
 - **Resource ktzhDistId:** 3118
 - **Resource title:** Wärme-, Strom- und Treibstoffverbrauch im Kanton Zürich
 - **Resource description:** Der Energieverbrauch wird in Gigawattstunden &#40;GWh&#41; ausgewiesen. Dabei wird unterschieden zwischen den Energiesektoren Wärme, Strom und Treibstoff.
-- **Resource issued:** 2022-08-24T22:00:00
-- **Resource modified:** 2026-08-26T14:10:35
+- **Resource issued:** 2022-08-24 22:00:00
+- **Resource modified:** 2026-08-26 14:10:35
 
 ## Load packages
 

@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 254@statistisches-amt-kanton-
 
 ## Metadata
 
-- **issued:** 2020-02-02T23:00:00
-- **modified:** 2026-02-06T13:05:58
+- **issued:** 2020-02-02 23:00:00
+- **modified:** 2026-02-06 13:05:58
 - **startDate:** 2010-01-01
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;alter&&#35;x27;, &&#35;x27;altersgruppen&&#35;x27;, &&#35;x27;altersklassen&&#35;x27;, &&#35;x27;altersstruktur&&#35;x27;, &&#35;x27;amtliches&#95;geschlecht&&#35;x27;, &&#35;x27;auslaender&#42;innen&&#35;x27;, &&#35;x27;bevoelkerung&&#35;x27;, &&#35;x27;bevoelkerungsbestand&&#35;x27;, &&#35;x27;bezirke&&#35;x27;, &&#35;x27;einwohner&&#35;x27;, &&#35;x27;einwohnerzahl&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;herkunft&&#35;x27;, &&#35;x27;ogd&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** alter, altersgruppen, altersklassen, altersstruktur, amtliches&#95;geschlecht, auslaender&#42;innen, bevoelkerung, bevoelkerungsbestand, bezirke, einwohner, einwohnerzahl, gemeinden, herkunft, ogd
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** nan
 - **Resource ktzhDistId:** 1282
 - **Resource title:** Bevölkerung nach Gemeinde, Heimat, Geschlecht und Alter &#40;1-Jahres Altersklassen&#41;
 - **Resource description:** Alter in Einjahresaltersklassen angegeben
-- **Resource issued:** 2020-02-02T23:00:00
-- **Resource modified:** 2026-02-10T16:47:22
+- **Resource issued:** 2020-02-02 23:00:00
+- **Resource modified:** 2026-02-10 16:47:22
 
 ## Load packages
 

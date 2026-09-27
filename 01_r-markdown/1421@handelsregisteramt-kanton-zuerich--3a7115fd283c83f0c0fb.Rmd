@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1421@handelsregisteramt-kanto
 
 ## Metadata
 
-- **issued:** 2022-10-10T22:00:00
-- **modified:** 2026-07-09T13:05:54
+- **issued:** 2022-10-10 22:00:00
+- **modified:** 2026-07-09 13:05:54
 - **startDate:** 2018-01-01
 - **endDate:** 2026-06-30
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;branchen&&#35;x27;, &&#35;x27;firmen&&#35;x27;, &&#35;x27;genossenschaften&&#35;x27;, &&#35;x27;handelsregister&&#35;x27;, &&#35;x27;konkurse&&#35;x27;, &&#35;x27;loeschungen&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;sitzverlegungen&&#35;x27;, &&#35;x27;unternehmen&&#35;x27;, &&#35;x27;unternehmensdaten&&#35;x27;, &&#35;x27;vereine&&#35;x27;, &&#35;x27;wirtschaft&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Handelsregisteramt des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON
+- **keyword:** branchen, firmen, genossenschaften, handelsregister, konkurse, loeschungen, ogd, sitzverlegungen, unternehmen, unternehmensdaten, vereine, wirtschaft
+- **publisher:** Handelsregisteramt des Kantons Zürich
 - **landingPage:** nan
 - **Resource ktzhDistId:** 2781
 - **Resource title:** Sitzverlegungen pro Quartal und Branche ab 2018
 - **Resource description:** Unternehmen und weitere Rechtseinheiten können ihre Domiziladresse ändern. Sobald ein Wechsel über die Kantonsgrenzen erfolgt, wechselt die Zuständigkeit des kantonalen Handelsregisters. Verlegt ein im Zürcher Handelsregister eingetragenes Unternehmen sein Domizil in einen anderen Kanton, wird dies als Wegzug aus dem Kanton Zürich gezählt. Umgekehrt hat eine Domiziländerung in eine Zürcher Gemeinde einen Eintrag im Zürcher Handelsregister zur Folge, was als Zuzug in den Kanton Zürich ausgewiesen wird.
-- **Resource issued:** 2022-10-10T22:00:00
-- **Resource modified:** 2026-07-09T13:05:47
+- **Resource issued:** 2022-10-10 22:00:00
+- **Resource modified:** 2026-07-09 13:05:47
 
 ## Load packages
 

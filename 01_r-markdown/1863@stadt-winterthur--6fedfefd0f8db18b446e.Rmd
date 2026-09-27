@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1863@stadt-winterthur.
 
 ## Metadata
 
-- **issued:** 2022-11-24T23:00:00
-- **modified:** 2026-09-27T10:01:49
+- **issued:** 2022-11-24 23:00:00
+- **modified:** 2026-09-27 10:01:49
 - **startDate:** 2022-01-01
 - **endDate:** 2026-09-26
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENER&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;gemeinden&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;strom&&#35;x27;, &&#35;x27;stromverbrauch&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Stadt Winterthur&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ENER
+- **keyword:** gemeinden, ogd, strom, stromverbrauch
+- **publisher:** Stadt Winterthur
 - **landingPage:** nan
 - **Resource ktzhDistId:** 3562
 - **Resource title:** Energieverbrauch als Bruttolastgang ab 2022
 - **Resource description:** Der Bruttolastgang wird pro Viertelstunde in Kilowattstunden zusammengefasst.
-- **Resource issued:** 2022-11-24T23:00:00
-- **Resource modified:** 2026-09-27T10:01:48
+- **Resource issued:** 2022-11-24 23:00:00
+- **Resource modified:** 2026-09-27 10:01:48
 
 ## Load packages
 

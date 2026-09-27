@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 3160@afazh.
 
 ## Metadata
 
-- **issued:** 2026-07-06T11:42:18
-- **modified:** 2026-09-15T15:17:55
+- **issued:** 2026-07-06 11:42:18
+- **modified:** 2026-09-15 15:17:55
 - **startDate:** 2020-01-01
 - **endDate:** 2026-08-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;arbeitslose&&#35;x27;, &&#35;x27;arbeitslosenversicherung&&#35;x27;, &&#35;x27;arbeitslosigkeit&&#35;x27;, &&#35;x27;arbeitsmarkt&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;quote&&#35;x27;, &&#35;x27;stellensuchende&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Arbeit des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** arbeitslose, arbeitslosenversicherung, arbeitslosigkeit, arbeitsmarkt, ogd, quote, stellensuchende
+- **publisher:** Amt für Arbeit des Kantons Zürich
 - **landingPage:** nan
 - **Resource ktzhDistId:** 6818
 - **Resource title:** Durchschnittliche Arbeitslosenquote pro Jahr in Zürcher Bezirken und Gemeinden
 - **Resource description:** Der Datensatz enthält die durchschnittliche Arbeitslosenquote pro Kalenderjahr für alle Gemeinden und Bezirke des Kantons Zürich. Die ausgewiesenen Werte entsprechen dem Mittelwert der monatlichen Arbeitslosenquoten eines Jahres. Die Arbeitslosenquote gibt den prozentualen Anteil der bei einem Regionalen Arbeitsvermittlungszentrum &#40;RAV&#41; registrierten Arbeitslosen an der Erwerbsbevölkerung der jeweiligen Gemeinde an. Als arbeitslos gelten Personen, die keine Stelle haben, beim RAV gemeldet sind und für die Aufnahme einer Arbeit sofort vermittelbar sind. Der Datensatz umfasst ausschliesslich abgeschlossene Kalenderjahre und enthält Angaben zum Jahr,  offiziellen Codes und Namen von Gemeinden und Bezirken sowie zur durchschnittlichen Arbeitslosenquote. Zusätzlich wird zur Quote der Variationskoeffizient ausgewiesen. Mit dem Variationskoeffizienten kennzeichnet das SECO bei den Arbeitslosenquoten die Genauigkeit der Erwerbspersonenzahl &#40;des Nenners der Arbeitslosenquote&#41; mit Buchstaben: A bedeutet eine mögliche Abweichung der Erwerbspersonenzahl vom wahren Wert um 0.0 bis 1.0 %, B um 1.1 bis 2 %, C um 2.1 bis 5 %, D um 5.1 bis 10 %. Jahresarbeitslosenquoten mit einem Variationskoeffizienten grösser als 10% werden nicht ausgewiesen, da sie statistisch unzuverlässig sind.
-- **Resource issued:** 2026-08-24T12:52:13
-- **Resource modified:** 2026-08-28T15:43:18
+- **Resource issued:** 2026-08-24 12:52:13
+- **Resource modified:** 2026-08-28 15:43:18
 
 ## Load packages
 

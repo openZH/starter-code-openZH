@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2862@stadt-winterthur.
 
 ## Metadata
 
-- **issued:** 2025-02-09T23:00:00
-- **modified:** 2026-09-21T00:02:10
+- **issued:** 2025-02-09 23:00:00
+- **modified:** 2026-09-21 00:02:10
 - **startDate:** 2020-12-31
 - **endDate:** 2026-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/AGRI&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENVI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;landschaft&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;quartieranalyse&&#35;x27;, &&#35;x27;wald&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Stadt Winterthur&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/AGRI, http://publications.europa.eu/resource/authority/data-theme/ENVI
+- **keyword:** landschaft, ogd, quartieranalyse, wald
+- **publisher:** Stadt Winterthur
 - **landingPage:** nan
 - **Resource ktzhDistId:** 5843
 - **Resource title:** Städtische Bäume von Winterthur nach Quartieren und Stadtkreisen
 - **Resource description:** Die Indikatoren sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
-- **Resource issued:** 2025-02-09T23:00:00
-- **Resource modified:** 2026-09-21T00:02:08
+- **Resource issued:** 2025-02-09 23:00:00
+- **Resource modified:** 2026-09-21 00:02:08
 
 ## Load packages
 

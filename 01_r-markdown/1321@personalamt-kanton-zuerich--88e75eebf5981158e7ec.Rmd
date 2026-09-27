@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1321@personalamt-kanton-zueri
 
 ## Metadata
 
-- **issued:** 2022-09-26T22:00:00
-- **modified:** 2026-09-22T09:35:30
+- **issued:** 2022-09-26 22:00:00
+- **modified:** 2026-09-22 09:35:30
 - **startDate:** 2020-01-01
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;alter&&#35;x27;, &&#35;x27;amtliches&#95;geschlecht&&#35;x27;, &&#35;x27;ausbildung&&#35;x27;, &&#35;x27;beschaeftigte&&#35;x27;, &&#35;x27;beschaeftigungsgrad&&#35;x27;, &&#35;x27;frauenanteil&&#35;x27;, &&#35;x27;lohnstruktur&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;staatspersonal&&#35;x27;, &&#35;x27;teilzeiterwerbstaetige&&#35;x27;, &&#35;x27;verwaltungspersonal&&#35;x27;, &&#35;x27;vollzeitaequivalente&&#35;x27;, &&#35;x27;vollzeiterwerbstaetige&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Personalamt des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/GOVE
+- **keyword:** alter, amtliches&#95;geschlecht, ausbildung, beschaeftigte, beschaeftigungsgrad, frauenanteil, lohnstruktur, ogd, staatspersonal, teilzeiterwerbstaetige, verwaltungspersonal, vollzeitaequivalente, vollzeiterwerbstaetige
+- **publisher:** Personalamt des Kantons Zürich
 - **landingPage:** https://www.zh.ch/de/finanzdirektion/personalamt/personal-und-lohnstatistik.html
 - **Resource ktzhDistId:** 2562
 - **Resource title:** Anzahl Ausbildungsstellen nach Ausbildungsart
 - **Resource description:** Anzahl Ausbildungsstellen nach Ausbildungsart und Geschlecht. Daten verfügbar ab 2020. Ab 2021 werden die Werte nach Geschlecht ausgewiesen; ein Gesamtwert ist ab diesem Jahr nicht mehr enthalten. Quelle: Personal- und Lohnstatistik
-- **Resource issued:** 2022-09-26T22:00:00
-- **Resource modified:** 2026-09-22T09:54:12
+- **Resource issued:** 2022-09-26 22:00:00
+- **Resource modified:** 2026-09-22 09:54:12
 
 ## Load packages
 

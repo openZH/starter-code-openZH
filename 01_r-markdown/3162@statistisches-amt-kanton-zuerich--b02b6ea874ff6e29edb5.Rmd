@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 3162@statistisches-amt-kanton
 
 ## Metadata
 
-- **issued:** 2026-06-23T11:16:47
-- **modified:** 2026-06-23T11:16:47
+- **issued:** 2026-06-23 11:16:47
+- **modified:** 2026-06-23 11:16:47
 - **startDate:** 2016-01-01
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/JUST&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;aggression&&#35;x27;, &&#35;x27;gerichte&&#35;x27;, &&#35;x27;gewalt&&#35;x27;, &&#35;x27;haeusliche&#95;gewalt&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;polizei&&#35;x27;, &&#35;x27;strafbare&#95;handlungen&&#35;x27;, &&#35;x27;strafdelikte&&#35;x27;, &&#35;x27;straftaten&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/JUST, http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** aggression, gerichte, gewalt, haeusliche&#95;gewalt, kanton&#95;zuerich, ogd, polizei, strafbare&#95;handlungen, strafdelikte, straftaten
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** https://www.zh.ch/de/sicherheit-justiz/delikte-praevention/gewalt-extremismus/haeusliche-gewalt/haeusliche-gewalt-in-zahlen.html
 - **Resource ktzhDistId:** 6804
 - **Resource title:** Polizeieinsätze und Gewaltschutzmassnahmen
 - **Resource description:** Aggregierte Jahresdaten der Interventionsstelle gegen Häusliche Gewalt &#40;IST&#41; des Kantons Zürich. Der Datensatz ist im Long-Format strukturiert mit den Spalten thema, kategorie und kategorie&#95;wert. Erfasst werden zwei Themenbereiche: Polizeiausrückungen &#40;Ausrückfälle nach Typ, ab 2016&#41; und polizeilich angeordnete Gewaltschutzmassnahmen &#40;GSG-Verfügungen, Geschlecht der betroffenen Personen, mitbetroffene Minderjährige, alle ab 2016; Beziehung zwischen den Beteiligten ab 2020&#41;.
 - **Resource issued:** None
-- **Resource modified:** 2026-06-22T08:06:50
+- **Resource modified:** 2026-06-22 08:06:50
 
 ## Load packages
 

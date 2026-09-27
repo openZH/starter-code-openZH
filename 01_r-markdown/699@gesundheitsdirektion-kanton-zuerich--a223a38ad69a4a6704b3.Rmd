@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: COVID&#95;19 Einreisequarantäne Kanton Zürich ab 06.07.2020 bis 15.08.2021
 
-Anzahl Personen, die pro Kalenderwoche aus einem Gebiet mit erhöhtem Infektionsrisiko &#40;&&#35;x27;Risikoland&&#35;x27;&#41; einreisen und - abhängig von den geltenden Bestimmungen - in Quarantäne müssen. Familien und Gruppen müssen für jede Person eine Meldung erstellen. Die Daten werden jeweils montags aktualisiert.
+Anzahl Personen, die pro Kalenderwoche aus einem Gebiet mit erhöhtem Infektionsrisiko &#40;&#x27;Risikoland&#x27;&#41; einreisen und - abhängig von den geltenden Bestimmungen - in Quarantäne müssen. Familien und Gruppen müssen für jede Person eine Meldung erstellen. Die Daten werden jeweils montags aktualisiert.
 
 [View this dataset in the data catalogue](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/699%40gesundheitsdirektion-kanton-zuerich)
 
@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 699@gesundheitsdirektion-kant
 
 ## Metadata
 
-- **issued:** 2020-09-14T22:00:00
-- **modified:** 2022-02-28T23:00:00
+- **issued:** 2020-09-14 22:00:00
+- **modified:** 2022-02-28 23:00:00
 - **startDate:** 2020-07-06
 - **endDate:** 2021-08-15
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/HEAL&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/TRAN&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;corona&&#35;x27;, &&#35;x27;covid-19&&#35;x27;, &&#35;x27;covid19&&#35;x27;, &&#35;x27;gesundheit&&#35;x27;, &&#35;x27;krankheiten&&#35;x27;, &&#35;x27;ogd&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Gesundheitsdirektion des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/HEAL, http://publications.europa.eu/resource/authority/data-theme/TRAN
+- **keyword:** corona, covid-19, covid19, gesundheit, krankheiten, ogd
+- **publisher:** Gesundheitsdirektion des Kantons Zürich
 - **landingPage:** https://github.com/openZH/covid&#95;19/tree/master/fallzahlen&#95;kanton&#95;zh
 - **Resource ktzhDistId:** 1722
 - **Resource title:** COVID&#95;19 Einreisequarantäne Kanton Zürich - Einreisen aus Risikoländern nach Kalenderwoche
-- **Resource description:** Länder mit weniger als 10 Einreisenden pro Kalenderwoche &#40;KW&#41; werden in der Kategorie &&#35;x27;andere&&#35;x27; zusammengefasst. In den KW 52, 53 und 1/2021 ist teils alleine die Kategorie &&#35;x27;andere&&#35;x27; vorhanden, in der die Einreisenden aus &#42;allen&#42; Ländern insgesamt zusammengefasst sind. Grund: Vom 22.12.2020 bis zum 05.01.2021 konnten die Einreisenden das Land nicht eingeben, aus dem sie einreisten.
-- **Resource issued:** 2020-09-14T22:00:00
-- **Resource modified:** 2021-07-04T22:00:00
+- **Resource description:** Länder mit weniger als 10 Einreisenden pro Kalenderwoche &#40;KW&#41; werden in der Kategorie &#x27;andere&#x27; zusammengefasst. In den KW 52, 53 und 1/2021 ist teils alleine die Kategorie &#x27;andere&#x27; vorhanden, in der die Einreisenden aus &#42;allen&#42; Ländern insgesamt zusammengefasst sind. Grund: Vom 22.12.2020 bis zum 05.01.2021 konnten die Einreisenden das Land nicht eingeben, aus dem sie einreisten.
+- **Resource issued:** 2020-09-14 22:00:00
+- **Resource modified:** 2021-07-04 22:00:00
 
 ## Load packages
 

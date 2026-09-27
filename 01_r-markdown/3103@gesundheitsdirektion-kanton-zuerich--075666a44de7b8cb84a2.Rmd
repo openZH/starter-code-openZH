@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 3103@gesundheitsdirektion-kan
 
 ## Metadata
 
-- **issued:** 2025-10-01T22:00:00
-- **modified:** 2026-09-04T12:54:21
+- **issued:** 2025-10-01 22:00:00
+- **modified:** 2026-09-04 12:54:21
 - **startDate:** 2019-01-01
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/HEAL&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;ogd&&#35;x27;, &&#35;x27;spitexleistungen&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Gesundheitsdirektion des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/HEAL
+- **keyword:** ogd, spitexleistungen
+- **publisher:** Gesundheitsdirektion des Kantons Zürich
 - **landingPage:** https://www.zh.ch/de/gesundheit/heime-spitex/zahlen-fakten-langzeitpflege.html
 - **Resource ktzhDistId:** 6625
 - **Resource title:** Klientinnen und Klienten Spitex-Institutionen Kanton Zürich
 - **Resource description:** Anzahl betreute Klientinnen und Klienten sowie die geleisteten Stunden pro Leistungsart. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH&#95;00003103&#95;00006623.txt
-- **Resource issued:** 2025-10-01T22:00:00
-- **Resource modified:** 2026-09-04T12:48:02
+- **Resource issued:** 2025-10-01 22:00:00
+- **Resource modified:** 2026-09-04 12:48:02
 
 ## Load packages
 

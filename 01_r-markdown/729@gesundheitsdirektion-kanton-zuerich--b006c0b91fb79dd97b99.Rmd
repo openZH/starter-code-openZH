@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Badewasserqualität in öffentlichen Badeanstalten an Flüssen und Seen im Kanton Zürich
 
-In den Sommermonaten regelmässig erhobene Proben zur Überprüfung der Badewasserqualität. Daten enthalten: &&#35;x27;Name des Orts&&#35;x27;, &&#35;x27;Bewertungsstufen der Badewasserqualität&&#35;x27;, &&#35;x27;Breitengrad&&#35;x27; und &&#35;x27;Längengrad des Orts&&#35;x27;. Die Untersuchungen und Bewertungen der Wasserproben erfolgen nach den Empfehlungen zur Untersuchung und Beurteilung der Badewasserqualität von See- und Flussbädern des Bundesamtes für Umwelt &#40;siehe &quot;Weitere Informationen&quot;&#41;.
+In den Sommermonaten regelmässig erhobene Proben zur Überprüfung der Badewasserqualität. Daten enthalten: &#x27;Name des Orts&#x27;, &#x27;Bewertungsstufen der Badewasserqualität&#x27;, &#x27;Breitengrad&#x27; und &#x27;Längengrad des Orts&#x27;. Die Untersuchungen und Bewertungen der Wasserproben erfolgen nach den Empfehlungen zur Untersuchung und Beurteilung der Badewasserqualität von See- und Flussbädern des Bundesamtes für Umwelt &#40;siehe &quot;Weitere Informationen&quot;&#41;.
 
 [View this dataset in the data catalogue](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/729%40gesundheitsdirektion-kanton-zuerich)
 
@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 729@gesundheitsdirektion-kant
 
 ## Metadata
 
-- **issued:** 2021-08-02T22:00:00
-- **modified:** 2026-08-20T13:54:32
+- **issued:** 2021-08-02 22:00:00
+- **modified:** 2026-08-20 13:54:32
 - **startDate:** 2019-07-03
 - **endDate:** 2026-08-19
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/EDUC&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENVI&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/HEAL&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;gesundheit&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;seen&&#35;x27;, &&#35;x27;sport&&#35;x27;, &&#35;x27;wasser&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Gesundheitsdirektion des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/EDUC, http://publications.europa.eu/resource/authority/data-theme/ENVI, http://publications.europa.eu/resource/authority/data-theme/HEAL
+- **keyword:** gesundheit, kanton&#95;zuerich, ogd, seen, sport, wasser
+- **publisher:** Gesundheitsdirektion des Kantons Zürich
 - **landingPage:** nan
 - **Resource ktzhDistId:** 3341
 - **Resource title:** Erhebung der Badewasserqualität in öffentlichen Badeanstalten an Flüssen und Seen im Kanton Zürich
-- **Resource description:** Variabeln: &&#35;x27;date&&#35;x27; = Tag der Entnahme der Probe; &&#35;x27;id&&#35;x27; = Identifikator des Orts; &&#35;x27;location&&#35;x27; = Ausgeschriebener Name des Orts; &&#35;x27;quality&&#35;x27; = Bewertungsstufen der Badewasserqualität; &&#35;x27;remark&&#35;x27; = Optionale Anmerkungen zur Probe; &&#35;x27;source&&#35;x27; = Organisation, welche die Probe durchführt; &&#35;x27;lat&&#35;x27; = Breitengrad des Orts; &&#35;x27;long&&#35;x27; = Längengrad des Orts; &&#35;x27;image&&#35;x27; = Bild des Orts &#40;wird nicht regelmässig aktualisiert; URL&#41;.
-- **Resource issued:** 2022-10-16T22:00:00
-- **Resource modified:** 2026-08-20T13:56:46
+- **Resource description:** Variabeln: &#x27;date&#x27; = Tag der Entnahme der Probe; &#x27;id&#x27; = Identifikator des Orts; &#x27;location&#x27; = Ausgeschriebener Name des Orts; &#x27;quality&#x27; = Bewertungsstufen der Badewasserqualität; &#x27;remark&#x27; = Optionale Anmerkungen zur Probe; &#x27;source&#x27; = Organisation, welche die Probe durchführt; &#x27;lat&#x27; = Breitengrad des Orts; &#x27;long&#x27; = Längengrad des Orts; &#x27;image&#x27; = Bild des Orts &#40;wird nicht regelmässig aktualisiert; URL&#41;.
+- **Resource issued:** 2022-10-16 22:00:00
+- **Resource modified:** 2026-08-20 13:56:46
 
 ## Load packages
 

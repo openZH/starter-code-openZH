@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2742@stadt-winterthur.
 
 ## Metadata
 
-- **issued:** 2024-11-20T23:00:00
-- **modified:** 2026-09-16T06:00:00
+- **issued:** 2024-11-20 23:00:00
+- **modified:** 2026-09-16 06:00:00
 - **startDate:** 2007-12-31
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;geburten&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;todesfaelle&&#35;x27;, &&#35;x27;wanderungsbewegungen&&#35;x27;, &&#35;x27;wanderungsbilanz&&#35;x27;, &&#35;x27;wegzuege&&#35;x27;, &&#35;x27;zuzuege&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Stadt Winterthur&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** geburten, ogd, todesfaelle, wanderungsbewegungen, wanderungsbilanz, wegzuege, zuzuege
+- **publisher:** Stadt Winterthur
 - **landingPage:** https://stadt.winterthur.ch/themen/arbeit-steuern-wirtschaft/daten-statistik/bevoelkerung-und-soziales
 - **Resource ktzhDistId:** 5663
 - **Resource title:** Bevölkerungsbewegungen Winterthur nach Jahr
 - **Resource description:** Eine vollständige Dokumentation ist in der Ressource &quot;Dokumentation Daten&quot; zu finden.
-- **Resource issued:** 2024-11-20T23:00:00
-- **Resource modified:** 2026-01-20T16:45:29
+- **Resource issued:** 2024-11-20 23:00:00
+- **Resource modified:** 2026-01-20 16:45:29
 
 ## Load packages
 

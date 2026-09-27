@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 128@statistisches-amt-kanton-
 
 ## Metadata
 
-- **issued:** 2019-08-19T22:00:00
-- **modified:** 2026-08-18T05:42:39
+- **issued:** 2019-08-19 22:00:00
+- **modified:** 2026-08-18 05:42:39
 - **startDate:** 1984-06-01
 - **endDate:** 2026-08-18
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;leerwohnungen&&#35;x27;, &&#35;x27;leerwohnungsziffer&&#35;x27;, &&#35;x27;mietwohnungen&&#35;x27;, &&#35;x27;ogd&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** leerwohnungen, leerwohnungsziffer, mietwohnungen, ogd
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** https://www.zh.ch/de/planen-bauen/raumplanung/immobilienmarkt/leerwohnungen.html
 - **Resource ktzhDistId:** 6851
 - **Resource title:** Leerwohnungsziffer und Wohnungsleerstände
 - **Resource description:** Der Datensatz enthält die Leerwohnungsziffer &#40;ab 1984&#41; und die Wohnungsleerstände &#40;ab 1990&#41; für den Kanton Zürich  sowie die Bezirke, Raumplanungsregionen und Gemeinden. Es sind die längstmöglichen Datenreihen des Amts für Statistik und Daten.<br>Allfällige Abweichungen zu den vom Bundesamt für Statistik &#40;BFS&#41; publizierten Leerwohnungsziffern bestehen wegen der unterschiedlichen Datengrundlage zur Berechnung des Wohnungsbestands. Das BFS nutzt dafür die Gebäude- und Wohnungsstatistik &#40;GWS&#41; und das Amt für Statistik und Daten das Gebäude- und Wohnungsregister &#40;GWR&#41;.
-- **Resource issued:** 2026-08-14T10:18:52
-- **Resource modified:** 2026-08-18T05:43:45
+- **Resource issued:** 2026-08-14 10:18:52
+- **Resource modified:** 2026-08-18 05:43:45
 
 ## Load packages
 

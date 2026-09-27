@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 3158@statistisches-amt-kanton
 
 ## Metadata
 
-- **issued:** 2026-05-04T13:26:58
-- **modified:** 2026-05-04T13:26:57
+- **issued:** 2026-05-04 13:26:58
+- **modified:** 2026-05-04 13:26:57
 - **startDate:** 2010-01-01
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/OP&#95;DATPRO&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;bodenpreise&&#35;x27;, &&#35;x27;eigentumswohnung&&#35;x27;, &&#35;x27;einfamilienhaus&&#35;x27;, &&#35;x27;immobilienhandel&&#35;x27;, &&#35;x27;immobilienmarkt&&#35;x27;, &&#35;x27;immobilienpreise&&#35;x27;, &&#35;x27;ogd&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/OP&#95;DATPRO
+- **keyword:** bodenpreise, eigentumswohnung, einfamilienhaus, immobilienhandel, immobilienmarkt, immobilienpreise, ogd
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** nan
 - **Resource ktzhDistId:** 6781
 - **Resource title:** Medianpreis der verkauften Einfamilienhäuser im Kanton und in den Immobilienmarktregionen
 - **Resource description:** Die Angaben beziehen sich auf die effektiv bezahlten Preise. Wenn zum Beispiel in einem Jahr besonders viele grosse Einfamilienhäuser verkauft werden und im nächsten Jahr besonders viele kleine, beeinflusst das die ausgewiesenen Preise unabhängig von der Marktentwicklung. Die Preise der letzten drei Jahre sind provisorisch und können sich künftig noch verändern. In der Regel werden die Preise nach oben angepasst. Die Einteilung der Gemeinden zu den Immobilienmarktregionen erfolgt durch das Statistische Amt.
 - **Resource issued:** None
-- **Resource modified:** 2026-04-13T11:55:39
+- **Resource modified:** 2026-04-13 11:55:39
 
 ## Load packages
 

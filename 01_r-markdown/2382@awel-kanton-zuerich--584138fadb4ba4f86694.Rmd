@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Messdaten langjähriger Abgasmessungen im realen Fahrbetrieb mittels Remote Sensing &#40;RSD&#41;
 
-Der &quot;Remote Sensing Detector&quot; &#40;RSD&#41; ermöglicht berührungsfreie Messungen von Abgasen vorbeifahrender Fahrzeuge unter realen Verkehrsbedingungen. Diese Messungen können hauptsächlich dazu verwendet werden, Erkenntnisse über die Emissionen von Stickoxiden bestimmter Fahrzeugkategorien zu erlangen. Die Messungen liefern zudem Informationen über die Emissionen von Kohlenstoffmonoxid und Kohlenwasserstoffen. Die Emissionen der Fahrzeuge werden somit in realen Verkehrssituationen bestimmt und erlauben beispielsweise Aussagen über die Emissionen der Fahrzeugflotte, den Anteil hochemittierender Fahrzeuge am gesamten Fahrzeugbestand, dem Alterungsverhalten von Abgasreinigungssystemen sowie der Abhängigkeiten der Schadstoffwerte von einzelnen Abgasstufen &#40;EURO-Normen&#41;. Darüber hinaus ermöglichen die Daten eine Untersuchung des Einflusses verkehrsbezogener Faktoren, wie etwa der Fahrdynamik, auf den Abgasausstoss. Der Datensatz enthält insgesamt mehr als 600&&#35;x27;000 Einzelmessungen aus Messkampagnen der Jahre 2002 bis 2021 &#40;jährlich&#41; sowie 2023 und 2025, die mit ausreichendem Fachwissen eine aussagekräftige Auswertung zulassen. Weitere Informationen sind der abgelegten Datensatz-Beschreibung zu entnehmen. Für eine Methodendokumentation, Beispielauswertungen und deren fachliche Einordnung sei auf den verlinkten Fachbericht verwiesen.
+Der &quot;Remote Sensing Detector&quot; &#40;RSD&#41; ermöglicht berührungsfreie Messungen von Abgasen vorbeifahrender Fahrzeuge unter realen Verkehrsbedingungen. Diese Messungen können hauptsächlich dazu verwendet werden, Erkenntnisse über die Emissionen von Stickoxiden bestimmter Fahrzeugkategorien zu erlangen. Die Messungen liefern zudem Informationen über die Emissionen von Kohlenstoffmonoxid und Kohlenwasserstoffen. Die Emissionen der Fahrzeuge werden somit in realen Verkehrssituationen bestimmt und erlauben beispielsweise Aussagen über die Emissionen der Fahrzeugflotte, den Anteil hochemittierender Fahrzeuge am gesamten Fahrzeugbestand, dem Alterungsverhalten von Abgasreinigungssystemen sowie der Abhängigkeiten der Schadstoffwerte von einzelnen Abgasstufen &#40;EURO-Normen&#41;. Darüber hinaus ermöglichen die Daten eine Untersuchung des Einflusses verkehrsbezogener Faktoren, wie etwa der Fahrdynamik, auf den Abgasausstoss. Der Datensatz enthält insgesamt mehr als 600&#x27;000 Einzelmessungen aus Messkampagnen der Jahre 2002 bis 2021 &#40;jährlich&#41; sowie 2023 und 2025, die mit ausreichendem Fachwissen eine aussagekräftige Auswertung zulassen. Weitere Informationen sind der abgelegten Datensatz-Beschreibung zu entnehmen. Für eine Methodendokumentation, Beispielauswertungen und deren fachliche Einordnung sei auf den verlinkten Fachbericht verwiesen.
 
 [View this dataset in the data catalogue](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2382%40awel-kanton-zuerich)
 
@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2382@awel-kanton-zuerich.
 
 ## Metadata
 
-- **issued:** 2023-11-08T23:00:00
-- **modified:** 2026-02-06T13:19:49
+- **issued:** 2023-11-08 23:00:00
+- **modified:** 2026-02-06 13:19:49
 - **startDate:** 2002-05-16
 - **endDate:** 2025-09-23
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENVI&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/TRAN&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;abgase&&#35;x27;, &&#35;x27;emissionen&&#35;x27;, &&#35;x27;fahrzeuge&&#35;x27;, &&#35;x27;luft&&#35;x27;, &&#35;x27;luftqualitaet&&#35;x27;, &&#35;x27;luftschadstoffe&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;stickoxide&&#35;x27;, &&#35;x27;strassenverkehr&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ENVI, http://publications.europa.eu/resource/authority/data-theme/TRAN
+- **keyword:** abgase, emissionen, fahrzeuge, luft, luftqualitaet, luftschadstoffe, ogd, stickoxide, strassenverkehr
+- **publisher:** Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich
 - **landingPage:** nan
 - **Resource ktzhDistId:** 4799
 - **Resource title:** Daten RSD-Messkampagne 2008
 - **Resource description:** Informationen zum Datensatz siehe abgelegte Datensatzbeschreibung
-- **Resource issued:** 2023-11-08T23:00:00
-- **Resource modified:** 2026-02-06T13:14:25
+- **Resource issued:** 2023-11-08 23:00:00
+- **Resource modified:** 2026-02-06 13:14:25
 
 ## Load packages
 

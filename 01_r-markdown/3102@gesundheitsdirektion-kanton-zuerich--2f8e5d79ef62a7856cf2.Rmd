@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 3102@gesundheitsdirektion-kan
 
 ## Metadata
 
-- **issued:** 2025-10-01T22:00:00
-- **modified:** 2026-09-04T11:47:41
+- **issued:** 2025-10-01 22:00:00
+- **modified:** 2026-09-04 11:47:41
 - **startDate:** 2019-01-01
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/HEAL&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;altersheime&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;pflegeheime&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Gesundheitsdirektion des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/HEAL
+- **keyword:** altersheime, ogd, pflegeheime
+- **publisher:** Gesundheitsdirektion des Kantons Zürich
 - **landingPage:** https://www.zh.ch/de/gesundheit/heime-spitex/zahlen-fakten-langzeitpflege.html
 - **Resource ktzhDistId:** 6607
 - **Resource title:** Personal Alters- und Pflegeheime Kanton Zürich
 - **Resource description:** Anzahl Mitarbeitende und Anzahl VZÄ pro Geschlecht, Bezirk, Altersgruppe, Einsatzbereich oder Ausbildungstyp. Detailbeschreibung zu den einzelnen Variablen siehe separate Datei im Datensatz: https://www.web.statistik.zh.ch/ogd/daten/ressourcen/KTZH&#95;00003102&#95;00006484.txt
-- **Resource issued:** 2025-10-01T22:00:00
-- **Resource modified:** 2026-09-04T11:46:02
+- **Resource issued:** 2025-10-01 22:00:00
+- **Resource modified:** 2026-09-04 11:46:02
 
 ## Load packages
 

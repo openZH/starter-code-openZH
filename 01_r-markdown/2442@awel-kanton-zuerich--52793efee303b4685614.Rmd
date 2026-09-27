@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2442@awel-kanton-zuerich.
 
 ## Metadata
 
-- **issued:** 2023-11-29T23:00:00
-- **modified:** 2026-09-17T14:56:57
+- **issued:** 2023-11-29 23:00:00
+- **modified:** 2026-09-17 14:56:57
 - **startDate:** 1988-12-31
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENVI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;abfall&&#35;x27;, &&#35;x27;abfallanlagen&&#35;x27;, &&#35;x27;deponien&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;umwelt&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ENVI
+- **keyword:** abfall, abfallanlagen, deponien, ogd, umwelt
+- **publisher:** Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich
 - **landingPage:** nan
 - **Resource ktzhDistId:** 4884
 - **Resource title:** Export, Import und Einbau von Deponiematerial im Kanton Zürich
 - **Resource description:** Abgelagertes Deponiematerial, aufgeteilt in drei Kategorien: 1. im Kanton Zürich abgelagert, 2. aus anderen Kantonen/Ausland importiert und im Kanton abgelagert, 3. in andere Kantone/Ausland exportiert und abgelagert. Daten vom E-Government Portals des BAFU.
-- **Resource issued:** 2023-11-29T23:00:00
-- **Resource modified:** 2026-09-17T16:15:23
+- **Resource issued:** 2023-11-29 23:00:00
+- **Resource modified:** 2026-09-17 16:15:23
 
 ## Load packages
 

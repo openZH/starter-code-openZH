@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 693@statistisches-amt-kanton-
 
 ## Metadata
 
-- **issued:** 2020-07-06T22:00:00
-- **modified:** 2024-03-27T23:00:00
+- **issued:** 2020-07-06 22:00:00
+- **modified:** 2024-03-27 23:00:00
 - **startDate:** 2007-10-21
 - **endDate:** 2023-10-22
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;demokratie&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;nationalrat&&#35;x27;, &&#35;x27;nationalratswahlen&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;panaschierstimmen&&#35;x27;, &&#35;x27;politik&&#35;x27;, &&#35;x27;politische&#95;parteien&&#35;x27;, &&#35;x27;wahlarchiv&&#35;x27;, &&#35;x27;wahlen&&#35;x27;, &&#35;x27;wahlergebnisse&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/GOVE
+- **keyword:** demokratie, kanton&#95;zuerich, nationalrat, nationalratswahlen, ogd, panaschierstimmen, politik, politische&#95;parteien, wahlarchiv, wahlen, wahlergebnisse
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** https://www.zh.ch/de/politik-staat/wahlen-abstimmungen/national-staenderatswahlen.html
 - **Resource ktzhDistId:** 1677
 - **Resource title:** Panaschierstatistik Erneuerungswahl Nationalrat 2011
 - **Resource description:** Stimmen nach Herkunft für alle Kandidierenden der Nationalratswahl 2011 pro Gemeinde
-- **Resource issued:** 2020-07-06T22:00:00
-- **Resource modified:** 2023-11-21T23:00:00
+- **Resource issued:** 2020-07-06 22:00:00
+- **Resource modified:** 2023-11-21 23:00:00
 
 ## Load packages
 

@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 127@statistisches-amt-kanton-
 
 ## Metadata
 
-- **issued:** 2019-03-31T22:00:00
-- **modified:** 2026-02-06T11:12:26
+- **issued:** 2019-03-31 22:00:00
+- **modified:** 2026-02-06 11:12:26
 - **startDate:** 1962-12-31
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;bevoelkerung&&#35;x27;, &&#35;x27;bevoelkerungsbestand&&#35;x27;, &&#35;x27;bezirke&&#35;x27;, &&#35;x27;einwohner&&#35;x27;, &&#35;x27;einwohnerzahl&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;raumplanungsregionen&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** bevoelkerung, bevoelkerungsbestand, bezirke, einwohner, einwohnerzahl, gemeinden, kanton&#95;zuerich, ogd, raumplanungsregionen
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** nan
 - **Resource ktzhDistId:** 6745
 - **Resource title:** Bevölkerungsbestand ab 1962
 - **Resource description:** None
-- **Resource issued:** 2026-02-10T16:07:47
-- **Resource modified:** 2026-02-10T16:07:47
+- **Resource issued:** 2026-02-10 16:07:47
+- **Resource modified:** 2026-02-10 16:07:47
 
 ## Load packages
 

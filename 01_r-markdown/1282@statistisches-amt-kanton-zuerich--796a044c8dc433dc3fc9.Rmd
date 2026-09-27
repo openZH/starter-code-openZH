@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1282@statistisches-amt-kanton
 
 ## Metadata
 
-- **issued:** 2022-03-23T23:00:00
-- **modified:** 2025-06-30T22:00:00
+- **issued:** 2022-03-23 23:00:00
+- **modified:** 2025-06-30 22:00:00
 - **startDate:** 2018-03-04
 - **endDate:** nan
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;demokratie&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;gemeindewahlen&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;politik&&#35;x27;, &&#35;x27;politische&#95;gemeinden&&#35;x27;, &&#35;x27;politische&#95;parteien&&#35;x27;, &&#35;x27;wahlarchiv&&#35;x27;, &&#35;x27;wahlen&&#35;x27;, &&#35;x27;wahlergebnisse&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/GOVE
+- **keyword:** demokratie, gemeinden, gemeindewahlen, kanton&#95;zuerich, ogd, politik, politische&#95;gemeinden, politische&#95;parteien, wahlarchiv, wahlen, wahlergebnisse
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** https://www.zh.ch/de/politik-staat/wahlen-abstimmungen/gemeindewahlen.html
 - **Resource ktzhDistId:** 6365
 - **Resource title:** Ergebnisse der kommunalen Parlamentswahlen 2018 auf Ebene Listen
 - **Resource description:** Ergebnisse der Listen
-- **Resource issued:** 2025-06-19T22:00:00
-- **Resource modified:** 2025-06-19T22:00:00
+- **Resource issued:** 2025-06-19 22:00:00
+- **Resource modified:** 2025-06-19 22:00:00
 
 ## Load packages
 

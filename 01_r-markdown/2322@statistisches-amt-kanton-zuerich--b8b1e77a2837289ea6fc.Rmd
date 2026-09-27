@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2322@statistisches-amt-kanton
 
 ## Metadata
 
-- **issued:** 2023-09-05T22:00:00
-- **modified:** 2026-08-20T13:40:06
+- **issued:** 2023-09-05 22:00:00
+- **modified:** 2026-08-20 13:40:06
 - **startDate:** 2012-12-31
 - **endDate:** 2026-08-20
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;arbeitsstaetten&&#35;x27;, &&#35;x27;betriebe&&#35;x27;, &&#35;x27;branchen&&#35;x27;, &&#35;x27;firmen&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;sitzverlegungen&&#35;x27;, &&#35;x27;unternehmensstruktur&&#35;x27;, &&#35;x27;wegzuege&&#35;x27;, &&#35;x27;zuzuege&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON
+- **keyword:** arbeitsstaetten, betriebe, branchen, firmen, ogd, sitzverlegungen, unternehmensstruktur, wegzuege, zuzuege
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** nan
 - **Resource ktzhDistId:** 4483
 - **Resource title:** Bestand und Umzüge der im Kanton Zürich ansässigen Betriebe im Total
 - **Resource description:** Bestand und Umzüge der im Kanton Zürich ansässigen Betriebe als Anzahl Arbeitsstätten, Beschäftigte und Vollzeitstellen &#40;sogenannte Vollzeitäquivalente VZÄ&#41;. Daten, die aus Datenschutzgründen nicht ausgewiesen werden können, sind mit NA gekennzeichnet. Eine Arbeitsstätte entspricht einem Unternehmen &#40;Einzelunternehmen&#41; oder einem Teil eines Unternehmens &#40;Werkstatt, Fabrik usw.&#41;, das sich an einem bestimmten Ort befindet. Die hier ausgewiesenen Daten basieren auf der Statistik der Unternehmensstruktur &#40;STATENT&#41; des BFS.
-- **Resource issued:** 2023-09-05T22:00:00
-- **Resource modified:** 2026-08-20T13:39:58
+- **Resource issued:** 2023-09-05 22:00:00
+- **Resource modified:** 2026-08-20 13:39:58
 
 ## Load packages
 

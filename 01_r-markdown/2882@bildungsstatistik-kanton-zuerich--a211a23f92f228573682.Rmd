@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2882@bildungsstatistik-kanton
 
 ## Metadata
 
-- **issued:** 2025-02-27T23:00:00
-- **modified:** 2026-03-12T16:15:23
+- **issued:** 2025-02-27 23:00:00
+- **modified:** 2026-03-12 16:15:23
 - **startDate:** 2000-01-01
 - **endDate:** 2024-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/EDUC&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;ausbildung&&#35;x27;, &&#35;x27;berufsmaturitaetsschule&&#35;x27;, &&#35;x27;bildung&&#35;x27;, &&#35;x27;gymnasien&&#35;x27;, &&#35;x27;lernende&&#35;x27;, &&#35;x27;matura&&#35;x27;, &&#35;x27;mittelschulen&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;schueler&#42;innen&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Bildungsstatistik des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/EDUC
+- **keyword:** ausbildung, berufsmaturitaetsschule, bildung, gymnasien, lernende, matura, mittelschulen, ogd, schueler&#42;innen
+- **publisher:** Bildungsstatistik des Kantons Zürich
 - **landingPage:** https://www.zh.ch/de/bildung/bildungssystem/zahlen-fakten.html
 - **Resource ktzhDistId:** 5943
 - **Resource title:** Entwicklung der Bildungsabschlüsse an Mittelschulen im Kanton Zürich
 - **Resource description:** Die Daten sind differenziert nach Jahr und Abschlusstyp. Ausgewiesen werden die Anzahl Abschlüsse an Mittelschulen im Kanton Zürich.<br><br>jahr: Das Kalenderjahr in dem ein Abschluss stattfand.<br>abschlusstyp: Erlangter Abschlusstyp resp. Typ der Mittelschule die abgeschlossen wurde.<br>anzahl: Die Anzahl Personen die eine Ausbildung erfolgreich abgeschlossen haben.<br><br>Die Diplommittelschule wurde ab  Schuljahr 2007/08 durch die Fachmittelschule ersetzt.<br><br>Aufgrund der Kürzung der Ausbildungsdauer von 4.5 auf 4 Jahre, haben im Kalenderjahr 2002 zwei Jahrgänge die gymnasiale Ausbildung abgeschlossen.<br><br>Seit dem Kalenderjahr 2022 werden zusätzliche ausländische Abschlüsse wie Französisches Baccalauréat, GCSE oder A-Level erfasst. Der Anstieg bei den internationalen Mittelschulen ist vorwiegend durch diese methodische Anpassung zu begründen.
-- **Resource issued:** 2025-02-27T23:00:00
-- **Resource modified:** 2026-09-18T07:38:08
+- **Resource issued:** 2025-02-27 23:00:00
+- **Resource modified:** 2026-09-18 07:38:08
 
 ## Load packages
 

@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1501@fachstelle-ogd-kanton-zu
 
 ## Metadata
 
-- **issued:** 2022-06-27T22:00:00
-- **modified:** 2024-01-22T23:00:00
+- **issued:** 2022-06-27 22:00:00
+- **modified:** 2024-01-22 23:00:00
 - **startDate:** 2021-04-01
 - **endDate:** 2022-03-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;kantonale&#95;verwaltung&&#35;x27;, &&#35;x27;ogd&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Fachstelle Open Government Data des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/GOVE
+- **keyword:** kanton&#95;zuerich, kantonale&#95;verwaltung, ogd
+- **publisher:** Fachstelle Open Government Data des Kantons Zürich
 - **landingPage:** nan
 - **Resource ktzhDistId:** 2940
 - **Resource title:** Suchbegriffe 2021, 4. Quartal
 - **Resource description:** Maximal 1000 häufgste Suchbegriffe, die von Nutzenden im Quartal verwendet worden sind. Personennamen, Beleidigungen oder diskriminierenden Äusserungen wurden entfernt.
-- **Resource issued:** 2022-06-27T22:00:00
-- **Resource modified:** 2022-06-27T22:00:00
+- **Resource issued:** 2022-06-27 22:00:00
+- **Resource modified:** 2022-06-27 22:00:00
 
 ## Load packages
 

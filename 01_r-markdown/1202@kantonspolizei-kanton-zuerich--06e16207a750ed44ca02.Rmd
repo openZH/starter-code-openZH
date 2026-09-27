@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1202@kantonspolizei-kanton-zu
 
 ## Metadata
 
-- **issued:** 2022-03-09T23:00:00
-- **modified:** 2026-03-23T07:49:06
+- **issued:** 2022-03-09 23:00:00
+- **modified:** 2026-03-23 07:49:06
 - **startDate:** 2009-01-01
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/JUST&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;bezirke&&#35;x27;, &&#35;x27;cyberkriminalitaet&&#35;x27;, &&#35;x27;einbrueche&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;gewalt&&#35;x27;, &&#35;x27;jugendkriminalitaet&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;kriminalitaet&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;strafbare&#95;handlungen&&#35;x27;, &&#35;x27;strafdelikte&&#35;x27;, &&#35;x27;straftaten&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Kantonspolizei des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/JUST
+- **keyword:** bezirke, cyberkriminalitaet, einbrueche, gemeinden, gewalt, jugendkriminalitaet, kanton&#95;zuerich, kriminalitaet, ogd, strafbare&#95;handlungen, strafdelikte, straftaten
+- **publisher:** Kantonspolizei des Kantons Zürich
 - **landingPage:** https://www.zh.ch/de/sicherheit-justiz/delikte-praevention/kriminalstatistik.html
 - **Resource ktzhDistId:** 2278
 - **Resource title:** Anzahl Straftaten nach Tatbestand ganzer Kanton
 - **Resource description:** Anzahl Straftaten nach Tatbestand gegen StGB, BetmG und AIG seit 2009 auf Kantonsebene. Tatbestände werden nur in Jahren aufgeführt, in denen sie in Kraft waren. Die Unterscheidung zwischen versuchten und vollendeten Straftaten ist nur im Falle von Straftaten gegen das StGB möglich. Die Spalte Titel &#40;und Reihenfolge&#95;Titel&#41; weist für StGB die Titel &#40;und deren Reihenfolge&#41; des Zweiten Buches: Besondere Bestimmungen gemäss StGB, sowie für BetmG und AIG die Überkategorien &#40;und deren Reihenfolge&#41; gemäss Auswertungen im PKS Jahresbericht auf. Analog weist die Spalte Haupttitel &#40;und Reihenfolge&#95;Haupttitel&#41; eine v.a. für die zahlreichen StGB-Titel generalisierte Kategorie der wichtigsten Titel und deren Reihenfolge auf. Die Bevölkerungszahlen sind der Einwohnerstatistik des Bundes am Ende des Vorjahres entnommen &#40;bis 2010 ESPOP, ab 2011 STATPOP&#41;. Damit wird die Häufigkeitszahl berechnet &#40;Anzahl registrierten Straftaten pro 1000 Einwohner&#41;.
-- **Resource issued:** 2022-03-09T23:00:00
-- **Resource modified:** 2026-03-23T07:46:17
+- **Resource issued:** 2022-03-09 23:00:00
+- **Resource modified:** 2026-03-23 07:46:17
 
 ## Load packages
 

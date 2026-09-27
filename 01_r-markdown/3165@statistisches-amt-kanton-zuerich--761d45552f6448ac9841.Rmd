@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 3165@statistisches-amt-kanton
 
 ## Metadata
 
-- **issued:** 2026-07-21T07:36:34
-- **modified:** 2026-07-21T07:36:34
+- **issued:** 2026-07-21 07:36:34
+- **modified:** 2026-07-21 07:36:34
 - **startDate:** 2026-03-08
 - **endDate:** 2026-06-14
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;gemeindeexekutiven&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;gemeindewahlen&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;parteien&&#35;x27;, &&#35;x27;politik&&#35;x27;, &&#35;x27;politische&#95;gemeinden&&#35;x27;, &&#35;x27;politische&#95;parteien&&#35;x27;, &&#35;x27;schulgemeinden&&#35;x27;, &&#35;x27;wahlen&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/GOVE
+- **keyword:** gemeindeexekutiven, gemeinden, gemeindewahlen, ogd, parteien, politik, politische&#95;gemeinden, politische&#95;parteien, schulgemeinden, wahlen
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** nan
 - **Resource ktzhDistId:** 6820
 - **Resource title:** Ergebnisse der kommunalen Behördenwahlen 2026
 - **Resource description:** Ergebnisse der Erneuerungswahlen der Zürcher Gemeindebehörden 2026.
 - **Resource issued:** None
-- **Resource modified:** 2026-07-20T11:50:31
+- **Resource modified:** 2026-07-20 11:50:31
 
 ## Load packages
 

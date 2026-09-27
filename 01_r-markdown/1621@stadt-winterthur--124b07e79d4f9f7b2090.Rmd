@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1621@stadt-winterthur.
 
 ## Metadata
 
-- **issued:** 2022-09-19T22:00:00
-- **modified:** 2026-09-16T06:04:51
+- **issued:** 2022-09-19 22:00:00
+- **modified:** 2026-09-16 06:04:51
 - **startDate:** 1995-12-31
 - **endDate:** 2024-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;arbeitskraefte&&#35;x27;, &&#35;x27;beschaeftigte&&#35;x27;, &&#35;x27;bevoelkerung&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;ogd&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Stadt Winterthur&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON
+- **keyword:** arbeitskraefte, beschaeftigte, bevoelkerung, gemeinden, ogd
+- **publisher:** Stadt Winterthur
 - **landingPage:** https://stadt.winterthur.ch/themen/arbeit-steuern-wirtschaft/daten-statistik/wirtschaft
 - **Resource ktzhDistId:** 3063
 - **Resource title:** Beschäftigtendichte Stadt Winterthur ab 1995
 - **Resource description:** Eine vollständige Dokumentation ist in der Ressource &quot;Dokumentation Daten&quot; zu finden.
-- **Resource issued:** 2022-09-19T22:00:00
-- **Resource modified:** 2026-08-20T09:39:34
+- **Resource issued:** 2022-09-19 22:00:00
+- **Resource modified:** 2026-08-20 09:39:34
 
 ## Load packages
 

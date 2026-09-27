@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 708@statistisches-amt-kanton-
 
 ## Metadata
 
-- **issued:** 2020-11-10T23:00:00
-- **modified:** 2025-10-20T22:00:00
+- **issued:** 2020-11-10 23:00:00
+- **modified:** 2025-10-20 22:00:00
 - **startDate:** 2015-12-31
 - **endDate:** 2020-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;bezirke&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;gewinnsteuer&&#35;x27;, &&#35;x27;juristische&#95;personen&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;kapitalsteuer&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;staatssteuer&&#35;x27;, &&#35;x27;steuerdaten&&#35;x27;, &&#35;x27;steuern&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/GOVE
+- **keyword:** bezirke, gemeinden, gewinnsteuer, juristische&#95;personen, kanton&#95;zuerich, kapitalsteuer, ogd, staatssteuer, steuerdaten, steuern
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** nan
 - **Resource ktzhDistId:** 1747
 - **Resource title:** Steuerpflichtige, Steuerfaktoren und Steuererträge jur. Personen nach Rechtsform
 - **Resource description:** Steuerpflichtige, Steuerfaktoren &#40;Reingewinn/Kapital&#41; und Steuererträge der juristischen Personen. Bei den Steuererträgen handelt es sich um die einfache Staatssteuer, wenn nichts anderes angegeben ist. Die Daten stammen vom Kantonalen Steueramt. Rechtsformen sind: Aktiengesellschaften, GmbH, Genossenschaften, Vereine und Stiftungen. Stichtag: Gewinnsteuer und Kapitalsteuer werden jedes Jahr erhoben. Für die Bemessung der Gewinn-/Kapitalsteuer wird auf den Gewinn/das Kapital an einem bestimmten Stichtag &#40;Gewinn/Kapital am Ende des Geschäftsjahres&#41; abgestellt.
-- **Resource issued:** 2020-11-10T23:00:00
-- **Resource modified:** 2025-10-20T22:00:00
+- **Resource issued:** 2020-11-10 23:00:00
+- **Resource modified:** 2025-10-20 22:00:00
 
 ## Load packages
 

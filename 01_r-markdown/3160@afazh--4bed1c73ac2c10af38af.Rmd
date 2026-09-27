@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 3160@afazh.
 
 ## Metadata
 
-- **issued:** 2026-07-06T11:42:18
-- **modified:** 2026-09-15T15:17:55
+- **issued:** 2026-07-06 11:42:18
+- **modified:** 2026-09-15 15:17:55
 - **startDate:** 2020-01-01
 - **endDate:** 2026-08-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;arbeitslose&&#35;x27;, &&#35;x27;arbeitslosenversicherung&&#35;x27;, &&#35;x27;arbeitslosigkeit&&#35;x27;, &&#35;x27;arbeitsmarkt&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;quote&&#35;x27;, &&#35;x27;stellensuchende&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Arbeit des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** arbeitslose, arbeitslosenversicherung, arbeitslosigkeit, arbeitsmarkt, ogd, quote, stellensuchende
+- **publisher:** Amt für Arbeit des Kantons Zürich
 - **landingPage:** nan
 - **Resource ktzhDistId:** 6805
 - **Resource title:** Arbeitslosigkeit und Stellensuchende pro Monat in Zürcher Gemeinden
 - **Resource description:** Monatlicher Bestand von arbeitslos und stellensuchend gemeldeten Personen pro Zürcher Gemeinde. Es werden nur Daten für Gemeinden ausgewiesen, die es zum aktuellen Datenstand noch aktiv gibt. Als stellensuchend gelten jene Personen, die beim Regionalen Arbeitsvermittlungszentrum &#40;RAV&#41; gemeldet sind, unabhängig von ihrer sofortigen Verfügbarkeit &#40;beispielsweise Personen in Kündigungsfrist oder Weiterbildung&#41;. Als arbeitslos werden jene Personen eingestuft, die keine Stelle haben, beim RAV gemeldet sind und sofort vermittelbar sind. In Fällen, wo die Personendaten kleiner oder gleich fünf sind, werden die Zahlen aus Gründen des Datenschutzes nicht ausgewiesen. Neben der jeweiligen absoluten Zahl enthält die Disposition für jeden Monat auch die Arbeitslosen-, respektive die Stellensuchendenquote. Dabei handelt es sich um den prozentuellen Anteil an der Erwerbsbevölkerung der jeweiligen Gemeinde.
-- **Resource issued:** 2026-07-16T07:12:47
-- **Resource modified:** 2026-09-15T15:00:41
+- **Resource issued:** 2026-07-16 07:12:47
+- **Resource modified:** 2026-09-15 15:00:41
 
 ## Load packages
 

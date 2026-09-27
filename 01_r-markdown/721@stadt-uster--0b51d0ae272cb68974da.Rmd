@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Beiträge der Kulturförderung der Stadt Uster ab 2018
 
-Sämtliche Beiträge der Kulturförderung der Stadt Uster ab 2018. Daten enthalten: &&#35;x27;Gesuchsteller&&#35;x27;, &&#35;x27;Projekts&&#35;x27;, &&#35;x27;Förderbereich&&#35;x27;, &&#35;x27;Förderart&&#35;x27; und &&#35;x27;Förderbetrag&&#35;x27;. Grundlage der Förderung bildet das Reglement Kulturförderung der Stadt Uster &#40;siehe unter &quot;Weitere Informationen&quot;&#41;
+Sämtliche Beiträge der Kulturförderung der Stadt Uster ab 2018. Daten enthalten: &#x27;Gesuchsteller&#x27;, &#x27;Projekts&#x27;, &#x27;Förderbereich&#x27;, &#x27;Förderart&#x27; und &#x27;Förderbetrag&#x27;. Grundlage der Förderung bildet das Reglement Kulturförderung der Stadt Uster &#40;siehe unter &quot;Weitere Informationen&quot;&#41;
 
 [View this dataset in the data catalogue](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/721%40stadt-uster)
 
@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 721@stadt-uster.
 
 ## Metadata
 
-- **issued:** 2021-07-05T22:00:00
-- **modified:** 2023-01-08T23:00:00
+- **issued:** 2021-07-05 22:00:00
+- **modified:** 2023-01-08 23:00:00
 - **startDate:** 2018-01-01
 - **endDate:** nan
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/EDUC&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;film&&#35;x27;, &&#35;x27;kultur&&#35;x27;, &&#35;x27;kulturfoerderung&&#35;x27;, &&#35;x27;kunst&&#35;x27;, &&#35;x27;museen&&#35;x27;, &&#35;x27;musik&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;theater&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Stadt Uster&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/EDUC
+- **keyword:** film, kultur, kulturfoerderung, kunst, museen, musik, ogd, theater
+- **publisher:** Stadt Uster
 - **landingPage:** https://github.com/GesellschaftStadtUster/kultur&#95;foerderbeitrage
 - **Resource ktzhDistId:** 1853
 - **Resource title:** Tabelle der Fördergesuche der Kulturförderung der Stadt Uster
-- **Resource description:** Variabeln: &&#35;x27;DatumEntscheid&&#35;x27; = Datum der Beschlussfassung über das Gesuch, bei Leistungskontrakten der Auszahlung, &&#35;x27;Gesuchsteller&&#35;x27; = Bezeichnung des Gesuchstellers gemäss Fördergesuch, &&#35;x27;Projekt&&#35;x27; = Bezeichnung des geförderten Projekts, &&#35;x27;Foerderbereich&&#35;x27; = Bezeichnung des Förderbereichs, &&#35;x27;Foerderart&&#35;x27; = Bezeichnung der Förderart &#40;&&#35;x27;Projektbeitrag&&#35;x27; oder &&#35;x27;Leistungskontrakt&&#35;x27;&#41;, &&#35;x27;FoerderbeitragCHF&&#35;x27; = Bewilligter Betrag.
-- **Resource issued:** 2021-07-05T22:00:00
-- **Resource modified:** 2021-11-22T23:00:00
+- **Resource description:** Variabeln: &#x27;DatumEntscheid&#x27; = Datum der Beschlussfassung über das Gesuch, bei Leistungskontrakten der Auszahlung, &#x27;Gesuchsteller&#x27; = Bezeichnung des Gesuchstellers gemäss Fördergesuch, &#x27;Projekt&#x27; = Bezeichnung des geförderten Projekts, &#x27;Foerderbereich&#x27; = Bezeichnung des Förderbereichs, &#x27;Foerderart&#x27; = Bezeichnung der Förderart &#40;&#x27;Projektbeitrag&#x27; oder &#x27;Leistungskontrakt&#x27;&#41;, &#x27;FoerderbeitragCHF&#x27; = Bewilligter Betrag.
+- **Resource issued:** 2021-07-05 22:00:00
+- **Resource modified:** 2021-11-22 23:00:00
 
 ## Load packages
 

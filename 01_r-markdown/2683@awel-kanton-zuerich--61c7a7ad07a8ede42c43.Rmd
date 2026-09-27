@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2683@awel-kanton-zuerich.
 
 ## Metadata
 
-- **issued:** 2024-08-20T22:00:00
-- **modified:** 2026-07-06T15:48:52
+- **issued:** 2024-08-20 22:00:00
+- **modified:** 2026-07-06 15:48:52
 - **startDate:** 1990-01-01
 - **endDate:** 2024-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENVI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;emissionen&&#35;x27;, &&#35;x27;klima&&#35;x27;, &&#35;x27;ogd&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ENVI
+- **keyword:** emissionen, klima, ogd
+- **publisher:** Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich
 - **landingPage:** https://www.zh.ch/de/umwelt-tiere/klima/klimakarte-daten/daten.html
 - **Resource ktzhDistId:** 5504
 - **Resource title:** Treibhausgasemissionen im Kanton Zürich ab 1990
 - **Resource description:** Emissionen der wichtigsten Klimagase &#40;CO2, CH4, N2O und synthetische Gase&#41; im Kanton Zürich. Die aufgeführten Treibhausgasemissionen sind nach dem Territorialprinzip bilanziert und werden als CO2-Äquivalente in Tonnen pro Jahr ausgewiesen. Die Emissionen liegen als jährliche Zeitreihe ab 1990 vor. Mehr Informationen zum Inhalt der Daten sind in der Ressource &quot;Datenbeschreibung Treibhausgasemissionen im Kanton Zürich&quot; enthalten.
-- **Resource issued:** 2024-08-20T22:00:00
-- **Resource modified:** 2026-07-03T08:02:11
+- **Resource issued:** 2024-08-20 22:00:00
+- **Resource modified:** 2026-07-03 08:02:11
 
 ## Load packages
 

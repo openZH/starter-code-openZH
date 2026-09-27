@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1823@stadt-winterthur.
 
 ## Metadata
 
-- **issued:** 2023-03-08T23:00:00
-- **modified:** 2026-09-16T05:58:38
+- **issued:** 2023-03-08 23:00:00
+- **modified:** 2026-09-16 05:58:38
 - **startDate:** 2018-03-31
 - **endDate:** 2026-06-30
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;arbeitskraefte&&#35;x27;, &&#35;x27;beschaeftigte&&#35;x27;, &&#35;x27;bevoelkerung&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;ogd&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Stadt Winterthur&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON
+- **keyword:** arbeitskraefte, beschaeftigte, bevoelkerung, gemeinden, ogd
+- **publisher:** Stadt Winterthur
 - **landingPage:** https://stadt.winterthur.ch/themen/arbeit-steuern-wirtschaft/daten-statistik/wirtschaft
 - **Resource ktzhDistId:** 3360
 - **Resource title:** Beschäftigte im Quartal nach Sektor und Geschlecht in Total und Vollzeitäquivalente ab 2018
 - **Resource description:** Die Daten beinhalten aggregierte Beschäftigtenzahlen in der Stadt Winterthur. Sie sind nach Sektor und Geschlecht aufgeschlüsselt. Neben den Totalen werden auch die Vollzeitäquivalente &#40;&quot;VZAE&quot;&#41; abgebildet. Die hier ausgewiesenen Daten zu den Beschäftigten basieren auf der Beschäftigungsstatistik &#40;BESTA&#41; des Bundesamt für Statistik BFS.<br>Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.<br>
-- **Resource issued:** 2023-03-08T23:00:00
-- **Resource modified:** 2026-09-01T07:47:53
+- **Resource issued:** 2023-03-08 23:00:00
+- **Resource modified:** 2026-09-01 07:47:53
 
 ## Load packages
 

@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2282@ima-kanton-zuerich.
 
 ## Metadata
 
-- **issued:** 2024-02-29T23:00:00
-- **modified:** 2026-05-05T09:54:04
+- **issued:** 2024-02-29 23:00:00
+- **modified:** 2026-05-05 09:54:04
 - **startDate:** 2021-10-01
 - **endDate:** 2025-09-30
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENER&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/TRAN&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;elektrizitaet&&#35;x27;, &&#35;x27;fahrzeuge&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;nicht&#95;weitergefuehrt&&#35;x27;, &&#35;x27;ogd&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Immobilienamt des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/ENER, http://publications.europa.eu/resource/authority/data-theme/GOVE, http://publications.europa.eu/resource/authority/data-theme/TRAN
+- **keyword:** elektrizitaet, fahrzeuge, kanton&#95;zuerich, nicht&#95;weitergefuehrt, ogd
+- **publisher:** Immobilienamt des Kantons Zürich
 - **landingPage:** nan
 - **Resource ktzhDistId:** 4563
 - **Resource title:** Ladevorgänge der kantonalen e-Ladestationen
 - **Resource description:** None
-- **Resource issued:** 2024-02-29T23:00:00
-- **Resource modified:** 2026-04-27T13:41:15
+- **Resource issued:** 2024-02-29 23:00:00
+- **Resource modified:** 2026-04-27 13:41:15
 
 ## Load packages
 

@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1722@statistisches-amt-kanton
 
 ## Metadata
 
-- **issued:** 2022-09-18T22:00:00
-- **modified:** 2026-03-27T13:16:17
+- **issued:** 2022-09-18 22:00:00
+- **modified:** 2026-03-27 13:16:17
 - **startDate:** 2016-12-31
 - **endDate:** 2023-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;bezirke&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;mietwohnungen&&#35;x27;, &&#35;x27;nicht&#95;weitergefuehrt&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;wohnungen&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** bezirke, gemeinden, kanton&#95;zuerich, mietwohnungen, nicht&#95;weitergefuehrt, ogd, wohnungen
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html
 - **Resource ktzhDistId:** 3220
 - **Resource title:** Anteil Gemeinnützige Wohnungen &#91;%&#93;
 - **Resource description:** None
-- **Resource issued:** 2022-09-18T22:00:00
-- **Resource modified:** 2025-06-09T22:00:00
+- **Resource issued:** 2022-09-18 22:00:00
+- **Resource modified:** 2025-06-09 22:00:00
 
 ## Load packages
 

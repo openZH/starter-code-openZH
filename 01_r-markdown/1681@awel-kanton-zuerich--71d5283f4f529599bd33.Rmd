@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Produktion von Wärme und Strom aus erneuerbaren Energieträgern im Kanton Zürich ab 2010
 
-Die Daten weisen für die verschiedenen erneuerbaren Energieträger aus, wie viel sie seit 2010 insgesamt pro Jahr in Megawattstunden &#40;MWh&#41; zur Produktion von Wärme und Strom beigetragen haben. Die Daten stammen aus der Markterhebung Sonnenenergie vom Bundesamt für Energie &#40;BFE&#41;, für Biomasse &#40;einschliesslich Holz&#41; von der UMWEKO GmbH, für Abwasser von den Elektrizitätswerken des Kantons Zürich &#40;EKZ&#41; sowie vom Elektrizitätswerk der Stadt Zürich &#40;EWZ&#41;, für Kehricht, für Wasser und für Luft vom Amt für Abfall, Wasser, Energie und Luft &#40;AWEL&#41; des Kantons Zürich. Hinweise: Zur Produktion von Strom mittels Geothermie &#40;tiefe Bohrungen&#41; und Windkraft gibt es im Kanton Zürich aktuell keine oder nur sehr tiefe Werte; beide Energieträger sind als Stromquellen in den Daten bis 2022 mit dem Wert &&#35;x27;0&&#35;x27; enthalten. Neu integriert wurde im Bereich Wärme ein vorerst geschätzter Wert zur Abwärmenutzung von Rechenzentren. Die meisten Daten wurden im Jahr 2026 rückwirkend auf Basis neuer Berechnungen und Datengrundlagen angepasst.
+Die Daten weisen für die verschiedenen erneuerbaren Energieträger aus, wie viel sie seit 2010 insgesamt pro Jahr in Megawattstunden &#40;MWh&#41; zur Produktion von Wärme und Strom beigetragen haben. Die Daten stammen aus der Markterhebung Sonnenenergie vom Bundesamt für Energie &#40;BFE&#41;, für Biomasse &#40;einschliesslich Holz&#41; von der UMWEKO GmbH, für Abwasser von den Elektrizitätswerken des Kantons Zürich &#40;EKZ&#41; sowie vom Elektrizitätswerk der Stadt Zürich &#40;EWZ&#41;, für Kehricht, für Wasser und für Luft vom Amt für Abfall, Wasser, Energie und Luft &#40;AWEL&#41; des Kantons Zürich. Hinweise: Zur Produktion von Strom mittels Geothermie &#40;tiefe Bohrungen&#41; und Windkraft gibt es im Kanton Zürich aktuell keine oder nur sehr tiefe Werte; beide Energieträger sind als Stromquellen in den Daten bis 2022 mit dem Wert &#x27;0&#x27; enthalten. Neu integriert wurde im Bereich Wärme ein vorerst geschätzter Wert zur Abwärmenutzung von Rechenzentren. Die meisten Daten wurden im Jahr 2026 rückwirkend auf Basis neuer Berechnungen und Datengrundlagen angepasst.
 
 [View this dataset in the data catalogue](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1681%40awel-kanton-zuerich)
 
@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1681@awel-kanton-zuerich.
 
 ## Metadata
 
-- **issued:** 2022-08-24T22:00:00
-- **modified:** 2026-06-02T13:30:55
+- **issued:** 2022-08-24 22:00:00
+- **modified:** 2026-06-02 13:30:55
 - **startDate:** 2010-01-01
 - **endDate:** 2024-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENER&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;abfall&&#35;x27;, &&#35;x27;abwasser&&#35;x27;, &&#35;x27;biomasse&&#35;x27;, &&#35;x27;elektrizitaet&&#35;x27;, &&#35;x27;elektrizitaetsproduktion&&#35;x27;, &&#35;x27;energie&&#35;x27;, &&#35;x27;energieproduktion&&#35;x27;, &&#35;x27;energieressourcen&&#35;x27;, &&#35;x27;energietraeger&&#35;x27;, &&#35;x27;erneuerbare&#95;energien&&#35;x27;, &&#35;x27;geothermie&&#35;x27;, &&#35;x27;grundwasser&&#35;x27;, &&#35;x27;holz&&#35;x27;, &&#35;x27;kehricht&&#35;x27;, &&#35;x27;luft&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;photovoltaik&&#35;x27;, &&#35;x27;seen&&#35;x27;, &&#35;x27;sonne&&#35;x27;, &&#35;x27;sonnenenergie&&#35;x27;, &&#35;x27;strom&&#35;x27;, &&#35;x27;waerme&&#35;x27;, &&#35;x27;waermepumpen&&#35;x27;, &&#35;x27;wasser&&#35;x27;, &&#35;x27;wasserkraft&&#35;x27;, &&#35;x27;wind&&#35;x27;, &&#35;x27;windenergie&&#35;x27;, &&#35;x27;windkraft&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ENER
+- **keyword:** abfall, abwasser, biomasse, elektrizitaet, elektrizitaetsproduktion, energie, energieproduktion, energieressourcen, energietraeger, erneuerbare&#95;energien, geothermie, grundwasser, holz, kehricht, luft, ogd, photovoltaik, seen, sonne, sonnenenergie, strom, waerme, waermepumpen, wasser, wasserkraft, wind, windenergie, windkraft
+- **publisher:** Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich
 - **landingPage:** nan
 - **Resource ktzhDistId:** 3140
 - **Resource title:** Produktion von Wärme und Strom aus erneuerbaren Energieträgern im Kanton Zürich
-- **Resource description:** Zur Produktion von Wärme in Megawattstunden &#40;MWh&#41; enthalten sind die Energieträger: Kehricht, Biomasse &#40;einschliesslich Holz&#41;, Sonne, Wasser &#40;umfasst Oberflächen- und Grundwasser&#41;, Geothermie &#40;untiefe Bohrungen&#41;, Luft &#40;umfasst Luft-Wärmepumpen&#41;, Rechenzentren &#40;Abwärme&#41; sowie Abwasser. Zur Produktion von Strom zusätzlich enthalten ist der Energieträger &&#35;x27;Windkraft&&#35;x27;, während bei &&#35;x27;Geothermie&&#35;x27; keine &&#35;x27;untiefen&&#35;x27;, sondern nur &&#35;x27;tiefe&&#35;x27; Bohrungen zur Stromproduktion beitragen; die Energieträger &&#35;x27;Luft&&#35;x27; und &&#35;x27;Abwasser&&#35;x27; werden zur Stromproduktion nicht genutzt.
-- **Resource issued:** 2022-08-24T22:00:00
-- **Resource modified:** 2026-08-26T14:08:24
+- **Resource description:** Zur Produktion von Wärme in Megawattstunden &#40;MWh&#41; enthalten sind die Energieträger: Kehricht, Biomasse &#40;einschliesslich Holz&#41;, Sonne, Wasser &#40;umfasst Oberflächen- und Grundwasser&#41;, Geothermie &#40;untiefe Bohrungen&#41;, Luft &#40;umfasst Luft-Wärmepumpen&#41;, Rechenzentren &#40;Abwärme&#41; sowie Abwasser. Zur Produktion von Strom zusätzlich enthalten ist der Energieträger &#x27;Windkraft&#x27;, während bei &#x27;Geothermie&#x27; keine &#x27;untiefen&#x27;, sondern nur &#x27;tiefe&#x27; Bohrungen zur Stromproduktion beitragen; die Energieträger &#x27;Luft&#x27; und &#x27;Abwasser&#x27; werden zur Stromproduktion nicht genutzt.
+- **Resource issued:** 2022-08-24 22:00:00
+- **Resource modified:** 2026-08-26 14:08:24
 
 ## Load packages
 

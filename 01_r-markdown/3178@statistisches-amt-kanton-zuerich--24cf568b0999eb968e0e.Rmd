@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 3178@statistisches-amt-kanton
 
 ## Metadata
 
-- **issued:** 2026-08-25T12:14:12
-- **modified:** 2026-09-07T14:38:13
+- **issued:** 2026-08-25 12:14:12
+- **modified:** 2026-09-07 14:38:13
 - **startDate:** 2020-12-31
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;gemeinden&&#35;x27;, &&#35;x27;gemeindesteuern&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;steuerdaten&&#35;x27;, &&#35;x27;steuerpflichtige&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/GOVE, http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** gemeinden, gemeindesteuern, kanton&#95;zuerich, ogd, steuerdaten, steuerpflichtige
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** nan
 - **Resource ktzhDistId:** 6863
 - **Resource title:** Steuerpflichtige natürliche Personen
 - **Resource description:** Steuerpflichtige natürliche Personen sind Menschen, die Einkommens- und Vermögenssteuern bezahlen müssen. Das schliesst auch Personen ein, die aufgrund tiefer Einkommen und/oder Vermögen keine Steuern bezahlen müssen. Die meisten natürlichen Personen werden im ordentlichen Verfahren besteuert. Das heisst, sie reichen einmal im Jahr eine Steuererklärung ein und erhalten dann eine Steuerrechnung. Ebenfalls in den Daten enthalten sind quellensteuerpflichtigen natürliche Personen, bei denen der Arbeitgeber die Steuern mit einem Lohnabzug einzieht und an den Staat weiterleitet. Das betrifft in erster Linie ausländische Arbeitnehmerinnen und Arbeitnehmer ohne Niederlassungsbewilligung oder mit Wohnsitz im Ausland. Paare, die gemeinsam besteuert werden, zählen in den Daten als zwei Personen.
 - **Resource issued:** None
-- **Resource modified:** 2026-08-25T12:12:39
+- **Resource modified:** 2026-08-25 12:12:39
 
 ## Load packages
 

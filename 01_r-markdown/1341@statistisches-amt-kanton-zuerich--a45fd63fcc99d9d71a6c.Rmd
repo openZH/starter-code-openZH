@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1341@statistisches-amt-kanton
 
 ## Metadata
 
-- **issued:** 2022-07-06T22:00:00
-- **modified:** 2025-03-16T23:00:00
+- **issued:** 2022-07-06 22:00:00
+- **modified:** 2025-03-16 23:00:00
 - **startDate:** 2019-09-01
 - **endDate:** 2023-09-30
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;gemeindefinanzen&&#35;x27;, &&#35;x27;gemeindeleistungen&&#35;x27;, &&#35;x27;gemeinden&&#35;x27;, &&#35;x27;gemeindesteuern&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;staatsausgaben&&#35;x27;, &&#35;x27;steuerfuss&&#35;x27;, &&#35;x27;steuern&&#35;x27;, &&#35;x27;wohnbevoelkerung&&#35;x27;, &&#35;x27;wohngemeinde&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/GOVE, http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** gemeindefinanzen, gemeindeleistungen, gemeinden, gemeindesteuern, kanton&#95;zuerich, ogd, staatsausgaben, steuerfuss, steuern, wohnbevoelkerung, wohngemeinde
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** nan
 - **Resource ktzhDistId:** 6068
 - **Resource title:** Codebook Bevölkerungsbefragung 2023
 - **Resource description:** Das Codebook beschreibt die 2023 erhobenen Variablen mitsamt ihren Ausprägungen
-- **Resource issued:** 2025-03-16T23:00:00
-- **Resource modified:** 2025-03-16T23:00:00
+- **Resource issued:** 2025-03-16 23:00:00
+- **Resource modified:** 2025-03-16 23:00:00
 
 ## Load packages
 

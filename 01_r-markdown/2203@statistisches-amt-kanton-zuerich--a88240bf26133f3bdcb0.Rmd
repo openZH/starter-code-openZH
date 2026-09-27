@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2203@statistisches-amt-kanton
 
 ## Metadata
 
-- **issued:** 2023-08-17T22:00:00
-- **modified:** 2023-11-13T23:00:00
+- **issued:** 2023-08-17 22:00:00
+- **modified:** 2023-11-13 23:00:00
 - **startDate:** 2023-10-22
 - **endDate:** 2023-11-19
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;demokratie&&#35;x27;, &&#35;x27;staenderatswahlen&&#35;x27;, &&#35;x27;wahlarchiv&&#35;x27;, &&#35;x27;wahlen&&#35;x27;, &&#35;x27;wahlergebnisse&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/GOVE
+- **keyword:** demokratie, staenderatswahlen, wahlarchiv, wahlen, wahlergebnisse
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** https://app.statistik.zh.ch/wahlen&#95;abstimmungen/prod/Actual/Det/1&#95;1&#95;20231119/250107
 - **Resource ktzhDistId:** 4445
 - **Resource title:** Ständeratswahl 2023 – 1. Wahlgang: Wahlbeteiligung Ebene Kanton
 - **Resource description:** None
-- **Resource issued:** 2023-08-17T22:00:00
-- **Resource modified:** 2024-04-04T22:00:00
+- **Resource issued:** 2023-08-17 22:00:00
+- **Resource modified:** 2024-04-04 22:00:00
 
 ## Load packages
 

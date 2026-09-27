@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 1421@handelsregisteramt-kanto
 
 ## Metadata
 
-- **issued:** 2022-10-10T22:00:00
-- **modified:** 2026-07-09T13:05:54
+- **issued:** 2022-10-10 22:00:00
+- **modified:** 2026-07-09 13:05:54
 - **startDate:** 2018-01-01
 - **endDate:** 2026-06-30
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;branchen&&#35;x27;, &&#35;x27;firmen&&#35;x27;, &&#35;x27;genossenschaften&&#35;x27;, &&#35;x27;handelsregister&&#35;x27;, &&#35;x27;konkurse&&#35;x27;, &&#35;x27;loeschungen&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;sitzverlegungen&&#35;x27;, &&#35;x27;unternehmen&&#35;x27;, &&#35;x27;unternehmensdaten&&#35;x27;, &&#35;x27;vereine&&#35;x27;, &&#35;x27;wirtschaft&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Handelsregisteramt des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON
+- **keyword:** branchen, firmen, genossenschaften, handelsregister, konkurse, loeschungen, ogd, sitzverlegungen, unternehmen, unternehmensdaten, vereine, wirtschaft
+- **publisher:** Handelsregisteramt des Kantons Zürich
 - **landingPage:** nan
 - **Resource ktzhDistId:** 2778
 - **Resource title:** Neueintragungen pro Quartal und Branchen ab 2018
 - **Resource description:** Als Neueintragung versteht man die erstmalige Erfassung von Unternehmen und weiteren Rechtseinheiten im Handelsregister.
-- **Resource issued:** 2022-10-10T22:00:00
-- **Resource modified:** 2026-07-09T13:05:53
+- **Resource issued:** 2022-10-10 22:00:00
+- **Resource modified:** 2026-07-09 13:05:53
 
 ## Load packages
 

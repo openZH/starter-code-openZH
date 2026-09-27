@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2423@awi-kanton-zuerich.
 
 ## Metadata
 
-- **issued:** 2023-12-17T23:00:00
-- **modified:** 2024-04-03T22:00:00
+- **issued:** 2023-12-17 23:00:00
+- **modified:** 2024-04-03 22:00:00
 - **startDate:** 2023-12-31
 - **endDate:** 2023-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ECON&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/EDUC&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/TRAN&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;arbeitsmarkt&&#35;x27;, &&#35;x27;bildung&&#35;x27;, &&#35;x27;forschung&&#35;x27;, &&#35;x27;grossregionen&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;standortfoerderung&&#35;x27;, &&#35;x27;steuern&&#35;x27;, &&#35;x27;volkswirtschaft&&#35;x27;, &&#35;x27;wirtschaft&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Wirtschaft des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/EDUC, http://publications.europa.eu/resource/authority/data-theme/SOCI, http://publications.europa.eu/resource/authority/data-theme/TRAN
+- **keyword:** arbeitsmarkt, bildung, forschung, grossregionen, kanton&#95;zuerich, ogd, standortfoerderung, steuern, volkswirtschaft, wirtschaft
+- **publisher:** Amt für Wirtschaft des Kantons Zürich
 - **landingPage:** nan
 - **Resource ktzhDistId:** 4863
 - **Resource title:** Indikatoren zur Vergleichsanalyse Standortattraktivität 2024
 - **Resource description:** Die Vergleichsregionen umfassen jeweils die entsprechende NUTS-2 Region. Entsprechend werden folgende Regionen verglichen: Oberbayern &#40;Muenchen&#41;, Easternand Midland &#40;Dublin&#41;, Noord-Holland &#40;Amsterdam&#41;, UKI-London &#40;London&#41; und Stockholm. Zuerich bezieht sich auf das Gebiet des Kantons Zürich.
-- **Resource issued:** 2023-12-17T23:00:00
-- **Resource modified:** 2023-12-18T23:00:00
+- **Resource issued:** 2023-12-17 23:00:00
+- **Resource modified:** 2023-12-18 23:00:00
 
 ## Load packages
 

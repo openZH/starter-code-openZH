@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 705@statistisches-amt-kanton-
 
 ## Metadata
 
-- **issued:** 2020-10-13T22:00:00
-- **modified:** 2025-11-06T11:19:16
+- **issued:** 2020-10-13 22:00:00
+- **modified:** 2025-11-06 11:19:16
 - **startDate:** 2010-12-31
 - **endDate:** 2055-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;altersklassen&&#35;x27;, &&#35;x27;amtliches&#95;geschlecht&&#35;x27;, &&#35;x27;bevoelkerung&&#35;x27;, &&#35;x27;bevoelkerungsprognosen&&#35;x27;, &&#35;x27;bevoelkerungswachstum&&#35;x27;, &&#35;x27;einwohner&&#35;x27;, &&#35;x27;einwohnerzahl&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;prognosen&&#35;x27;, &&#35;x27;raumplanungsregionen&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** altersklassen, amtliches&#95;geschlecht, bevoelkerung, bevoelkerungsprognosen, bevoelkerungswachstum, einwohner, einwohnerzahl, ogd, prognosen, raumplanungsregionen
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** https://www.zh.ch/de/soziales/bevoelkerungszahlen/zukuenftige&#95;entwicklung.html
 - **Resource ktzhDistId:** 1740
 - **Resource title:** Bevölkerungsprognose Trend ZH 2022, nach Region, Geschlecht und 20 Altersklassen
 - **Resource description:** Bevölkerung 2010–2050 nach Region, Geschlecht und Alter, nach zivilrechtlichem Wohnsitz, Daten per Ende Jahr. Maschinenlesbares Format.
-- **Resource issued:** 2020-10-13T22:00:00
-- **Resource modified:** 2022-12-01T23:00:00
+- **Resource issued:** 2020-10-13 22:00:00
+- **Resource modified:** 2022-12-01 23:00:00
 
 ## Load packages
 

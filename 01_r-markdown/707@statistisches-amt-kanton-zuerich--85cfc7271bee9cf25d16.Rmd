@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: COVID&#95;19 Massnahmen im Kanton Zürich
 
-Geltende Massnahmen auf dem Gebiet des Kantons Zürich sowie Schulferienzeiten im Bezirk Zürich. Spaltenüberschriften: &&#35;x27;Datum&&#35;x27; = Beginn der Massnahme; &&#35;x27;Raum&&#35;x27; = Gebiet auf das sich die Massnahme resp. Schulferienzeit bezieht; &&#35;x27;Kategorisierung&&#35;x27; = Art der Massnahme &#40;bzw. Schulferien&#41;
+Geltende Massnahmen auf dem Gebiet des Kantons Zürich sowie Schulferienzeiten im Bezirk Zürich. Spaltenüberschriften: &#x27;Datum&#x27; = Beginn der Massnahme; &#x27;Raum&#x27; = Gebiet auf das sich die Massnahme resp. Schulferienzeit bezieht; &#x27;Kategorisierung&#x27; = Art der Massnahme &#40;bzw. Schulferien&#41;
 
 [View this dataset in the data catalogue](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/707%40statistisches-amt-kanton-zuerich)
 
@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 707@statistisches-amt-kanton-
 
 ## Metadata
 
-- **issued:** 2020-11-05T23:00:00
-- **modified:** 2024-07-07T22:00:00
+- **issued:** 2020-11-05 23:00:00
+- **modified:** 2024-07-07 22:00:00
 - **startDate:** 2020-02-28
 - **endDate:** 2022-02-03
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/HEAL&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/JUST&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/TRAN&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;bezirke&&#35;x27;, &&#35;x27;corona&&#35;x27;, &&#35;x27;covid19&&#35;x27;, &&#35;x27;gastgewerbe&&#35;x27;, &&#35;x27;gewerbe&&#35;x27;, &&#35;x27;kanton&#95;zuerich&&#35;x27;, &&#35;x27;mobilitaet&&#35;x27;, &&#35;x27;oeffentlicher&#95;verkehr&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;schulen&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Statistik und Daten&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/HEAL, http://publications.europa.eu/resource/authority/data-theme/JUST, http://publications.europa.eu/resource/authority/data-theme/TRAN
+- **keyword:** bezirke, corona, covid19, gastgewerbe, gewerbe, kanton&#95;zuerich, mobilitaet, oeffentlicher&#95;verkehr, ogd, schulen
+- **publisher:** Amt für Statistik und Daten
 - **landingPage:** nan
 - **Resource ktzhDistId:** 1745
 - **Resource title:** COVID&#95;19 Massnahmen im Kanton Zürich
 - **Resource description:** None
-- **Resource issued:** 2020-11-05T23:00:00
-- **Resource modified:** 2022-02-23T23:00:00
+- **Resource issued:** 2020-11-05 23:00:00
+- **Resource modified:** 2022-02-23 23:00:00
 
 ## Load packages
 

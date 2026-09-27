@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Naturschutz-Finanzaufwand im Natur- und Heimatschutzfond des Kantons Zürich
 
-Der Datensatz enthält Informationen zur Entwicklung des jährlichen Naturschutzaufwandes in den Auftragskategorien gemäss Naturschutzgesamtkonzept des Kantons Zürich im Natur- und Heimatschutzfonds &#40;NHF&#41; seit 2020. Die Daten stammen aus den jährlichen SAP-Finanzbelegen des Profitcenters 89120 Naturschutz des Kantons Zürich und wurden auf die Auftragskategorien gemäss &&#35;x27;Umsetzungsplan Naturschutzgesamtkonzept Zwischenbericht 2020&&#35;x27; umgelagert. Weitere Ausgaben zur Biodiversitätsförderung im Kanton Zürich aus anderen Finanzierungsquellen als dem NHF sind in diesen Daten nicht abgebildet. Aufgrund der Komplexität der Kostenumlagerungen waren in den Reportingjahren rückwirkende Anpassungen in einzelnen Kategorien notwendig, um die optimale Vergleichbarkeit der Jahre untereinander zu gewährleisten. Die Datei enthält daher für jedes Reportingjahr die jeweils publizierten Werte für jede Auftragskategorie pro Ausgabejahr, inklusive entsprechender Kommentare zu vorgenommenen Korrekturen. Die Korrekturen sind vollständig und transparent nachvollziehbar dokumentiert. Für eine einfache Übersicht der Finanzentwicklung reicht es, die Datensätze des jeweils aktuellsten Reportingjahres zu betrachten.
+Der Datensatz enthält Informationen zur Entwicklung des jährlichen Naturschutzaufwandes in den Auftragskategorien gemäss Naturschutzgesamtkonzept des Kantons Zürich im Natur- und Heimatschutzfonds &#40;NHF&#41; seit 2020. Die Daten stammen aus den jährlichen SAP-Finanzbelegen des Profitcenters 89120 Naturschutz des Kantons Zürich und wurden auf die Auftragskategorien gemäss &#x27;Umsetzungsplan Naturschutzgesamtkonzept Zwischenbericht 2020&#x27; umgelagert. Weitere Ausgaben zur Biodiversitätsförderung im Kanton Zürich aus anderen Finanzierungsquellen als dem NHF sind in diesen Daten nicht abgebildet. Aufgrund der Komplexität der Kostenumlagerungen waren in den Reportingjahren rückwirkende Anpassungen in einzelnen Kategorien notwendig, um die optimale Vergleichbarkeit der Jahre untereinander zu gewährleisten. Die Datei enthält daher für jedes Reportingjahr die jeweils publizierten Werte für jede Auftragskategorie pro Ausgabejahr, inklusive entsprechender Kommentare zu vorgenommenen Korrekturen. Die Korrekturen sind vollständig und transparent nachvollziehbar dokumentiert. Für eine einfache Übersicht der Finanzentwicklung reicht es, die Datensätze des jeweils aktuellsten Reportingjahres zu betrachten.
 
 [View this dataset in the data catalogue](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2643%40aln-kanton-zuerich)
 
@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2643@aln-kanton-zuerich.
 
 ## Metadata
 
-- **issued:** 2024-07-17T22:00:00
-- **modified:** 2026-05-13T07:04:23
+- **issued:** 2024-07-17 22:00:00
+- **modified:** 2026-05-13 07:04:23
 - **startDate:** 2020-01-01
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENVI&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/GOVE&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;biodiversitaetsfoerderung&&#35;x27;, &&#35;x27;naturschutz&&#35;x27;, &&#35;x27;nhf&&#35;x27;, &&#35;x27;oeffentliche&#95;finanzen&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;staatsfinanzen&&#35;x27;, &&#35;x27;umwelt&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Landschaft und Natur&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ENVI, http://publications.europa.eu/resource/authority/data-theme/GOVE
+- **keyword:** biodiversitaetsfoerderung, naturschutz, nhf, oeffentliche&#95;finanzen, ogd, staatsfinanzen, umwelt
+- **publisher:** Amt für Landschaft und Natur
 - **landingPage:** https://www.zh.ch/de/umwelt-tiere/naturschutz/biodiversitaetsfoerderung.html
 - **Resource ktzhDistId:** 5443
 - **Resource title:** Entwicklung Finanzen 89120 seit 2020
 - **Resource description:** None
-- **Resource issued:** 2024-07-17T22:00:00
-- **Resource modified:** 2026-05-13T07:28:02
+- **Resource issued:** 2024-07-17 22:00:00
+- **Resource modified:** 2026-05-13 07:28:02
 
 ## Load packages
 

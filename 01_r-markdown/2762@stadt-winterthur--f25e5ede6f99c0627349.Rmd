@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2762@stadt-winterthur.
 
 ## Metadata
 
-- **issued:** 2024-11-20T23:00:00
-- **modified:** 2026-09-16T06:03:26
+- **issued:** 2024-11-20 23:00:00
+- **modified:** 2026-09-16 06:03:26
 - **startDate:** 2015-12-31
 - **endDate:** 2025-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;haushaltsgroesse&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;wohnflaeche&&#35;x27;, &&#35;x27;wohnung&&#35;x27;, &&#35;x27;wohnungen&&#35;x27;, &&#35;x27;wohnungsbestand&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Stadt Winterthur&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** haushaltsgroesse, ogd, wohnflaeche, wohnung, wohnungen, wohnungsbestand
+- **publisher:** Stadt Winterthur
 - **landingPage:** https://stadt.winterthur.ch/themen/arbeit-steuern-wirtschaft/daten-statistik/bauen-und-wohnen
 - **Resource ktzhDistId:** 5683
 - **Resource title:** Wohnen in Winterthur nach Quartieren und Stadtkreisen
 - **Resource description:** Die Indikatoren sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
-- **Resource issued:** 2024-11-20T23:00:00
-- **Resource modified:** 2026-08-20T17:19:46
+- **Resource issued:** 2024-11-20 23:00:00
+- **Resource modified:** 2026-08-20 17:19:46
 
 ## Load packages
 

@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 3153@stadt-winterthur.
 
 ## Metadata
 
-- **issued:** 2026-04-13T08:04:25
-- **modified:** 2026-09-23T13:14:00
+- **issued:** 2026-04-13 08:04:25
+- **modified:** 2026-09-23 13:14:00
 - **startDate:** 2016-12-31
 - **endDate:** 2024-12-31
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/REGI&&#35;x27;, &&#35;x27;http://publications.europa.eu/resource/authority/data-theme/SOCI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;immobilienpreise&&#35;x27;, &&#35;x27;mietpreise&&#35;x27;, &&#35;x27;mietwohnungen&&#35;x27;, &&#35;x27;ogd&&#35;x27;, &&#35;x27;preise&&#35;x27;, &&#35;x27;preisentwicklung&&#35;x27;, &&#35;x27;quartieranalyse&&#35;x27;, &&#35;x27;wohnbevoelkerung&&#35;x27;, &&#35;x27;wohneigentum&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Stadt Winterthur&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/REGI, http://publications.europa.eu/resource/authority/data-theme/SOCI
+- **keyword:** immobilienpreise, mietpreise, mietwohnungen, ogd, preise, preisentwicklung, quartieranalyse, wohnbevoelkerung, wohneigentum
+- **publisher:** Stadt Winterthur
 - **landingPage:** https://stadt.winterthur.ch/wohnmonitor
 - **Resource ktzhDistId:** 6764
 - **Resource title:** Mieten und Kaufpreise in Wohnungsinseraten in Winterthur nach Stadtkreisen
 - **Resource description:** Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
-- **Resource issued:** 2026-09-23T13:13:58
-- **Resource modified:** 2026-09-23T13:13:58
+- **Resource issued:** 2026-09-23 13:13:58
+- **Resource modified:** 2026-09-23 13:13:58
 
 ## Load packages
 

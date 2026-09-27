@@ -14,19 +14,19 @@ Automatically generated R starter code for dataset 2384@awel-kanton-zuerich.
 
 ## Metadata
 
-- **issued:** 2024-02-13T23:00:00
-- **modified:** 2024-04-03T22:00:00
+- **issued:** 2024-02-13 23:00:00
+- **modified:** 2024-04-03 22:00:00
 - **startDate:** 2021-02-18
 - **endDate:** 2023-02-15
-- **theme:** &#91;&&#35;x27;http://publications.europa.eu/resource/authority/data-theme/ENVI&&#35;x27;&#93;
-- **keyword:** &#91;&&#35;x27;ammoniak&&#35;x27;, &&#35;x27;luftqualitaet&&#35;x27;, &&#35;x27;luftschadstoffe&&#35;x27;, &&#35;x27;messung&&#35;x27;, &&#35;x27;naturschutzgebiete&&#35;x27;, &&#35;x27;ogd&&#35;x27;&#93;
-- **publisher:** &#91;&&#35;x27;Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich&&#35;x27;&#93;
+- **theme:** http://publications.europa.eu/resource/authority/data-theme/ENVI
+- **keyword:** ammoniak, luftqualitaet, luftschadstoffe, messung, naturschutzgebiete, ogd
+- **publisher:** Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich
 - **landingPage:** nan
 - **Resource ktzhDistId:** 5184
 - **Resource title:** Standort-Metadaten
 - **Resource description:** Informationen zum Datensatz siehe Datensatzbeschrieb
-- **Resource issued:** 2024-02-13T23:00:00
-- **Resource modified:** 2024-02-13T23:00:00
+- **Resource issued:** 2024-02-13 23:00:00
+- **Resource modified:** 2024-02-13 23:00:00
 
 ## Load packages
 
