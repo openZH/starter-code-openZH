@@ -1,7 +1,3 @@
----
-title: OpenZH starter code
----
-
 # Starter code for all datasets of Data Shop Canton Zurich
 
 💡 Ever **wished you could open a dataset in a data portal with one click and get a ready-to-use Python Jupyter Notebook or R Markdown file, complete with metadata, descriptions, data links, and starter code?**
