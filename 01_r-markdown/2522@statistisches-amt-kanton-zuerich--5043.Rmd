@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-09-27"
+date: "2026-09-28"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Automatically generated R starter code for dataset 2522@statistisches-amt-kanton
 ## Metadata
 
 - **issued:** 2024-01-25 23:00:00
-- **modified:** 2026-09-27 01:52:38
+- **modified:** 2026-09-28 01:52:37
 - **startDate:** 2023-09-01
-- **endDate:** 2026-09-26
+- **endDate:** 2026-09-27
 - **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/GOVE
 - **keyword:** ogd, statistik
 - **publisher:** Amt für Statistik und Daten
@@ -26,7 +26,7 @@ Automatically generated R starter code for dataset 2522@statistisches-amt-kanton
 - **Resource title:** Web Analytics zu den Zugriffen auf Ebene Ressource
 - **Resource description:** Zeigt die Anzahl Klicks auf die &#x27;Herunterladen&#x27; oder &#x27;Konvertiere zu Excel&#x27; Schaltflächen und die Anzahl Besuchenden welche mindestens einen Klick auf die &#x27;Herunterladen&#x27; oder &#x27;Konvertiere zu Excel&#x27; Schaltfläche pro Ressource und Tag gemacht haben. &#x27;Ressource&#x27; entspricht &#x27;distribution&#x27; nach DCAP-AP CH. Zusätzlich wird die Anzahl Downloads &#40;wie oft die Ressource aufgerufen wurde&#41; ausgewiesen. In der Regel sollte die Anzahl Downloads immer höher oder gleich als die Anzahl Klicks auf die Schaltflächen im Datenkatalog sein. Da aber im Zeitraum von September 2023 bis heute aus nicht bekannten Gründen, nicht alle Zugriffe detektiert werden, sind die Zahlen zu den Downloads in diesem Zeitraum nicht abschliessend. Die Anzahl Downloads von Ressourcen, welche nicht auf unserem Webserver gespeichert sind, werden nicht gezählt und ist der Grund warum es bei den Anzahl Downloads zu leeren Werten kommen kann.
 - **Resource issued:** 2024-01-25 23:00:00
-- **Resource modified:** 2026-09-27 01:52:33
+- **Resource modified:** 2026-09-28 01:52:34
 
 ## Load packages
 

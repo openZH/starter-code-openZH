@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-09-27"
+date: "2026-09-28"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Automatically generated R starter code for dataset 2522@statistisches-amt-kanton
 ## Metadata
 
 - **issued:** 2024-01-25 23:00:00
-- **modified:** 2026-09-27 01:52:38
+- **modified:** 2026-09-28 01:52:37
 - **startDate:** 2023-09-01
-- **endDate:** 2026-09-26
+- **endDate:** 2026-09-27
 - **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/GOVE
 - **keyword:** ogd, statistik
 - **publisher:** Amt für Statistik und Daten
@@ -26,7 +26,7 @@ Automatically generated R starter code for dataset 2522@statistisches-amt-kanton
 - **Resource title:** Web Analytics &#x27;Details anzeigen&#x27; zu Ressourcen
 - **Resource description:** Zeigt die Anzahl Klicks und Besuchende der Informationsseite der Ressourcen &#40;Klick auf &quot;Details anzeigen&quot;&#41; pro Ressource und Tag. &#x27;Ressource&#x27; entspricht &#x27;distribution&#x27; nach DCAP-AP CH.
 - **Resource issued:** 2024-01-25 23:00:00
-- **Resource modified:** 2026-09-27 01:52:28
+- **Resource modified:** 2026-09-28 01:52:29
 
 ## Load packages
 
