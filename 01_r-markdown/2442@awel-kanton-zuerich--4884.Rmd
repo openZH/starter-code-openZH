@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-09-28"
+date: "2026-10-04"
 output: html_document
 ---
 
@@ -26,7 +26,7 @@ Automatically generated R starter code for dataset 2442@awel-kanton-zuerich.
 - **Resource title:** Export, Import und Einbau von Deponiematerial im Kanton Zürich
 - **Resource description:** Abgelagertes Deponiematerial, aufgeteilt in drei Kategorien: 1. im Kanton Zürich abgelagert, 2. aus anderen Kantonen/Ausland importiert und im Kanton abgelagert, 3. in andere Kantone/Ausland exportiert und abgelagert. Daten vom E-Government Portals des BAFU.
 - **Resource issued:** 2023-11-29 23:00:00
-- **Resource modified:** 2026-09-17 16:15:23
+- **Resource modified:** 2026-10-02 07:35:04
 
 ## Load packages
 

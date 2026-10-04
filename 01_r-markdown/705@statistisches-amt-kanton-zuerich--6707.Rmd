@@ -1,12 +1,12 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-09-28"
+date: "2026-10-04"
 output: html_document
 ---
 
 ## Dataset: Bevölkerungsprognose für den Kanton Zürich
 
-Bevölkerung nach Bezirk, Region, Geschlecht und Alter, nach zivilrechtlichem Wohnsitz, Daten per Ende Jahr. Quelle: Kantonale Bevölkerungserhebung KBE, kantonale Bevölkerungprognose, Statistisches Amt des Kantons Zürich.
+Bevölkerungsbestand nach zivilrechtlichem Wohnsitz auf den Ebenen Kanton, Bezirk und Raumplanungsregion. <br>                         Je nach Datenformat und Raumeinheit erfolgt eine andere Differenzierung nach Bevölkerungsgruppen. <br>                         Menschenlesbares Format &#40;Excel&#41;: Kanton, Bezirk und Raumplanungsregion jeweils nach Geschlecht &#40;männlich, weiblich&#41; und 20 Altersklassen. <br>                         Maschinenlesbares Format &#40;CSV&#41;: Bezirk und Raumplanungsregion jeweils nach Staatsangehörigkeit &#40;CH, nicht-CH&#41;, Geschlecht &#40;männlich, weiblich&#41; und 100 Altersklassen. <br>                         Quelle: Kantonale Bevölkerungserhebung KBE, kantonale Bevölkerungsprognose, Amt für Statistik und Daten des Kantons Zürich.
 
 [View this dataset in the data catalogue](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/705%40statistisches-amt-kanton-zuerich)
 
@@ -15,7 +15,7 @@ Automatically generated R starter code for dataset 705@statistisches-amt-kanton-
 ## Metadata
 
 - **issued:** 2020-10-13 22:00:00
-- **modified:** 2025-11-06 11:19:16
+- **modified:** 2026-10-02 13:33:20
 - **startDate:** 2010-12-31
 - **endDate:** 2055-12-31
 - **theme:** http://publications.europa.eu/resource/authority/data-theme/SOCI
@@ -23,10 +23,10 @@ Automatically generated R starter code for dataset 705@statistisches-amt-kanton-
 - **publisher:** Amt für Statistik und Daten
 - **landingPage:** https://www.zh.ch/de/soziales/bevoelkerungszahlen/zukuenftige&#95;entwicklung.html
 - **Resource ktzhDistId:** 6707
-- **Resource title:** Bevölkerungsprognose ZH 2025, nach Region, Geschlecht und Alter
-- **Resource description:** Bevölkerung 2010–2055 nach Raumplanungsregion, Geschlecht und Alter, nach zivilrechtlichem Wohnsitz, Daten per Ende Jahr. Maschinenlesbares Format.
+- **Resource title:** Bevölkerungsprognose ZH 2025, nach Raumplanungsregion, Staatsangehörigkeit, Geschlecht und Alter
+- **Resource description:** Bevölkerungsbestand 2010–2055 nach Raumplanungsregion, Staatsangehörigkeit &#40;CH, nicht-CH&#41;, Geschlecht &#40;männlich, weiblich&#41; und Alter &#40;100 Altersklassen&#41;. <br>                       Prognostizierte Zahlen für jeweils drei Szenarien: Referenz, Hoch, Tief. <br>                       Zivilrechtlicher Wohnsitz, Daten per Ende Jahr. Maschinenlesbares Format.
 - **Resource issued:** 2025-11-11 16:12:35
-- **Resource modified:** 2025-11-11 16:42:15
+- **Resource modified:** 2026-10-02 12:57:40
 
 ## Load packages
 
@@ -68,7 +68,7 @@ get_dataset <- function(url, delim = NULL, drop_empty_unnamed = TRUE, ...) {
 
 ## Load data
 
-Selected resource: **Bevölkerungsprognose ZH 2025, nach Region, Geschlecht und Alter** (CSV). This notebook loads only this resource.
+Selected resource: **Bevölkerungsprognose ZH 2025, nach Raumplanungsregion, Staatsangehörigkeit, Geschlecht und Alter** (CSV). This notebook loads only this resource.
 
 For CSV, the delimiter and column types are guessed. Check the preview and metadata; set `delim`, `col_types`, `na`, or `locale` in `get_dataset(...)` when needed (for example, read identifiers with leading zeros as character columns). Parsing problems stop the import so they can be addressed.
 

@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-09-28"
+date: "2026-10-04"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Automatically generated R starter code for dataset 3157@stadt-winterthur.
 ## Metadata
 
 - **issued:** 2026-03-09 15:24:12
-- **modified:** 2026-09-27 09:00:50
+- **modified:** 2026-10-04 09:00:53
 - **startDate:** 2024-01-01
-- **endDate:** 2026-09-25
+- **endDate:** 2026-10-02
 - **theme:** http://publications.europa.eu/resource/authority/data-theme/ENER, http://publications.europa.eu/resource/authority/data-theme/REGI
 - **keyword:** energieverbrauch, gas, gemeinden, ogd
 - **publisher:** Stadt Winterthur
@@ -26,7 +26,7 @@ Automatically generated R starter code for dataset 3157@stadt-winterthur.
 - **Resource title:** Bruttolastgang Gasverbrauch ab 2024
 - **Resource description:** Der Lastgang wird pro Stunde in Kilowattstunden zusammengefasst.
 - **Resource issued:** 2026-03-10 09:50:44
-- **Resource modified:** 2026-09-27 09:00:49
+- **Resource modified:** 2026-10-04 09:00:53
 
 ## Load packages
 

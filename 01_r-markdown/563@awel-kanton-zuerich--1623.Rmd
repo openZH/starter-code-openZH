@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-09-28"
+date: "2026-10-04"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Automatically generated R starter code for dataset 563@awel-kanton-zuerich.
 ## Metadata
 
 - **issued:** 2019-12-08 23:00:00
-- **modified:** 2026-09-23 05:43:28
-- **startDate:** 2026-09-01
-- **endDate:** 2026-09-22
+- **modified:** 2026-10-02 11:14:29
+- **startDate:** 2026-10-01
+- **endDate:** 2026-10-01
 - **theme:** http://publications.europa.eu/resource/authority/data-theme/ENVI
 - **keyword:** luft, lufttemperaturen, ogd
 - **publisher:** Amt für Abfall, Wasser, Energie und Luft des Kantons Zürich

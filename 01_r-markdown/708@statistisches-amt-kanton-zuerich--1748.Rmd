@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-09-28"
+date: "2026-10-04"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Automatically generated R starter code for dataset 708@statistisches-amt-kanton-
 ## Metadata
 
 - **issued:** 2020-11-10 23:00:00
-- **modified:** 2025-10-20 22:00:00
+- **modified:** 2026-09-30 13:57:48
 - **startDate:** 2015-12-31
-- **endDate:** 2020-12-31
+- **endDate:** 2021-12-31
 - **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/GOVE
 - **keyword:** bezirke, gemeinden, gewinnsteuer, juristische&#95;personen, kanton&#95;zuerich, kapitalsteuer, ogd, staatssteuer, steuerdaten, steuern
 - **publisher:** Amt für Statistik und Daten
@@ -26,7 +26,7 @@ Automatically generated R starter code for dataset 708@statistisches-amt-kanton-
 - **Resource title:** Steuerpflichtige, Steuerfaktoren und Steuererträge jur. Personen &#40;ohne Vereine und Stiftungen&#41; nach Gewinnklasse
 - **Resource description:** Steuerpflichtige, Steuerfaktoren &#40;Reingewinn/Kapital&#41; und Steuererträge der juristischen Personen. Bei den Steuererträgen handelt es sich um die einfache Staatssteuer, wenn nichts anderes angegeben ist. Die Daten stammen vom Kantonalen Steueramt. Stichtag: Gewinnsteuer und Kapitalsteuer werden jedes Jahr erhoben. Für die Bemessung der Gewinn-/Kapitalsteuer wird auf den Gewinn/das Kapital an einem bestimmten Stichtag &#40;Gewinn/Kapital am Ende des Geschäftsjahres&#41; abgestellt.
 - **Resource issued:** 2020-11-10 23:00:00
-- **Resource modified:** 2025-10-20 22:00:00
+- **Resource modified:** 2026-09-30 13:47:00
 
 ## Load packages
 

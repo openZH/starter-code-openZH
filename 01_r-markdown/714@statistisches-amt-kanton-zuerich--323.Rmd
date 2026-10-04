@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-09-28"
+date: "2026-10-04"
 output: html_document
 ---
 
@@ -26,7 +26,7 @@ Automatically generated R starter code for dataset 714@statistisches-amt-kanton-
 - **Resource title:** Abstimmungsarchiv des Kantons Zürich, Ergebnisse Kanton Zürich
 - **Resource description:** None
 - **Resource issued:** 2016-02-25 23:00:00
-- **Resource modified:** 2026-06-23 09:09:26
+- **Resource modified:** 2026-09-30 13:12:22
 
 ## Load packages
 
