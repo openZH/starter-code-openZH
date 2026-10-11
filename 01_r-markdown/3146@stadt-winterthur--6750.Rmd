@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-10-04"
+date: "2026-10-11"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Automatically generated R starter code for dataset 3146@stadt-winterthur.
 ## Metadata
 
 - **issued:** 2026-04-13 08:03:15
-- **modified:** 2026-09-01 10:48:09
+- **modified:** 2026-10-05 13:08:34
 - **startDate:** 2018-12-31
 - **endDate:** 2025-12-31
 - **theme:** http://publications.europa.eu/resource/authority/data-theme/REGI, http://publications.europa.eu/resource/authority/data-theme/SOCI
@@ -26,7 +26,7 @@ Automatically generated R starter code for dataset 3146@stadt-winterthur.
 - **Resource title:** Wanderungssaldo in Winterthur nach Quartieren und Stadtkreisen
 - **Resource description:** Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
 - **Resource issued:** 2026-05-04 12:24:01
-- **Resource modified:** 2026-09-01 10:48:08
+- **Resource modified:** 2026-10-05 12:59:24
 
 ## Load packages
 

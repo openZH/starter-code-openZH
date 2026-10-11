@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-10-04"
+date: "2026-10-11"
 output: html_document
 ---
 
@@ -26,7 +26,7 @@ Automatically generated R starter code for dataset 705@statistisches-amt-kanton-
 - **Resource title:** Bevölkerungsprognose ZH 2025, nach Raumplanungsregion, Staatsangehörigkeit, Geschlecht und Alter
 - **Resource description:** Bevölkerungsbestand 2010–2055 nach Raumplanungsregion, Staatsangehörigkeit &#40;CH, nicht-CH&#41;, Geschlecht &#40;männlich, weiblich&#41; und Alter &#40;100 Altersklassen&#41;. <br>                       Prognostizierte Zahlen für jeweils drei Szenarien: Referenz, Hoch, Tief. <br>                       Zivilrechtlicher Wohnsitz, Daten per Ende Jahr. Maschinenlesbares Format.
 - **Resource issued:** 2025-11-11 16:12:35
-- **Resource modified:** 2026-10-02 12:57:40
+- **Resource modified:** 2026-10-09 15:50:20
 
 ## Load packages
 

@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-10-04"
+date: "2026-10-11"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Automatically generated R starter code for dataset 3160@afazh.
 ## Metadata
 
 - **issued:** 2026-07-06 11:42:18
-- **modified:** 2026-09-15 15:17:55
+- **modified:** 2026-10-06 09:30:45
 - **startDate:** 2020-01-01
-- **endDate:** 2026-08-31
+- **endDate:** 2026-09-30
 - **theme:** http://publications.europa.eu/resource/authority/data-theme/ECON, http://publications.europa.eu/resource/authority/data-theme/SOCI
 - **keyword:** arbeitslose, arbeitslosenversicherung, arbeitslosigkeit, arbeitsmarkt, ogd, quote, stellensuchende
 - **publisher:** Amt für Arbeit des Kantons Zürich
