@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-10-11"
+date: "2026-10-18"
 output: html_document
 ---
 
@@ -26,7 +26,7 @@ Automatically generated R starter code for dataset 1321@personalamt-kanton-zueri
 - **Resource title:** Lohnaufwand in CHF nach Direktionen und Leistungsgruppen
 - **Resource description:** Lohnaufwand pro Leistungsgruppe in CHF ohne die Leistungsgruppen Sanierungsprogramme &#40;Finanzdirektion&#41;, Berufsbildungsfonds &#40;Bildungsdirektion&#41; und Natur- und Heimatschutzfonds &#40;Baudirektion&#41;. Die Ämter und Bereiche sind in den Daten als Leistungsgruppen abgebildet. Die Bezeichnungen der Leistungsgruppen können sich über die Jahre ändern, während die zugehörigen Codes gleichbleiben. Für Auswertungen über mehrere Jahre ist deshalb der Code massgebend, nicht die Bezeichnung. Durch Reorganisationen können Leistungsgruppen neu dazukommen, wegfallen oder in mehrere Leistungsgruppen aufgeteilt werden. Zeitvergleiche auf Ebene der einzelnen Leistungsgruppe sind daher nicht durchgehend möglich; auf Ebene der Direktionen sind die Reihen vollständig.<br>Ausgewiesen werden Jahreswerte aus der Rechnung des jeweiligen Jahres. Der Aufwand ist nach buchhalterischer Konvention mit negativem Vorzeichen erfasst. Daten verfügbar ab 2020. Quelle: Personal- und Lohnstatistik
 - **Resource issued:** 2022-09-26 22:00:00
-- **Resource modified:** 2026-09-22 11:36:19
+- **Resource modified:** 2026-10-16 09:12:08
 
 ## Load packages
 

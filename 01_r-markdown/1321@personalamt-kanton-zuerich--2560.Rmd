@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-10-11"
+date: "2026-10-18"
 output: html_document
 ---
 
@@ -26,7 +26,7 @@ Automatically generated R starter code for dataset 1321@personalamt-kanton-zueri
 - **Resource title:** Anzahl Anstellungsverhältnisse nach Geschlecht und Beschäftigungsgrad nach Direktionen und Leistungsgruppen
 - **Resource description:** Anzahl Anstellungen pro Leistungsgruppe nach Geschlecht und Beschäftigungsgrad und total pro Leistungsgruppe in absoluten Zahlen. Die Anstellungen werden jeweils per Stichtag 31. Dezember erhoben. Die Ämter und Bereiche sind in den Daten als Leistungsgruppen abgebildet. Die Bezeichnungen der Leistungsgruppen können sich über die Jahre ändern, während die zugehörigen Codes gleichbleiben. Für Auswertungen über mehrere Jahre ist deshalb der Code massgebend, nicht die Bezeichnung. Durch Reorganisationen können Leistungsgruppen neu dazukommen, wegfallen oder in mehrere Leistungsgruppen aufgeteilt werden. Zeitvergleiche auf Ebene der einzelnen Leistungsgruppe sind daher nicht durchgehend möglich; auf Ebene der Direktionen sind die Reihen vollständig. Ab 2025 werden die Werte gekreuzt nach Personalgruppe, Geschlecht und Pensum ausgewiesen, mit drei statt zwei Pensumsklassen: Teilzeit: Beschäftigungsgrad &lt; 50%, Teilzeit: Beschäftigungsgrad ≥ 50% und &lt; 90% und Vollzeit: Beschäftigungsgrad ≥ 90%. Werte für die Personalgruppe Lehrpersonal gibt es nur in der Direktion der Justiz und des Innern, der Bildungsdirektion und der Baudirektion. Daten verfügbar ab 2020. Quelle: Personal- und Lohnstatistik
 - **Resource issued:** 2022-09-26 22:00:00
-- **Resource modified:** 2026-09-22 11:59:38
+- **Resource modified:** 2026-10-16 09:09:34
 
 ## Load packages
 

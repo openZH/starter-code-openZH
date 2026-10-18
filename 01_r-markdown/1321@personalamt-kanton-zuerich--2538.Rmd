@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-10-11"
+date: "2026-10-18"
 output: html_document
 ---
 
@@ -26,7 +26,7 @@ Automatically generated R starter code for dataset 1321@personalamt-kanton-zueri
 - **Resource title:** Personalaufwand in CHF
 - **Resource description:** Personalaufwand in CHF, differenziert in Löhne inkl. Zulagen, temporäre Arbeitskräfte, Arbeitgeberbeiträge, Arbeitgeberleistungen, Aus- und Weiterbildung des Personals, Personalwerbung, Übriger Personalaufwand. Die Gliederung ergibt sich aus der Kontonummer: Löhne inkl. Zulagen &#40;3000, 3001, 3010, 3020, 3040&#41;, temporäre Arbeitskräfte &#40;3030&#41;, Arbeitgeberbeiträge &#40;3050 bis 3059&#41;, Arbeitgeberleistungen &#40;3060 bis 3069&#41;, Aus- und Weiterbildung des Personals &#40;3090&#41;, Personalwerbung &#40;3091&#41; und übriger Personalaufwand &#40;3099&#41;.<br>Ausgewiesen werden die Werte für die kantonale Verwaltung gesamt, ohne Aufteilung nach Direktionen. Es handelt sich um Jahreswerte aus der Rechnung des jeweiligen Jahres, nicht um Stichtagswerte.<br>Der Aufwand ist nach buchhalterischer Konvention mit negativem Vorzeichen erfasst. Einzelne Konten weisen in einzelnen Jahren positive Werte aus; dabei handelt es sich um Gutschriften oder Korrekturbuchungen.<br>Daten verfügbar ab 2020.Quelle: Personal- und Lohnstatistik
 - **Resource issued:** 2022-09-26 22:00:00
-- **Resource modified:** 2026-09-22 11:30:40
+- **Resource modified:** 2026-10-16 09:11:15
 
 ## Load packages
 

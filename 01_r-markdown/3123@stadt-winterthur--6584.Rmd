@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-10-11"
+date: "2026-10-18"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Automatically generated R starter code for dataset 3123@stadt-winterthur.
 ## Metadata
 
 - **issued:** 2025-09-02 22:00:00
-- **modified:** 2026-10-11 10:01:55
+- **modified:** 2026-10-17 10:01:44
 - **startDate:** 2026-01-01
-- **endDate:** 2026-10-10
+- **endDate:** 2026-10-16
 - **theme:** http://publications.europa.eu/resource/authority/data-theme/ENER
 - **keyword:** elektrizitaet, elektrizitaetsproduktion, messung, ogd
 - **publisher:** Stadt Winterthur
@@ -26,7 +26,7 @@ Automatically generated R starter code for dataset 3123@stadt-winterthur.
 - **Resource title:** Lastgang Energieaustausch ab 2026
 - **Resource description:** Der Lastgang wird pro Viertelstunde in Kilowattstunden zusammengefasst.
 - **Resource issued:** 2025-09-02 22:00:00
-- **Resource modified:** 2026-10-11 10:01:54
+- **Resource modified:** 2026-10-17 10:01:44
 
 ## Load packages
 

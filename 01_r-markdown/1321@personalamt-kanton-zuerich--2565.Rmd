@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-10-11"
+date: "2026-10-18"
 output: html_document
 ---
 
@@ -26,7 +26,7 @@ Automatically generated R starter code for dataset 1321@personalamt-kanton-zueri
 - **Resource title:** Anzahl Anstellungsverhältnisse nach Lohnklasse und Geschlecht
 - **Resource description:** Anzahl Anstellungen nach Lohnklasse und Geschlecht in absoluten Zahlen. Die Lohnklasse ist eine feste Stufe im Lohnsystem, die einer bestimmten Funktion oder Stelle nach deren Anforderungen zugeordnet ist; Erläuterungen zum kantonalen Lohnsystem finden sich im Handbuch Personalrecht &#40;siehe «Weitere Informationen»&#41;. Daten verfügbar ab 2020. Ab 2025 separat nach Personalgruppe &#40;Verwaltungs- und Betriebspersonal / Lehrpersonal&#41; ausgewiesen; ein Gesamtwert über beide Personalgruppen ist ab diesem Jahr nicht mehr enthalten. Das Lehrpersonal ist nach einem eigenen Lohnreglement angestellt, die Lohnstufen und Lohnkategorien der Lehrpersonen wurden für die Vergleichbarkeit auf Lohnklassen &#40;LK 17 bis LK 22&#41; des Verwaltungspersonals umgerechnet. Quelle: Personal- und Lohnstatistik
 - **Resource issued:** 2022-09-26 22:00:00
-- **Resource modified:** 2026-09-22 13:28:06
+- **Resource modified:** 2026-10-16 09:20:29
 
 ## Load packages
 

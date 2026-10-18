@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-10-11"
+date: "2026-10-18"
 output: html_document
 ---
 
@@ -26,7 +26,7 @@ Automatically generated R starter code for dataset 1321@personalamt-kanton-zueri
 - **Resource title:** Anzahl Ausbildungsstellen nach Ausbildungsart
 - **Resource description:** Anzahl Ausbildungsstellen nach Ausbildungsart und Geschlecht. Daten verfügbar ab 2020. Ab 2021 werden die Werte nach Geschlecht ausgewiesen; ein Gesamtwert ist ab diesem Jahr nicht mehr enthalten. Quelle: Personal- und Lohnstatistik
 - **Resource issued:** 2022-09-26 22:00:00
-- **Resource modified:** 2026-09-22 09:54:12
+- **Resource modified:** 2026-10-16 08:49:24
 
 ## Load packages
 

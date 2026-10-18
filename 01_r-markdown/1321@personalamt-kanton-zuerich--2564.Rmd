@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-10-11"
+date: "2026-10-18"
 output: html_document
 ---
 
@@ -26,7 +26,7 @@ Automatically generated R starter code for dataset 1321@personalamt-kanton-zueri
 - **Resource title:** Anzahl Anstellungsverhältnisse nach Dienstjahr und Geschlecht
 - **Resource description:** Anzahl Anstellungen nach Dienstjahren und Geschlecht in absoluten Zahlen. Ein Dienstjahr umfasst den Zeitraum von 12 Monaten, in denen ein Arbeitsverhältnis beim Kanton Zürich und seinen unselbständigen Anstalten vorliegt. Bei einem Wiedereintritt werden die bestehenden Dienstjahre angerechnet. Die Klasse 0 umfasst die Anstellungen mit weniger als einem vollen Dienstjahr, also die im Berichtsjahr neu eingetretenen. Daten verfügbar ab 2020. Ab 2025 separat nach Personalgruppe &#40;Verwaltungs- und Betriebspersonal / Lehrpersonal&#41; ausgewiesen; ein Gesamtwert über beide Personalgruppen ist ab diesem Jahr nicht mehr enthalten. Werte für die Personalgruppe Lehrpersonal gibt es nur in der Direktion der Justiz und des Innern, der Bildungsdirektion und der Baudirektion. Quelle: Personal- und Lohnstatistik
 - **Resource issued:** 2022-09-26 22:00:00
-- **Resource modified:** 2026-09-22 12:01:06
+- **Resource modified:** 2026-10-16 09:10:19
 
 ## Load packages
 

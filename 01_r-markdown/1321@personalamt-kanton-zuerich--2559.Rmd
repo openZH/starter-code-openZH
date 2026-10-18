@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-10-11"
+date: "2026-10-18"
 output: html_document
 ---
 
@@ -26,7 +26,7 @@ Automatically generated R starter code for dataset 1321@personalamt-kanton-zueri
 - **Resource title:** Beschäftigungsumfang nach Funktionsbereichen und Funktionen
 - **Resource description:** Gesamtzahl aller während des Jahres Beschäftigten, ausgewiesen als Beschäftigungsumfang, gegliedert nach den Funktionsbereichen und Funktionen des Personalrechts. Der Eintrag «NA» in der Spalte «funktion» bedeutet, dass der Funktionsbereich nicht weiter untergliedert ist; es handelt sich nicht um einen fehlenden Wert. Ausgewiesen werden die Werte für die kantonale Verwaltung gesamt, ohne Aufteilung nach Direktionen. Es handelt sich um Jahreswerte, nicht um Stichtagswerte. Daten verfügbar ab 2020. Ab 2024 separat nach Geschlecht ausgewiesen; ein Gesamtwert ist ab diesem Jahr nicht mehr enthalten. Für einen Vergleich mit den Vorjahren müssen die Werte für Frauen und Männer addiert werden. Funktionsbereich und Funktion „Land-, forst- und hauswirtschaftliche Funktionen“ und Funktion „Reinigungspersonal“ ab 2024 dazugekommen. Quelle: Personal- und Lohnstatistik
 - **Resource issued:** 2022-09-26 22:00:00
-- **Resource modified:** 2026-09-22 09:39:51
+- **Resource modified:** 2026-10-16 08:45:03
 
 ## Load packages
 
