@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-10-18"
+date: "2026-10-25"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Automatically generated R starter code for dataset 698@statistisches-amt-kanton-
 ## Metadata
 
 - **issued:** 2020-08-23 22:00:00
-- **modified:** 2026-10-12 23:42:14
+- **modified:** 2026-10-19 23:42:16
 - **startDate:** 2015-01-05
 - **endDate:** 2026-09-30
 - **theme:** http://publications.europa.eu/resource/authority/data-theme/GOVE
@@ -26,7 +26,7 @@ Automatically generated R starter code for dataset 698@statistisches-amt-kanton-
 - **Resource title:** Anfragestatistik des Data Shop im Statistischen Amt des Kantons Zürich ab 2015
 - **Resource description:** Spaltenüberschriften: &#x27;id&#x27; = Nummer der Anfrage; &#x27;erfassung&#x27; = Datum- und Zeitstempel der Anfragenerfassung; &#x27;nutzertyp&#x27; = Nutzertyp der Anfrage; &#x27;anfragetyp&#x27; = Anfragetyp; &#x27;thema&#x27; = Thema der Anfrage; &#x27;kanal&#x27; = Eingangskanal der Anfrage; &#x27;zeitaufwand&#x27; = Geschätzter Aufwand in Minuten, um die Anfrage zu beantworten &#40;erhoben ab 29.11.2017&#41;
 - **Resource issued:** 2022-12-01 23:00:00
-- **Resource modified:** 2026-10-12 23:42:12
+- **Resource modified:** 2026-10-19 23:42:13
 
 ## Load packages
 

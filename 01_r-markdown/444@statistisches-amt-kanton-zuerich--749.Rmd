@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-10-18"
+date: "2026-10-25"
 output: html_document
 ---
 
@@ -26,7 +26,7 @@ Automatically generated R starter code for dataset 444@statistisches-amt-kanton-
 - **Resource title:** Abstimmungsparolen von kantonalzürcher und nationalen Parteien
 - **Resource description:** None
 - **Resource issued:** 2019-07-01 22:00:00
-- **Resource modified:** 2026-10-16 05:53:11
+- **Resource modified:** 2026-10-24 05:53:11
 
 ## Load packages
 
