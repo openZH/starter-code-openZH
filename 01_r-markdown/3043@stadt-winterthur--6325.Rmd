@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-10-25"
+date: "2026-10-26"
 output: html_document
 ---
 
@@ -15,9 +15,9 @@ Automatically generated R starter code for dataset 3043@stadt-winterthur.
 ## Metadata
 
 - **issued:** 2025-06-09 22:00:00
-- **modified:** 2026-10-25 06:16:36
+- **modified:** 2026-10-26 06:16:34
 - **startDate:** 2025-03-01
-- **endDate:** 2026-10-23
+- **endDate:** 2026-10-24
 - **theme:** http://publications.europa.eu/resource/authority/data-theme/REGI, http://publications.europa.eu/resource/authority/data-theme/TRAN
 - **keyword:** langsamverkehr, ogd, privatverkehr, strassenverkehr, velo, verkehr, verkehrsinfrastruktur
 - **publisher:** Stadt Winterthur
@@ -26,7 +26,7 @@ Automatically generated R starter code for dataset 3043@stadt-winterthur.
 - **Resource title:** Verkehrszähldaten Veloverkehr in Winterthur, pro Stunde
 - **Resource description:** Eine vollständige Dokumentation ist in der Ressource &quot;Dokumentation Daten&quot; zu finden.
 - **Resource issued:** 2025-06-09 22:00:00
-- **Resource modified:** 2026-10-25 06:16:35
+- **Resource modified:** 2026-10-26 06:16:32
 
 ## Load packages
 

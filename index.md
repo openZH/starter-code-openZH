@@ -12,7 +12,7 @@ Open Jupyter notebooks in **Google Colab** to run Python in your browser. Notebo
 
 Feedback is welcome - simply open an issue. For licensing information, see [the metadata API endpoint](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/datasets/1461@fachstelle-ogd-kanton-zuerich).
 
-Last generated: 2026-10-25
+Last generated: 2026-10-26
 
 | Dataset | Resource | Colab | Python | R |
 | :-- | :-- | :-- | :-- | :-- |
