@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-10-26"
+date: "2026-11-01"
 output: html_document
 ---
 
@@ -24,9 +24,9 @@ Automatically generated R starter code for dataset 1581@bildungsstatistik-kanton
 - **landingPage:** https://www.zh.ch/de/bildung/bildungssystem/zahlen-fakten/entwicklung-der-anzahl-lernender-nach-schultyp.html
 - **Resource ktzhDistId:** 3019
 - **Resource title:** Lernende der Regelschule im Kanton Zürich nach Erstsprache &#40;Deutsch/nicht Deutsch&#41; ab 2000
-- **Resource description:** Ausgewiesen wird die Anzahl der Lernenden an Regelschule im Kanton Zürich. Die Daten sind differenziert nach Jahr, zuständiger Schulgemeinde und Erstsprache.<br><br>Bei Zellen kleiner 5 wird nur der Wert &quot;1-5&quot; ausgewiesen.<br><br>jahr: Das Jahr ist jeweils das Kalenderjahr der Erhebung, wobei der Stichtag der 15.9. ist. Die Daten für das Jahr 2024 sind somit im Schuljahr 2024/25 erhoben worden und zeigen den Datenstand am 15. September 2024.<br>schulgemeinde: Hier wir die zuständige Schulgemeinde dargestellt. Das ist üblicherweise die Schulgemeinde des Wohnort. Es entspricht aber nicht in jedem Fall der Schulgemeinde des Schulstandorts der effektiv besucht wird.<br>erstsprache: Als Erstsprache gilt diejenige Sprache, die als erste erlernt wird. Die Bildungsstatistik erhebt seit 2010 die Erstsprache als Merkmal der Lernenden. Bis zum Jahr 2009 wurde die Muttersprache erhoben.<br>anzahl: Anzahl der Schülerinnen und Schüler mit der entsprechenden Merkmalskombination.<br><br>Die Daten werden im Rahmen der Statistik der Lernenden für das Bundesamtes für Statistik erhoben. Es handelt sich um eine Vollerhebung.
+- **Resource description:** Ausgewiesen wird die Anzahl der Lernenden an Regelschule im Kanton Zürich. Die Daten sind differenziert nach Jahr, zuständiger Schulgemeinde und Erstsprache.<br><br>Bei Zellen kleiner 5 wird nur der Wert &quot;1-5&quot; ausgewiesen.<br><br>jahr: Das Jahr ist jeweils das Kalenderjahr der Erhebung, wobei der Stichtag der 15.9. ist. Die Daten für das Jahr 2024 sind somit im Schuljahr 2024/25 erhoben worden und zeigen den Datenstand am 15. September 2024.<br>schulgemeinde: Hier wir die zuständige Schulgemeinde dargestellt. Das ist üblicherweise die Schulgemeinde des Wohnort. Es entspricht aber nicht in jedem Fall der Schulgemeinde des Schulstandorts der effektiv besucht wird.<br>erstsprache: Als Erstsprache gilt diejenige Sprache, die als erste erlernt wird. Die Bildungsstatistik erhebt seit 2010 die Erstsprache als Merkmal der Lernenden. Bis zum Jahr 2009 wurde die Muttersprache erhoben.<br>anzahl: Anzahl der Schülerinnen und Schüler mit der entsprechenden Merkmalskombination.<br>obs&#95;status: Bei kleinen Fallzahlen &#40;&lt;6&#41; wird die genaue Anzahl in der betreffenden Zeile aus Datenschutzgründen nicht ausgegeben. Diese Zeilen werden mit obs&#95;status &quot;Q&quot; ausgewiesen, Zeilen mit einem dargestellten Wert erhalten den obs&#95;status &quot;A&quot; &#40;siehe https://www.i14y-a.admin.ch/de/catalog/concepts/5993fe3b-8fa3-4422-95a8-dceeb98e090b/description&#41;.<br><br>Die Daten werden im Rahmen der Statistik der Lernenden für das Bundesamtes für Statistik erhoben. Es handelt sich um eine Vollerhebung.
 - **Resource issued:** 2022-10-23 22:00:00
-- **Resource modified:** 2026-09-18 08:59:50
+- **Resource modified:** 2026-10-28 14:26:21
 
 ## Load packages
 

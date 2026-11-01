@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-10-26"
+date: "2026-11-01"
 output: html_document
 ---
 
@@ -23,10 +23,10 @@ Automatically generated R starter code for dataset 1321@personalamt-kanton-zueri
 - **publisher:** Personalamt des Kantons Zürich
 - **landingPage:** https://www.zh.ch/de/finanzdirektion/personalamt/personal-und-lohnstatistik.html
 - **Resource ktzhDistId:** 2563
-- **Resource title:** Anzahl Anstellungsverhältnisse nach Alter und Geschlecht
+- **Resource title:** Anzahl Anstellungen nach Alter und Geschlecht
 - **Resource description:** Anzahl Anstellungen nach 1-Jahres-Altersklassen und Geschlecht in absoluten Zahlen. Das Alter bezeichnet das am Stichtag erreichte Alter; Anstellungen von Personen ab 75 Jahren sind in der Klasse «75+» zusammengefasst. Daten verfügbar ab 2020. Quelle: Personal- und Lohnstatistik
 - **Resource issued:** 2022-09-26 22:00:00
-- **Resource modified:** 2026-10-19 04:06:29
+- **Resource modified:** 2026-10-29 14:12:10
 
 ## Load packages
 
@@ -68,7 +68,7 @@ get_dataset <- function(url, delim = NULL, drop_empty_unnamed = TRUE, ...) {
 
 ## Load data
 
-Selected resource: **Anzahl Anstellungsverhältnisse nach Alter und Geschlecht** (CSV). This notebook loads only this resource.
+Selected resource: **Anzahl Anstellungen nach Alter und Geschlecht** (CSV). This notebook loads only this resource.
 
 For CSV, the delimiter and column types are guessed. Check the preview and metadata; set `delim`, `col_types`, `na`, or `locale` in `get_dataset(...)` when needed (for example, read identifiers with leading zeros as character columns). Parsing problems stop the import so they can be addressed.
 
