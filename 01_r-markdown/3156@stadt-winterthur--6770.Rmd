@@ -1,6 +1,6 @@
 ---
 title: "Open government data provided by Canton of Zurich"
-date: "2026-11-01"
+date: "2026-11-08"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Automatically generated R starter code for dataset 3156@stadt-winterthur.
 ## Metadata
 
 - **issued:** 2026-04-13 08:05:52
-- **modified:** 2026-10-14 08:24:43
+- **modified:** 2026-11-03 15:49:47
 - **startDate:** 2019-12-31
 - **endDate:** 2023-12-31
 - **theme:** http://publications.europa.eu/resource/authority/data-theme/REGI, http://publications.europa.eu/resource/authority/data-theme/SOCI
@@ -25,8 +25,8 @@ Automatically generated R starter code for dataset 3156@stadt-winterthur.
 - **Resource ktzhDistId:** 6770
 - **Resource title:** Angebots- und Bestandesmieten in Winterthur, pro Stadtkreis und Zimmerzahl
 - **Resource description:** Die Daten sind mit Quelle und Definition in der Ressource «Dokumentation Daten» vollständig beschrieben.
-- **Resource issued:** None
-- **Resource modified:** 2026-03-25 13:46:19
+- **Resource issued:** 2026-11-03 15:22:37
+- **Resource modified:** 2026-11-03 15:22:36
 
 ## Load packages
 
